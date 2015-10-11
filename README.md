@@ -48,7 +48,9 @@ Email  cmh@seu.edu.cn
 
 3. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html 
 
-3. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745 
+4. Ivan Idris. NumPy Beginner¡¯s Guide - Second Edition£¬Packt Publishing Ltd. April 2013. http://ivanidris.net/wordpress/
+
+5. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745 
 
 
 
