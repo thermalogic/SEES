@@ -10,7 +10,7 @@ Southeast University
 
 Nanjing,China 
 
-Email£ºcmh@seu.edu.cn
+Email  cmh@seu.edu.cn
 
 # Contents
 
@@ -46,7 +46,7 @@ Email£ºcmh@seu.edu.cn
 
 2. Doug Hellmann. The Python Standard Library by Example
 
-3. Guido van Rossum and the Python development team. Python Tutorial,https://docs.python.org/3/tutorial/index.html 
+3. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html 
 
 3. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745 
 
