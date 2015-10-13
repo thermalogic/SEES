@@ -1,4 +1,3 @@
-# Lecture
 
 Foundamentals and practice of software engineering
 
@@ -14,11 +13,11 @@ Email  cmh@seu.edu.cn
 
 # Contents
 
-1.Python language 
+1.Python 
 
 2.A useful set of algorithmic and problem reduction techniques 
 
-3.Software engineering tips & tools for scientists writing Python code 
+3.Software engineering tips & tools for scientists and Engineers writing Python code 
 
 4.Computational tools to model and understand data. 
 
@@ -40,7 +39,7 @@ Email  cmh@seu.edu.cn
   Python3 
 
 
-# Reference
+# References
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08
 
@@ -51,6 +50,8 @@ Email  cmh@seu.edu.cn
 4. Ivan Idris. NumPy- Third Edition, Packt Publishing Ltd. June 2015. http://ivanidris.net/wordpress/
 
 5. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745 
+
+6 邹欣. 构建之法: 现代软件工程( 第1版). 人民邮电出版社, 2014.09
 
 
 
