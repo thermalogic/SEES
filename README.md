@@ -51,7 +51,7 @@ Email  cmh@seu.edu.cn
 
 5. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745 
 
-6. 邹欣. 构建之法: 现代软件工程( 第1版). 人民邮电出版社, 2014.09
+6. 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
 
 
