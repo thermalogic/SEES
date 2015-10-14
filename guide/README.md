@@ -10,7 +10,7 @@
 
 # ²Î¿¼ÎÄÏ×
 
-1 Brainwy Software Ltd.  PvDev Manual. http://www.pydev.org/manual_101_root.html
+1 Brainwy Software Ltd.  PyDev Manual. http://www.pydev.org/manual_101_root.html
 
 2 Ö£Î°·¼. PyDev for Eclipse¼ò½é. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
 
