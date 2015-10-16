@@ -40,7 +40,11 @@ Email  cmh@seu.edu.cn
 # Guide
 
   Software Guide(Chinese£©
+  
+# Practice
 
+  Assignment of practice(Chinese) 
+  
 # References
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
