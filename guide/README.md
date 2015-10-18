@@ -22,5 +22,7 @@
 
 6 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
+7 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
 
 
