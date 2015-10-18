@@ -16,3 +16,11 @@
 
 3 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
 
+4 Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
+
+5 Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+
+6 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+
+
