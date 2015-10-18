@@ -1,17 +1,14 @@
 
 <b>Foundamentals and practice of software engineering(Python)</b>
 
-Dr. Cheng Maohua
-
-School of Energy and Environment
-
-Southeast University
-
-Nanjing,China
-
-Email  cmh@seu.edu.cn
+Dr. Cheng Maohua  
+School of Energy and Environment  
+Southeast University  
+Nanjing,China  
+Email： cmh@seu.edu.cn
 
 # Contents
+
 
 1.Python
 
@@ -49,12 +46,10 @@ Email  cmh@seu.edu.cn
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
-2. Doug Hellmann. The Python Standard Library by Example. https://doughellmann.com/blog/the-python-standard-library-by-example/
+
+2. 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
 3. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
-4. Ivan Idris. NumPy- Third Edition, Packt Publishing Ltd. June 2015. http://ivanidris.net/wordpress/
+4. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
-5. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
-
-6. 邹欣. 构建之法: 现代软件工程( 第1版). 人民邮电出版社,, 2014.09
