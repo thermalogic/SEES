@@ -7,7 +7,7 @@
    
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text。
   
-IPython Notebook为科学计算带来了一种”新常态“。
+Jupyter Notebook为科学计算带来了一种”新常态“。
 
 # References
 

@@ -28,7 +28,11 @@ Email： cmh@seu.edu.cn
 
 # Notebook
 
-  IPython Notebook
+ IPython Notebook
+  
+  本课程使用IPython Notebook教学，没有PPT。
+ 
+ 同学们需安装Jupyter, 阅读和使用讲义。
 
 # Code
 
@@ -38,9 +42,27 @@ Email： cmh@seu.edu.cn
 
   Software Guide(Chinese）
   
+<b>课程使用软件</b>
+    
+1 Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
+    
+2 Python版代码调试、软件测试等软件工程工具:pep8、unittest,doctest等
+    
+3 科学/交互计算软件：SciPy、Jupyter等
+    
+4 热工计算软件包：IF97等
+    
+5 版本控制和社区编程软件:EGit、Github等
+    
+6 文档撰写软件： MS Word、Jupyter Notebook、Makedown等 
+  
 # Practice
 
   Assignment of practice(Chinese) 
+  
+　涵盖Python程序设计、代码规范、软件测试、文档撰写和英文资源使用等能力训练；
+
+　涉及交互计算、社区编程等科学计算和软件开发模式。
   
 # References
 
