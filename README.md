@@ -28,11 +28,17 @@ Email： cmh@seu.edu.cn
 
 # Notebook
 
- IPython Notebook
-  
-  本课程使用IPython Notebook教学，没有PPT。
+Lectures in IPython Notebook
  
- 同学们需安装Jupyter, 阅读和使用讲义。
+本课程使用交互式计算IPython Notebook教学，没有PPT。
+ 
+同学们需安装Jupyter, 阅读和使用讲义。
+
+在线阅读可访问：
+
+   http://nbviewer.ipython.org/github/SEU03013050C/HOME-03013050-C-SEU/tree/master/notebook/
+ 
+注：同学们如需要pdf格式的讲义, 可在nbviewer.ipython浏览页面中，选择“打印”，然后，打印机选择“打印到PDF”即可产生当前页面的pdf文件。
 
 # Code
 
@@ -41,6 +47,7 @@ Email： cmh@seu.edu.cn
 # Guide
 
   Software Guide(Chinese）
+  
   
 <b>课程使用软件</b>
     
@@ -63,7 +70,7 @@ Email： cmh@seu.edu.cn
 　涵盖Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
 
 　涉及交互计算、社区编程等科学计算和软件开发模式。
-  
+
 # References
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
