@@ -27,21 +27,21 @@ Email： cmh@seu.edu.cn
 
 # Notebook
 
-Lectures IPython notebooks.
- 
-本课程使用交互式计算IPython Notebook教学，没有PPT。
- 
-同学们需安装Jupyter, 阅读和使用讲义。
+Lectures in IPython notebook.
+
+Please install Jupyter to read and interactive with the notebook.
 
 Online read-only versions：
 
    http://nbviewer.ipython.org/github/Py03013050-SEU/HOME-Py03013050-SEU/tree/master/notebook/
  
-注：pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
+注：
+        本课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。如需其他格式讲义，请从ipynb格式转换。
+        如需pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
 
 # Code
 
-  Python3
+  Python3 
   
 # Guide
 
@@ -69,15 +69,36 @@ Online read-only versions：
 
 　涉及交互计算、社区编程等科学计算和软件开发模式。
 
-# References
+# Textbooks
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
 2. 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
-3. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+# References
 
-4. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing. http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+1. 梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
+
+2. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+
+3. Scipy. http://www.scipy.org/
+
+4. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
+   http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
 5. 王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
+
+6. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+
+7. 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
+
+8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+
+9. 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+9. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+
+10. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
+   http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
+
 

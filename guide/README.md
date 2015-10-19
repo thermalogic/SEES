@@ -47,5 +47,8 @@
 
 10 Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
+11. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11   
+   http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
+
 
 
