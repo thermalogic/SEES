@@ -36,8 +36,12 @@ Online read-only versions：
    http://nbviewer.ipython.org/github/Py03013050-SEU/HOME-Py03013050-SEU/tree/master/notebook/
  
 注：
-        本课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。如需其他格式讲义，请从ipynb格式转换。
-        如需pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
+ 
+ 本课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。
+        
+ 如需其他格式讲义，请从ipynb格式转换。
+        
+ pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
 
 # Code
 
@@ -94,7 +98,7 @@ Online read-only versions：
 
 8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-9. 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+9. 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 9. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
