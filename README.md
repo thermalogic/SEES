@@ -1,5 +1,5 @@
 
-<b>Foundamentals and practice of software engineering(Python)</b>
+<b>Foundamentals and practice of software engineering with Python</b>
 
 Dr. Cheng Maohua  
 School of Energy and Environment  
@@ -8,7 +8,6 @@ Nanjing,China
 Email： cmh@seu.edu.cn
 
 # Contents
-
 
 1.Python
 
@@ -28,17 +27,17 @@ Email： cmh@seu.edu.cn
 
 # Notebook
 
-Lectures in IPython Notebook
+Lectures IPython notebooks.
  
 本课程使用交互式计算IPython Notebook教学，没有PPT。
  
 同学们需安装Jupyter, 阅读和使用讲义。
 
-在线阅读可访问：
+Online read-only versions：
 
-   http://nbviewer.ipython.org/github/SEU03013050C/HOME-03013050-C-SEU/tree/master/notebook/
+   http://nbviewer.ipython.org/github/Py03013050-SEU/HOME-Py03013050-SEU/tree/master/notebook/
  
-注：同学们如需要pdf格式的讲义, 可在nbviewer.ipython浏览页面中，选择“打印”，然后，打印机选择“打印到PDF”即可产生当前页面的pdf文件。
+注：pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
 
 # Code
 
@@ -47,7 +46,6 @@ Lectures in IPython Notebook
 # Guide
 
   Software Guide(Chinese）
-  
   
 <b>课程使用软件</b>
     
