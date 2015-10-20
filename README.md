@@ -7,15 +7,15 @@ Southeast University
 Nanjing,China  
 Email£º cmh@seu.edu.cn
 
-I would like to thank you for your enrollment of the course! 
+I would like to thank you for your enrollment. 
 
 I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
 
-¡°When the going gets tough, the tough get going.¡±. 
+¡°When the going gets tough, the tough get going.¡±  Joseph P. Kennedy 
 
 I hope you will keep at it and I wish you continued success in the course!
 
-If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions¡£
+If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
 
 # Goal
 
