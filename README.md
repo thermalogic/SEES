@@ -7,6 +7,26 @@ Southeast University
 Nanjing,China  
 Email£º cmh@seu.edu.cn
 
+I would like to thank you for your enrollment of the course! 
+
+I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
+
+¡°When the going gets tough, the tough get going.¡±. 
+
+I hope you will keep at it and I wish you continued success in the course!
+
+If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions¡£
+
+# Goal
+
+This course aim to teach£º
+
+1.Writing clean, testable, high quality code in Python
+
+2.The ability and habit of using the original IT resources in English,especially @ internet,to study and develop software
+
+<b>You will feel comfortable bringing computational thinking to bear on solving many of the problems you encounter during your studies, work, and even everyday life.</b>
+
 # Contents
 
 1.Python
@@ -17,13 +37,6 @@ Email£º cmh@seu.edu.cn
 
 4.Computational tools to model and understand data.
 
-# Goal
-
-1.Writing clean, testable, high quality code in Python
-
-2.The ability and habit of using the original IT resources in English,especially @ internet,to study and develop software
-
-<b>You will feel comfortable bringing computational thinking to bear on solving many of the problems you encounter during your studies, work, and even everyday life.</b>
 
 # Notebook
 
