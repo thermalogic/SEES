@@ -64,7 +64,7 @@ Online read-only versions：
     
 1 Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
     
-2 代码调试、软件测试、任务管理等软件工程工具(Python版):pep8、unittest,doctest等
+2 代码调试、软件测试、任务管理等软件工程工具(Python版):pep8、doctest、unittest等
     
 3 科学/交互计算：SciPy、Jupyter等
     
@@ -101,11 +101,11 @@ Online read-only versions：
 
 5. 王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
 
-6. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+6. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-7. 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
+7. 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05 
 
-8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
 9. 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
