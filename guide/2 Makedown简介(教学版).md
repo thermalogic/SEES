@@ -165,8 +165,6 @@ Atom是Github开发的一款开源文本编辑器，可通过插件，定制为�
 
 ![使用Atom撰写Makedown文档](./atom_makedown.PNG)
 
-还有一点很重要：
-
 ### 使用Visual Studio Code
 
 Visual Studio Code是微软基于Electron框架开发文本编辑器，和Atom类似，目前插件较少。
@@ -178,7 +176,7 @@ Visual Studio Code内置支持Makedown撰写和预览，但尚不能和Atom一�
 
 ### 其他
 
-1. **Atom是基于Electron框架开发的，Electron可能正在给各种应用程序UI实现方式带来一个革命！**
+1. **Atom、Visual Studio Code都是基于Electron框架开发的，Electron可能改变未来应用程序UI的实现方式。**
 
 2. 目前Atom和Visual Studio Code的中文编码支持尚有不足，其编写的中文文档，
 在其他软件中可能乱码
