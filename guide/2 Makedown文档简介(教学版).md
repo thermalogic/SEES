@@ -6,7 +6,9 @@
 ## 导语
 
 Markdown是一种轻量级「标记语言」，目前被越来越多的领域的人使用。
-如Github中大量的文档都是采用Markdown撰写，典型的是每个仓库README.md，默认采用Markdown语法。
+如Github中有大量Markdown文档，可以在Github中在线编辑预览Markdown文档。
+Github中最常见Markdown文档，是仓库的README.md。   
+
 Markdown的常用标记符号不超过十个，相对于复杂的 HTML 标记语言来说，
 Markdown十分轻量，学习成本很低
 
@@ -144,8 +146,8 @@ if last_key:
 
 分割线的语法只需要三个 * 号，例如：
 
- ****
- >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了，配合适当的工具就可以撰写文档了。
+ ***
+ >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
  更多的语法规则，可访问[Makedown官网](http://daringfireball.net/projects/markdown/)。
 
 ## 2 使用Atom撰写Makedown文档
@@ -155,8 +157,6 @@ Atom是Github开发的一款开源文本编辑器，可定制为多用途的开�
 
 ![使用Atom撰写Makedown文档](./atom_makedown.PNG)
 
-还有一点很重要，也是我们用Atom撰写makedown文档件，而不采
-用其他更流行的Makedown软件的主要原因。
+还有一点很重要：
 
-**Atom是基于electron框架开发的，electron可能正在给未来的各种
-应用程序UI实现方式带来一个革命！**
+**Atom是基于electron框架开发的，electron可能正在给各种应用程序UI实现方式带来一个革命！**
