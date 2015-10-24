@@ -27,27 +27,29 @@
 
 # 参考文献
 
-1 Brainwy Software Ltd.  PyDev Manual. http://www.pydev.org/manual_101_root.html
+1. Brainwy Software Ltd.  PyDev Manual. http://www.pydev.org/manual_101_root.html
 
-2 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
 
-3 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
+3. 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
 
-4 Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
+4. Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
 
-5 Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+5. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-6 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+6. 宋信强. Eclipse中EGit插件使用--升级版： http://my.oschina.net/songxinqiang/blog/194203
 
-7 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+7. 廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-8 Python. https://www.python.org/
+8. 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-9 Scipy. http://www.scipy.org/
+9. Python. https://www.python.org/
 
-10 Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+10. Scipy. http://www.scipy.org/
 
-11. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
+11. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+
+12. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
 
