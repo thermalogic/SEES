@@ -145,13 +145,13 @@ if last_key:
 分割线的语法只需要三个 * 号，例如：
 
  ****
- >到这里，Markdown 的基本语法在日常的使用中就没什么大问题了，
- 只要多练习，配合适当的工具就可以了。更多的语法规则，可访问[Makedown官网](http://daringfireball.net/projects/markdown/)。
+ >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了，配合适当的工具就可以撰写文档了。
+ 更多的语法规则，可访问[Makedown官网](http://daringfireball.net/projects/markdown/)。
 
 ## 2 使用Atom撰写Makedown文档
 
-Atom是Github开发的一款开源文本编辑器，可定制为多用途的开发环境，如C、Python、PHP
-也撰写Makedown文档的好工具。编写的同时可预览效果，很方便。本文档就是这样typing出来的。
+Atom是Github开发的一款开源文本编辑器，可定制为多用途的开发环境，如C、Python、PHP，
+也是撰写Makedown文档的好工具。编写的同时可预览效果，很方便。本文档就是这样typing出来的。
 
 ![使用Atom撰写Makedown文档](./atom_makedown.PNG)
 
