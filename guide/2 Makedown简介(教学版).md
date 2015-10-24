@@ -1,7 +1,7 @@
-# <center>Markdown文档简介
+﻿# <center>Markdown简介
 
-<center>程懋华   
-东南大学能源与环境学院
+<center>程懋华</center>   
+<center>东南大学能源与环境学院</center>
 
 ## 导语
 
