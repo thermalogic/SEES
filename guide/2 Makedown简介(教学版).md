@@ -150,13 +150,33 @@ if last_key:
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
  更多的语法规则，可访问[Makedown官网](http://daringfireball.net/projects/markdown/)。
 
-## 2 使用Atom撰写Makedown文档
+## 2 撰写Makedown文档工具
 
-Atom是Github开发的一款开源文本编辑器，可定制为多用途的开发环境，如C、Python、PHP，
+Makedown制作软件很多，“程序员”用编程环境中的更多一些。
+
+### 使用Eclipse
+
+Eclispe IDE内置支持Makedown撰写，点“Preview"标签可预览文档
+
+### 使用Atom
+
+Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
 也是撰写Makedown文档的好工具。编写的同时可预览效果，很方便。本文档就是这样typing出来的。
 
 ![使用Atom撰写Makedown文档](./atom_makedown.PNG)
 
 还有一点很重要：
 
-**Atom是基于electron框架开发的，electron可能正在给各种应用程序UI实现方式带来一个革命！**
+**Atom是基于Electron框架开发的，Electron可能正在给各种应用程序UI实现方式带来一个革命！**
+
+### 使用Visual Studio Code
+
+Visual Studio Code是微软基于Electron框架开发文本编辑器，和Atom类似，目前插件较少。
+
+Visual Studio Code内置支持Makedown撰写和预览，但尚不能和Atom一样同步预览，
+需在编辑窗口右上角的“Open View"和”View Source" 之间切换实现对编辑效果的预览。
+
+要实现类似Atom中的同步预览功能，可“Split Editor”一个编辑窗口，然后“relod"预览
+
+* 注意： 目前Atom和Visual Studio Code的中文编码支持尚有不足，其编写的中文文档，
+在其他软件中可能乱码
