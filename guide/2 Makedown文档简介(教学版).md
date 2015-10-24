@@ -3,7 +3,7 @@
 <center>程懋华   
 东南大学能源与环境学院
 
-## 导语：
+## 导语
 
 Markdown是一种轻量级「标记语言」，目前被越来越多的领域的人使用。
 如Github中大量的文档都是采用Markdown撰写，典型的是每个仓库README.md，默认采用Markdown语法。
@@ -158,5 +158,5 @@ Atom是Github开发的一款开源文本编辑器，可定制为多用途的开�
 还有一点很重要，也是我们用Atom撰写makedown文档件，而不采
 用其他更流行的Makedown软件的主要原因。
 
-**Atom是基于electron框架开发的，electron可能正在给未来的各种应用程序UI实现方式
-带来一个革命！**
+**Atom是基于electron框架开发的，electron可能正在给未来的各种
+应用程序UI实现方式带来一个革命！**
