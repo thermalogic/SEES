@@ -1,4 +1,4 @@
-﻿# <center>Markdown简介
+# <center>Markdown简介
 
 <center>程懋华</center>   
 <center>东南大学能源与环境学院</center>
@@ -87,8 +87,7 @@ Markdown十分轻量，学习成本很低
 ![东南大学Logo](./seu.gif)
 
 #### 1.5 粗体与斜体
-
-Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就是粗体的语法，用一个 * 包含一段文本就是斜体的语法。
+用两个星号包含一段文本是粗体，用一个 * 包含一段文本是斜体。
 
 例如：
 
@@ -127,10 +126,10 @@ Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就�
 
 `print('hello world')`
 
-如果是一个代码块，用两组3个连续的反引号``` 把代码
-包裹起来形成**“代码框”**：
+如果是一个代码块，用两组3个连续的反引号,把代码包裹起来形成**“代码框”**。    
+如果需要句法高亮，3个连续的反引号后加语言名称，如：```python
 
-```
+```python
 import sys
 
 (last_key, max_val) = (None, -sys.maxint)
@@ -184,3 +183,8 @@ Visual Studio Code内置支持Makedown撰写和预览，但尚不能和Atom一�
 
 2. 目前Atom和Visual Studio Code的中文编码支持尚有不足，其编写的中文文档，
 在其他软件中可能乱码
+
+### 参考
+
+1. [Makedown官网](http://daringfireball.net/projects/markdown/)
+2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
