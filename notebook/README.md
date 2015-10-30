@@ -29,4 +29,3 @@ https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programm
 3. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11
 
 http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
-
