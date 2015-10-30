@@ -9,7 +9,7 @@ Email£º cmh@seu.edu.cn
 
 I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
 
-¡°When the going gets tough, the tough get going.¡±  Joseph P. Kennedy 
+>¡°When the going gets tough, the tough get going.¡±  Joseph P. Kennedy 
 
 I hope you will keep at it and I wish you continued success in the course!
 

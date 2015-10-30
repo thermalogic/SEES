@@ -173,7 +173,7 @@ Atom是Github开发的一款开源文本编辑器，可通过插件，定制为�
 Visual Studio Code是微软基于Electron框架开发文本编辑器，和Atom类似，目前插件较少。
 
 Visual Studio Code内置支持Makedown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
-在编辑窗口右上角的“Open View"和”View Source" 切换编辑/预览视图。
+在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
 
 ### 其他
@@ -187,4 +187,5 @@ Visual Studio Code内置支持Makedown撰写和预览，"Ctrl+K V"打开一个�
 
 1. [Makedown官网](http://daringfireball.net/projects/markdown/)
 2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-3. [VS Code Markdown](https://code.visualstudio.com/updates#_languages-markdown-preview/)
+3. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+4. [VS Code Markdown updates](https://code.visualstudio.com/updates#_languages-markdown-preview/)
