@@ -20,12 +20,13 @@ Please install Jupyter to read and interactive with the notebook.
  
 # References
 
-1. Jupyter. http://jupyter.org/
+1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    
 
-2. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11
+https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+
+2. Jupyter. http://jupyter.org/
+
+3. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11
 
 http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
-3. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    
-
-https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
