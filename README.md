@@ -5,17 +5,19 @@ Dr. Cheng Maohua
 School of Energy and Environment  
 Southeast University  
 Nanjing,China  
-Email£º cmh@seu.edu.cn
+Emailï¼š cmh@seu.edu.cn
 
 I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
 
->¡°When the going gets tough, the tough get going.¡±  Joseph P. Kennedy 
+>â€œWhen the going gets tough, the tough get going.â€  Joseph P. Kennedy 
 
 I hope you will keep at it and I wish you continued success in the course!
 
 If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
 
 # Goal
+
+[![Join the chat at https://gitter.im/Py03013050/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Py03013050/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 1.Writing clean, testable, high quality code in Python
 
@@ -40,17 +42,17 @@ Lectures in IPython notebook.
 
 Please install Jupyter to read and interactive with the notebook.
 
-Online read-only versions£º
+Online read-only versionsï¼š
 
    http://nbviewer.ipython.org/github/Py03013050/home/tree/master/notebook/
  
-×¢£º
+æ³¨ï¼š
  
- ±¾¿Î³ÌÊ¹ÓÃ½»»¥Ê½¼ÆËãIPython Notebook½ÌÑ§£¬Ã»ÓĞPPTºÍÆäËû¸ñÊ½µÄ½²Òå¡£
+ æœ¬è¯¾ç¨‹ä½¿ç”¨äº¤äº’å¼è®¡ç®—IPython Notebookæ•™å­¦ï¼Œæ²¡æœ‰PPTå’Œå…¶ä»–æ ¼å¼çš„è®²ä¹‰ã€‚
         
- ÈçĞèÆäËû¸ñÊ½½²Òå£¬Çë´Óipynb¸ñÊ½×ª»»¡£
+ å¦‚éœ€å…¶ä»–æ ¼å¼è®²ä¹‰ï¼Œè¯·ä»ipynbæ ¼å¼è½¬æ¢ã€‚
         
- pdf¸ñÊ½½²Òå: ÔÚnbviewer.ipythonä¯ÀÀÒ³ÃæÖĞ£¬Ñ¡Ôñ¡°´òÓ¡¡±£¬È»ºó£¬Ñ¡Ôñ¡°´òÓ¡µ½PDF¡±,¼´¿É²úÉúµ±Ç°Ò³ÃæµÄpdfÎÄ¼ş¡£
+ pdfæ ¼å¼è®²ä¹‰: åœ¨nbviewer.ipythonæµè§ˆé¡µé¢ä¸­ï¼Œé€‰æ‹©â€œæ‰“å°â€ï¼Œç„¶åï¼Œé€‰æ‹©â€œæ‰“å°åˆ°PDFâ€,å³å¯äº§ç”Ÿå½“å‰é¡µé¢çš„pdfæ–‡ä»¶ã€‚
 
 # Code
 
@@ -58,39 +60,39 @@ Online read-only versions£º
   
 # Guide
 
-  Software Guide(Chinese£©
+  Software Guide(Chineseï¼‰
   
-<b>¿Î³ÌÊ¹ÓÃÈí¼ş</b>
+<b>è¯¾ç¨‹ä½¿ç”¨è½¯ä»¶</b>
     
-1 PythonÓïÑÔ¼°Æä¿ª·¢»·¾³£ºPython3¡¢Eclipse IDE¡¢PyDevµÈ
+1 Pythonè¯­è¨€åŠå…¶å¼€å‘ç¯å¢ƒï¼šPython3ã€Eclipse IDEã€PyDevç­‰
     
-2 ´úÂëµ÷ÊÔ¡¢Èí¼ş²âÊÔ¡¢ÈÎÎñ¹ÜÀíµÈÈí¼ş¹¤³Ì¹¤¾ß(Python°æ):pep8¡¢doctest¡¢unittestµÈ
+2 ä»£ç è°ƒè¯•ã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ç­‰è½¯ä»¶å·¥ç¨‹å·¥å…·(Pythonç‰ˆ):pep8ã€doctestã€unittestç­‰
     
-3 ¿ÆÑ§/½»»¥¼ÆËã£ºSciPy¡¢JupyterµÈ
+3 ç§‘å­¦/äº¤äº’è®¡ç®—ï¼šSciPyã€Jupyterç­‰
     
-4 ÈÈ¹¤¼ÆËã£ºIF97µÈ
+4 çƒ­å·¥è®¡ç®—ï¼šIF97ç­‰
     
-5 °æ±¾¿ØÖÆºÍÉçÇø±à³Ì:EGit¡¢GithubµÈ
+5 ç‰ˆæœ¬æ§åˆ¶å’Œç¤¾åŒºç¼–ç¨‹:EGitã€Githubç­‰
     
-6 ÎÄµµ×«Ğ´£º MS Word¡¢Jupyter Notebook¡¢MakedownµÈ 
+6 æ–‡æ¡£æ’°å†™ï¼š MS Wordã€Jupyter Notebookã€Makedownç­‰ 
   
 # Practice
 
   Assignment of practice(Chinese) 
   
-¡¡º­¸ÇPython³ÌĞòÉè¼Æ¡¢´úÂë¹æ·¶¡¢Èí¼ş²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢ÎÄµµ×«Ğ´ºÍÓ¢ÎÄ×ÊÔ´Ê¹ÓÃµÈÄÜÁ¦ÑµÁ·£»
+ã€€æ¶µç›–Pythonç¨‹åºè®¾è®¡ã€ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€æ–‡æ¡£æ’°å†™å’Œè‹±æ–‡èµ„æºä½¿ç”¨ç­‰èƒ½åŠ›è®­ç»ƒï¼›
 
-¡¡Éæ¼°½»»¥¼ÆËã¡¢ÉçÇø±à³ÌµÈ¿ÆÑ§¼ÆËãºÍÈí¼ş¿ª·¢Ä£Ê½¡£
+ã€€æ¶‰åŠäº¤äº’è®¡ç®—ã€ç¤¾åŒºç¼–ç¨‹ç­‰ç§‘å­¦è®¡ç®—å’Œè½¯ä»¶å¼€å‘æ¨¡å¼ã€‚
 
 # Textbooks
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
-2. ×ŞĞÀ. ¹¹½¨Ö®·¨: ÏÖ´úÈí¼ş¹¤³Ì(µÚ1°æ). ÈËÃñÓÊµç³ö°æÉç, 2014.09
+2. é‚¹æ¬£. æ„å»ºä¹‹æ³•: ç°ä»£è½¯ä»¶å·¥ç¨‹(ç¬¬1ç‰ˆ). äººæ°‘é‚®ç”µå‡ºç‰ˆç¤¾, 2014.09
 
 # References
 
-1. Áº½ÜÒë. ±à³Ìµ¼ÂÛ. ÈËÃñÓÊµç³ö°æÉç( µÚ1°æ) .  2015.03
+1. æ¢æ°è¯‘. ç¼–ç¨‹å¯¼è®º. äººæ°‘é‚®ç”µå‡ºç‰ˆç¤¾( ç¬¬1ç‰ˆ) .  2015.03
 
 2. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
@@ -99,19 +101,19 @@ Online read-only versions£º
 4. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
-5. ÍõÛó. ËùÎ½Èí¼ş¹¤³Ì. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
+5. ç‹å . æ‰€è°“è½¯ä»¶å·¥ç¨‹. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
 
-6. Ö£Î°·¼. PyDev for Eclipse¼ò½é. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+6. éƒ‘ä¼ŸèŠ³. PyDev for Eclipseç®€ä»‹. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-7. ÕÅÓ±. Python´úÂëµ÷ÊÔ¼¼ÇÉ. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05 
+7. å¼ é¢–. Pythonä»£ç è°ƒè¯•æŠ€å·§. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05 
 
 8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
-9. ÁÎÑ©·å. Git½Ì³Ì  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+9. å»–é›ªå³°. Gitæ•™ç¨‹  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 9. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-10. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11   
+10. Helen Shen. Interactive notebooks: Sharing the codeï¼ Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
 
