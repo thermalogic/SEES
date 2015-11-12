@@ -241,11 +241,11 @@ def gradeReport(course):
             numGrades += 1
         try:
             average = tot/numGrades
-            report = report + '\n'\
-                     + str(s) + '\'s mean grade is ' + str(average)
+            report =(report + '\n'
+                     + str(s) + '\'s mean grade is ' + str(average))
         except ZeroDivisionError:
-            report = report + '\n'\
-                     + str(s) + ' has no grades'
+            report = (report + '\n'
+                     + str(s) + ' has no grades')
     return report
 
 ug1 = UG('Jane Doe', 2014)
