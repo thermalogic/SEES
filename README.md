@@ -113,5 +113,8 @@ Online read-only versions£º
 
 10. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
+   
+11. Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
+http://interactivepython.org/runestone/static/pythonds/index.html
 
 
