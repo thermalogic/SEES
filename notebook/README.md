@@ -13,7 +13,7 @@ Please install Jupyter to read and interactive with the notebook.
  
 Online read-only versions：
  
-http://nbviewer.ipython.org/github/Py03013050/home/tree/master/notebook/
+http://nbviewer.ipython.org/github/Py03013052/home/tree/master/notebook/
    
 pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
  
