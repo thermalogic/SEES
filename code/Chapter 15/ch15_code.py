@@ -132,7 +132,7 @@ def getHorizontalSpeed(a, b, c, minX, maxX):
     yPeak = a*xMid**2 + b*xMid + c
     g = 32.16*inchesPerFoot #accel. of gravity in inches/sec/sec
     t = (2*yPeak/g)**0.5
-    print 'Horizontal speed =', int(xMid/(t*inchesPerFoot)), 'feet/sec'
+    print('Horizontal speed =', int(xMid/(t*inchesPerFoot)), 'feet/sec')
 
 #Page 218, Figure 15.7
 vals = []
@@ -143,13 +143,13 @@ xVals = pylab.arange(10)
 a,b,c,d,e = pylab.polyfit(xVals, vals, 4)
 yVals = a*(xVals**4) + b*(xVals**3) + c*(xVals**2)+ d*xVals + e
 pylab.plot(yVals, 'bx', label = 'Predicted points', markersize = 20)
-pylab.title('Fitting y = 2**x')
+pylab.title('Fitting $y = 2^x$')
 pylab.legend()
 
 #Page 219, additional code for Figure 15.7
 pred2to20 = a*(20**4) + b*(20**3) + c*(20**2)+ d*20 + e
-print 'Model predicts that 2**20 is roughly', round(pred2to20)
-print 'Actual value of 2**20 is', 2**20
+print('Model predicts that 2**20 is roughly', round(pred2to20))
+print('Actual value of 2**20 is', 2**20)
 
 xVals, yVals = [], []
 for i in range(10):
@@ -195,5 +195,5 @@ pylab.plot(xVals, predictedYVals, label = 'Predicted values')
 pylab.title('Fitting an Exponential Function')
 pylab.legend()
 #Look at a value for x not in original data
-print 'f(20) =', f(20)
-print 'Predicted f(20) =', base**(a*20 + b)
+print('f(20) =', f(20))
+print('Predicted f(20) =', base**(a*20 + b))
