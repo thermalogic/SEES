@@ -1,5 +1,5 @@
 
-<b>Foundamentals and practice of software engineering with Python</b>
+# Foundamentals and practice of software engineering with Python
 
 Dr. Cheng Maohua  
 School of Energy and Environment  
@@ -46,11 +46,11 @@ Online read-only versions：
  
 注：
  
- 本课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。
+ 课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。
         
  如需其他格式讲义，请从ipynb格式转换。
         
- pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
+ 如pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
 
 # Code
 
