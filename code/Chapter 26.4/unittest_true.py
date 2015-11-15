@@ -2,16 +2,10 @@ import unittest
 
 class TruthTest(unittest.TestCase):
 
-#    def testFailUnless(self):
-#        self.failUnless(True)
-
-    def testAssertTrue(self):
+    def test_AssertTrue(self):
         self.assertTrue(True)
 
-#    def testFailIf(self):
-#       self.failIf(False)
-
-    def testAssertFalse(self):
+    def test_AssertFalse(self):
         self.assertFalse(False)
 
 if __name__ == '__main__':

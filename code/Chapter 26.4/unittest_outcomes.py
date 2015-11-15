@@ -2,13 +2,13 @@ import unittest
 
 class OutcomesTest(unittest.TestCase):
 
-    def testPass(self):
+    def test_Pass(self):
         return
 
-    def testFail(self):
+    def test_Fail(self):
         self.assertFalse(True)
 
-    def testError(self):
+    def test_Error(self):
         raise RuntimeError('Test error!')
 
 if __name__ == '__main__':

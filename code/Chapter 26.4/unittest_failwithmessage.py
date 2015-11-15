@@ -2,7 +2,7 @@ import unittest
 
 class FailureMessageTest(unittest.TestCase):
 
-    def testFail(self):
+    def test_Fail(self):
         self.assertFalse(True, 'failure message goes here')
 
 if __name__ == '__main__':

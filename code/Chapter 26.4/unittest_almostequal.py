@@ -2,13 +2,13 @@ import unittest
 
 class AlmostEqualTest(unittest.TestCase):
 
-    def testNotAlmostEqual(self):
+    def test_NotAlmostEqual(self):
         self.assertNotAlmostEqual(1.1, 3.3-2.0, places=1)
 
-    def testAlmostEqual(self):
+    def test_AlmostEqual(self):
         self.assertAlmostEqual(1.1, 3.3-2.0, places=0)
 
-    def testAlmostEqualWithDefault(self):
+    def test_AlmostEqualWithDefault(self):
         self.assertAlmostEqual(1.1, 3.3-2.0)
 
 if __name__ == '__main__':
