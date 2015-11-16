@@ -79,9 +79,9 @@ def crapsSim(handsPerGame, numGames):
     games = []
 
     #Play numGames games
-    for t in xrange(numGames):
+    for t in range(numGames):
         c = CrapsGame()
-        for i in xrange(handsPerGame):
+        for i in range(handsPerGame):
             c.playHand()
         games.append(c)
         
@@ -127,7 +127,7 @@ def playHand(self):
 #Page 203, Figure 14.5
 def throwNeedles(numNeedles):
     inCircle = 0
-    for Needles in xrange(1, numNeedles + 1):
+    for Needles in range(1, numNeedles + 1):
         x = random.random()
         y = random.random()
         if (x*x + y*y)**0.5 <= 1.0:
