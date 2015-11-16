@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module pydoc</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pydoc</strong></big></big> (26 February 2001)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cpython34%5Clib%5Cpydoc.py">c:\python34\lib\pydoc.py</a></font></td></tr></table>
+    <p><tt>Generate&nbsp;Python&nbsp;documentation&nbsp;in&nbsp;HTML&nbsp;or&nbsp;text&nbsp;for&nbsp;interactive&nbsp;use.<br>
+&nbsp;<br>
+At&nbsp;the&nbsp;Python&nbsp;interactive&nbsp;prompt,&nbsp;calling&nbsp;help(thing)&nbsp;on&nbsp;a&nbsp;Python&nbsp;object<br>
+documents&nbsp;the&nbsp;object,&nbsp;and&nbsp;calling&nbsp;help()&nbsp;starts&nbsp;up&nbsp;an&nbsp;interactive<br>
+help&nbsp;session.<br>
+&nbsp;<br>
+Or,&nbsp;at&nbsp;the&nbsp;shell&nbsp;command&nbsp;line&nbsp;outside&nbsp;of&nbsp;Python:<br>
+&nbsp;<br>
+Run&nbsp;"pydoc&nbsp;&lt;name&gt;"&nbsp;to&nbsp;show&nbsp;documentation&nbsp;on&nbsp;something.&nbsp;&nbsp;&lt;name&gt;&nbsp;may&nbsp;be<br>
+the&nbsp;name&nbsp;of&nbsp;a&nbsp;function,&nbsp;module,&nbsp;package,&nbsp;or&nbsp;a&nbsp;dotted&nbsp;reference&nbsp;to&nbsp;a<br>
+class&nbsp;or&nbsp;function&nbsp;within&nbsp;a&nbsp;module&nbsp;or&nbsp;module&nbsp;in&nbsp;a&nbsp;package.&nbsp;&nbsp;If&nbsp;the<br>
+argument&nbsp;contains&nbsp;a&nbsp;path&nbsp;segment&nbsp;delimiter&nbsp;(e.g.&nbsp;slash&nbsp;on&nbsp;Unix,<br>
+backslash&nbsp;on&nbsp;Windows)&nbsp;it&nbsp;is&nbsp;treated&nbsp;as&nbsp;the&nbsp;path&nbsp;to&nbsp;a&nbsp;Python&nbsp;source&nbsp;file.<br>
+&nbsp;<br>
+Run&nbsp;"pydoc&nbsp;-k&nbsp;&lt;keyword&gt;"&nbsp;to&nbsp;search&nbsp;for&nbsp;a&nbsp;keyword&nbsp;in&nbsp;the&nbsp;synopsis&nbsp;lines<br>
+of&nbsp;all&nbsp;available&nbsp;modules.<br>
+&nbsp;<br>
+Run&nbsp;"pydoc&nbsp;-p&nbsp;&lt;port&gt;"&nbsp;to&nbsp;start&nbsp;an&nbsp;HTTP&nbsp;server&nbsp;on&nbsp;the&nbsp;given&nbsp;port&nbsp;on&nbsp;the<br>
+local&nbsp;machine.&nbsp;&nbsp;Port&nbsp;number&nbsp;0&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;get&nbsp;an&nbsp;arbitrary&nbsp;unused&nbsp;port.<br>
+&nbsp;<br>
+Run&nbsp;"pydoc&nbsp;-b"&nbsp;to&nbsp;start&nbsp;an&nbsp;HTTP&nbsp;server&nbsp;on&nbsp;an&nbsp;arbitrary&nbsp;unused&nbsp;port&nbsp;and<br>
+open&nbsp;a&nbsp;Web&nbsp;browser&nbsp;to&nbsp;interactively&nbsp;browse&nbsp;documentation.&nbsp;&nbsp;The&nbsp;-p&nbsp;option<br>
+can&nbsp;be&nbsp;used&nbsp;with&nbsp;the&nbsp;-b&nbsp;option&nbsp;to&nbsp;explicitly&nbsp;specify&nbsp;the&nbsp;server&nbsp;port.<br>
+&nbsp;<br>
+Run&nbsp;"pydoc&nbsp;-w&nbsp;&lt;name&gt;"&nbsp;to&nbsp;write&nbsp;out&nbsp;the&nbsp;HTML&nbsp;documentation&nbsp;for&nbsp;a&nbsp;module<br>
+to&nbsp;a&nbsp;file&nbsp;named&nbsp;"&lt;name&gt;.html".<br>
+&nbsp;<br>
+Module&nbsp;docs&nbsp;for&nbsp;core&nbsp;modules&nbsp;are&nbsp;assumed&nbsp;to&nbsp;be&nbsp;in<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.python.org/X.Y/library/">http://docs.python.org/X.Y/library/</a><br>
+&nbsp;<br>
+This&nbsp;can&nbsp;be&nbsp;overridden&nbsp;by&nbsp;setting&nbsp;the&nbsp;PYTHONDOCS&nbsp;environment&nbsp;variable<br>
+to&nbsp;a&nbsp;different&nbsp;URL&nbsp;or&nbsp;to&nbsp;a&nbsp;local&nbsp;directory&nbsp;containing&nbsp;the&nbsp;Library<br>
+Reference&nbsp;Manual&nbsp;pages.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="builtins.html">builtins</a><br>
+<a href="importlib.html">importlib</a><br>
+<a href="inspect.html">inspect</a><br>
+<a href="io.html">io</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+<a href="pkgutil.html">pkgutil</a><br>
+<a href="platform.html">platform</a><br>
+<a href="re.html">re</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+<a href="time.html">time</a><br>
+<a href="tokenize.html">tokenize</a><br>
+<a href="urllib.html">urllib</a><br>
+</td><td width="25%" valign=top><a href="warnings.html">warnings</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__all__</strong> = ['help']<br>
+<strong>help</strong> = &lt;pydoc.Helper instance&gt;</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Ka-Ping&nbsp;Yee&nbsp;&lt;ping@lfw.org&gt;</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Credits</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Guido&nbsp;van&nbsp;Rossum,&nbsp;for&nbsp;an&nbsp;excellent&nbsp;programming&nbsp;language.<br>
+Tommy&nbsp;Burnette,&nbsp;the&nbsp;original&nbsp;creator&nbsp;of&nbsp;manpy.<br>
+Paul&nbsp;Prescod,&nbsp;for&nbsp;all&nbsp;his&nbsp;work&nbsp;on&nbsp;onlinehelp.<br>
+Richard&nbsp;Chamberlain,&nbsp;for&nbsp;the&nbsp;first&nbsp;implementation&nbsp;of&nbsp;textdoc.<br>
+</td></tr></table>
+</body></html>
