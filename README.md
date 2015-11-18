@@ -109,12 +109,14 @@ Online read-only versions£∫
 
 9. ¡Œ—©∑Â. GitΩÃ≥Ã  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-9. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+10. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-10. Helen Shen. Interactive notebooks: Sharing the code£Æ Nature, 2014.11   
+11. Helen Shen. Interactive notebooks: Sharing the code£Æ Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
    
-11. Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
+12. Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
+
+13. Jeff Younker. Foundations of Agile Python Development. Apress, 2008
 
 
