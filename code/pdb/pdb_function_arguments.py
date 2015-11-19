@@ -1,0 +1,14 @@
+# encoding: utf-8
+
+import pdb
+
+def recursive_function(n=5, output='to be printed'):
+    if n > 0:
+        recursive_function(n-1)
+    else:
+        pdb.set_trace()
+        print(output)
+    return
+
+if __name__ == '__main__':
+    recursive_function()
