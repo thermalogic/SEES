@@ -21,8 +21,12 @@ pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08
 
-2. Jupyter. http://jupyter.org/
+2. Python Software Foundation. Python 3.5.0 documentation https://docs.python.org/3/
 
-3. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11
+3. Doug Hellmann. Python Module of the Week. https://pymotw.com/
+
+4. Jupyter. http://jupyter.org/
+
+5. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11
 
 http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
