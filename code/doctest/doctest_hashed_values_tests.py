@@ -1,4 +1,4 @@
-ef group_by_length(words):
+def group_by_length(words):
     """Returns a dictionary grouping words into sets by length.
 
     >>> grouped = group_by_length([ 'python', 'module', 'of', 'the', 'week' ])
