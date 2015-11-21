@@ -1,5 +1,4 @@
-import pylab, random
-from rcParamsSettings import *
+import random
 
 #The following two functions were defined earlier,
 #and are used in this chapter
