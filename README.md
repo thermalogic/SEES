@@ -82,6 +82,25 @@ Online read-only versions：
 
 　涉及数据分析、交互计算、社区编程等科学计算和软件开发模式。
 
+<ol>
+ <li>软件开发基础：Python开发环境建立  
+ 
+ <li>版本管理及团队编程1：建立Github账户、基本操作、加入社区编程组等，  
+ 
+ <li>版本管理及团队编程2：Git、Github、EGit等 
+  
+ <li>英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 
+  
+ <li>网络资源：使用Stackoverflow.com  
+ 
+ <li>数据分析：统计、回归及可视化
+ 
+ <li>单元测试：基于IAPWS-IF97的水和水蒸汽物性计算软件包为被测试对象 
+       
+ <li>应用实践：5个专业相关问题求解程序设计，含代码规范、软件测试、任务管理、交互计算及文档撰写等  
+ </ol>
+ 
+
 # Textbooks
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
