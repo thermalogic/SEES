@@ -100,7 +100,6 @@ Online read-only versions：
  <li>应用实践：5个专业相关问题求解程序设计，含代码规范、软件测试、任务管理、交互计算及文档撰写等  
  </ol>
  
-
 # Textbooks
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
