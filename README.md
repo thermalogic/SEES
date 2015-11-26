@@ -109,33 +109,38 @@ Online read-only versions：
 
 # References
 
-1. 梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
 
-2. Guido van Rossum and the Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+<ol>
 
-3. Scipy. http://www.scipy.org/
+<li>梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
 
-4. Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
+<li> Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+
+<li>Scipy. http://www.scipy.org/
+
+<li>郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+
+<li>Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+
+<li>张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05 
+
+<li>Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+
+<li>Lars Vogel. UML with Eclipse - Tutorial  http://www.vogella.com/tutorials/UML/article.html
+
+<li>Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+   
+<li>Jeff Younker. Foundations of Agile Python Development. Apress, 2008
+   
+<li>王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
 
-5. 王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
+<li>廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-6. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
-
-7. 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05 
-
-8. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
-
-9. 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
-10. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-
-11. Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
+<li>Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
    
-12. Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
+<li>Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
 
-13. Jeff Younker. Foundations of Agile Python Development. Apress, 2008
-
-
+</ol>
