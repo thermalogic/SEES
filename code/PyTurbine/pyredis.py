@@ -31,8 +31,7 @@ def SendToRedisHash(tagvaluelist):
     pipe.execute()
 
 def tagvalue_redis(taglist):
-        #        for i in range(self.tagcount):
-        #            self.taglist[i]['value']= conn.hget(self.taglist[i]['name'],'value').decode()
+
         tagcount=len(taglist)
         pipe = conn.pipeline()
         for i in range(tagcount):
