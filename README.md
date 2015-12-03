@@ -124,8 +124,6 @@ Assignment of practice(Chinese)
 
 <li>Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
-<li>Lars Vogel. UML with Eclipse - Tutorial  http://www.vogella.com/tutorials/UML/article.html
-
 <li>Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
    
