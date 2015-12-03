@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from pyturbine import *
-from pyredisserver import *
 
 hp = {'inlet':{}, 'outlet':{}, 'h2s':None, 'ef':None}
 minlet = {'p':None, 't': None, 'h': None, 's':None}
