@@ -25,6 +25,31 @@ def CylinderEff(cylinder):
 
     return cylinder
 
+def linepoint3(sstep,p,t,h,s,sis=None):
+    if sis==None:
+        s0 = s - sstep
+    else:
+        s0=sis-sstep  
+    s2 = s + sstep
+    point_h = np.zeros(shape=3)
+    point_h[0] = ps2h(p, s0)
+    point_h[1] = h
+    point_h[2] = ps2h(p, s2)
+    point_s = np.zeros(shape=3)
+    point_s[0] = s0
+    point_s[1] = s
+    point_s[2] = s2
+    return point_s,point_h
+
+
+def linepoint2(h0,h1,s0,s1):
+    point_h = np.zeros(shape=2)
+    point_h[0] = h0
+    point_h[1] = h1
+    point_s = np.zeros(shape=2)
+    point_s[0] = s0
+    point_s[1] = s1
+    return point_s,point_h
 
 def CylinderPlot(cylinder):
     # 4条线：p1、p2 等压，等熵焓降线、膨胀线
@@ -43,67 +68,12 @@ def CylinderPlot(cylinder):
     
     hs = cylinder['h2s']
     
-    samp = 0.01
-     
-    smp1 = s1 - samp
-    hsmp1 = ps2h(p1, smp1)
-    sap1 = s1 + samp
-    hsap1 = ps2h(p1, sap1)
-
-    smt1 = s1 - samp
-    hsmt1 = ps2h(p1, smp1)
-    sat1 = s1 + samp
-    hsat1 = ts2h(t1, sap1)
+    point_p1_s,point_p1_h=linepoint3(0.01,p1,t1,h1,s1)
+    point_p2_s,point_p2_h=linepoint3(0.01,p2,t2,h2,s2,s1)
+    point_is_s,point_is_h=linepoint2(h1,hs,s1,s1)
+    point_hp_s,point_hp_h=linepoint2(h1,h2,s1,s2)
     
-    # 1 p1等压
-    point_p1_h = np.zeros(shape=3)
-    point_p1_h[0] = hsmp1
-    point_p1_h[1] = h1
-    point_p1_h[2] = hsap1
-    point_p1_s = np.zeros(shape=3)
-    point_p1_s[0] = smp1
-    point_p1_s[1] = s1
-    point_p1_s[2] = sap1
-
-    # 2 p2 等压
-    smp2 = s1 - samp  # 等熵焓降点延伸
-    hsmp2 = ps2h(p2, smp2)
-    sap2 = s2 + samp
-    hsap2 = ps2h(p2, sap2)
-
-    smt2 = s2 - samp
-    hsmt2 = ps2h(p1, smp1)
-    sat2 = s2 + samp
-    hsat2 = ts2h(t2, sap1)
-
-    point_p2_h = np.zeros(shape=3)
-    point_p2_h[0] = hsmp2
-    point_p2_h[1] = h2
-    point_p2_h[2] = hsap2
-
-    point_p2_s = np.zeros(shape=3)
-    point_p2_s[0] = smp2
-    point_p2_s[1] = s2
-    point_p2_s[2] = sap2
-
-    # 3 等熵焓降
-    point_is_h = np.zeros(shape=2)
-    point_is_h[0] = h1
-    point_is_h[1] = hs
-    point_is_s = np.zeros(shape=2)
-    point_is_s[0] = s1
-    point_is_s[1] = s1
-
-    # 4 HP Expansion Line
-    point_hp_h = np.zeros(shape=2)
-    point_hp_h[0] = h1
-    point_hp_h[1] = h2
-    point_hp_s = np.zeros(shape=2)
-    point_hp_s[0] = s1
-    point_hp_s[1] = s2
-
-    plt.plot(point_p1_s, point_p1_h, 'bs-'')
-
+    plt.plot(point_p1_s, point_p1_h, 'bs-')
     plt.plot(point_p2_s, point_p2_h, 'bs-')
     plt.plot(point_is_s, point_is_h, 'rs--')
     plt.plot(point_hp_s, point_hp_h, 'rs-', label='HP Expansion Line"')

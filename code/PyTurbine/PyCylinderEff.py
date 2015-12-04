@@ -47,95 +47,50 @@ import matplotlib.pyplot as plt
 import numpy as np
 import string
 
+def linepoint3(sstep,p,t,h,s,sis=None):
+    if sis==None:
+        s0 = s - sstep
+    else:
+        s0=sis-sstep  
+    s2 = s + sstep
+    point_h = np.zeros(shape=3)
+    point_h[0] = ps2h(p, s0)
+    point_h[1] = h
+    point_h[2] = ps2h(p, s2)
+    point_s = np.zeros(shape=3)
+    point_s[0] = s0
+    point_s[1] = s
+    point_s[2] = s2
+    return point_s,point_h
 
-# p10等压，等熵降线、膨胀线
-s_step=0.02
+def linepoint2(h0,h1,s0,s1):
+    point_h = np.zeros(shape=2)
+    point_h[0] = h0
+    point_h[1] = h1
+    point_s = np.zeros(shape=2)
+    point_s[0] = s0
+    point_s[1] = s1
+    return point_s,point_h
 
-smp10=s10-s_step
-hsmp10=ps2h(p10,smp10)
-sap10=s10+s_step
-hsap10=ps2h(p10,sap10)
-
-point_p10_h=np.zeros(shape=3)
-point_p10_h[0]=hsmp10
-point_p10_h[1]=h10
-point_p10_h[2]=hsap10
-point_p10_s=np.zeros(shape=3)
-point_p10_s[0]=smp10
-point_p10_s[1]=s10
-point_p10_s[2]=sap10
-
+# p10等压
+point_p10_s,point_p10_h=linepoint3(0.02,p10,t10,h10,s10)
 # p11等压
-
-s_step=0.02
-
-smp11=s11-s_step
-hsmp11=ps2h(p11,smp11)
-sap11=s11+s_step
-hsap11=ps2h(p11,sap11)
-
-point_p11_h=np.zeros(shape=3)
-point_p11_h[0]=hsmp11
-point_p11_h[1]=h11
-point_p11_h[2]=hsap11
-point_p11_s=np.zeros(shape=3)
-point_p11_s[0]=smp11
-point_p11_s[1]=s11
-point_p11_s[2]=sap11
+point_p11_s,point_p11_h=linepoint3(0.02,p11,t11,h11,s11)
 
 # p2等压线
-s_step=0.02
-smp2=s11-s_step 
-hsmp2=ps2h(p2,smp2)
-sap2=s2+s_step 
-hsap2=ps2h(p2,sap2)
-
-point_p2_h=np.zeros(shape=3)
-point_p2_h[0]=hsmp2
-point_p2_h[1]=h2
-point_p2_h[2]=hsap2
-
-point_p2_s=np.zeros(shape=3)
-point_p2_s[0]=smp2
-point_p2_s[1]=s2
-point_p2_s[2]=sap2
+point_p2_s,point_p2_h=linepoint3(0.02,p2,t2,h2,s2,s11)
 
 # p11-p2等熵降线
-point_is_h11_2=np.zeros(shape=2)
-point_is_h11_2[0]=h11
-point_is_h11_2[1]=h3
-point_is_s11_2=np.zeros(shape=2)
-point_is_s11_2[0]=s11
-point_is_s11_2[1]=s11
-
+point_is_s11_2,point_is_h11_2=linepoint2(h11,h3,s11,s11)
 # p11-p2 Expansion Line
-point_hp_h11_2=np.zeros(shape=2)
-point_hp_h11_2[0]=h11
-point_hp_h11_2[1]=h2
-point_hp_s11_2=np.zeros(shape=2)
-point_hp_s11_2[0]=s11
-point_hp_s11_2[1]=s2 
-
+point_hp_s11_2,point_hp_h11_2=linepoint2(h11,h2,s11,s2)
 # p10-p2等熵降线
-point_is_h10_2=np.zeros(shape=2)
-point_is_h10_2[0]=h10
-point_is_h10_2[1]=h4
-point_is_s10_2=np.zeros(shape=2)
-point_is_s10_2[0]=s10
-point_is_s10_2[1]=s10
-
+point_is_s10_2,point_is_h10_2=linepoint2(h10,h4,s10,s10)
 # p10-p2 Expansion Line
-point_hp_h10_2=np.zeros(shape=2)
-point_hp_h10_2[0]=h10
-point_hp_h10_2[1]=h2
-point_hp_s10_2=np.zeros(shape=2)
-point_hp_s10_2[0]=s10
-point_hp_s10_2[1]=s2 
+point_hp_s10_2,point_hp_h10_2=linepoint2(h10,h2,s10,s2)
 
 plt.plot(point_p10_s,point_p10_h,'bs-')
-
 plt.plot(point_p11_s,point_p11_h,'ys-')
-
 plt.plot(point_p2_s,point_p2_h,'bs-')
 
 plt.plot(point_is_s11_2,point_is_h11_2,'gs--')
