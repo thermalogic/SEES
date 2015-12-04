@@ -2,20 +2,19 @@
 
 #coding: utf-8 -*- 
 # HP of 300MW Unit
-#    LOAD 252.4395 MW
-#    QMS 750.1908 t/h# HP of 300MW Unit
+#    LOAD 252.44 MW
+#    QMS 750.19 t/h
 
 from seuif97 import *
 
-pam=0.1005281
+pam=0.10
+p10=16.18+pam
+t10=532.91
+p11=16.15+pam
+t11=535.21
 
-p10=16.17891+pam
-t10=532.9128
-p11=16.14941+pam
-t11=535.2093
-
-p2=3.845215+pam
-t2=344.3879
+p2=3.85+pam
+t2=344.39
 
 h10=pt2h(p10,t10)
 s10=pt2s(p10,t10)
@@ -42,7 +41,7 @@ print(h10,s10)
 print(h11,s11)
 
 print('internal efficiency: ',ieff)
-
+print('external efficiency: ',eeff)
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,7 +49,7 @@ import string
 
 
 # p10等压，等熵降线、膨胀线
-s_step=0.01
+s_step=0.02
 
 smp10=s10-s_step
 hsmp10=ps2h(p10,smp10)
@@ -85,7 +84,7 @@ point_p11_s[1]=s11
 point_p11_s[2]=sap11
 
 # p2等压线
-s_step=0.01
+s_step=0.02
 smp2=s11-s_step 
 hsmp2=ps2h(p2,smp2)
 sap2=s2+s_step 
@@ -133,40 +132,54 @@ point_hp_s10_2=np.zeros(shape=2)
 point_hp_s10_2[0]=s10
 point_hp_s10_2[1]=s2 
 
+plt.plot(point_p10_s,point_p10_h,'bs-')
 
-plt.plot(point_p10_s,point_p10_h,'bs-',label="...")
-
-plt.plot(point_p11_s,point_p11_h,'bs-')
+plt.plot(point_p11_s,point_p11_h,'ys-')
 
 plt.plot(point_p2_s,point_p2_h,'bs-')
 
-plt.plot(point_is_s11_2,point_is_h11_2,'gs-')
-plt.plot(point_hp_s11_2,point_hp_h11_2,'rs-')
+plt.plot(point_is_s11_2,point_is_h11_2,'gs--')
+plt.plot(point_hp_s11_2,point_hp_h11_2,'rs-',label=" ")
 
-plt.plot(point_is_s10_2,point_is_h10_2,'gs-')
+plt.plot(point_is_s10_2,point_is_h10_2,'gs--')
 plt.plot(point_hp_s10_2,point_hp_h10_2,'rs-')
 
 plt.minorticks_on()
+
+_title =( 'The internal efficiency = ' + 
+    r'$\frac{h11-h2}{h11-h3}$' + '=' + '{:.2f}'.format(ieff) + '%'
+          +'\n'+
+          'The external efficiency = ' + 
+    r'$\frac{h10-h2}{h10-h4}$' + '=' + '{:.2f}'.format(eeff) + '%')
 plt.legend(loc="center left", bbox_to_anchor=[0.5, 0.5],
-        ncol=2, shadow=True, title='HP Expansion Line')
+        ncol=2, shadow=True, title= _title)
 #annotate some interesting points using the annotate command
-plt.annotate('(P0)',
+plt.annotate('H10',
          xy=(s10, h10), xycoords='data',
-         xytext=(+10, +30), textcoords='offset points', fontsize=12,
+         xytext=(+5, +20), textcoords='offset points', fontsize=12,
          arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
 
-plt.annotate('(P1)',
+plt.annotate('H11',
          xy=(s11, h11), xycoords='data',
-         xytext=(+10, +30), textcoords='offset points', fontsize=12,
+         xytext=(+10, +20), textcoords='offset points', fontsize=12,
          arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
 
-plt.annotate('(P2)',
+plt.annotate('H2',
          xy=(s2, h2), xycoords='data',
-         xytext=(+10, +30), textcoords='offset points', fontsize=12,
+         xytext=(+5, +20), textcoords='offset points', fontsize=12,
+         arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
+
+plt.annotate('H3',
+         xy=(s11, h3), xycoords='data',
+         xytext=(+5, +20), textcoords='offset points', fontsize=12,
+         arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
+
+plt.annotate('H4',
+         xy=(s10, h4), xycoords='data',
+         xytext=(-15, +20), textcoords='offset points', fontsize=12,
          arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=.2"))
 
 plt.xlabel('s')
 plt.ylabel('h')
 plt.show()
 
-print('external efficiency: ',eeff)

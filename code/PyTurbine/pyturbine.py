@@ -102,10 +102,10 @@ def CylinderPlot(cylinder):
     point_hp_s[0] = s1
     point_hp_s[1] = s2
 
-    plt.plot(point_p1_s, point_p1_h, 'bs-', label='iP')
+    plt.plot(point_p1_s, point_p1_h, 'bs-'')
 
-    plt.plot(point_p2_s, point_p2_h, 'bs-', label=r'$\frac{1}{2}\pi$')
-    plt.plot(point_is_s, point_is_h, 'rs-', label='is')
+    plt.plot(point_p2_s, point_p2_h, 'bs-')
+    plt.plot(point_is_s, point_is_h, 'rs--')
     plt.plot(point_hp_s, point_hp_h, 'rs-', label='HP Expansion Line"')
     plt.minorticks_on()
     
