@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import threading
 from pyredis import *
-from datetime import *
+from datetime import datetime
 import time
 import random
 

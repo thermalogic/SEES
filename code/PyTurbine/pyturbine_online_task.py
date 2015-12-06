@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 from pyredis import *
 from pyturbine import *
-from datetime import *
-import time
+from datetime import datetime
 
 class UnitHP:
 

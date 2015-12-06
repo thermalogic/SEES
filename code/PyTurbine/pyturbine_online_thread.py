@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import threading
-from datetime import *
 import time
 from pyturbine_online_task import *
-from pyredis import *
 
 class PeriodTasks ():
 
