@@ -7,8 +7,6 @@ Lectures IPython notebooks.
   
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text。
   
-Jupyter Notebook为科学计算及教学带来了一种”新常态“。
-
 Please install Jupyter to read and interactive with the notebook.
  
 Online read-only versions：
