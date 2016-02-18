@@ -139,4 +139,8 @@ Assignment of practice(Chinese)
 <li>Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
 
+<li>严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
+
+<li>徐云,王刚 等译. 算法导论. 机械工业出版社,2013年7月
+
 </ol>
