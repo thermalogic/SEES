@@ -14,8 +14,7 @@ class Item(object):
     def getWeight(self):
         return self.weight
     def __str__(self):
-        result = '<' + self.name + ', ' + str(self.value)\
-                 + ', ' + str(self.weight) + '>'
+        result = '<' + self.name + ', ' + str(self.value)  + ', ' + str(self.weight) + '>'
         return result
 
 def value(item):
