@@ -129,7 +129,7 @@ Assignment of practice(Chinese)
    
 <li>Jeff Younker. Foundations of Agile Python Development. Apress, 2008
    
-<li>王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering/
+<li>王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering
 
 <li>廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
