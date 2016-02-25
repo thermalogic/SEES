@@ -15,17 +15,17 @@
 
 **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
 
+**PyTurbine 1 Introduction_SEUIF97**
+
 **06 TESTING AND DEBUGGING**
 
 **07 EXCEPTIONS AND ASSERTIONS**
-
-**PyTurbine 1 Introduction_SEUIF97**
 
 **08 CLASSES AND OBJECT-ORIENTED PROGRAMMING**
 
 **11 PLOTTING AND MORE ABOUT CLASSES**
 
-PyTurbine 2 Cylinder efficiency(optional)
+*PyTurbine 2 Cylinder efficiency(optional)*
 
 **DevTools unittest**
 
@@ -33,25 +33,25 @@ PyTurbine 2 Cylinder efficiency(optional)
 
 **DevTools Profilers**
 
-DevTools pydoc(optional)
+*DevTools pydoc(optional)*
 
-DevTools doctest(optional)
+*DevTools doctest(optional)*
 
-DevTools Debugger(optional)
+*DevTools Debugger(optional)*
 
 **15 UNDERSTANDING EXPERIMENTAL DATA**
 
-09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC(optional)
+*09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC(optional)*
 
-10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES(optional)
+*10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES(optional)*
 
-14 MONTE CARLO SIMULATION(optional)
+*14 MONTE CARLO SIMULATION(optional)*
 
-16 LIES DAMNED LIES AND STATISTICS(optional)
+*16 LIES DAMNED LIES AND STATISTICS(optional)*
 
-17 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS(optional)
+*17 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS(optional)*
 
-18 DYNAMIC PROGRAMMING(optional)
+*18 DYNAMIC PROGRAMMING(optional)*
 
 **PyTurbine 3 Online Monitoring**
 
