@@ -9,9 +9,9 @@ https://www.python.org/downloads/
 
 2 Scientic Computing package for Python 
 ```
-•numpy 
-•scipy 
-•matplotlib 
+numpy 
+scipy 
+matplotlib 
 ```
 http://www.scipy.org/install.html 
 
@@ -52,14 +52,13 @@ Pydev: http://pydev.org/
 
 ###  Reference
 
-Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html 
+1. Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html 
 
-郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11 
+2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11 
 
-张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
+3. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02 
 
-Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02 
-
-GitHub, Inc. Hello World guide https://guides.github.com/activities/hello-world/
-
-知乎. 怎样使用GitHub. http://www.zhihu.com/question/20070065 
+4. 宋信强. Eclipse中EGit插件使用--升级版： http://my.oschina.net/songxinqiang/blog/194203
+ 
+5. GitHub, Inc. Hello World guide https://guides.github.com/activities/hello-world/
+ 
