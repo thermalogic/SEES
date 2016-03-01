@@ -34,7 +34,7 @@
          
           进入home仓库后，点“Download ZIP",如下图
 
-   ![下载整个home仓库的zip文件](./viewraw0.PNG)
+   ![下载整个home仓库的zip文件](./downloadzip.PNG)
    
    下载整个home仓库的zip文件，解压
 
