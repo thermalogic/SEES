@@ -15,6 +15,8 @@ I hope you will keep at it and I wish you continued success in the course!
 
 If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
 
+[![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # Goal
 
 1.Writing clean, testable, high quality code in Python
