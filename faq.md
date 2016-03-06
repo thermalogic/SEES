@@ -1,5 +1,5 @@
 
-# Foundamentals and practice of software engineering with Python
+# FAQ 
 
 #### pip install  --upgrade pip  有时失败
 
@@ -31,8 +31,8 @@
 
    http://bugs.python.org/issue25157
    
-#### 命令行>jupyter notebook,总是启动到C：\Windows\system32 
+#### 命令行>jupyter notebook后，jupyter总是启动到C:\Windows\system32 
 
-原因：Windows的一个bug，使用管理员权限运行cmd,都启动到C：\Windows\system32
+原因：Windows的一个bug，使用管理员权限运行cmd,都启动到C:\Windows\system32
 
 解决方法：使用普通用户权限运行jupyter notebook
