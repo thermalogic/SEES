@@ -1,5 +1,5 @@
 
-# Foundamentals and practice of software engineering with Python
+# Foundamentals and Practice of Software Engineering with Python
 
 [![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
