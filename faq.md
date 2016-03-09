@@ -41,7 +41,9 @@
 
 1 微软提供的security essentials是Windows最好的完全防护软件。从下面网站下载和操作系统对应的版本安装，
 
+http://windows.microsoft.com/zh-cn/windows/security-essentials-download
+
 2 安装security essentials，卸载所有其他各种‘安全”软件等
 
-http://windows.microsoft.com/zh-cn/windows/security-essentials-download
+
 
