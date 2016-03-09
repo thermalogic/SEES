@@ -36,3 +36,12 @@
 原因：Windows的一个bug，使用管理员权限运行cmd,都启动到C:\Windows\system32
 
 解决方法：使用普通用户权限运行jupyter notebook
+
+#### Windows安装防护
+
+1 微软提供的security essentials是Windows最好的完全防护软件。从下面网站下载和操作系统对应的版本安装，
+
+2 安装security essentials，卸载所有其他各种‘安全”软件等
+
+http://windows.microsoft.com/zh-cn/windows/security-essentials-download
+
