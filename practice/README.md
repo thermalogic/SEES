@@ -16,6 +16,8 @@
  <li>版本管理及团队编程1：建立Github账户、基本操作、加入社区编程组等，  
  
  <li>版本管理及团队编程2：Git、Github、EGit等 
+
+ 	Ref: Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
   
  <li>英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 
   
