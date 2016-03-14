@@ -19,15 +19,15 @@
  
  Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
   
- <li>英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 （** 可选 **）
+ <li>英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
   
- <li>网络资源：使用Stackoverflow.com （** 可选 **） 
+ <li>网络资源：使用Stackoverflow.com （ 可选） 
  
  <li>数据分析：统计、回归及可视化
  
  <li>单元测试：测试对象为“基于IAPWS-IF97的水和水蒸汽物性计算软件包” 
        
- <li>应用实践：** 3-5 ** 个专业相关问题求解程序设计，含代码规范、软件测试、任务管理、交互计算及文档撰写等  
+ <li>应用实践： 3-5 个专业相关问题求解程序设计，含代码规范、软件测试、任务管理、交互计算及文档撰写等  
  </ol>
 
 ## 下载docx文档
