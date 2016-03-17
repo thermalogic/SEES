@@ -17,7 +17,11 @@
  
  <li>版本管理及团队编程2：Git、Github、EGit等 
  
- Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+ Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/
+ 
+ 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+ 
+ Eclipse联机帮助：Help->Help Contrents->EGit Documentation
   
  <li>英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
   
