@@ -7,11 +7,11 @@ Dr. Cheng Maohua
 School of Energy and Environment  
 Southeast University  
 Nanjing,China  
-Email£º cmh@seu.edu.cn
+Emailï¼š cmh@seu.edu.cn
 
 I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
 
->¡°When the going gets tough, the tough get going.¡±  Joseph P. Kennedy
+>â€œWhen the going gets tough, the tough get going.â€  Joseph P. Kennedy
 
 I hope you will keep at it and I wish you continued success in the course!
 
@@ -44,17 +44,17 @@ Lectures in IPython notebook.
 
 Please install Jupyter to read and interactive with the notebook.
 
-Online read-only versions£º
+Online read-only versionsï¼š
 
    http://nbviewer.ipython.org/github/Py03013052/home/tree/master/notebook/
 
-×¢£º
+æ³¨ï¼š
 
- ¿Î³ÌÊ¹ÓÃ½»»¥Ê½¼ÆËãIPython Notebook½ÌÑ§£¬Ã»ÓĞPPTºÍÆäËû¸ñÊ½µÄ½²Òå¡£
+ è¯¾ç¨‹ä½¿ç”¨äº¤äº’å¼è®¡ç®—IPython Notebookæ•™å­¦ï¼Œæ²¡æœ‰PPTå’Œå…¶ä»–æ ¼å¼çš„è®²ä¹‰ã€‚
 
- ÈçĞèÆäËû¸ñÊ½½²Òå£¬Çë´Óipynb¸ñÊ½×ª»»¡£
+ å¦‚éœ€å…¶ä»–æ ¼å¼è®²ä¹‰ï¼Œè¯·ä»ipynbæ ¼å¼è½¬æ¢ã€‚
 
- Èçpdf¸ñÊ½½²Òå: ÔÚnbviewer.ipythonä¯ÀÀÒ³ÃæÖĞ£¬Ñ¡Ôñ¡°´òÓ¡¡±£¬È»ºó£¬Ñ¡Ôñ¡°´òÓ¡µ½PDF¡±,¼´¿É²úÉúµ±Ç°Ò³ÃæµÄpdfÎÄ¼ş¡£
+ å¦‚pdfæ ¼å¼è®²ä¹‰: åœ¨nbviewer.ipythonæµè§ˆé¡µé¢ä¸­ï¼Œé€‰æ‹©â€œæ‰“å°â€ï¼Œç„¶åï¼Œé€‰æ‹©â€œæ‰“å°åˆ°PDFâ€,å³å¯äº§ç”Ÿå½“å‰é¡µé¢çš„pdfæ–‡ä»¶ã€‚
 
 # Code
 
@@ -62,59 +62,59 @@ Online read-only versions£º
 
 # Guide
 
-  Software Guide(Chinese£©
+  Software Guide(Chineseï¼‰
 
-<b>¿Î³ÌÊ¹ÓÃÈí¼ş</b>
+<b>è¯¾ç¨‹ä½¿ç”¨è½¯ä»¶</b>
 
-1 PythonÓïÑÔ¼°Æä¿ª·¢»·¾³£ºPython3¡¢Eclipse IDE¡¢PyDevµÈ
+1 Pythonè¯­è¨€åŠå…¶å¼€å‘ç¯å¢ƒï¼šPython3ã€Eclipse IDEã€PyDevç­‰
 
-2 ´úÂëµ÷ÊÔ¡¢Èí¼ş²âÊÔ¡¢ÈÎÎñ¹ÜÀíµÈÈí¼ş¹¤³Ì¹¤¾ß(Python°æ):pep8¡¢doctest¡¢unittestµÈ
+2 ä»£ç è°ƒè¯•ã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ç­‰è½¯ä»¶å·¥ç¨‹å·¥å…·(Pythonç‰ˆ):pep8ã€doctestã€unittestç­‰
 
-3 ¿ÆÑ§/½»»¥¼ÆËã£ºSciPy¡¢JupyterµÈ
+3 ç§‘å­¦/äº¤äº’è®¡ç®—ï¼šSciPyã€Jupyterç­‰
 
-4 ÈÈ¹¤¼ÆËã£ºIF97µÈ
+4 çƒ­å·¥è®¡ç®—ï¼šIF97ç­‰
 
-5 °æ±¾¿ØÖÆºÍÉçÇø±à³Ì:EGit¡¢GithubµÈ
+5 ç‰ˆæœ¬æ§åˆ¶å’Œç¤¾åŒºç¼–ç¨‹:EGitã€Githubç­‰
 
-6 ÎÄµµ×«Ğ´£º MS Word¡¢Jupyter Notebook¡¢MakedownµÈ
+6 æ–‡æ¡£æ’°å†™ï¼š MS Wordã€Jupyter Notebookã€Makedownç­‰
 
 # Practice
 
 Assignment of practice(Chinese)
 
-º­¸ÇPython³ÌĞòÉè¼Æ¡¢´úÂë¹æ·¶¡¢Èí¼ş²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢ÎÄµµ×«Ğ´ºÍÓ¢ÎÄ×ÊÔ´Ê¹ÓÃµÈÄÜÁ¦ÑµÁ·£»
+æ¶µç›–Pythonç¨‹åºè®¾è®¡ã€ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€æ–‡æ¡£æ’°å†™å’Œè‹±æ–‡èµ„æºä½¿ç”¨ç­‰èƒ½åŠ›è®­ç»ƒï¼›
 
-Éæ¼°Êı¾İ·ÖÎö¡¢½»»¥¼ÆËã¡¢ÉçÇø±à³ÌµÈ¿ÆÑ§¼ÆËãºÍÈí¼ş¿ª·¢Ä£Ê½¡£
+æ¶‰åŠæ•°æ®åˆ†æã€äº¤äº’è®¡ç®—ã€ç¤¾åŒºç¼–ç¨‹ç­‰ç§‘å­¦è®¡ç®—å’Œè½¯ä»¶å¼€å‘æ¨¡å¼ã€‚
 
-1. Èí¼ş¿ª·¢»ù´¡£ºPython¿ª·¢»·¾³½¨Á¢  
+1. è½¯ä»¶å¼€å‘åŸºç¡€ï¼šPythonå¼€å‘ç¯å¢ƒå»ºç«‹  
 
-2. °æ±¾¹ÜÀí¼°ÍÅ¶Ó±à³Ì1£º½¨Á¢GithubÕË»§¡¢»ù±¾²Ù×÷¡¢¼ÓÈëÉçÇø±à³Ì×éµÈ£¬  
+2. ç‰ˆæœ¬ç®¡ç†åŠå›¢é˜Ÿç¼–ç¨‹1ï¼šå»ºç«‹Githubè´¦æˆ·ã€åŸºæœ¬æ“ä½œã€åŠ å…¥ç¤¾åŒºç¼–ç¨‹ç»„ç­‰ï¼Œ  
 
-3. °æ±¾¹ÜÀí¼°ÍÅ¶Ó±à³Ì2£ºGit¡¢Github¡¢EGitµÈ
+3. ç‰ˆæœ¬ç®¡ç†åŠå›¢é˜Ÿç¼–ç¨‹2ï¼šGitã€Githubã€EGitç­‰
 
-4. Ó¢ÎÄÔÄ¶Á£º·­ÒëGuttag, John½Ì³ÌÖĞµÄ6.2.3ºÍ6.2.4 £¨¿ÉÑ¡ £©
+4. è‹±æ–‡é˜…è¯»ï¼šç¿»è¯‘Guttag, Johnæ•™ç¨‹ä¸­çš„6.2.3å’Œ6.2.4 ï¼ˆå¯é€‰ ï¼‰
 
-5. ÍøÂç×ÊÔ´£ºÊ¹ÓÃStackoverflow.com £¨ ¿ÉÑ¡£©
+5. ç½‘ç»œèµ„æºï¼šä½¿ç”¨Stackoverflow.com ï¼ˆ å¯é€‰ï¼‰
 
-6. Êı¾İ·ÖÎö£ºÍ³¼Æ¡¢»Ø¹é¼°¿ÉÊÓ»¯
+6. æ•°æ®åˆ†æï¼šç»Ÿè®¡ã€å›å½’åŠå¯è§†åŒ–
 
-7. µ¥Ôª²âÊÔ£º²âÊÔ¶ÔÏóÎª¡°»ùÓÚIAPWS-IF97µÄË®ºÍË®ÕôÆûÎïĞÔ¼ÆËãÈí¼ş°ü¡±
+7. å•å…ƒæµ‹è¯•ï¼šæµ‹è¯•å¯¹è±¡ä¸ºâ€œåŸºäºIAPWS-IF97çš„æ°´å’Œæ°´è’¸æ±½ç‰©æ€§è®¡ç®—è½¯ä»¶åŒ…â€
 
-8. Ó¦ÓÃÊµ¼ù£º3-5 ¸ö×¨ÒµÏà¹ØÎÊÌâÇó½â³ÌĞòÉè¼Æ£¬º¬´úÂë¹æ·¶¡¢Èí¼ş²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢½»»¥¼ÆËã¼°ÎÄµµ×«Ğ´µÈ  
+8. åº”ç”¨å®è·µï¼š3-5 ä¸ªä¸“ä¸šç›¸å…³é—®é¢˜æ±‚è§£ç¨‹åºè®¾è®¡ï¼Œå«ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€äº¤äº’è®¡ç®—åŠæ–‡æ¡£æ’°å†™ç­‰  
 
 
 # Textbooks
 
 1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
-2. ×ŞĞÀ. ¹¹½¨Ö®·¨: ÏÖ´úÈí¼ş¹¤³Ì(µÚ1°æ). ÈËÃñÓÊµç³ö°æÉç, 2014.09
+2. é‚¹æ¬£. æ„å»ºä¹‹æ³•: ç°ä»£è½¯ä»¶å·¥ç¨‹(ç¬¬1ç‰ˆ). äººæ°‘é‚®ç”µå‡ºç‰ˆç¤¾, 2014.09
 
 # References
 
 
 <ol>
 
-<li>Áº½ÜÒë. ±à³Ìµ¼ÂÛ. ÈËÃñÓÊµç³ö°æÉç( µÚ1°æ) .  2015.03
+<li>æ¢æ°è¯‘. ç¼–ç¨‹å¯¼è®º. äººæ°‘é‚®ç”µå‡ºç‰ˆç¤¾( ç¬¬1ç‰ˆ) .  2015.03
 
 <li> Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
@@ -122,25 +122,25 @@ Assignment of practice(Chinese)
 
 <li>Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-<li>Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11   
+<li>Helen Shen. Interactive notebooks: Sharing the codeï¼ Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
 
-<li>Ö£Î°·¼. PyDev for Eclipse¼ò½é. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+<li>éƒ‘ä¼ŸèŠ³. PyDev for Eclipseç®€ä»‹. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
 <li>Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
-<li>ÁÎÑ©·å. Git½Ì³Ì  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+<li>å»–é›ªå³°. Gitæ•™ç¨‹  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 
-<li>ÕÅÓ±. Python´úÂëµ÷ÊÔ¼¼ÇÉ. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
+<li>å¼ é¢–. Pythonä»£ç è°ƒè¯•æŠ€å·§. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
 
 <li>Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
 <li>Jeff Younker. Foundations of Agile Python Development. Apress, 2008
 
-<li>ÍõÛó. ËùÎ½Èí¼ş¹¤³Ì. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering
+<li>ç‹å . æ‰€è°“è½¯ä»¶å·¥ç¨‹. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering
 
 <li>FOSSEE. Software Engineering for Engineers and Scientists  https://github.com/Py03013052/sees
 
@@ -148,8 +148,8 @@ Assignment of practice(Chinese)
 <li>Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
 
-<li>ÑÏÎµÃô Àî¶¬Ã· ÎâÎ°Ãñ. Êı¾İ½á¹¹£¨CÓïÑÔ°æ£©£¬ÈËÃñÓÊµç³ö°æÉç£¨µÚ2°æ£©,2015Äê2ÔÂ  
+<li>ä¸¥è”šæ• æå†¬æ¢… å´ä¼Ÿæ°‘. æ•°æ®ç»“æ„ï¼ˆCè¯­è¨€ç‰ˆï¼‰ï¼Œäººæ°‘é‚®ç”µå‡ºç‰ˆç¤¾ï¼ˆç¬¬2ç‰ˆï¼‰,2015å¹´2æœˆ  
 
-<li>ÅË½ğ¹ó,¹ËÌú³É,Àî³É·¨µÈÒë. Ëã·¨µ¼ÂÛ£¨Ô­ÊéµÚ¶ş°æ£©. »úĞµ¹¤Òµ³ö°æÉç,2010Äê7ÔÂ
+<li>æ½˜é‡‘è´µ,é¡¾é“æˆ,ææˆæ³•ç­‰è¯‘. ç®—æ³•å¯¼è®ºï¼ˆåŸä¹¦ç¬¬äºŒç‰ˆï¼‰. æœºæ¢°å·¥ä¸šå‡ºç‰ˆç¤¾,2010å¹´7æœˆ
 
 </ol>

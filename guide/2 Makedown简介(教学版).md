@@ -159,12 +159,12 @@ Makedown制作软件很多，“程序员”用编程环境中的更多一些。
 
 ### 使用Eclipse
 
-Eclispe IDE内置支持Makedown撰写，点“Preview"标签可预览文档
+Eclispe IDE内置支持Makedown撰写，点“Preview"标签可预览文档（注意：支持较弱）
 
 ### 使用Atom
 
 Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
-也是撰写Makedown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
+是撰写Makedown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
 
 ![使用Atom撰写Makedown文档](./atom_makedown.PNG)
 
@@ -180,8 +180,7 @@ Visual Studio Code内置支持Makedown撰写和预览，"Ctrl+K V"打开一个�
 
 1. **Atom、Visual Studio Code都是基于Electron框架开发的，Electron可能改变未来应用程序UI的实现方式。**
 
-2. 目前Atom和Visual Studio Code的中文编码支持尚有不足，其编写的中文文档，
-在其他软件中可能乱码
+2. 在Atom和Visual Studio Code的含中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
 
 ### 参考
 

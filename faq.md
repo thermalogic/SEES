@@ -1,49 +1,49 @@
 
 # FAQ 
 
-#### pip install  --upgrade pip  ÓĞÊ±Ê§°Ü
+#### pip install  --upgrade pip  æœ‰æ—¶å¤±è´¥
 
- Ô­Òò£ºpip °übug
+ åŸå› ï¼špip åŒ…bug
  
- ½â¾ö·½·¨£º
+ è§£å†³æ–¹æ³•ï¼š
     
      python -m pip install -U pip
  
- ²Î¼û£º
+ å‚è§ï¼š
  
    https://pip.pypa.io/en/stable/installing/
 
 #### Python3.*  Windows 7/8 - Installation Fail 0x80240017 
 
-Ô­Òò£ºPythonµÄ±àÒëÊ±Ê¹ÓÃµÄCÔËĞĞÊ±¿âºÍ WindowsÏµÍ³ÖĞµÄ²»Ò»ÖÂ
+åŸå› ï¼šPythonçš„ç¼–è¯‘æ—¶ä½¿ç”¨çš„Cè¿è¡Œæ—¶åº“å’Œ Windowsç³»ç»Ÿä¸­çš„ä¸ä¸€è‡´
 
-½â¾ö·½·¨£º
+è§£å†³æ–¹æ³•ï¼š
 
-   1£©¸ü»»Python3.*°æ±¾£¬Èç3.5¸ÄÎª3.4
+   1ï¼‰æ›´æ¢Python3.*ç‰ˆæœ¬ï¼Œå¦‚3.5æ”¹ä¸º3.4
    
-   2£©Éı¼¶²Ù×÷ÏµÍ³µ½Windows10
+   2ï¼‰å‡çº§æ“ä½œç³»ç»Ÿåˆ°Windows10
    
-   3) ÊÖ¹¤¸üĞÂ windowsµÄÍ¨ÓÃCÔËĞĞÊ±¿â
+   3) æ‰‹å·¥æ›´æ–° windowsçš„é€šç”¨Cè¿è¡Œæ—¶åº“
     
       https://support.microsoft.com/en-us/kb/2999226
 
-²Î¼û£º    
+å‚è§ï¼š    
 
    http://bugs.python.org/issue25157
    
-#### ÃüÁîĞĞ>jupyter notebookºó£¬jupyter×ÜÊÇÆô¶¯µ½C:\Windows\system32 
+#### å‘½ä»¤è¡Œ>jupyter notebookåï¼Œjupyteræ€»æ˜¯å¯åŠ¨åˆ°C:\Windows\system32 
 
-Ô­Òò£ºWindowsµÄÒ»¸öbug£¬Ê¹ÓÃ¹ÜÀíÔ±È¨ÏŞÔËĞĞcmd,¶¼Æô¶¯µ½C:\Windows\system32
+åŸå› ï¼šWindowsçš„ä¸€ä¸ªbugï¼Œä½¿ç”¨ç®¡ç†å‘˜æƒé™è¿è¡Œcmd,éƒ½å¯åŠ¨åˆ°C:\Windows\system32
 
-½â¾ö·½·¨£ºÊ¹ÓÃÆÕÍ¨ÓÃ»§È¨ÏŞÔËĞĞjupyter notebook
+è§£å†³æ–¹æ³•ï¼šä½¿ç”¨æ™®é€šç”¨æˆ·æƒé™è¿è¡Œjupyter notebook
 
-#### Windows°²×°·À»¤
+#### Windowså®‰è£…é˜²æŠ¤
 
-1 Î¢ÈíÌá¹©µÄsecurity essentialsÊÇWindows×îºÃµÄ°²È«·À»¤Èí¼ş¡£´ÓÏÂÃæÍøÕ¾ÏÂÔØºÍ²Ù×÷ÏµÍ³¶ÔÓ¦µÄ°æ±¾°²×°£¬
+1 å¾®è½¯æä¾›çš„security essentialsæ˜¯Windowsæœ€å¥½çš„å®‰å…¨é˜²æŠ¤è½¯ä»¶ã€‚ä»ä¸‹é¢ç½‘ç«™ä¸‹è½½å’Œæ“ä½œç³»ç»Ÿå¯¹åº”çš„ç‰ˆæœ¬å®‰è£…ï¼Œ
 
 http://windows.microsoft.com/zh-cn/windows/security-essentials-download
 
-2 °²×°security essentials£¬Ğ¶ÔØËùÓĞÆäËû¸÷ÖÖ"°²È«¡±Èí¼ş¡£
+2 å®‰è£…security essentialsï¼Œå¸è½½æ‰€æœ‰å…¶ä»–å„ç§"å®‰å…¨â€è½¯ä»¶ã€‚
 
 
 

@@ -2,53 +2,53 @@
   
 # Practice
 
- <h2>ÐÐÊÇÖªÖ®Ê¼£¬ÖªÊÇÐÐÖ®³É    - ÌÕÐÐÖª </h2>
+ <h2>è¡Œæ˜¯çŸ¥ä¹‹å§‹ï¼ŒçŸ¥æ˜¯è¡Œä¹‹æˆ    - é™¶è¡ŒçŸ¥ </h2>
  
- ¿Î³ÌÊµ¼ù×÷Òµ£º
+ è¯¾ç¨‹å®žè·µä½œä¸šï¼š
  
- ¡¡¡¡º­¸ÇPython³ÌÐòÉè¼Æ¡¢´úÂë¹æ·¶¡¢Èí¼þ²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢ÎÄµµ×«Ð´ºÍÓ¢ÎÄ×ÊÔ´Ê¹ÓÃµÈÄÜÁ¦ÑµÁ·£»
+ ã€€ã€€æ¶µç›–Pythonç¨‹åºè®¾è®¡ã€ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€æ–‡æ¡£æ’°å†™å’Œè‹±æ–‡èµ„æºä½¿ç”¨ç­‰èƒ½åŠ›è®­ç»ƒï¼›
  
- ¡¡¡¡Éæ¼°Êý¾Ý·ÖÎö¡¢½»»¥¼ÆËã¡¢ÉçÇø±à³ÌµÈ¿ÆÑ§¼ÆËãºÍÈí¼þ¿ª·¢Ä£Ê½¡£
+ ã€€ã€€æ¶‰åŠæ•°æ®åˆ†æžã€äº¤äº’è®¡ç®—ã€ç¤¾åŒºç¼–ç¨‹ç­‰ç§‘å­¦è®¡ç®—å’Œè½¯ä»¶å¼€å‘æ¨¡å¼ã€‚
  
  <ol>
- <li>Èí¼þ¿ª·¢»ù´¡£ºPython¿ª·¢»·¾³½¨Á¢  
+ <li>è½¯ä»¶å¼€å‘åŸºç¡€ï¼šPythonå¼€å‘çŽ¯å¢ƒå»ºç«‹  
  
- <li>°æ±¾¹ÜÀí¼°ÍÅ¶Ó±à³Ì1£º½¨Á¢GithubÕË»§¡¢»ù±¾²Ù×÷¡¢¼ÓÈëÉçÇø±à³Ì×éµÈ£¬  
+ <li>ç‰ˆæœ¬ç®¡ç†åŠå›¢é˜Ÿç¼–ç¨‹1ï¼šå»ºç«‹Githubè´¦æˆ·ã€åŸºæœ¬æ“ä½œã€åŠ å…¥ç¤¾åŒºç¼–ç¨‹ç»„ç­‰ï¼Œ  
  
- <li>°æ±¾¹ÜÀí¼°ÍÅ¶Ó±à³Ì2£ºGit¡¢Github¡¢EGitµÈ 
+ <li>ç‰ˆæœ¬ç®¡ç†åŠå›¢é˜Ÿç¼–ç¨‹2ï¼šGitã€Githubã€EGitç­‰ 
  
  Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/
  
- Öªºõ£ºÔõÑùÊ¹ÓÃGitHub. http://www.zhihu.com/question/20070065
+ çŸ¥ä¹Žï¼šæ€Žæ ·ä½¿ç”¨GitHub. http://www.zhihu.com/question/20070065
  
- EclipseÁª»ú°ïÖú£ºHelp->Help Contrents->EGit Documentation
+ Eclipseè”æœºå¸®åŠ©ï¼šHelp->Help Contrents->EGit Documentation
   
- <li>Ó¢ÎÄÔÄ¶Á£º·­ÒëGuttag, John½Ì³ÌÖÐµÄ6.2.3ºÍ6.2.4 £¨ ¿ÉÑ¡£©
+ <li>è‹±æ–‡é˜…è¯»ï¼šç¿»è¯‘Guttag, Johnæ•™ç¨‹ä¸­çš„6.2.3å’Œ6.2.4 ï¼ˆ å¯é€‰ï¼‰
   
- <li>ÍøÂç×ÊÔ´£ºÊ¹ÓÃStackoverflow.com £¨ ¿ÉÑ¡£© 
+ <li>ç½‘ç»œèµ„æºï¼šä½¿ç”¨Stackoverflow.com ï¼ˆ å¯é€‰ï¼‰ 
  
- <li>Êý¾Ý·ÖÎö£ºÍ³¼Æ¡¢»Ø¹é¼°¿ÉÊÓ»¯
+ <li>æ•°æ®åˆ†æžï¼šç»Ÿè®¡ã€å›žå½’åŠå¯è§†åŒ–
  
- <li>µ¥Ôª²âÊÔ£º²âÊÔ¶ÔÏóÎª¡°»ùÓÚIAPWS-IF97µÄË®ºÍË®ÕôÆûÎïÐÔ¼ÆËãÈí¼þ°ü¡± 
+ <li>å•å…ƒæµ‹è¯•ï¼šæµ‹è¯•å¯¹è±¡ä¸ºâ€œåŸºäºŽIAPWS-IF97çš„æ°´å’Œæ°´è’¸æ±½ç‰©æ€§è®¡ç®—è½¯ä»¶åŒ…â€ 
        
- <li>Ó¦ÓÃÊµ¼ù£º 3-5 ¸ö×¨ÒµÏà¹ØÎÊÌâÇó½â³ÌÐòÉè¼Æ£¬º¬´úÂë¹æ·¶¡¢Èí¼þ²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢½»»¥¼ÆËã¼°ÎÄµµ×«Ð´µÈ  
+ <li>åº”ç”¨å®žè·µï¼š 3-5 ä¸ªä¸“ä¸šç›¸å…³é—®é¢˜æ±‚è§£ç¨‹åºè®¾è®¡ï¼Œå«ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€äº¤äº’è®¡ç®—åŠæ–‡æ¡£æ’°å†™ç­‰  
  </ol>
 
-## ÏÂÔØdocxÎÄµµ
+## ä¸‹è½½docxæ–‡æ¡£
 
-1. ÏÂÔØÕû¸öhome²Ö¿âµÄzipÎÄ¼þ£¬½âÑ¹
+1. ä¸‹è½½æ•´ä¸ªhomeä»“åº“çš„zipæ–‡ä»¶ï¼Œè§£åŽ‹
          
-          ½øÈëhome²Ö¿âºó£¬µã¡°Download ZIP",ÈçÏÂÍ¼
+          è¿›å…¥homeä»“åº“åŽï¼Œç‚¹â€œDownload ZIP",å¦‚ä¸‹å›¾
 
-   ![ÏÂÔØÕû¸öhome²Ö¿âµÄzipÎÄ¼þ](./downloadzip.PNG)
+   ![ä¸‹è½½æ•´ä¸ªhomeä»“åº“çš„zipæ–‡ä»¶](./downloadzip.PNG)
    
-   ÏÂÔØÕû¸öhome²Ö¿âµÄzipÎÄ¼þ£¬½âÑ¹
+   ä¸‹è½½æ•´ä¸ªhomeä»“åº“çš„zipæ–‡ä»¶ï¼Œè§£åŽ‹
 
-2. ÔÚhome²Ö¿âÖÐµ±Ç°Ä¿Â¼ÖÐÏÂÔØ
+2. åœ¨homeä»“åº“ä¸­å½“å‰ç›®å½•ä¸­ä¸‹è½½
   
-         ÔÚhome²Ö¿âÖÐµ±Ç°Ä¿Â¼\parcticeÏÂ£¬µã»÷ÎÄµµºó£¬ÉÔµÈ£¬µãÏÂÍ¼ÖÐµÄ¡±viewraw",ÌáÊ¾ÏÂÔØÊ±£¬½øÐÐÏÂÔØ
+         åœ¨homeä»“åº“ä¸­å½“å‰ç›®å½•\parcticeä¸‹ï¼Œç‚¹å‡»æ–‡æ¡£åŽï¼Œç¨ç­‰ï¼Œç‚¹ä¸‹å›¾ä¸­çš„â€viewraw",æç¤ºä¸‹è½½æ—¶ï¼Œè¿›è¡Œä¸‹è½½
  
-        Èç¹û°²×°ÓÐÑ¸À×£¬»áÆô¶¯Ñ¸À×ÏÂÔØ
+        å¦‚æžœå®‰è£…æœ‰è¿…é›·ï¼Œä¼šå¯åŠ¨è¿…é›·ä¸‹è½½
  
-  ![±¾µØÏÂÔØ](./viewraw.PNG)
+  ![æœ¬åœ°ä¸‹è½½](./viewraw.PNG)
 

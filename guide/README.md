@@ -1,55 +1,53 @@
 
   
-# Èí¼şÊ¹ÓÃÊÖ²á
+# è½¯ä»¶ä½¿ç”¨æ‰‹å†Œ
 
-¡°¹¤ÓûÉÆÆäÊÂ£¬±ØÏÈÀûÆäÆ÷¡±,Èí¼ş¿ª·¢ÉÙ²»ÁËÈí¼ş¹¤¾ß¡£Ê×ÏÈ£¬ĞèÒª»áÓÃ£¬²»È»£¬Ö½ÉÏÌ¸±øÊÇºÍÈí¼şÎŞÔµµÄ¡£   ½øÒ»²½ÊÇÉÃÓÃÈí¼ş¹¤¾ß£¬Ìá¸ßÑ§Ï°ºÍ¹¤×÷µÄĞ§ÂÊ¡£ 
+â€œå·¥æ¬²å–„å…¶äº‹ï¼Œå¿…å…ˆåˆ©å…¶å™¨â€,è½¯ä»¶å¼€å‘å°‘ä¸äº†è½¯ä»¶å·¥å…·ã€‚é¦–å…ˆï¼Œéœ€è¦ä¼šç”¨ï¼Œä¸ç„¶ï¼Œçº¸ä¸Šè°ˆå…µæ˜¯å’Œè½¯ä»¶æ— ç¼˜çš„ã€‚   è¿›ä¸€æ­¥æ˜¯æ“…ç”¨è½¯ä»¶å·¥å…·ï¼Œæé«˜å­¦ä¹ å’Œå·¥ä½œçš„æ•ˆç‡ã€‚ 
      
-¿Î³ÌÈí¼şÊ¹ÓÃÊÖ²áÊÇÍ¬Ñ§ÃÇ»áÓÃ¡¢ÉÃÓÃÈí¼şµÄĞ¡°ïÊÖ£¬ÖúÁ¦Í¬Ñ§ÃÇ¡°¶¯¡±ÆğÀ´£¡
+è¯¾ç¨‹è½¯ä»¶ä½¿ç”¨æ‰‹å†Œæ˜¯åŒå­¦ä»¬ä¼šç”¨ã€æ“…ç”¨è½¯ä»¶çš„å°å¸®æ‰‹ï¼ŒåŠ©åŠ›åŒå­¦ä»¬â€œåŠ¨â€èµ·æ¥ï¼
 
-¸ü¶àµÄÈí¼şÈçºÎÊ¹ÓÃ£¿ <b>Í¬Ñ§ÃÇ£º×öÖĞÑ§£¡ Èí¼şÊÇ¡°ÓÃ¡±»áµÄ£¬²»ÊÇ¡°¶Á¡±»áµÄ£¡</b>
+æ›´å¤šçš„è½¯ä»¶å¦‚ä½•ä½¿ç”¨ï¼Ÿ <b>åŒå­¦ä»¬ï¼šåšä¸­å­¦ï¼ è½¯ä»¶æ˜¯â€œç”¨â€ä¼šçš„ï¼Œä¸æ˜¯â€œè¯»â€ä¼šçš„ï¼</b>
      
-ÒÔºóµÄÑ§Ï°¹¤×÷ÖĞ£¬Ê¹ÓÃÄÇĞ©¹¤¾ßºÃ£¿ ÄÇĞ©¹¤¾ßÄÜÖúÄã¸üºÃµÄ¿ªÕ¹¹¤×÷¾ÍÊÇ´ğ°¸¡£²»Òª×ö¹¤¾ßµÄÅ«Á¥¡£ 
+ä»¥åçš„å­¦ä¹ å·¥ä½œä¸­ï¼Œä½¿ç”¨é‚£äº›å·¥å…·å¥½ï¼Ÿ é‚£äº›å·¥å…·èƒ½åŠ©ä½ æ›´å¥½çš„å¼€å±•å·¥ä½œå°±æ˜¯ç­”æ¡ˆã€‚ä¸è¦åšå·¥å…·çš„å¥´éš¶ã€‚ 
 
-# ¿Î³ÌÊ¹ÓÃÈí¼ş
+# è¯¾ç¨‹ä½¿ç”¨è½¯ä»¶
     
-1 PythonÓïÑÔ¼°Æä¿ª·¢»·¾³£ºPython3¡¢Eclipse IDE¡¢PyDevµÈ
+1 Pythonè¯­è¨€åŠå…¶å¼€å‘ç¯å¢ƒï¼šPython3ã€Eclipse IDEã€PyDevç­‰
     
-2 Python°æ´úÂëµ÷ÊÔ¡¢Èí¼ş²âÊÔµÈÈí¼ş¹¤³Ì¹¤¾ß:pep8¡¢unittest,doctestµÈ
+2 Pythonç‰ˆä»£ç è°ƒè¯•ã€è½¯ä»¶æµ‹è¯•ç­‰è½¯ä»¶å·¥ç¨‹å·¥å…·:pep8ã€unittest,doctestç­‰
     
-3 ¿ÆÑ§/½»»¥¼ÆËãÈí¼ş£ºSciPy¡¢JupyterµÈ
+3 ç§‘å­¦/äº¤äº’è®¡ç®—è½¯ä»¶ï¼šSciPyã€Jupyterç­‰
     
-4 ÈÈ¹¤¼ÆËãÈí¼ş°ü£ºIF97µÈ
+4 çƒ­å·¥è®¡ç®—è½¯ä»¶åŒ…ï¼šIF97ç­‰
     
-5 °æ±¾¿ØÖÆºÍÉçÇø±à³ÌÈí¼ş:EGit¡¢GithubµÈ
+5 ç‰ˆæœ¬æ§åˆ¶å’Œç¤¾åŒºç¼–ç¨‹è½¯ä»¶:EGitã€Githubç­‰
     
-6 ÎÄµµ×«Ğ´Èí¼ş£º MS Word¡¢Jupyter Notebook¡¢MakedownµÈ 
+6 æ–‡æ¡£æ’°å†™è½¯ä»¶ï¼š MS Wordã€Jupyter Notebookã€Makedownç­‰ 
         
 
-# ²Î¿¼ÎÄÏ×
+# å‚è€ƒæ–‡çŒ®
 
 1. Brainwy Software Ltd.  PyDev Manual. http://www.pydev.org/manual_101_root.html
 
-2. Ö£Î°·¼. PyDev for Eclipse¼ò½é. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+2. éƒ‘ä¼ŸèŠ³. PyDev for Eclipseç®€ä»‹. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
 
-3. ÕÅÓ±. Python´úÂëµ÷ÊÔ¼¼ÇÉ. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
+3. å¼ é¢–. Pythonä»£ç è°ƒè¯•æŠ€å·§. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05 
 
 4. Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
 
 5. Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-6. ËÎĞÅÇ¿. EclipseÖĞEGit²å¼şÊ¹ÓÃ--Éı¼¶°æ£º http://my.oschina.net/songxinqiang/blog/194203
+6. å»–é›ªå³°. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-7. ÁÎÑ©·å. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+7. çŸ¥ä¹ï¼šæ€æ ·ä½¿ç”¨GitHub. http://www.zhihu.com/question/20070065
 
-8. Öªºõ£ºÔõÑùÊ¹ÓÃGitHub. http://www.zhihu.com/question/20070065
+8. Python. https://www.python.org/
 
-9. Python. https://www.python.org/
+9. Scipy. http://www.scipy.org/
 
-10. Scipy. http://www.scipy.org/
+10. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-11. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-
-12. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11   
+11. Helen Shen. Interactive notebooks: Sharing the codeï¼ Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
 
