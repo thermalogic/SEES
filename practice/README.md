@@ -36,19 +36,9 @@
 
 ## 下载docx文档
 
-1. 下载整个home仓库的zip文件，解压
-         
-          进入home仓库后，点“Download ZIP",如下图
-
-   ![下载整个home仓库的zip文件](./downloadzip.PNG)
-   
-   下载整个home仓库的zip文件，解压
-
-2. 在home仓库中当前目录中下载
-  
-         在home仓库中当前目录\parctice下，点击文档后，稍等，点下图中的”viewraw",提示下载时，进行下载
+1. 下载整个仓库的zip文件，解压
  
-        如果安装有迅雷，会启动迅雷下载
+2. 在仓库中当前目录中 选择某个文件，点“raw"下载
  
-  ![本地下载](./viewraw.PNG)
+      
 
