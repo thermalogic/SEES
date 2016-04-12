@@ -1,30 +1,12 @@
+# Lectures in IPython notebook.
 
-# Notebook
-
-Lectures IPython notebooks.
- 
-¿Î³ÌÊ¹ÓÃ½»»¥Ê½¼ÆËãIPython Notebook½øĞĞ½ÌÑ§£¬Ã»ÓĞPPTºÍÆäËû¸ñÊ½µÄ½²Òå¡£ ÆäËû¸ñÊ½½²Òå£¬Çë´Óipynb¸ñÊ½×ª»»¡£ 
-  
-The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text¡£
-  
 Please install Jupyter to read and interactive with the notebook.
+
+	pip install jupyter
+
+Online read-only versionsï¼š
+
+   http://nbviewer.jupyter.org/github/Py03013052/sees-python-lectures/tree/master/notebook/
+
  
-Online read-only versions£º
  
-http://nbviewer.ipython.org/github/Py03013052/home/tree/master/notebook/
-   
-pdf¸ñÊ½½²Òå: ÔÚnbviewer.ipythonä¯ÀÀÒ³ÃæÖĞ£¬Ñ¡Ôñ¡°´òÓ¡¡±£¬È»ºó£¬Ñ¡Ôñ¡°´òÓ¡µ½PDF¡±,¼´¿É²úÉúµ±Ç°Ò³ÃæµÄpdfÎÄ¼ş¡£
- 
-# References
-
-1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08
-
-2. Python Software Foundation. Python 3.5.0 documentation https://docs.python.org/3/
-
-3. Doug Hellmann. Python Module of the Week. https://pymotw.com/
-
-4. Jupyter. http://jupyter.org/
-
-5. Helen Shen. Interactive notebooks: Sharing the code£® Nature, 2014.11
-
-http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261

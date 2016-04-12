@@ -100,7 +100,7 @@ def processTrajectories(fileName):
     for h in heights:
         totHeights = totHeights + pylab.array(h)
     meanHeights = totHeights/len(heights)
-    pylab.title('Trajectory of Projectile (Mean of '\
+    pylab.title('Trajectory of Projectile (Mean of '
                 + str(numTrials) + ' Trials)')
     pylab.xlabel('Inches from Launch Point')
     pylab.ylabel('Inches Above Launch Point')
