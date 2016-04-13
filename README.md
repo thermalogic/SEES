@@ -76,7 +76,7 @@ Online read-only versions：
 
 5 版本控制和社区编程:EGit、Github等
 
-6 文档撰写： MS Word、Jupyter Notebook、Makedown等
+6 文档撰写： MS Word、Jupyter Notebook、Markdown等
 
 # Practice
 

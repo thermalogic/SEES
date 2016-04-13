@@ -80,7 +80,7 @@ Markdown十分轻量，学习成本很低
 
  [东南大学](http://www.seu.edu.cn)
 
- [Makedown官网](http://daringfireball.net/projects/markdown/)
+ [Markdown官网](http://daringfireball.net/projects/markdown/)
 
 #### 插入图片
 
@@ -151,28 +151,28 @@ if last_key:
 
  ***
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
- 更多的语法规则，可访问[Makedown官网](http://daringfireball.net/projects/markdown/)。
+ 更多的语法规则，可访问[Markdown官网](http://daringfireball.net/projects/markdown/)。
 
 ## 2 撰写Makedown文档工具
 
-Makedown制作软件很多，“程序员”用编程环境中的更多一些。
+Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 
 ### 使用Eclipse
 
-Eclispe IDE内置支持Makedown撰写，点“Preview"标签可预览文档（注意：支持较弱）
+Eclispe IDE内置支持Markdown撰写，点“Preview"标签可预览文档（注意：支持较弱）
 
 ### 使用Atom
 
 Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
-是撰写Makedown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
+是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
 
-![使用Atom撰写Makedown文档](./atom_makedown.PNG)
+![使用Atom撰写Markdown文档](./atom_markdown.PNG)
 
 ### 使用Visual Studio Code
 
 Visual Studio Code是微软基于Electron框架开发文本编辑器，和Atom类似，目前插件较少。
 
-Visual Studio Code内置支持Makedown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
+Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
 在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
 
@@ -184,7 +184,7 @@ Visual Studio Code内置支持Makedown撰写和预览，"Ctrl+K V"打开一个�
 
 ### 参考
 
-1. [Makedown官网](http://daringfireball.net/projects/markdown/)
+1. [Markdown官网](http://daringfireball.net/projects/markdown/)
 2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 3. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 4. [VS Code Markdown updates](https://code.visualstudio.com/updates#_languages-markdown-preview/)
