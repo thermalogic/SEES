@@ -8,7 +8,7 @@ Linux操作系统是目前开源软件技术开发的主流平台，Ubuntu是多
 
 ### 安装方式
 
-Windows是目前同学们的主要工作环境，因此，在目前已经安装了Windows系统基础上，安装双系统是较好的安装模式。
+Windows是目前同学们的主要工作环境，因此，在目前已经安装了Windows系统的电脑上，安装双系统是较好的安装模式。
 
 安装前，在Windows环境下，从空余的硬盘空间中划分出一个空的独立分区，供安装Ubuntu使用。
 
@@ -17,7 +17,7 @@ Windows是目前同学们的主要工作环境，因此，在目前已经安装�
 
 ### 安装版本
 
-因为同学们需要使用中文，建议使用“中国味”的UbuntuKylin。
+ 新手，建议使用“中国味”的UbuntuKylin。
 
 UbuntuKylin 官网：http://www.ubuntukylin.com/
 
@@ -35,7 +35,7 @@ Ubuntu16.04系统缺省安装有Python3.5.1，但不完整，需补充: pip3、i
 
 ### 安装scipy
 
-Scipy系列软件包，使用apt在线安装安装。apt安装的是编译好的库
+apt在线安装
 ```bash
 sudo apt install python3-numpy python3-scipy python3-matplotlib
 ```
