@@ -68,7 +68,7 @@ Online read-only versions：
 
 1 Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
 
-2 代码调试、软件测试、任务管理等软件工程工具(Python版):pep8、doctest、unittest等
+2 代码规范、软件测试(Python版):pep8、unittest等
 
 3 科学/交互计算：SciPy、Jupyter等
 
@@ -76,7 +76,7 @@ Online read-only versions：
 
 5 版本控制和社区编程:EGit、Github等
 
-6 文档撰写： MS Word、Jupyter Notebook、Markdown等
+6 文档撰写： MS Word、Jupyter Notebook、 Markdown等
 
 # Practice
 
