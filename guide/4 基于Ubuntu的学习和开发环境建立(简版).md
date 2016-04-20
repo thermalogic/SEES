@@ -1,12 +1,6 @@
 # 基于Ubuntu的学习和开发环境建立
 
-Linux操作系统是目前开源软件技术开发的主流平台，Ubuntu是多种Linux发行版中用户较多的一种。
-
-建立Ubuntu下的开发环境，就迈出了学习Linux环境下的开发技术，感受日新月异的IT技术发展的第一步。
-
 ## 安装Ubuntu系统
-
-### 安装方式
 
 Windows是目前同学们的主要工作环境，因此，在目前已经安装了Windows系统的电脑上，安装双系统是较好的安装模式。
 
@@ -14,14 +8,29 @@ Windows是目前同学们的主要工作环境，因此，在目前已经安装�
 
 基本安装空间10G左右就可以了，为了以后工作方便，更大些为好，如：50G
 
+双系统安装过程，参考：
+
+U盘安装Windows和Ubuntu 15.04双系统图解教程
+
+http://www.linuxdiyf.com/linux/11165.html
+
+U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
+
+http://www.linuxdiyf.com/linux/19782.html
+
+#### 注意：适当分区
 
 ### 安装版本
 
- 新手，建议使用“中国味”的UbuntuKylin。
+Ubuntu　16.04 LTS
+ 
+新手，建议使用“中国味”的UbuntuKylin。
 
-UbuntuKylin 官网：http://www.ubuntukylin.com/
+http://www.ubuntukylin.com/
 
-使用2016年4月发布的UbuntuKylin16.04 LTS版(64位)。
+对Ubuntu比较熟悉，建议安装Xubuntu
+
+http://xubuntu.org/
 
 ## 建立Python3开发环境
 
