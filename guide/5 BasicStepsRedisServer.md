@@ -1,7 +1,15 @@
 
 ## Introduction to Redis
 
-Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.
+Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker. 
+
+The data model is **key-value**, but many different kind of values are support。
+
+It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. 
+
+Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, 
+
+and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.
 
 http://redis.io/
 
@@ -18,7 +26,7 @@ You can download the latest unsigned binaries and the unsigned MSI installer fro
 
 https://github.com/MSOpenTech/redis/releases
 
-** redis 3.0.501 **
+**redis 3.0.501**
 
 https://github.com/MSOpenTech/redis/releases/download/win-3.0.501/Redis-x64-3.0.501.msi
 
@@ -29,6 +37,17 @@ Redis-x64-3.0.501.msi
 ##  Installation on Linux
 
 http://redis.io/download
+
+### online install  Redis
+
+```
+$ sudo apt install redis-server
+```
+
+start redis server
+```
+$ redis-server
+```
 
 ### Download, extract and compile Redis with:
 
@@ -62,17 +81,22 @@ redis-py requires a running Redis server. See Redis's quickstart for installatio
 
 To install redis-py, simply:
 
-Linux
-
-```
-$ sudo pip3 install redis
-```
-
 Windows
  
 ```
 >pip install redis
 ```
+
+Linux
+
+```
+$ sudo pip3 install redis
+```
+or
+```
+$ sudo apt install python3-redis
+```
+
  
 ## Getting Started
 
