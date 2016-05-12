@@ -72,19 +72,23 @@ Markdown十分轻量，学习成本很低
 
 插入链接与插入图片的语法很像，区别在一个 !号
 
-    链接为：[]()
-
-    图片为：![]()
-
 #### 插入链接
 
+```
  [东南大学](http://www.seu.edu.cn)
-
- [Markdown官网](http://daringfireball.net/projects/markdown/)
+```
+[东南大学](http://www.seu.edu.cn)
+ 
+```
+  [Markdown官网](http://daringfireball.net/projects/markdown/)
+```
+[Markdown官网](http://daringfireball.net/projects/markdown/)
 
 #### 插入图片
-
-![东南大学Logo](./seu.gif)
+```
+  ![东南大学Logo](./img/seu.gif)
+````
+![东南大学Logo](./img/seu.gif)
 
 #### 1.5 粗体与斜体
 用两个星号包含一段文本是粗体，用一个 * 包含一段文本是斜体。
@@ -136,13 +140,13 @@ import sys
 for line in sys.stdin:
     (key, val) = line.strip().split("\t")
     if last_key and last_key != key:
-        print "%s\t%s" % (last_key, max_val)
+        print("%s\t%s" % (last_key, max_val)
         (last_key, max_val) = (key, int(val))
     else:
         (last_key, max_val) = (key, max(max_val, int(val)))
 
 if last_key:
-   print "%s\t%s" % (last_key, max_val)  
+   print("%s\t%s" % (last_key, max_val))  
 ```
 
 ### 1.8 分割线
@@ -157,16 +161,16 @@ if last_key:
 
 Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 
-### 使用Eclipse
+### 使用Eclipse插件
 
-Eclispe IDE内置支持Markdown撰写，点“Preview"标签可预览文档（注意：支持较弱）
+Eclispe IDE中安装Markdown Editor和GitHub Flavored Markdown Viewer插件
 
 ### 使用Atom
 
 Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
 是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
 
-![使用Atom撰写Markdown文档](./atom_markdown.PNG)
+![使用Atom撰写Markdown文档](./img/atom_markdown.PNG)
 
 ### 使用Visual Studio Code
 

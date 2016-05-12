@@ -96,15 +96,15 @@ or
 ```
 $ sudo apt install python3-redis
 ```
-
  
 ## Getting Started
 
 ```python
-import redis
-r = redis.StrictRedis(host='localhost', port=6379, db=0)
-r.set('foo', 'bar')
-r.get('foo')
+ import redis
+ 
+ r = redis.StrictRedis(host='localhost', port=6379, db=0)
+ r.set('foo', 'bar')
+ r.get('foo')
 ```
 
 
