@@ -1,8 +1,7 @@
 
 # Foundamentals and Practice of Software Engineering with Python
 
-* Instructor: Cheng Maohua
-* If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
+*  If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
 
   * [![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -12,11 +11,15 @@
 
 # Goal
 
-1.Writing clean, testable, high quality code in Python
+This course is intended to train Engineering students in good software practices and tools for producing code and documentation.
 
-2.The ability and habit of using the original IT resources in English,especially @ internet,to study and develop software
-
-<b>You will feel comfortable bringing computational thinking to bear on solving many of the problems you encounter during your studies, work, and even everyday life.</b>
+After successfully completing the program, the participants will be able to:
+* understand how software tools work together and how they can be used in tandem to carry out tasks
+* generate professional documents
+* use version control for both code and documents
+* Writing clean, testable, high quality code in Python
+* debug programs using a standardized approach
+* write unit tests and improve the quality of code
 
 # Contents
 
@@ -41,7 +44,7 @@ Online read-only versions：
 
 # Code
 
-  Python3.5
+  Python3.X Codes for Introduction to Computation and Programming Using Python
 
 # Guide
 
@@ -88,9 +91,7 @@ Assignment of practice(Chinese)
 
 # Textbooks
 
-1. John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
-
-2. 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
+John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
 # References
 
@@ -104,9 +105,6 @@ Assignment of practice(Chinese)
 
 <li>Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-<li>Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
-   http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
-
 <li>郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
 <li>Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
@@ -118,11 +116,9 @@ Assignment of practice(Chinese)
 <li>Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
-<li>Jeff Younker. Foundations of Agile Python Development. Apress, 2008
-
-<li>王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering
-
 <li>FOSSEE. Software Engineering for Engineers and Scientists  https://github.com/Py03013052/sees
+
+<li> 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
 <li>Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
