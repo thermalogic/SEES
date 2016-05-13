@@ -8,6 +8,8 @@
 
 * FOSSEE https://github.com/FOSSEE
 
+* Advanced JavaScript at NYU https://github.com/advanced-js
+
 ## Accounts
 
 * Cheng Zhao https://github.com/zcbenz
