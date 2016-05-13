@@ -6,7 +6,7 @@
 
   * [![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-   * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
+    * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
 
  * Email：cmh@seu.edu.cn
 
