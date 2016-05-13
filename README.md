@@ -37,7 +37,7 @@ Please install Jupyter to read and interactive with the notebook.
 
 Online read-only versions：
 
-   http://nbviewer.ipython.org/github/Py03013052/home/tree/SS2016/notebook/
+   http://nbviewer.ipython.org/github/Py03013052/home/tree/S2016/notebook/
 
 # Code
 
