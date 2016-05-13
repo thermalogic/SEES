@@ -1,23 +1,14 @@
 
 # Foundamentals and Practice of Software Engineering with Python
 
-[![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+* Instructor: Cheng Maohua
+* If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
 
-Dr. Cheng Maohua  
-School of Energy and Environment  
-Southeast University  
-Nanjing,China  
-Email： cmh@seu.edu.cn
+  * [![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-I offered the course through Github, so you will be always in programming and have to put in many hours. It may be tough to you.
+   * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
 
->“When the going gets tough, the tough get going.”  Joseph P. Kennedy
-
-I hope you will keep at it and I wish you continued success in the course!
-
-If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
-
-[![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+ * Email：cmh@seu.edu.cn
 
 # Goal
 
@@ -46,15 +37,7 @@ Please install Jupyter to read and interactive with the notebook.
 
 Online read-only versions：
 
-   http://nbviewer.ipython.org/github/Py03013052/home/tree/master/notebook/
-
-注：
-
- 课程使用交互式计算IPython Notebook教学，没有PPT和其他格式的讲义。
-
- 如需其他格式讲义，请从ipynb格式转换。
-
- 如pdf格式讲义: 在nbviewer.ipython浏览页面中，选择“打印”，然后，选择“打印到PDF”,即可产生当前页面的pdf文件。
+   http://nbviewer.ipython.org/github/Py03013052/home/tree/SS2016/notebook/
 
 # Code
 
@@ -62,7 +45,7 @@ Online read-only versions：
 
 # Guide
 
-  Software Guide(Chinese）
+Software Guide
 
 <b>课程使用软件</b>
 
@@ -111,7 +94,6 @@ Assignment of practice(Chinese)
 
 # References
 
-
 <ol>
 
 <li>梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
@@ -125,13 +107,11 @@ Assignment of practice(Chinese)
 <li>Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
 
-
 <li>郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
 <li>Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
 <li>廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
 
 <li>张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
 
@@ -143,7 +123,6 @@ Assignment of practice(Chinese)
 <li>王垠. 所谓软件工程. http://www.yinwang.org/blog-cn/2015/06/07/software-engineering
 
 <li>FOSSEE. Software Engineering for Engineers and Scientists  https://github.com/Py03013052/sees
-
 
 <li>Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
 http://interactivepython.org/runestone/static/pythonds/index.html
