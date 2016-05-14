@@ -1,64 +1,72 @@
 
-## Foundamentals and practice of software engineering with Python
+# Softwares for the Course
 
-### Softwares for the Course
+## Python3 and Packages
 
-1 Python3
+* Python3
+  https://www.python.org/downloads/
 
-https://www.python.org/downloads/ 
+* Scientic Computing package for Python
+ ```
+numpy
+scipy
+matplotlib
+ ```
+ http://www.scipy.org/install.html
 
-2 Scientic Computing package for Python 
-```
-numpy 
-scipy 
-matplotlib 
-```
-http://www.scipy.org/install.html 
+* Jupyter
 
-3 Jupyter
+  Open source, interactive data science and scientific computing
 
-Open source, interactive data science and scientific computing 
+  http://jupyter.org/
 
-http://jupyter.org/
+* IAPWS-IF97 Library
 
-4 IF97 Library
+  IF97 Library @ SEU
 
-IF97 Library @ SEU
+  https://github.com/Py03013052/SEUIF97
 
-https://github.com/Py03013052/SEUIF97
+* Unofficial Windows Binaries for Python Extension Packages
 
-5 Unofficial Windows Binaries for Python Extension Packages
+  by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
 
-by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
+  http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-http://www.lfd.uci.edu/~gohlke/pythonlibs/
+## Integrated Development Environment
 
-6 Integrated Development Environment
+* Eclipse http://www.eclipse.org/
 
-Eclipse http://www.eclipse.org/
+* Pydev: http://pydev.org/
 
-Pydev: http://pydev.org/ 
+##  Revision Control and Source Code Management
 
-7  Revision Control and Source Code Management
-
-   EGit is the Git integration for the Eclipse IDE 
+* EGit is the Git integration for the Eclipse IDE
 
       EGit: http://www.eclipse.org/egit/
 
-   GitHub is a code hosting platform for version control and collaboration. 
-   It lets you and others work together on projects from anywhere.
+* GitHub is a code hosting platform for version control and collaboration.
 
-      Github: https://github.com/
+     It lets you and others work together on projects from anywhere.
 
-###  Reference
+    Github: https://github.com/
 
-1. Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html 
+# Guide
 
-2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11 
+* [Guide](https://github.com/Py03013052/home/tree/S2016/guide)
 
-3. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02 
+# Reference
 
-4. 宋信强. Eclipse中EGit插件使用--升级版： http://my.oschina.net/songxinqiang/blog/194203
- 
+1. Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html
+
+2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+
+3. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+
+4. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+
+5. Scott Chacon，Ben Straub. Pro Git.
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
 5. GitHub, Inc. Hello World guide https://guides.github.com/activities/hello-world/
- 
+
+6. 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065

@@ -15,7 +15,7 @@
 
 **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
 
-**PyTurbine 1 Introduction_SEUIF97**
+**PySIS_Introduction_SEUIF97**
 
 **06 TESTING AND DEBUGGING**
 
@@ -23,9 +23,15 @@
 
 **08 CLASSES AND OBJECT-ORIENTED PROGRAMMING**
 
+**PySIS_Redis**
+
+**PySIS_Online Monitoring**
+
 **11 PLOTTING AND MORE ABOUT CLASSES**
 
-*PyTurbine 2 Cylinder efficiency(optional)*
+**15 UNDERSTANDING EXPERIMENTAL DATA**
+
+**16 LIES DAMNED LIES AND STATISTICS**
 
 **DevTools unittest**
 
@@ -39,10 +45,6 @@
 
 *DevTools Debugger(optional)*
 
-**15 UNDERSTANDING EXPERIMENTAL DATA**
-
-**16 LIES DAMNED LIES AND STATISTICS**
-
 *09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC(optional)*
 
 *10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES(optional)*
@@ -53,7 +55,7 @@
 
 *14 MONTE CARLO SIMULATION(optional)*
 
-**PyTurbine 3 Online Monitoring**
+
 
 
 
