@@ -102,6 +102,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
+  * A Byte of Python book https://github.com/swaroopch/byte-of-python
+
   * Scipy. http://www.scipy.org/
 
   * Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
@@ -114,6 +116,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
    * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
+   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
 * **Software engineering**
 
@@ -121,6 +124,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
   * Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
    http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+
+ * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
   * FOSSEE. Software Engineering for Engineers and Scientists  https://github.com/Py03013052/sees
 
