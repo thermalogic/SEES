@@ -64,7 +64,9 @@ matplotlib
 
 4. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-5. Scott Chacon，Ben Straub. Pro Git.
+5.  Jupyter Notebook Reference Guide.  http://nbviewer.jupyter.org/urls/bitbucket.org/ipre/calico/raw/master/notebooks/Documentation/Reference%20Guide/Reference%20Guide.ipynb
+
+6. Scott Chacon，Ben Straub. Pro Git.
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 5. GitHub, Inc. Hello World guide https://guides.github.com/activities/hello-world/

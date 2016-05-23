@@ -112,6 +112,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Git**
 
+   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
    * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
    * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
@@ -140,4 +142,4 @@ http://interactivepython.org/runestone/static/pythonds/index.html
 
  * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
 
-</ol>
+

@@ -1,4 +1,4 @@
-import unittest
+=import unittest
 
 class SimplisticTest(unittest.TestCase):
 
