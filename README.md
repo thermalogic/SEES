@@ -20,7 +20,7 @@ After successfully completing the program, the participants will be able to:
 * use version control for both code and documents
 * Writing clean, testable, high quality code in Python
 * debug programs using a standardized approach
-* write unit tests and improve the quality of code
+* write unit tests 
 
 ## Outline
 
