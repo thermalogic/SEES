@@ -129,7 +129,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
  * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
-  * FOSSEE. Software Engineering for Engineers and Scientists  https://github.com/Py03013052/sees
+  * FOSSEE. Software Engineering for Engineers and Scientists    https://github.com/FOSSEE/sees
 
   * 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
