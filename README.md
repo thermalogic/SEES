@@ -142,4 +142,19 @@ http://interactivepython.org/runestone/static/pythonds/index.html
 
  * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
 
+## TIPS
+
+We highly recommend you practice coding whenever you have a few minutes.
+
+Even if you are just modifying available code, it will be incredibly beneficial.
+
+You **NEED** to
+
+* use other resources,
+
+* read codes,
+
+*  **get your hands dirty** and **practice**
+
+**教学做是一件事，不是三件事。我们要在做上教，在做上学。不在做上用功夫，教固不成为教，学也不成为学。——陶行知**
 
