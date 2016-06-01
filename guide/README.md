@@ -21,6 +21,8 @@
    * Scipy. http://www.scipy.org/
 
    * Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+   
+   * mathJax.  http://nbviewer.jupyter.org/github/Py03013052/home/blob/S2016/notebook/Sup_MathJax-LaTeX.ipynb
 
    * Helen Shen. Interactive notebooks: Sharing the code． Nature, 2014.11   
    http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
