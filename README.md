@@ -84,7 +84,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
    3. 版本管理及团队编程2：Git、Github、EGit等
 
-   4. 英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 （可选 ）
+   4. 英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 
 
    5. 网络资源：使用Stackoverflow.com （ 可选）
 
