@@ -16,6 +16,10 @@
 
 * Vincent Lab:  https://github.com/vincentlab
 
+* OpenFOAM: https://github.com/OpenFOAM
+
+* Lorena A. Barba group:  https://github.com/barbagroup
+
 ## Accounts
 
 * Cheng Zhao https://github.com/zcbenz
@@ -31,3 +35,7 @@
 * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * Software Engineering for Engineers and Scientists  https://github.com/FOSSEE/sees
+
+* Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
+
+
