@@ -71,8 +71,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
    5. 版本控制和社区编程:EGit、Github等
 
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
-   
- * **Guide**
+
+* **Guide**
  
   [Guide](https://github.com/Py03013052/home/tree/S2017/guide)
 
