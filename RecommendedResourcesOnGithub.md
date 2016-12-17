@@ -20,6 +20,8 @@
 
 * Lorena A. Barba group:  https://github.com/barbagroup
 
+* OpenMDAO:  https://github.com/OpenMDAO
+
 ## Accounts
 
 * Cheng Zhao https://github.com/zcbenz
@@ -37,5 +39,7 @@
 * Software Engineering for Engineers and Scientists  https://github.com/FOSSEE/sees
 
 * Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
+
+* pychemqt: https://github.com/jjgomera/pychemqt
 
 
