@@ -42,6 +42,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Notebook**
 
+   [Notebook](https://github.com/Py03013052/home/tree/S2017/notebook)
+
    Lectures in Jupyter notebook.
 
    Please install Jupyter to read and interactive with the notebook.
@@ -53,6 +55,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 * **Code**
 
     Source code for  John V. Guttag. Introduction to Computation and Programming Using Python(2nd) : Python3.X Version 
+    
+      [code](https://github.com/Py03013052/home/tree/S2017/code)
 
 * **Software for the Course**
 
@@ -69,6 +73,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
    
  * **Guide**
+ 
+  [Guide](https://github.com/Py03013052/home/tree/S2017/guide)
 
    1.  Python学习和开发环境的建立(教学版).docx
    
@@ -85,6 +91,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
    Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
 
    数据分析、交互计算、社区编程等科学计算和软件开发模式。
+   
+     [practice](https://github.com/Py03013052/home/tree/S2017/practice)
 
    1. **Github使用**（5）：Github账户、Git等  
 
