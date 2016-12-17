@@ -22,14 +22,6 @@
 
 * OpenMDAO:  https://github.com/OpenMDAO
 
-## Accounts
-
-* Cheng Zhao https://github.com/zcbenz
-
-* Sean Zhu https://github.com/szhu
-
-* Anders Hejlsberg https://github.com/ahejlsberg
-
 ## Repositories
 
 * A Byte of Python book https://github.com/swaroopch/byte-of-python
@@ -39,6 +31,16 @@
 * Software Engineering for Engineers and Scientists  https://github.com/FOSSEE/sees
 
 * Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
+
+## Accounts
+
+* Anders Hejlsberg. https://github.com/ahejlsberg
+
+* Sean Zhu. https://github.com/szhu
+
+* Cheng Zhao. https://github.com/zcbenz
+
+* Tianshi Cheng. https://github.com/chengts95
 
 * pychemqt: https://github.com/jjgomera/pychemqt
 
