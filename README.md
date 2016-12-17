@@ -58,20 +58,6 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
     
       [code](https://github.com/Py03013052/home/tree/S2017/code)
 
-* **Software for the Course**
-
-   1. Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
-
-   2. 代码规范、软件测试(Python版):pep8、unittest等
-
-   3. 科学/交互计算：SciPy、Jupyter等
-
-   4. 热工计算：IF97等
-
-   5. 版本控制和社区编程:EGit、Github等
-
-   6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
-
 * **Guide**
  
   [Guide](https://github.com/Py03013052/home/tree/S2017/guide)
