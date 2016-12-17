@@ -52,13 +52,9 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Code**
 
-    Python3.X 
+    Source code for  John V. Guttag. Introduction to Computation and Programming Using Python(2nd) : Python3.X Version 
 
-* **Guide**
-
-   Software Guide
-
-   <b>课程使用软件</b>
+* **Software for the Course**
 
    1. Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
 
@@ -71,6 +67,21 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
    5. 版本控制和社区编程:EGit、Github等
 
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
+   
+ * **Software Guide**
+
+   1.  Python学习和开发环境的建立(教学版).docx
+   
+   2.  Markdown简介(教学版).md
+
+   3.  使用EGIT建立初始为空的本地仓库.docx
+   
+   4.  Ubuntu安装及Python学习和开发环境的建立(简版).md
+   
+   5.  BasicStepsRedisServer.md
+   
+   
+   
 
 * **Assignment of Practice** (60)
 
