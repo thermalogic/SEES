@@ -42,13 +42,13 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Notebook**
 
-   Lectures in IPython notebook.
+   Lectures in Jupyter notebook.
 
    Please install Jupyter to read and interactive with the notebook.
 
   Online read-only versions：
 
-   http://nbviewer.ipython.org/github/Py03013052/home/tree/S2016/notebook/
+   http://nbviewer.ipython.org/github/Py03013052/home/tree/S2017/notebook/
 
 * **Code**
 
@@ -72,13 +72,11 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
 
-* **Practice**
+* ** Assignment of Practice**(60)
 
-   Assignment of practice(Chinese)（20）
+   Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
 
-   涵盖Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
-
-   涉及数据分析、交互计算、社区编程等科学计算和软件开发模式。
+   数据分析、交互计算、社区编程等科学计算和软件开发模式。
 
    1. **Github使用**（5）：Github账户、Git等  
 
@@ -137,7 +135,11 @@ http://interactivepython.org/runestone/static/pythonds/index.html
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 
  * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
+ 
+* **Thermal Power Engineering**
 
+  *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+  
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
