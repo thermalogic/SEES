@@ -16,6 +16,12 @@
 
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05
 
+* 文档撰写： MS Word、Markdown等
+
+   *  Github Atom. https://atom.io/
+
+   *  Mastering Markdown. https://guides.github.com/features/mastering-markdown/
+
 *  科学/交互计算：SciPy、Jupyter等
 
    * Scipy. http://www.scipy.org/
@@ -29,7 +35,11 @@
 
 * 热工计算：IF97等
 
-  * https://github.com/Py03013052/SEUIF97
+  * SEUIF97 https://github.com/Py03013052/SEUIF97
+
+  * jjgomera https://github.com/jjgomera/iapws 
+
+  * IAPWS-IF97  http://www.iapws.org/release.html 
 
 * 版本控制和社区编程:EGit、Github等
 
@@ -41,7 +51,6 @@
  
  *  知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-* 文档撰写： MS Word、Jupyter Notebook、Atom等
 
 
 
