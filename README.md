@@ -72,7 +72,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
 
-* ** Assignment of Practice**(60)
+* **Assignment of Practice** (60)
 
    Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
 

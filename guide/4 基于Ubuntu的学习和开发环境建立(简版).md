@@ -10,13 +10,13 @@ Windows是目前同学们的主要工作环境，因此，在目前已经安装�
 
 双系统安装过程，参考：
 
-U盘安装Windows和Ubuntu 15.04双系统图解教程
+* U盘安装Windows和Ubuntu 15.04双系统图解教程
 
-http://www.linuxdiyf.com/linux/11165.html
+  * http://www.linuxdiyf.com/linux/11165.html
 
-U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
+* U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
 
-http://www.linuxdiyf.com/linux/19782.html
+  * http://www.linuxdiyf.com/linux/19782.html
 
 #### 注意：适当分区
 
