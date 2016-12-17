@@ -68,7 +68,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
    6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
    
- * **Software Guide**
+ * **Guide**
 
    1.  Python学习和开发环境的建立(教学版).docx
    
@@ -79,10 +79,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
    4.  Ubuntu安装及Python学习和开发环境的建立(简版).md
    
    5.  BasicStepsRedisServer.md
-   
-   
-   
-
+ 
 * **Assignment of Practice** (60)
 
    Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
