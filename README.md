@@ -52,7 +52,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Code**
 
-    Python3.X Codes
+    Python3.X 
 
 * **Guide**
 
@@ -74,28 +74,22 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
 * **Practice**
 
-   Assignment of practice(Chinese)
+   Assignment of practice(Chinese)（20）
 
    涵盖Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
 
    涉及数据分析、交互计算、社区编程等科学计算和软件开发模式。
 
-   1. 软件开发基础：Python开发环境建立  
+   1. **Github使用**（5）：Github账户、Git等  
 
-   2. 版本管理及团队编程1：建立Github账户、基本操作、加入社区编程组等，  
-
-   3. 版本管理及团队编程2：Git、Github、EGit等
-
-   4. 英文阅读：翻译Guttag, John教程中的6.2.3和6.2.4 
-
-   5. 网络资源：使用Stackoverflow.com （ 可选）
-
-   6. 数据分析：统计、回归及可视化
-
-   7. 单元测试：测试对象为“基于IAPWS-IF97的水和水蒸汽物性计算软件包”
-
-   8. 应用实践：3-5 个专业相关问题求解程序设计，含代码规范、软件测试、任务管理、交互计算及文档撰写等  
-
+   2. **Python开发环境**（20）：Python、Eclipse IDE等
+   
+   3. **交互计算**（10）：朗肯循环的Jupyter Notebook程序设计 
+    
+   4.  **数据分析**（15）：统计、回归及可视化
+   
+   5.  **单元测试**（10）：IAPWS-IF97物性计算及单元测试 
+  
 ## References
 
 * **Python**
