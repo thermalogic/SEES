@@ -32,6 +32,8 @@
 
 * Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
 
+* pychemqt: https://github.com/jjgomera/pychemqt
+
 ## Accounts
 
 * Anders Hejlsberg. https://github.com/ahejlsberg
@@ -42,6 +44,6 @@
 
 * Tianshi Cheng. https://github.com/chengts95
 
-* pychemqt: https://github.com/jjgomera/pychemqt
+
 
 
