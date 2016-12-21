@@ -13,16 +13,16 @@
 
 ##  Goal
 
-This course is intended to train Engineering students in good software practices and tools for producing code and documentation.
+This course is intended to train **Engineering students** in good software practices and tools for producing code and documentation.
 
 After successfully completing the program, the participants will be able to:
 
 * understand how software tools work together and how they can be used in tandem to carry out tasks
 * generate professional documents
-* use version control for both code and documents
 * Writing clean, testable, high quality code in Python
 * debug programs using a standardized approach
 * write unit tests 
+* use version control for both code and documents
 
 ## Outline
 
@@ -36,7 +36,9 @@ After successfully completing the program, the participants will be able to:
 
 ## Textbooks
 
-John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.    https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+* John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.  
+
+   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
 ## Contents
 
@@ -106,16 +108,6 @@ John V. Guttag. Introduction to Computation and Programming Using Python(2nd). M
 
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-* **Git**
-
-   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-
-   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
-
-   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
-   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
 * **Software engineering**
 
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
@@ -141,6 +133,16 @@ http://interactivepython.org/runestone/static/pythonds/index.html
 * **Thermal Power Engineering**
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+  
+  * **Git**
+
+   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+
+   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
   
 ## TIPS
 
