@@ -22,7 +22,7 @@
 
 *  1) 安装,命令行下:
         
-    >python -m pip install -U pip
+    >pip install jupyter
        
 *  2) 启动Jupyter notebook,   命令行：
        
