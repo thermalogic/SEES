@@ -134,7 +134,7 @@ http://interactivepython.org/runestone/static/pythonds/index.html
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
-  * **Git**
+ * **Git**
 
    * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
