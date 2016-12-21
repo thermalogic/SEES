@@ -15,17 +15,15 @@
 
 * **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
 
-* **PySIS_Introduction_SEUIF97**
+* **PyThermal_Introduction_SEUIF97**
+
+* **PyThermal_IdealRankineCycle*
 
 * **06 TESTING AND DEBUGGING**
 
 * **07 EXCEPTIONS AND ASSERTIONS**
 
 * **08 CLASSES AND OBJECT-ORIENTED PROGRAMMING**
-
-* **PySIS_Redis**
-
-* **PySIS_Online_Monitoring**
 
 * **11 PLOTTING AND MORE ABOUT CLASSES**
 
@@ -49,13 +47,17 @@
 
 * **10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES**
 
+* **PySIS_Redis**
+
+* **PySIS_Online_Monitoring**
+
 * *17 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS(optional)*
 
 * *18 DYNAMIC PROGRAMMING(optional)*
 
 * *14 MONTE CARLO SIMULATION(optional)*
 
-
+* *Sup_MathJax-LaTeX(optional)*
 
 
 
