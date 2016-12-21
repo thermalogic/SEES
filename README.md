@@ -36,7 +36,7 @@ After successfully completing the program, the participants will be able to:
 
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
  
- * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+* Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
     
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
  
