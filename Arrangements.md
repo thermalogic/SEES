@@ -17,7 +17,9 @@
 
 * **PyThermal_Introduction_SEUIF97**
 
-* *PyThermal_IdealRankineCycle(optional)*
+* **PyThermal_IdealRankineCycle**
+
+* *PyThermal_ReheatCycleWithTurbineIrreversibility(optional)*
 
 * **06 TESTING AND DEBUGGING**
 
