@@ -36,7 +36,7 @@
      
      从
      
-     http://www.lfd.uci.edu/~gohlke/pythonlibs/
+   http://www.lfd.uci.edu/~gohlke/pythonlibs/
      
      下载Windows 64位计算包
     
