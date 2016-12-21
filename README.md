@@ -32,11 +32,21 @@ After successfully completing the program, the participants will be able to:
 
 ## Textbooks
 
-* John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.  
+* John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
+   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+ 
+ * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+    
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
-
-## Contents
+ 
+ * **Online**
+ 
+   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
+ 
+   * MITx's MOOC: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-7#.U4x_iSiJKEk
+   
+ ## Contents
 
 * **Notebook**
 
