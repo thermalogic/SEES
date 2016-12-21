@@ -47,15 +47,16 @@
 
 * **10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES**
 
-* **PySIS_Redis**
-
-* **PySIS_Online_Monitoring**
-
 * *17 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS(optional)*
 
 * *18 DYNAMIC PROGRAMMING(optional)*
 
 * *14 MONTE CARLO SIMULATION(optional)*
+
+* *PySIS_Redis(optional)*
+
+* *PySIS_Online_Monitoring(optional)*
+
 
 * *Sup_MathJax-LaTeX(optional)*
 
