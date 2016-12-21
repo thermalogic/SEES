@@ -1,10 +1,8 @@
 
 # Foundamentals and Practice of Software Engineering with Python
 
-*  If you have concerns about the course, please raise them in the Github or email to me. I value all suggestions.
-
-  * [![Gitter](https://badges.gitter.im/Py03013052/home.svg)](https://gitter.im/Py03013052/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
+*  If you have concerns about the course, please email to me. I value all suggestions.
+ 
     * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
 
  * Email：cmh@seu.edu.cn
