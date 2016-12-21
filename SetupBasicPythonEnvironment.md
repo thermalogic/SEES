@@ -4,13 +4,14 @@
  
 ## 1 安装Python3.5
     
-* 从Python官网下载Windows 64位ython3.5软件：  https://www.python.org/downloads/
+* 从Python官网下载Windows 64位Python3.5软件：  https://www.python.org/downloads/
 
 * 定制方式安装: 
       
-   1) 加环境变量PATH; 
-   2) 目录： C:\python35
-
+    1) 安装软件到目录： C:\python35
+            
+    2) 加Python3.5安装目录配置到操作系统的环境变量PATH; 
+   
 * 更新pip到新版本: 
   
       在DOS命令行下， 更新pip到新版本：
@@ -21,11 +22,11 @@
 
 *  1) 安装,命令行下:
         
-       > pip install jupyter 
+    >python -m pip install -U pip
        
 *  2) 启动Jupyter notebook,   命令行：
-      
-      >jupyter notebook     
+       
+    >jupyter notebook     
 
 ## 3： 科学计算包 
    
