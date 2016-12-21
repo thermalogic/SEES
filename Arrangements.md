@@ -29,6 +29,8 @@
 
 * **15 UNDERSTANDING EXPERIMENTAL DATA**
 
+* *14 MONTE CARLO SIMULATION(optional)*
+
 * **16 LIES DAMNED LIES AND STATISTICS**
 
 * **DevTools unittest**
@@ -51,12 +53,9 @@
 
 * *18 DYNAMIC PROGRAMMING(optional)*
 
-* *14 MONTE CARLO SIMULATION(optional)*
-
 * *PySIS_Redis(optional)*
 
 * *PySIS_Online_Monitoring(optional)*
-
 
 * *Sup_MathJax-LaTeX(optional)*
 
