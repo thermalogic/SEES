@@ -3,9 +3,7 @@
 
 *  If you have concerns about the course, please email to me. I value all suggestions.
  
-    * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
-
- * Email：cmh@seu.edu.cn
+   * Email：cmh@seu.edu.cn
  
 **教学做是一件事，不是三件事。我们要在做上教，在做上学。不在做上用功夫，教固不成为教，学也不成为学。—陶行知**
 
