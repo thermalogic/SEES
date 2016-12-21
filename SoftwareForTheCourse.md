@@ -60,20 +60,21 @@ matplotlib
 
 1. Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html
 
-2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+2. 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-3. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+3. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
-4. Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-
-5.  Jupyter Notebook Reference Guide.  
+4.  Jupyter Notebook Reference Guide.  
 
    * http://nbviewer.jupyter.org/urls/bitbucket.org/ipre/calico/raw/master/notebooks/Documentation/Reference%20Guide/Reference%20Guide.ipynb
-
-6. Scott Chacon，Ben Straub. Pro Git.
-
-   * https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 5. GitHub, Inc. Hello World guide https://guides.github.com/activities/hello-world/
 
 6. 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+7. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/   2015.02
+
+8. Scott Chacon，Ben Straub. Pro Git.
+
+   * https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
