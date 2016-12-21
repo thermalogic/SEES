@@ -34,7 +34,7 @@ After successfully completing the program, the participants will be able to:
 
 * John V. Guttag. Introduction to Computation and Programming Using Python(2nd). MIT Press. 2013.08.  
 
-   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
 
 ## Contents
 
