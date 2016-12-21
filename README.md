@@ -36,10 +36,6 @@ After successfully completing the program, the participants will be able to:
 
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
  
-* Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
-    
-   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
- 
  * **Online**
  
    * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
@@ -103,10 +99,14 @@ After successfully completing the program, the participants will be able to:
 * **Python**
 
   * 梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
+  
+  * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+    
+  * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
 
   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
-  * A Byte of Python book https://github.com/swaroopch/byte-of-python
+  * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
 
   * Scipy. http://www.scipy.org/
 
@@ -119,7 +119,7 @@ After successfully completing the program, the participants will be able to:
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
 
   * Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
-   http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+   *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
  * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
@@ -130,7 +130,7 @@ After successfully completing the program, the participants will be able to:
 * **Algorithms and Data Structures**
 
   * Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
-http://interactivepython.org/runestone/static/pythonds/index.html
+   * http://interactivepython.org/runestone/static/pythonds/index.html
 
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 
