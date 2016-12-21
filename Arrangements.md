@@ -19,6 +19,8 @@
 
 * **PyThermal_IdealRankineCycle**
 
+* *Sup_MathJax-LaTeX(optional)*
+
 * *PyThermal_ReheatCycleWithTurbineIrreversibility(optional)*
 
 * **06 TESTING AND DEBUGGING**
@@ -59,7 +61,7 @@
 
 * *PySIS_Online_Monitoring(optional)*
 
-* *Sup_MathJax-LaTeX(optional)*
+
 
 
 
