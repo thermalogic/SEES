@@ -134,7 +134,7 @@ http://interactivepython.org/runestone/static/pythonds/index.html
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
- * **Git**
+* **Git**
 
    * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
