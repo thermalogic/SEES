@@ -39,8 +39,6 @@ After successfully completing the program, the participants will be able to:
  * **Online**
  
   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
- 
-  * MITx's MOOC: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-7#.U4x_iSiJKEk
    
  ## Contents
 
