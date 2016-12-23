@@ -38,7 +38,7 @@ After successfully completing the program, the participants will be able to:
  
  * **Online**
  
-  * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
+   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
    
  ## Contents
 
@@ -56,9 +56,9 @@ After successfully completing the program, the participants will be able to:
 
 * **Code**
 
-    Source code for  John V. Guttag. Introduction to Computation and Programming Using Python(2nd) : Python3.X Version 
+    Source code for  John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition: Python3.X Version 
     
-      [code](https://github.com/Py03013052/home/tree/S2017/code)
+  [code](https://github.com/Py03013052/home/tree/S2017/code)
 
 * **Guide**
  
@@ -100,54 +100,66 @@ After successfully completing the program, the participants will be able to:
   
   * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
     
-  * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
+    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
 
   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
   * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
 
-  * Scipy. http://www.scipy.org/
-
-  * Jupyter. Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+
+* **Python for for mathematics, science, and engineering**
+  
+  * Scipy. http://www.scipy.org/
+  
+    * numpy. http://www.numpy.org/
+  
+    * matplotlib.  http://matplotlib.org/
+  
+    * Pandas. http://pandas.pydata.org/
+      * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
+
+  * Jupyter. http://jupyter.org/
+    
+    * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
 
 * **Software engineering**
 
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
 
   * Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
-   *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+    *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
- * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
+  * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
   * FOSSEE. Software Engineering for Engineers and Scientists    https://github.com/FOSSEE/sees
 
   * 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
+* **Git**
+
+  * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+  * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+  * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+  * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+
 * **Algorithms and Data Structures**
 
   * Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
-   * http://interactivepython.org/runestone/static/pythonds/index.html
+    * http://interactivepython.org/runestone/static/pythonds/index.html
 
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 
- * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
+  * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
  
 * **Thermal Power Engineering**
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
-* **Git**
 
-   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
-
-   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-
-   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
-   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-  
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
