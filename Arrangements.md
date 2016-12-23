@@ -5,8 +5,6 @@
 
 * **001 PREFACE**
 
-* *Sup1_Version_Control_Git(optional)*
-
 * *01 GETTING STARTED(optional)**
 
 * **02 INTRODUCTION TO PYTHON**
@@ -20,8 +18,6 @@
 * **PyThermal_Introduction_SEUIF97**
 
 * **PyThermal_IdealRankineCycle**
-
-* *Sup2_MathJax-LaTeX(optional)*
 
 * *PyThermal_ReheatCycleWithTurbineIrreversibility(optional)*
 
@@ -63,7 +59,7 @@
 
 * *PySIS_Online_Monitoring(optional)*
 
-
+* *Sup1_MathJax-LaTeX(optional)*
 
 
 
