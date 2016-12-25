@@ -6,6 +6,8 @@
 
 * FOSSEE https://github.com/FOSSEE
 
+* Packt https://github.com/PacktPublishing
+
 * Advanced JavaScript at NYU https://github.com/advanced-js
 
 * Raspberry Pi  https://github.com/raspberrypi
@@ -33,6 +35,8 @@
 * Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
 
 * pychemqt: https://github.com/jjgomera/pychemqt
+
+* A gallery of interesting notebook：https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
 
 ## Accounts
 

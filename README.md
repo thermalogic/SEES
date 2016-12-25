@@ -112,16 +112,22 @@ After successfully completing the program, the participants will be able to:
   
   * Scipy. http://www.scipy.org/
   
-    * numpy. http://www.numpy.org/
+  * numpy. http://www.numpy.org/
   
-    * matplotlib.  http://matplotlib.org/
+  * matplotlib.  http://matplotlib.org/
   
-    * Pandas. http://pandas.pydata.org/
-      * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
+  * Pandas. http://pandas.pydata.org/
+    * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
 
   * Jupyter. http://jupyter.org/
     
     * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+    
+    * IPython https://ipython.org/
+    
+    * A gallery of interesting notebook：https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+    
+    * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
 * **Software engineering**
 
@@ -150,6 +156,8 @@ After successfully completing the program, the participants will be able to:
 
   * Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
     * http://interactivepython.org/runestone/static/pythonds/index.html
+    
+   * Goodrich, Michael et al. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ.  2013
 
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 
