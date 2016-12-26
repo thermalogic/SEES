@@ -1,10 +1,12 @@
 # 建立课程的基本学习环境
 
-操作系统： Windows10,64位
+操作系统： Windows10,64位 
+
+计算机联网
  
 ## 1 安装Python3.5
     
-* 从Python官网下载Windows 64位Python3.5软件：  https://www.python.org/downloads/
+* 从Python官网下载Windows 64位Python3.5。2：  https://www.python.org/downloads/
 
 * 定制方式安装: 
       
