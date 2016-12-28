@@ -44,7 +44,7 @@ After successfully completing the program, the participants will be able to:
 
 * **Notebook**
 
-   [Notebook](https://github.com/Py03013052/home/tree/S2017/notebook)
+   [Notebook](https://github.com/PySEE/home/tree/S2017/notebook)
 
    Lectures in Jupyter notebook.
 
@@ -52,17 +52,17 @@ After successfully completing the program, the participants will be able to:
 
   Online read-only versions：
 
-   http://nbviewer.ipython.org/github/Py03013052/home/tree/S2017/notebook/
+   http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/
 
 * **Code**
 
     Source code for  John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition: Python3.X Version 
     
-  [code](https://github.com/Py03013052/home/tree/S2017/code)
+  [code](https://github.com/PySEE/home/tree/S2017/code)
 
 * **Guide**
  
-  [Guide](https://github.com/Py03013052/home/tree/S2017/guide)
+  [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
    1.  Python学习和开发环境的建立(教学版).docx
    
@@ -80,13 +80,15 @@ After successfully completing the program, the participants will be able to:
 
    数据分析、交互计算、社区编程等科学计算和软件开发模式。
    
-     [practice](https://github.com/Py03013052/home/tree/S2017/practice)
+     [practice](https://github.com/PySEE/home/tree/S2017/practice)
 
    1. **Github使用**（5）：Github账户、Git等  
 
    2. **Python开发环境**（20）：Python、Eclipse IDE等
    
    3. **交互计算**（10）：朗肯循环的Jupyter Notebook程序设计 
+   
+   * 注：同学们可以选择任意一个自己感兴趣的问题替换“朗肯循环计算”
     
    4.  **数据分析**（15）：统计、回归及可视化
    

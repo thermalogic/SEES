@@ -24,7 +24,7 @@ matplotlib
 
   IF97 Library @ SEU
 
-  https://github.com/Py03013052/SEUIF97
+  https://github.com/PySEE/SEUIF97
 
 * Unofficial Windows Binaries for Python Extension Packages
 
@@ -54,7 +54,7 @@ matplotlib
 
 # Guide
 
-* [Guide](https://github.com/Py03013052/home/tree/S2017/guide)
+* [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
 # Reference
 

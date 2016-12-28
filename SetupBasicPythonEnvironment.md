@@ -52,7 +52,7 @@
     
 *  从github下载
     
-       https://github.com/Py03013052/SEUIF97 
+       https://github.com/PySEE/SEUIF97 
    
 *  解压下载的zip文件，然后：
    
@@ -63,7 +63,7 @@
 
 * 从github下载课件
     
-      https://github.com/Py03013052/home
+      https://github.com/PySEE/home
 
 * 启动课程Jupyter Notebook
 

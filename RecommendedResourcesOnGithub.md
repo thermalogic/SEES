@@ -28,6 +28,8 @@
 
 * Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
 
+* Jeffrey Kantor. Introduction to Chemical Engineering Analysis https://github.com/jckantor/CBE20255
+
 * pychemqt: https://github.com/jjgomera/pychemqt
 
 ## Accounts
