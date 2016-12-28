@@ -169,6 +169,13 @@ After successfully completing the program, the participants will be able to:
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
+## Course Grades
+
+The Course graded on an 100 point scale and then weighted according to the following distribution:
+
+  * In-class Exercises 20%
+  * Practice (~5) 60%
+  * Final Exam 20%
 
 ## TIPS
 
