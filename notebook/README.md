@@ -7,7 +7,7 @@ Please install Jupyter to read and interactive with the notebook.
 
 Online read-only versions：
 
-    http://nbviewer.jupyter.org/github/Py03013052/home/tree/S2017/notebook/
+    http://nbviewer.jupyter.org/github/PySEE/home/tree/S2017/notebook/
 
 # References
 
