@@ -50,5 +50,7 @@
                        Supp-Tv(ph,ps)3-2014.pdf
                        Supp-VPT3-2016.pdf
 
+## 参考资源：
 
+* https://github.com/PySEE/RecommendedPractices/tree/S2016/P7
 

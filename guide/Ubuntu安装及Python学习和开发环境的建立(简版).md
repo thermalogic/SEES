@@ -8,7 +8,7 @@ Windows是目前同学们的主要工作环境，因此，在目前已经安装�
 
 基本安装空间10G左右就可以了，为了以后工作方便，更大些为好，如：50G
 
-双系统安装过程，参考：
+制作Ubuntu系统安装U盘的方法和双系统安装过程，参考（建议选择安装语言**“English”**）：
 
 * U盘安装Windows和Ubuntu 15.04双系统图解教程
 
@@ -18,7 +18,13 @@ Windows是目前同学们的主要工作环境，因此，在目前已经安装�
 
   * http://www.linuxdiyf.com/linux/19782.html
 
-#### 注意：适当分区
+#### 注意：挂载点和分区
+
+* 建议安装时，选择**“something else”**,自定义系统分区和挂载点
+
+  * 1）**/home**： 挂载点和分区：从空闲空间中划分出一个“logic”  分区， 作为/home 挂载点，注意一定是“logic” 分区（因为一个硬盘可划分的主分区数量有限）
+ 
+  * 2）**/：** 挂载点和分区：将余下的空闲空间划分出一个“主”  分区，作为系统挂载点
 
 ### 安装版本
 
@@ -61,6 +67,18 @@ pip3在线安装
 
 ```bash
 sudo –H pip3 install jupyter
+```
+
+### 安装SEUIF97
+
+1.copy SEUIF97.so to a default path of Linux shared lib
+```bash
+   $ sudo cp SEUIF97.so /usr/lib/
+```
+
+2.copy seuif97.py to a default path of Python lib
+```bash  
+   $ sudo cp seuif97.py /usr/lib/python3.5/
 ```
 
 ## Eclipse开发环境
