@@ -30,6 +30,8 @@
 
 * Jeffrey Kantor. Introduction to Chemical Engineering Analysis https://github.com/jckantor/CBE20255
 
+* John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
+
 * pychemqt: https://github.com/jjgomera/pychemqt
 
 ## Accounts

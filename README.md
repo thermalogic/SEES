@@ -40,6 +40,14 @@ After successfully completing the program, the participants will be able to:
  
    * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
    
+ ## Course Grades
+
+The Course graded on an 100 point scale and then weighted according to the following distribution:
+
+  * In-class Exercises 20%
+  * Practice (~5) 60%
+  * Final Exam 20%
+ 
  ## Contents
 
 * **Notebook**
@@ -91,7 +99,21 @@ After successfully completing the program, the participants will be able to:
    4.  **数据分析**（15）：统计、回归及可视化
    
    5.  **单元测试**（10）：IAPWS-IF97物性计算及单元测试 
-  
+
+## TIPS
+
+We highly recommend you practice coding whenever you have a few minutes.
+
+Even if you are just modifying available code, it will be incredibly beneficial.
+
+You **NEED** to
+
+* use other resources,
+
+* read codes,
+
+*  **get your hands dirty** and **practice**
+
 ## References
 
 * 陶行知. 中国教育的觉醒：陶行知文集（第1版）. 群言出版社，2013.06
@@ -165,31 +187,11 @@ After successfully completing the program, the participants will be able to:
 
   * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
  
-* **Thermal Power Engineering**
+* **Engineering**
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
-## Course Grades
-
-The Course graded on an 100 point scale and then weighted according to the following distribution:
-
-  * In-class Exercises 20%
-  * Practice (~5) 60%
-  * Final Exam 20%
-
-## TIPS
-
-We highly recommend you practice coding whenever you have a few minutes.
-
-Even if you are just modifying available code, it will be incredibly beneficial.
-
-You **NEED** to
-
-* use other resources,
-
-* read codes,
-
-*  **get your hands dirty** and **practice**
-
-
-
+  *  John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
+  
+  *  J.C. Kantor.  Introduction to Chemical Engineering Analysis  http://jckantor.github.io/CBE20255/ 
+  
