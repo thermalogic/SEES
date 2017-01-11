@@ -34,24 +34,34 @@ matplotlib
 
 ## Integrated Development Environment
 
-* Java JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* Eclipse
 
-* Eclipse http://www.eclipse.org/
+ * Java JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-* Pydev: http://pydev.org/
+ * Eclipse http://www.eclipse.org/
+
+ * Pydev: http://pydev.org/
+
+* Visual Studio Code 
+
+ * Visual Studio Code：https://code.visualstudio.com/docs/languages/python
+
+ * Don Jayamanne. pythonVSCode: https://github.com/DonJayamanne/pythonVSCode/wiki
 
 ##  Revision Control and Source Code Management
-
+ 
 * EGit is the Git integration for the Eclipse IDE
 
       EGit: http://www.eclipse.org/egit/
+  
+ * GitHub is a code hosting platform for version control and collaboration.
 
-* GitHub is a code hosting platform for version control and collaboration.
-
-     It lets you and others work together on projects from anywhere.
+    It lets you and others work together on projects from anywhere.
 
     Github: https://github.com/
 
+*  Git for Windows. https://git-scm.com/download/win
+  
 # Guide
 
 * [Guide](https://github.com/PySEE/home/tree/S2017/guide)

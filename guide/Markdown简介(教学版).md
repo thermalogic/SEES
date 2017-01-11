@@ -174,17 +174,14 @@ Atom是Github开发的一款开源文本编辑器，可通过插件，定制为�
 
 ### 使用Visual Studio Code
 
-Visual Studio Code是微软基于Electron框架开发文本编辑器，和Atom类似，目前插件较少。
+Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
 
 Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
 在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
-
 ### 其他
 
-1. **Atom、Visual Studio Code都是基于Electron框架开发的，Electron可能改变未来应用程序UI的实现方式。**
-
-2. 在Atom和Visual Studio Code的含中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
+*  在Atom和Visual Studio Code的含中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
 
 ### 参考
 
@@ -192,3 +189,4 @@ Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个�
 2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 3. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 4. [VS Code Markdown updates](https://code.visualstudio.com/updates#_languages-markdown-preview/)
+5. [Atom](https://atom.io/)
