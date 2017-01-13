@@ -2,7 +2,7 @@
 
 ## Windows环境要求
 
-  Windows是目前同学们的主要工作环境，因此，在目前已安装Windows系统的电脑上，双系统安装是较好的安装模式。
+  Windows是同学们的主要工作环境，因此，在已安装Windows系统的电脑上，双系统模式是安装的Ubuntu适当安装方式。
 
   安装前，在Windows环境下，从空余的硬盘空间中划分出一个空的独立分区，供安装Ubuntu使用。
 
@@ -18,15 +18,11 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS�
 
 然后用U盘安装双系统。安装过程，可参考：
 
-* U盘安装Windows和Ubuntu 15.04双系统图解教程
-
-  * http://www.linuxdiyf.com/linux/11165.html
-
 * U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
 
   * http://www.linuxdiyf.com/linux/19782.html
 
-#### 安装过程要点
+### 安装要点
 * 1 Welcome界面：选择语言 ”English”
 * 2 Wireless界面：选择 不连接无线网络 
 * 3 Preparing to install Ubuntu界面: 选择 安装第三方软件
@@ -36,8 +32,8 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS�
          **注意：**一定要有home挂载点和分区。如重新安装ubuntu，还是将这个分区挂载在homo下，不要选择格式化这个分区，这样原来系统中的用户文件都能保留， 
        *  /： 挂载点和分区：将余下的空闲空间划分出一个“主”  分区，作为系统挂载点. 如果重新安装ubuntu，可以将这个分区格式化
          分好区后，点安装，然后，根据安装提示：
-* Where are you选择时区为“shanghai”
-* Who are you: 给用户名和密码，选择自动登录（如果是重新装系统，要使用原来用户 home ,建议用原用户名）
+* 5 Where are you选择时区为“shanghai”
+* 6 Who are you: 给用户名和密码，选择自动登录（如果是重新装系统，要使用原来用户 home ,建议用原用户名）
 
 ## Python3开发环境
 
@@ -88,8 +84,22 @@ $sudo –H pip3 install jupyter
 
 ###  安装Eclipse IDE
     
- * 1. 下载Linux版的Eclipse CDT，解压
+* 1. 下载Linux版的Eclipse CDT，解压
    
-*  2. Python开发：安装Pydev插件
-    
-*  3. C/C++开发: Ubuntukylin16.04系统内置gcc编译器，无需安装
+* 2. Python开发：安装Pydev插件
+
+* 3. C/C++开发: Ubuntukylin16.04系统内置gcc编译器，无需安装
+
+## 系统桌面
+
+* Ubuntukylin 16.04.01 
+
+适用对象：需要中文环境的Linux新用户
+
+![Ubuntukylin](./img/ubuntukylin.png) 
+
+* Linux Mint 18.1 “Serena” Xfce Edition 
+
+适用对象：相应速度要求高用户，硬件性能较弱的计算机
+
+![LinuxMintXfce](./img/LinuxMintXfce.png) 
