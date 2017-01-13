@@ -78,7 +78,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    3.  使用EGIT建立初始为空的本地仓库.docx
    
-   4.  Ubuntu安装及Python学习和开发环境的建立(简版).md
+   4.  Ubuntu系统安装和Python开发环境的建立(简版).md
    
    5.  BasicStepsRedisServer.md
  
