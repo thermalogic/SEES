@@ -2,9 +2,9 @@
 
 ## Windows环境要求
 
-  Windows是同学们的主要工作环境，因此，在已安装Windows系统的电脑上，双系统模式是安装的Ubuntu适当安装方式。
+  Windows是同学们的主要工作环境，因此，在已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
 
-  安装前，在Windows环境下，从空余的硬盘空间中划分出一个空的独立分区，供安装Ubuntu使用。
+  安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
   基本安装空间10G左右就可以了。为了以后工作方便，更大些为好，如：50G
 
@@ -92,14 +92,14 @@ $sudo –H pip3 install jupyter
 
 ## 系统桌面
 
-* Ubuntukylin 16.04.01 
+### 1 [Ubuntukylin 16.04.01](http://www.ubuntukylin.com/) 
 
-适用对象：需要中文环境的Linux新用户
+适用对象：需要中文环境的Linux新用户 
 
-![Ubuntukylin](./img/ubuntukylin.png) 
+![Ubuntukylin](./img/ubuntukylin.jpg) 
 
-* Linux Mint 18.1 “Serena” Xfce Edition 
+### 2 [Linux Mint 18.1 “Serena” Xfce Edition](https://www.linuxmint.com/)
 
 适用对象：要求更快的系统相应速度；硬件性能较弱的计算机
 
-![LinuxMintXfce](./img/LinuxMintXfce.png) 
+![LinuxMintXfce](./img/LinuxMintXfce.jpg) 

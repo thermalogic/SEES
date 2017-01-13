@@ -26,9 +26,9 @@ After successfully completing the program, the participants will be able to:
 
 2. Software engineering tips & tools for scientists and engineers writing Python code
 
-3.  A useful set of algorithmic and problem reduction techniques
+3. A useful set of algorithmic and problem reduction techniques
 
-4.  Computational tools to model and understand data.
+4. Computational tools to model and understand data.
 
 ## Textbooks
 
@@ -72,15 +72,15 @@ The Course graded on an 100 point scale and then weighted according to the follo
  
   [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
-   1.  Python学习和开发环境的建立(教学版).docx
+   1. Python学习和开发环境的建立(教学版).docx
    
-   2.  Markdown简介(教学版).md
+   2. [Markdown简介(教学版)](https://github.com/PySEE/home/tree/S2017/guide/Markdown简介(教学版).md)
 
-   3.  使用EGIT建立初始为空的本地仓库.docx
+   3. 使用EGIT建立初始为空的本地仓库.docx
    
-   4.  Ubuntu系统安装和Python开发环境的建立(简版).md
+   4. [Ubuntu系统安装和Python开发环境的建立(简版)](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu系统安装和Python开发环境的建立(简版).md)
    
-   5.  BasicStepsRedisServer.md
+   5. [BasicStepsRedisServer](https://github.com/PySEE/home/tree/S2017/guide/BasicStepsRedisServer.md)
  
 * **Practice** (60)
 
