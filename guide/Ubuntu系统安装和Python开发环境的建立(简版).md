@@ -12,7 +12,7 @@
 
 Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS版。
 
-从Ubuntukylin官网 http://www.ubuntukylin.com/  下载ubuntu1kylin16.04.01版iso,
+从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04.01版iso,
 
 从 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ 下载Universal-USB-Installer制作U盘系统
 
