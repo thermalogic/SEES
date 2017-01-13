@@ -100,6 +100,6 @@ $sudo –H pip3 install jupyter
 
 * Linux Mint 18.1 “Serena” Xfce Edition 
 
-适用对象：相应速度要求高用户，硬件性能较弱的计算机
+适用对象：要求更快的系统相应速度；硬件性能较弱的计算机
 
 ![LinuxMintXfce](./img/LinuxMintXfce.png) 
