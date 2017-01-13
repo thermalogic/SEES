@@ -40,7 +40,7 @@ After successfully completing the program, the participants will be able to:
  
    * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
    
- ## Course Grades
+## Course Grades
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
@@ -48,7 +48,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * Practice (~5) 60%
   * Final Exam 20%
  
- ## Contents
+## Contents
 
 * **Notebook**
 
