@@ -6,7 +6,7 @@
 
   安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
-  基本安装空间10G左右就可以了。为了以后工作方便，更大些为好，如：50G
+  安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
 
 ## 安装Ubuntu
 
@@ -100,6 +100,8 @@ $sudo –H pip3 install jupyter
 
 ### 2 [Linux Mint 18.1 “Serena” Xfce Edition](https://www.linuxmint.com/)
 
-适用对象：要求更快的系统相应速度；硬件性能较弱的计算机
+适用对象：要求更快的系统相应速度；硬件性能较弱的计算机。
+
+     系统安装后，需要补充安装中文包及其输入法
 
 ![LinuxMintXfce](./img/LinuxMintXfce.jpg) 

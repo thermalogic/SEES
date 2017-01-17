@@ -2,9 +2,9 @@
 
 # 课程使用软件
 
-“工欲善其事，必先利其器”  做中学！ 软件是“用”会的，不是“读”会的！
+“工欲善其事，必先利其器”  做中学！ 软件是**“用”**会的，不是**“读”**会的！
 
-   1. Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
+   1. Python语言及其开发环境：Python3、Eclipse IDE、PyDev、VS Code等
 
    2. 代码规范、软件测试(Python版):pep8、unittest等
 
@@ -14,9 +14,9 @@
 
    5. 版本控制和社区编程:EGit、Github等
 
-   6. 文档撰写： MS Word、Jupyter Notebook、 Atom等
+   6. 文档撰写： MS Word、Jupyter Notebook、VS Code等
 
-* Python语言及其开发环境：Python3、Eclipse IDE、PyDev等
+* Python语言及其开发环境：Python3、Eclipse IDE、PyDev、VS Code等
 
    * Python. https://www.python.org/
     
@@ -24,13 +24,15 @@
 
    * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
 
+   * Python on Visual Studio Code. https://code.visualstudio.com/docs/languages/python
+
 * Python版代码规范、软件测试等:pep8、unittest等
 
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/,2012.05
 
 * 文档撰写： MS Word、Markdown等
 
-   *  Github Atom. https://atom.io/
+   *  Visual Studio Code. https://code.visualstudio.com/
 
    *  Mastering Markdown. https://guides.github.com/features/mastering-markdown/
 
