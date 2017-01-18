@@ -30,7 +30,9 @@ After successfully completing the program, the participants will be able to:
 
 4. Computational tools to model and understand data.
 
-## Textbooks
+### Required Materials and Textbooks
+
+* A laptop computer will be needed in the classroom.
 
 * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
