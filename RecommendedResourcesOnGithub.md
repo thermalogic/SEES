@@ -16,6 +16,8 @@
 
 * OpenMDAO:  https://github.com/OpenMDAO
 
+* Computer Aided Chemical Engineering https://github.com/CAChemE
+
 ## Repositories
 
 * A Byte of Python book https://github.com/swaroopch/byte-of-python

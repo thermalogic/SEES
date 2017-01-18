@@ -32,7 +32,7 @@
 
 * 文档撰写： MS Word、Markdown等
 
-   *  Visual Studio Code. https://code.visualstudio.com/
+   *  Markdown and VS Code. https://code.visualstudio.com/docs/languages/markdown
 
    *  Mastering Markdown. https://guides.github.com/features/mastering-markdown/
 
