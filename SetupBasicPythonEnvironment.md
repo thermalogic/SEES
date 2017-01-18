@@ -1,6 +1,6 @@
 # 基本Python学习环境的建立
 
-操作系统： Windows10,64位；计算机联网
+操作系统： Windows10  64位；计算机联网
  
 ## 1 安装Python3.5
     
@@ -10,7 +10,9 @@
       
       1) 安装软件到目录： C:\python35
             
-      2) 勾选“加Python3.5安装目录到操作系统环境变量PATH” 
+      2) 勾选“Add Python3.5 to Path” 
+
+![Python352](./guide/img/python352.jpg)
    
 * 更新pip到新版本:DOS命令行下
 ```bash
@@ -20,9 +22,11 @@
 ## 2 安装Jupyter Notebook
 
 * 安装：命令行
- ```bash       
+
+```bash       
     >pip install jupyter
- ```      
+```      
+
 * 启动Jupyter notebook： 命令行
 
 ```bash       
