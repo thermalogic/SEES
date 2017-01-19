@@ -130,9 +130,21 @@ You **NEED** to
 
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-* **C/C++**
+* **C/C++ GCC**
 
  * HOWTO Install the MinGW (GCC) Compiler Suite. http://www.mingw.org/wiki/InstallationHOWTOforMinGW
+
+ * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
+
+ * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
+
+ * GCC (GNU compilers) http://gcc.gnu.org
+
+ * GCC Manual  http://gcc.gnu.org/onlinedocs
+
+ * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
+
+ * GCC and Make： Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
 * **Python for for mathematics, science, and engineering**
   
@@ -177,6 +189,8 @@ You **NEED** to
   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+
+  * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
 * **Algorithms and Data Structures**
 
