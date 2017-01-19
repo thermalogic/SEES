@@ -32,6 +32,10 @@ matplotlib
 
   http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
+## C/C++
+
+  * MinGW-W64 (GCC) Compiler Suite http://mingw-w64.org/doku.php
+
 ## Integrated Development Environment
 
 * Eclipse

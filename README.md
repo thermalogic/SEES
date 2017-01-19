@@ -130,6 +130,10 @@ You **NEED** to
 
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
+* **C/C++**
+
+ * HOWTO Install the MinGW (GCC) Compiler Suite. http://www.mingw.org/wiki/InstallationHOWTOforMinGW
+
 * **Python for for mathematics, science, and engineering**
   
   * Scipy. http://www.scipy.org/
