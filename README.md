@@ -5,8 +5,6 @@
  
    * Email：cmh@seu.edu.cn
  
-## <center>**[行是知之始，知是行之成 - 陶行知](./行是知之始.md)**</center>
-
 ##  Goal
 
 This course is intended to train **Engineering students** in good software practices and tools for producing code and documentation.
@@ -117,8 +115,6 @@ You **NEED** to
 *  **get your hands dirty** and **practice**
 
 ## References
-
-* 陶行知. 中国教育的觉醒：陶行知文集（第1版）. 群言出版社，2013.06
 
 * **Python**
 
