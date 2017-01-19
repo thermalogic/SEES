@@ -34,7 +34,7 @@ matplotlib
 
 ## C/C++
 
-  * MinGW-W64 (GCC) Compiler Suite http://mingw-w64.org/doku.php
+  * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 ## Integrated Development Environment
 
