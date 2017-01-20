@@ -106,12 +106,14 @@ Markdown十分轻量，学习成本很低
 #### 1.6 表格
 
 表格是 Markdown 比较麻烦的地方，例子如下：
+```
 
     | 序号 |课程         | 学分 |
     | ---- |:----------:| ----:|
     | 1    |  工程热力学 | 4 |
     | 2    |  流体力学  | 3 |
     | 3    |  传热学    | 3 |
+```
 
 | 序号 |课程         | 学分 |
 | ---- |:----------:| ----:|
@@ -152,6 +154,10 @@ if last_key:
 ### 1.8 分割线
 
 分割线的语法只需要三个 * 号，例如：
+```
+***
+ >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
+ ```
 
  ***
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
@@ -161,21 +167,21 @@ if last_key:
 
 Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 
-### 使用Eclipse插件
+* **使用Eclipse插件**
 
-Eclispe IDE中安装Markdown Editor和GitHub Flavored Markdown Viewer插件
+  Eclispe IDE中安装Markdown Editor和GitHub Flavored Markdown Viewer插件
 
-### 使用Visual Studio Code
+* **使用Visual Studio Code**
 
-Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
+  Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
 
-Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
-在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
+  Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
+  在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
-### 使用Atom
+* **使用Atom**
 
-Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
-是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
+  Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
+  是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
 
 ![使用Atom撰写Markdown文档](./img/atom_markdown.PNG)
 
