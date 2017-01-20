@@ -84,22 +84,18 @@ The Course graded on an 100 point scale and then weighted according to the follo
  
 * **Practice** (60)
 
-   Python程序设计、代码规范、软件测试、任务管理、文档撰写和英文资源使用等能力训练；
-
-   数据分析、交互计算、社区编程等科学计算和软件开发模式。
-   
      [practice](https://github.com/PySEE/home/tree/S2017/practice)
 
-   1. **Github使用**（5）：Github账户、Git等  
+   1. **Github**（5）：Github、Git  
 
-   2. **Python开发环境**（20）：Python、Eclipse IDE等
+   2. **Python**（20）：Python、Eclipse IDE
    
-   3. **交互计算**（10）：朗肯循环的Jupyter Notebook程序设计 
+   3. **Interactive Computing**（10）：Jupyter Noteboo of the Rankine cycle   
     
-   4.  **数据分析**（15）：统计、回归及可视化
-   
-   5.  **单元测试**（10）：IAPWS-IF97物性计算及单元测试 
+   4.  **Data Analysis**（15）：Statistics, regression and visualization
 
+   5.  **Unit Test**（10）：IAPWS-IF97 physical properties calculation and unit test
+   
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
