@@ -86,9 +86,9 @@ Markdown十分轻量，学习成本很低
 
 #### 插入图片
 ```
-  ![东南大学Logo](./img/seu.gif)
+  ![东南大学Logo](./img/seu-logo.png)
 ````
-![东南大学Logo](./img/seu.gif)
+![东南大学Logo](./img/seu-logo.png)
 
 #### 1.5 粗体与斜体
 用两个星号包含一段文本是粗体，用一个 * 包含一段文本是斜体。
@@ -165,13 +165,6 @@ Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 
 Eclispe IDE中安装Markdown Editor和GitHub Flavored Markdown Viewer插件
 
-### 使用Atom
-
-Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
-是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
-
-![使用Atom撰写Markdown文档](./img/atom_markdown.PNG)
-
 ### 使用Visual Studio Code
 
 Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
@@ -179,9 +172,16 @@ Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
 Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
 在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
+### 使用Atom
+
+Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
+是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
+
+![使用Atom撰写Markdown文档](./img/atom_markdown.PNG)
+
 ### 其他
 
-*  在Atom和Visual Studio Code的含中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
+*  Atom和Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
 
 ### 参考
 
