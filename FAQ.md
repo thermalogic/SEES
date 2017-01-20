@@ -9,17 +9,13 @@
     
      python -m pip install -U pip
  
-  参见：
- 
-   https://pip.pypa.io/en/stable/installing/
+  参见： https://pip.pypa.io/en/stable/installing/
 
 * **2 在Windows系统下安装Python3.x，提示： Installation Fail 0x80240017** 
 
     原因： Windows系统中缺少Python3.x需要的C运行时库
 
-   解决方法：
-   
-      使用管理员权限、联网，然后，运行Python安装软件 
+    解决方法： 使用管理员权限、联网，然后，运行Python安装软件 
 
 * **3 命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32** 
 
@@ -31,7 +27,7 @@
 
    *  微软提供的security essentials是Windows最好的安全防护软件
   
-        可从下面网址下载和操作系统对应的版本，然后，安装security essentials
+        可从下面网址下载和操作系统对应的版本（Windows 10默认已经安装），然后，安装security essentials
 
         http://windows.microsoft.com/zh-cn/windows/security-essentials-download
       
