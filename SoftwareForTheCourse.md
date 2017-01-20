@@ -38,6 +38,8 @@ matplotlib
 
   * TDM-GCC：http://tdm-gcc.tdragon.net/
 
+  * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
+
 ## Integrated Development Environment
 
 * Eclipse
