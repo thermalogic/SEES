@@ -39,7 +39,7 @@
 
      在Python源码文件的第一行加上
 
- ```
+ ```python
 	       # -*- coding: utf-8 -*-
  ```
 
