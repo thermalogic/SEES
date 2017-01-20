@@ -173,9 +173,7 @@ Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 
 * **使用Visual Studio Code**
 
-  Visual Studio Code是微软开发的开源文本编辑器，和Atom类似。
-
-  Visual Studio Code内置支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
+  Visual Studio Code是微软开发的开源文本编辑器。 Visual Studio Code支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
   在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
 * **使用Atom**
