@@ -14,7 +14,6 @@
  You developed something awesome and want to share it. But not only do you want to make it available, you're also happy about contributions from others! 
 
 
-
 ### Types of Version Control: Central Repository
 
 ![Version Control with Central Repository](./img/vc-centralized.png)
@@ -28,11 +27,8 @@
    * Complex for larger and community projects
         * Who is allowed to write? 
         * How do you apply changes that someone outside your team made? 
-        
-
-
+ 
 ### Types of Version Control: Distributed Version Control
-
 
 ![Distribute Version Control](./img/vc-distributed.png)
 
@@ -80,7 +76,7 @@
  * Everything is local
  * Free
  * Safe against corruptions
- * GitHub!
+ * **GitHub!**
  
 ### git model 
  
@@ -104,9 +100,9 @@ https://guides.github.com/activities/hello-world/
 * **EGit In Eclipse** 
   If you have installed Eclipse, EGit is ready for you
   
- 
 
 We strongly recommend that you use version control for your projects. 
+
 ## Reference:
 
 * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02

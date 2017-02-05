@@ -4,13 +4,13 @@
 
 ##   陶行知： 行是知之始，知是行之成 
 
-* **Github**（5）：Github、Git
+* **Github** (5)：Github、Git
 
-* **Python**（20）：Python、Eclipse IDE
+* **Python** (20)：Python、Eclipse IDE
 
-* **Interactive Computing**（10）：Jupyter Noteboo of the Rankine cycle  
+* **Interactive Computing** (10)：Jupyter Notebook of the Rankine cycle  
 
-* **Data Analysis**（15）：Statistics, regression and visualization
+* **Data Analysis** (15)：Statistics, regression and visualization
 
-* **Unit Test**（10）：IAPWS-IF97 physical properties calculation and unit test
+* **Unit Test** (10)：IAPWS-IF97 physical properties calculation and unit test
  
