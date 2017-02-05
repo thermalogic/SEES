@@ -124,7 +124,9 @@ You **NEED** to
 
   * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
 
-  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/  2008.11
+
+  * Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
 
 * **Python for for mathematics, science, and engineering**
   
@@ -156,7 +158,7 @@ You **NEED** to
 
   * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
-  * FOSSEE. Software Engineering for Engineers and Scientists    https://github.com/FOSSEE/sees
+  * FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
 
   * 邹欣. 构建之法: 现代软件工程(第1版). 人民邮电出版社, 2014.09
 
@@ -171,6 +173,8 @@ You **NEED** to
   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
   * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+  * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 * **Algorithms and Data Structures**
 
