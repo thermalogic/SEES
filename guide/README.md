@@ -4,7 +4,7 @@
 
 “工欲善其事，必先利其器”  做中学！ 软件是**“用”**会的，不是**“读”**会的！
 
-   1. Python语言及其开发环境：Python3、Eclipse IDE、PyDev、VS Code等
+   1. Python语言及开发环境：Python3、Eclipse IDE、PyDev、VS Code等
 
    2. 代码规范、软件测试(Python版):pep8、unittest等
 
@@ -12,7 +12,7 @@
 
    4. 热工计算：IF97等
 
-   5. 版本控制和社区编程:EGit、Github等
+   5. 版本控制和社区编程:Git、EGit、Github等
 
    6. 文档撰写： MS Word、Jupyter Notebook、VS Code等
 
@@ -20,7 +20,7 @@
 
    * Python. https://www.python.org/
     
-   * Brainwy Software Ltd.  PyDev Manual. http://www.pydev.org/manual_101_root.html
+   * Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html
 
    * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
 
@@ -55,7 +55,7 @@
 
   * IAPWS-IF97  http://www.iapws.org/release.html 
 
-* 版本控制和社区编程:EGit、Github等
+* 版本控制和社区编程:Git、EGit、Github等
 
   * Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
 
