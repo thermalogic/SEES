@@ -186,3 +186,9 @@ Eclipse is popular for Java project development. It also supports C/C++, PHP, Py
 
 * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
 
+* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
+
+* TDM-GCC：http://tdm-gcc.tdragon.net/
+
+* Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
+

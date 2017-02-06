@@ -32,14 +32,6 @@ matplotlib
 
   http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-## C/C++
-
-  * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
-
-  * TDM-GCC：http://tdm-gcc.tdragon.net/
-
-  * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
-
 ## Integrated Development Environment
 
 * Eclipse
