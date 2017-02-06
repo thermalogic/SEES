@@ -18,15 +18,8 @@ After successfully completing the program, the participants will be able to:
 * write unit tests 
 * use version control for both code and documents
 
-## Outline
-
-1. Python
-
-2. Software engineering tips & tools for scientists and engineers writing Python code
-
-3. A useful set of algorithmic and problem reduction techniques
-
-4. Computational tools to model and understand data.
+* A useful set of algorithmic and problem reduction techniques
+* Computational tools to model and understand data.
 
 ### Required Materials and Textbooks
 
@@ -50,9 +43,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
  
 ## Contents
 
-* **Notebook**
-
-   [Notebook](https://github.com/PySEE/home/tree/S2017/notebook)
+* [Notebook](https://github.com/PySEE/home/tree/S2017/notebook)
 
    Lectures in Jupyter notebook.
 
@@ -62,29 +53,19 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/
 
-* **Code**
+*  [code](https://github.com/PySEE/home/tree/S2017/code)
 
     Source code for  John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition: Python3.X Version 
-    
-  [code](https://github.com/PySEE/home/tree/S2017/code)
-
-* **Guide**
  
-  [Guide](https://github.com/PySEE/home/tree/S2017/guide)
+* [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
    1. Python学习和开发环境的建立(教学版).docx
    
    2. [Markdown简介(教学版)](https://github.com/PySEE/home/tree/S2017/guide/Markdown简介(教学版).md)
 
-   3. 使用EGIT建立初始为空的本地仓库.docx
-   
-   4. [Ubuntu系统安装和Python开发环境的建立(简版)](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu系统安装和Python开发环境的建立(简版).md)
-   
-   5. [BasicStepsRedisServer](https://github.com/PySEE/home/tree/S2017/guide/BasicStepsRedisServer.md)
+   3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
  
-* **Practice** (60)
-
-     [practice](https://github.com/PySEE/home/tree/S2017/practice)
+* [practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 
    1. **Github**（5）：Github、Git  
 
