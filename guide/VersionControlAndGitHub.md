@@ -92,14 +92,13 @@ This tutorial teaches you GitHub essentials like repositories, branches, commits
 
 https://guides.github.com/activities/hello-world/
 
-### Git Client
+### GUI Git Client
 
 * **GitHub Desktop** 
   [Download here](https://desktop.github.com/)
   
 * **EGit In Eclipse** 
   If you have installed Eclipse, EGit is ready for you
-  
 
 We strongly recommend that you use version control for your projects. 
 

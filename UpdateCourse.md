@@ -3,7 +3,7 @@
 
 This repository contain all files of the course. You can manually download these files, but we recommend that you use [git](https://git-scm.com/downloads) to **clone** and **update** this repository.
 
-You can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/),  [Eclipse EGit](http://www.eclipse.org/),  [VS Code](https://code.visualstudio.com/).
+You can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/),  [EGit](http://www.eclipse.org/),  [VS Code](https://code.visualstudio.com/).
 
 You may also use the following commands if you have installed [git](https://git-scm.com/downloads):
 
