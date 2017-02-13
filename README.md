@@ -33,6 +33,12 @@ After successfully completing the program, the participants will be able to:
  
    * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
    
+   * MITx https://www.edx.org/
+     
+     MITx: 6.00.1x Introduction to Computer Science and Programming Using Python
+     
+     MITx: 6.00.2x Introduction to Computational Thinking and Data Science  
+
 ## Course Grades
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:

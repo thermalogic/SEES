@@ -138,7 +138,7 @@ Run the "make" utility as follows:
 > make
 ```
 Running make without argument starts the target "all" in the makefile.
-A makefile consists of a set of rules. A rule consists of 3 parts:**a target**, **a list of pre-requisites*8 and **a command**, as follows:
+A makefile consists of a set of rules. A rule consists of 3 parts:**a target**, **a list of pre-requisites** and **a command**, as follows:
 
  ```bash
 
@@ -188,7 +188,7 @@ Eclipse is popular for Java project development. It also supports C/C++, PHP, Py
 
 * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
-* TDM-GCC：http://tdm-gcc.tdragon.net/
-
 * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
+
+* How to C https://matt.sh/howto-c
 
