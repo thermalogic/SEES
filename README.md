@@ -16,8 +16,7 @@ After successfully completing the program, the participants will be able to:
 * Writing clean, testable, high quality code in Python
 * debug programs using a standardized approach
 * write unit tests 
-* use version control for both code and documents
-
+* use version control 
 * A useful set of algorithmic and problem reduction techniques
 * Computational tools to model and understand data.
 
