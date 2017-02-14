@@ -3,28 +3,33 @@
 
 ## Python3 and Packages
 
-* Python3
-  https://www.python.org/downloads/
+* Python3:  https://www.python.org/downloads/
 
-* Scientic Computing package for Python
- ```
-numpy
-scipy
-matplotlib
- ```
- http://www.scipy.org/install.html
+* Scientic Computing package for Python: http://www.scipy.org/install.html
+   
+   ```
+    numpy
+    scipy
+    matplotlib
+   ```
 
 * Jupyter
 
-  Open source, interactive data science and scientific computing
+  Open source, interactive data science and scientific computing:  http://jupyter.org/
 
-  http://jupyter.org/
+   ```bash
+        pip install jupyter
+   ```
 
 * IAPWS-IF97 Library
 
-  IF97 Library @ SEU
-
-  https://github.com/PySEE/SEUIF97
+   * IF97 Library @ SEU： https://github.com/PySEE/SEUIF97
+   
+   * jjgomera/iapws ：https://github.com/jjgomera/iapws
+     
+      ```bash
+        pip install iapws
+      ```
 
 * Unofficial Windows Binaries for Python Extension Packages
 
@@ -36,35 +41,33 @@ matplotlib
 
 * Eclipse
 
- * Java JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  * Java JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
- * Eclipse http://www.eclipse.org/
+  * Eclipse http://www.eclipse.org/
 
- * Pydev: http://pydev.org/
+  * Pydev: http://pydev.org/
 
 * Visual Studio Code 
 
- * Visual Studio Code：https://code.visualstudio.com/docs/languages/python
+  * Visual Studio Code：https://code.visualstudio.com/docs/languages/python
 
- * Don Jayamanne. pythonVSCode: https://github.com/DonJayamanne/pythonVSCode/wiki
+  * Don Jayamanne. pythonVSCode: https://github.com/DonJayamanne/pythonVSCode/wiki
 
 ##  Revision Control and Source Code Management
  
 * EGit is the Git integration for the Eclipse IDE
 
-      EGit: http://www.eclipse.org/egit/
+      http://www.eclipse.org/egit/
   
- * GitHub is a code hosting platform for version control and collaboration.
+ * GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-    It lets you and others work together on projects from anywhere.
-
-    Github: https://github.com/
+       https://github.com/
 
 *  Git for Windows. https://git-scm.com/download/win
   
 # Guide
 
-* [Guide](https://github.com/PySEE/home/tree/S2017/guide)
+* [Guide@PySEE](https://github.com/PySEE/home/tree/S2017/guide)
 
 # Reference
 

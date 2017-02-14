@@ -13,47 +13,8 @@
  * **Share**  
  You developed something awesome and want to share it. But not only do you want to make it available, you're also happy about contributions from others! 
 
+## Implementations
 
-### Types of Version Control: Central Repository
-
-![Version Control with Central Repository](./img/vc-centralized.png)
-
- * Everybody needs to write to one server
- * All operations (history, commit, branches) require server connection
- * The traditional model: CVS, SVN, etc. 
- * Pros: 
-   * Simple
- * Cons: 
-   * Complex for larger and community projects
-        * Who is allowed to write? 
-        * How do you apply changes that someone outside your team made? 
- 
-### Types of Version Control: Distributed Version Control
-
-![Distribute Version Control](./img/vc-distributed.png)
-
- * Everybody has a full history of the repository locally
- * No dedicated server - every node is equal.
-   * In practice: often server is used for one "official" copy of code.
-    But: server by convention only, no technical difference.
- * Pros: 
-    * No access issues
-        * Make a copy and hack away
-        * Ask if partner wants to accept your changes
-    * Everything is local
-        * Fast!
-        * No internet connection required
-        * Commit often model (once per feature) - don't sync all the time.
- * Cons:
-    * Extra effort to distinguish between committing and pushing/pulling (synchronizing). 
-
-### Implementations
-
- * Centralized
-    * CVS
-    * SVN
-    * Team Foundation Server 
-    * ...
  * Distributed
     * git
     * Mercurial
@@ -63,10 +24,8 @@
 ### git
 
  * Created by Linus Torvalds, 2005
- * Meaning: British English slang roughly equivalent to "unpleasant person". 
- * git – the stupid content tracker.
 
-*I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'. -- Linus Torvalds*
+   *I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'. -- Linus Torvalds*
 
 ### Why git?
 
@@ -78,12 +37,6 @@
  * Safe against corruptions
  * **GitHub!**
  
-### git model 
- 
-A git repository is essentially a large graph.
-
-![git sketch](./img/git_user_server_interaction.jpg)
-
 ### GitHub
 
 GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
