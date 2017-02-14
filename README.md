@@ -69,6 +69,8 @@ The Course graded on an 100 point scale and then weighted according to the follo
    2. [Markdown简介(教学版)](https://github.com/PySEE/home/tree/S2017/guide/Markdown简介(教学版).md)
 
    3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
+
+   4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md.md)
  
 * [practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 

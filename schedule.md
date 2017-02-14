@@ -15,6 +15,8 @@
 
 * **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
 
+* **PyThermo_C_Python**
+
 * **PyThermo_IF97**
 
 * **PyThermo_IdealRankineCycle**
