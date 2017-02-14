@@ -39,7 +39,7 @@
 
 * **DevTools Profilers**
 
-* **DevTools timeit**
+* *DevTools timeitt(optional)*
 
 * *DevTools doctest(optional)*
 
