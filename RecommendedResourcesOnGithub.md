@@ -44,6 +44,8 @@
 
 * Anders Hejlsberg. https://github.com/ahejlsberg
 
+* Linus Torvalds. https://github.com/torvalds
+
 * Sean Zhu. https://github.com/szhu
 
 * Cheng Zhao. https://github.com/zcbenz

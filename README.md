@@ -58,7 +58,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/
 
-*  [code](https://github.com/PySEE/home/tree/S2017/code)
+*  [Code](https://github.com/PySEE/home/tree/S2017/code)
 
     Source code for  John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition: Python3.X Version 
  
@@ -66,13 +66,13 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    1. Python学习和开发环境的建立(教学版).docx
    
-   2. [Markdown简介(教学版)](https://github.com/PySEE/home/tree/S2017/guide/Markdown简介(教学版).md)
+   2. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
 
    3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
 
    4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md.md)
  
-* [practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
+* [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 
    1. **Github**（5）：Github、Git  
 
@@ -120,9 +120,9 @@ You **NEED** to
   
   * Scipy. http://www.scipy.org/
   
-  * numpy. http://www.numpy.org/
+  * Numpy. http://www.numpy.org/
   
-  * matplotlib.  http://matplotlib.org/
+  * Matplotlib.  http://matplotlib.org/
   
   * Pandas. http://pandas.pydata.org/
     * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
@@ -139,7 +139,7 @@ You **NEED** to
 
 * **Software engineering**
 
-  * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/    2012.05
+  * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/ 
 
   * Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
     *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
@@ -154,14 +154,16 @@ You **NEED** to
 
   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
+  * Git for Scientists: A Tutorial http://nyuccl.org/pages/GitTutorial/
+
+  * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-  * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
-
-  * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
-
+  * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/ 
+ 
   * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 * **Algorithms and Data Structures**

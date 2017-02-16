@@ -53,11 +53,16 @@ https://guides.github.com/activities/hello-world/
 * **EGit In Eclipse** 
   If you have installed Eclipse, EGit is ready for you
 
+* **Git Version Control in VS Code**
+  https://code.visualstudio.com/docs/editor/versioncontrol
+
 We strongly recommend that you use version control for your projects. 
 
 ## Reference:
 
-* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+* Git for Scientists: A Tutorial http://nyuccl.org/pages/GitTutorial/
+
+* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    
 
 * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 

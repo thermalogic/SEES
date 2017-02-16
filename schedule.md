@@ -5,7 +5,7 @@
 
 * **001 PREFACE**
 
-* *01 GETTING STARTED(optional)**
+* *01 GETTING STARTED(optional)*
 
 * **02 INTRODUCTION TO PYTHON**
 
@@ -57,9 +57,11 @@
 
 * *14 MONTE CARLO SIMULATION(optional)*
 
-* *PySIS_Online_Monitoring_*(optional)*
+* *PySIS_Online_Monitoring_x(optional)*
 
 * *Sup1_MathJax-LaTeX(optional)*
+
+* *Sup2-version-Control-Git(optional)*
 
 
 
