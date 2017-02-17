@@ -64,7 +64,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
  
 * [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
-   1. [Python学习和开发环境的建立(教学版)].docx(https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx)
+   1. [Python学习和开发环境的建立(教学版).docx](https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx)
    
    2. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
 
@@ -74,7 +74,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    5. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
- * [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
+* [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 
    1. **Github**(5)：Github、Git  
 
