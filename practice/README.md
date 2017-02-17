@@ -6,11 +6,13 @@
 
 * **Github** (5)：Github、Git
 
-* **Python** (20)：Python、Eclipse IDE
+* **Python** (20)：Python、IDE
 
 * **Interactive Computing** (10)：Jupyter Notebook of the Rankine cycle  
 
 * **Data Analysis** (15)：Statistics, regression and visualization
 
 * **Unit Test** (10)：IAPWS-IF97 physical properties calculation and unit test
- 
+
+* **Bonus points**(+5)： C/C++ Programming with GCC,Ubuntu 
+  

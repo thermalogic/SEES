@@ -1,8 +1,8 @@
-# Ubuntu系统安装和Python开发环境的建立
+# Ubuntu系统安装和Python,C/C++开发环境的建立
 
 ## Windows环境要求
 
-  Windows是同学们的主要工作环境，因此，在已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
+  Windows是同学们的主要工作环境，已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
 
   安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
@@ -23,17 +23,17 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS�
   * http://www.linuxdiyf.com/linux/19782.html
 
 ### 安装要点
-* 1 Welcome界面：选择语言 ”English”
+* 1 Welcome界面：选择语言 **English**
 * 2 Wireless界面：选择 不连接无线网络 
 * 3 Preparing to install Ubuntu界面: 选择 安装第三方软件
-* 4 Installation type界面: 选择 **“something else”**
+* 4 Installation type界面: 选择 **something else**
    * 自定义系统分区和挂载点，简单可靠的方式如下：
-       * /home： 挂载点和分区：从空闲空间中划分出一个“logic”  分区， 作为/home 挂载点，注意一定是“logic”  分区（这是因为一个硬盘可以划分的主分区数量有限）：
-         **注意：**一定要有home挂载点和分区。如重新安装ubuntu，还是将这个分区挂载在homo下，不要选择格式化这个分区，这样原来系统中的用户文件都能保留， 
-       *  /： 挂载点和分区：将余下的空闲空间划分出一个“主”  分区，作为系统挂载点. 如果重新安装ubuntu，可以将这个分区格式化
+       * /home： 挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为/home 挂载点，注意:“logic”分区（因为一个硬盘可划分的主分区数量有限）
+         **注意：**一定要有home挂载点和分区。如重新安装ubuntu，还是将这个分区挂载在home下，不要格式化这个分区，这样原来系统中的用户文件都能保留， 
+       *  /： 挂载点和分区：将余下的空闲空间划分出一个“主” 分区，作为系统挂载点. 如果重新安装ubuntu，可将这个分区格式化
          分好区后，点安装
-* 5 Where are you选择 时区为“shanghai”
-* 6 Who are you: 给用户名和密码，选择自动登录（如是重新装系统，且要用原来的home ,建议用原用户名）
+* 5 Where are you:选择时区为 **shanghai**
+* 6 Who are you: 用户名和密码，选择自动登录（如是重新装系统，且要使用原home,建议用原用户名）
 
 ## Python3开发环境
 
@@ -90,7 +90,7 @@ $sudo –H pip3 install jupyter
 
 * 3. C/C++开发: Ubuntukylin16.04系统内置gcc编译器，无需安装
 
-## 系统桌面
+## 系统选择
 
 ### 1 [Ubuntukylin 16.04.01](http://www.ubuntukylin.com/) 
 
@@ -105,3 +105,7 @@ $sudo –H pip3 install jupyter
      系统安装后，需要补充安装中文包及其输入法
 
 ![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
+
+##  Reference
+
+* http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html

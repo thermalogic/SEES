@@ -19,7 +19,7 @@
 
 * **3 命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32** 
 
-   原因：使用管理员权限运行cmd,都启动到C:\Windows\system32（Windows的一个bug）
+   原因：使用管理员权限运行cmd,都启动到C:\Windows\system32
 
    解决方法：使用普通用户权限运行jupyter notebook
 

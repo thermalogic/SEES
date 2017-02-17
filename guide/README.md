@@ -49,7 +49,7 @@
 
 * 热工计算：IF97等
 
-  * SEUIF97 https://github.com/Py03013052/SEUIF97
+  * SEUIF97 https://github.com/PySEE/SEUIF97
 
   * jjgomera https://github.com/jjgomera/iapws 
 
@@ -57,13 +57,15 @@
 
 * 版本控制和社区编程:Git、EGit、Github等
 
+  * Git for Scientists: A Tutorial http://nyuccl.org/pages/GitTutorial/
+
   * Scott Chacon and Ben Straub. Pro Git.  http://git-scm.com/book/en/v2
 
   * Maximilian Koegel,Jonas Helming  EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
- *  廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+  *  廖雪峰. http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
  
- *  知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+  *  知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
 
 

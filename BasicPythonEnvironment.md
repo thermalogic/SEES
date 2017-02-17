@@ -1,6 +1,6 @@
 # Python学习和开发环境的建立
 
-操作系统： Windows10  64位；计算机联网
+操作系统： Windows10  64位, 计算机联网
  
 ## 1 安装Python3.5
     
@@ -38,7 +38,7 @@
         numpy
         matplotlib
 
-从  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 下载Windows 64位包, 然后pip命令安装（*指下载的软件包名）
+从  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 下载Windows64位包, 然后,pip命令安装（*指下载的软件包名）
 
 ```bash       
    > pip install *.whl
@@ -52,7 +52,7 @@
    
 *  解压下载的zip文件，然后：
    
-        1)将SEUIF97.dll拷贝到 c:\windows\system
+        1)将libseuif97.dll拷贝到 c:\windows\system
         2)将seuif97.py拷贝到python安装目录的lib子目录下，如C:\python35\Lib
 
 ## 5 课件

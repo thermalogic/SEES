@@ -43,9 +43,9 @@ After successfully completing the program, the participants will be able to:
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises 20%
-  * Practice (~5) 60%
+  * Practice (~5) 60%,  Bonus Points: +5
   * Final Exam 20%
- 
+
 ## Contents
 
 * [Notebook](https://github.com/PySEE/home/tree/S2017/notebook)
@@ -64,25 +64,29 @@ The Course graded on an 100 point scale and then weighted according to the follo
  
 * [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
-   1. Python学习和开发环境的建立(教学版).docx
+   1. [Python学习和开发环境的建立(教学版)].docx(https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx)
    
    2. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
 
    3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
 
    4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md.md)
- 
-* [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 
-   1. **Github**（5）：Github、Git  
-
-   2. **Python**（20）：Python、Eclipse IDE
+   5. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
-   3. **Interactive Computing**（10）：Jupyter Noteboo of the Rankine cycle   
-    
-   4.  **Data Analysis**（15）：Statistics, regression and visualization
+ * [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
 
-   5.  **Unit Test**（10）：IAPWS-IF97 physical properties calculation and unit test
+   1. **Github**(5)：Github、Git  
+
+   2. **Python**(20)：Python、IDE
+   
+   3. **Interactive Computing**(10)：Jupyter Noteboo of the Rankine cycle   
+    
+   4.  **Data Analysis**(15)：Statistics, regression and visualization
+
+   5.  **Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test
+
+   *  **Bonus Points**(+5): C/C++ Programming with GCC，Ubuntu 
    
 ## TIPS
 
@@ -102,7 +106,7 @@ You **NEED** to
 
 * **Python**
 
-  * 梁杰译. 编程导论. 人民邮电出版社( 第1版) .  2015.03
+  * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
   
   * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
     
