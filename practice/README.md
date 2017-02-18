@@ -8,7 +8,7 @@
 
 * **Python** (20)：Python、IDE
 
-* **Interactive Computing** (10)：Jupyter Notebook of the Rankine cycle  
+* **Interactive Computing** (15)：Jupyter Notebook of the Rankine cycle  
 
 * **Data Analysis** (15)：Statistics, regression and visualization
 

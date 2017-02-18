@@ -78,9 +78,9 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
    1. **Github**(5)：Github、Git  
 
-   2. **Python**(20)：Python、IDE
+   2. **Python**(15)：Python、IDE
    
-   3. **Interactive Computing**(10)：Jupyter Noteboo of the Rankine cycle   
+   3. **Interactive Computing**(15)：Jupyter Noteboo of the Rankine cycle   
     
    4.  **Data Analysis**(15)：Statistics, regression and visualization
 
