@@ -132,11 +132,16 @@ That's it - you'll have the latest version of the repository.
 # Softwares for the Course
 
 * Python3:  https://www.python.org/downloads/
-* Python Packages for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/
-* IAPWS-IF97 Packages: https://github.com/PySEE/SEUIF97
-* Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-* Eclipse CDT: http://www.eclipse.org/
-* Pydev: http://pydev.org/
+* Python Packages
+  * for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/
+  * IAPWS-IF97:
+     * https://github.com/PySEE/SEUIF97
+     * https://github.com/jjgomera/iapws
+* Eclipse IDE
+  * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  * Eclipse CDT: http://www.eclipse.org/
+  * Pydev: http://pydev.org/
 * Visual Studio Code：https://code.visualstudio.com/docs/languages/python
 * Git for Windows.  https://github.com/git-for-windows/git/releases
 * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
+
