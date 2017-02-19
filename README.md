@@ -133,7 +133,7 @@ That's it - you'll have the latest version of the repository.
 
 * Python3:  https://www.python.org/downloads/
 * Python Packages
-  * scipy for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
+  * Scipy for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
   * Jupyter: http://jupyter.org/
        >pip install jupyter
   * IAPWS-IF97:
