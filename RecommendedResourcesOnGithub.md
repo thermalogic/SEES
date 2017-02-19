@@ -50,8 +50,6 @@
 
 * Cheng Zhao. https://github.com/zcbenz
 
-* Tianshi Cheng. https://github.com/chengts95
-
 
 
 
