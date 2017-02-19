@@ -1,6 +1,13 @@
 
 # Softwares for the Course
 
+* 1 Python3:  https://www.python.org/downloads/
+* 2 Python Packages for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/
+* 3 Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* 4 Eclipse CDT: http://www.eclipse.org/
+* 5 Visual Studio Code：https://code.visualstudio.com/docs/languages/python
+* 6 Git for Windows.  https://github.com/git-for-windows/git/releases
+
 ## Python3 and Packages
 
 * Python3:  https://www.python.org/downloads/
@@ -21,6 +28,12 @@
         pip install jupyter
    ```
 
+* Unofficial Windows Binaries for Python Extension Packages
+
+  by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
+
+  http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
 * IAPWS-IF97 Library
 
    * IF97 Library @ SEU： https://github.com/PySEE/SEUIF97
@@ -31,19 +44,13 @@
         pip install iapws
       ```
 
-* Unofficial Windows Binaries for Python Extension Packages
-
-  by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
-
-  http://www.lfd.uci.edu/~gohlke/pythonlibs/
-
 ## Integrated Development Environment
 
-* Eclipse
+* Eclipse CDT
 
   * Java JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-  * Eclipse http://www.eclipse.org/
+  * Eclipse CDT http://www.eclipse.org/
 
   * Pydev: http://pydev.org/
 
@@ -63,7 +70,7 @@
 
        https://github.com/
 
-*  Git for Windows. https://git-scm.com/download/win
+*  Git for Windows.  https://github.com/git-for-windows/git/releases
   
 # Guide
 
