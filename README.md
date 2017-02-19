@@ -79,20 +79,6 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * In-class Exercises 20%
   * Practice (~5) 60%,  Bonus Points: +5
   * Final Exam 20%
-   
-## TIPS
-
-We highly recommend you practice coding whenever you have a few minutes.
-
-Even if you are just modifying available code, it will be incredibly beneficial.
-
-You **NEED** to
-
-* use other resources,
-
-* read codes,
-
-*  **get your hands dirty** and **practice**
 
 # Update Course
 
@@ -146,3 +132,16 @@ That's it - you'll have the latest version of the repository.
 * Git for Windows.  https://github.com/git-for-windows/git/releases
 * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
+## TIPS
+
+We highly recommend you practice coding whenever you have a few minutes.
+
+Even if you are just modifying available code, it will be incredibly beneficial.
+
+You **NEED** to
+
+* use other resources,
+
+* read codes,
+
+*  **get your hands dirty** and **practice**
