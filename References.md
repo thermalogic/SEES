@@ -3,6 +3,20 @@
 
 ## References
 
+* John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
+
+   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+ 
+ * **Online**
+ 
+   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
+   
+   * MITx https://www.edx.org/
+     
+     MITx: 6.00.1x Introduction to Computer Science and Programming Using Python
+     
+     MITx: 6.00.2x Introduction to Computational Thinking and Data Science  
+
 * **Python**
 
   * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03

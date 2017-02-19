@@ -27,16 +27,12 @@ After successfully completing the program, the participants will be able to:
 * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+
+   * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
  
- * **Online**
- 
-   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
-   
-   * MITx https://www.edx.org/
-     
-     MITx: 6.00.1x Introduction to Computer Science and Programming Using Python
-     
-     MITx: 6.00.2x Introduction to Computational Thinking and Data Science  
+*  Python 3 documentation. https://docs.python.org/3/
+
+*  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 ## Contents
 
@@ -132,3 +128,15 @@ You can do this by changing into the **home** directory and executing:
 git pull
 ```
 That's it - you'll have the latest version of the repository.
+
+# Softwares for the Course
+
+* Python3:  https://www.python.org/downloads/
+* Python Packages for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/
+* IAPWS-IF97 Packages: https://github.com/PySEE/SEUIF97
+* Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* Eclipse CDT: http://www.eclipse.org/
+* Pydev: http://pydev.org/
+* Visual Studio Code：https://code.visualstudio.com/docs/languages/python
+* Git for Windows.  https://github.com/git-for-windows/git/releases
+* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
