@@ -11,14 +11,14 @@ This course is intended to train **Engineering students** in good software pract
 
 After successfully completing the program, the participants will be able to:
 
-* understand how software tools work together and how they can be used in tandem to carry out tasks
+* understand how software tools work together and carry out tasks
 * generate professional documents
 * Writing clean, testable, high quality code in Python
 * debug programs using a standardized approach
 * write unit tests 
 * use version control 
-* A useful set of algorithmic and problem reduction techniques
-* Computational tools to model and understand data.
+* a useful set of algorithmic and problem reduction techniques
+* computational tools to model and understand data.
 
 ### Required Materials and Textbooks
 
@@ -37,14 +37,6 @@ After successfully completing the program, the participants will be able to:
      MITx: 6.00.1x Introduction to Computer Science and Programming Using Python
      
      MITx: 6.00.2x Introduction to Computational Thinking and Data Science  
-
-## Course Grades
-
-The Course graded on an 100 point scale and then weighted according to the following distribution:
-
-  * In-class Exercises 20%
-  * Practice (~5) 60%,  Bonus Points: +5
-  * Final Exam 20%
 
 ## Contents
 
@@ -85,6 +77,14 @@ The Course graded on an 100 point scale and then weighted according to the follo
    5.  **Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test
 
    *  **Bonus Points**(+5): C/C++ Programming with GCC，Ubuntu 
+
+## Course Grades
+
+The Course graded on an 100 point scale and then weighted according to the following distribution:
+
+  * In-class Exercises 20%
+  * Practice (~5) 60%,  Bonus Points: +5
+  * Final Exam 20%
    
 ## TIPS
 
@@ -102,7 +102,11 @@ You **NEED** to
 
 # Update Course
 
-This repository contain all files of the course. You can manually download these files, but we recommend that you use [git](https://git-scm.com/downloads) to **clone** and **update** this repository.
+This repository contain all files of the course. You can manually download these files, 
+
+![down](./guide/img/downloadhome.jpg)
+
+but we recommend that you use [git](https://git-scm.com/downloads) to **clone** and **update** this repository.
 
 You can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/),  [EGit](http://www.eclipse.org/),  [VS Code](https://code.visualstudio.com/).
 
