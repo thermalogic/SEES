@@ -11,14 +11,12 @@ This course is intended to train **Engineering students** in good software pract
 
 After successfully completing the program, the participants will be able to:
 
-* understand how software tools work together and carry out tasks
-* generate professional documents
 * Writing clean, testable, high quality code in Python
 * debug programs using a standardized approach
 * write unit tests 
-* use version control 
 * a useful set of algorithmic and problem reduction techniques
-* computational tools to model and understand data.
+* computational tools to model and understand data
+* use version control 
 
 ### Required Materials and Textbooks
 
