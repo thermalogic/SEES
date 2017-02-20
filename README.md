@@ -7,15 +7,15 @@
  
 ##  Goal
 
-This course is intended to train **Engineering students** in good software practices and tools for producing code and documentation.
+This course is intended to train **students majored in thermal energy engineering** in good software practices and tools for producing code and documentation.
 
 After successfully completing the program, the participants will be able to:
 
-* Writing clean, testable, high quality code in Python
-* debug programs using a standardized approach
-* write unit tests 
+* writing clean, testable, high quality code in Python
 * a useful set of algorithmic and problem reduction techniques
 * computational tools to model and understand data
+* debug programs using a standardized approach
+* write unit tests 
 * use version control 
 
 ### Required Materials and Textbooks
@@ -119,11 +119,15 @@ That's it - you'll have the latest version of the repository.
 * Python Packages
   * Scipy for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
   * Jupyter: http://jupyter.org/
-       >pip install jupyter
+     ```
+         >pip install jupyter
+     ```
   * IAPWS-IF97:
      * https://github.com/PySEE/SEUIF97
      * https://github.com/jjgomera/iapws
-        >pip install iapws
+      ```
+          >pip install iapws
+      ```
 * Eclipse IDE
   * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   * Eclipse CDT: http://www.eclipse.org/
