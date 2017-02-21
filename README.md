@@ -1,10 +1,9 @@
 
 # Foundamentals and Practice of Software Engineering with Python
 
-*  If you have concerns about the course, please email to me. I value all suggestions.
- 
-   * Email：cmh@seu.edu.cn
- 
+* For any suggestions, comments, bugs ..., you can use [the github issue](https://github.com/PySEE/home/issues) or 
+   email to me [cmh@seu.edu.cn](cmh@seu.edu.cn) . I value all suggestions.
+
 ##  Goal
 
 This course is intended to train **students majored in thermal energy engineering** in good software practices and tools for producing code and documentation.
@@ -54,7 +53,7 @@ After successfully completing the program, the participants will be able to:
 
    3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
 
-   4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md.md)
+   4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md)
 
    5. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
