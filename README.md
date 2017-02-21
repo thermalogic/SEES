@@ -1,8 +1,9 @@
 
 # Foundamentals and Practice of Software Engineering with Python
 
-* For any suggestions, comments, bugs ..., you can use [the github issue](https://github.com/PySEE/home/issues) or 
-   email to me [cmh@seu.edu.cn](cmh@seu.edu.cn) . I value all suggestions.
+* If you have concerns about the course, please email to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
+ 
+    * Email: cmh@seu.edu.cn. 
 
 ##  Goal
 
