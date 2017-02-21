@@ -30,10 +30,10 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS�
    * 自定义系统分区和挂载点，简单可靠的方式如下：
        * /home： 挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为/home 挂载点，注意:“logic”分区（因为一个硬盘可划分的主分区数量有限）
          **注意：**一定要有home挂载点和分区。如重新安装ubuntu，还是将这个分区挂载在home下，不要格式化这个分区，这样原来系统中的用户文件都能保留， 
-       *  /： 挂载点和分区：将余下的空闲空间划分出一个“主” 分区，作为系统挂载点. 如果重新安装ubuntu，可将这个分区格式化
-         分好区后，点安装
+       *  /： 挂载点和分区：将余下的空闲空间划分出一个“主” 分区，作为系统挂载点. 如果重新安装ubuntu，可将这个分区格式化.
+       * 分好区后，点安装
 * 5 Where are you:选择时区为 **shanghai**
-* 6 Who are you: 用户名和密码，选择自动登录（如是重新装系统，且要使用原home,建议用原用户名）
+* 6 Who are you: 用户名和密码，选择自动登录（如是重新装系统且要用原home,建议用原用户名）
 
 ## Python3开发环境
 
@@ -62,9 +62,9 @@ $sudo –H pip3 install jupyter
 ```
 ### 安装SEUIF97
 
-1.copy SEUIF97.so to a default path of Linux shared lib
+1.copy libseuif97.so to a default path of Linux shared lib
 ```bash
-   $sudo cp SEUIF97.so /usr/lib/
+   $sudo cp libseuif97.so /usr/lib/
 ```
 
 2.copy seuif97.py to a default path of Python lib
