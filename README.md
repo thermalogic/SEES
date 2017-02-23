@@ -64,7 +64,7 @@ After successfully completing the program, the participants will be able to:
 
    2. **Python**(15)：Python、IDE
    
-   3. **Interactive Computing**(15)：Jupyter Noteboo of the Rankine cycle   
+   3. **Interactive Computing**(15)：Jupyter Notebook of the Rankine cycle   
     
    4.  **Data Analysis**(15)：Statistics, regression and visualization
 
