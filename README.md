@@ -58,19 +58,21 @@ After successfully completing the program, the participants will be able to:
 
    5. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
-* [Practices(60)](https://github.com/PySEE/home/tree/S2017/practice)
-
-   1. **Github**(5)：Github、Git  
-
-   2. **Python**(15)：Python、IDE
-   
-   3. **Interactive Computing**(15)：Jupyter Notebook of the Rankine cycle   
+* [Practices(60)](https://github.com/PySEE/RecommendedPractices/tree/S2017/)
     
-   4.  **Data Analysis**(15)：Statistics, regression and visualization
+   *  Please Visit **RecommendedPractices** for details: https://github.com/PySEE/RecommendedPractices/
 
-   5.  **Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test
+   1. **Github**(5)：[Github、Git](https://github.com/PySEE/RecommendedPractices/tree/S2017/P1)
 
-   *  **Bonus Points**(+5): C/C++ Programming with GCC，Ubuntu 
+   2. **Python**(15)：[Python、IDE](https://github.com/PySEE/RecommendedPractices/tree/S2017/P2)
+   
+   3. **Interactive Computing**(15)： [Jupyter Notebook of the Rankine cycle](https://github.com/PySEE/RecommendedPractices/tree/S2017/P3)  
+    
+   4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/RecommendedPractices/tree/S2017/P4)
+
+   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/RecommendedPractices/tree/S2017/P5)
+
+   *  **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/RecommendedPractices/tree/S2017/Bonus) 
 
 ## Course Grades
 
