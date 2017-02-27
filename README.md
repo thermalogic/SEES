@@ -7,7 +7,7 @@
 
 ##  Goal
 
-This course is intended to train **students majored in thermal energy engineering** in good software practices and tools for producing code and documentation.
+This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code and documentation.
 
 After successfully completing the program, the participants will be able to:
 
@@ -15,7 +15,7 @@ After successfully completing the program, the participants will be able to:
 * a useful set of algorithmic and problem reduction techniques
 * computational tools to model and understand data
 * debug programs using a standardized approach
-* write unit tests 
+* write unit tests and evaluate software quality
 * use version control 
 
 ### Required Materials and Textbooks
@@ -150,11 +150,5 @@ We highly recommend you practice coding whenever you have a few minutes.
 
 Even if you are just modifying available code, it will be incredibly beneficial.
 
-You **NEED** to
-
-* use other resources,
-
-* read codes,
-
-*  **get your hands dirty** and **practice**
+You **NEED** to **get your hands dirty** and **practice**
 
