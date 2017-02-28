@@ -1,6 +1,22 @@
 # Python学习和开发环境的建立
 
 操作系统： Windows10  64位, 计算机联网
+
+
+##  Windows10(64)
+
+* Southeast University
+
+* January 2015, Southeast University and Microsoft Corp provide legitimate Windows, Office for the staffs and students.
+
+  http://nic.seu.edu.cn/2015/0113/c12333a115289/page.htm
+  
+ * Microsoft Corp
+  
+   * https://www.microsoft.com/en-gb/software-download/windows10
+     * Do you want to install Windows 10 on your PC?
+       
+       download and run the media creation tool: http://go.microsoft.com/fwlink/?LinkId=691209
  
 ## 1 安装Python3.5
     

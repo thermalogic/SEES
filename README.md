@@ -138,12 +138,6 @@ That's it - you'll have the latest version of the repository.
 * Git for Windows.  https://github.com/git-for-windows/git/releases
 * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
-## Legitimate Software @ Southeast University
-
-* January 2015, Southeast University and Microsoft Corp provide legitimate Windows, Office for the staffs and students.
-
-  http://nic.seu.edu.cn/2015/0113/c12333a115289/page.htm
-
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
