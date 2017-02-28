@@ -3,7 +3,7 @@
 操作系统： Windows10  64位, 计算机联网
 
 
-##  Windows10(64)------------------------------
+##  Windows10(64)
 
 * Southeast University
 
