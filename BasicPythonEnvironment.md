@@ -83,7 +83,7 @@
 
 启动课程Jupyter Notebook服务
 
-### 自定义工作空间，快速启动Jupyter Notebook
+## 6 自定义工作空间，快速启动Jupyter Notebook
 
 * 指定某个文件夹，定义为工作空间，用于在该文件夹地址下启动Jupyter Notebook，并存放在Jupyter Notebook上建立的项目。
 
