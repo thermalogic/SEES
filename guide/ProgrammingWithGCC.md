@@ -172,21 +172,21 @@ Eclipse is popular for Java project development. It also supports C/C++, PHP, Py
 
 ## Reference
 
+* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
+
+* GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
 * GCC (GNU compilers) http://gcc.gnu.org
 
 * GCC Manual  http://gcc.gnu.org/onlinedocs
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
-* HOWTO Install the MinGW (GCC) Compiler Suite. http://www.mingw.org/wiki/InstallationHOWTOforMinGW
-
 * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
 * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
 
 * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
-
-* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
 
