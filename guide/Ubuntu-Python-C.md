@@ -8,7 +8,7 @@
 
   安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
 
-![winpartion](./img/win-partion.jpg)
+![hard disk partition](./img/hard-disk-partition.jpg)
 ## 安装Ubuntu
 
 Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.02 LTS版。
