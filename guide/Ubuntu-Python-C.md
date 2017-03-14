@@ -11,13 +11,13 @@
 ![hard disk partition](./img/hard-disk-partition.jpg)
 ## 安装Ubuntu
 
-Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.02 LTS版。
+Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版。
 
-从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04.02版iso,
+从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04 版iso,
 
 从 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ 下载Universal-USB-Installer制作U盘系统
 
-然后用U盘安装双系统。安装过程，可参考：
+然后，用U盘安装双系统。安装过程，可参考：
 
 * U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
 
@@ -40,7 +40,7 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.02 LTS�
 
 ## Python3开发环境
 
-Ubuntu16.04.01系统缺省安装有Python3.5，但不完整，需补充: pip3、idle3。
+Ubuntu16.04系统缺省安装有Python3.5，但不完整，需补充: pip3、idle3。
 
 在线安装：
 ```bash
@@ -95,7 +95,7 @@ $sudo –H pip3 install jupyter
 
 ## 系统选择
 
-### 1 [Ubuntukylin 16.04.01](http://www.ubuntukylin.com/) 
+### 1 [Ubuntukylin 16.04](http://www.ubuntukylin.com/) 
 
 适用对象：需要中文环境的Linux新用户 
 
