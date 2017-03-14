@@ -8,11 +8,12 @@
 
   安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
 
+![winpartion](./img/win-partion.jpg)
 ## 安装Ubuntu
 
-Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.01 LTS版。
+Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04.02 LTS版。
 
-从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04.01版iso,
+从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04.02版iso,
 
 从 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ 下载Universal-USB-Installer制作U盘系统
 
