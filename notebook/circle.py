@@ -1,6 +1,7 @@
-pi = 3.14159
 
-def area(radius):
+pi = 3.14159  # executable statements 
+
+def area(radius):  # function definitions.
     return pi*(radius**2)
 
 def circumference(radius):
@@ -11,4 +12,3 @@ def sphereSurface(radius):
 
 def sphereVolume(radius):
     return (4.0/3.0)*pi*(radius**3)
-
