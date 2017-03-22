@@ -28,9 +28,9 @@ GCC (GNU Toolchain) is included in all Unixes. For Windows, you could either ins
   
   * 1.Goto MinGW mother site at https://sourceforge.net/projects/mingw-w64/files/?source=navbar 
 
-      Downloads x86_64-6.3.0-release-win32-seh-rt_v5-rev1.7z 
+      Downloads x86_64-6.3.0-release-win32-seh
 
-      https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/6.3.0/threads-win32/seh/x86_64-6.3.0-release-win32-seh-rt_v5-rev1.7z
+      ![MinGW-w64](./img/mingw-w64.jpg) 
     
   * 2.unzip the ziped MinGW-w64 to C:\mingw64
 
@@ -134,6 +134,9 @@ clean:
 
 ```
 Run the "make" utility as follows:
+ 
+ * rename `C:\mingw64\bin\mingw32-make.exe` to `C:\mingw64\bin\make.exe`
+ 
 ```bash
 > make
 ```
