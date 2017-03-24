@@ -7,11 +7,17 @@
 
 * *01 GETTING STARTED(optional)*
 
+* *Sup1_MathJax-LaTeX(optional)*
+
+* *Sup2-version-Control-Git(optional)*
+
 * **02 INTRODUCTION TO PYTHON**
 
 * **03 SOME SIMPLE NUMERICAL PROGRAMS**
 
 * **04 FUNCTIONS SCOPING AND ABSTRACTION**
+
+* *Sup3-Reading-and-Writing-Data-Files-Binary-Data-Files(optional)*
 
 * **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
 
@@ -58,12 +64,6 @@
 * *14 MONTE CARLO SIMULATION(optional)*
 
 * *PySIS_Online_Monitoring_x(optional)*
-
-* *Sup1_MathJax-LaTeX(optional)*
-
-* *Sup2-version-Control-Git(optional)*
-
-* *Sup3-Reading-and-Writing-Data-Files-Binary-Data-Files(optional)*
 
 
 
