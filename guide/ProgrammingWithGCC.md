@@ -120,6 +120,17 @@ int main() {
 Create the following file named **"makefile"** (without any file extension), which contains rules to build the executable, 
 and save in the same directory as the source file. Use **"tab"** to indent the command (NOT spaces).
 
+A makefile consists of a set of rules. A rule consists of 3 parts:**a target**, **a list of pre-requisites** and **a command**, as follows:
+
+ ```bash
+
+target: pre-req-1 pre-req-2 ...
+	  command
+
+ ```
+The target and pre-requisites are separated by **a colon (:)**. The command must be preceded by **a tab** (NOT spaces).
+
+
 ```bash
 all: hello.exe
 
@@ -133,24 +144,13 @@ clean:
 	 rm hello.o hello.exe
 
 ```
-Run the "make" utility as follows:
+Run the "make" utility without argument starts the target "all" in the makefile:
  
  * rename `C:\mingw64\bin\mingw32-make.exe` to `C:\mingw64\bin\make.exe`
- 
+
 ```bash
 > make
 ```
-Running make without argument starts the target "all" in the makefile.
-A makefile consists of a set of rules. A rule consists of 3 parts:**a target**, **a list of pre-requisites** and **a command**, as follows:
-
- ```bash
-
-target: pre-req-1 pre-req-2 ...
-	  command
-
- ```
-The target and pre-requisites are separated by **a colon (:)**. The command must be preceded by **a tab** (NOT spaces).
-
 
 ## 3. Development Environment for Windows
 
