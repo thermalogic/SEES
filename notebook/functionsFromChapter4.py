@@ -1,3 +1,4 @@
+
 #Page 45, Figure 4.6
 def factI(n):
    """Assumes that n is an int > 0
@@ -24,4 +25,3 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + fib(n-2)
-
