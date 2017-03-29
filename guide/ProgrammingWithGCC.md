@@ -24,11 +24,15 @@ GCC (GNU Toolchain) is included in all Unixes. For Windows, you could either ins
    * 2.GNU Binutils for Windows (assembler, linker, archive manager).
    * 3.MSYS (short for "Minimal SYStem"), is a bash Shell command line interpreter.
 
-* To install MinGW-w64:
+* To install MinGW-w64: http://mingw-w64.org/ 
   
-  * 1.Goto MinGW mother site at https://sourceforge.net/projects/mingw-w64/files/?source=navbar 
-
-      Downloads x86_64-6.3.0-release-win32-seh
+  * 1.Goto https://sourceforge.net/projects/mingw-w64/files/?source=navbar 
+  
+      Downloads x86_64-6.3.0-release-win32-sjlj or seh 
+      
+       * sjlj: 32 and 64,but it incurs a minor performance penalty  
+        
+       * seh：64 only
 
       ![MinGW-w64](./img/mingw-w64.jpg) 
     
