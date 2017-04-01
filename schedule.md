@@ -15,31 +15,31 @@
 
   * *Sup3-Reading-and-Writing-Data-Files-Binary-Data-Files(optional)*
 
-* **05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS**
+* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-* **15 UNDERSTANDING EXPERIMENTAL DATA**
+* [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* **16 LIES DAMNED LIES AND STATISTICS**
-
-* **PyThermo_IF97**
-
-* **PyThermo_IdealRankineCycle**
-
-  * *PyThermo_ReheatCycleWithTurbineIrreversibility(optional)*
-
-* **PyThermo_C_Python**
-
+* [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+  
   * *Sup1_MathJax-LaTeX(optional)*
 
   * *Sup2-version-Control-Git(optional)*
 
-* **06 TESTING AND DEBUGGING**
+* [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
 
-* **07 EXCEPTIONS AND ASSERTIONS**
+* [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
 
-* **08 CLASSES AND OBJECT-ORIENTED PROGRAMMING**
+  * [PyThermo_ReheatCycleWithTurbineIrreversibility(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_ReheatCycleWithTurbineIrreversibility.ipynb)
 
-  * *11 PLOTTING AND MORE ABOUT CLASSES(optional)*
+  * [PyThermo_C_Python(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb)
+
+* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb.ipynb)
+
+* [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/06_TESTING_AND_DEBUGGING.ipynb)
+
+* [07 EXCEPTIONS AND ASSERTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
+
+  * [11 PLOTTING AND MORE ABOUT CLASSES(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
 * **DevTools unittest**
 
