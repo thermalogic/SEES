@@ -39,11 +39,11 @@ GCC (GNU Toolchain) is included in all Unixes. For Windows, you could either ins
   * 2.unzip the ziped MinGW-w64 to C:\mingw64
 
   * 3.Setup **C:\mingw6\bin** to PATH  
+     
       ```bash
       >set PATH=C:\mingw64\bin;%PATH%
       >echo %PATH%
       ```
-
    * 4.Verify the GCC installation by listing the version of gcc, g++ and gdb: 
       ```bash
       > gcc --version
