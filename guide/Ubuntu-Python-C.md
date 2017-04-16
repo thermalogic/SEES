@@ -88,6 +88,10 @@ $sudo –H pip3 install jupyter
 ###  安装Eclipse IDE
     
 * 1. 下载Linux版的Eclipse CDT，解压
+
+   * How to Install Eclipse on Ubuntu Linux 
+     
+     http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseJava_HowTo.html#install_ubuntu
    
 * 2. Python开发：安装Pydev插件
 
@@ -97,18 +101,22 @@ $sudo –H pip3 install jupyter
 
 ### 1 [Ubuntukylin 16.04](http://www.ubuntukylin.com/) 
 
-适用对象：需要中文环境的Linux新用户 
+适用对象：需要中文环境的Linux新用户
 
 ![Ubuntukylin](./img/ubuntukylin.jpg) 
+
+ * Ubuntukylin网站提供的版本会变化，根据网站提示安装适当的版本
 
 ### 2 [Linux Mint 18.1 “Serena” Xfce Edition](https://www.linuxmint.com/)
 
 适用对象：要求更快的系统相应速度；硬件性能较弱的计算机。
 
-     系统安装后，需要补充安装中文包及其输入法
+     系统安装后，需要补充安装中文包及其输入法(搜狗输入法)
 
 ![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
 
 ##  Reference
 
 * http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+
+* http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
