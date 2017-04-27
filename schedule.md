@@ -5,15 +5,11 @@
 
 * **001 PREFACE**
 
-  * *01 GETTING STARTED(optional)*
-
 * **02 INTRODUCTION TO PYTHON**
 
 * **03 SOME SIMPLE NUMERICAL PROGRAMS**
 
 * **04 FUNCTIONS SCOPING AND ABSTRACTION**
-
-  * *Sup3-Reading-and-Writing-Data-Files-Binary-Data-Files(optional)*
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
@@ -28,8 +24,6 @@
 * [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
 
 * [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
-
-  * [PyThermo_ReheatCycleWithTurbineIrreversibility(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_ReheatCycleWithTurbineIrreversibility.ipynb)
 
   * [PyThermo_C_Python(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb)
 
@@ -61,7 +55,7 @@
 
   * *18 DYNAMIC PROGRAMMING(optional)*
 
-  * *14 MONTE CARLO SIMULATION(optional)*
+
 
   
 
