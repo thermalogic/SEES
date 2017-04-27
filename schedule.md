@@ -63,7 +63,6 @@
 
   * *14 MONTE CARLO SIMULATION(optional)*
 
-  * *PySIS_Online_Monitoring_?(optional)*
-
+  
 
 
