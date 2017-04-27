@@ -27,6 +27,14 @@ After successfully completing the program, the participants will be able to:
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
    * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
+
+   * Accompanying Python3 Code：
+       
+      * Python2 Code：http://mitpress.mit.edu/sites/default/files/Guttag_Python_Code.zip
+    
+      * Python3 Code：
+          
+          https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887
  
 *  Python 3 documentation. https://docs.python.org/3/
 
@@ -41,10 +49,6 @@ After successfully completing the program, the participants will be able to:
    Online read-only versions：
 
    http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/
-
-*  [Source code for  John V. Guttag](https://github.com/PySEE/home/tree/S2017/code)
-
-    Python3.X Version Source code: Introduction to Computation and Programming Using Python. Revised and expanded edition: 
  
 * [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
