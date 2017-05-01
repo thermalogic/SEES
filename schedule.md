@@ -37,15 +37,11 @@
 
 * **DevTools unittest**
 
+* **DevTools doctest**
+
+* **DevTools timeit**
+
 * **DevTools Profilers**
-
-  * *DevTools timeitt(optional)*
-
-  * *DevTools doctest(optional)*
-
-  * *DevTools Debugger(optional)*
-
-  * *DevTools pydoc(optional)*
 
 * **09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC**
 

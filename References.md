@@ -95,6 +95,8 @@
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 
   * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
+
+  * Mark Allen Weiss. Data Structures and Algorithm Analysis in C
  
 * **Engineering**
 

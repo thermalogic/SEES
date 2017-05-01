@@ -1,0 +1,13 @@
+{
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".\\notebook",
+        "-p",
+        "*test.py"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false
+}
