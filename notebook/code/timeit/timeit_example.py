@@ -1,6 +1,5 @@
 import timeit
 
-# using setitem
 t = timeit.Timer("print('main statement')", "print('setup')")
 
 print('TIMEIT:')
