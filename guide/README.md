@@ -22,7 +22,7 @@
     
    * Brainwy Software Ltd. PyDev Manual. http://www.pydev.org/manual_101_root.html
 
-   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/.2008.11
+   * 郑伟芳. PyDev for Eclipse简介. https://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev
 
    * Python on Visual Studio Code. https://code.visualstudio.com/docs/languages/python
 
