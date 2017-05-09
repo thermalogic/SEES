@@ -70,6 +70,14 @@
    
         1)将libseuif97.dll拷贝到 c:\windows\system
         2)将seuif97.py拷贝到python安装目录的lib子目录下，如C:\python35\Lib
+    
+* Python版IF97
+
+预先安装好numpy和scipy
+
+```bash       
+   > pip install iapws
+``` 
 
 ## 5 课件
 
@@ -83,14 +91,14 @@
 
 启动课程Jupyter Notebook服务
 
-## 6 自定义工作空间，快速启动Jupyter Notebook
+## 6 设定Jupyter Notebook工作目录和快速启动Jupyter Notebook
 
-* 指定某个文件夹，定义为工作空间，用于在该文件夹地址下启动Jupyter Notebook，并存放在Jupyter Notebook上建立的项目。
+* 指定某个文件夹为自己的Jupyter Notebook工作目录，在该文件夹下启动Jupyter Notebook服务，存放用Jupyter Notebook建立的项目。
 
-* 建立批处理文件
+* 快速启动Jupyter Notebook：
 
-在指定的工作空间文件夹中，新建一空白文本文档，输入内容"jupyter notebook"
+    在指定的Jupyter Notebook工作文件夹中，新建一空白文本文档，输入内容"jupyter notebook"
 
-将文本文件另存，文件名自定义，但必须加上".bat"后缀，如"start.bat"，文件类型选择""所有文件"
+    将文本文件另存，文件名自定义，但必须加上".bat"后缀，如"start.bat"，文件类型选择""所有文件"
 
-双击"start.bat"文件，启动Jupyter Notebook 
+    双击"start.bat"文件，启动Jupyter Notebook 

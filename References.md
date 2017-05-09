@@ -29,7 +29,7 @@
 
   * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
 
-  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/  2008.11
+  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
 
   * Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
 
@@ -107,4 +107,6 @@
   *  J.C. Kantor.  Introduction to Chemical Engineering Analysis  http://jckantor.github.io/CBE20255/ 
 
   *  Thermal Systems Modeling Toolkit：https://github.com/TSTK
+
+  *  Python Textbook Companion  http://tbc-python.fossee.in/completed-books/
   

@@ -13,27 +13,23 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-* [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
-  
-  * *Sup1_MathJax-LaTeX(optional)*
-
-  * *Sup2-version-Control-Git(optional)*
-
 * [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
 
 * [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
 
-  * [PyThermo_C_Python(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb)
+  * *IPYNB-MathJax-LaTeX*
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb.ipynb)
+
+* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
+
+* [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+* [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 * [07 EXCEPTIONS AND ASSERTIONS]  (http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
 * [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/06_TESTING_AND_DEBUGGING.ipynb)
-
-  * [11 PLOTTING AND MORE ABOUT CLASSES(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
 * **DevTools unittest**
 
@@ -42,6 +38,12 @@
 * **DevTools timeit**
 
 * **DevTools Profilers**
+
+* **DevTools-VersionControl-Git**
+
+* [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
+
+* [CPP-2-C-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-2-C-Python-VBA.ipynb)
 
 * **09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC**
 
