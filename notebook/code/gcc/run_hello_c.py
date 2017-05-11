@@ -1,3 +1,3 @@
 
-import funs
-funs.hello()
+import multifuns
+multifuns.hello()

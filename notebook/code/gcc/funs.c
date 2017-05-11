@@ -17,7 +17,13 @@ double dprod(double *x, int n)
     return y;
 }
 
-//The linear time algorithm for finding Fibonacci numbers
+// The linear time algorithm for finding Fibonacci numbers
+//   females(0) =1
+//   females(1) = 1
+//   females(n + 2) = females(n+1) + females(n）
+//     f1=  females(n）
+//     f2=  females(n+1)
+//     fib = f1 + f2;                                              
 unsigned long LinearFibonacci(int n)
 {
   unsigned long fib;
