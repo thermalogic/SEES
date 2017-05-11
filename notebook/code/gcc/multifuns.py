@@ -1,5 +1,5 @@
 
-from ctypes import cdll,c_int,c_long,c_double,c_void_p,POINTER,byref
+from ctypes import cdll,c_void_p,c_int,c_long,c_double,POINTER,byref
 import numpy as np
 
 _lib = cdll.LoadLibrary('./code/gcc/libmultifuns.dll')
@@ -25,6 +25,7 @@ def dprod(x):
 def LinearFibonacci(n):
     return _lib.LinearFibonacci(int(n))
 
+#unsigned long fibonacci(int n, unsigned long *fib_cache);
 def fibonacci(n):
     fibcache = (POINTER(c_long)*n)()
     fib=c_long()
