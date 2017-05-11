@@ -1,16 +1,15 @@
 
-from ctypes import windll,c_int
+from ctypes import windll,c_double
 
-flib = windll.LoadLibrary('libmathfuns.dll')
+flib = windll.LoadLibrary('./code/gcc/libmathfuns.dll')
 
 
-def add2(num):
-    flib.add2.argtypes = [c_int]
-    flib.add2.restype  = c_int
-    return flib.add2(num)
+def fadd(a,b):
+    flib.fadd.argtypes = [c_double,c_double]
+    flib.fadd.restype  = c_double
+    return flib.fadd(a,b)
 
-def mult(num1,num2):
-    flib.add2.argtypes = [c_int,c_int]
-    flib.add2.restype  = c_int
-    return flib.mult(num1,num2)
-   
+def fmul(a,b):
+    flib.fmul.argtypes = [c_double,c_double]
+    flib.fmul.restype  = c_double
+    return flib.fmul(a,b)

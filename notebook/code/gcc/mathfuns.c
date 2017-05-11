@@ -1,12 +1,10 @@
 
 #include "mathfuns.h"
 
-int iadd(int a,int b){
-   return a+b;
+DLLPORT __stdcall double fadd(double a,double b){
+   return (a+b);
 }
 
-float fmult(float a, float b){
-   float product;
-   product = a *b;
-   return product;
+DLLPORT __stdcall double  fmul(double a, double b){
+   return (a*b);
 }

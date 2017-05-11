@@ -3,8 +3,11 @@
 #include "mathfuns.h"
  
 int main() {
-    int ir=iadd(5,6);
-    float fr=fmult(2.1,4.1);
-    printf("ir: %d \t fr: %.3f",ir,fr);
+    double a=5.3;
+    double b=6.1;
+    double radd=fadd(a,b);
+    double rmul=fmul(a,b);
+    printf("%.3f + %.3f = %.3f \n",a,b,radd);
+    printf("%.3f * %.3f = %.3f \n",a,b,rmul);
     return 0;
 }

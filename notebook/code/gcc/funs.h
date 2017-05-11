@@ -4,5 +4,6 @@
 
 void hello();
 double dprod(double *x, int n);
+unsigned long LinearFibonacci(int n);
 
 #endif

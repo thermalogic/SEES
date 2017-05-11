@@ -14,6 +14,7 @@ After successfully completing the program, the participants will be able to:
 * writing clean, testable, high quality code in Python
 * a useful set of algorithmic and problem reduction techniques
 * computational tools to model and understand data
+* how to determine which data structure is the most appropriate for solving the problem at hand
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 

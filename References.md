@@ -77,9 +77,11 @@
 
   * git-for-windows https://github.com/git-for-windows/git
 
-  * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+  * GitHub Git 备忘单 https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
 
   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+  * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/ 
  

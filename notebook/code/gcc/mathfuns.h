@@ -5,5 +5,5 @@
 #define DLLPORT __declspec(dllimport)
 #endif
 
-DLLPORT int __stdcall iadd(int a,int b);
-DLLPORT float __stdcall fmult(float a, float b);
+DLLPORT __stdcall double fadd(double a,double b);
+DLLPORT __stdcall double fmul(double a, double b);
