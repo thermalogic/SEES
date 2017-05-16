@@ -5,8 +5,8 @@
 * Function to compute nth Fibonacci number.
 *
 *   It uses a cache to avoid repetitive computation. 
-*   Reference to the cache must be passed to the function. 
-*   The cache should contain 0 for uncomputed values.
+*       1）Reference to the cache must be passed to the function. 
+*       2）The cache should contain 0 for uncomputed values.
 *   Returns -1 on negative input.
 */
 

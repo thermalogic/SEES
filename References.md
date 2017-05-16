@@ -99,6 +99,10 @@
   * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
 
   * Mark Allen Weiss. Data Structures and Algorithm Analysis in C
+
+  * Numerical Recipes http://numerical.recipes/
+
+  * GNU Scientific Library https://www.gnu.org/software/gsl/
  
 * **Engineering**
 

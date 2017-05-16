@@ -18,6 +18,7 @@ After successfully completing the program, the participants will be able to:
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
+* C/C++ progamming with GCC
 
 ### Required Materials and Textbooks
 
