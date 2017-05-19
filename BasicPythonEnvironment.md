@@ -87,9 +87,7 @@
 
 * 启动课程Jupyter Notebook
 
-解压下载的 zip 文件,运行notebook子目录下的批处理文件: **StartNB.bat**
-
-启动课程Jupyter Notebook服务
+解压下载的 zip 文件,运行notebook子目录下的批处理文件: **StartNB.bat** ，启动课程Jupyter Notebook服务
 
 ## 6 设定Jupyter Notebook工作目录和快速启动Jupyter Notebook
 

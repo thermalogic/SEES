@@ -29,6 +29,8 @@
 
   * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
 
+  * Python 3 Module of the Week  https://pymotw.com/3/
+
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
 
   * Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
@@ -40,6 +42,8 @@
   * Numpy. http://www.numpy.org/
   
   * Matplotlib.  http://matplotlib.org/
+
+  * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
   
   * Pandas. http://pandas.pydata.org/
     * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
@@ -92,7 +96,7 @@
   * Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
     * http://interactivepython.org/runestone/static/pythonds/index.html
     
-   * Goodrich, Michael et al. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ.  2013
+  * Goodrich, Michael et al. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ.  2013
 
   * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
 

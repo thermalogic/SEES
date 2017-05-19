@@ -1,12 +1,12 @@
 
-all: DemobSearch.exe
+all: libmultifuns.dll
 
-DemobSearch.exe: bSearchobjs
-	 gcc -o ./code/ds/DemobSearch.exe DemobSearch.o bSearch.o
-	 del DemobSearch.o
+libmultifuns.dll: multifunsobj
+	 gcc  -shared -o ./code/gcc/libmultifuns.dll funs.o fibonacci.o
+	 del funs.o fibonacci.o
     
-bSearchobjs: 
-	 gcc -c -I./code/ds ./code/ds/DemobSearch.c ./code/ds/bSearch.c
+multifunsobj: ./code/gcc/funs.c ./code/gcc/fibonacci.c
+	 gcc -c -O3 -Wall -fPIC ./code/gcc/funs.c ./code/gcc/fibonacci.c
      
 clean:
-	 del .\code\ds\DemobSearch.exe
+	 del .\code\gcc\libmultifuns.dll

@@ -9,12 +9,13 @@
 
 This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code and documentation.
 
-After successfully completing the program, the participants will be able to:
+We will cover: 
 
 * writing clean, testable, high quality code in Python
+* interactive analysis and literate programming with the IPython Notebook
 * a useful set of algorithmic and problem reduction techniques
-* computational tools to model and understand data
-* how to determine which data structure is the most appropriate for solving the problem at hand
+* computational tools to model and understand data(numpy, matplotlib, scipy)
+* how to determine which data structure is the most appropriate for solving the problem 
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
@@ -30,17 +31,13 @@ After successfully completing the program, the participants will be able to:
 
    * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
 
-   * Accompanying Python3 Code：
-       
-      * Python2 Code：http://mitpress.mit.edu/sites/default/files/Guttag_Python_Code.zip
-    
-      * Python3 Code：
-          
-          https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887
- 
-*  Python 3 documentation. https://docs.python.org/3/
+   * Accompanying Python3 Code：https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887
 
-*  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+* Python 3 documentation. https://docs.python.org/3/
+
+* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+
+* Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 ## Contents
 

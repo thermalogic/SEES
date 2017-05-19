@@ -117,6 +117,8 @@ $sudo –H pip3 install jupyter
 
 ##  Reference
 
+* https://help.ubuntu.com/lts/serverguide/serverguide.pdf
+
 * http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
 * http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
