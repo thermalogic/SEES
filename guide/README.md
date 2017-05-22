@@ -4,17 +4,15 @@
 
  做中学！ 软件是 **用** 会的，不是 **读** 会的！
 
-   1. Python语言及开发环境：Python3、Eclipse IDE、PyDev、VS Code等
+   1. Python语言及开发环境：Python3、Eclipse IDE(PyDev)、VS Code等
 
-   2. 代码规范、软件测试(Python版):pep8、unittest等
+   2. 科学/交互计算：SciPy、Jupyter,IF97等
 
-   3. 科学/交互计算：SciPy、Jupyter等
+   3. 版本控制和社区编程:Git、EGit、Github等
 
-   4. 热工计算：IF97等
+   4. 文档撰写： MS Word、Jupyter Notebook、VS Code等
 
-   5. 版本控制和社区编程:Git、EGit、Github等
-
-   6. 文档撰写： MS Word、Jupyter Notebook、VS Code等
+   5. GCC:  MinGW-W64 Compiler Suite 
 
 * Python语言及其开发环境：Python3、Eclipse IDE、PyDev、VS Code等
 
@@ -67,6 +65,24 @@
  
   *  知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
+
+* GCC:  MinGW-W64 Compiler Suite 
+ 
+  * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
+
+  * GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
+  * GCC (GNU compilers) http://gcc.gnu.org
+
+  * GCC Manual  http://gcc.gnu.org/onlinedocs
+
+  * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
+
+  * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+
+  * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
+
+  * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
 
 
 

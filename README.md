@@ -56,11 +56,7 @@ We will cover:
    
    2. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
 
-   3. [Version Control and GitHub](https://github.com/PySEE/home/tree/S2017/guide/VersionControlAndGitHub.md)
-
-   4. [C/C++ Programming With GCC](https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md)
-
-   5. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
+   3. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
 * [Practices(60)](https://github.com/PySEE/RecommendedPractices/tree/S2017/)
     
