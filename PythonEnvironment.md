@@ -62,7 +62,7 @@
 
 ## 4 IF97物性计算
     
-*  从github下载课程SEUIF97仓库zip文件：https://github.com/PySEE/SEUIF97 
+*  从github下载课程SEUIF97仓库zip文件：https://github.com/PySEE/EDUIF97 
 
 ![下载课程SEUIF97仓库zip文件](./guide/img/downloadseuif97.jpg)
    

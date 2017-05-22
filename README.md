@@ -127,7 +127,7 @@ That's it - you'll have the latest version of the repository.
          >pip install jupyter
      ```
   * IAPWS-IF97:
-     * https://github.com/PySEE/SEUIF97
+     * https://github.com/PySEE/EDUIF97
      * https://github.com/jjgomera/iapws
       ```
           >pip install iapws
