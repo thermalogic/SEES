@@ -31,9 +31,9 @@
 
   * Python 3 Module of the Week  https://pymotw.com/3/
 
-  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
-
   * Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
+
+  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
 
 * **Python for for mathematics, science, and engineering**
   
@@ -45,9 +45,6 @@
 
   * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
   
-  * Pandas. http://pandas.pydata.org/
-    * Pandas. 10 Minutes to pandas. http://pandas.pydata.org/pandas-docs/stable/10min.html
-
   * Jupyter. http://jupyter.org/
     
     * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
@@ -56,7 +53,7 @@
     
     * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
     
-    * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
+* Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
 * **Software engineering**
 
@@ -73,6 +70,10 @@
 
 * **Git**
 
+ * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+  * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
   * Git for Scientists: A Tutorial http://nyuccl.org/pages/GitTutorial/
@@ -82,10 +83,6 @@
   * git-for-windows https://github.com/git-for-windows/git
 
   * GitHub Git 备忘单 https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
-
-  * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
-  * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
   * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/ 
  
@@ -102,19 +99,13 @@
 
   * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
 
-  * Mark Allen Weiss. Data Structures and Algorithm Analysis in C
-
   * Numerical Recipes http://numerical.recipes/
 
   * GNU Scientific Library https://www.gnu.org/software/gsl/
 
 * **Programming C/C++ with GCC**
 
-  * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
-
   * GCC for Windows 64 & 32 bits：http://mingw-w64.org/
-
-  * GCC (GNU compilers) http://gcc.gnu.org
 
   * GCC Manual  http://gcc.gnu.org/onlinedocs
 
@@ -123,12 +114,6 @@
   * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
   * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
-
-  * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
-
-  * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
-
-  * How to C https://matt.sh/howto-c
  
 * **Engineering**
 

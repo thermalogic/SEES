@@ -43,7 +43,7 @@
 	       # -*- coding: utf-8 -*-
  ```
 
-* **module ‘unittest’hasn't the attribute of ‘TestCase’**
+* **6 module ‘unittest’hasn't the attribute of ‘TestCase’**
 
 03014311 骆应东
 
