@@ -59,9 +59,7 @@ We will cover:
    2. [PythonEnvironment](https://github.com/PySEE/home/tree/S2017/guide/PythonEnvironment.md) 
     
    3. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
-
-   4. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
-   
+  
 * [Practices(60)](https://github.com/PySEE/RecommendedPractices/tree/S2017/)
     
    *  Please Visit **RecommendedPractices** for details: https://github.com/PySEE/RecommendedPractices/
