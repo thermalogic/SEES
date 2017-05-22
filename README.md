@@ -133,6 +133,11 @@ That's it - you'll have the latest version of the repository.
       ```
           >pip install iapws
       ```
+
+* Anaconda ：the leading open data science platform powered by Python
+
+  * https://www.continuum.io
+
 * Eclipse IDE
   * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   * Eclipse CDT: http://www.eclipse.org/

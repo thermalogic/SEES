@@ -8,6 +8,8 @@
 
 * Packt https://github.com/PacktPublishing
 
+* Software Carpentry https://github.com/swcarpentry
+
 * Advanced JavaScript at NYU https://github.com/advanced-js
 
 * Microsoft https://github.com/Microsoft

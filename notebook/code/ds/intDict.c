@@ -1,123 +1,98 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include "intDict.h"
 
-typedef struct node
+
+// Create hash table
+Hashtable *createHash(int numBuckets)
 {
-	int key;
-	int value;
-	struct node *next;
-} Renode;
-
-typedef struct hashtable
-{
-	Renode **buckets;
-} Rehashtable;
-
-int inthash(int k,int  numBuckets)
-{
-
-    return k % numBuckets;
+    Hashtable *table=(Hashtable*)malloc(sizeof(Hashtable*));
+    if(!table) {
+		return NULL;
+	}
+    
+    table->buckets=(Node**)malloc(sizeof(Node)*numBuckets);
+    if(!table->buckets) {
+		free(table);
+		return NULL;
+	}
+	
+    table->numBuckets=numBuckets;
+	// initialize the head pointer of the bucket stack to NULL
+	for(int i=0;i<table->numBuckets;i++)
+		table->buckets[i] = NULL;
+   
+    return table;
 }
 
-Renode *searchEntry(Rehashtable *HT, int k,int  numBuckets)
+void *freeHash(Hashtable *hTable)
 {
-	Renode *p;
-	int addr = inthash(k, numBuckets);
-	p = HT->buckets[addr];
+   	Node *b,*p;
+	for(int i=0;i<hTable->numBuckets;i++)
+	{
+       b = hTable->buckets[i];
+	   while(b!=NULL)
+	   { 
+         p=b->next;
+	     free(b);
+		 b=p;
+	   }	 
+	}
+	free(hTable->buckets);
+	free(hTable);
+}
 
-	while(p && p->key !=k)
+// hash function for int keys
+int inthash(int key,int  numBuckets)
+{
+    return key % numBuckets;
+}
+
+// Lookup  by int key
+Node *searchEntry(Hashtable *hTable, int key)
+{
+	Node *p;
+	int addr = inthash(key, hTable->numBuckets);
+	p = hTable->buckets[addr];
+
+	while(p && p->key !=key)
 		p = p->next;
 
 	return p;
 }
 
-void addEntry(Rehashtable *HT, Renode *entry,int numBuckets)
+// Add Entry to table - keyed by int
+void addEntry(Hashtable *hTable, int key,int value)
 {
 	int addr;
-	Renode *p;
-	p = searchEntry(HT,entry->key,numBuckets);
+	Node *p,*entry;
+	p = searchEntry(hTable,key);
 	if(p)
 	{
-		free(entry);
+		return;
 	}
 	else
-	{
-		addr =  inthash(entry->key, numBuckets);
-		entry->next = HT->buckets[addr];
-		HT->buckets[addr] = entry;
+	{   /*
+          add a new item on the top of the linked list stack 
+          and a pointer to the top element.  
+       */
+		addr =  inthash(key, hTable->numBuckets);
+		entry=(Node*)malloc(sizeof(Node));
+	  	entry->key = key;
+		entry->value=value;
+		entry->next =hTable->buckets[addr];
+		hTable->buckets[addr] = entry;
 	}
 }
 
-int getValue(Rehashtable *HT, int key,int numBuckets)
+// Get by int
+int getValue(Hashtable *hTable, int key)
 {   
-	Renode *p;
-	p = searchEntry(HT,key,numBuckets);
+	Node *p;
+	p = searchEntry(hTable,key);
 	if (p)
 	{
       return p->value;
 	}
-}
-
-int main()
-{
-	int numBuckets=29;
-    int numEntries=20;
-    Rehashtable *HT;
-	Renode **Entry;
-	
-    HT=(Rehashtable*)malloc(sizeof(Rehashtable*));
-    HT->buckets=(Renode**)malloc(sizeof(Renode)*numBuckets);
-
-	Entry=(Renode**)malloc(sizeof(Renode*)*20);
-
-	for(int i=0;i<numBuckets;i++)
-		HT->buckets[i] = NULL;
-    
-    printf("The value of the intDict is:\n");
-    printf("(key value)\n");
-    srand(time(NULL));
-	for(int i=0;i<numEntries;i++)
-	{
-		Entry[i]=(Renode*)malloc(sizeof(Renode));
-	  	Entry[i]->key = rand() % 100000;
-		Entry[i]->value=i;
-		addEntry(HT,Entry[i], numBuckets);
-		printf("(%d %d)\n",Entry[i]->key,Entry[i]->value);
-	}
-
-    printf("The buckets are: \n");
-	for(int i=0;i<numBuckets;i++)
-	{
-       Renode *s,*p;
-	   s = HT->buckets[i];
-	   printf("bucket %d :",i);
-	   if (s)
-	   {
-	     for(p=s; p!=NULL; p=p->next)
-	        printf(" (%d %d) ",p->key,p->value);
-	     printf("\n"); 		
-	   }
-	   else
-	    	printf("\n"); 	   
-	}
-
-    printf("Hash search(even):\n");
-    printf("(key value) : key -> value:\n");
-	for(int i=0;i< numEntries;i++)
-	{
-      if (i%2==0)
-      {
-        int value=getValue(HT, Entry[i]->key,numBuckets);
-        printf("(%d  %d): -> %d \n",Entry[i]->key,Entry[i]->value,value);
-      } 
-	}
-    
-    for(int i=0;i<numEntries;i++)
-		free(Entry[i]);
-    free(Entry);
-    free(HT->buckets);
-    free(HT);
-  	return 0;
 }

@@ -38,12 +38,19 @@ GCC (GNU Toolchain) is included in all Unixes. For Windows, you could either ins
     
   * 2.unzip the ziped MinGW-w64 to C:\mingw64
 
-  * 3.Setup **C:\mingw6\bin** to PATH  
+  * 3. Add **C:\mingw6\bin** to the environment variable **PATH**  
+    
+    Run cmd as administrator
+    
+    ```bash
+     setx /M PATH "%PATH%;C:\mingw6\bin" 
+    ```
+     or  
      
-      ```bash
-      >set PATH=C:\mingw64\bin;%PATH%
-      >echo %PATH%
-      ```
+     >To set an environment variable **permanently** in Windows: (so that it is available to all the Windows' processes)
+
+     >start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users) or "User >Variables" (for this login user only) ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value".
+   
    * 4.Verify the GCC installation by listing the version of gcc, g++ and gdb: 
       ```bash
       > gcc --version
