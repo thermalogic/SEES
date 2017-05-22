@@ -21,11 +21,11 @@
 
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
+  * *IPYNB-MathJax-LaTeX*
+
 * [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
 
 * [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
-
-  * *IPYNB-MathJax-LaTeX*
 
 * [07 EXCEPTIONS AND ASSERTIONS]  (http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
