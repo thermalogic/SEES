@@ -43,6 +43,13 @@
 	       # -*- coding: utf-8 -*-
  ```
 
+* **module ‘unittest’hasn't the attribute of ‘TestCase’**
+
+03014311 骆应东
+
+我在一开始写单元测试的程序时将其写在一个命名为unittest的程序文件里，这个时候运行程序会出现错误 module ‘unittest’hasn't the attribute of ‘TestCase’提示
+
+通过请教老师、同学，最后发现是因为文件命名为unittest，然后当运行程序import unittest时系统会‘迷路’，因为文件名和Python的自带包unittest发生混淆，系统无法正确引用Python的unittest包。所以解决办法是：将文件名修改为非unittest即可。
 
 
 
