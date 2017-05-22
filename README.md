@@ -1,5 +1,5 @@
 
-# Foundamentals and Practice of Software Engineering with Python
+## Foundamentals and Practice of Software Engineering with Python
 
 * If you have concerns about the course, please email to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
