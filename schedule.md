@@ -13,12 +13,6 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-* [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
-
-* [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
-
-  * *IPYNB-MathJax-LaTeX*
-
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb.ipynb)
 
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
@@ -26,6 +20,12 @@
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+
+* [PyThermo_IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IF97.ipynb)
+
+* [PyThermo_IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb)
+
+  * *IPYNB-MathJax-LaTeX*
 
 * [07 EXCEPTIONS AND ASSERTIONS]  (http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
@@ -54,7 +54,6 @@
   * [10.2 Sorting Algorithms](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.2-Sorting-Algorithms.ipynb)
 
   * [10.3 Hash Tables](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.3-Hash-Tables.ipynb)
-
 
 
   
