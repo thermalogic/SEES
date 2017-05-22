@@ -90,7 +90,7 @@ This repository contain all files of the course. You can manually download these
 
 ![down](./guide/img/downloadhome.jpg)
 
-but we recommend that you use [git](https://git-scm.com/downloads) to **clone** and **update** this repository.
+but we recommend that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
 
 You can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/),  [EGit](http://www.eclipse.org/),  [VS Code](https://code.visualstudio.com/).
 
