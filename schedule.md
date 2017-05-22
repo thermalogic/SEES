@@ -13,7 +13,7 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb.ipynb)
+* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
@@ -44,20 +44,6 @@
 * [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
 
 * [CPP-2-DLL-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-2-DLL-Python-VBA.ipynb)
-
-* 09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC(optional)
-
-  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/09_A_SIMPLISTIC_INTRODUCTION_TO_ALGORITHMIC.ipynb)
-
-* 10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES(optional)
-
-  * [10.1 Search Algorithms](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.1-Search-Algorithms.ipynb)
-
-  * [10.2 Sorting Algorithms](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.2-Sorting-Algorithms.ipynb)
-
-  * [10.3 Hash Tables](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.3-Hash-Tables.ipynb)
-
-
   
 
 
