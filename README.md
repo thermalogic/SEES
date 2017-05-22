@@ -36,6 +36,8 @@ We will cover:
 
 * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
+* An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
+
 * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 * Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
@@ -131,17 +133,16 @@ That's it - you'll have the latest version of the repository.
           >pip install iapws
       ```
 
-* Anaconda ：the leading open data science platform powered by Python
+* Git for Windows.  https://github.com/git-for-windows/git/releases
 
-  * https://www.continuum.io
+* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 * Eclipse IDE
   * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   * Eclipse CDT: http://www.eclipse.org/
   * Pydev: http://pydev.org/
+
 * Visual Studio Code：https://code.visualstudio.com/
-* Git for Windows.  https://github.com/git-for-windows/git/releases
-* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 ## TIPS
 
