@@ -56,9 +56,11 @@ We will cover:
 
    1. [Python学习和开发环境的建立(教学版).docx](https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx)
    
-   2. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
+   2. [PythonEnvironment](https://github.com/PySEE/home/tree/S2017/guide/PythonEnvironment.md) 
+    
+   3. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
 
-   3. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
+   4. [Ubuntu,Python,C/C++](https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md)
    
 * [Practices(60)](https://github.com/PySEE/RecommendedPractices/tree/S2017/)
     
