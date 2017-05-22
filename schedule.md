@@ -45,9 +45,11 @@
 
 * [CPP-2-DLL-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-2-DLL-Python-VBA.ipynb)
 
-* [09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/09_A_SIMPLISTIC_INTRODUCTION_TO_ALGORITHMIC.ipynb)
+* 09 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC(optional)
 
-* **10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES**
+  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/09_A_SIMPLISTIC_INTRODUCTION_TO_ALGORITHMIC.ipynb)
+
+* 10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES(optional)
 
   * [10.1 Search Algorithms](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/10.1-Search-Algorithms.ipynb)
 

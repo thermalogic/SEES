@@ -15,7 +15,6 @@ We will cover:
 * interactive analysis and literate programming with the IPython Notebook
 * a useful set of algorithmic and problem reduction techniques
 * computational tools to model and understand data(numpy, matplotlib, scipy)
-* how to determine which data structure is the most appropriate for solving the problem 
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
@@ -36,6 +35,8 @@ We will cover:
 * Python 3 documentation. https://docs.python.org/3/
 
 * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+
+* Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 * Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
