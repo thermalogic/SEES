@@ -7,7 +7,7 @@
 
 ##  Goal
 
-This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code and documentation.
+This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code.
 
 We will cover: 
 

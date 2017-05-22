@@ -7,7 +7,7 @@
 
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
  
- * **Online**
+ * **MITx Online**
  
    * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
    
@@ -107,6 +107,28 @@
   * Numerical Recipes http://numerical.recipes/
 
   * GNU Scientific Library https://www.gnu.org/software/gsl/
+
+* **Programming C/C++ with GCC**
+
+  * MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
+
+  * GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
+  * GCC (GNU compilers) http://gcc.gnu.org
+
+  * GCC Manual  http://gcc.gnu.org/onlinedocs
+
+  * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
+
+  * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+
+  * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
+
+  * Eclipse's "C/C++ Development Tool User Guide", accessible via Eclipse's Help menu
+
+  * Simple Unit Testing for C：https://github.com/ThrowTheSwitch/Unity
+
+  * How to C https://matt.sh/howto-c
  
 * **Engineering**
 
