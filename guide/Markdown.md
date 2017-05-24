@@ -1,7 +1,8 @@
 # <center>Markdown简介
 
-<center>程懋华</center>   
-<center>东南大学能源与环境学院</center>
+程懋华   
+
+东南大学能源与环境学院
 
 ## 导语
 
@@ -163,29 +164,16 @@ if last_key:
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
  更多的语法规则，可访问[Markdown官网](http://daringfireball.net/projects/markdown/)。
 
-## 2 撰写Makedown文档工具
+## 2 Makedown文档撰写工具
 
-Markdown制作软件很多，“程序员”用编程环境中的更多一些。
-
-* **使用Eclipse插件**
-
-  Eclispe IDE中安装Markdown Editor和GitHub Flavored Markdown Viewer插件
-
-* **使用Visual Studio Code**
+* **Visual Studio Code**
 
   Visual Studio Code是微软开发的开源文本编辑器。 Visual Studio Code支持Markdown撰写和预览，"Ctrl+K V"打开一个同步预览窗口；
   在编辑窗口右上角的“Open View"和”View Source" （快捷键：Ctrl+Shife+V) 切换编辑/预览视图。
 
-* **使用Atom**
-
-  Atom是Github开发的一款开源文本编辑器，可通过插件，定制为多用途的开发环境，如C、Python、PHP，
-  是撰写Markdown文档的好工具。编写时,可Ctrl+Shift+M开启同步预览，很方便。本文档就是这样typing出来的。
-
-![使用Atom撰写Markdown文档](./img/atom_markdown.PNG)
-
 ### 其他
 
-*  Atom和Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
+*  Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
 
 ### 参考
 
@@ -193,4 +181,3 @@ Markdown制作软件很多，“程序员”用编程环境中的更多一些。
 2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 3. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 4. [VS Code Markdown updates](https://code.visualstudio.com/updates#_languages-markdown-preview/)
-5. [Atom](https://atom.io/)

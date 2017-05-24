@@ -39,7 +39,7 @@
 
 * **DevTools Profilers**
 
-* **DevTools Git**
+* **DevTools Git**(optional)
 
 * [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
 
