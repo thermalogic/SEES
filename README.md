@@ -56,7 +56,7 @@ We will cover:
 
    1. [Python学习和开发环境的建立(教学版).docx](https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx)
    
-   2. [PythonEnvironment](https://github.com/PySEE/home/tree/S2017/guide/PythonEnvironment.md) 
+   2. [DevelopmentEnvironment](https://github.com/PySEE/home/tree/S2017/guide/DevelopmentEnvironment.md) 
     
    3. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
   
@@ -116,33 +116,6 @@ You can do this by changing into the **home** directory and executing:
 git pull
 ```
 That's it - you'll have the latest version of the repository.
-
-# Softwares for the Course
-
-* Python3:  https://www.python.org/downloads/
-* Python Packages
-  * Scipy for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
-  * Jupyter: http://jupyter.org/
-     ```
-         >pip install jupyter
-     ```
-  * IAPWS-IF97:
-     * https://github.com/PySEE/EDUIF97
-     * https://github.com/jjgomera/iapws
-      ```
-          >pip install iapws
-      ```
-
-* Git for Windows.  https://github.com/git-for-windows/git/releases
-
-* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
-
-* Eclipse IDE
-  * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-  * Eclipse CDT: http://www.eclipse.org/
-  * Pydev: http://pydev.org/
-
-* Visual Studio Code：https://code.visualstudio.com/
 
 ## TIPS
 

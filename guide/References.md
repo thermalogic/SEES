@@ -27,11 +27,7 @@
 
   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
-  * A Byte of Python book.  https://github.com/swaroopch/byte-of-python
-
   * Python 3 Module of the Week  https://pymotw.com/3/
-
-  * Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
 
   * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
 
@@ -70,11 +66,9 @@
 
 * **Git**
 
- * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+  * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
-  * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
   * Git for Scientists: A Tutorial http://nyuccl.org/pages/GitTutorial/
   
@@ -82,48 +76,20 @@
 
   * git-for-windows https://github.com/git-for-windows/git
 
-  * GitHub Git 备忘单 https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
-
-  * Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/ 
- 
   * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
-* **Algorithms and Data Structures**
-
-  * Brad Miller, David Ranum. Problem Solving with Algorithms and Data Structures Using Python
-    * http://interactivepython.org/runestone/static/pythonds/index.html
-    
-  * Goodrich, Michael et al. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ.  2013
-
-  * 严蔚敏 李冬梅 吴伟民. 数据结构（C语言版），人民邮电出版社（第2版）,2015年2月  
-
-  * 潘金贵,顾铁成,李成法等译. 算法导论（原书第二版）. 机械工业出版社,2010年7月
-
-  * Numerical Recipes http://numerical.recipes/
-
-  * GNU Scientific Library https://www.gnu.org/software/gsl/
 
 * **Programming C/C++ with GCC**
 
   * GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
-  * GCC Manual  http://gcc.gnu.org/onlinedocs
-
   * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
   * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
-  * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
- 
 * **Engineering**
 
   *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
   *  John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
   
-  *  J.C. Kantor.  Introduction to Chemical Engineering Analysis  http://jckantor.github.io/CBE20255/ 
-
-  *  Thermal Systems Modeling Toolkit：https://github.com/TSTK
-
-  *  Python Textbook Companion  http://tbc-python.fossee.in/completed-books/
   
