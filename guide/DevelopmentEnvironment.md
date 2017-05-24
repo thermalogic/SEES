@@ -51,7 +51,7 @@
             
       2) 勾选“Add Python3.5 to Path” 
 
-![Python352](./guide/img/python352.jpg)
+![Python352](./img/python352.jpg)
    
 * 更新pip到新版本:DOS命令行下
 ```bash
@@ -108,7 +108,7 @@
 
 从github的课程仓库：https://github.com/PySEE/EDUIF97 下载仓库zip文件
 
-![下载仓库zip文件](./guide/img/downloadseuif97.jpg)
+![下载仓库zip文件](./img/downloadseuif97.jpg)
    
 *  解压下载的zip文件，然后：
    
@@ -141,7 +141,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
  
 * 从github下载课程home仓库zip文件: https://github.com/PySEE/home
 
-![下载课程home仓库zip文件](./guide/img/downloadhome.jpg)
+![下载课程home仓库zip文件](./img/downloadhome.jpg)
 
 * 启动课程Jupyter Notebook
  
