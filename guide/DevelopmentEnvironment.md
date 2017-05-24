@@ -135,6 +135,14 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * Git for Windows.  https://github.com/git-for-windows/git/releases
 
+### 7 Eclipse IDE
+  
+  * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  
+  * Eclipse CDT: http://www.eclipse.org/
+  
+  * Pydev: http://pydev.org/
+
 ## D 使用课件
 
  预先安装好Python和Jupyter Notebook
