@@ -19,6 +19,8 @@
 
 * [Markdown](https://github.com/PySEE/home/blob/S2017/guide/Markdown.md)
 
+  * *IPYNB-MathJax-LaTeX*
+
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
@@ -30,8 +32,6 @@
 * [PyThermo-IdealRankineCycle-ADVANCED](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
 
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
-
-  * *IPYNB-MathJax-LaTeX*
 
 * [07 EXCEPTIONS AND ASSERTIONS]  (http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
