@@ -54,7 +54,7 @@ We will cover:
  
 * [Guide](https://github.com/PySEE/home/tree/S2017/guide)
 
-   1. [Python学习和开发环境的建立(教学版).docx](https://github.com/PySEE/home/tree/S2017/guide/Python学习和开发环境的建立(教学版).docx]) 
+   1. Python学习和开发环境的建立(教学版).docx
   
    2. [DevelopmentEnvironment](https://github.com/PySEE/home/tree/S2017/guide/DevelopmentEnvironment.md) 
     
