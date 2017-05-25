@@ -33,7 +33,7 @@
 
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-* [07 EXCEPTIONS AND ASSERTIONS]  (http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
+* [07 EXCEPTIONS AND ASSERTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
 * [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/06_TESTING_AND_DEBUGGING.ipynb)
 
