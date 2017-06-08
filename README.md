@@ -36,7 +36,7 @@ We will cover:
 
 * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
-* Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+* Michael J. Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 

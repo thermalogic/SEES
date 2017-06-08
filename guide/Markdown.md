@@ -1,11 +1,5 @@
 # <center>Markdown简介
 
-程懋华   
-
-东南大学能源与环境学院
-
-## 导语
-
 Markdown是一种轻量级「标记语言」，目前被越来越多的领域的人使用。
 如Github中有大量Markdown文档，可以在Github中在线编辑预览Markdown文档。
 Github中最常见Markdown文档，是仓库的README.md。   

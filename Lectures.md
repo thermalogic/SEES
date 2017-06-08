@@ -1,15 +1,13 @@
 
 ## Foundamentals and practice of software engineering with Python
 
-## ARRANGEMENT
+* [001 PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/001_PREFACE.ipynb)
 
-* **001 PREFACE**
+* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)
 
-* **02 INTRODUCTION TO PYTHON**
+* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
 
-* **03 SOME SIMPLE NUMERICAL PROGRAMS**
-
-* **04 FUNCTIONS SCOPING AND ABSTRACTION**
+* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
@@ -19,7 +17,7 @@
 
 * [Markdown](https://github.com/PySEE/home/blob/S2017/guide/Markdown.md)
 
-  * *IPYNB-MathJax-LaTeX*
+* [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/IPYNB-MathJax-LaTeX.ipynb)
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
@@ -37,15 +35,15 @@
 
 * [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/06_TESTING_AND_DEBUGGING.ipynb)
 
-* **DevTools unittest**
+* [DevTools unittest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/DevTools_unittest.ipynb)
 
-* **DevTools doctest**
+* [DevTools doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/DevTools_doctest.ipynb)
 
-* **DevTools timeit**
+* [DevTools timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/DevTools_timeit.ipynb)
 
-* **DevTools Profilers**
+* [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/DevTools_Profilers.ipynb)
 
-* **DevTools Git**(optional)
+* [DevTools Git](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/DevTools_Git.ipynb)
 
 * [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
 
