@@ -46,11 +46,11 @@ We will cover:
 
 * [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2018/notebook)
 
-   Please install Jupyter to read and interactive with the notebook.
+  Please install Jupyter to read and interactive with the notebook.
 
    **Online read-only versions：**
 
-   http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/
+    > http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/
  
 * [Guide](https://github.com/PySEE/home/tree/S2018/guide)
 
@@ -62,17 +62,17 @@ We will cover:
     
    *  Please Visit **Practices** for details: https://github.com/PySEE/Practices/
 
-   1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
+      1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
 
-   2. **Python and Interactive Computing**(15)：[Python and Interactive Computing](https://github.com/PySEE/Practices/tree/S2018/P2)
+      2. **Python and Interactive Computing**(15)：[Python and Interactive Computing](https://github.com/PySEE/Practices/tree/S2018/P2)
    
-   3. **The Object-oriented Programming**(15)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P3)  
+      3. **The Object-oriented Programming**(15)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P3)  
     
-   4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2018/P4)
+      4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2018/P4)
 
-   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
+      5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
 
-   *  **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
+      *  **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
 
 ## Course Grades
 
