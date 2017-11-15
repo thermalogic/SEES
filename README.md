@@ -5,7 +5,7 @@
  
     * Email: cmh@seu.edu.cn. 
 
-##  Goal
+## Goal
 
 This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code.
 
@@ -44,11 +44,11 @@ We will cover:
 
 ## Contents
 
-* [Lectures in Jupyter notebook](https://github.com/PySEE/home/tree/S2018/notebook)
+* [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2018/notebook)
 
    Please install Jupyter to read and interactive with the notebook.
 
-   Online read-only versions：
+   **Online read-only versions：**
 
    http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/
  
@@ -78,9 +78,9 @@ We will cover:
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises 20%
-  * Practice (~5) 60%,  Bonus Points: +5
-  * Final Exam 20%
+  * In-class Exercises: 20%
+  * Practices(5):60%, Bonus Points: +5
+  * Final Exam: 20%
 
 # Update Course
 
@@ -90,11 +90,11 @@ This repository contain all files of the course. You can manually download these
 
 but we recommend that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
 
- If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/), [VS Code](https://code.visualstudio.com/).
+If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/), [Visual Studio Code](https://code.visualstudio.com/).
 
-You may also use the following commands
+You may also use the following **commands:**
 
-## Cloning to Your Computer
+### Cloning to Your Computer
 
 When you clone a repository you set up a copy on your computer. Run:
 
@@ -104,7 +104,7 @@ git clone https://github.com/PySEE/home.git
 
 This will create a folder **home** on your computer, with the files in subdirectories.
 
-## Updating to The Latest Version
+### Updating to The Latest Version
 
 As we release new files, or if we update an already released files, you'll have to update your repository.
 
