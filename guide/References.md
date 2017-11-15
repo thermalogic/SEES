@@ -29,9 +29,7 @@
 
   * Python 3 Module of the Week  https://pymotw.com/3/
 
-  * 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/
-
-* **Python for for mathematics, science, and engineering**
+* **Python for mathematics, science, and engineering**
   
   * Scipy. http://www.scipy.org/
   
@@ -39,8 +37,6 @@
   
   * Matplotlib.  http://matplotlib.org/
 
-  * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
-  
   * Jupyter. http://jupyter.org/
     
     * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
@@ -80,6 +76,8 @@
 
 * **Programming C/C++ with GCC**
 
+  * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
+
   * GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
   * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
@@ -88,8 +86,9 @@
 
 * **Engineering**
 
-  *  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+  * Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
   
-  *  John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
-  
+  * John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
+
+  * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures  
   
