@@ -45,8 +45,14 @@
 
 * [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
 
-* [DevTools Git**(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
+* [DevTools Git(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
 
-* [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP-1-GCC-DLL.ipynb)
+* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
-* [CPP-2-DLL-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP-2-DLL-Python-VBA.ipynb)
+* [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
+
+* [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
+
+* [DS_10.2_Sorting_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.2_Sorting_Algorithms.ipynb)
+
+* [DS_10.3_Hash_Tables](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)

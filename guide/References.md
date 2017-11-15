@@ -91,4 +91,11 @@
   * John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
 
   * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures  
-  
+
+**Data Structures** 
+
+  * 严蔚敏，李冬梅，吴伟民. 数据结构(C语言版)，人民邮电出版社（第2版）,2015年2月 
+
+  * Mark Allen Weiss. Data Structures and Algorithm Analysis in C
+
+  * Michael T. Goodrich,etc. Data Structures and Algorithms in Python. John Wiley & Sons, Inc. 2013.
