@@ -1,23 +1,14 @@
-# <center>Markdown简介
+# Markdown简介
 
-程懋华   
+Markdown是一种轻量级「标记语言」，目前被越来越多领域的人使用。
 
-东南大学能源与环境学院
-
-## 导语
-
-Markdown是一种轻量级「标记语言」，目前被越来越多的领域的人使用。
-如Github中有大量Markdown文档，可以在Github中在线编辑预览Markdown文档。
-Github中最常见Markdown文档，是仓库的README.md。   
-
-Markdown的常用标记符号不超过十个，相对于复杂的 HTML 标记语言来说，
-Markdown十分轻量，学习成本很低
+Markdown的常用标记符号不超过十个，相对于其他复杂的标记语言，如：HTML来说，Markdown十分轻量，学习成本很低。
 
 ## 1 Markdown 语法简要
 
 ### 1.1 标题
 
-标题是每篇文章都需要也是最常用的格式，在 Markdown 中，如果一段文字被定义为标题，
+标题是每篇文章都需要也是最常用的格式，在Markdown中，如果一段文字被定义为标题，
 只要在这段文字前加 # 号即可。
 
     # 一级标题
@@ -71,7 +62,7 @@ Markdown十分轻量，学习成本很低
 
 ### 1.4 图片与链接
 
-插入链接与插入图片的语法很像，区别在一个 !号
+插入链接与插入图片的语法很像，区别在一个 ! 号
 
 #### 插入链接
 
@@ -106,7 +97,7 @@ Markdown十分轻量，学习成本很低
 
 #### 1.6 表格
 
-表格是 Markdown 比较麻烦的地方，例子如下：
+表格是 Markdown 比较麻烦的地方：
 ```
 
     | 序号 |课程         | 学分 |
@@ -158,10 +149,12 @@ if last_key:
 ```
 ***
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
- ```
+```
 
  ***
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
+
+
  更多的语法规则，可访问[Markdown官网](http://daringfireball.net/projects/markdown/)。
 
 ## 2 Makedown文档撰写工具
@@ -173,7 +166,13 @@ if last_key:
 
 ### 其他
 
-*  Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的编码方式打开
+* Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的解码方式打开
+
+* Github中有大量Markdown文档
+  >在Github中可在线编辑预览Markdown文档
+  >Github中最常见的Markdown文档是仓库中的README.md
+
+* Jupyter中的文档部分基本格式是Markdown
 
 ### 参考
 

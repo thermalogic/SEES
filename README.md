@@ -44,37 +44,35 @@ We will cover:
 
 ## Contents
 
-* [Lectures in Jupyter notebook](https://github.com/PySEE/home/tree/S2017/notebook)
+* [Lectures in Jupyter notebook](https://github.com/PySEE/home/tree/S2018/notebook)
 
    Please install Jupyter to read and interactive with the notebook.
 
    Online read-only versions：
 
-   http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/
+   http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/
  
-* [Guide](https://github.com/PySEE/home/tree/S2017/guide)
+* [Guide](https://github.com/PySEE/home/tree/S2018/guide)
 
-   1. Python学习和开发环境的建立(教学版).docx
-  
-   2. [DevelopmentEnvironment](https://github.com/PySEE/home/tree/S2017/guide/DevelopmentEnvironment.md) 
+   1. [DevelopmentEnvironment](https://github.com/PySEE/home/tree/S2018/guide/DevelopmentEnvironment.md) 
     
-   3. [Markdown](https://github.com/PySEE/home/tree/S2017/guide/Markdown.md)
+   2. [Markdown](https://github.com/PySEE/home/tree/S2018/guide/Markdown.md)
   
-* [Practices(60)](https://github.com/PySEE/RecommendedPractices/tree/S2017/)
+* [Practices(60)](https://github.com/PySEE/Practices/tree/S2018/)
     
-   *  Please Visit **RecommendedPractices** for details: https://github.com/PySEE/RecommendedPractices/
+   *  Please Visit **Practices** for details: https://github.com/PySEE/Practices/
 
-   1. **Github**(5)：[Github、Git](https://github.com/PySEE/RecommendedPractices/tree/S2017/P1)
+   1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
 
-   2. **Python**(15)：[Python、IDE](https://github.com/PySEE/RecommendedPractices/tree/S2017/P2)
+   2. **Python and Interactive Computing**(15)：[Python and Interactive Computing](https://github.com/PySEE/Practices/tree/S2018/P2)
    
-   3. **Interactive Computing**(15)： [Jupyter Notebook of the Rankine cycle](https://github.com/PySEE/RecommendedPractices/tree/S2017/P3)  
+   3. **The Object-oriented Programming**(15)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P3)  
     
-   4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/RecommendedPractices/tree/S2017/P4)
+   4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2018/P4)
 
-   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/RecommendedPractices/tree/S2017/P5)
+   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
 
-   *  **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/RecommendedPractices/tree/S2017/Bonus) 
+   *  **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
 
 ## Course Grades
 
@@ -92,9 +90,9 @@ This repository contain all files of the course. You can manually download these
 
 but we recommend that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
 
-You can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/),  [EGit](http://www.eclipse.org/),  [VS Code](https://code.visualstudio.com/).
+ If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/), [VS Code](https://code.visualstudio.com/).
 
-You may also use the following commands if you have installed [git](https://github.com/git-for-windows/git/releases):
+You may also use the following commands
 
 ## Cloning to Your Computer
 

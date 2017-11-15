@@ -1,6 +1,6 @@
 # Development Environment
 
-## A OS：
+## A  Windows10：
 
   Windows10 64
 
@@ -20,24 +20,25 @@
 ## B Development tools and packages
 
 * Python3:  https://www.python.org/downloads/
-* Python Packages
-  * Scipy for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
-  * Jupyter: http://jupyter.org/
-     ```
-         >pip install jupyter
-     ```
-  * IAPWS-IF97:
-     * https://github.com/PySEE/EDUIF97
-     * https://github.com/jjgomera/iapws
-      ```
-          >pip install iapws
-      ```
 
+* Python Packages
+
+  * Numpy、Scipy and  for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
+
+  * Jupyter: http://jupyter.org/
+
+  * IAPWS-IF97:
+
+     * https://github.com/PySEE/EDUIF97
+
+     * https://github.com/jjgomera/iapws
+ 
 * Visual Studio Code：https://code.visualstudio.com/
 
-* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 * Git for Windows.  https://github.com/git-for-windows/git/releases
+
+* MinGW-W64 (GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
 ## C Set up your development environment
 
@@ -88,23 +89,31 @@
    
         numpy,scipy, matplotlib
 
-从  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 下载Windows64位包, 然后,pip命令安装（*指下载的软件包名）
+从  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 下载和Python和Windows版本对应的whl, 然后,pip命令安装（*指下载的软件包名）
 
 ```bash       
    > pip install *.whl
 ```       
 
-### 4 IF97物性计算
+Python3.5，Windows10 64位对应的包
 
-* 4.1 Python版IF97
+```bash
+  >pip install numpy‑1.13.3+mkl‑cp35‑cp35m‑win_amd64.whl
+  >pip install scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
+  >pip install matplotlib‑2.1.0‑cp35‑cp35m‑win_amd64.whl
+```
 
-预先安装好numpy和scipy
+### 4 IAPWS-IF97物性计算
+
+* 4.1 Python版IAPWS-IF97
+
+  预先安装好numpy和scipy
 
 ```bash       
    > pip install iapws
 ``` 
 
-* 4.2 C共享库版
+* 4.2 C共享库版IAPWS-IF97
 
 从github的课程仓库：https://github.com/PySEE/EDUIF97 下载仓库zip文件
 
@@ -135,13 +144,10 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * Git for Windows.  https://github.com/git-for-windows/git/releases
 
-### 7 Eclipse IDE
-  
-  * Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-  
-  * Eclipse CDT: http://www.eclipse.org/
-  
-  * Pydev: http://pydev.org/
+### 7 MinGW-W64 (GCC) Compiler Suite
+
+   https://sourceforge.net/projects/mingw-w64/files/
+
 
 ## D 使用课件
 
@@ -155,5 +161,4 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
  
   解压下载的 zip 文件,运行notebook子目录下的批处理文件: **StartNB.bat**，启动课程Jupyter Notebook服务
 
-## E 其他
 

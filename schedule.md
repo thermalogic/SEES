@@ -50,6 +50,3 @@
 * [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
 
 * [CPP-2-DLL-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-2-DLL-Python-VBA.ipynb)
-  
-
-
