@@ -114,7 +114,7 @@ Python3.5，Windows10 64位对应的包
 
 * 4.2 C共享库版IAPWS-IF97
 
-从github的课程仓库：https://github.com/PySEE/EDUIF97 下载仓库zip文件
+从github的课程仓库：https://github.com/PySEE/SEUIF97 下载仓库zip文件
 
 ![下载仓库zip文件](./img/downloadseuif97.jpg)
    

@@ -64,7 +64,7 @@ We will cover:
 
   1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
 
-  2. **Python and Interactive Computing**(15)：[Python and Interactive Computing](https://github.com/PySEE/Practices/tree/S2018/P2)
+  2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P2)
    
   3. **The Object-oriented Programming**(15)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P3)  
   4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2018/P4)
