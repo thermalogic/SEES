@@ -153,7 +153,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
      seh：64 only
   
   ![mingw-w64](./img/mingw-w64.jpg)
-  
+
   2.unzip the ziped MinGW-w64 to C:\mingw64
 
   3.Add C:\mingw64\bin to the environment variable PATH
@@ -168,7 +168,6 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
   > g++ --version
   > gdb --version
   ``` 
-
 
 ## D 使用课件
 
