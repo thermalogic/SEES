@@ -10,3 +10,5 @@
 ### 4 推荐的参考资源: [References.md](https://github.com/PySEE/home/tree/S2018/guide/References.md) 
 
 ### 5 问题及解答: [QA.md](https://github.com/PySEE/home/tree/S2018/guide/QA.md) 
+
+### 6 Ubuntu: [QA.md](https://github.com/PySEE/home/tree/S2018/guide/Ubuntu-Python-C.md) 
