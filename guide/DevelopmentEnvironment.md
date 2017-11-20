@@ -30,13 +30,13 @@
 
   * 2.3 IAPWS-IF97:
 
-     * https://github.com/PySEE/EDUIF97
+     * Shared Lib: https://github.com/PySEE/SDUIF97
 
-     * https://github.com/jjgomera/iapws
+     * Python: https://github.com/jjgomera/iapws
  
 * 3 Visual Studio Code：https://code.visualstudio.com/
 
-* 4 Git for Windows.  https://github.com/git-for-windows/git/releases
+* 4 Git for Windows:  https://github.com/git-for-windows/git/releases
 
 * 5 MinGW-W64(GCC) Compiler Suite: https://sourceforge.net/projects/mingw-w64/files/
 
@@ -95,7 +95,7 @@ From a command prompt:
 ```bash  
  numpy‑1.13.2+mkl‑cp35‑cp35m‑win_amd64.whl 
 ```  
-is the installer for 64-bit Python 3.5 and windows.
+is the installer  of numpy 1.13.2+mkl for 64-bit Python 3.5 and windows.
 
 * From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
