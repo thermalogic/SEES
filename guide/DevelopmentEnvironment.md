@@ -122,8 +122,8 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
    
 *  Unzip the downloaded file,then：
    
-   * 1) copy **libseuif97.dll** to c:\windows\system
-   * 2) copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
+   * 1 copy **libseuif97.dll** to c:\windows\system
+   * 2 copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
  
 ### 5 Visual Studio Code
 
@@ -147,26 +147,26 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 ### 7 MinGW-W64 (GCC) Compiler Suite
 
-* 1. Goto MinGW mother site at https://sourceforge.net/projects/mingw-w64/files/?source=navbar
+* 1 Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
-      Downloads x86_64-6.3.0-release-win32-sjlj or seh
+    Downloads x86_64-6.3.0-release-win32-sjlj or seh
      
-     sjlj: 32 and 64 bits,but it incurs a minor 
+    * sjlj: 32 and 64 bits,but it incurs a minor 
      performance penalty
      
-     seh：64 bits only
+     * seh：64 bits only
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-* 2. unzip the ziped MinGW-w64 to C:\mingw64
+* 2 unzip the ziped MinGW-w64 to C:\mingw64
 
-* 3. Add C:\mingw64\bin to the environment variable PATH
+* 3 Add C:\mingw64\bin to the environment variable PATH
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
     start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users) or "User >Variables" (for this login user only) ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value".
 
-* 4. Verify the GCC installation by listing the version of gcc, g++ and gdb:
+* 4 Verify the GCC installation by listing the version of gcc, g++ and gdb:
   ```bash
   > gcc --version
   > g++ --version
