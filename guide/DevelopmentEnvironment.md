@@ -30,7 +30,7 @@
 
   * 2.3 IAPWS-IF97:
 
-     * Shared Lib: https://github.com/PySEE/SDUIF97
+     * Shared Lib: https://github.com/PySEE/SEUIF97
 
      * Python: https://github.com/jjgomera/iapws
  
@@ -75,11 +75,11 @@ From a command prompt:
     >jupyter notebook     
 ```
 
-* Set the  working dir of **Jupyter Notebook:：the current dir of start **Jupyter Notebook*,save all files of Jupyter Notebook under the dir
+* Set the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook*,save all files of Jupyter Notebook under the dir
 
 * start **Jupyter Notebook** quickly 
 
-  * make the text file with the content "jupyter notebook" through **Notebook**
+  * make the text file with the content **"jupyter notebook"** through **Notebook**
 
   * save the text file as the batch file(chose "all file",*.bat),e.f.**"start.bat"** to the working dir of Jupyter Notebook
 
