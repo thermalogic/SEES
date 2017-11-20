@@ -123,7 +123,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , downlload *.zi
 *  Unzip downloaded file,then：
    
    * 1) copy **libseuif97.dll** to c:\windows\system
-   * 2) copy **seuif97.py** to the Lib dir of installed Python,e.g: C:\python35\Lib
+   * 2) copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
  
 ### 5 Visual Studio Code
 
