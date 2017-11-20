@@ -42,9 +42,9 @@
 
 ## C Set up your development environment
 
-### 1 安装Python3.5
+### 1 Install Python
     
-* Goto the official Python site  https://www.python.org/downloads/ to download the suitable verion Python，e.g.**Python3.5.2**
+* Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python3.5.2**
 
   *  the custom install: 
       
@@ -75,7 +75,7 @@ From a command prompt:
     >jupyter notebook     
 ```
 
-* Set the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook*,save all files of Jupyter Notebook under the dir
+* Set the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook**,save all files of Jupyter Notebook under the dir
 
 * start **Jupyter Notebook** quickly 
 
@@ -85,7 +85,7 @@ From a command prompt:
 
   * Double-click **"start.bat"**，Start **Jupyter Notebook** 
 
-### 3 Scientific Computation 
+### 3 Scientific Computation Packages
    
     Numpy,Scipy, Matplotlib
 
@@ -104,7 +104,7 @@ is the installer  of numpy 1.13.2+mkl for 64-bit Python 3.5 and windows.
   >pip install matplotlib‑2.1.0‑cp35‑cp35m‑win_amd64.whl
 ```       
 
-### 4 IAPWS-IF97
+### 4 IAPWS-IF97 Packages
 
 * 4.1 Python IAPWS-IF97
 
@@ -116,11 +116,11 @@ is the installer  of numpy 1.13.2+mkl for 64-bit Python 3.5 and windows.
 
 * 4.2 Shared Lib IAPWS-IF97
 
-Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , downlload *.zip
+Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF97.zip
 
-![Download *zip](./img/downloadseuif97.jpg)
+![Download SEUIF97.zip](./img/downloadseuif97.jpg)
    
-*  Unzip downloaded file,then：
+*  Unzip the downloaded file,then：
    
    * 1) copy **libseuif97.dll** to c:\windows\system
    * 2) copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
@@ -147,7 +147,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 ### 7 MinGW-W64 (GCC) Compiler Suite
 
-  * 1. Goto MinGW mother site at https://sourceforge.net/projects/mingw-w64/files/?source=navbar
+* 1. Goto MinGW mother site at https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
       Downloads x86_64-6.3.0-release-win32-sjlj or seh
      
@@ -158,15 +158,15 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-  * 2. unzip the ziped MinGW-w64 to C:\mingw64
+* 2. unzip the ziped MinGW-w64 to C:\mingw64
 
-  * 3. Add C:\mingw64\bin to the environment variable PATH
+* 3. Add C:\mingw64\bin to the environment variable PATH
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
     start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users) or "User >Variables" (for this login user only) ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value".
 
-  * 4. Verify the GCC installation by listing the version of gcc, g++ and gdb:
+* 4. Verify the GCC installation by listing the version of gcc, g++ and gdb:
   ```bash
   > gcc --version
   > g++ --version
@@ -177,7 +177,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
   pre-installed:Python and Jupyter Notebook
  
-* Go to the repo **home** on the Github: https://github.com/PySEE/home doownload home.zip
+* Go to the repo **home** on the Github: https://github.com/PySEE/home download home.zip
 
 ![download home.zip](./img/downloadhome.jpg)
 
