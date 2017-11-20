@@ -2,7 +2,7 @@
 
 ## A  Windows10：
 
-  Windows10 64
+  64-bit Windows10 
 
 * 1 Southeast University
 
@@ -44,83 +44,86 @@
 
 ### 1 安装Python3.5
     
-* 从Python官网下载Windows 64位Python3.5.2：  https://www.python.org/downloads/
+* Goto the official Python site  https://www.python.org/downloads/ to download the suitable verion Python，e.g.**Python3.5.2**
 
-  * 定制方式安装: 
+  *  the custom install: 
       
-      1) 安装软件到目录： C:\python35
+      1) Install to dir： C:\python35
             
-      2) 勾选“Add Python3.5 to Path” 
+      2) check “Add Python3.5 to Path” 
 
 ![Python352](./img/python352.jpg)
    
-* 更新pip到新版本:DOS命令行下
+* update pip to the most recent version
+
+From a command prompt:
 ```bash
   >python -m pip install -U pip
 ```
 
-### 2 安装Jupyter Notebook
+### 2 Install Jupyter Notebook
 
-* 安装：命令行
+* From a command prompt, install using pip：
 
 ```bash       
     >pip install jupyter
 ```      
 
-* 启动Jupyter notebook： 命令行
+* From a command prompt,start **Jupyter notebook**
 
 ```bash       
     >jupyter notebook     
 ```
 
-* 使用某文件夹为Jupyter Notebook工作目录：在该文件夹下启动Jupyter Notebook服务，存放用Jupyter Notebook建立的项目文件。
+* Set the  working dir of **Jupyter Notebook:：the current dir of start **Jupyter Notebook*,save all files of Jupyter Notebook under the dir
 
-* 快速启动Jupyter Notebook：
+* start **Jupyter Notebook** quickly 
 
-  用"记事本"(Notebook),新建一空白纯文本文档，输入内容"jupyter notebook"
+  * make the text file with the content "jupyter notebook" through **Notebook**
 
-  将文本文件另存为批处理文件（文件类型选择"所有文件"、用".bat"后缀），文件名自定：如"start.bat"， 保存到指定的Jupyter Notebook工作目录文件夹中
+  * save the text file as the batch file(chose "all file",*.bat),e.f.**"start.bat"** to the working dir of Jupyter Notebook
 
-  双击"start.bat"文件，启动Jupyter Notebook 
+  * Double-click **"start.bat"**，Start **Jupyter Notebook** 
 
-### 3 科学计算包 
+### 3 Scientific Computation 
    
-    numpy,scipy, matplotlib
+    Numpy,Scipy, Matplotlib
 
-从  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 下载和Python和Windows版本对应的whl, 然后,pip命令安装（*指下载的软件包名）
+* Goto  [Unofficial Windows Binaries for Python Extension Packages page](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
+* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
+```bash  
+ numpy‑1.13.2+mkl‑cp35‑cp35m‑win_amd64.whl 
+```  
+is the installer for 64-bit Python 3.5 and windows.
+
+* From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
-  >pip install *.whl
-```       
-
-Python3.5，Windows10 64位对应的包
-
-```bash
   >pip install numpy‑1.13.3+mkl‑cp35‑cp35m‑win_amd64.whl
   >pip install scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
   >pip install matplotlib‑2.1.0‑cp35‑cp35m‑win_amd64.whl
-```
+```       
 
-### 4 IAPWS-IF97物性计算
+### 4 IAPWS-IF97
 
-* 4.1 Python版IAPWS-IF97
+* 4.1 Python IAPWS-IF97
 
-   需要预先安装好numpy和scipy
+   pre-installed:numpy and scipy
 
 ```bash       
    > pip install iapws
 ``` 
 
-* 4.2 共享库IAPWS-IF97
+* 4.2 Shared Lib IAPWS-IF97
 
-从github的课程仓库：https://github.com/PySEE/SEUIF97 下载仓库zip文件
+Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , downlload *.zip
 
-![下载仓库zip文件](./img/downloadseuif97.jpg)
+![Download *zip](./img/downloadseuif97.jpg)
    
-*  解压下载的zip文件，然后：
+*  Unzip downloaded file,then：
    
-   * 1) 将libseuif97.dll拷贝到 c:\windows\system
-   * 2) 将seuif97.py拷贝到python安装目录的lib子目录下，如C:\python35\Lib
+   * 1) copy **libseuif97.dll** to c:\windows\system
+   * 2) copy **seuif97.py** to the Lib dir of installed Python,e.g: C:\python35\Lib
  
 ### 5 Visual Studio Code
 
@@ -170,17 +173,17 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
   > gdb --version
   ``` 
 
-## D 使用课件
+## D Using Courseware
 
- 预先安装好Python和Jupyter Notebook
+  pre-installed:Python and Jupyter Notebook
  
-* 从github下载课程home仓库zip文件: https://github.com/PySEE/home
+* Go to the repo **home** on the Github: https://github.com/PySEE/home doownload home.zip
 
-![下载课程home仓库zip文件](./img/downloadhome.jpg)
+![download home.zip](./img/downloadhome.jpg)
 
-* 启动课程Jupyter Notebook
+* Start Jupyter Notebook of the course
  
-  解压下载的 zip 文件,运行notebook子目录下的批处理文件: **StartNB.bat**，启动课程Jupyter Notebook服务
+  unzip home.zip, run  **StartNB.bat** bat under the dir **notebook*, start **Jupyter Notebook** server
 
 ## References
 

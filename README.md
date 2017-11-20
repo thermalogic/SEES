@@ -71,7 +71,7 @@ We will cover:
 
   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
 
-  6. **Bonus Points**(+5): [C/C++ Programming with GCC，Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
+  6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
 
 ## Course Grades
 
