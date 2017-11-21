@@ -141,9 +141,9 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
     https://code.visualstudio.com/docs/languages/cpp
 
-### 6  Version control with GIT
+### 6  Version control with Git
 
-* Git for Windows.  https://github.com/git-for-windows/git/releases
+* Git for Windows:  https://github.com/git-for-windows/git/releases
 
 ### 7 MinGW-W64 (GCC) Compiler Suite
 
@@ -203,11 +203,13 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
   
    * Documentation: https://code.visualstudio.com/docs
 
-   * Getting Started with Python https://code.visualstudio.com/docs/python/python-tutorial
+   * **Markdown** and VS Code： https://code.visualstudio.com/docs/languages/markdown
 
-   * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+   * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
 
-   * C/C++ for VS Code： https://code.visualstudio.com/docs/languages/cpp
+   * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
+
+   * **Git** Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
