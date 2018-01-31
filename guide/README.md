@@ -1,14 +1,14 @@
 
-# 做中学！
+# Learing by Doing！
 
-### 1 建立开发环境:  [DevelopmentEnvironment.md](https://github.com/PySEE/home/tree/S2018/guide/DevelopmentEnvironment.md) 
+### 1 [Building Development Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingDevelopmentEnvironment.md) 
 
-### 2 Markdown简介:  [Markdown.md](https://github.com/PySEE/home/tree/S2018/guide/Markdown.md) 
+### 2 [Introduction to Markdown.md] (https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md) 
 
-### 3 推荐的Github资源: [ResourcesOnGithub.md](https://github.com/PySEE/home/tree/S2018/guide/ResourcesOnGithub.md) 
+### 3 [Resources On Github](https://github.com/PySEE/home/tree/S2018/guide/ResourcesOnGithub.md) 
 
-### 4 推荐的参考资源: [References.md](https://github.com/PySEE/home/tree/S2018/guide/References.md) 
+### 4 [References](https://github.com/PySEE/home/tree/S2018/guide/References.md) 
 
-### 5 问题及解答: [QA.md](https://github.com/PySEE/home/tree/S2018/guide/QA.md) 
+### 5 [QA](https://github.com/PySEE/home/tree/S2018/guide/QA.md) 
 
-### 6 Ubuntu: [Ubuntu-Python-C.md](https://github.com/PySEE/home/tree/S2018/guide/Ubuntu-Python-C.md) 
+### 6 [Python and C/C++ under Ubuntu](https://github.com/PySEE/home/tree/S2018/guide/Ubuntu-Python-C.md) 

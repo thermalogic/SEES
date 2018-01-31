@@ -1,4 +1,4 @@
-# Development Environment
+# Building Development Environment 
 
 ## A  Windows10：
 
@@ -44,15 +44,15 @@
 
 ### 1 Install Python
     
-* Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python3.5.2**
+* Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python3.6.4**
 
   *  the custom install: 
       
-      1) Install to dir： C:\python35
+      1) Install to dir： C:\python36
             
-      2) check “Add Python3.5 to Path” 
+      2) check “Add Python3.6 to Path” 
 
-![Python352](./img/python352.jpg)
+![Python3](./img/python3.jpg)
    
 * update pip to the most recent version
 
@@ -64,6 +64,10 @@ From a command prompt:
 ### 2 Install Jupyter Notebook
 
 * From a command prompt, install using pip：
+
+```bash       
+    >pip install ipython
+```  
 
 ```bash       
     >pip install jupyter
@@ -93,15 +97,15 @@ From a command prompt:
 
 * Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
 ```bash  
- numpy‑1.13.2+mkl‑cp35‑cp35m‑win_amd64.whl 
+ numpy‑1.14.0+mkl‑cp36‑cp36m‑win_amd64.whl 
 ```  
-is the installer  of numpy 1.13.2+mkl for 64-bit Python 3.5 and windows.
+is the installer  of numpy 1.14.0+mkl for 64-bit Python 3.6 and windows.
 
 * From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
-  >pip install numpy‑1.13.3+mkl‑cp35‑cp35m‑win_amd64.whl
-  >pip install scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
-  >pip install matplotlib‑2.1.0‑cp35‑cp35m‑win_amd64.whl
+  >pip install numpy‑1.14.0+mkl‑cp36‑cp36m‑win_amd64.whl
+  >pip install scipy‑1.0.0‑cp36‑cp36m‑win_amd64.whl
+  >pip install matplotlib‑2.1.1‑cp36‑cp36m‑win_amd64.whl
 ```       
 
 ### 4 IAPWS-IF97 Packages
@@ -123,7 +127,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 *  Unzip the downloaded file,then：
    
    * 1 copy **libseuif97.dll** to c:\windows\system
-   * 2 copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
+   * 2 copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python36\Lib
  
 ### 5 Visual Studio Code
 

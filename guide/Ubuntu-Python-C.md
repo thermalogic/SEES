@@ -39,7 +39,7 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 >
 >![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
 
-### 安装要点
+## 安装要点
 * 1 Welcome界面：选择语言 **English**
 * 2 Wireless界面：选择 不连接无线网络 
 * 3 Preparing to install Ubuntu界面: 选择 安装第三方软件

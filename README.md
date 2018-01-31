@@ -26,6 +26,8 @@ We will cover:
 
 * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
+* Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016. ISBN: 9780262529624.
+
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
 
    * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03

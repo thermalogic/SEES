@@ -4,6 +4,8 @@ Markdown是一种轻量级「标记语言」，目前被越来越多领域的人
 
 Markdown的常用标记符号不超过十个，相对于其他复杂的标记语言，如：HTML来说，Markdown十分轻量，学习成本很低。
 
+Markdown is a lightweight **markup language** with plain text formatting syntax.
+
 ## 1 Markdown 语法简要
 
 ### 1.1 标题
@@ -50,13 +52,23 @@ Markdown的常用标记符号不超过十个，相对于其他复杂的标记语
 2. 3C
 3. 2B
 
-### 1.3 引用
+### 1.3 引用(Blockquotes)
+
+Using the **Greater-Than(>)** character, you can create an endless structure of blockquotes, like so:
+```
+> This is a blockquote
+> > This is a blockquote within a blockquote
+```
+Becomes：
+> This is a blockquote
+> > This is a blockquote within a blockquote
 
 如果你需要引用一小段别处的句子，那么就要用引用的格式。
-只需要在文本前加入 > 这种尖括号（大于号）即可
-
+只需要在文本前加入** > **(大于号)即可:
+```
     > 这里是引用
-
+```
+ 可见引用效果如下：
 
 > 这里是引用
 
@@ -156,7 +168,7 @@ if last_key:
  >到这里，Markdown 的基本语法就可以满足日常大部分文档要求了。
 
 
- 更多的语法规则，可访问[Markdown官网](http://daringfireball.net/projects/markdown/)。
+ 更多的语法规则，可访问[CommonMark Specification](http://spec.commonmark.org/0.28/)
 
 ## 2 Makedown文档撰写工具
 
@@ -167,17 +179,20 @@ if last_key:
 
 ### 其他
 
-* Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应的解码方式打开
+* Visual Studio Code中文文档默认UTF-8编码，在其他软件中需用对应编码方式打开
 
 * Github中有大量Markdown文档
   >在Github中可在线编辑预览Markdown文档
   >Github中最常见的Markdown文档是仓库中的README.md
 
-* Jupyter中的文档部分基本格式是Markdown
+* Jupyter中文档的基本格式是Markdown
 
 ### 参考
 
 1. [Markdown官网](http://daringfireball.net/projects/markdown/)
-2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-3. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
-4. [VS Code Markdown updates](https://code.visualstudio.com/updates#_languages-markdown-preview/)
+2. [CommonMark](http://commonmark.org/)
+3. [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
+4. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+5. [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+6. 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
+

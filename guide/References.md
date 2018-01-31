@@ -47,6 +47,18 @@
     
 * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
+* **Markdown**
+
+  * [CommonMark](http://commonmark.org/)
+  
+  * [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+  * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+  * [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+
+  * 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
+
 * **Software engineering**
 
   * 张颖. Python代码调试技巧. http://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/ 
@@ -101,3 +113,4 @@
   * Mark Allen Weiss. Data Structures and Algorithm Analysis in C
 
   * Michael T. Goodrich,etc. Data Structures and Algorithms in Python. John Wiley & Sons, Inc. 2013.
+
