@@ -1,7 +1,7 @@
 
 # Learing by Doing！
 
-### 1 [Building Development Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingDevelopmentEnvironment.md) 
+### 1 [Building Software Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
 
 ### 2 [Introduction to Markdown.md] (https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md) 
 
