@@ -104,15 +104,17 @@ From a command prompt:
 * Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
 
 ```bash  
- numpy‑1.14.0+mkl‑cp35‑cp35m‑win_amd64.whl 
+ numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl 
 ```  
-is the installer  of numpy 1.14.0+mkl for 64-bit Python 3.5 windows.
+is the installer  of numpy 1.14.1+mkl for 64-bit Python 3.5 windows.
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 
 * From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
-  >pip install numpy‑1.14.0+mkl‑cp35‑cp35m‑win_amd64.whl
+  >pip install numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl
   >pip install scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
-  >pip install matplotlib‑2.1.1‑cp35‑cp35m‑win_amd64.whl
+  >pip install matplotlib‑2.1.2‑cp35‑cp35m‑win_amd64.whl
 ```       
 
 ### 4 IAPWS-IF97 Packages
