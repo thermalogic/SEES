@@ -3,7 +3,7 @@
 
 ### 1 [Building Software Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
 
-### 2 [Introduction to Markdown.md] (https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md) 
+### 2 [Introduction to Markdown.md](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md) 
 
 ### 3 [Resources On Github](https://github.com/PySEE/home/tree/S2018/guide/ResourcesOnGithub.md) 
 
