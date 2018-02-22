@@ -56,7 +56,7 @@ We will cover:
  
 * [Guide](https://github.com/PySEE/home/tree/S2018/guide)
 
-   1. [DevelopmentEnvironment](https://github.com/PySEE/home/tree/S2018/guide/DevelopmentEnvironment.md) 
+   1. [SoftwareEnvironment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
     
    2. [Markdown](https://github.com/PySEE/home/tree/S2018/guide/Markdown.md)
   
