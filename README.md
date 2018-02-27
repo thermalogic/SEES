@@ -56,11 +56,19 @@ We will cover:
  
 * [Guide](https://github.com/PySEE/home/tree/S2018/guide)
 
-   1. [SoftwareEnvironment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
+   1. [Building Software Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
     
-   2. [Markdown](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md)
+   2. [Introduction to Markdown](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md)
+
+## Course Grades
+
+The Course graded on an 100 point scale and then weighted according to the following distribution:
+
+  * In-class Exercises: 20%
+  * **Practices(5):60%**, Bonus Points: +5
+  * Final Exam: 20%
   
-* [Practices(60)](https://github.com/PySEE/Practices/tree/S2018/)
+## [Practices(60)](https://github.com/PySEE/Practices/tree/S2018/)
     
   Please Visit **Practices** for details: https://github.com/PySEE/Practices/
 
@@ -74,15 +82,6 @@ We will cover:
   5.  **Unit Test**(10)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
 
   6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
-
-## Course Grades
-
-The Course graded on an 100 point scale and then weighted according to the following distribution:
-
-  * In-class Exercises: 20%
-  * Practices(5):60%, Bonus Points: +5
-  * Final Exam: 20%
-
 # Update Course
 
 This repository contain all files of the course. You can manually download these files, 
