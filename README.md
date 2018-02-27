@@ -1,5 +1,5 @@
 
-## Foundamentals and Practice of Software Engineering with Python
+# Foundamentals and Practice of Software Engineering with Python
 
 * If you have concerns about the course, please email to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
@@ -58,7 +58,7 @@ We will cover:
 
    1. [SoftwareEnvironment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
     
-   2. [Markdown](https://github.com/PySEE/home/tree/S2018/guide/Markdown.md)
+   2. [Markdown](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md)
   
 * [Practices(60)](https://github.com/PySEE/Practices/tree/S2018/)
     
