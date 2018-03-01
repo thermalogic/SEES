@@ -173,11 +173,11 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * 2 unzip the ziped MinGW-w64 to C:\mingw64
 
-* 3 Add C:\mingw64\bin to the environment variable **PATH**
+* 3 Add C:\mingw64\bin to the environment variable **Path**
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
-    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "Path" ⇒ Choose "Edit" (for modifying an existing variable **PATH**)  ⇒ Choose "New" (to add a new dir to  **PATH* variable) ⇒ Enter the value: C:\mingw64\bin.
+    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "**Path**" ⇒ Choose "Edit" (for modifying an existing variable **Path**)  ⇒ Choose "New" (to add a new dir to  **Path** variable) ⇒ Enter the value: C:\mingw64\bin.
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
