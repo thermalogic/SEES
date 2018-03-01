@@ -101,7 +101,7 @@ From a command prompt:
 
 * Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
-* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
+* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versions. In the filename, the digits after “cp” indicate the Python version, e.g.
 
 ```bash  
  numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl 
@@ -142,7 +142,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
-* 1  Download and Installl Visual Studio Code 
+* 1  Download and Install Visual Studio Code 
  
     https://code.visualstudio.com/
 
@@ -173,11 +173,13 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * 2 unzip the ziped MinGW-w64 to C:\mingw64
 
-* 3 Add C:\mingw64\bin to the environment variable PATH
+* 3 Add C:\mingw64\bin to the environment variable **PATH**
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
-    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users) or "User >Variables" (for this login user only) ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value".
+    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "Path" ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value" C:\mingw64\bin.
+
+![mingw-w64-path](./img/mingw-w64p-path.jpg)
 
 * 4 Verify the GCC installation by listing the version of gcc, g++ and gdb:
   ```bash
