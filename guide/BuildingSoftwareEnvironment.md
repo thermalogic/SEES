@@ -177,7 +177,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
-    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "Path" ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value" C:\mingw64\bin.
+    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "Path" ⇒ Choose "Edit" (for modifying an existing variable **PATH**)  ⇒ Choose "New" (to add a new dir to  **PATH* variable) ⇒ Enter the value: C:\mingw64\bin.
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
