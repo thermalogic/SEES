@@ -162,7 +162,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * 1 Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
-    Downloads x86_64-6.3.0-release-win32-sjlj or seh
+    Downloads x86_64-6.4.0-release-win32-sjlj or seh
      
     * sjlj: 32 and 64 bits,but it incurs a minor 
      performance penalty
