@@ -179,7 +179,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
     start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "Path" ⇒ Choose "Edit" (for modifying an existing variable) or >"New" (to create a new variable) ⇒ Enter the variable "Name" and "Value" C:\mingw64\bin.
 
-![mingw-w64-path](./img/mingw-w64p-path.jpg)
+![mingw-w64-path](./img/mingw-w64-path.jpg)
 
 * 4 Verify the GCC installation by listing the version of gcc, g++ and gdb:
   ```bash
