@@ -55,4 +55,4 @@
 
 * [DS_10.2_Sorting_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.2_Sorting_Algorithms.ipynb)
 
-* [DS_10.3_Hash_Tables](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)
+* [DS_10.3_Hash_Tables(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)
