@@ -82,6 +82,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
   5.  **Unit Test**(5)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
 
   6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
+
 # Update Course
 
 This repository contain all files of the course. You can manually download these files, 
@@ -90,15 +91,9 @@ This repository contain all files of the course. You can manually download these
 
 ## Using Git
 
-**BUT** we **recommend** that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
+We **recommend** that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
 
-If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example:
-
- * [Visual Studio Code](https://code.visualstudio.com/). (**recommend**)
-
- * [GitHub Desktop](https://desktop.github.com/)
-
-You may also use the following **commands:**
+After you have installed **git**, You may use the following **commands:**
 
 ### Cloning to Your Computer
 
@@ -121,11 +116,11 @@ You can do this by changing into the **home** directory and executing:
 ```
 That's it - you'll have the latest version of the repository.
 
+>you may also use any GUI git client to clone and update this repository, for example:  * [Visual Studio Code](https://code.visualstudio.com/). (**recommend**), [GitHub Desktop](https://desktop.github.com/)
+
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
-
-Even if you are just modifying available code, it will be incredibly beneficial.
 
 You **NEED** to **get your hands dirty** and **practice**
 
