@@ -45,7 +45,7 @@
     
     * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
     
-* Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
+  * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
 * **Markdown**
 
@@ -82,8 +82,6 @@
 
   * How to get started with GIT and work with GIT Remote Repo  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
   
-  * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
-
   * git-for-windows https://github.com/git-for-windows/git
 
   * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol

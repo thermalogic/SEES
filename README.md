@@ -86,11 +86,17 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
 This repository contain all files of the course. You can manually download these files, 
 
-![down](./guide/img/downloadhome.jpg)
+![download](./guide/img/downloadhome.jpg)
 
-but we recommend that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
+## Using Git
 
-If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example: [GitHub Desktop](https://desktop.github.com/), [Visual Studio Code](https://code.visualstudio.com/).
+**BUT** we **recommend** that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
+
+If you have installed [git](https://github.com/git-for-windows/git/releases), you can use any GUI git client to update this repository, for example:
+
+ * [Visual Studio Code](https://code.visualstudio.com/). (**recommend**)
+
+ * [GitHub Desktop](https://desktop.github.com/)
 
 You may also use the following **commands:**
 
@@ -99,7 +105,7 @@ You may also use the following **commands:**
 When you clone a repository you set up a copy on your computer. Run:
 
 ```bash
-git clone https://github.com/PySEE/home.git
+>git clone https://github.com/PySEE/home.git
 ```
 
 This will create a folder **home** on your computer, with the files in subdirectories.
@@ -111,7 +117,7 @@ As we release new files, or if we update an already released files, you'll have 
 You can do this by changing into the **home** directory and executing:
 
 ```bash
-git pull
+>git pull
 ```
 That's it - you'll have the latest version of the repository.
 

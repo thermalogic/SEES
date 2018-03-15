@@ -17,7 +17,7 @@
 
 * [PyThermo-IdealRankineCycle-BASIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-* [Markdown](https://github.com/PySEE/home/blob/S2017/guide/Markdown.md)
+* [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
 
    * [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb
 
@@ -41,15 +41,15 @@
 
 * [DevTools doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_doctest.ipynb)
 
-* [DevTools timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_timeit.ipynb)
+* [DevTools timeit(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_timeit.ipynb)
 
-* [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
+* [DevTools Profilers(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
 
 * [DevTools Git(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
-* [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
+* [CPP_2_DLL_Python_VBA(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
 
 * [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
 
