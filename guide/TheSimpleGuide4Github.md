@@ -1,9 +1,8 @@
 # 建立本地项目的git仓库、和远程Github仓库同步方法简介
 
-* 1 安装git建立github账户
+* 1 本地安装git、远程建立github账户
 
-
-* 2 ,配置Git本地用户名和 email(和github账户一致）
+* 2 配置Git本地用户名和email(和github账户一致）
 
 ```bash
 >git config --global user.name  yourname
