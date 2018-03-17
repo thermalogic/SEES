@@ -1,4 +1,4 @@
-# 建立本地项目的git仓库、和远程Github仓库同步方法简介
+## 建立本地项目的git仓库、和远程Github仓库同步方法简介
 
 * 1 本地安装git、远程建立github账户
 
@@ -23,7 +23,7 @@
 
 * 4 在github账户中中建立一个和本地项目所在目录名**一样**的仓库
 
-注意:是**空**仓库，不要有README
+注意:是**空**仓库，不要有README.MD
 
 * 5 将远程github仓库加为本地git项目的远程源
 
@@ -37,9 +37,9 @@
 >git push
 ```
  
- 这些工作在Visual Code可以更方便完成
+ 这些工作在Visual Studio Code可以更方便完成.
 
- ## 参考：
+ ### 参考：
 
  * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
