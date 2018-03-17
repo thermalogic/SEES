@@ -58,15 +58,19 @@ Jupyter notebook中可以ipynb转换为pdf
 
 * 1 Windows环境下需要安装MikTex
 
-* 2 安装 pip install pandoc
+* 2 安装pandoc
+
+```bash
+>pip install pandoc
+```
 
 * 3 ipynb转换为pdf
 
 ```bash
-  jupyter nbconvert  --to pdf  需要转换的ipynb文件名
+>jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-这时，转换程序从MiKTex的远程仓库下载包时，可能会出现下载失败的问题，导致文档转换中断
+转换程序从MiKTex的远程仓库下载包时，可能会出现下载失败的问题，导致文档转换中断
 
 * 4 解决方法：
 
