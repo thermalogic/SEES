@@ -1,5 +1,5 @@
 
-# Learing by Doing！
+# Learing by Doing！做中学！
 
 #### 1 [Building Software Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
 #### 2 [Introduction to Markdown](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md) 
