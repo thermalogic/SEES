@@ -66,9 +66,9 @@ Jupyter notebook中可以ipynb转换为pdf
   jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-这时，转换程序从MiKTex的远程仓库下载资源，会出现下载失败的问题，文档转换中断
+这时，转换程序从MiKTex的远程仓库下载包时，可能会出现下载失败的问题，导致文档转换中断
 
-* 4 解决的方法：
+* 4 解决方法：
 
 多试验几次
 
@@ -76,6 +76,6 @@ Jupyter notebook中可以ipynb转换为pdf
 >jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-从源下载.
+从源下载包.
 
 
