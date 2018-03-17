@@ -44,7 +44,9 @@
     * IPython https://ipython.org/
     
     * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
-    
+
+  * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+
   * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
 * **Markdown**

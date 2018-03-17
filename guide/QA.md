@@ -52,5 +52,26 @@
 通过请教老师、同学，最后发现是因为文件命名为unittest，然后当运行程序import unittest时系统会‘迷路’，因为文件名和Python的自带包unittest发生混淆，系统无法正确引用Python的unittest包。所以解决办法是：将文件名修改为非unittest即可。
 
 
+* **7 Windows环境下Jupyter notebook文件转换pdf失败**
+
+Jupyter notebook中可以ipynb转换为pdf
+
+1 Windows环境下需要安装MikTex
+
+2 安装 pip install pandoc
+
+3 upyter nbconvert  --to pdf  需要转换的ipynb文件名
+
+这时从MikTex的远程仓库下载资源，会出现失败的问题，转换终端
+
+* 解决的方法很笨：
+
+多试验几次
+
+```bash   
+>jupyter nbconvert  --to pdf  需要转换的ipynb文件名
+```
+
+从源头下载.
 
 

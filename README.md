@@ -26,17 +26,15 @@ We will cover:
 
 * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
-* Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016. ISBN: 9780262529624.
+   * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
+
+   * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016. ISBN: 9780262529624.
 
    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
-
-   * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
 
    * Accompanying Python3 Code：https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887
 
 * Python 3 documentation. https://docs.python.org/3/
-
-* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
 * Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 

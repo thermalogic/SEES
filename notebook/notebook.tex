@@ -1,0 +1,1085 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{03\_SOME\_SIMPLE\_NUMERICAL\_PROGRAMS}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{some-simple-numerical-programs}{%
+\section{3 SOME SIMPLE NUMERICAL
+PROGRAMS}\label{some-simple-numerical-programs}}
+
+Now that we have covered some basic Python constructs,
+
+it is time to start thinking about how we can combine those constructs
+to write some simple programs.
+
+Along the way, we'll sneak in a few more language constructs and some
+algorithmic techniques.
+
+    \hypertarget{exhaustive-enumeration}{%
+\subsection{3.1 Exhaustive Enumeration}\label{exhaustive-enumeration}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c+c1}{\PYZsh{}Page 21, Figure 3.1}
+        \PY{c+c1}{\PYZsh{}Find the cube root of a perfect cube}
+        
+        \PY{c+c1}{\PYZsh{}x = int(input(\PYZsq{}Enter an integer: \PYZsq{}))}
+        \PY{c+c1}{\PYZsh{}x=19}
+        \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{18}
+        \PY{c+c1}{\PYZsh{}x=\PYZhy{}8}
+        
+        \PY{n}{ans} \PY{o}{=} \PY{l+m+mi}{0}   \PY{c+c1}{\PYZsh{}  ！！！}
+        \PY{k}{while} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{\PYZlt{}} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n}{ans} \PY{o}{=} \PY{n}{ans} \PY{o}{+} \PY{l+m+mi}{1}  \PY{c+c1}{\PYZsh{} +1  Exhaustive Enumeration}
+        
+        \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{!=} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is not a perfect cube}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{ans} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{ans}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cube root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ans}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+18 is not a perfect cube
+
+    \end{Verbatim}
+
+    The algorithmic technique used in this program is a variant of guess and
+check called exhaustive enumeration.
+
+We enumerate all possibilities until we get to the right answer or
+exhaust the space of possibilities.
+
+At first blush, this may seem like an incredibly stupid way to solve a
+problem.
+
+Surprisingly, however, exhaustive enumeration algorithms are often the
+most practical way to solve a problem.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{1957816251}  \PY{c+c1}{\PYZsh{} 7406961012236344616 very big }
+        \PY{n}{ans} \PY{o}{=} \PY{l+m+mi}{0}   
+        \PY{k}{while} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{\PYZlt{}} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n}{ans} \PY{o}{=} \PY{n}{ans} \PY{o}{+} \PY{l+m+mi}{1}  \PY{c+c1}{\PYZsh{} }
+        
+        \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{!=} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is not a perfect cube}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{ans} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{ans}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cube root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ans}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{now-lets-insert-some-errors-and-see-what-happens}{%
+\subsubsection{Now, let's insert some errors and see what
+happens}\label{now-lets-insert-some-errors-and-see-what-happens}}
+
+\begin{itemize}
+\tightlist
+\item
+  1 commenting out the statement ans = 0.
+\end{itemize}
+
+The Python interpreter prints the error message, NameError: name `ans'
+is not defined, because the interpreter attempts to find the value to
+which ans is bound before it has been bound to anything.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{o}{\PYZhy{}}\PY{l+m+mi}{8}
+        
+        \PY{c+c1}{\PYZsh{} ans = 0   \PYZsh{}  commenting out the statement ans = 0}
+                    \PY{c+c1}{\PYZsh{}              2.When the loop is entered, its value is nonnegative}
+        \PY{k}{while} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{\PYZlt{}} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n}{ans} \PY{o}{=} \PY{n}{ans} \PY{o}{+} \PY{l+m+mi}{1}  \PY{c+c1}{\PYZsh{} }
+        
+        \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{!=} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is not a perfect cube}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{ans} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{ans}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cube root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ans}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{itemize}
+\tightlist
+\item
+  2 replace the statement ans = ans + 1 by ans = ans,
+\end{itemize}
+
+and try finding the cube root of 8. After you get tired of waiting,
+enter ``control+c'' (hold down the control key and the c key
+simultaneously). This will return you to the user prompt in the shell.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{o}{\PYZpc{}\PYZpc{}}\PY{k}{file} ./src/ch3\PYZus{}cube\PYZus{}root.py
+        \PYZsh{} Test in IDEL By ch3\PYZus{}cube\PYZus{}root
+        x=8
+        ans = 0  
+        while ans**3 \PYZlt{} abs(x):
+            
+            ans = ans  \PYZsh{} replace the statement ans = ans + 1 by ans = ans 
+                       \PYZsh{} 4.Its value is decreased every time through the loop. 
+                       \PYZsh{} 3.When its value is \PYZlt{}=0, the loop terminates. 
+        
+        if ans**3 != abs(x):
+            print(x, \PYZsq{}is not a perfect cube\PYZsq{})
+        else:
+            if x \PYZlt{} 0:
+                ans = \PYZhy{}ans
+            print(\PYZsq{}Cube root of\PYZsq{}, x,\PYZsq{}is\PYZsq{}, ans)
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{o}{!}python ./src/ch3\PYZus{}cube\PYZus{}root.py
+\end{Verbatim}
+
+
+    \hypertarget{when-confronted-with-a-program-that-seems-not-to-be-terminating}{%
+\subsubsection{When confronted with a program that seems not to be
+terminating,}\label{when-confronted-with-a-program-that-seems-not-to-be-terminating}}
+
+insert print statements to test whether the decrementing function is
+indeed being decremented.
+
+    \hypertarget{decrementing-function}{%
+\subsubsection{decrementing function}\label{decrementing-function}}
+
+Whenever you write a loop, you should think about an appropriate
+decrementing function. This is a function that has the following
+properties: * It maps a set of program variables into an integer. * When
+the loop is entered, its value is nonnegative. * When its value is
+\textless{}=0, the loop \textbf{terminates}. * Its value is
+\textbf{decreased} every time through the loop.
+
+What is the decrementing function for the loop? It is
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{abs}\NormalTok{(x) }\OperatorTok{-}\NormalTok{ ans}\OperatorTok{**}\DecValTok{3}
+\end{Highlighting}
+\end{Shaded}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{o}{\PYZpc{}\PYZpc{}}\PY{k}{file} ./src/ch3\PYZus{}cube\PYZus{}root.py
+        
+        \PYZsh{} Test in IDEL By ch3\PYZus{}cube\PYZus{}root
+        x=8
+        ans = 0  
+        while ans**3 \PYZlt{} abs(x):
+            
+            print(\PYZsq{}Value of the decrementing function abs(x) \PYZhy{} ans**3 is\PYZsq{}, 
+                    abs(x) \PYZhy{} ans**3) \PYZsh{} add the statement at the start of the loop
+                                     \PYZsh{} test whether the decrementing function is indeed being decremented
+           
+            ans = ans  \PYZsh{} replace the statement ans = ans + 1 by ans = ans 
+                       \PYZsh{} 4.Its value is decreased every time through the loop. 
+                       \PYZsh{} 3.When its value is \PYZlt{}=0, the loop terminates. 
+        
+        if ans**3 != abs(x):
+            print(x, \PYZsq{}is not a perfect cube\PYZsq{})
+        else:
+            if x \PYZlt{} 0:
+                ans = \PYZhy{}ans
+            print(\PYZsq{}Cube root of\PYZsq{}, x,\PYZsq{}is\PYZsq{}, ans)
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{o}{!}python ./src/ch3\PYZus{}cube\PYZus{}root.py
+\end{Verbatim}
+
+
+    \hypertarget{line-continuation.}{%
+\subsubsection{line continuation.}\label{line-continuation.}}
+
+\begin{itemize}
+\item
+  Python's implicit line joining inside parentheses, brackets and
+  braces.
+\item
+  ``" continuation.
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{1}
+        \PY{n}{ans}\PY{o}{=}\PY{l+m+mi}{2}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Value of the decrementing function abs(x) \PYZhy{} ans**3 is}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                    \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{a} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{1}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{2}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{3}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PYZbs{}
+            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{4}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{5}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{a}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{a} \PY{o}{=} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{1}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{2}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{3}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+}
+            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{4}\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{5}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{a}
+\end{Verbatim}
+
+
+    \hypertarget{dynamic-typing}{%
+\subsubsection{Dynamic typing}\label{dynamic-typing}}
+
+Python is dynamically typed, which means that variables do not have a
+fixed type.
+
+In fact, in Python, variables are very different from what they are in
+many other languages, specifically statically-typed languages.
+
+\textbf{Variables are not a segment of the computer's memory where some
+value is written, they are `tags' or `names' pointing to objects}.
+
+It is therefore possible for the variable `a' to be set to the value 1,
+then to the value `a string', then to a function.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{a} \PY{o}{=} \PY{l+m+mi}{1}   \PY{c+c1}{\PYZsh{} variables do not have a fixed type,just names pointing to objects}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+        \PY{n}{a} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{a string}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+        \PY{k}{def} \PY{n+nf}{a}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{k}{pass}  \PY{c+c1}{\PYZsh{} Do something}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+\end{Verbatim}
+
+
+    The dynamic typing of Python is often considered to be a weakness, and
+indeed it can lead to complexities and hard-to-debug code.
+
+Something named \textbf{`a'} can be set to many different things, and
+the developer or the maintainer needs to track this name in the code to
+make sure it has not been set to a completely unrelated object.
+
+    \hypertarget{avoid-using-the-same-variable-name-for-different-things.}{%
+\subsubsection{Avoid using the same variable name for different
+things.}\label{avoid-using-the-same-variable-name-for-different-things.}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{count} \PY{o}{=} \PY{l+m+mi}{1}
+        \PY{n}{msg} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{a string}\PY{l+s+s1}{\PYZsq{}}
+        \PY{k}{def} \PY{n+nf}{func}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{k}{pass}  \PY{c+c1}{\PYZsh{} Do something}
+\end{Verbatim}
+
+
+    \hypertarget{further-reading}{%
+\subsubsection{Further Reading}\label{further-reading}}
+
+\begin{itemize}
+\item
+  26.1. typing --- Support for type hints New in version 3.5.
+
+  https://docs.python.org/3.5/library/typing.html
+\end{itemize}
+
+    \hypertarget{for-loops}{%
+\subsection{3.2 For Loops}\label{for-loops}}
+
+Python provides a language mechanism, the for loop,that can be used to
+simplify programs containing this kind of iteration: Each iterates over
+a sequence of integers.
+
+The general form of a for statement is :
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ControlFlowTok{for}\NormalTok{ variable }\KeywordTok{in}\NormalTok{ sequence:}
+\NormalTok{    code block}
+\end{Highlighting}
+\end{Shaded}
+
+    The process continues until the sequence is exhausted or a break
+statement is executed within the code block.
+
+The sequence of values bound to variable is most commonly generated
+using the built-in function range, which returns a sequence containing
+an arithmetic progression. The range function takes three integer
+arguments: start, stop, and step.
+
+range(start,stop,step)
+
+It produces the progression start, start + step, start + 2*step, etc.
+
+\begin{verbatim}
+range(5,40,10) -> [5,15,25,35]
+\end{verbatim}
+
+If step is negative, the last element is the smallest integer start +
+i*step greater than stop.
+
+\begin{verbatim}
+range(40,5,-10)-> [40,30,20,10]
+\end{verbatim}
+
+If the first argument is omitted it defaults to 0, if the lastargument
+(the step size) is omitted it defaults to 1.
+
+\begin{verbatim}
+range(3)-> range(0, 3)->range(0, 3,1) ->[0, 1, 2]
+\end{verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x} \PY{o}{=} \PY{l+m+mi}{4}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)} 
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x} \PY{o}{=} \PY{l+m+mi}{4}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{5}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)} 
+\end{Verbatim}
+
+
+    The range function in the line with for is evaluated just before the
+first iteration of the loop, and not reevaluated for subsequent
+iterations.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x} \PY{o}{=} \PY{l+m+mi}{4}
+        \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{j: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{j}\PY{p}{)}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}  \PY{c+c1}{\PYZsh{} inner loop}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+                \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{2}              \PY{c+c1}{\PYZsh{} inner loop    }
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x} \PY{o}{=} \PY{l+m+mi}{4}
+        \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{j: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{j}\PY{p}{)}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}  \PY{c+c1}{\PYZsh{} inner loop}
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+            \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{2} \PY{c+c1}{\PYZsh{} change  x=2}
+\end{Verbatim}
+
+
+    finding cube roots: while loop -\textgreater{} for loop
+
+The break statement in the for loop causes the loop to terminate before
+it has been run on each element in the sequence over which it is
+iterating.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Find the cube root of a perfect cube}
+        \PY{n}{x} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n+nb}{input}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Enter an integer: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}  \PY{c+c1}{\PYZsh{}  27}
+        \PY{k}{for} \PY{n}{ans} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{:}   
+            \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+                \PY{k}{break}          \PY{c+c1}{\PYZsh{}  break statement}
+        
+        \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{3} \PY{o}{!=} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is not a perfect cube}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{ans} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{ans}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cube root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ans}\PY{p}{)}
+\end{Verbatim}
+
+
+    The for statement can be used to conveniently iterate over characters of
+a string.
+
+    Most of the time, numbers of type float provide a reasonably good
+approximation to real numbers. But ``most of the time'' is not all of
+the time, and when they don't it can lead to surprising consequences.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{total} \PY{o}{=} \PY{l+m+mi}{0}
+        \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{123456789}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}
+            \PY{n}{total} \PY{o}{=} \PY{n}{total} \PY{o}{+} \PY{n+nb}{int}\PY{p}{(}\PY{n}{c}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{total}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{approximate-solutions-and-bisection-search}{%
+\subsection{3.3 Approximate Solutions and Bisection
+Search}\label{approximate-solutions-and-bisection-search}}
+
+Imagine that someone asks you to write a program that finds the square
+root of any nonnegative number. What should you do?
+
+The right thing to have asked for is a program that finds an
+approximation to the square root---i.e., an answer that is close enough
+to the actual square root to be useful.
+
+numerical solution
+
+analytical solution
+
+    \hypertarget{approximating-the-square-root-using-exhaustive-enumeration}{%
+\subsubsection{1) Approximating the square root using exhaustive
+enumeration}\label{approximating-the-square-root-using-exhaustive-enumeration}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Page 26, Figure 3.3}
+        \PY{n}{x} \PY{o}{=} \PY{l+m+mi}{24}
+        \PY{n}{epsilon} \PY{o}{=} \PY{l+m+mf}{0.01}
+        \PY{n}{step} \PY{o}{=} \PY{n}{epsilon}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+        \PY{n}{numGuesses} \PY{o}{=} \PY{l+m+mi}{0}
+        \PY{n}{ans} \PY{o}{=} \PY{l+m+mf}{0.0}
+        \PY{k}{while} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon} \PY{o+ow}{and} \PY{n}{ans} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{x}\PY{p}{:}
+            \PY{n}{ans} \PY{o}{+}\PY{o}{=} \PY{n}{step}        \PY{c+c1}{\PYZsh{} += :ans = ans+ step; \PYZhy{}= *=                         }
+            \PY{n}{numGuesses} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{numGuesses =}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{numGuesses}\PY{p}{)}
+        \PY{k}{if} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Failed on square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{ans}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is close to square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{l+m+mf}{0.25}  \PY{c+c1}{\PYZsh{}  0.5 [0,1]}
+        \PY{n}{epsilon} \PY{o}{=} \PY{l+m+mf}{0.01}
+        \PY{n}{step} \PY{o}{=} \PY{n}{epsilon}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+        \PY{n}{numGuesses} \PY{o}{=} \PY{l+m+mi}{0}
+        \PY{n}{ans} \PY{o}{=} \PY{l+m+mf}{0.0}
+        \PY{k}{while} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon} \PY{o+ow}{and} \PY{n}{ans} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{x}\PY{p}{:}
+            \PY{n}{ans} \PY{o}{+}\PY{o}{=} \PY{n}{step}        \PY{c+c1}{\PYZsh{} += :ans = ans+ step; \PYZhy{}= *=                         }
+            \PY{n}{numGuesses} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{numGuesses =}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{numGuesses}\PY{p}{)}
+        \PY{k}{if} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Failed on square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{ans}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is close to square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    Exhaustive enumeration is a search technique that works only if the set
+of values being searched includes the answer
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{l+m+mf}{0.25}  \PY{c+c1}{\PYZsh{}  0.5 [0,1]}
+        \PY{n}{epsilon} \PY{o}{=} \PY{l+m+mf}{0.01}
+        \PY{n}{step} \PY{o}{=} \PY{n}{epsilon}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}  \PY{c+c1}{\PYZsh{}  epsilon**3 }
+        \PY{n}{numGuesses} \PY{o}{=} \PY{l+m+mi}{0}  \PY{c+c1}{\PYZsh{} 3513631}
+        \PY{n}{ans} \PY{o}{=} \PY{l+m+mf}{0.0}
+        \PY{k}{while} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon} \PY{o+ow}{and} \PY{n}{ans}\PY{o}{*}\PY{n}{ans} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{x}\PY{p}{:}  \PY{c+c1}{\PYZsh{} }
+            \PY{n}{ans} \PY{o}{+}\PY{o}{=} \PY{n}{step}        \PY{c+c1}{\PYZsh{} += :ans = ans+ step; \PYZhy{}= *=                         }
+            \PY{n}{numGuesses} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{numGuesses =}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{numGuesses}\PY{p}{)}
+        \PY{k}{if} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Failed on square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{ans}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is close to square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    The time has come to look for a different way to attack the problem. We
+need to choose a better algorithm rather than fine tune the current one.
+
+    \hypertarget{using-bisection-search-to-approximate-square-root}{%
+\subsubsection{2) Using bisection search to approximate square
+root}\label{using-bisection-search-to-approximate-square-root}}
+
+Suppose we know that a good approximation to the square root of x lies
+somewhere between 0 and max. We can exploit the fact that numbers are
+totally ordered.
+
+Since we don't necessarily know where to start searching, let's start in
+the middle.
+
+\begin{verbatim}
+0__________________________guess__________________________max
+\end{verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Page 28, Figure 3.4}
+        \PY{c+c1}{\PYZsh{}x = 25}
+        
+        \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{123456789}
+        \PY{n}{epsilon} \PY{o}{=} \PY{l+m+mf}{0.01}
+        \PY{n}{numGuesses} \PY{o}{=} \PY{l+m+mi}{0}
+        \PY{n}{low} \PY{o}{=} \PY{l+m+mf}{0.0}
+        \PY{n}{high} \PY{o}{=} \PY{n+nb}{max}\PY{p}{(}\PY{l+m+mf}{1.0}\PY{p}{,} \PY{n}{x}\PY{p}{)}        \PY{c+c1}{\PYZsh{} the square root of x lies somewhere between 0 and max}
+        \PY{n}{ans} \PY{o}{=} \PY{p}{(}\PY{n}{high} \PY{o}{+} \PY{n}{low}\PY{p}{)} \PY{o}{/} \PY{l+m+mf}{2.0}  \PY{c+c1}{\PYZsh{} let’s start in the middle.}
+        
+        \PY{k}{while} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon}\PY{p}{:}
+        \PY{c+c1}{\PYZsh{}    print(\PYZsq{}low =\PYZsq{}, low, \PYZsq{}high =\PYZsq{}, high, \PYZsq{}ans =\PYZsq{}, ans)}
+         
+        \PY{c+c1}{\PYZsh{}    print(\PYZsq{}root interval=[ \PYZpc{}12.9f\PYZsq{}\PYZpc{}low,\PYZsq{}, \PYZpc{}12.9f\PYZsq{}\PYZpc{}high,\PYZsq{}]\PYZsq{}, \PYZsq{}ans =\PYZpc{}12.9f\PYZsq{}\PYZpc{}(ans)) \PYZsh{}old string formatting}
+            
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{root interval=[ }\PY{l+s+si}{\PYZob{}0:.9f\PYZcb{}}\PY{l+s+s1}{, }\PY{l+s+si}{\PYZob{}0:.9f\PYZcb{}}\PY{l+s+s1}{], ans= }\PY{l+s+si}{\PYZob{}0:.9f\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{low}\PY{p}{,}\PY{n}{high}\PY{p}{,}\PY{n}{ans}\PY{p}{)}\PY{p}{)}
+           
+            \PY{n}{numGuesses} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+            
+            \PY{c+c1}{\PYZsh{} whether it is too big or too small}
+            \PY{k}{if} \PY{n}{ans}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZlt{}} \PY{n}{x}\PY{p}{:}    
+                \PY{n}{low} \PY{o}{=} \PY{n}{ans}    \PY{c+c1}{\PYZsh{} If it is too small, we know that the answer must lie to the right}
+                             \PY{c+c1}{\PYZsh{} [0,max]\PYZhy{}\PYZgt{}[ans,max]}
+            \PY{k}{else}\PY{p}{:}
+                \PY{n}{high} \PY{o}{=} \PY{n}{ans}   \PY{c+c1}{\PYZsh{} If it is too big, we know that the answer must lie to the left.}
+                             \PY{c+c1}{\PYZsh{} [0,max]\PYZhy{}[0,ans]}
+            \PY{n}{ans} \PY{o}{=} \PY{p}{(}\PY{n}{high} \PY{o}{+} \PY{n}{low}\PY{p}{)} \PY{o}{/} \PY{l+m+mf}{2.0}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{numGuesses =}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{numGuesses}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{ans}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is close to square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    Because it divides the search space in half at each step, it is called a
+bisection search
+
+    \hypertarget{python-tutorial-7.1-fancier-output-formatting}{%
+\paragraph{Python Tutorial : 7.1 Fancier Output
+Formatting}\label{python-tutorial-7.1-fancier-output-formatting}}
+
+https://docs.python.org/3.5/tutorial/inputoutput.html\#fancier-output-formatting
+
+    \hypertarget{a-few-words-about-using-floats}{%
+\subsection{3.4 A Few Words About Using
+Floats}\label{a-few-words-about-using-floats}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x} \PY{o}{=} \PY{l+m+mf}{0.0}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{p}{:}
+            \PY{n}{x} \PY{o}{=} \PY{n}{x} \PY{o}{+} \PY{l+m+mf}{0.1}    \PY{c+c1}{\PYZsh{} because the value to which x is bound is not exactly 1.0}
+        
+        \PY{k}{if} \PY{n}{x} \PY{o}{==} \PY{l+m+mf}{1.0}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{= 1.0}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is not 1.0}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{ Tested that two floating point values are equal (==) instead of nearly equal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{ x==1.0 }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{x}\PY{o}{==}\PY{l+m+mf}{1.0}\PY{p}{)}    
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+\end{Verbatim}
+
+
+    Why does it get to the else clause in the first place?
+
+Modern computers use binary, not decimal, representations. We represent
+the significant digits and exponents in binary rather than decimal and
+raise 2 rather than 10 to the exponent.
+
+\(sig*2^{exp}\)
+
+0.625
+
+\((101,-011) \rightarrow 5*2^{-3} \rightarrow 0.625\)
+
+\$ 1/10-\textgreater{}0.1 ? sig*2\^{}\{exp\}\$
+
+** if sig=1,exp=-3 **
+
+\$ (01, -11) \rightarrow 1*2\^{}\{-3\} \rightarrow  1/8 = 0.125 \neq 0.1
+\$
+
+\$(0011, -0100) \rightarrow 3*2\^{}\{-4\} \rightarrow  3/32
+\rightarrow 0.09375 \neq 0.1 \$
+
+\$(11001, -01000) \rightarrow 25*2\^{}\{-8\} \rightarrow25/256
+\rightarrow 0.09765625 \neq 0.1 \$
+
+How many significant digits would we need to get an exact floating point
+representation of 0.1? An infinite number of digits!
+
+There do not exist integers sig and exp such that \(sig * 2^{-exp}\)
+equals 0.1.
+
+In base 2, 1/10 is the infinitely repeating fraction
+
+0.0001100110011001100110011001100110011001100110011\ldots{}
+
+In most Python implementations, there are 53 bits of precision available
+for floating point numbers,
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{x}\PY{o}{=}\PY{l+m+mi}{1}\PY{o}{/}\PY{l+m+mi}{10}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{x}\PY{p}{)}  \PY{c+c1}{\PYZsh{} automatic rounding}
+\end{Verbatim}
+
+
+    Just remember, even though the printed result looks like the exact value
+of 1/10, the actual stored value is the nearest representable binary
+fraction.
+
+if you want to explicitly round a floating point number, use the round
+function. The expression
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{round}\NormalTok{(x, numDigits)}
+\end{Highlighting}
+\end{Shaded}
+
+returns the floating point number equivalent to rounding the value of x
+to numDigits decimal digits following the decimal point.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n+nb}{round}\PY{p}{(}\PY{l+m+mi}{2}\PY{o}{*}\PY{o}{*}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+
+
+    Does the difference between real and floating point numbers really
+matter? Most of the time, mercifully, it does not.
+
+However,
+
+tests for equality write abs(x-y) \textless{} 0.0001 rather than x == y.
+
+the accumulation of rounding errors
+
+    \hypertarget{numpy.finfo}{%
+\paragraph{numpy.finfo}\label{numpy.finfo}}
+
+class numpy.finfo
+
+\begin{verbatim}
+Machine limits for floating point types.
+\end{verbatim}
+
+http://docs.scipy.org/doc/numpy/reference/generated/numpy.finfo.html
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        
+        \PY{n}{iexp32}  \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{finfo}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{float32}\PY{p}{)}\PY{o}{.}\PY{n}{iexp} 
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{The number of bits in the exponent portion: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{iexp32}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{} nmant (int) The number of bits in the mantissa. }
+        \PY{n}{nmant32} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{finfo}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{float32}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{nmant} 
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{The number of bits in the mantissa: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{nmant32}\PY{p}{)}
+        \PY{n}{eps32} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{finfo}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{float32}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{eps}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{eps32}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{for} \PY{n}{f} \PY{o+ow}{in} \PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{float16}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{float32}\PY{p}{,} \PY{n+nb}{float}\PY{p}{)}\PY{p}{:}
+            \PY{n}{finfo} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{finfo}\PY{p}{(}\PY{n}{f}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{finfo}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{further-reading}{%
+\subsubsection{Further Reading}\label{further-reading}}
+
+\hypertarget{python-tutorial-chapter-15-floating-point-arithmetic-issues-and-limitations}{%
+\paragraph{1 Python Tutorial: Chapter 15 FLOATING POINT ARITHMETIC:
+ISSUES AND
+LIMITATIONS}\label{python-tutorial-chapter-15-floating-point-arithmetic-issues-and-limitations}}
+
+For use cases which require exact decimal representation,
+
+try using the decimal module which implements decimal arithmetic
+suitable for accounting applications and high-precision applications.
+
+Another form of exact arithmetic is supported by the fractions module
+which implements arithmetic based on rational numbers (so the numbers
+like 1/3 can be represented exactly).
+
+\hypertarget{numerical-recipes-2-1.3-error-accuracy-and-stability}{%
+\subparagraph{2 Numerical Recipes :2 1.3 Error, Accuracy, and
+Stability}\label{numerical-recipes-2-1.3-error-accuracy-and-stability}}
+
+http://numerical.recipes/
+
+In floating-point representation, a number is represented internally by
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  a sign bit s : interpreted as plus or minus,
+\item
+  an exact integer exponent e,
+\item
+  an exact positive integer mantissa M.
+\end{enumerate}
+
+Taken together these represent the number
+
+\(s*M* B^{e−E}\)
+
+where B is the base of the representation (usually B = 2, but sometimes
+B = 16),and E is the bias of the exponent, a fixed integer constant for
+any given machine and representation.
+
+An example is shown in Figure(Floating point representations of numbers
+in a typical 32-bit (4-byte) format,Exponent bias E=127)
+
+\begin{figure}
+\centering
+\includegraphics{./img/float.jpg}
+\caption{float}
+\end{figure}
+
+\hypertarget{ieee-floating-point}{%
+\paragraph{3 IEEE floating point}\label{ieee-floating-point}}
+
+https://en.wikipedia.org/wiki/IEEE\_floating\_point
+
+    \hypertarget{newton-raphson}{%
+\subsection{3.5 Newton-Raphson}\label{newton-raphson}}
+
+we shall look at it only in the context of finding the real roots of a
+polynomial with one variable.
+
+\(f(x)=a*x^n +a_0\)
+
+Want to find r:
+
+\(f(r)=0\)
+
+Newton proved a theorem that implies that if a value, call it \(X_k\),
+is an approximation to a root of a polynomial, then
+
+\(x_{k+1}=x_k– \frac{f(x_k)}{f’(x_k)}\)
+
+is a better approximation. where \(f’\) is the first derivative of
+\(f\),
+
+\(y=f(x_k)+f'(x_k)(x-x_k)\)
+
+liner equation between two point: \((x_{k+1},0),(x_k,y_k)\)
+
+\begin{figure}
+\centering
+\includegraphics{./img/newton.jpg}
+\caption{newton}
+\end{figure}
+
+For example, the first derivative of
+
+\(x^2 – k\) is \(2x\).
+
+Therefore, we know that we can improve on the current guess, call it
+\(x_k\)
+
+by choosing as our next guess \(x_{k+1}\):
+
+\(x_{k+1}=x_k - \frac{x_{k}^2 - k}{2x_k}\)
+
+This is called successive approximation.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Newton\PYZhy{}Raphson for square root}
+        
+        \PY{c+c1}{\PYZsh{}Find x such that x**2 \PYZhy{} 24 is within epsilon }
+        
+        \PY{n}{epsilon} \PY{o}{=} \PY{l+m+mf}{0.01}   \PY{c+c1}{\PYZsh{} 试验提示1：改变精度，测试死循环，给出改进的稳健 算法}
+        
+        \PY{n}{k} \PY{o}{=} \PY{l+m+mf}{24.0}
+        
+        \PY{n}{guess} \PY{o}{=}\PY{n}{k}\PY{o}{/}\PY{l+m+mf}{2.0}   \PY{c+c1}{\PYZsh{} reinitialize a variable，试验提示2： 比较不同初值下速度,如 0.01}
+        
+        \PY{c+c1}{\PYZsh{} 6.2.3 Failed to reinitialize a variable }
+        
+        \PY{n}{successiveapproximation}\PY{o}{=}\PY{l+m+mi}{0}  \PY{c+c1}{\PYZsh{}  试验提示3：和二分法对比下数值求解的 速度和精度}
+        \PY{k}{while} \PY{n+nb}{abs}\PY{p}{(}\PY{n}{guess}\PY{o}{*}\PY{n}{guess} \PY{o}{\PYZhy{}} \PY{n}{k}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{epsilon}\PY{p}{:}
+            
+            \PY{n}{guess} \PY{o}{=} \PY{n}{guess} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{p}{(}\PY{p}{(}\PY{n}{guess}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n}{k}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{2}\PY{o}{*}\PY{n}{guess}\PY{p}{)}\PY{p}{)}  \PY{c+c1}{\PYZsh{} a better next approximation}
+            
+            \PY{n}{successiveapproximation}\PY{o}{+}\PY{o}{=}\PY{l+m+mi}{1}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Square root of}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{k}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{is about}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{guess}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{counts of successive approximation=}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{successiveapproximation}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{further-reading}{%
+\subsubsection{Further Reading：}\label{further-reading}}
+
+Numerical Recipes in C : http://numerical.recipes/
+
+\begin{itemize}
+\item
+  9.1 Bracketing and Bisection
+\item
+  9.4 Newton-Raphson Method Using Derivative
+\end{itemize}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

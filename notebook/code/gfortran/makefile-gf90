@@ -1,0 +1,12 @@
+
+all: hello.exe
+
+hello.exe: hello.o
+	 gfortran -o ./code/gfortran/hello.exe hello.o
+	 del hello.o
+    
+hello.o: ./code/gfortran/hello.f90
+	 gfortran -c ./code/gfortran/hello.f90
+     
+clean:
+	 del .\code\gfortran\hello.exe

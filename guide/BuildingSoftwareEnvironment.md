@@ -54,9 +54,9 @@ https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
 
   *  the custom install: 
       
-      1) Install to dir： C:\python35
+      1 Install to dir： C:\python35
             
-      2) check “Add Python3.5 to Path” 
+      2 check “Add Python3.5 to Path” 
 
 ![Python3](./img/python35.jpg)
    
@@ -106,7 +106,7 @@ From a command prompt:
 ```bash  
  numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl 
 ```  
-is the installer  of numpy 1.14.1+mkl for 64-bit Python 3.5 windows.
+is the installer  of numpy 1.14.1+mkl for 64-bit Python 3.5 Windows64.
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 
