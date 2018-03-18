@@ -36,7 +36,17 @@
 ```bash
 >git push
 ```
- 
+
+**8** 本地仓库内容更新、同步到远程github
+
+```bash
+>git commit -m “desc of the commit"
+```
+
+```bash
+>git push
+```
+
  **NOTE：** 这些工作在Visual Studio Code可以更方便地完成
 
  ### 参考：
