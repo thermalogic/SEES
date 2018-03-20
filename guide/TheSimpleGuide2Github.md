@@ -47,7 +47,9 @@
 >git push
 ```
 
- **NOTE：** 这些工作在Visual Studio Code可以更方便地完成
+1，7工作完成后，后期仓库的的基本工作就是8
+
+**NOTE：** 这些工作在Visual Studio Code可以更方便地完成
 
  ### 参考：
 

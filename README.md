@@ -18,7 +18,7 @@ We will cover:
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
-* C/C++ progamming with GCC
+* C/C++ progamming with GCC(basic data structure and algorithm)
 
 ### Required Materials and Textbooks
 
