@@ -110,13 +110,13 @@ $sudo apt install python3-numpy python3-scipy python3-matplotlib
 pip3在线安装
  
 ```bash
-$sudo –H pip3 install jupyter
+$sudo -H pip3 install jupyter
 ```
 
 ### 安装IAPWS
 
 ```bash
-$sudo –H pip3 install iapws
+$sudo -H pip3 install iapws
 ```
 
 ### 安装SEUIF97
@@ -160,24 +160,24 @@ $sudo dpkg -i [vscode filename].deb
 
 ## 英文版Xubuntu系统安装后，补充中文支持
 
->**Note:**不同版本ubuntu的安装过程会有稍有不同
+> **Note:** 不同版本ubuntu的安装过程会有稍有不同
 
-* 1 安装中文语言支持包
+#### 1 安装中文语言支持包
 
-1.1 安装后，重新启动，联网在出现“Update information”->Incomplete language Support提示时
+安装后，重新启动，联网在出现“Update information”->Incomplete language Support提示时
 点“Run this action now”，在线安装English和Chinese 包
 
-1.2 或者以后：
-System->language support，选择和安装需要的语言包：English和Chinese，
-
-1.3 或者以后： 
-```bash 
-$sudo apt-get install language-pack-zh-hans
-``` 
+> 或者以后：
+>System->language support，选择和安装需要的语言包：English和Chinese，
+>
+> 
+>```bash 
+>$sudo apt-get install language-pack-zh-hans
+>``` 
  
-* 2  安装软件后,退出当前登录(logout)，然后再登入,选择keyboard input methods system默认输入法系统fcitx：setting->language support选择：fcitx
+#### 2  安装软件后,退出当前登录(logout)，然后再登入,选择keyboard input methods system默认输入法系统fcitx：setting->language support选择：fcitx
 
-* 3 安装搜狗拼音输入法
+#### 3 安装搜狗拼音输入法
 
 从官网下载最新版的搜狗拼音输入法，安装
 
@@ -188,13 +188,15 @@ $sudo dpkg -i [sogoupinyinfilename].deb
 ```bash
 sudo apt -f install
 ```
-* 4 安装搜狗拼音输入法,退出当前登录(logout)，然后再登入，就可以使用搜狗拼音输入法了
+#### 4 配置搜狗拼音输入法为系统输入方法
+
+安装搜狗拼音输入法,退出当前登录(logout)，然后再登入，就可以使用搜狗拼音输入法了
 
 查看和配置系统的输入法： setting->fcitx configuration
 
-* 5 中英文输入法切换
+#### 5 中英文输入法切换
 
-ctrl+black space
+ctrl+space bar
 
 ## Reference
 
