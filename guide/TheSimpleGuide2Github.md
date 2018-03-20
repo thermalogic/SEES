@@ -18,7 +18,7 @@
 **4** 提交本地项目中内容到git
 
 ```bash
->git commit -m “first commit"
+>git commit -m "first commit"
 ```
 
 **5** 在github账户中建立一个和本地项目所在目录名 **一样** 的仓库
