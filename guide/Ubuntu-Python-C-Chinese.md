@@ -169,7 +169,6 @@ $sudo dpkg -i [vscode filename].deb
 
 > 或者以后：
 >System->language support，选择和安装需要的语言包：English和Chinese，
->
 > 
 >```bash 
 >$sudo apt-get install language-pack-zh-hans
@@ -190,7 +189,7 @@ sudo apt -f install
 ```
 #### 4 配置搜狗拼音输入法为系统输入方法
 
-安装搜狗拼音输入法,退出当前登录(logout)，然后再登入，就可以使用搜狗拼音输入法了
+安装搜狗拼音输入法,退出当前登录(logout)，然后再登入（login)，就可以使用搜狗拼音输入法了
 
 查看和配置系统的输入法： setting->fcitx configuration
 
@@ -201,6 +200,8 @@ ctrl+space bar
 ## Reference
 
 * Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
+
+* The Linux Mint Installation Guide https://linuxmint-installation-guide.readthedocs.io/en/latest/index.html
 
 * Unix Survival Guide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
