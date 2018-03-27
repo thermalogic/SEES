@@ -13,9 +13,9 @@ Windows是同学们的主要工作环境，已安装Windows系统的电脑上，
 
 ## 安装Ubuntu
 
-Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版。
+Ubuntu发行版很多，建议**新手**使用“中国味”的UbuntuKylin 18.04 LTS版。
 
-从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04 版iso,
+从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin18.04 版iso,
 
 ![Ubuntukylin](./img/ubuntukylin.jpg) 
 
@@ -23,19 +23,15 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 
 然后，用U盘安装双系统。
 
-安装过程，可参考：
-
-* U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
-
-  * http://www.linuxdiyf.com/linux/19782.html
+网络上有很多安装过程的介绍文档，可参考
 
 > 可选Linux系统: **Linux Mint Xfce**
 >
 >[Linux Mint Xfce Edition](https://www.linuxmint.com/)
 >
->适用对象：要求更快的系统相应速度；硬件性能较弱的计算机。
+>特点：1）易用,适宜新手；2）更快的系统相应速度，适宜硬件性能较弱的计算机。
 >
->    系统安装后，需要补充安装中文包及其输入法(搜狗输入法)
+> 系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)
 >
 >![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
 
@@ -48,7 +44,7 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
        * /home： home挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为 /home 挂载点
          * **注意**: 
            * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
-           * 一定要有home挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
+           * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
        * /： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
   * 分好区后，点安装
 * 5 Where are you:选择时区为 **shanghai**
@@ -60,7 +56,7 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 >
 >不同的只是安装 **“位置”**：1）选择U盘为boot loader设备； 2）Ubuntu各分区挂载到U盘
 >
->**注意：** 使用高品质的U盘；盘容量较大)，分配的“/”区空间较大为宜；建一个FAT32文件系统分区，用于兼容Windows.
+> **建议：** 1) 使用高品质的USB3.0 U盘；盘容量较大; 2) 建一个FAT32文件系统分区，用于兼容Windows.
 >
 > 网络上相关文档很多，可查询。
 
@@ -128,19 +124,25 @@ Download ziped file from : https://github.com/thermalogic/SEUIF97 unzip, then
    $sudo cp libseuif97.so /usr/lib/
 ```
 
-2.copy seuif97.py to a default path of Python lib
+2.copy seuif97.py to a default path of Python3.6 lib
 ```bash 
-   $sudo cp seuif97.py /usr/lib/python3.5/
+   $sudo cp seuif97.py /usr/lib/python3.6/
 ```
 
 ## Visual Studio Code开发环境
 
-1 From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian,Ubuntu
+1 Visual Studio Code
+
+From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian,Ubuntu
 
 ```bash
 
 $sudo dpkg -i [vscode filename].deb
 
+```
+or
+```bash
+$sudo snap install --classic vscode
 ```
 
 2 Install Python Extension in  Visual Studio Code
@@ -158,18 +160,19 @@ $sudo dpkg -i [vscode filename].deb
 >  "python.pythonPath": "python3",
 >```
 
-## 英文版Xubuntu系统安装后，补充中文支持
+## 补充中文支持
 
-> **Note:** 不同版本ubuntu的安装过程会有稍有不同
+> **Note:** 下面是Xubuntu系统补充中文支持的过程，不同版本ubuntu的安装过程不同，可上网查询。
 
 #### 1 安装中文语言支持包
 
-安装后，重新启动，联网在出现“Update information”->Incomplete language Support提示时
-点“Run this action now”，在线安装English和Chinese 包
+安装后，重新启动，联网状态下,在出现“Update information”->Incomplete language Support提示时
+，点“Run this action now”，在线安装English和Chinese 包
 
 > 或者以后：
 >System->language support，选择和安装需要的语言包：English和Chinese，
 > 
+> or 
 >```bash 
 >$sudo apt-get install language-pack-zh-hans
 >``` 
@@ -185,7 +188,7 @@ $sudo dpkg -i [sogoupinyinfilename].deb
 ```
 如果安装失败(提示缺少依赖)，在终端执行
 ```bash
-sudo apt -f install
+$sudo apt -f install
 ```
 #### 4 配置搜狗拼音输入法为系统输入方法
 
