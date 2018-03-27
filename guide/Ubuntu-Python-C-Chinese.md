@@ -202,10 +202,12 @@ ctrl+space bar
 
 ## Reference
 
+* **Ubuntu Howto** http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+
+* Unix Survival Guide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+
 * Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
 
 * The Linux Mint Installation Guide https://linuxmint-installation-guide.readthedocs.io/en/latest/index.html
 
-* Unix Survival Guide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
-* Ubuntu Howto http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
