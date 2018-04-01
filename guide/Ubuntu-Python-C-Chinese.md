@@ -37,15 +37,15 @@ Ubuntu发行版很多，建议**新手**使用“中国味”的UbuntuKylin 18.0
 
 ## 安装要点
 * 1 Welcome界面：选择语言 **English**
-* 2 Wireless界面：选择 不连接无线网络 
-* 3 Preparing to install Ubuntu界面: 选择 安装第三方软件
+* 2 Wireless界面：选择 **不连接无线网络** 
+* 3 Preparing to install Ubuntu界面: 选择 **安装第三方软件**
 * 4 Installation type界面: 选择 **something else**
    * 自定义系统分区和挂载点，简单可靠的方式如下：
-       * /home： home挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为 /home 挂载点
+       * **/home**： home挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为 /home 挂载点
          * **注意**: 
            * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
            * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
-       * /： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
+       * **/**： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
   * 分好区后，点安装
 * 5 Where are you:选择时区为 **shanghai**
 * 6 Who are you: 用户名和密码，选择自动登录（如重装系统且要使用原home分区,建议用原用户名）

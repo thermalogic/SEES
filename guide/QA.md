@@ -84,3 +84,28 @@ Jupyter notebook中可以ipynb转换为pdf
 从源下载包.
 
 
+### 8 在Windows环境下，使用VS Code终端运行Python程序，Python的print函数出现OSError问题
+
+ 在Windows环境下，使用VS code终端运行Python程序，Python的print函数会出现OSError问题，然而,在外部cmd中运行该Python程序却不会出现该问题.
+
+```bash
+OSError: raw write() returned invalid length 254 (should have been between 0 and 127)
+```
+与win10系统的版本有关系,查看版本：
+```bash
+>msinfo32
+```
+
+**解决办法**
+
+* 1 安装win_unicode_console
+
+```bash
+>pip install win_unicode_console
+```
+2 在代码文件中添加以下两行代码
+
+```python
+import win_unicode_console
+win_unicode_console.enable()
+```

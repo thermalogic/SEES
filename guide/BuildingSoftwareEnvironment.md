@@ -97,7 +97,7 @@ From a command prompt:
 
 ### 3 Scientific Computation Packages
    
-    Numpy,Scipy, Matplotlib
+   Numpy,Scipy, Matplotlib https://www.scipy.org/install.html 
 
 * Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
@@ -162,18 +162,17 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * 1 Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
-    Downloads x86_64-6.4.0-release-win32-sjlj or seh
+    * sjlj: 32 and 64 bits,but it incurs a minor performance penalty
      
-    * sjlj: 32 and 64 bits,but it incurs a minor 
-     performance penalty
-     
-     * seh：64 bits only
+    * seh：64 bits only
+  
+  Download： **GCC 7.3.0 x86_64-win32-sjlj**
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-* 2 unzip the ziped MinGW-w64 to C:\mingw64
+* 2 unzip the ziped MinGW-w64 to **C:\mingw64**
 
-* 3 Add C:\mingw64\bin to the environment variable **Path**
+* 3 Add **C:\mingw64\bin** to the environment variable **Path**
 
     To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
 
@@ -198,7 +197,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * Start Jupyter Notebook of the course
  
-  unzip home.zip, run  **StartNB.bat** bat under the dir **notebook*, start **Jupyter Notebook** server
+  unzip home.zip, run  **StartNB.bat** bat under the dir **notebook**, start **Jupyter Notebook** server
 
 ## References
 
