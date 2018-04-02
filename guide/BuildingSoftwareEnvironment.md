@@ -1,6 +1,6 @@
 # Building Software Environment 
 
-## A  Windows10：
+## A  Windows10
 
   64-bit Windows10 
 
