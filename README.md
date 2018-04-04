@@ -3,7 +3,7 @@
 
 * If you have concerns about the course, please email to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
-    * Email: cmh@seu.edu.cn. 
+  * Email: cmh@seu.edu.cn. 
 
 ## Goal
 
