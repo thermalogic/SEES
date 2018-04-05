@@ -1,5 +1,5 @@
 
-/* binary searching an array using The GNU C Library ：lsearch (gnubsearch.c) */
+/* binary searching an array using The GNU C Library ：bsearch (gnubsearch.c) */
 
 #include <stdio.h>  
 #include <stdlib.h>  
@@ -13,7 +13,7 @@ int main ()
 {  
   int values[] = { 10, 20, 25, 40, 90, 100 };  
   int * pItem;  
-  int key = 400;  
+  int key = 90;  
   pItem = (int*) bsearch (&key, values, 6, sizeof (int), compare_ints);  
   if (pItem!=NULL)  
     printf ("%d is in the array.\n",*pItem);  
