@@ -56,3 +56,9 @@
 * [DS_10.2_Sorting_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.2_Sorting_Algorithms.ipynb)
 
 * [DS_10.3_Hash_Tables(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)
+
+* [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(soptional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+
+* [SUPL-2-SC-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-SC-GSL-GNUPLOT-Ubuntu.ipynb)
+
+* [SUPL-3-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-3-GCC-GFortran.ipynb)
