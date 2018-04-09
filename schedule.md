@@ -13,9 +13,9 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-* [PyThermo-IF97-BASIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
+* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
 
-* [PyThermo-IdealRankineCycle-BASIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
+* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
 
 * [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
 
@@ -59,6 +59,6 @@
 
 * [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(soptional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-* [SUPL-2-SC-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-SC-GSL-GNUPLOT-Ubuntu.ipynb)
+* [SUPL-2-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
 
 * [SUPL-3-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-3-GCC-GFortran.ipynb)
