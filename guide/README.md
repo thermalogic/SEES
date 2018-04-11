@@ -11,7 +11,7 @@
 
 #### 5 [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C.md) 
 
-#### 6 [Coding and Running](./codingrunning.md/)
+#### 6 [Coding and Running](./CodingRunning.md/)
 
 #### 7 [Resources On Github](./ResourcesOnGithub.md) 
 
