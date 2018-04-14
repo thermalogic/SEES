@@ -25,13 +25,28 @@
 
 ##  命令行`源码->运行`过程示例
 
-* Windows系统终端中，命令行**源码->运行**过程示例
+* Windows系统**终端**中，命令行**源码->运行**过程示例
 ![Window操作系统终端中，命令行运行过程示例](./codingrunning/demo-windows-shell.jpg)
 
-* Visual Studio Code终端中，命令行**源码->运行**过程示例
+* Visual Studio Code **终端** 中，命令行**源码->运行**过程示例
 
-![Visual Studio Code终端中，命令行运行过程示例](./codingrunning/demo-vscode-terminal.jpg)
+![Visual Studio Code **终端** 中，命令行运行过程示例](./codingrunning/demo-vscode-terminal.jpg)
 
 
+## Computer Terminal
 
+https://en.wikipedia.org/wiki/Computer_terminal
+
+A computer **terminal** is an electronic or electromechanical **hardware device** that is used for **entering data into, and displaying or printing data** from, a computer or a computing system. The teletype was an example of an early day hardcopy terminal, and predated the use of a computer screen by decades.
+
+The terminal of the first working programmable, fully automatic digital Turing-complete computer, the Z3, had a keyboard and a row of lamps to show results
+
+![terminal](./codingrunning/ASR-33_1.jpg)
+
+A personal computer can run **terminal emulator software** that replicates the **function of a terminal**, sometimes allowing concurrent use of local programs and access to a distant terminal host system.
+
+When using a **graphical user interface** (or GUI) like the X Window System, one's display is typically occupied by a collection of windows associated with various applications, rather than a single stream of text associated with a single process. In this case, one may use a **terminal emulator** application within the windowing environment. This arrangement permits **terminal-like interaction** with the computer (for running **a command line interpreter**, for example) without the need for a physical terminal device; it can even allow the running of multiple terminal emulators on the same device.
+
+
+![terminalemulator](./codingrunning/terminal-emulator.jpg)
 

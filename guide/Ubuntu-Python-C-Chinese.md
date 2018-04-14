@@ -7,7 +7,7 @@ Windows是同学们的主要工作环境，已安装Windows系统的电脑上，
 
   安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
-  安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
+  基本安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
@@ -190,7 +190,7 @@ $sudo dpkg -i [sogoupinyinfilename].deb
 ```bash
 $sudo apt -f install
 ```
-#### 4 配置搜狗拼音输入法为系统输入方法
+#### 4 配置搜狗拼音输入法为系统中文输入方法
 
 安装搜狗拼音输入法,退出当前登录(logout)，然后再登入（login)，就可以使用搜狗拼音输入法了
 
