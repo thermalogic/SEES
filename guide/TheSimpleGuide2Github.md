@@ -49,8 +49,14 @@
 
 1，7工作完成后，仓库本地更新和推送到远程的工作就是8
 
-**NOTE：** 这些工作在Visual Studio Code中可以更方便地完成
+**NOTE：** 
 
+* 这些工作在Visual Studio Code中可以更方便地完成
+
+* VS Code中持久化git账号: 可以全局存储账号， 解决每次链接github登陆问题。
+```bash
+>git config --global credential.helper wincred
+```
  ### 参考：
 
 **[1]** How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
