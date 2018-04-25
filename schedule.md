@@ -25,11 +25,11 @@
 
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
+   * [PyThermo-IF97-REVIEW](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
+
+   * [PyThermo-IdealRankineCycle-More](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
+
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* [PyThermo-IF97-REVIEW](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
-
-* [PyThermo-IdealRankineCycle-ADVANCED](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
 
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
@@ -57,7 +57,7 @@
 
 * [DS_10.3_Hash_Tables(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)
 
-* [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(soptional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+* [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
 * [SUPL-2-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
 

@@ -84,27 +84,28 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
 # Update Course
 
+## Download the zip file of repository 
+
 This repository contain all files of the course. You can manually download these files, 
 
 ![download](./guide/img/downloadhome.jpg)
 
-## Using Git
+## Using Git to clone a branch of repository to your computer 
 
 We **recommend** that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
 
 After you have installed **git**, You may use the following **commands:**
 
-### Cloning to Your Computer
+#### clone a branch of repository:
 
-When you clone a repository you set up a copy on your computer. Run:
-
+* shallowly cloning the branch of repository for saving bandwidth
 ```bash
->git clone https://github.com/PySEE/home.git
+>git clone --depth 1 -b S2018 https://github.com/PySEE/home.git
 ```
 
-This will create a folder **home** on your computer, with the files in subdirectories.
+This will create a folder **home** on your computer  with the files in subdirectories.
 
-### Updating to The Latest Version
+#### Updating to The Latest Version
 
 As we release new files, or if we update an already released files, you'll have to update your repository.
 
@@ -114,6 +115,8 @@ You can do this by changing into the **home** directory and executing:
 >git pull
 ```
 That's it - you'll have the latest version of the repository.
+
+![download](./guide/img/clonehomedir.jpg)
 
 >you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
 
