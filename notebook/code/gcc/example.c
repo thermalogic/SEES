@@ -24,7 +24,7 @@ int main(void)
   sd       = gsl_rstat_sd(rstat_p);
   sd_mean  = gsl_rstat_sd_mean(rstat_p);
   skew     = gsl_rstat_skew(rstat_p);
-  rms      = gsl_rstat_rms(rstat_p);
+  // rms      = gsl_rstat_rms(rstat_p);
   kurtosis = gsl_rstat_kurtosis(rstat_p);
   n        = gsl_rstat_n(rstat_p);
 
