@@ -44,14 +44,17 @@ http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
        * **/**： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
   * 分好区后，点安装
 
-![bionic-part-all](./img/bionic-part-all.jpg)
-
 ![bionic-part-all](./img/bionic-part-home.jpg)
+
+![bionic-part-all](./img/bionic-part-all.jpg)
 
 ![bionic-part-all](./img/bionic-parts.jpg)
   
 * 5 Where are you:选择时区为 **shanghai**
-* 6 Who are you: 用户名和密码，选择自动登录（如重装系统且要使用原home分区,建议用原用户名）
+
+* 6 Who are you: 用户名和密码，选择自动登录
+
+   * 如重装系统且要使用 **原home分区**, 建议用**原用户名**
 
 ![bionic-ok](./img/bionic-ok.jpg)
 
