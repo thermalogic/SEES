@@ -116,6 +116,8 @@ You can do this by changing into the **home** directory and executing:
 ```
 That's it - you'll have the latest version of the repository.
 
+![download](./guide/img/clonehomedir.jpg)
+
 >you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
 
 ## TIPS
