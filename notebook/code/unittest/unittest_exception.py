@@ -2,7 +2,7 @@
 import unittest
 
 def raises_error(*args, **kwds):
-    print(args, kwds)
+    print(args, kwds) # *args: tuple; **kwds: dict
     raise ValueError('Invalid value: ' + str(args) + str(kwds))
 
 class ExceptionTest(unittest.TestCase):
