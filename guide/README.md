@@ -9,7 +9,7 @@
 
 #### 4 [QA](./QA.md) 
 
-#### 5 [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C.md) 
+#### 5 [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C-Chinese.md) 
 
 #### 6 [Coding and Running](./CodingRunning.md/)
 

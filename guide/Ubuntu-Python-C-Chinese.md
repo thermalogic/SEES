@@ -13,11 +13,11 @@ Windows是同学们的主要工作环境，已安装Windows系统的电脑上，
 
 ## 安装Ubuntu
 
-从Ubuntu下载Ubuntn 18.04 LTS的iso文件
+从Ubuntu官网下载Ubuntn 18.04 LTS的iso文件
 
 https://www.ubuntu.com/download/desktop
 
-BitTorrent is a peer-to-peer download network that sometimes enables higher download speeds and more reliable downloads of large files.
+BitTorrent enables higher download speeds and more reliable downloads of large files.
 
 http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 
@@ -26,8 +26,11 @@ http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 然后，用U盘安装双系统。网络上有很多安装过程的介绍文档，可参考
 
 ## 安装要点
+
 * 1 Welcome界面：选择语言 **English**
+
 * 2 Wireless界面：选择 **不连接无线网络** 
+
 * 3 updates and other softwares: 选择 **安装第三方软件**
 
 ![bionic-updates](./img/bionic-updates.jpg)
@@ -66,7 +69,7 @@ http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 
 **建议：** 1) 使用高品质的USB3.0 U盘；盘容量较大; 2) 建一个FAT32文件系统分区，用于兼容Windows.
 
- 网络上相关文档很多，可查询。
+ 可查询参考网络上的相关资源。
 
 ## 可选Ubuntu系统
 
@@ -78,17 +81,13 @@ UbuntuKylin官网 http://www.ubuntukylin.com/
 
 默认安装中文支持：WPS，搜狗拼音输入法等
 
-![Ubuntukylin](./img/ubuntukylin.jpg) 
-
 ### 2 Linux Mint Xfce
 
 Linux Mint官网 https://www.linuxmint.com/
 
-特点：1）易用,适宜新手；2）更快的系统相应速度，适宜硬件性能较弱的计算机。
+易用，系统相应速度更快，适用于硬件性能较弱的计算机。
 
 系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)
-
-![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
 
 ## Version Control: Git
 
