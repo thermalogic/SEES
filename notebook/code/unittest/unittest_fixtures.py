@@ -11,9 +11,13 @@ class FixturesTest(unittest.TestCase):
         print('In tearDown()')
         del self.fixture
 
-    def test_fixture(self):
-        print('in test()')
+    def test_fixture1(self):
+        print('in test1()')
         self.assertEqual(self.fixture, range(1, 10))
+     
+    def test_fixture2(self):
+        print('in test2()')
+        self.assertEqual(self.fixture, range(2, 10))
 
 if __name__ == '__main__':
     unittest.main()

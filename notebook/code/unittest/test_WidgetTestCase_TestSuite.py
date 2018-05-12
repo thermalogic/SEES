@@ -18,12 +18,18 @@ class WidgetTestCase(unittest.TestCase):
         self.assertEqual(self.widget.size(), (100,150),
                          'wrong size after resize')
 
-def suite():
+def suite2():
     suite = unittest.TestSuite()
     suite.addTest(WidgetTestCase('test_default_size'))
     suite.addTest(WidgetTestCase('test_resize'))
     return suite
 
+def suite1():
+    suite = unittest.TestSuite()
+    suite.addTest(WidgetTestCase('test_default_size'))
+    return suite
+
 if __name__ == '__main__':
-    unittest.main(defaultTest = 'suite')
+    unittest.main(defaultTest = 'suite2')
+    #unittest.main(defaultTest = 'suite1')
   

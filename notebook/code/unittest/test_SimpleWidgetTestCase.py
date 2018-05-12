@@ -1,3 +1,4 @@
+
 import unittest
 from widget import Widget
 
@@ -5,7 +6,6 @@ class SimpleWidgetTestCase(unittest.TestCase):
 
     def setUp(self):
         self.widget = Widget('The widget')
-
 
     def tearDown(self):
         self.widget.dispose()
