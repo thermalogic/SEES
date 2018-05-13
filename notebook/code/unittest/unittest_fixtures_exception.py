@@ -5,10 +5,11 @@ class FixturesTest(unittest.TestCase):
 
     def setUp(self):
         print('In setUp()')
-        r=1/0
+        # r=1/0
         self.fixture = range(1, 10)
 
     def tearDown(self):
+        # r=1/0
         print('In tearDown()')
         del self.fixture
 

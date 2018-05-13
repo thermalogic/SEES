@@ -27,7 +27,8 @@ def fun_add(a, b):
     >>> fun_add('1', '3')
     '13'
     """
-    return a + b+1
+    return a+b
+    #return a + b+1
 
 if __name__ == "__main__":
     import doctest
