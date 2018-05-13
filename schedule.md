@@ -41,9 +41,9 @@
 
 * [DevTools doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_doctest.ipynb)
 
-* [DevTools timeit(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_timeit.ipynb)
+* [DevTools timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_timeit.ipynb)
 
-* [DevTools Profilers(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
+* [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
 
 * [DevTools Git(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
 
