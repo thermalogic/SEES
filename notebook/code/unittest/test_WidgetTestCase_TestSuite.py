@@ -1,35 +1,34 @@
 
 import unittest
-from widget import Widget
 
-class WidgetTestCase(unittest.TestCase):
+class EqualityTest(unittest.TestCase):
 
-    def setUp(self):
-        self.widget = Widget('The widget')
+    def test_Equal(self):
+        self.assertEqual(3, 3)
 
-    def tearDown(self):
-        self.widget.dispose()
+    def test_NotEqual(self):
+        self.assertNotEqual(2, 5-2)   
 
-    def test_default_size(self):
-        self.assertEqual(self.widget.size(), (50,50),
-                         'incorrect default size')
-    def test_resize(self):
-        self.widget.resize(100,150)
-        self.assertEqual(self.widget.size(), (100,150),
-                         'wrong size after resize')
+class AlmostEqualTest(unittest.TestCase):
 
-def suite2():
+    def testAlmostEqual(self):
+        self.assertAlmostEqual(1.12, 1.11, places=1)
+
+    def testNotAlmostEqual(self):
+        self.assertNotAlmostEqual(1.12, 1.21, places=1)
+        
+def suiteEqual():
     suite = unittest.TestSuite()
-    suite.addTest(WidgetTestCase('test_default_size'))
-    suite.addTest(WidgetTestCase('test_resize'))
+    suite.addTest(EqualityTest('test_Equal'))
+    suite.addTest(AlmostEqualTest('assertAlmostEqual'))
     return suite
 
-def suite1():
+def suiteNotEqual():
     suite = unittest.TestSuite()
-    suite.addTest(WidgetTestCase('test_default_size'))
+    suite.addTest(AlmostEqualTest('testNotAlmostEqual'))
     return suite
 
 if __name__ == '__main__':
-    unittest.main(defaultTest = 'suite2')
-    #unittest.main(defaultTest = 'suite1')
+    #unittest.main(defaultTest = 'suite2')
+    unittest.main(defaultTest = 'suiteEqual')
   

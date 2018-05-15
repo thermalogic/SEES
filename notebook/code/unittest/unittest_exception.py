@@ -12,8 +12,8 @@ class ExceptionTest(unittest.TestCase):
 
     def test_TrapLocally(self):
         try:
-            raises_error('a', b='c') # ('a',), 'b':'c'}
-            #raises_error('a','b', b='c',d='e') 
+            #raises_error('a', b='c') # ('a',), 'b':'c'}
+            raises_error('a','b', b='c',d='e') 
         except ValueError:
             pass
         else:
