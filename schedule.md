@@ -49,7 +49,9 @@
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
-* [CPP_2_DLL_Python_VBA(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
+* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
+
+* [CPP_3_DLL_VBA_Python(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
 
 * [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
 

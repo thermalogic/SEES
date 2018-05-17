@@ -2,27 +2,27 @@
 from ctypes import cdll,c_void_p,c_int,c_long,c_double,POINTER,byref
 import numpy as np
 
+
 _lib = cdll.LoadLibrary('./code/gcc/libmultifuns.dll')
-#_lib = np.ctypeslib.load_library('libmultifuns', '.')
 
-_lib.hello.argtypes = []
-_lib.hello.restype  =  c_void_p
-
-_lib.dprod.argtypes = [np.ctypeslib.ndpointer(dtype=np.float), c_int]
-_lib.dprod.restype  = c_double
-
-_lib.LinearFibonacci.argtypes = [c_int]
-_lib.LinearFibonacci.restype= c_long
-
+# void hello()
 def hello():
+    _lib.hello.argtypes = []
+    _lib.hello.restype  =  c_void_p
     return _lib.hello()
 
+# double dprod(double *x, int n)
 def dprod(x):
+    _lib.dprod.argtypes = [np.ctypeslib.ndpointer(dtype=np.float), c_int]
+    _lib.dprod.restype  = c_double
     n = len(x)
     x = np.asarray(x, dtype=np.float)
     return _lib.dprod(x, int(n))
 
+#unsigned long fibonacci(int n, unsigned long *fib_cache);
 def LinearFibonacci(n):
+    _lib.LinearFibonacci.argtypes = [c_int]
+    _lib.LinearFibonacci.restype= c_long
     return _lib.LinearFibonacci(int(n))
 
 #unsigned long fibonacci(int n, unsigned long *fib_cache);
