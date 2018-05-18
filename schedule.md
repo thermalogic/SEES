@@ -1,5 +1,4 @@
-
-## Foundamentals and practice of software engineering with Python
+# Foundamentals and practice of software engineering with Python
 
 ## ARRANGEMENT
 
@@ -19,7 +18,7 @@
 
 * [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
 
-   * [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb
+   * [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
@@ -28,6 +27,11 @@
    * [PyThermo-IF97-REVIEW](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
 
    * [PyThermo-IdealRankineCycle-More](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
+
+* [PyRankine](https://github.com/PySEE/PyRankine)
+
+   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
+
 
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
