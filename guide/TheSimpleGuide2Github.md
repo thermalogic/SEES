@@ -4,7 +4,7 @@
 
 **2** 配置Git本地用户名和email(和github账户一致）
 
-**NOTE**: 所有git命名都必须是在本地所在目录目录下打开的终端中执行
+**NOTE**: 所有git命名都必须是在本地所在目录下打开的终端中执行
 
 ```bash
 >git config --global user.name  yourname
