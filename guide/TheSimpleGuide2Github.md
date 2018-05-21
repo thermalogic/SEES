@@ -70,26 +70,22 @@
 
 9 持久化远程github账号:
 
-全局存储，持久化远程github账号，解决每次链接到github远程仓库都必须登陆的问题
+本地全局存储持久化远程github账号，解决每次链接到github远程仓库都必须输入用户名和密码登陆的问题
 
 Linux:
 ```
 git config --global credential.helper 'store --file ~/.mygit-credentials'
 ```
+
 Windows下
 ```bash
 >git config --global credential.helper wincred
 ```
-
-
-
-**NOTE：** 
-
-* 这些工作在Visual Studio Code中，可以不使用终端命令，更方便地进行。
-
 
 ### 参考：
 
 **[1]** How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
 **[2]** Git Version Control in VS Code：   https://code.visualstudio.com/docs/editor/versioncontrol
+
+  * 借助Visual Studio Code中，可不使用终端命令，在GUI下更方便地进行版本控制工作。
