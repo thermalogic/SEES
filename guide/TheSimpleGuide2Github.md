@@ -17,7 +17,7 @@
 >git init
 ```
 
-**4** 提交本地工作内容变化提交到git仓库
+**4** 提交本地工作内容变化到git仓库
 
 工作内容变化提交到暂存区
 
@@ -25,7 +25,7 @@
 >git add .
 ```
 
-存入暂存区修改内容提交至本地仓库
+存入暂存区的内容提交至本地仓库
 ```bash
 >git commit -m “your desc of the commit"
 ```
@@ -54,13 +54,13 @@
 >git add .
 ```
 
-8.2 存入暂存区修改内容提交至本地仓库
+8.2 存入暂存区内容提交至本地仓库
 
 ```bash
 >git commit -m “your desc of the commit"
 ```
 
-8.3 同步本地仓库内容远程github仓库
+8.3 同步本地仓库内容到远程github仓库
 
 ```bash
 >git push
@@ -72,12 +72,10 @@
 
 本地全局存储持久化远程github账号，解决每次链接到github远程仓库都必须输入用户名和密码登陆的问题
 
-
 Windows下
 ```bash
 >git config --global credential.helper wincred
 ```
-
 Linux:
 ```
 $git config --global credential.helper 'store --file ~/.mygit-credentials'
