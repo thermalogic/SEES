@@ -72,14 +72,15 @@
 
 本地全局存储持久化远程github账号，解决每次链接到github远程仓库都必须输入用户名和密码登陆的问题
 
-Linux:
-```
-git config --global credential.helper 'store --file ~/.mygit-credentials'
-```
 
 Windows下
 ```bash
 >git config --global credential.helper wincred
+```
+
+Linux:
+```
+$git config --global credential.helper 'store --file ~/.mygit-credentials'
 ```
 
 ### 参考：
