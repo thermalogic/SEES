@@ -1,12 +1,12 @@
 
-all: helloexe
+all: mainmathfuns.exe
 
-helloexe: helloobj
-	 gfortran -o ./code/gfortran/hello hello.o
-	 rm -f hello.o
-    
-helloobj: ./code/gfortran/hello.f90
-	 gfortran -c ./code/gfortran/hello.f90
-     
 clean:
-	rm -f ./code/gfortran/hello
+	del .\code\gcc\mainmathfuns.exe
+
+mainmathfuns.exe: mainmathfuns.o ./code/gcc/mathfuns.h 
+	gcc -o ./code/gcc/mainmathfuns mainmathfuns.o -I./code/gcc -L./code/gcc/ -lmathfuns
+	del *.o
+
+mainmathfuns.o: ./code/gcc/mainmathfuns.c 
+	gcc -c ./code/gcc/mainmathfuns.c 
