@@ -49,7 +49,9 @@
 
 * [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Profilers.ipynb)
 
-* [DevTools Git(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
+* [DevTools Git](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
+
+  * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
