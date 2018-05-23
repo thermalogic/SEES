@@ -2,11 +2,6 @@
 #include <stdio.h>
 #include "funs.h"
 
-void hello()
-{
-   printf("C says Hello world!\n");
-}
-
 // x[0]*x[1]*...*x[n-1]
 double dprod(double *x, int n)
 {
