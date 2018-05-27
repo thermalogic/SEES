@@ -1,12 +1,12 @@
 
-all: mainfibexe
+all: mainmathfuns.exe
 
 clean:
-	rm -f ./code/gcc/mainfib
+	del .\code\gcc\mainmathfuns.exe
 
-mainfibexe: mainfibobj ./code/gcc/fibonacci.h 
-	gcc -o ./code/gcc/mainfib mainfib.o -I./code/gcc/ -L./code/gcc/ -lfibonacci -Wl,-rpath=./code/gcc/ 
-	rm -f *.o
+mainmathfuns.exe: mainmathfuns.o ./code/gcc/mathfuns.h 
+	gcc -o ./code/gcc/mainmathfuns mainmathfuns.o -I./code/gcc -L./code/gcc/ -lmathfuns
+	del *.o
 
-mainfibobj: ./code/gcc/mainfib.c 
-	gcc -c ./code/gcc/mainfib.c
+mainmathfuns.o: ./code/gcc/mainmathfuns.c 
+	gcc -c ./code/gcc/mainmathfuns.c 

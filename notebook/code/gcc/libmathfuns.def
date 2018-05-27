@@ -1,0 +1,3 @@
+EXPORTS
+    fadd @1
+    fmul @2

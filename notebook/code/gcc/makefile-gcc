@@ -2,11 +2,11 @@
 all: helloexe
 
 helloexe: helloo
-	 gcc -o ./code/gcc/hello hello.o
-	 rm -f hello.o
+	 gcc -o ./code/gcc/hello.exe hello.o
+	 del hello.o
     
 helloo: ./code/gcc/hello.c
 	 gcc -c ./code/gcc/hello.c
      
 clean:
-	 rm -f .\code\gcc\hello
+	 del .\code\gcc\hello.exe
