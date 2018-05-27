@@ -1,3 +1,6 @@
+/*
+gcc -o hello.c
+*/
 
 #include <stdio.h>
  

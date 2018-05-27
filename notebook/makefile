@@ -1,12 +1,12 @@
 
-all: libmultifuns.dll
+all: mainfibexe
 
-libmultifuns.dll: multifunsobj
-	 gcc  -shared -o ./code/gcc/libmultifuns.dll funs.o fibonacci.o
-	 del funs.o fibonacci.o
-    
-multifunsobj: ./code/gcc/funs.c ./code/gcc/fibonacci.c
-	 gcc -c -O3 -Wall -fPIC ./code/gcc/funs.c ./code/gcc/fibonacci.c
-     
 clean:
-	 del .\code\gcc\libmultifuns.dll
+	rm -f ./code/gcc/mainfib
+
+mainfibexe: mainfibobj ./code/gcc/fibonacci.h 
+	gcc -o ./code/gcc/mainfib mainfib.o -I./code/gcc/ -L./code/gcc/ -lfibonacci -Wl,-rpath=./code/gcc/ 
+	rm -f *.o
+
+mainfibobj: ./code/gcc/mainfib.c 
+	gcc -c ./code/gcc/mainfib.c

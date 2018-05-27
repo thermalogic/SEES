@@ -10,7 +10,8 @@
 *   Returns -1 on negative input.
 */
 
-unsigned long fibonacci(int n, unsigned long *fib_cache) {
+unsigned long fibonacci(int n, unsigned long *fib_cache)
+{
  
   if (n< 0)
       return -1;
