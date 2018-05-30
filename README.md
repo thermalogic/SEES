@@ -13,12 +13,12 @@ We will cover:
 
 * writing clean, testable, high quality code in Python
 * interactive analysis and literate programming with the IPython Notebook
-* a useful set of algorithmic and problem reduction techniques
+* a useful set of algorithmic and apply abstraction and decomposition to solve the complex problems
 * computational tools to model and understand data(numpy, matplotlib, scipy)
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
-* C/C++ progamming with GCC(basic data structure and algorithm)
+* C/C++ programming with GCC(basic data structure and algorithm)
 
 ### Required Materials and Textbooks
 
