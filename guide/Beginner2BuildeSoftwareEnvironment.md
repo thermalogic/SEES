@@ -103,7 +103,15 @@ Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 * Python's IAPWS
 
+```bash
+>pip install iapws
+```
+
 * SEUIF97
+
+```bash
+>pip install seuif97
+```
    
 ## E:Advanced
 
