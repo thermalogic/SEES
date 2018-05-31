@@ -72,13 +72,15 @@ From a command prompt:
 * From a command prompt, install using pip：
 
 ```bash       
-    >pip install ipython
-```  
-
-```bash       
     >pip install jupyter
 ```      
+#### NOTE: you may use the mirror site to install for the high speed
 
+Install from the mirror site　@ tsinghua
+
+```bash  
+>pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+```  
 * From a command prompt,start **Jupyter notebook**
 
 ```bash       
@@ -128,6 +130,12 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 ``` 
 
 * 4.2 Shared Lib IAPWS-IF97
+
+```bash       
+> pip install seuif97
+``` 
+
+or
 
 Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF97.zip
 

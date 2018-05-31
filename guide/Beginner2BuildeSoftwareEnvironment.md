@@ -77,6 +77,14 @@ https://code.visualstudio.com/docs/languages/python
 ```bash       
 >pip install jupyter
 ```    
+#### NOTE: you may use the mirror site to install for the high speed
+
+Install from the mirror site　@ tsinghua
+
+```bash  
+>pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+```  
+
 ### using
 
 ```bash       
