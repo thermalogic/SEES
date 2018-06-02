@@ -57,7 +57,7 @@
 
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
 
-* [CPP_3_DLL_VBA_Python(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
+* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
 
 * [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
 
@@ -70,3 +70,5 @@
 * [SUPL-2-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
 
 * [SUPL-3-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-3-GCC-GFortran.ipynb)
+
+* [SUPL-4-JSON(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-4-JSON.ipynb)

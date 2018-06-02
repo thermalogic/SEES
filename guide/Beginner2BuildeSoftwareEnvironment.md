@@ -82,7 +82,7 @@ https://code.visualstudio.com/docs/languages/python
 Install from the mirror site　@ tsinghua
 
 ```bash  
->pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+>pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```  
 
 ### using

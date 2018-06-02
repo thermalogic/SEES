@@ -1,13 +1,12 @@
 # Ubuntu系统安装和Python,C/C++开发环境的建立
 
-Windows是同学们的主要工作环境，已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
+在已安装Windows系统的电脑上，安装Ubuntu系统的过程简介
    
 ## Windows环境硬盘空间要求
 
+安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
-  安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
-
-  基本安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
+为了学习工作方便，建议空间稍大些，如：50G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
@@ -92,7 +91,7 @@ Linux Mint官网 https://www.linuxmint.com/
 ## Version Control: Git
 
 ```bash 
-   $sudo apt install git
+$sudo apt install git
 ```
 
 ##  C/C++ With GCC
@@ -105,9 +104,9 @@ Ubuntu 18.04 LTS系统中,默认Python3.但不完整，需补充: pip3、idle3�
 
 在线安装：
 ```bash
-    $sudo apt install python3-pip
-    $sudo -H python3 -m  pip install  --upgrade pip 
-    $sudo apt install idle3
+$sudo apt install python3-pip
+$sudo -H python3 -m  pip install  --upgrade pip 
+$sudo apt install idle3
 ```
 
 如安装过程中失败，根据提示如下安装补充依赖项目
@@ -117,9 +116,9 @@ $sudo apt-get -f install
 Python3相关命令都加3，如：
 
 ```bash
-    $python3 
-    $idle3
-    $pip3
+$python3 
+$idle3
+$pip3
 ```
 ### 安装scipy
 
@@ -127,71 +126,59 @@ apt在线安装
 ```bash
 $sudo apt install python3-numpy python3-scipy python3-matplotlib
 ```
-
 ### 安装Jupyter
 
-pip3在线安装
- 
 ```bash
 $sudo -H pip3 install jupyter
 ```
+the high-speed installation
 
-### 安装IAPWS
+```bash
+$sudo -H pip3 install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+### 安装IAPWS-IF97
+
+#### SEUIF97
+
+```bash
+$sudo -H python3 -m pip install seuif97
+```
+#### IAPWS
 
 ```bash
 $sudo -H pip3 install iapws
 ```
-
-### 安装SEUIF97
-
-Download ziped file from : https://github.com/thermalogic/SEUIF97 unzip, then 
-
-1.copy libseuif97.so to a default path of Linux shared lib
-```bash
-   $sudo cp libseuif97.so /usr/lib/
-```
-
-2.copy seuif97.py to a default path of Python3.6 lib
-```bash 
-   $sudo cp seuif97.py /usr/lib/python3.6/
-```
-
 ## Visual Studio Code开发环境
 
-1 Visual Studio Code
+### 1 Visual Studio Code
 
 From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian,Ubuntu
 
 ```bash
-
 $sudo dpkg -i [vscode filename].deb
-
-```
-or
-```bash
-$sudo snap install --classic vscode
 ```
 
-2 Install Python Extension in  Visual Studio Code
+### 2 Install Python Extension in  Visual Studio Code
 
-    https://code.visualstudio.com/docs/languages/python
+* https://code.visualstudio.com/docs/languages/python
 
-3 Install the Microsoft C/C++ extension
+### 3 Install the Microsoft C/C++ extension
 
-    https://code.visualstudio.com/docs/languages/cpp
+* https://code.visualstudio.com/docs/languages/cpp
 
-4 set Python3 as the default Python Version
+### 4 set Python3 as the default Python Version
 
->```
-> // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
->  "python.pythonPath": "python3",
->```
+```json
+ // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+  "python.pythonPath": "python3",
+```
 
 ## 补充中文支持
 
 > **Note:** 下面是Xubuntu系统补充中文支持的过程，不同版本ubuntu的安装过程不同，可上网查询。
 
-#### 1 安装中文语言支持包
+### 1 安装中文语言支持包
 
 安装后，重新启动，联网状态下,在出现“Update information”->Incomplete language Support提示时
 ，点“Run this action now”，在线安装English和Chinese 包
@@ -200,9 +187,9 @@ $sudo snap install --classic vscode
 >System->language support，选择和安装需要的语言包：English和Chinese，
 > 
 
-#### 2  安装软件后,退出当前登录(logout)，然后再登入,选择keyboard input methods system默认输入法系统fcitx：setting->language support选择：fcitx
+### 2  安装软件后,退出当前登录(logout)，然后再登入,选择keyboard input methods system默认输入法系统fcitx：setting->language support选择：fcitx
 
-#### 3 安装搜狗拼音输入法
+### 3 安装搜狗拼音输入法
 
 从官网下载最新版的搜狗拼音输入法，安装
 
@@ -213,19 +200,19 @@ $sudo dpkg -i [sogoupinyinfilename].deb
 ```bash
 $sudo apt-get -f install
 ```
-#### 4 配置搜狗拼音输入法为系统中文输入方法
+### 4 配置搜狗拼音输入法为系统中文输入方法
 
 安装搜狗拼音输入法,退出当前登录(logout)，然后再登入（login)，就可以使用搜狗拼音输入法了
 
 查看和配置系统的输入法： setting->fcitx configuration
 
-#### 5 中英文输入法切换
+### 5 中英文输入法切换
 
 ctrl+space bar
 
 ## Reference
 
-* **Ubuntu Howto** http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+* Ubuntu Howto http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
 
 * Unix Survival Guide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
