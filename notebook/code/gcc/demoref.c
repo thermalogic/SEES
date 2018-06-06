@@ -1,6 +1,6 @@
 
 /* Example to demonstrate use of reference operator in C programming. 
-gcc -o demoref.c
+gcc -o demoref demoref.c
 */
 #include <stdio.h>
 int main()

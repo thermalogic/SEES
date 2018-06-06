@@ -1,5 +1,5 @@
 /*
-gcc -o hello.c
+gcc -o hello hello.c
 */
 
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -o demostdio.c
+gcc -o demostdio demostdio.c
 */
 #include <stdio.h>
 

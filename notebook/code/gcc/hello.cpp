@@ -1,5 +1,5 @@
 /*
-g++ -o hello.cpp
+g++ -o hello hello.cpp
 */
 #include <iostream>
 using namespace std;
