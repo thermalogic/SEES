@@ -1,6 +1,14 @@
-# Foundamentals and practice of software engineering with Python
+## Foundamentals and practice of software engineering with Python
 
-## ARRANGEMENT
+* Introduction of PySEE
+
+  * [README.md](./README.md)
+
+  * [Beginner2BuildeSoftwareEnvironment](./guide/Beginner2BuildeSoftwareEnvironment.md)
+
+  * [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
+
+  * [Guide](./guide)
 
 * [01 PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/01_PREFACE.ipynb)
 
@@ -16,9 +24,8 @@
 
 * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-* [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
 
-   * [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
+* [MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
@@ -52,7 +59,6 @@
 * [DevTools Git](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
 
   * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
-
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
