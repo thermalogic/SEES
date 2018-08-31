@@ -174,6 +174,20 @@ $sudo dpkg -i [vscode filename].deb
   "python.pythonPath": "python3",
 ```
 
+### 安装科学计算包gsl
+
+```bash
+$sudo apt install gsl-bin
+ 
+$sudo apt install libgsl-dev
+
+```
+### 数据可视化包Gnuplot
+
+```bash
+$sudo apt install gnuplot
+ ```
+
 ## 补充中文支持
 
 > **Note:** 下面是Xubuntu系统补充中文支持的过程，不同版本ubuntu的安装过程不同，可上网查询。
