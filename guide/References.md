@@ -3,13 +3,23 @@
 
 ## References
 
-* John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
+  * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+    
+    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
 
-   * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
- 
+    * 陈光欣译. Python编程导论.  人民邮电出版社(第2版). 2018年2月1日
+
  * **MITx Online**
  
-   * MIT’s OpenCourseWare: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
+   * MIT’s OpenCourseWare:
+     
+     * Introduction to Computer Science and Programming in Python
+
+        https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
+
+     * Introduction to Computational Thinking and Data Science
+
+        https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/
    
    * MITx https://www.edx.org/
      
@@ -19,11 +29,11 @@
 
 * **Python**
 
+  * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
+
+    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+
   * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
-  
-  * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
-    
-    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-1
 
   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 

@@ -150,7 +150,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
-* 1  Download and Install Visual Studio Code 
+* 1 Download and Install Visual Studio Code 
  
     https://code.visualstudio.com/
 
@@ -161,6 +161,25 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 * 3 Install the Microsoft C/C++ extension
 
     https://code.visualstudio.com/docs/languages/cpp
+
+* 4 Install Visual Studio Code Tools for AI extension
+
+    https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/installation.md
+ 
+  * Open Jupyter notebooks in VS Code
+
+    https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-jupyter.md
+  
+     * Set Python path properly in VS Code，for example: C:/python37/python.exe
+
+     * Open Jupyter notebooks in VS Code
+  
+       Launch Visual Studio Code and select File > Open Folder (Ctrl+K Ctrl+O)
+       Select a folder which contains the Jupyter notebook file (.pynb) you want to open.
+
+       Select command in context menu
+       Right click the Jupyter notebook file node and select "AI: View in Jupyter Server" command.
+
 
 ### 6  Version control with Git
 
