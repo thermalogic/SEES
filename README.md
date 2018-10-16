@@ -86,7 +86,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
   5.  **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-  6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
+  6. **Bonus**(+5): [C/C++ Programming with GCC, Ubuntu,Version Control ](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
 
 # Update Course
 
@@ -131,4 +131,3 @@ That's it - you'll have the latest version of the repository.
 We highly recommend you practice coding whenever you have a few minutes.
 
 You **NEED** to **get your hands dirty** and **practice**
-
