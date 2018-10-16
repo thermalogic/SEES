@@ -22,17 +22,17 @@ We will cover:
 
 * A laptop **computer** will be needed in the classroom.
 
-* Softwares(https://github.com/PySEE/home/blob/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
+* **Softwares**(https://github.com/PySEE/home/blob/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
 
-   * Python, Jupyter, Numpy,Scipy,matplotlib,iapws.seuif97,etc.
+   * Python, Jupyter, Numpy,Scipy,matplotlib,iapws,seuif97
    
-   * Gcc,Gnuplot
+   * GCC,Gnuplot
    
    * Git,Github
    
    * Visual Studio Code
 
-* Textbook(https://github.com/PySEE/home/blob/S2019/guide/References.md)
+* **Textbooks**(https://github.com/PySEE/home/blob/S2019/guide/References.md)
 
    * Guttag, John. **Introduction to Computation and Programming Using Python**
   
@@ -46,17 +46,15 @@ We will cover:
 
 * [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2019/notebook)
 
-  Please install Jupyter to read and interactive with the notebook.
+  Please install Jupyter to read and **interactive** with the notebook.
 
-   **Online read-only versions：**
-
-    > http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
+   **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
  
 * [Guide](https://github.com/PySEE/home/tree/S2019/guide)
 
-   1. [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
+   1 [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
     
-   2. [Introduction to Markdown](https://github.com/PySEE/home/tree/S2019/guide/Introduction2Markdown.md)
+   2 [Introduction to Markdown](https://github.com/PySEE/home/tree/S2019/guide/Introduction2Markdown.md)
 
 ### Course Grades
 
