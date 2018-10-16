@@ -98,7 +98,7 @@ Install from the mirror site　@ tsinghua
 
 https://github.com/PySEE/home
 
-## D:ScienceandEngineering
+## D:Science and Engineering
 
 ### Installing Scipy Packages(Numpy,scipy,matplotlib) 
 

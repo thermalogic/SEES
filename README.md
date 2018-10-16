@@ -18,7 +18,7 @@ We will cover:
 * debug programs using a standardized approach
 * write unit tests and evaluate software quality
 * use version control 
-* C/C++ programming with GCC(basic data structure and algorithm)
+* C/C++ programming with GCC
 
 ### Required Materials and Textbooks
 
@@ -38,7 +38,11 @@ We will cover:
 
 * Python 3 documentation. https://docs.python.org/3/
 
-* Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+* Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011 
+
+                       Principles of Engineering Thermodynamics(8th Edition. John Wiley & Sons, Inc. 2015
+
+  * the ebook at SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
