@@ -1,5 +1,5 @@
 
-# Foundamentals and Practice of Software Engineering with Python
+## Foundamentals and Practice of Software Engineering with Python
 
 * If you have concerns about the course, please email to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
@@ -42,7 +42,7 @@ We will cover:
 
                        Principles of Engineering Thermodynamics(8th Edition. John Wiley & Sons, Inc. 2015
 
-  * the ebook at SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
+  * the ebook(CDF) at SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
@@ -50,19 +50,19 @@ We will cover:
 
 ## Contents
 
-* [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2018/notebook)
+* [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2019/notebook)
 
   Please install Jupyter to read and interactive with the notebook.
 
    **Online read-only versions：**
 
-    > http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/
+    > http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
  
-* [Guide](https://github.com/PySEE/home/tree/S2018/guide)
+* [Guide](https://github.com/PySEE/home/tree/S2019/guide)
 
-   1. [Building Software Environment](https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md) 
+   1. [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
     
-   2. [Introduction to Markdown](https://github.com/PySEE/home/tree/S2018/guide/Introduction2Markdown.md)
+   2. [Introduction to Markdown](https://github.com/PySEE/home/tree/S2019/guide/Introduction2Markdown.md)
 
 ## Course Grades
 
@@ -72,21 +72,21 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * **Practices(5):60%**, Bonus Points: +5
   * Final Exam: 20%
   
-## [Practices(60)](https://github.com/PySEE/Practices/tree/S2018/)
+## [Practices(60)](https://github.com/PySEE/Practices/tree/S2019/)
     
   Please Visit **Practices** for details: https://github.com/PySEE/Practices/
 
-  1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
+  1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2019/P1)
 
-  2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P2)
+  2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P2)
    
-  3. **The Object-oriented Programming**(20)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2018/P3)  
+  3. **The Object-oriented Programming**(20)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P3)  
   
-  4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2018/P4)
+  4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2019/P4)
 
-  5.  **Unit Test**(5)：[IAPWS-IF97 physical properties calculation and unit test](https://github.com/PySEE/Practices/tree/S2018/P5)
+  5.  **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-  6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2018/Bonus) 
+  6. **Bonus Points**(+5): [C/C++ Programming with GCC, Ubuntu](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
 
 # Update Course
 
@@ -106,7 +106,7 @@ After you have installed **git**, You may use the following **commands:**
 
 * shallowly cloning the branch of repository for saving bandwidth
 ```bash
->git clone --depth 1 -b S2018 https://github.com/PySEE/home.git
+>git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
 
 This will create a folder **home** on your computer  with the files in subdirectories.
