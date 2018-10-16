@@ -76,13 +76,13 @@ The Course graded on an 100 point scale and then weighted according to the follo
     
   Please Visit **Practices** for details: https://github.com/PySEE/Practices/
 
-  1. **Github**(5)：[Github、Git](https://github.com/PySEE/Practices/tree/S2019/P1)
+  1. **Basic Programming**(10)：[Github,Python,Jupyter,Markdown](https://github.com/PySEE/Practices/tree/S2019/P1)
 
   2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P2)
    
   3. **The Object-oriented Programming**(20)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P3)  
   
-  4.  **Data Analysis**(15)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2019/P4)
+  4.  **Data Analysis**(10)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2019/P4)
 
   5.  **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64](https://github.com/PySEE/Practices/tree/S2019/P5)
 
