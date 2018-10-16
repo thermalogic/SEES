@@ -9,14 +9,14 @@ This course is intended to train **students majored in thermal energy engineerin
 
 We will cover: 
 
-* writing clean, testable, high quality code in Python
-* interactive analysis and literate programming with the IPython Notebook
-* a useful set of algorithmic and apply abstraction and decomposition to solve the complex problems
-* computational tools to model and understand data(numpy, matplotlib, scipy)
-* debug programs using a standardized approach
-* write unit tests and evaluate software quality
-* C/C++ programming with GCC
-* use version control 
+* writing clean, testable, high quality code in **Python**
+* interactive analysis and literate programming with the **Jupyter** Notebook
+* training **computational thinking** to model and solve the complex problems
+* **computational tools** to model and understand data(numpy, matplotlib, scipy)
+* **debug programs** using a standardized approach
+* write **unit tests** and evaluate software quality
+* C/C++ programming with **GCC**
+* use **version control** 
 
 ### Required Materials
 
