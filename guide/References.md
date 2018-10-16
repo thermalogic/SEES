@@ -1,5 +1,5 @@
 
-# Foundamentals and Practice of Software Engineering with Python
+## Foundamentals and Practice of Software Engineering with Python
 
 ## References
 
@@ -25,7 +25,7 @@
    
    * Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
-    * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
+     * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
 
      * https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-revised-and-expanded-edition
 
