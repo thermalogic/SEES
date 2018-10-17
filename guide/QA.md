@@ -29,7 +29,7 @@
 
 微软提供的security essentials是Windows最好的安全防护软件
   
-从下面网址下载和操作系统对应的版本的security essentials（Windows 10默认已经安装），安装
+从下面网址下载和操作系统对应的版本的security essentials（**Windows 10默认已经安装**），安装
 
 http://windows.microsoft.com/zh-cn/windows/security-essentials-download
       

@@ -24,14 +24,12 @@ We will cover:
 
 * **Softwares**(https://github.com/PySEE/home/blob/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
 
-   * Python, Jupyter, Numpy,Scipy,matplotlib,iapws,seuif97
+   * Python, Jupyter, Numpy,Scipy,Matplotlib
    
    * GCC,GSL,Gnuplot
    
    * Git,Github
-   
-   * Visual Studio Code
-
+ 
 * **Textbooks**(https://github.com/PySEE/home/blob/S2019/guide/References.md)
 
    * Guttag, John. **Introduction to Computation and Programming Using Python**
@@ -61,7 +59,7 @@ We will cover:
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 20%
-  * **Practices(5):60%**, Bonus Points: +5
+  * **Practices(5):60%**, Bonus: +5
   * Final Exam: 20%
   
 ### [Practices(60)](https://github.com/PySEE/Practices/tree/S2019/)

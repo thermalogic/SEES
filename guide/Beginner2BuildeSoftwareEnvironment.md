@@ -44,11 +44,32 @@ From a command prompt:
 ```bash
   >python -m pip install -U pip
 ```
+### Installing Packages
+
+The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+https://pypi.org/
+
+### Use pip for Installing
+
+```bash
+  >pip  install packagename  
+···
+
+Install from the mirror site　@ tsinghua 
+#### NOTE: you may use the mirror site to install for the high speed
+
+``bash
+  >pip  install packagename  -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+```bash
+  >python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 ### Using IDLE
 
 ![idle](./img/idle.png)
-
 
 ## B:Enhanced
 
@@ -66,8 +87,8 @@ https://code.visualstudio.com/docs/languages/python
 
 ### install autopep8, pylint
 ```bash  
->pip install autopep8
->pip install pylint
+>pip install autopep8 -i  https://pypi.tuna.tsinghua.edu.cn/simple
+>pip install pylint -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## C:Jupyter
@@ -75,15 +96,8 @@ https://code.visualstudio.com/docs/languages/python
 ### install
   
 ```bash       
->pip install jupyter
+>pip install jupyter  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```    
-#### NOTE: you may use the mirror site to install for the high speed
-
-Install from the mirror site　@ tsinghua
-
-```bash  
->pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
-```  
 
 ### using
 
@@ -112,13 +126,13 @@ Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/
 * Python's IAPWS
 
 ```bash
->pip install iapws
+>pip install iapws -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 * SEUIF97
 
 ```bash
->pip install seuif97
+>pip install seuif97 -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
    
 ## E:Advanced
