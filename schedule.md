@@ -1,6 +1,6 @@
 ## Foundamentals and practice of software engineering with Python
 
-* Introduction of PySEE
+* **Introduction of PySEE**
 
   * [README.md](./README.md)
 
@@ -33,12 +33,11 @@
 
    * [PyThermo-IF97-REVIEW](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
 
-   * [PyThermo-IdealRankineCycle-More](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
+   * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
 
 * [PyRankine](https://github.com/PySEE/PyRankine)
 
    * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
-
 
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
