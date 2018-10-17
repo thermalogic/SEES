@@ -59,11 +59,14 @@
 * [DevTools Git](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DevTools_Git.ipynb)
 
   * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
+
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
 
 * [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
+
+* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
 * [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
 
@@ -73,8 +76,6 @@
 
 * [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-* [SUPL-2-GSL-GNUPLOT-Ubuntu(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
+* [SUPL-2-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GCC-GFortran.ipynb)
 
-* [SUPL-3-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-3-GCC-GFortran.ipynb)
-
-* [SUPL-4-JSON(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-4-JSON.ipynb)
+* [SUPL-3-JSON(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-3-JSON.ipynb)

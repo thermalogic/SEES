@@ -26,7 +26,7 @@ We will cover:
 
    * Python, Jupyter, Numpy,Scipy,matplotlib,iapws,seuif97
    
-   * GCC,Gnuplot
+   * GCC,GSL,Gnuplot
    
    * Git,Github
    
