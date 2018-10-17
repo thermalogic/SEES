@@ -40,7 +40,7 @@ We will cover:
 
    * Brian Gough. An Introduction to **GCC** - for the GNU compilers gcc and g++  
 
-   * Scott Chacon，Ben Straub. Pro **Git**
+   * Scott Chacon, Ben Straub. Pro **Git**
 
 ### Contents
 
