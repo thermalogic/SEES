@@ -24,7 +24,6 @@
 
 * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-
 * [MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
@@ -66,12 +65,6 @@
 * [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
 
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
-
-* [DS_10.1_Search_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.1_Search_Algorithms.ipynb)
-
-* [DS_10.2_Sorting_Algorithms(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.2_Sorting_Algorithms.ipynb)
-
-* [DS_10.3_Hash_Tables(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/DS_10.3_Hash_Tables.ipynb)
 
 * [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
