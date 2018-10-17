@@ -66,6 +66,8 @@
 
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
+   * [Ubuntu](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+
 * [SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-File(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
 * [SUPL-2-GCC-GFortran(optional)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GCC-GFortran.ipynb)

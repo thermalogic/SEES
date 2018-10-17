@@ -170,11 +170,11 @@ $sudo dpkg -i [vscode filename].deb
 ### 4 set Python3 as the default Python Version
 
 ```json
- // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+// Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
   "python.pythonPath": "python3",
 ```
 
-### 安装科学计算包gsl
+### 科学计算包gsl
 
 ```bash
 $sudo apt install gsl-bin
@@ -188,9 +188,9 @@ $sudo apt install libgsl-dev
 $sudo apt install gnuplot
  ```
 
-## 补充中文支持
+## 英文版Ubuntu补充中文支持
 
-> **Note:** 下面是Xubuntu系统补充中文支持的过程，不同版本ubuntu的安装过程不同，可上网查询。
+> **Note:** 不同版本ubuntu的安装过程不同，可上网查询。
 
 ### 1 安装中文语言支持包
 
@@ -226,12 +226,11 @@ ctrl+space bar
 
 ## Reference
 
-* Ubuntu Howto http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+* How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
 
-* Unix Survival Guide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+* Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
 * Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
 
 * The Linux Mint Installation Guide https://linuxmint-installation-guide.readthedocs.io/en/latest/index.html
-
 
