@@ -9,14 +9,14 @@ This course is intended to train **students majored in thermal energy engineerin
 
 We will cover: 
 
-* writing clean, testable, high quality code in **Python**
-* interactive analysis and literate programming with the **Jupyter** Notebook
+* writing clean, testable, high quality code in [Python](https://www.python.org/)
+* interactive analysis and literate programming with the [Jupyter Notebook](Jupyter)
 * training **computational thinking** to model and solve the complex problems
-* **computational tools** to model and understand data(numpy, matplotlib, scipy)
+* **computational tools** to model and understand data [Numpy, Scipy,Matplotlib](https://www.scipy.org/)
 * **debug programs** using a standardized approach
 * write **unit tests** and evaluate software quality
-* C/C++ programming with **GCC**
-* use **version control** 
+* C/C++ programming with [GCC](https://gcc.gnu.org/)
+* use [version control](https://git-scm.com/) 
 
 ### Required Materials
 
@@ -24,7 +24,7 @@ We will cover:
 
 * **Softwares**(https://github.com/PySEE/home/blob/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
 
-   * Python, Jupyter, Numpy,Scipy,Matplotlib
+   * Python, Jupyter,Numpy,Scipy,Matplotlib
    
    * GCC,GSL,Gnuplot
    
