@@ -10,11 +10,11 @@ This course is intended to train **students majored in thermal energy engineerin
 We will cover: 
 
 * writing clean, testable, high quality code in [Python](https://www.python.org/)
-* interactive analysis and literate programming with the [Jupyter Notebook](Jupyter)
-* training **computational thinking** to model and solve the complex problems
+* interactive analysis and literate programming with the [Jupyter Notebook](https://jupyter.org)
+* training [computational thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
 * **computational tools** to model and understand data [Numpy, Scipy,Matplotlib](https://www.scipy.org/)
-* **debug programs** using a standardized approach
-* write **unit tests** and evaluate software quality
+* [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
+* write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and evaluate software quality
 * C/C++ programming with [GCC](https://gcc.gnu.org/)
 * use [version control](https://git-scm.com/) 
 
@@ -22,7 +22,7 @@ We will cover:
 
 * A laptop **computer** will be needed in the classroom.
 
-* **Softwares**(https://github.com/PySEE/home/blob/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
+* **Softwares**(https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md) 
 
    * Python, Jupyter,Numpy,Scipy,Matplotlib
    
@@ -30,7 +30,7 @@ We will cover:
    
    * Git,Github
  
-* **Textbooks**(https://github.com/PySEE/home/blob/S2019/guide/References.md)
+* **Textbooks**(https://github.com/PySEE/home/blob/S2019/References.md)
 
    * Guttag, John. **Introduction to Computation and Programming Using Python**
   
@@ -47,14 +47,16 @@ We will cover:
   Please install Jupyter to read and **interactive** with the notebook.
 
    **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
+
+* [Software Environment](https://github.com/PySEE/home/tree/S2019/SoftwareEnvironment.md) Python,Jupyter,Scipy,GCC
  
-* [Guide](https://github.com/PySEE/home/tree/S2019/guide)
+* [Guide](https://github.com/PySEE/home/tree/S2019/guide) Markdown,Git/Github,Ubuntu
 
-   1 [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
-    
-   2 [Introduction to Markdown](https://github.com/PySEE/home/tree/S2019/guide/Introduction2Markdown.md)
+* [SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); Python,Java,Excel Add-in Macro 
 
-### Course Grades
+* [PyRankine](https://github.com/PySEE/PyRankine) The General Simulator of Rankine Cycle to Demonstrate:Data Structures+ Algorithms = Programs & Computational Thinking 
+
+### Grading
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
@@ -62,9 +64,9 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * **Practices(5):60%**, Bonus: +5
   * Final Exam: 20%
   
-### [Practices(60)](https://github.com/PySEE/Practices/tree/S2019/)
+### Practices(60)
     
-  Please Visit **Practices** for details: https://github.com/PySEE/Practices/
+https://github.com/PySEE/Practices/
 
   1. **Basic Programming**(10)：[Github,Python,Jupyter,Markdown](https://github.com/PySEE/Practices/tree/S2019/P1)
 
@@ -94,7 +96,8 @@ After you have installed **git**, You may use the following **commands:**
 
 #### clone a branch of repository:
 
-* shallowly cloning the branch of repository for saving bandwidth
+shallowly cloning the S2019 branch of repository for saving bandwidth
+
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
@@ -122,3 +125,5 @@ That's it - you'll have the latest version of the repository.
 We highly recommend you practice coding whenever you have a few minutes.
 
 You **NEED** to **get your hands dirty** and **practice**
+
+# [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)

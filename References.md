@@ -1,6 +1,4 @@
 
-## Foundamentals and Practice of Software Engineering with Python
-
 ## References
 
 ### Python
@@ -20,8 +18,8 @@
        * **Introduction to Computer Science and Programming edX Course**
          
          * [6.00.1x Introduction to Computer Science and Programming Using Python(9 weeks)](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python0)
-  
-         * [6.00.2x Introduction to Computational Thinking and Data Science(10 weeks)]( https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-7)
+
+         * [6.00.2x Introduction to Computational Thinking and Data Science(10 weeks)](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-7)
    
    * Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
 
