@@ -22,20 +22,19 @@ https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md
 
 ## A:Basic
 
-Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**
+Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**： https://www.python.org/downloads/windows/
 
-https://www.python.org/downloads/windows/
-
-Download Python 3.5.4 for Windows x86-64 executable installer 
+Python 3.5.4 for Windows x86-64 executable installer 
 
 https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
 
-###  The custom install: 
+###  Customize Installation
       
-  * 1 Install to dir： C:\python35
-            
-  * 2 check “Add Python3.5 to Path” 
+* 1  Make sure you **check** option **Add Python 3.5 to PATH**
 
+* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
+            
+ 
 ![Python3](./img/python35.jpg)
    
 ### update pip to the most recent version

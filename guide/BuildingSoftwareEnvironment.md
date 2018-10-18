@@ -44,19 +44,17 @@
 
 ### 1 Install Python
     
-* Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**
+Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows** ：https://www.python.org/downloads/windows/
 
-https://www.python.org/downloads/windows/
-
-Download Python 3.5.4 for Windows x86-64 executable installer 
+Python 3.5.4 for Windows x86-64 executable installer 
 
 https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
 
-  *  the custom install: 
-      
-      1 Install to dir： C:\python35
-            
-      2 check “Add Python3.5 to Path” 
+####  Customize Installation
+
+* 1  Make sure you **check** option **Add Python 3.5 to PATH**
+
+* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
 
 ![Python3](./img/python35.jpg)
    
@@ -199,11 +197,11 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * 2 unzip the ziped MinGW-w64 to **C:\mingw64**
 
-* 3 Add **C:\mingw64\bin** to the environment variable **Path**
+* 3 Add **C:\mingw64\bin** to the system environment variable **Path**
 
-    To set an environment variable permanently in Windows: (so that it is available to all the Windows' processes)
+    For Windows 10: 
 
-    start the "Control Panel" ⇒ "System" ⇒ "Advanced system settings" ⇒ Switch to >"Advanced" tab ⇒ "Environment variables" ⇒ Choose "System Variables" (for all users)  ⇒ Choose System Variables "**Path**" ⇒ Choose "Edit" (for modifying an existing variable **Path**)  ⇒ Choose "New" (to add a new dir to  **Path** variable) ⇒ Enter the value: C:\mingw64\bin.
+    start  "Windows Start Menu" ⇒ "Settings" ⇒ "About"(at the bottom) ⇒ "System Info"(scroll down)  ⇒ Switch to "Advanced System Settings"  ⇒  "Environment Variables"  ⇒  Choose "System Variables" (for all users) ⇒ Choose the System Variable "**Path**" ⇒ Choose "New" (add a new dir to  **Path** variable) > Enter the value: **C:\mingw64\bin**.
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
