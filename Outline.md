@@ -38,7 +38,7 @@
      
       * **The Basic Elements of Python**: Objects, Expressions, and Numerical Types; Variables and Assignment;
       
-      * **Branching Programs** : `if else `
+      * **Branching Programs** : `if-else `
      
       * **Strings and Input**: String Slicing, Input
 
@@ -47,16 +47,54 @@
       * **Python Developer's Guide**: The Zen of Python ,PEP20; Coding convention: PEP8
     
 * [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+ 
+   * Exhaustive Enumeration
+ 
+   * For Loops
+
+   * Approximate Solutions and Bisection Search
+
+   * About Using Floats
+
+   * Newton-Raphson
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
+   * Functions and Scoping: Definitions, Lambdas,Keyword Arguments and Default Values
+
+   * Specifications, docstring
+
+   * Recursion
+
+   * Global Variables
+
+   * Module,Scipy
+
+   * Files, Unicode
+
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+
+   * Tuples, Multiple Assignment
+
+   * **Lists**,  **Mutability**, Cloning,List Comprehension
+
+   * Functions as Objects
+
+   * Strings
+
+   * **Dictionaries**,Mutability
 
    * **Homework**
     
      * [Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
  * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+
+    * IAPWS-IF97
+
+    * Python library for IAPWS
+    
+    * SEUIF97
    
    * **Homework**
 
