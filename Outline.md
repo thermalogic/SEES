@@ -12,9 +12,9 @@
    
      * Read contents about  the course：Python，Jypyter,Markdown,Git/Github,Visual Studio Code
 
-     * [Setup the working dir for the course](https://github.com/PySEE/Practices/blob/S2019/AdvWorkingDir.md)
+     * [Setup the working dir for the course](./guide/AdvWorkingDir.md)
      
-     * [Install Softwares: Python,Jupyter,Visual Studio Code,Git](./guide/Beginner2BuildeSoftwareEnvironment.md)
+     * [Install Softwares: Python,Jupyter,Visual Studio Code, Git(optional)](./guide/Beginner2BuildeSoftwareEnvironment.md)
 
      * [Download the Home of PySEE, Using Juyter Notebooks of the course](https://github.com/PySEE/home)
    
