@@ -124,19 +124,21 @@
 
 * [PyThermo-IF97-PLOTTING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
-* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+* **The General simulation of Rankine Cycle**
 
-  * Object-oriented programming
+   * [The Object-oriented programming of Ideal RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-* [Introduction JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb)
+   * [The General simulation of Rankine Cycle](https://github.com/PySEE/PyRankine) 
+
+   * [Introduction JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb)
+
+   * [Python's Packages,Redirect stdout,glob](https://github.com/PySEE/PyRankine/step4)
   
    * **Homework**
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
-* [PyRankine](https://github.com/PySEE/PyRankine)
-
-   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
+* [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
 
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
  
