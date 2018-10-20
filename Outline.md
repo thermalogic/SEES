@@ -58,6 +58,10 @@
 
    * Newton-Raphson
 
+   * **Homework**
+    
+     * [Install Numpy,Scipy,Matplotlib](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md) 
+
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Functions and Scoping: Definitions, Lambdas,Keyword Arguments and Default Values
@@ -86,7 +90,7 @@
 
    * **Homework**
     
-     * [Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
+     * [Install iapws](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md),[Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
  * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
