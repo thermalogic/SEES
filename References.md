@@ -51,7 +51,7 @@
 
    * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
-  * Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
+* Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
 
 ### Markdown
 
@@ -59,9 +59,9 @@
   
 * [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-* [VS Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+* [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
 * 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
 
@@ -71,7 +71,7 @@
 
 * Greg Wilson, D. A. Aruliah,etc. Best Practices for Scientific Computing.     
   
-  *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+   *  http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
 * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
