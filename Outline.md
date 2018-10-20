@@ -108,7 +108,9 @@
    
        * Michael J . Moran. Principles of Engineering Thermodynamics(8th Edition). John Wiley & Sons, Inc. 2015
 
-* [PyThermo-IdealRankineCycle-Function](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+
+   * IdealRankineCycle expression, Function
 
 * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
 
@@ -122,8 +124,10 @@
 
 * [PyThermo-IF97-PLOTTING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
-* [PyThermo-IdealRankineCycle-OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
- 
+* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+
+  * Object-oriented programming
+
 * [Introduction JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb)
   
    * **Homework**
