@@ -110,7 +110,9 @@
 
 * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-   * IdealRankineCycle expression, Function
+   * the expression directly
+   
+   * the basic anbtraction:List,Dict,Function
 
 * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
 
@@ -122,13 +124,13 @@
 
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
-* [PyThermo-IF97-PLOTTING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+   * [PyThermo-IF97-PLOTTING T-S,H-S Diagram](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
-* **The General simulation of Rankine Cycle**
+* **The General simulator of Rankine Cycle**
 
-   * [The Object-oriented programming of Ideal RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+   * [The Object-oriented programming of Ideal Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-   * [The General simulation of Rankine Cycle](https://github.com/PySEE/PyRankine) 
+   * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
 
    * [Introduction JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb)
 
