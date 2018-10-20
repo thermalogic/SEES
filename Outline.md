@@ -114,7 +114,7 @@
    
    * the basic anbtraction:List,Dict,Function
 
-* [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
+   * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
 
   * **Homework**
     
