@@ -24,7 +24,7 @@ We will cover:
 
 * **Softwares**(https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md) 
 
-   * Python, Jupyter,Numpy,Scipy,Matplotlib
+   * Python, Jupyter,Numpy,Scipy,Matplotlib，Visual Studio Code,IAPWS,SEUIF97
    
    * GCC,GSL,Gnuplot
    

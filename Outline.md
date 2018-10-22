@@ -21,14 +21,12 @@
      * [ebooks](./Reference.md)
    
        * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+
+     * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
 * [01 PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/01_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
-
-   * **Homework**
-    
-     * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
 
 * [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)'
 
@@ -45,12 +43,12 @@
       * **Iteration**:  `while `
 
       * **Python Developer's Guide**: The Zen of Python ,PEP20; Coding convention: PEP8
-    
+     
 * [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
    * Exhaustive Enumeration
  
-   * For Loops
+   * `For Loops`
 
    * Approximate Solutions and Bisection Search
 
@@ -60,7 +58,7 @@
 
    * **Homework**
     
-     * [Install Numpy,Scipy,Matplotlib](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md) 
+     * [Install Numpy,Scipy,Matplotlib](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md)
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
@@ -72,7 +70,7 @@
 
    * Global Variables
 
-   * Module,Scipy
+   * Module, the interpreter search path, `sys.path`, Scipy
 
    * Files, Unicode
 
@@ -106,13 +104,13 @@
     
      * [ebooks](./Reference.md)
    
-       * Michael J . Moran. Principles of Engineering Thermodynamics(8th Edition). John Wiley & Sons, Inc. 2015
+       * Michael J. Moran. Principles of Engineering Thermodynamics(8th Edition). John Wiley & Sons, Inc. 2015
 
 * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
    * the expression directly
    
-   * the basic anbtraction:List,Dict,Function
+   * List,Dict,Function
 
    * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
 
@@ -122,9 +120,29 @@
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
+   * Abstract Data Types and Classes
+
+   * Inheritance
+
+   * Encapsulation and Information Hiding
+
+   * Generators
+
 * [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
-   * [PyThermo-IF97-PLOTTING T-S,H-S Diagram](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+   * **Matplotlib.pyplot**
+    
+     * `figure`, `plot`, `show`, (x,y), (y) 
+     
+     * line style and color: `'b-'`,`'ro'`
+   
+     * `title`,`xlabel`,`ylabel`,
+
+     * type size and line width , `reParams`
+
+     * `%matplotlib.pyplot inline`
+
+  * **Examples**: IF97 T-S,H-S Diagram; The Rankine Cycle T-S  Diagrams
 
 * **The General simulator of Rankine Cycle**
 
@@ -132,49 +150,109 @@
 
    * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
 
-   * [Introduction JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb)
+     * [The CSV,JSON Representation of Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-CSV-JSON-RankineCycle.ipynb)
 
-   * [Python's Packages,Redirect stdout,glob](https://github.com/PySEE/PyRankine/step4)
+     * [JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb)
+
+     * [Python's Packages,Redirect stdout,glob](https://github.com/PySEE/PyRankine/step4)
   
    * **Homework**
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
-* [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
+   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
 
 * [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+   * The Behavior of Springs： CSV File, Numpy's Linear Regression
+
+   * The Behavior of Projectiles: Coefficient of Determination
  
 * [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
+   * It’s just as easy to **lie with numbers** as it is to lie with words
+   
    * **Homework**
 
      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4)  
 
 * [07 EXCEPTIONS AND ASSERTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
+   * Built-In Exception, `try: except` 
+
+   * Raising Exceptions: `raise`
+
+   * User-defined Exceptions
+
+   * `try:-except-else-finally`
+
+   * Predefined Clean-up Actions:`with`
+
+   * `assert` statement
+
 * [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/06_TESTING_AND_DEBUGGING.ipynb)
 
-* [DevTools unittest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_unittest.ipynb)
+   * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
 
-* [DevTools doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_doctest.ipynb)
+   * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process,`print`
 
-* [DevTools timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_timeit.ipynb)
+   * The typical mistakes
 
-* [DevTools Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Profilers.ipynb)
+* **Python's DevTools**
 
-* [DevTools Git](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Git.ipynb)
+   * [unittest — Unit testing framework](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_unittest.ipynb)
 
-  * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
+     * `unittest.TestCase`, test*，Asserting 
 
-  * **Homework**
+     * Test Fixtures:`Setup`,`tearDown`
+
+     * Test Suites
+
+     * `*args`，`**kwargs`
+
+   * [doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_doctest.ipynb)
+
+       * `doctest.testmod()`
+
+   * [timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_timeit.ipynb)
+
+       * `%time it`, `import timeit`
+
+   * [Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Profilers.ipynb)
+
+       * `cProfile.run`,pstats
+
+       * `cProfile.Profile()`, `io` module
+
+       * Improve the Performance: memoization, `__call__`
+       
+       * **Decorator**, **Property**,`@property`,Private Variables(`_`)
+
+* [Version Control](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Git.ipynb)
+
+   * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
+
+   * **Homework**
 
      * [Install GCC for Windows](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md)
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_1_GCC_DLL.ipynb)
 
+   * gcc/g++
+
+     * C stdio.h: `scanf,printf`
+
+   * GNU **Make**
+
+   * the **Shared Library** 
+
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_2_DLL_Python.ipynb)
+
+   * Once-Only Headers
+
+   * `ctypes`,`__cdecl`
   
-  * **Homework**
+   * **Homework**
 
      * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
@@ -182,13 +260,21 @@
 
 * [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_3_DLL_VBA_Python.ipynb)
 
+   * `__stdcall`,`windll.LoadLibrary`
+
+   * Excel VBA 
+
    * **Homework**
     
      * [Install Ubuntu,GSL,Gnuplot](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
 
+     * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
+
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
    * [Ubuntu](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+
+   * GSL,Gnuplot
    
    * **Homework**
 
