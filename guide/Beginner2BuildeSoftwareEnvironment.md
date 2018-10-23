@@ -129,8 +129,10 @@ https://code.visualstudio.com/docs/languages/python
 
 ## D:Git
 
-* Install Git for Windows: https://git-scm.com/download/win
+**`1`** Install Git for Windows: https://git-scm.com/download/win
 
-* Clone the repos of https://github.com/PySEE to your computer
+**`2`** Clone the S2019 branch of the [home](https://github.com/PySEE/home) to your computer
 
- 
+```bash
+>git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
+```
