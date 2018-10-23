@@ -46,17 +46,19 @@
     
 Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows** ：https://www.python.org/downloads/windows/
 
-Python 3.5.4 for Windows x86-64 executable installer 
+Python 3.7.0 for Windows x86-64 executable installer 
 
-https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 ####  Customize Installation
 
-* 1  Make sure you **check** option **Add Python 3.5 to PATH**
+* 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
 
-![Python3](./img/python35.jpg)
+![Python3-path](./img/python37-path.jpg)
+
+![Python3-location](./img/python37-location.jpg)
    
 * update pip to the most recent version
 
@@ -101,21 +103,22 @@ Install from the mirror site　@ tsinghua
 
 * Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
-* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versions. In the filename, the digits after “cp” indicate the Python version, e.g.
+* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versions. In the filename, the digits after “cp” indicate the Python version, `Python3.7 -> cp37`
 
 ```bash  
- numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl 
+numpy-1.15.1+mkl-cp37-cp37m-win_amd64.whl
 ```  
-is the installer  of numpy 1.14.1+mkl for 64-bit Python 3.5 Windows64.
+is the wheel of numpy 1.15.1+mkl for 64-bit Python 3.7
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 
 * From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
-  >pip install numpy‑1.14.1+mkl‑cp35‑cp35m‑win_amd64.whl
-  >pip install scipy‑1.0.0‑cp35‑cp35m‑win_amd64.whl
-  >pip install matplotlib‑2.1.2‑cp35‑cp35m‑win_amd64.whl
+  >pip install numpy-1.15.1+mkl-cp37-cp37m-win_amd64.whl
+  >pip install scipy-1.1.0-cp37-cp37m-win_amd64.whl
+  >pip install matplotlib-2.2.3-cp37-cp37m-win_amd64.whl
 ```       
+![scipy-install](./img/scipy-install.jpg)
 
 ### 4 IAPWS-IF97 Packages
 
@@ -142,7 +145,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 *  Unzip the downloaded file,then：
    
    * 1 copy **libseuif97.dll** to c:\windows\system
-   * 2 copy **seuif97.py** to the **Lib** dir of installed Python,e.g: C:\python35\Lib
+   * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copt to `C:\python37\Lib`
  
 ### 5 Visual Studio Code
 
@@ -181,7 +184,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 ### 6  Version control with Git
 
-* Git for Windows:  https://github.com/git-for-windows/git/releases
+* Git for Windows:  https://git-scm.com/download/win
 
 ### 7 MinGW-W64 (GCC) Compiler Suite
 

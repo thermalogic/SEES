@@ -26,26 +26,30 @@ then,following the steps
 
 Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**： https://www.python.org/downloads/windows/
 
-Python 3.5.4 for Windows x86-64 executable installer 
+Python 3.7.0 for Windows x86-64 executable installer 
 
-https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 ###  Customize Installation
       
-* 1  Make sure you **check** option **Add Python 3.5 to PATH**
+* 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
             
  
-![Python3](./img/python35.jpg)
+![Python3-path](./img/python37-path.jpg)
+
+![Python3-location](./img/python37-location.jpg)
    
 ### update pip to the most recent version
 
 From a command prompt:
 
 ```bash
->python -m pip install -U pip
+>python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+![Python3-update](./img/python37-update-pip.jpg)
 
 ### Install Packages
 
@@ -67,11 +71,6 @@ Install from the mirror site　@ tsinghua
 >pip  install packagename  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-* **Update pip to up-to-date**
-
-```bash
->python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
-```
 
 * **Install autopep8, pylint**
 
@@ -108,6 +107,8 @@ https://github.com/PySEE/home
 
 
 ## C:VSCode
+
+### Install
 
 ### Install VS Code
 
@@ -148,7 +149,7 @@ Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ### Installing Git 
    
-* Install Git for Windows: https://github.com/git-for-windows/git/releases
+* Install Git for Windows: https://git-scm.com/download/win
 
 * Clone the repos of https://github.com/PySEE to your computer
 

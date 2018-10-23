@@ -87,4 +87,4 @@ $git config --global credential.helper 'store --file ~/.mygit-credentials'
 
 **[2]** Git Version Control in VS Code：   https://code.visualstudio.com/docs/editor/versioncontrol
 
-  * 借助Visual Studio Code中，可不使用终端命令，在GUI下更方便地进行版本控制工作。
+  * 用Visual Studio Code集成了对Git/Github的支持。不使用终端命令，在GUI下更方便地进行版本控制工作。
