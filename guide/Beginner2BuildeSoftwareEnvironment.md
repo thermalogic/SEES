@@ -14,7 +14,7 @@ then,following the steps
 
 * [C: Visual Studio Code](#C:VSCode): Markdown,Python
   
-* [D: Git/Github](#D:Git):  Git(Github), Mingw-W64(GCC for Windows).Clone PySEE/home
+* [D: Git/Github](#D:Git): Mingw-W64(GCC for Windows), `Clone` PySEE/home
 
 ## A:Python
 
