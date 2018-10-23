@@ -10,17 +10,11 @@ then,following the steps
 
 * [A: Python](#A:Python) Python, Autopep8,Pylint,IDLE
 
-* [B: Jupyter Notebook](#B:Jupyter):  Jupyter Notebook,PySEE/Home
+* [B: Jupyter Notebook](#B:Jupyter):  Jupyter Notebook, PySEE/Home
 
 * [C: Visual Studio Code](#C:VSCode): Markdown,Python
   
-* [D: Science and Engineering](#D:ScienceEngineering)
-
-  * Numpy, Scipy, Matplotlib
-
-  * IAPWS, SEUIF97
-
-* [E: Advanced](#E:Advanced)  Git(Github), Mingw-W64(GCC for Windows)
+* [D: Git/Github](#D:Git):  Git(Github), Mingw-W64(GCC for Windows).Clone PySEE/home
 
 ## A:Python
 
@@ -34,7 +28,7 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
       
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
-* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
+* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
             
  
 ![Python3-path](./img/python37-path.jpg)
@@ -46,10 +40,16 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 From a command prompt:
 
 ```bash
->python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
+>python -m pip install -U pip 
 ```
 
 ![Python3-update](./img/python37-update-pip.jpg)
+
+#### NOTE: you may use the mirror site @ tsinghua  to install for the speed
+
+```bash
+>python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 ### Install Packages
 
@@ -62,15 +62,17 @@ https://pypi.org/
 ```bash
 >pip  install packagename  
 ```
+ use the mirror site  to install for the speed
 
-Install from the mirror site　@ tsinghua 
+```bash
+>pip  install packagename  -i  mirrorsite  
+``` 
 
-#### NOTE: you may use the mirror site to install for the speed
+install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simple
 
 ```bash
 >pip  install packagename  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
 
 * **Install autopep8, pylint**
 
@@ -103,12 +105,13 @@ Install from the mirror site　@ tsinghua
 
 ### Using the Jupyter Notebook of  PySEE
 
+Download home.zip 
+
 https://github.com/PySEE/home
 
+unzip,the running notebook
 
 ## C:VSCode
-
-### Install
 
 ### Install VS Code
 
@@ -122,41 +125,10 @@ https://code.visualstudio.com/docs/languages/python
 
 ![vscode](./img/vscode.png)
 
-## D:ScienceEngineering
+## D:Git
 
-### Installing Scipy Packages(Numpy,scipy,matplotlib) 
-
-Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/ 
-    
-```bash
->pip install *.whl
-```  
-### Installing IAPWS-IF97
-
-* Python's IAPWS
-
-```bash
->pip install iapws -i  https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-* SEUIF97
-
-```bash
->pip install seuif97 -i  https://pypi.tuna.tsinghua.edu.cn/simple
-```
-   
-## E:Advanced
-
-### Installing Git 
-   
 * Install Git for Windows: https://git-scm.com/download/win
 
 * Clone the repos of https://github.com/PySEE to your computer
 
- ### GCC C/C++
-
-* Install Mingw-W64(GCC for Windows)
-
-* add C/C++ extensions of VS code
-
-* Programming C/C++ with GCC 
+ 
