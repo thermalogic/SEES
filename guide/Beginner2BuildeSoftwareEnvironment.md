@@ -103,13 +103,15 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 
 ![ipynb-2](./img/ipynb-2.png)
 
-### Using the Jupyter Notebook of  PySEE
+### Using the Jupyter Notebook of  PySEE/hone
 
-Download home.zip 
+* Go to the repo **home** on the Github: https://github.com/PySEE/home download `home.zip`
 
-https://github.com/PySEE/home
+![download home.zip](./img/downloadhome.jpg)
 
-unzip,the running notebook
+* Start Jupyter Notebook of the course
+ 
+  unzip home.zip, run  **StartNB.bat**  under the dir **notebook**, start **Jupyter Notebook** server
 
 ## C:VSCode
 

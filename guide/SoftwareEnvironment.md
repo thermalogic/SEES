@@ -54,7 +54,7 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
-* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python35** the item of  **Customize installation location**
+* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
 
 ![Python3-path](./img/python37-path.jpg)
 
@@ -87,7 +87,7 @@ Install from the mirror site　@ tsinghua
     >jupyter notebook     
 ```
 
-* Set the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook**,save all files of Jupyter Notebook under the dir
+* Setup the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook**,save all files of Jupyter Notebook under the dir
 
 * start **Jupyter Notebook** quickly 
 
