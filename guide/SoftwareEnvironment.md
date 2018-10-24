@@ -87,15 +87,17 @@ Install from the mirror site　@ tsinghua
     >jupyter notebook     
 ```
 
-* Setup the  working dir of **Jupyter Notebook**：the current dir of start **Jupyter Notebook**,save all files of Jupyter Notebook under the dir
+* Setup the  working dir for your **Jupyter Notebook**：
+
+  * `1` the dir of start `>jupyter notebook` is the default dir of your Jupyter Notebook 
 
 * start **Jupyter Notebook** quickly 
 
-  * make the text file with the content **"jupyter notebook"** through **Notebook**
+  * `2` make the **"start.bat"** batchfile with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working dir of your Jupyter Notebook
 
-  * save the text file as the batch file(chose "all file",*.bat),e.f.**"start.bat"** to the working dir of Jupyter Notebook
+  * `3` Double-click **"start.bat"**，Start **Jupyter Notebook** 
 
-  * Double-click **"start.bat"**，Start **Jupyter Notebook** 
+ ![jupyter-quick](./img/jupyter-bat.jpg)
 
 ### 3 Scientific Computation Packages
    
@@ -225,7 +227,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * Start Jupyter Notebook of the course
  
-  unzip home.zip, run  **StartNB.bat** bat under the dir **notebook**, start **Jupyter Notebook** server
+  unzip home.zip, double-click  **StartNB.bat**  under the dir **notebook** to run start **Jupyter Notebook** server
 
 ## References
 

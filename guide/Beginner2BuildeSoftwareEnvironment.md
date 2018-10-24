@@ -59,10 +59,37 @@ https://pypi.org/
 
 ### Use **pip** to install packages
 
+`pip` is a package manage for Python. It makes installing and uninstalling Python packages
+
+ **install** 
+
 ```bash
 >pip  install packagename  
 ```
- use the mirror site  to install for the speed
+**uninstall**  
+
+```bash
+>pip  uninstall packagename  
+```
+
+Upgrade all specified packages to the newest available version. `-U, --upgrade`
+
+```bash
+>pip  install -U packagename  
+```
+or 
+
+```bash
+>pip  install --upgrade packagename  
+```
+
+**Show help for commands**
+
+```bash
+>pip  help  
+```
+
+use the **mirror site**  to install for the speed
 
 ```bash
 >pip  install packagename  -i  mirrorsite  
@@ -73,6 +100,7 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 ```bash
 >pip  install packagename  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
 
 * **Install autopep8, pylint**
 
@@ -103,6 +131,18 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 
 ![ipynb-2](./img/ipynb-2.png)
 
+* Setup the  working dir for your **Jupyter Notebook**：
+
+  * `1` the dir of start `>jupyter notebook` is the default dir of your Jupyter Notebook 
+
+* start **Jupyter Notebook** quickly 
+
+  * `2` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working dir of your Jupyter Notebook
+
+  * `3` Double-click **`start.bat`**，Start **Jupyter Notebook** 
+
+ ![jupyter-quick](./img/jupyter-bat.jpg) 
+
 ### Using the Jupyter Notebook of  PySEE/hone
 
 * Go to the repo **home** on the Github: https://github.com/PySEE/home download `home.zip`
@@ -111,7 +151,7 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 
 * Start Jupyter Notebook of the course
  
-  unzip home.zip, run  **StartNB.bat**  under the dir **notebook**, start **Jupyter Notebook** server
+  unzip home.zip, double-click   **StartNB.bat**  under the dir **notebook** to start **Jupyter Notebook** 
 
 ## C:VSCode
 
