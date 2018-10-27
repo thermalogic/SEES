@@ -32,13 +32,9 @@ We will cover:
  
 * **Textbooks**(https://github.com/PySEE/home/blob/S2019/References.md)
 
-   * John V. Guttag. **Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition). MIT Press, 2016.**
+   * John V. Guttag. Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition). MIT Press, 2016.
   
-   * Michael J . Moran. **Thermodynamics**
-
-   * Brian Gough. An Introduction to **GCC** - for the GNU compilers gcc and g++  
-
-   * Scott Chacon, Ben Straub. Pro **Git**
+   * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 ### Contents
 
