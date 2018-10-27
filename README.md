@@ -32,7 +32,7 @@ We will cover:
  
 * **Textbooks**(https://github.com/PySEE/home/blob/S2019/References.md)
 
-   * Guttag, John. **Introduction to Computation and Programming Using Python**
+   * John V. Guttag. **Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition). MIT Press, 2016.**
   
    * Michael J . Moran. **Thermodynamics**
 

@@ -20,11 +20,11 @@
    
      * [ebooks](./Reference.md)
    
-       * Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+       * John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.
 
      * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
-* [01 PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/01_PREFACE.ipynb)
+* [PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
 
@@ -102,9 +102,9 @@
 
      * [Download the PyRankine](https://github.com/PySEE/SEUIF97)  
     
-     * [ebooks](./Reference.md)
+     * [ebook](./Reference.md)
    
-       * Michael J. Moran. Principles of Engineering Thermodynamics(8th Edition). John Wiley & Sons, Inc. 2015
+       * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 * [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
@@ -162,13 +162,13 @@
 
    * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
 
-* [15 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
    * The Behavior of Springs： CSV File, Numpy's Linear Regression
 
    * The Behavior of Projectiles: Coefficient of Determination
  
-* [16 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [21 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
    * It’s just as easy to **lie with numbers** as it is to lie with words
    
@@ -281,6 +281,8 @@
      * [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
 * **Appendix**
+
+   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Python35-Quick-Reference.ipynb)
 
    * [1-Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/App-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
