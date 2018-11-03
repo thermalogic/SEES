@@ -1,0 +1,9 @@
+
+all: libctypedemo1dll
+
+libctypedemo1dll: ctypedemo1obj
+	 g++  -shared -o ./code/gcc/libctypedemo1.dll ctype-demo1.o
+	 del ctype-demo1.o
+
+ctypedemo1obj: ./code/gcc/ctype-demo1.cpp
+	 g++ -c -O3 -Wall -fPIC  ./code/gcc/ctype-demo1.cpp 

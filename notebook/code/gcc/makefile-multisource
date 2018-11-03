@@ -1,0 +1,13 @@
+
+all: mainfibexe
+
+clean:
+	del .\code\gcc\mainfib.exe
+
+mainfibexe: mainfibobj  
+	gcc -o ./code/gcc/mainfib.exe mainfib.o fibonacci.o -I./code/gcc/ 
+	del *.o
+
+mainfibobj:  
+	gcc -c ./code/gcc/mainfib.c -I./code/gcc/ 
+	gcc -c ./code/gcc/fibonacci.c

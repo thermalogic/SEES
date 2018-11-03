@@ -93,7 +93,7 @@
 
 ### Engineering System
 
-* Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+* Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
    
    * The ebook at SEU http://www.lib.seu.edu.cn/
 

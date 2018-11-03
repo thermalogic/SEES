@@ -17,5 +17,4 @@ int main() {
     free(fib_cache);
    
     return 0;
-
 }
