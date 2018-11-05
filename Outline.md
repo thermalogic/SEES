@@ -14,7 +14,7 @@
 
      * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
-     * [Install Softwares: Python,Jupyter,Visual Studio Code, Git(optional)](./guide/Beginner2BuildeSoftwareEnvironment.md)
+     * [Install Softwares: Python,Jupyter,MinGW-W64,Visual Studio Code,Git(optional)](./guide/Beginner2BuildeSoftwareEnvironment.md)
 
      * [Download the Home of PySEE, Using Juyter Notebooks of the course](https://github.com/PySEE/home)
    
@@ -234,7 +234,7 @@
 
    * **Homework**
 
-     * [Install GCC for Windows](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md)
+     * [GCC for Windows](https://github.com/PySEE/home/blob/S2019/Beginner2BuildeSoftwareEnvironment.md)
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_1_GCC_DLL.ipynb)
 

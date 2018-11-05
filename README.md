@@ -56,7 +56,7 @@ We will cover:
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises: 20%
+  * In-class Exercises: 15%
   * **Practices(5):60%**, Bonus: +5
   * Final Exam: 20%
   

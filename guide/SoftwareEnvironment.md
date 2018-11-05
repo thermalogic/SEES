@@ -67,14 +67,18 @@ From a command prompt:
   >python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
+* set `tsinghua` as the default site 
+
+```bash
+>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ### 2 Install Jupyter Notebook
 
 * From a command prompt, install using pip：
 
-Install from the mirror site　@ tsinghua
-
 ```bash  
->python -m pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+>python -m pip install jupyter
 ```  
 * From a command prompt,start **Jupyter notebook**
 
@@ -99,15 +103,15 @@ Install from the mirror site　@ tsinghua
    Numpy,Scipy, Matplotlib https://www.scipy.org/install.html 
 
 ```bash       
-> python -m pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple/
-> python -m pip install scipy -i  https://pypi.tuna.tsinghua.edu.cn/simple/
-> python -m pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/
+> python -m pip install numpy 
+> python -m pip install scipy
+> python -m pip install matplotlib
 ``` 
 
 or 
 
 ```bash       
-> python -m pip install numpy scipy matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/
+> python -m pip install numpy scipy matplotlib
 ``` 
 ### 4 IAPWS-IF97 Packages
 
@@ -116,13 +120,13 @@ or
    pre-installed:numpy and scipy
 
 ```bash       
-   > python -m pip install iapws https://pypi.tuna.tsinghua.edu.cn/simple/
+   > python -m pip install iapws 
 ``` 
 
 * 4.2 Shared Lib IAPWS-IF97
 
 ```bash       
-> python -m pip install seuif97 https://pypi.tuna.tsinghua.edu.cn/simple/
+> python -m pip install seuif97 
 ``` 
 
 or
@@ -148,7 +152,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 * `2` Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
 
 ```bash 
->python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+>python -m pip install -r requirements.txt 
 ```
 
 ### 5 Visual Studio Code
@@ -211,7 +215,9 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
-* 4 Verify the GCC installation by listing the version of gcc, g++ and gdb:
+* 4.RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
+
+* 5 Verify the GCC installation by listing the version of gcc, g++ and gdb:
   ```bash
   > gcc --version
   > g++ --version
