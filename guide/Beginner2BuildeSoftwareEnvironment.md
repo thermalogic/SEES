@@ -1,7 +1,5 @@
 # Guide of  Building Software Environment for Beginners
 
-https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md 
-
 Firstly，You **MUST** setup the working directory for the course
 
 https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
@@ -10,7 +8,7 @@ then,following the steps
 
 * [A: Python](#A:Python) Python, Autopep8,Pylint,IDLE
 
-* [B: Jupyter Notebook](#B:Jupyter):  Jupyter Notebook, PySEE/Home
+* [B: Jupyter Notebook](#B:Jupyter): Jupyter Notebook, PySEE/Home
 
 * [C: Visual Studio Code](#C:VSCode): Markdown,Python
   
@@ -20,8 +18,7 @@ then,following the steps
 
 Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**： https://www.python.org/downloads/windows/
 
-Python 3.7.0 for Windows x86-64 executable installer 
-
+Python 3.7.0 for Windows x86-64 executable installer：
 https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 ###  Customize Installation
@@ -35,21 +32,6 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 ![Python3-location](./img/python37-location.jpg)
    
-### update pip to the most recent version
-
-From a command prompt:
-
-```bash
->python -m pip install -U pip 
-```
-
-![Python3-update](./img/python37-update-pip.jpg)
-
-#### NOTE: you may use the mirror site @ tsinghua  to install for the speed
-
-```bash
->python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
-```
 
 ### Install Packages
 
@@ -57,42 +39,29 @@ The Python Package Index(PyPI) is a repository of software for the Python progra
 
 https://pypi.org/
 
-### Use **pip** to install packages
+#### Use `pip` to install packages
 
 `pip` is a package manage for Python. It makes installing and uninstalling Python packages
 
- **install** 
+**install** 
+
+The following command will install the latest version of a module and its dependencies from the Python Packaging Index:
 
 ```bash
->pip  install packagename  
-```
-**uninstall**  
-
-```bash
->pip  uninstall packagename  
+>python -m pip install SomePackage  
 ```
 
-Upgrade all specified packages to the newest available version. `-U, --upgrade`
+**Upgrading**
+Normally, if a suitable module is already installed, attempting to install it again will have no effect. Upgrading existing modules must be requested explicitly:
 
 ```bash
->pip  install -U packagename  
-```
-or 
-
-```bash
->pip  install --upgrade packagename  
+>python -m pip install --upgrade SomePackage  
 ```
 
-**Show help for commands**
+**use the `mirror site`  to install for the speed**
 
 ```bash
->pip  help  
-```
-
-use the **mirror site**  to install for the speed
-
-```bash
->pip  install packagename  -i  mirrorsite  
+>python -m pip install SomePackage  -i  mirrorsite  
 ``` 
 
 install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simple
@@ -101,12 +70,36 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 >pip  install packagename  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
+**uninstall**  
 
-* **Install autopep8, pylint**
+```bash
+>pip uninstall packagename  
+```
+
+**Show help for commands**
+
+```bash
+>pip  help  
+```
+
+#### update `pip` to the most recent version
+
+```bash
+>python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
+![Python3-update](./img/python37-update-pip.jpg)
+
+#### Install autopep8, pylint
 
 ```bash  
->pip install autopep8 -i  https://pypi.tuna.tsinghua.edu.cn/simple
->pip install pylint -i  https://pypi.tuna.tsinghua.edu.cn/simple
+>python -m pip install autopep8 -i  https://pypi.tuna.tsinghua.edu.cn/simple
+>python -m pip install pylint -i  https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+or
+
+```bash  
+>python -m pip install autopep8 pylint -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ### Using IDLE
@@ -118,7 +111,7 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 ### Install 
   
 ```bash       
->pip install jupyter  -i  https://pypi.tuna.tsinghua.edu.cn/simple
+>python -m pip install jupyter  -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```    
 
 ### Using
@@ -131,15 +124,21 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 
 ![ipynb-2](./img/ipynb-2.png)
 
-* Setup the  working dir for your **Jupyter Notebook**：
+* Literate programming your Jupyter Notebook in the `specific working folder`：
 
-  * `1` the dir of start `>jupyter notebook` is the default dir of your Jupyter Notebook 
+  * `1` make the specific folder for  your **Jupyter Notebook**,for example: `D:/mynotebook`
 
-* start **Jupyter Notebook** quickly 
+  * `2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on "Open command window here" or "Open PowerShell window here"
 
-  * `2` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working dir of your Jupyter Notebook
+  * `3` Enter `jupyter notebook` in cmd window of the folder,you will see the active jupyter server. the folder is the default  folder of your Jupyter Notebook 
 
-  * `3` Double-click **`start.bat`**，Start **Jupyter Notebook** 
+   ![jupyter-cmd](./img/jupyter-cmd.jpg) 
+
+     *  start **Jupyter Notebook** quickly 
+
+         * `1` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working folder of your Jupyter Notebook
+
+         * `2` Double-click **`start.bat`**，Start **Jupyter Notebook**  server
 
  ![jupyter-quick](./img/jupyter-bat.jpg) 
 
@@ -151,17 +150,19 @@ install from the mirror site `@tsinghua`: https://pypi.tuna.tsinghua.edu.cn/simp
 
 * Start Jupyter Notebook of the course
  
-  unzip home.zip, double-click   **StartNB.bat**  under the dir **notebook** to start **Jupyter Notebook** 
+  unzip home.zip, double-click  `StartNB.bat`  under the folder of **notebook** to start **Jupyter Notebook** 
 
 ## C:VSCode
 
-### Install VS Code
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
-  https://code.visualstudio.com/
+### Download and Install Visual Studio Code 
+ 
+    https://code.visualstudio.com/
 
 ### Install Python Extension
 
-https://code.visualstudio.com/docs/languages/python
+    https://code.visualstudio.com/docs/languages/python
 
 ### Using VS Code
 
@@ -176,3 +177,7 @@ https://code.visualstudio.com/docs/languages/python
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
+
+## More
+
+https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md 

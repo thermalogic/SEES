@@ -12,7 +12,7 @@
    
      * Read contents about  the course：Python，Jypyter,Markdown,Git/Github,Visual Studio Code
 
-     * [Setup the working dir for the course](./guide/AdvWorkingDir.md)
+     * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
      * [Install Softwares: Python,Jupyter,Visual Studio Code, Git(optional)](./guide/Beginner2BuildeSoftwareEnvironment.md)
 

@@ -1,0 +1,9 @@
+autopep8
+pylint
+jupyter
+numpy
+scipy
+matplotlib
+iapws
+seuif97
+

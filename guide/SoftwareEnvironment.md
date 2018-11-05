@@ -26,7 +26,7 @@
 
   * 2.1 Jupyter: http://jupyter.org/
 
-  * 2.2 Numpy、Scipy and Matplotlib for Windows:  http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
+  * 2.2 Numpy、Scipy and Matplotlib http://www.scipy.org/ 
 
   * 2.3 IAPWS-IF97:
 
@@ -64,27 +64,22 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 From a command prompt:
 ```bash
-  >python -m pip install -U pip
+  >python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
 ### 2 Install Jupyter Notebook
 
 * From a command prompt, install using pip：
 
-```bash       
-    >pip install jupyter
-```      
-#### NOTE: you may use the mirror site to install for the high speed
-
 Install from the mirror site　@ tsinghua
 
 ```bash  
->pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+>python -m pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple/
 ```  
 * From a command prompt,start **Jupyter notebook**
 
 ```bash       
-    >jupyter notebook     
+>jupyter notebook     
 ```
 
 * Setup the  working dir for your **Jupyter Notebook**：
@@ -103,25 +98,17 @@ Install from the mirror site　@ tsinghua
    
    Numpy,Scipy, Matplotlib https://www.scipy.org/install.html 
 
-* Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
-
-* Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versions. In the filename, the digits after “cp” indicate the Python version, `Python3.7 -> cp37`
-
-```bash  
-numpy-1.15.1+mkl-cp37-cp37m-win_amd64.whl
-```  
-is the wheel of numpy 1.15.1+mkl for 64-bit Python 3.7
-
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
-
-* From an administrative command prompt, install the downloaded wheel using pip, e.g.
 ```bash       
-  >pip install numpy-1.15.1+mkl-cp37-cp37m-win_amd64.whl
-  >pip install scipy-1.1.0-cp37-cp37m-win_amd64.whl
-  >pip install matplotlib-2.2.3-cp37-cp37m-win_amd64.whl
-```       
-![scipy-install](./img/scipy-install.jpg)
+> python -m pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple/
+> python -m pip install scipy -i  https://pypi.tuna.tsinghua.edu.cn/simple/
+> python -m pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/
+``` 
 
+or 
+
+```bash       
+> python -m pip install numpy scipy matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/
+``` 
 ### 4 IAPWS-IF97 Packages
 
 * 4.1 Python IAPWS-IF97
@@ -129,13 +116,13 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
    pre-installed:numpy and scipy
 
 ```bash       
-   > pip install iapws
+   > python -m pip install iapws https://pypi.tuna.tsinghua.edu.cn/simple/
 ``` 
 
 * 4.2 Shared Lib IAPWS-IF97
 
 ```bash       
-> pip install seuif97
+> python -m pip install seuif97 https://pypi.tuna.tsinghua.edu.cn/simple/
 ``` 
 
 or
@@ -149,6 +136,21 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
    * 1 copy **libseuif97.dll** to c:\windows\system
    * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copt to `C:\python37\Lib`
  
+
+**NOTE: Install Packages** 
+
+* `1` Binary packages are also available from third parties, such as the Python distributions above. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
+
+```bash 
+>pip install *.whl
+```
+
+* `2` Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
+
+```bash 
+>python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simplepip
+```
+
 ### 5 Visual Studio Code
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
@@ -183,7 +185,6 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
        Select command in context menu
        Right click the Jupyter notebook file node and select "AI: View in Jupyter Server" command.
 
-
 ### 6  Version control with Git
 
 * Git for Windows:  https://git-scm.com/download/win
@@ -196,7 +197,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
      
     * seh：64 bits only
   
-  Download： **GCC 7.3.0 x86_64-win32-sjlj**
+  Download： **GCC 8.1.0 x86_64-win32-sjlj**
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
