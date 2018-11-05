@@ -44,9 +44,9 @@ We will cover:
 
    **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
 
-* [Software Environment](https://github.com/PySEE/home/tree/S2019/SoftwareEnvironment.md) Python,Jupyter,Scipy,GCC
- 
 * [Guide](https://github.com/PySEE/home/tree/S2019/guide) Markdown,Git/Github,Ubuntu
+
+   * [Software Environment](https://github.com/PySEE/home/tree/S2019/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
 
 * [SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); Python,Java,Excel Add-in Macro 
 

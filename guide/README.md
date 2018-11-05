@@ -1,6 +1,10 @@
 
 # Learing by Doing！做中学！
 
+* [The Guide of  Building Software Environment](./BuildingSoftwareEnvironment.md)
+
+  * [The Guide of Building Software Environment - Extended](./BuildingSoftwareEnvironment-Extended.md)
+
 * [Introduction to Markdown](./Introduction2Markdown.md) 
 
 * [The Simple Guide to Github](./TheSimpleGuide2Github.md) 

@@ -4,7 +4,7 @@
 
   * Goals,Grading,Practices
 
-  * [Softwares Environment](./guide/Beginner2BuildeSoftwareEnvironment.md) 
+  * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
   * **Course Repositories**: Home,SEUIF97,PyRrankine
 
@@ -14,7 +14,7 @@
 
      * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
-     * [Install Softwares: Python,Jupyter,MinGW-W64,Visual Studio Code,Git(optional)](./guide/Beginner2BuildeSoftwareEnvironment.md)
+     * [Install Softwares: Python,Jupyter,MinGW-W64,Visual Studio Code,Git](./guide/BuildingSoftwareEnvironment.md)
 
      * [Download the Home of PySEE, Using Juyter Notebooks of the course](https://github.com/PySEE/home)
    
