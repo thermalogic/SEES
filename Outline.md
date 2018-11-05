@@ -58,7 +58,7 @@
 
    * **Homework**
     
-     * [Install Numpy,Scipy,Matplotlib](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md)
+     * [Install Numpy,Scipy,Matplotlib](./guide/BuildingSoftwareEnvironment.md)
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
@@ -88,7 +88,7 @@
 
    * **Homework**
     
-     * [Install iapws](https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md),[Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
+     * [Install iapws](./guide/BuildingSoftwareEnvironment.md),[Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
  * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
@@ -234,7 +234,7 @@
 
    * **Homework**
 
-     * [GCC for Windows](https://github.com/PySEE/home/blob/S2019/Beginner2BuildeSoftwareEnvironment.md)
+     * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_1_GCC_DLL.ipynb)
 
@@ -266,13 +266,13 @@
 
    * **Homework**
     
-     * [Install Ubuntu,GSL,Gnuplot](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+     * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-C-Chinese.md)
 
      * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
 
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
-   * [Ubuntu](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+   * [Ubuntu](./guide/Ubuntu-Python-C-Chinese.md)
 
    * GSL,Gnuplot
    

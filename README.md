@@ -22,7 +22,7 @@ We will cover:
 
 * A laptop **computer** will be needed in the classroom.
 
-* **Softwares**(https://github.com/PySEE/home/blob/S2019/SoftwareEnvironment.md) 
+* **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
 
    * Python, Jupyter,Numpy,Scipy,Matplotlib，Visual Studio Code,IAPWS,SEUIF97
    
@@ -30,7 +30,7 @@ We will cover:
    
    * Git,Github
  
-* **Textbooks**(https://github.com/PySEE/home/blob/S2019/References.md)
+* **[Textbooks](./References.md)**
 
    * John V. Guttag. Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition). MIT Press, 2016.
   
@@ -38,15 +38,15 @@ We will cover:
 
 ### Contents
 
-* [Lectures in Jupyter Notebook](https://github.com/PySEE/home/tree/S2019/notebook)
+* [Lectures in Jupyter Notebook](./notebook)
 
   Please install Jupyter to read and **interactive** with the notebook.
 
    **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
 
-* [Guide](https://github.com/PySEE/home/tree/S2019/guide) Markdown,Git/Github,Ubuntu
+* [Guide](./guide) Markdown,Git/Github,Ubuntu
 
-   * [Software Environment](https://github.com/PySEE/home/tree/S2019/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
+   * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
 
 * [SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); Python,Java,Excel Add-in Macro 
 
