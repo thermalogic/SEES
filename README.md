@@ -60,11 +60,11 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * **Practices(5):65%**, Bonus: +5
   * Final Exam: 20%
   
-### Practices(60)
+### Practices(65)
     
 https://github.com/PySEE/Practices/
 
-  1. **Basic Programming**(10)：[Github,Python,Jupyter,Markdown](https://github.com/PySEE/Practices/tree/S2019/P1)
+  1. **Basic Programming**(15)：[Github,Python,Jupyter,MinGW-w64,Visual Studio Code，Markdown](https://github.com/PySEE/Practices/tree/S2019/P1)
 
   2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P2)
    
