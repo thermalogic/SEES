@@ -1,9 +1,6 @@
 # The Guide of  Building Software Environment
 
-Firstly，You **MUST** setup the working directory for the course
-
-https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
-
+Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 
 - [The Guide of  Building Software Environment](#the-guide-of--building-software-environment)
@@ -19,21 +16,24 @@ https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
         - [B.2 Using](#b2-using)
         - [B.3 Literate programming your Jupyter Notebook in the `specific working folder`](#b3-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
         - [B.4 Using the Jupyter Notebook of PySEE/home](#b4-using-the-jupyter-notebook-of-pyseehome)
-    - [C:MinGW-W64](#cmingw-w64)
-    - [D:VSCode](#dvscode)
+    - [C:Install MinGW-W64](#cinstall-mingw-w64)
+    - [D:Visual Studio Code](#dvisual-studio-code)
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
-        - [D.2 Install Python Extension](#d2-install-python-extension)
-        - [D.3 Install the Microsoft C/C++ extension](#d3-install-the-microsoft-cc-extension)
-        - [D.4 Using VS Code](#d4-using-vs-code)
-            - [D.4.1 Python](#d41-python)
-            - [D.4.2 C/C++](#d42-cc)
+        - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
+        - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
     - [E:Git](#egit)
+        - [E.1 Install Git for Windows](#e1-install-git-for-windows)
+        - [E.2 Clone the S2019 branch of the PySEE/home to your computer](#e2-clone-the-s2019-branch-of-the-pyseehome-to-your-computer)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
-        - [F.2 IAPWS-IF97 Packages](#f2-iapws-if97-packages)
+        - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
             - [F.2.1 iapws](#f21-iapws)
             - [F.2.2 SEUIF97](#f22-seuif97)
     - [Extended](#extended)
+        - [Windows10](#windows10)
+        - [SEUIF97 Shared Library](#seuif97-shared-library)
+        - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
+        - [Visual Studio Code and  Jupyter notebooks](#visual-studio-code-and--jupyter-notebooks)
     - [References](#references)
 
 <!-- /TOC -->
@@ -46,11 +46,11 @@ Python 3.7.0 for Windows x86-64 executable installer：
 https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 ### A.1 Customize Installation Python
-      
+  
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
-            
+
  
 ![Python3-path](./img/python37-path.jpg)
 
@@ -159,15 +159,15 @@ or
 
 ### B.1 Install 
   
-```bash       
+```bash   
 >python -m pip install jupyter
-```    
+```
 
 ### B.2 Using
 
-```bash       
+```bash   
 >jupyter notebook
-```    
+```
 
 ![ipynb-1](./img/ipynb-1.png)
 
@@ -203,21 +203,23 @@ pre-installed:Python3 and Jupyter Notebook
  
   unzip home.zip, double-click  `StartNB.bat`  under the folder of **notebook** to start **Jupyter Notebook** 
 
-## C:MinGW-W64
+## C:Install MinGW-W64
 
-* C.1 Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
+**C.1** Download MinGW-W64
 
-    * sjlj: 32 and 64 bits,but it incurs a minor performance penalty
-     
-    * seh：64 bits only
+Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
+
+* sjlj: 32 and 64 bits,but it incurs a minor performance penalty
+ 
+* seh：64 bits only
   
   Download： **GCC 8.1.0 x86_64-win32-sjlj**
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-* C.2 unzip the ziped MinGW-w64 to **C:\mingw64**
+**C.2** unzip the ziped MinGW-w64 to **C:\mingw64**
 
-* C.3 Add **C:\mingw64\bin** to the system environment variable **Path**
+**C.3** Add C:\mingw64\bin to the system environment variable **Path**
 
    For Windows 10: 
 
@@ -225,44 +227,41 @@ pre-installed:Python3 and Jupyter Notebook
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
-* C.4 RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
+**C.4** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
 
-* C.5 Verify the GCC installation by listing the version of gcc:
-  ```bash
-  > gcc --version
-  ``` 
+**C.5** Verify the GCC installation by listing the version of gcc:
+```bash
+> gcc --version
+``` 
 
-## D:VSCode
+## D:Visual Studio Code
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
 ### D.1 Download and Install Visual Studio Code 
  
-    https://code.visualstudio.com/
+https://code.visualstudio.com/
 
-### D.2 Install Python Extension
+### D.2 Install Extension: Python,C/C++
 
-    https://code.visualstudio.com/docs/languages/python
+* Python https://code.visualstudio.com/docs/languages/python
 
-### D.3 Install the Microsoft C/C++ extension
 
-    https://code.visualstudio.com/docs/languages/cpp
+* C/C++ https://code.visualstudio.com/docs/languages/cpp
 
-### D.4 Using VS Code
+### D.3 Using Visual Studio Code: Python,C/C++
 
-#### D.4.1 Python
-
-![vscode-python](./img/vscode-python.png)
-
-#### D.4.2 C/C++
-
-![vscode-gcc](./img/vscode-gcc.jpg)
+* Python ![vscode-python](./img/vscode-python.png)
+---
+* C/C++  ![vscode-gcc](./img/vscode-gcc.jpg)
 
 ## E:Git
 
-**`E.1`** Install Git for Windows: https://git-scm.com/download/win
+### E.1 Install Git for Windows
 
-**`E.2`** Clone the S2019 branch of the [home](https://github.com/PySEE/home) to your computer
+https://git-scm.com/download/win
+
+### E.2 Clone the S2019 branch of the PySEE/home to your computer
 
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
@@ -274,29 +273,87 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
    
    Numpy,Scipy, Matplotlib https://www.scipy.org/install.html 
 
-```bash       
+```bash   
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### F.2 IAPWS-IF97 Packages
+### F.2 IAPWS-IF97 Packages: 
 
 #### F.2.1 iapws
 
 pre-installed:numpy and scipy
 
-```bash       
+```bash   
 > python -m pip install iapws 
 ``` 
 
 #### F.2.2 SEUIF97
 
-```bash       
+```bash   
 > python -m pip install seuif97 
 ``` 
 
 ## Extended
 
-https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment-Exdended.md 
+### Windows10
+
+64-bit Windows10 
+
+**1 Southeast University**
+
+January 2015, Southeast University and Microsoft Corp provide legitimate Windows, Office for the staffs and students.
+
+  http://nic.seu.edu.cn/2015/0113/c12333a115289/page.htm
+  
+**2 Microsoft**
+  
+https://www.microsoft.com/en-gb/software-download/windows10
+
+Do you want to install Windows 10 on your PC?
+       
+* download and run the media creation tool: 
+       https://go.microsoft.com/fwlink/?LinkId=691209
+ 
+### SEUIF97 Shared Library
+
+Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF97.zip
+
+![Download SEUIF97.zip](./img/downloadseuif97.jpg)
+   
+*  Unzip the downloaded file,then：
+   
+   * 1 copy **libseuif97.dll** to c:\windows\system
+   * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copt to `C:\python37\Lib`
+
+### Install Python Packages: Third Parties,Requirements
+
+* `1` Binary packages are also available from third parties, such as the Python distributions above. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
+
+```bash 
+>pip install *.whl
+```
+
+* `2` Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
+
+```bash 
+>python -m pip install -r requirements.txt 
+```
+### Visual Studio Code and  Jupyter notebooks
+
+* Install Visual Studio Code Tools for AI extension
+
+https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/installation.md
+
+* Open Jupyter notebooks in VS Code
+https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-jupyter.md
+
+   * Set Python path properly in VS Code，for example: C:/python37/python.exe
+
+
+   * Open Jupyter notebooks in VS Code
+
+     Launch Visual Studio Code and select File > Open Folder (Ctrl+K Ctrl+O) Select a folder which contains the Jupyter notebook file (.pynb) you want to open.
+    Select command in context menu Right click the Jupyter notebook file node and select "AI: View in Jupyter Server" command. 
 
 ## References
 
@@ -307,22 +364,22 @@ https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment-Exden
 * 2 Python Packages
 
   * Jupyter: http://jupyter.org/
-    
-     * Documentation. http://jupyter.readthedocs.org/en/latest/
+
+ * Documentation. http://jupyter.readthedocs.org/en/latest/
 
   * Numpy、Scipy and Matplotlib http://www.scipy.org/ 
 
-     * Scipy. http://www.scipy.org/
+ * Scipy. http://www.scipy.org/
 
-     * Numpy. http://www.numpy.org/
+ * Numpy. http://www.numpy.org/
   
-     * Matplotlib.  http://matplotlib.org/
+ * Matplotlib.  http://matplotlib.org/
 
   * IAPWS-IF97:
 
-     * Shared Lib: https://github.com/PySEE/SEUIF97
+ * Shared Lib: https://github.com/PySEE/SEUIF97
 
-     * Python: https://github.com/jjgomera/iapws
+ * Python: https://github.com/jjgomera/iapws
  
 * 3 Visual Studio Code：https://code.visualstudio.com/
 
