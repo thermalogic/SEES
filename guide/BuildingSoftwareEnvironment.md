@@ -6,17 +6,17 @@ https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
 
 then,following the steps
 
-* [A: Python](#a:python): Python3, Autopep8,Pylint,IDLE
+* [A: Python3, IDLE，Autopep8,Pylint](#a:python) 
 
-* [B: Jupyter Notebook](#b:jupyter): Jupyter Notebook, PySEE/Home
+* [B: Jupyter Notebook, PySEE/Home](#b:jupyter) 
 
-* [C: MinGW-W64](#b:minGW-w64): MinGW-W64(GCC) Compiler Suite
+* [C: MinGW-W64(GCC) Compiler Suite](#b:minGW-w64) 
 
-* [D: Visual Studio Code](#d:vscode): VSCode Markdown,Python,C/C++
+* [D: Visual Studio Code， Markdown,Python,C/C++](#d:vscode)
   
-* [E: Git/Github](#e:git): Git, `Clone` PySEE/home
+* [E: Git/Github，`Clone` PySEE/home](#e:git) 
 
-* [F: Scientific Computation Packages](#f:scientific-computation-packages): Numpy,Scipy,Matplotlib,iapws,SEUIF97
+* [F: Scientific Computation Packages：Numpy,Scipy,Matplotlib,iapws,SEUIF97](#f:scientific-computation-packages) 
 
 ## A:Python
 
