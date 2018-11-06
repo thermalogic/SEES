@@ -12,10 +12,9 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
             - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
             - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
     - [B:Jupyter](#bjupyter)
-        - [B.1 Install](#b1-install)
-        - [B.2 Using](#b2-using)
-        - [B.3 Literate programming your Jupyter Notebook in the `specific working folder`](#b3-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
-        - [B.4 Using the Jupyter Notebook of PySEE/home](#b4-using-the-jupyter-notebook-of-pyseehome)
+        - [B.1 Install & Start-up Jupyter](#b1-install--start-up-jupyter)
+        - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
+        - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
     - [C:Install MinGW-W64](#cinstall-mingw-w64)
     - [D:Visual Studio Code](#dvisual-studio-code)
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
@@ -157,49 +156,61 @@ or
 
 ## B:Jupyter
 
-### B.1 Install 
-  
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
+
+![jupyter-demo](./img/jupyter-demo.png)
+
+### B.1 Install & Start-up Jupyter
+
+To install Jupyter,run the following command in a terminal:
+
 ```bash   
 >python -m pip install jupyter
 ```
 
-### B.2 Using
+To start up Jupyter, run the following command in a terminal:
 
 ```bash   
 >jupyter notebook
 ```
 
-![ipynb-1](./img/ipynb-1.png)
+### B.2 Literate programming your Jupyter Notebook in the `specific working folder`
 
-![ipynb-2](./img/ipynb-2.png)
+* `B.2.1` make the specific folder for  your **Jupyter Notebook**,for example: `D:/mynotebook`
 
-### B.3 Literate programming your Jupyter Notebook in the `specific working folder`
+* `B.2.2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on "Open command window here" or "Open PowerShell window here"
 
-* `B.3.1` make the specific folder for  your **Jupyter Notebook**,for example: `D:/mynotebook`
+* `B.2.3` Enter `jupyter notebook` in cmd window of the folder,you will see the active jupyter server. the folder is the default  folder of your Jupyter Notebook 
 
-* `B.3.2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on "Open command window here" or "Open PowerShell window here"
-
-* `B.3.3` Enter `jupyter notebook` in cmd window of the folder,you will see the active jupyter server. the folder is the default  folder of your Jupyter Notebook 
+   Jupyter will automatically open up in your default web browser
 
    ![jupyter-cmd](./img/jupyter-cmd.jpg) 
 
-* `B.3.4`  start **Jupyter Notebook** quickly 
+* `B.2.4`  start **Jupyter Notebook** quickly 
 
    * `1` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working folder of your Jupyter Notebook
 
-   * `2` Double-click **`start.bat`**，Start **Jupyter Notebook**  server
+   * `2` Double-click **`start.bat`**，the **Jupyter Notebook**  server will start 
 
  ![jupyter-quick](./img/jupyter-bat.jpg) 
 
-### B.4 Using the Jupyter Notebook of PySEE/home
+* `B.2.5 ` To create a new notebook 
+
+  To create a new notebook, click the `New` button and select the `“Python 3”` option. You should see something like the follow Figure. If this is your first time, try clicking on the empty code `“cell”` and entering a line of Python code. Then press `Shift-Enter` to execute it.
+
+![jupyter-hello](./img/jupyter-hello.jpg) 
+  
+  You may click  `File`->`Save As...` to save the notebook file as a given name with the extension `.ipynb`.
+
+### B.3 Using the Jupyter Notebook of PySEE/home
 
 pre-installed:Python3 and Jupyter Notebook
 
-**B.4.1** Go to the repo **home** on the Github: https://github.com/PySEE/home download `home.zip`
+**B.3.1** Go to the repo **home** on the Github: https://github.com/PySEE/home download `home.zip`
 
 ![download home.zip](./img/downloadhome.jpg)
 
-**B.4.2** Start Jupyter Notebook of the course
+**B.3.2** Start Jupyter Notebook of the course
  
   unzip home.zip, double-click  `StartNB.bat`  under the folder of **notebook** to start **Jupyter Notebook** 
 
