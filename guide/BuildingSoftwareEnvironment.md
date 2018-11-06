@@ -4,7 +4,40 @@ Firstly，You **MUST** setup the working directory for the course
 
 https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
 
-then,following the steps
+then,following the steps<!-- TOC -->
+
+- [The Guide of  Building Software Environment](#the-guide-of--building-software-environment)
+    - [A:Python](#apython)
+        - [A.1 Customize Installation Python](#a1-customize-installation-python)
+        - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
+        - [A.3 Install Packages](#a3-install-packages)
+            - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
+            - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
+            - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
+    - [B:Jupyter](#bjupyter)
+        - [B.1 Install](#b1-install)
+        - [B.2 Using](#b2-using)
+        - [B.3 Literate programming your Jupyter Notebook in the `specific working folder`](#b3-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
+        - [B.4 Using the Jupyter Notebook of PySEE/home](#b4-using-the-jupyter-notebook-of-pyseehome)
+    - [C:MinGW-W64](#cmingw-w64)
+    - [D:VSCode](#dvscode)
+        - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
+        - [D.2 Install Python Extension](#d2-install-python-extension)
+        - [D.3 Install the Microsoft C/C++ extension](#d3-install-the-microsoft-cc-extension)
+        - [D.4 Using VS Code](#d4-using-vs-code)
+            - [D.4.1 Python](#d41-python)
+            - [D.4.2 C/C++](#d42-cc)
+    - [E:Git](#egit)
+    - [F:Scientific Computation Packages](#fscientific-computation-packages)
+        - [F.1 Scipy](#f1-scipy)
+        - [F.2 IAPWS-IF97 Packages](#f2-iapws-if97-packages)
+            - [F.2.1 iapws](#f21-iapws)
+            - [F.2.2 SEUIF97](#f22-seuif97)
+    - [Extended](#extended)
+    - [References](#references)
+
+<!-- /TOC -->
+
 
 * [A: Python3, IDLE，Autopep8,Pylint](#a:python) 
 
