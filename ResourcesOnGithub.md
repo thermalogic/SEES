@@ -26,8 +26,6 @@
 
 ## Repositories
 
-* A Byte of Python book https://github.com/swaroopch/byte-of-python
-
 * Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * A gallery of interesting notebook：https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
@@ -47,8 +45,6 @@
 * Anders Hejlsberg. https://github.com/ahejlsberg
 
 * Linus Torvalds. https://github.com/torvalds
-
-* Sean Zhu. https://github.com/szhu
 
 * Cheng Zhao. https://github.com/zcbenz
 

@@ -19,8 +19,6 @@
    
 * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
-* A Byte of Python  https://github.com/swaroopch/byte-of-python
-
 * Python 3 Module of the Week  https://pymotw.com/3/
 
 ### Python for mathematics, science and engineering
