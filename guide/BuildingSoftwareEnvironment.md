@@ -4,7 +4,7 @@ Firstly，You **MUST** setup the working directory for the course
 
 https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
 
-then,following the steps<!-- TOC -->
+<!-- TOC -->
 
 - [The Guide of  Building Software Environment](#the-guide-of--building-software-environment)
     - [A:Python](#apython)
@@ -37,19 +37,6 @@ then,following the steps<!-- TOC -->
     - [References](#references)
 
 <!-- /TOC -->
-
-
-* [A: Python3, IDLE，Autopep8,Pylint](#a:python) 
-
-* [B: Jupyter Notebook, PySEE/Home](#b:jupyter) 
-
-* [C: MinGW-W64(GCC) Compiler Suite](#c:minGW-w64) 
-
-* [D: Visual Studio Code， Markdown,Python,C/C++](#d:vscode)
-  
-* [E: Git/Github，`Clone` PySEE/home](#e:git) 
-
-* [F: Scientific Computation Packages：Numpy,Scipy,Matplotlib,iapws,SEUIF97](#f:scientific-computation-packages) 
 
 ## A:Python
 
