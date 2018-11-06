@@ -323,7 +323,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 *  Unzip the downloaded file,then：
    
    * 1 copy **libseuif97.dll** to c:\windows\system
-   * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copt to `C:\python37\Lib`
+   * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copy to `C:\python37\Lib`
 
 ### Install Python Packages: Third Parties,Requirements
 
