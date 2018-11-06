@@ -39,7 +39,7 @@
 
    * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
-* Wes McKinney. Python for Data Analysis. O’Reilly, Sebastopol, CA. 2012
+* Wes McKinney.Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython(2nd Edition) O'Reilly Media, 2017 https://github.com/wesm/pydata-book
 
 * John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
 
