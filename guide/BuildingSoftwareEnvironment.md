@@ -10,7 +10,7 @@ then,following the steps
 
 * [B: Jupyter Notebook, PySEE/Home](#b:jupyter) 
 
-* [C: MinGW-W64(GCC) Compiler Suite](#b:minGW-w64) 
+* [C: MinGW-W64(GCC) Compiler Suite](#c:minGW-w64) 
 
 * [D: Visual Studio Code， Markdown,Python,C/C++](#d:vscode)
   
