@@ -376,21 +376,21 @@ https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-
 
   * Jupyter: http://jupyter.org/
 
- * Documentation. http://jupyter.readthedocs.org/en/latest/
+  * Documentation. http://jupyter.readthedocs.org/en/latest/
 
   * Numpy、Scipy and Matplotlib http://www.scipy.org/ 
 
- * Scipy. http://www.scipy.org/
+    * Scipy. http://www.scipy.org/
 
- * Numpy. http://www.numpy.org/
+    * Numpy. http://www.numpy.org/
   
- * Matplotlib.  http://matplotlib.org/
+    * Matplotlib.  http://matplotlib.org/
 
   * IAPWS-IF97:
 
- * Shared Lib: https://github.com/PySEE/SEUIF97
+     * Shared Lib: https://github.com/PySEE/SEUIF97
 
- * Python: https://github.com/jjgomera/iapws
+     * Python: https://github.com/jjgomera/iapws
  
 * 3 Visual Studio Code：https://code.visualstudio.com/
 
