@@ -327,7 +327,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 
 ### Install Python Packages: Third Parties,Requirements
 
-* `1` Binary packages are also available from third parties, such as the Python distributions above. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
+* `1` Binary packages are also available from third parties. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
 
 ```bash 
 >pip install *.whl
