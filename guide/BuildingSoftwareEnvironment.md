@@ -6,17 +6,17 @@ https://github.com/PySEE/home/tree/S2019/guide/AdvWorkingDir.md
 
 then,following the steps
 
-* [A: Python](#A:Python) Python3, Autopep8,Pylint,IDLE
+* [A: Python](#a:python): Python3, Autopep8,Pylint,IDLE
 
-* [B: Jupyter Notebook](#B:Jupyter): Jupyter Notebook, PySEE/Home
+* [B: Jupyter Notebook](#b:jupyter): Jupyter Notebook, PySEE/Home
 
-* [C: MinGW-W64(GCC)](#C:MinGW-W64): MinGW-W64(GCC) Compiler Suite
+* [C: MinGW-W64](#b:minGW-w64): MinGW-W64(GCC) Compiler Suite
 
-* [D: Visual Studio Code](#D:VSCode): VSCode Markdown,Python,C/C++
+* [D: Visual Studio Code](#d:vscode): VSCode Markdown,Python,C/C++
   
-* [E: Git/Github](#E:Git): Git, `Clone` PySEE/home
+* [E: Git/Github](#e:git): Git, `Clone` PySEE/home
 
-* [F: Scientific Computation Packages](#F:ScientificComputationPackages): Numpy,Scipy,Matplotlib,iapws,SEUIF97
+* [F: Scientific Computation Packages](#f:scientific-computation-packages): Numpy,Scipy,Matplotlib,iapws,SEUIF97
 
 ## A:Python
 
@@ -25,7 +25,7 @@ Goto the official Python site  https://www.python.org/downloads/ to download the
 Python 3.7.0 for Windows x86-64 executable installer：
 https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
-###  A.1 Customize Installation Python
+### A.1 Customize Installation Python
       
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
@@ -248,7 +248,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
 
-## F:ScientificComputationPackages
+## F:Scientific Computation Packages
 
 ### F.1 Scipy
    
