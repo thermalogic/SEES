@@ -76,7 +76,7 @@ https://github.com/PySEE/Practices/
 
   6. **Bonus**(+5): [C/C++ Programming with GCC, Ubuntu,Version Control ](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
 
-## Update Course
+## Clone & Update Course
 
 ### Download the zip file of repository 
 
@@ -86,7 +86,7 @@ This repository contain all files of the course. You can manually download these
 
 ### Using Git to clone a branch of repository to your computer 
 
-We **recommend** that you use [git](https://github.com/git-for-windows/git/releases) to **clone** and **update** this repository.
+We **recommend** that you use [git](https://git-scm.com/download/) to **clone** and **update** this repository.
 
 After you have installed **git**, You may use the following **commands:**
 

@@ -22,7 +22,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
     - [E:Git](#egit)
         - [E.1 Install Git for Windows](#e1-install-git-for-windows)
-        - [E.2 Clone the S2019 branch of the PySEE/home to your computer](#e2-clone-the-s2019-branch-of-the-pyseehome-to-your-computer)
+        - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
@@ -268,15 +268,35 @@ https://code.visualstudio.com/
 
 ## E:Git
 
+We **recommend** that you use [git](https://git-scm.com) to handle everything from the repositories of PySEE to your projects with speed and efficiency. 
+
 ### E.1 Install Git for Windows
 
-https://git-scm.com/download/win
+Download Git for Windows: https://git-scm.com/download/win
 
-### E.2 Clone the S2019 branch of the PySEE/home to your computer
+### E.2 Clone & Update the PySEE/home 
+
+After you have installed **git**, You may use the following **commands:**
+
+* Clone the S2019 branch of the PySEE/home to your computer
 
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
+
+* Updating to The Latest Version
+
+As we release new files, or if we update an already released files, you'll have to update your repository. You can do this by changing into the **home** directory and executing:
+
+```bash
+>git pull
+```
+
+That's it - you'll have the latest version of the repository.
+
+![download](./img/clonehomedir.jpg)
+
+>you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
 
 ## F:Scientific Computation Packages
 

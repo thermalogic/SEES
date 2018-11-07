@@ -5,7 +5,7 @@
 
 * [Introduction to Markdown](./Introduction2Markdown.md) 
 
-* [The Simple Guide to Github](./TheSimpleGuide2Github.md) 
+* [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
 * [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C-Chinese.md) 
 
