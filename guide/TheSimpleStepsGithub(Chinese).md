@@ -1,7 +1,7 @@
-# 建立本地项目Git仓库并和远程Github仓库同步方法简介
+# 建立本地项目Git仓库并和远程Github仓库同步的简单方法
 <!-- TOC -->
 
-- [建立本地项目Git仓库并和远程Github仓库同步方法简介](#建立本地项目git仓库并和远程github仓库同步方法简介)
+- [建立本地项目Git仓库并和远程Github仓库同步的简单方法](#建立本地项目git仓库并和远程github仓库同步的简单方法)
     - [1 本地Git和远程Github版本控制的初始化](#1-本地git和远程github版本控制的初始化)
         - [1.1 本地安装Git、远程建立Github账户](#11-本地安装git远程建立github账户)
         - [1.2 配置Git本地用户名和email(和Github账户一致）](#12-配置git本地用户名和email和github账户一致)
