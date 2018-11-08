@@ -16,7 +16,7 @@ We will cover:
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and evaluate software quality
 * C/C++ programming with [GCC](https://gcc.gnu.org/)
-* use [version control](https://git-scm.com/) 
+* Version control with [Git/Github](https://git-scm.com/) 
 
 ### Required Materials
 
@@ -38,27 +38,29 @@ We will cover:
 
 ### Contents
 
-* [Lectures in Jupyter Notebook](./notebook)
+* **PySEE/HOME**
+   
+   * [Notebook: Lectures in Jupyter Notebook](./notebook)
 
-  Please install Jupyter to read and **interactive** with the notebook.
+     Please install Jupyter to read and **interactive** with the notebook.
 
-   **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
+     **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
 
-* [Guide](./guide) Markdown,Git/Github,Ubuntu
+  * [Guide](./guide) Markdown,Git/Github,Ubuntu
 
-   * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
+    * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
 
-* [SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); Python,Java,Excel Add-in Macro 
+* [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); C/C++,Python,Java,MS Excel Add-in Macro 
 
-* [PyRankine](https://github.com/PySEE/PyRankine) The General Simulator of Rankine Cycle to Demonstrate:Data Structures+ Algorithms = Programs & Computational Thinking 
+* [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The General Simulator of Rankine Cycle for Undenstanding:Data Structures+ Algorithms = Programs & Computational Thinking 
 
 ### Grading
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises: 15%
-  * **Practices(5):65%**, Bonus: +5
-  * Final Exam: 20%
+  * In-class Exercises: 15
+  * **Practices(5 projects):65**; Bonus: +5
+  * Final Exam: 20
   
 ### Practices(65)
     
@@ -72,51 +74,25 @@ https://github.com/PySEE/Practices/
   
   4. **Data Analysis**(10)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2019/P4)
 
-  5. **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64](https://github.com/PySEE/Practices/tree/S2019/P5)
+  5. **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64,Makefile, Shared Library](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-  6. **Bonus**(+5): [C/C++ Programming with GCC, Ubuntu,Version Control ](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
+  6. **Bonus**(+5): [GCC, Ubuntu,GSL,Gnuplot, Git/Github](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
 
-## Clone & Update Course
+### Using the Notebooks of PySEE/home 
 
-### Download the zip file of repository 
+#### Download the Files of  PySEE/home to Your Computer 
 
-This repository contain all files of the course. You can manually download these files, 
+You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
 ![download](./guide/img/downloadhome.jpg)
 
-### Using Git to clone a branch of repository to your computer 
+### Open the Notebooks of PySEE/home in Jupyter Notebook
 
-We **recommend** that you use [git](https://git-scm.com/download/) to **clone** and **update** this repository.
+Unzip `home.zip`.In the sub-folder of **notebook** of `home`,double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
-After you have installed **git**, You may use the following **commands:**
+>We **recommend** that you use [git](https://git-scm.com) to [clone and update the `home` repositoriey.](./guide/BuildingSoftwareEnvironment.md#e-using-git)
 
-#### clone a branch of repository:
-
-shallowly cloning the S2019 branch of repository for saving bandwidth
-
-```bash
->git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
-```
-
-This will create a folder **home** on your computer  with the files in subdirectories.
-
-#### Updating to The Latest Version
-
-As we release new files, or if we update an already released files, you'll have to update your repository.
-
-You can do this by changing into the **home** directory and executing:
-
-```bash
->git pull
-```
-
-That's it - you'll have the latest version of the repository.
-
-![download](./guide/img/clonehomedir.jpg)
-
->you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
-
-## TIPS
+### TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
 

@@ -4,23 +4,22 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
 <!-- TOC -->
 
 - [The Guide of  Building Software Environment](#the-guide-of--building-software-environment)
-    - [A:Python](#apython)
+    - [A:Python & PyPI](#apython--pypi)
         - [A.1 Customize Installation Python](#a1-customize-installation-python)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
         - [A.3 Install Packages](#a3-install-packages)
             - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
             - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
             - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
-    - [B:Jupyter](#bjupyter)
-        - [B.1 Install & Start-up Jupyter](#b1-install--start-up-jupyter)
+    - [B:Jupyter Notebook](#bjupyter-notebook)
+        - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
         - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
-    - [C:Install MinGW-W64](#cinstall-mingw-w64)
     - [D:Visual Studio Code](#dvisual-studio-code)
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
         - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
         - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
-    - [E:Git](#egit)
+    - [E: Using Git](#e-using-git)
         - [E.1 Install Git for Windows](#e1-install-git-for-windows)
         - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
@@ -32,12 +31,12 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
         - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
-        - [Visual Studio Code and  Jupyter notebooks](#visual-studio-code-and--jupyter-notebooks)
+        - [Open Jupyter Notebooks within Visual Studio Code](#open-jupyter-notebooks-within-visual-studio-code)
     - [References](#references)
 
 <!-- /TOC -->
 
-## A:Python
+## A:Python & PyPI
 
 Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**： https://www.python.org/downloads/windows/
 
@@ -154,13 +153,13 @@ or
 >python -m pip install autopep8 pylint
 ```
 
-## B:Jupyter
+## B:Jupyter Notebook
 
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
 
 ![jupyter-demo](./img/jupyter-demo.png)
 
-### B.1 Install & Start-up Jupyter
+### B.1 Install & Start-up Jupyter Notebook
 
 To install Jupyter,run the following command in a terminal:
 
@@ -176,9 +175,9 @@ To start up Jupyter, run the following command in a terminal:
 
 ### B.2 Literate programming your Jupyter Notebook in the `specific working folder`
 
-* `B.2.1` make the specific folder for  your **Jupyter Notebook**,for example: `D:/mynotebook`
+* `B.2.1` make **the specific folder** for  your Jupyter Notebook,for example: `D:/mynotebook`
 
-* `B.2.2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on "Open command window here" or "Open PowerShell window here"
+* `B.2.2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on `"Open command window here"` or `"Open PowerShell window here"`
 
 * `B.2.3` Enter `jupyter notebook` in cmd window of the folder,you will see the active jupyter server. the folder is the default  folder of your Jupyter Notebook 
 
@@ -206,15 +205,17 @@ To start up Jupyter, run the following command in a terminal:
 
 pre-installed:Python3 and Jupyter Notebook
 
-**B.3.1** Go to the repo **home** on the Github: https://github.com/PySEE/home download `home.zip`
+**B.3.1**  Download the zip file
+
+Go to the repo **home** on the Github: https://github.com/PySEE/home ,then download `home.zip` to your computer
 
 ![download home.zip](./img/downloadhome.jpg)
 
-**B.3.2** Start Jupyter Notebook of the course
- 
-  unzip home.zip, double-click  `StartNB.bat`  under the folder of **notebook** to start **Jupyter Notebook** 
+**B.3.2** Open the notebooks in Jupyter Notebook
 
-## C:Install MinGW-W64
+ unzip `home.zip`, double-click  `StartNB.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
+
+ ## C:Install MinGW-W64
 
 **C.1** Download MinGW-W64
 
@@ -228,9 +229,9 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-**C.2** unzip the ziped MinGW-w64 to **C:\mingw64**
+**C.2** unzip the ziped MinGW-w64, remove to **C:\mingw64**
 
-**C.3** Add C:\mingw64\bin to the system environment variable **Path**
+**C.3** Add **C:\mingw64\bin** to the system environment variable **Path**
 
    For Windows 10: 
 
@@ -251,12 +252,11 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 ### D.1 Download and Install Visual Studio Code 
  
-https://code.visualstudio.com/
+Download  Visual Studio Code https://code.visualstudio.com/, then install
 
 ### D.2 Install Extension: Python,C/C++
 
 * Python https://code.visualstudio.com/docs/languages/python
-
 
 * C/C++ https://code.visualstudio.com/docs/languages/cpp
 
@@ -266,27 +266,31 @@ https://code.visualstudio.com/
 ---
 * C/C++  ![vscode-gcc](./img/vscode-gcc.jpg)
 
-## E:Git
+## E: Using Git
 
-We **recommend** that you use [git](https://git-scm.com) to handle everything from the repositories of PySEE to your projects with speed and efficiency. 
+We **recommend** that you use [git](https://git-scm.com) to handle everything in the course: the repositories of PySEE,your projects,etc. 
 
 ### E.1 Install Git for Windows
 
-Download Git for Windows: https://git-scm.com/download/win
+Download Git for Windows: https://git-scm.com/download/win ,then install
 
 ### E.2 Clone & Update the PySEE/home 
 
 After you have installed **git**, You may use the following **commands:**
 
-* Clone the S2019 branch of the PySEE/home to your computer
+**Clone the S2019 branch of the PySEE/home to your computer**
+
+shallowly cloning the S2019 branch of repository for saving bandwidth
 
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
 
-* Updating to The Latest Version
+This will create a folder **home** on your computer  with the files in sub-folders.
 
-As we release new files, or if we update an already released files, you'll have to update your repository. You can do this by changing into the **home** directory and executing:
+**Updating to The Latest Version**
+
+As we release new files, or if we update an already released files, you'll have to update your repository. In the folder of home, run:
 
 ```bash
 >git pull
@@ -369,7 +373,7 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 ```bash 
 >python -m pip install -r requirements.txt 
 ```
-### Visual Studio Code and  Jupyter notebooks
+### Open Jupyter Notebooks within Visual Studio Code  
 
 * Install Visual Studio Code Tools for AI extension
 
@@ -421,14 +425,19 @@ https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-
    * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
 
    * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
-
-   * **Git** Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
+ 
 * 4 GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
-   * MinGW-W64(GCC) Compiler Suite: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+     * MinGW-W64(GCC) Compiler Suite: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
-   * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+     * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
-* 5 Git for Windows:  https://github.com/git-for-windows/git/releases
+* 5 Git
 
+    * Git  https://git-scm.com
+
+    * How to get started with GIT and work with GIT Remote Repo  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+    * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+
+    * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065

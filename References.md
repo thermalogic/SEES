@@ -67,16 +67,14 @@
 
 * FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
 
-### Git
+### Git/Github
 
 * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+* Git https://git-scm.com
 
 * How to get started with GIT and work with GIT Remote Repo  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
   
-* git-for-windows https://github.com/git-for-windows/git
-
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 ### Programming C/C++ with GCC

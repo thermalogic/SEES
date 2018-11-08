@@ -230,7 +230,7 @@
 
 * [Version Control](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Git.ipynb)
 
-   * [The Simple Guide to Git/Github](./guide/TheSimpleGuide2Github.md) 
+   * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md) 
 
    * **Homework**
 
