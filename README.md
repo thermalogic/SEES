@@ -88,9 +88,9 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 ### Open the Notebooks of PySEE/home in Jupyter Notebook
 
-Unzip `home.zip`.In the sub-folder of **notebook** of `home`,double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
+Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
->We **recommend** that you use [git](https://git-scm.com) to [clone and update the `home` repositoriey.](./guide/BuildingSoftwareEnvironment.md#e-using-git)
+>We **recommend** that you [use git to clone and update the `home` repositoriey.](./guide/BuildingSoftwareEnvironment.md#e-using-git)
 
 ### TIPS
 
