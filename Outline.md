@@ -10,7 +10,7 @@
 
   * **Homework**
    
-     * Read contents about  the course：Python，Jypyter,Markdown,Git/Github,Visual Studio Code
+     * Read the contents：Python, Jypyter, Markdown, Git, Github, Visual Studio Code
 
      * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
@@ -280,9 +280,13 @@
 
      * [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
-* **Appendix**
+* **Recap, Outlook**
 
-   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-1-Python35-Quick-Reference.ipynb)
+  * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-1-Python35-Quick-Reference.ipynb)
+  
+  * [Further Studing](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/guide/FurtherStuding.md)     
+  
+* **Appendix**
 
    * [Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
