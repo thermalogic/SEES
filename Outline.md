@@ -24,11 +24,11 @@
 
      * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
-* [PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-00_PREFACE.ipynb)
+* [PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-1-00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
 
-* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-02_INTRODUCTION_TO_PYTHON.ipynb)'
+* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)'
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -44,7 +44,7 @@
 
       * **Python Developer's Guide**: The Zen of Python ,PEP20; Coding convention: PEP8
      
-* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-3-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
    * Exhaustive Enumeration
  
@@ -60,7 +60,7 @@
     
      * [Install Numpy,Scipy,Matplotlib](./guide/BuildingSoftwareEnvironment.md)
 
-* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Functions and Scoping: Definitions, Lambdas,Keyword Arguments and Default Values
 
@@ -74,7 +74,7 @@
 
    * Files, Unicode
 
-* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
    * Tuples, Multiple Assignment
 
@@ -118,7 +118,7 @@
     
      * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
 
-* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-1-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
    * Abstract Data Types and Classes
 
@@ -128,7 +128,7 @@
 
    * Generators
 
-* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
+* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
    * **Matplotlib.pyplot**
     
