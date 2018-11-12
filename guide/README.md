@@ -11,6 +11,10 @@
 
 * [Coding and Running](./CodingRunning.md/)
 
+* [Further Studing](./FurtherStuding.md)
+
+* [Resources On Github](./ResourcesOnGithub.md)
+
 * [QA](./QA.md) 
 
 * [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:

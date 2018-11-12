@@ -24,11 +24,11 @@
 
      * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
-* [PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/00_PREFACE.ipynb)
+* [PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
 
-* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)'
+* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-02_INTRODUCTION_TO_PYTHON.ipynb)'
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -44,7 +44,7 @@
 
       * **Python Developer's Guide**: The Zen of Python ,PEP20; Coding convention: PEP8
      
-* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
    * Exhaustive Enumeration
  
@@ -60,7 +60,7 @@
     
      * [Install Numpy,Scipy,Matplotlib](./guide/BuildingSoftwareEnvironment.md)
 
-* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Functions and Scoping: Definitions, Lambdas,Keyword Arguments and Default Values
 
@@ -74,7 +74,7 @@
 
    * Files, Unicode
 
-* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
    * Tuples, Multiple Assignment
 
@@ -90,7 +90,7 @@
     
      * [Install iapws](./guide/BuildingSoftwareEnvironment.md),[Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
- * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+ * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-1-PyThermo-IF97.ipynb)
 
     * IAPWS-IF97
 
@@ -106,19 +106,19 @@
    
        * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
-* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+* [PyThermo-IdealRankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-2-PyThermo-IdealRankineCycle.ipynb)
 
    * the expression directly
    
    * List,Dict,Function
 
-   * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-MathJax-LaTeX.ipynb)
+   * [MathJax,LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-3-PyThermo-MathJax-LaTeX.ipynb)
 
   * **Homework**
     
      * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
 
-* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
    * Abstract Data Types and Classes
 
@@ -128,7 +128,7 @@
 
    * Generators
 
-* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
+* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
 
    * **Matplotlib.pyplot**
     
@@ -146,13 +146,13 @@
 
 * **The General simulator of Rankine Cycle**
 
-   * [The Object-oriented programming of Ideal Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+   * [The Object-oriented programming of Ideal Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
    * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
 
-     * [The CSV,JSON Representation of Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-CSV-JSON-RankineCycle.ipynb)
+     * [The CSV,JSON Representation of Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
 
-     * [JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb)
+     * [JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-4-PyThermo-JSON-Python.ipynb)
 
      * [Python's Packages,Redirect stdout,glob](https://github.com/PySEE/PyRankine/step4)
   
@@ -160,15 +160,15 @@
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
-   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-ReheatCycle-Optimization.ipynb)
+   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-4-PyThermo-ReheatCycle-Optimization.ipynb)
 
-* [18 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
    * The Behavior of Springs： CSV File, Numpy's Linear Regression
 
    * The Behavior of Projectiles: Coefficient of Determination
  
-* [21 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [21 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
    * It’s just as easy to **lie with numbers** as it is to lie with words
    
@@ -176,7 +176,7 @@
 
      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4)  
 
-* [07 EXCEPTIONS AND ASSERTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
+* [07 EXCEPTIONS AND ASSERTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture6-1-07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
    * Built-In Exception, `try: except` 
 
@@ -190,7 +190,7 @@
 
    * `assert` statement
 
-* [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/06_TESTING_AND_DEBUGGING.ipynb)
+* [06 TESTING AND DEBUGGING](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture6-2-06_TESTING_AND_DEBUGGING.ipynb)
 
    * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
 
@@ -200,25 +200,25 @@
 
 * **Python's DevTools**
 
-   * [unittest — Unit testing framework](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_unittest.ipynb)
+   * [unittest — Unit testing framework](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-1-DevTools_unittest.ipynb)
 
      * `unittest.TestCase`, test*，Asserting 
 
-     * Test Fixtures:`Setup`,`tearDown`
+     * Test Fixtures:`setUp`,`tearDown`
 
      * Test Suites
 
      * `*args`，`**kwargs`
 
-   * [doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_doctest.ipynb)
+   * [doctest](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-2-DevTools_doctest.ipynb)
+     
+     * `import doctest`
 
-       * `doctest.testmod()`
-
-   * [timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_timeit.ipynb)
+   * [timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-3-DevTools_timeit.ipynb)
 
        * `%time it`, `import timeit`
 
-   * [Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Profilers.ipynb)
+   * [Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-4-DevTools_Profilers.ipynb)
 
        * `cProfile.run`,pstats
 
@@ -228,7 +228,7 @@
        
        * **Decorator**, **Property**,`@property`,Private Variables(`_`)
 
-* [Version Control](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/DevTools_Git.ipynb)
+* [Version Control](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-5-DevTools_Git.ipynb)
 
    * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md) 
 
@@ -236,7 +236,7 @@
 
      * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
 
-* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_1_GCC_DLL.ipynb)
+* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_DLL.ipynb)
 
    * gcc/g++
 
@@ -246,7 +246,7 @@
 
    * the **Shared Library** 
 
-* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_2_DLL_Python.ipynb)
+* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_DLL_Python.ipynb)
 
    * Once-Only Headers
 
@@ -258,7 +258,7 @@
 
      * **Softwares**: SEUIF97 Dll, Office Excel 2013 above(64)
 
-* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_3_DLL_VBA_Python.ipynb)
+* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_3_DLL_VBA_Python.ipynb)
 
    * `__stdcall`,`windll.LoadLibrary`
 
@@ -270,7 +270,7 @@
 
      * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
 
-* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
+* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
    * [Ubuntu](./guide/Ubuntu-Python-C-Chinese.md)
 
@@ -282,8 +282,12 @@
 
 * **Appendix**
 
-   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Python35-Quick-Reference.ipynb)
+   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-1-Python35-Quick-Reference.ipynb)
 
-   * [1-Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/App-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+   * [Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [2-GCC-GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/App-2-GCC-GFortran.ipynb)
+   * [GCC-GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-GCC-GFortran.ipynb)
+
+ 
+
+  

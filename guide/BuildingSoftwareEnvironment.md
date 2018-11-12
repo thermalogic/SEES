@@ -280,20 +280,20 @@ After you have installed **git**, You may use the following **commands:**
 
 **Clone the S2019 branch of the PySEE/home to your computer**
 
-shallowly cloning the S2019 branch of repository for saving bandwidth
+Cloning the S2019 branch of repository shallowly for saving bandwidth
 
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
 ```
 
-This will create a folder **home** on your computer  with the files in sub-folders.
+When you clone a repository you set up a copy on your computer. This will create a folder **home** on your computer with the files in sub-folders.
 
 **Updating to The Latest Version**
 
-As we release new files, or if we update an already released files, you'll have to update your repository. In the folder of home, run:
+As we release new files or  update files, you'll have to update your repository. You can do this by changing into the `home` directory and executing:
 
 ```bash
->git pull
+git pull
 ```
 
 That's it - you'll have the latest version of the repository.
@@ -383,7 +383,6 @@ https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/installation.m
 https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-jupyter.md
 
    * Set Python path properly in VS Code，for example: C:/python37/python.exe
-
 
    * Open Jupyter notebooks in VS Code
 
