@@ -61,6 +61,8 @@
 
 * FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
 
+* Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
+
 * Visual Studio Code：https://code.visualstudio.com/
 
 ### Git & Github

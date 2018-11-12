@@ -148,6 +148,8 @@
 
    * [The Object-oriented programming of Ideal Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
+     * Computational thinking
+
    * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
 
      * [The CSV,JSON Representation of Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
