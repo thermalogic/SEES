@@ -48,11 +48,11 @@
  
    * Exhaustive Enumeration
  
-   * `For Loops`
+   * `For Loops`,`range(start,stop,step)`
 
    * Approximate Solutions and Bisection Search
 
-   * About Using Floats
+   * About Using Floats,`round(x, numDigits)`
 
    * Newton-Raphson
 
