@@ -38,7 +38,7 @@
       
       * **Branching Programs** : `if-else `
      
-      * **Strings and Input**: String Slicing, Input
+      * **Strings and Input**: String, Slicing, Input
 
       * **Iteration**:  `while `
 
@@ -50,7 +50,7 @@
  
    * `For Loops`,`range(start,stop,step)`
 
-   * Approximate Solutions and Bisection Search
+   * Approximate Solutions and Bisection Search, Fancier Output Formatting, `str.format()` 
 
    * About Using Floats,`round(x, numDigits)`
 
