@@ -9,7 +9,7 @@
 
 * [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C-Chinese.md) 
 
-* [Coding and Running](./CodingRunning.md/)
+* [Coding With Terminal](./CodingWithTerminal.md/)
 
 * [Further Studing](./FurtherStuding.md)
 
