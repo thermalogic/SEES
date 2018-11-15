@@ -1,0 +1,15 @@
+
+CC=gcc
+CFLAGS=-O3 -Wall -fPIC -o 
+
+all: libfibso
+
+libfibso: fibobj
+	 $(CC) -shared -o ./code/gcc/libfib ./code/bin/fib.o
+	 rm -f fib.o
+    
+fibobj: ./code/gcc/fib.c
+	 $(CC) -c $(CFLAGS) ./code/bin/fib.o ./code/gcc/fib.c
+     
+clean:
+	 rm -f ./code/bin/libfib.so

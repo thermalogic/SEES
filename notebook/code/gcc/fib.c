@@ -1,5 +1,5 @@
 
-#include "fibonacci.h"
+#include "fib.h"
 
 /*
 * Function to compute nth Fibonacci number.

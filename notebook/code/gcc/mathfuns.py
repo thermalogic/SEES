@@ -1,8 +1,7 @@
 
 from ctypes import windll,c_double
 
-flib = windll.LoadLibrary('./code/gcc/libmathfuns.dll')
-
+flib = windll.LoadLibrary('./code/bin/libmathfuns.dll')
 
 def fadd(a,b):
     flib.fadd.argtypes = [c_double,c_double]

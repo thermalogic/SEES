@@ -1,0 +1,12 @@
+
+all: mainfibexe
+
+clean:
+	rm -f ./code/bin/mainfib
+
+mainfibexe: mainfibobj ./code/gcc/fib.h 
+	gcc -o ./code/bin/mainfib ./code/bin/mainfib.o -I./code/gcc/ -L./code/bin/ -lfib -Wl,-rpath=./code/bin/ 
+	rm -f *.o
+
+mainfibobj: ./code/gcc/mainfib.c 
+	gcc -c -o ./code/bin/mainfib.o ./code/gcc/mainfib.c

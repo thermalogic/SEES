@@ -3,7 +3,7 @@ from ctypes import cdll,c_void_p,c_int,c_long,c_double,POINTER,byref
 import numpy as np
 
 
-_lib = cdll.LoadLibrary('./code/gcc/libmultifuns.dll')
+_lib = cdll.LoadLibrary('./code/bin/libmultifuns.dll')
 
 # double dprod(double *x, int n)
 def dprod(x):

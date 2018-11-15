@@ -1,7 +1,7 @@
 
 #include <stdio.h>  /* printf, NULL */
 #include <stdlib.h> /* calloc, exit, free */
-#include "fibonacci.h"
+#include "fib.h"
 
 int main() {
 

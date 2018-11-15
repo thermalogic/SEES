@@ -1,6 +1,6 @@
 
-#ifndef FIBONACCI_H
-#define FIBONACCI_H
+#ifndef FIB_H
+#define FIB_H
 
 /*
   Up to 93rd Fibonacci number, starting from 0th  can be computed. 

@@ -1,0 +1,19 @@
+
+CC=gcc
+CFLAGS=-O3 -Wall -fPIC  
+
+INC = -I ./code/gcc/ 
+
+SRCS= ./code/gcc/funs.c ./code/gcc/fib.c 
+
+all: libmultifuns.dll
+
+libmultifuns.dll: multifunsobj
+	 $(CC)  -shared -o ./code/gcc/libmultifuns.dll funs.o fib.o
+	 del funs.o fib.o
+    
+multifunsobj: 
+	 $(CC) -c $(CFLAGS) $(INC) $(SRCS) 
+     
+clean:
+	 del .\code\bin\libmultifuns.dll

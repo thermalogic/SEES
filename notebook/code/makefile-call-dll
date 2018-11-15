@@ -1,0 +1,12 @@
+
+all: mainfibexe
+
+clean:
+	del .\code\bin\mainfib.exe
+
+mainfibexe: mainfibobj ./code/gcc/fib.h 
+	gcc -o ./code/bin/mainfib.exe ./code/bin/mainfib.o -I./code/gcc/ -L./code/bin/ -lfib
+	del *.o
+
+mainfibobj: ./code/gcc/mainfib.c 
+	gcc -c -o ./code/bin/mainfib.o ./code/gcc/mainfib.c 

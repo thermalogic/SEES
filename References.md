@@ -47,8 +47,6 @@
 
 ### Markdown
 
-* [CommonMark](http://commonmark.org/)
-
 * [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)

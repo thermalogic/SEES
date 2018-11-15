@@ -38,7 +38,7 @@
       
       * **Branching Programs** : `if-else `
      
-      * **Strings and Input**: String, Slicing, Input
+      * **Strings and Input**: String, Slicing, Input, Unicode
 
       * **Iteration**:  `while `
 
@@ -62,7 +62,7 @@
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
-   * Functions and Scoping: Definitions, Lambdas,Keyword Arguments and Default Values
+   * Functions and Scoping: Definitions, Lambdas, Positional, Keyword Arguments and Default Values
 
    * Specifications, docstring
 
@@ -72,7 +72,7 @@
 
    * Module, the interpreter search path, `sys.path`, Scipy
 
-   * Files, Unicode
+   * Files
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
@@ -240,25 +240,23 @@
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_DLL.ipynb)
 
-   * gcc/g++
+   * gcc/g++, once-only headers
 
      * C stdio.h: `scanf,printf`
 
    * GNU **Make**
 
    * the **Shared Library** 
+   
+   * **Homework**
+
+        * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_DLL_Python.ipynb)
 
-   * Once-Only Headers
-
-   * `ctypes`,`__cdecl`
+  * `ctypes`,`__cdecl`
   
-   * **Homework**
-
-     * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
-
-     * **Softwares**: SEUIF97 Dll, Office Excel 2013 above(64)
+  * **Softwares**: SEUIF97 Dll, Office Excel 2013 above(64)
 
 * [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_3_DLL_VBA_Python.ipynb)
 

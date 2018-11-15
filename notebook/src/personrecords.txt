@@ -1,3 +1,0 @@
-name        age      city
-zhangsan    28      nanjing
-lishi       18      shanghai
