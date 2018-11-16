@@ -284,7 +284,7 @@
 
   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-1-Python35-Quick-Reference.ipynb)
   
-  * [Further Studing](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/guide/FurtherStuding.md)     
+  * [Further Studing](./guide/FurtherStuding.md)     
   
 * **Appendix**
 
