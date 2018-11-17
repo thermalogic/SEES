@@ -126,7 +126,7 @@
 
    * Encapsulation and Information Hiding
 
-   * Generators
+   * `pass`,Generators
 
 * [11.1 PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
