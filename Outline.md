@@ -62,7 +62,7 @@
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
-   * Functions and Scoping: Definitions, Lambdas, Positional, Keyword Arguments and Default Values
+   * Functions and Scoping: Definitions,  Positional, Keyword Arguments and Default Values
 
    * Specifications, docstring
 
@@ -78,9 +78,9 @@
 
    * Tuples, Multiple Assignment
 
-   * **Lists**,  **Mutability**, Cloning,List Comprehension
+   * **Lists**,  **Mutability**, Cloning, List Comprehension
 
-   * Functions as Objects
+   * Functions as Objects，Lambdas
 
    * Strings
 
@@ -128,7 +128,7 @@
 
    * Generators
 
-* [11 PLOTTING AND MORE ABOUT CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
+* [11.1 PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
     
@@ -166,7 +166,9 @@
 
 * [18 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-   * The Behavior of Springs： CSV File, Numpy's Linear Regression
+   * The Behavior of Springs： CSV File 
+   
+       * Numpy: array,polyfit,Arithmetic Operations : elementwise
 
    * The Behavior of Projectiles: Coefficient of Determination
  
@@ -288,9 +290,13 @@
   
 * **Appendix**
 
-   * [Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [GCC-GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-GCC-GFortran.ipynb)
+   * [Python: Stack Queues, Set)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-Stack_Queues_Set.ipynb)
+
+   * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-4-11-2_Plotting_Mortgages.ipynb)
+
+   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-GCC-GFortran.ipynb)
 
  
 

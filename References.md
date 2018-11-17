@@ -9,7 +9,11 @@
 
    * [Accompanying Python3 Code]( https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
 
-   * [MIT OpenCourseWare：Introduction to Computer Science and Programming](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
+   * MIT OpenCourseWare
+   
+       * [Introduction to Computer Science and Programming fall 2016](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016//)
+
+       * [Introduction to Computational Thinking and Data Science fall 2016](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
 
    * edX Course
          
