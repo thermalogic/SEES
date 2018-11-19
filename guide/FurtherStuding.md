@@ -7,13 +7,13 @@
 
 * Tornado http://www.tornadoweb.org/en/stable/
 
-     * PyThermometer https://github.com/PySEE/PyThermometer
+     * PyThermometer https://github.com/thermalogic/PyThermometer
 
 ## GUI Development
 
 * PyQt: https://riverbankcomputing.com/software/pyqt/intro
 
-     * PyThermometer(PyQt4) https://github.com/PySEE/PyThermometer
+     * PyThermometer(PyQt4) https://github.com/thermalogic/PyThermometer
 
 ## Scientific and Numeric
 
@@ -51,11 +51,11 @@
 
 * Arduino https://www.arduino.cc/
 
-     * PyThermometer https://github.com/PySEE/PyThermometer
+     * PyThermometer https://github.com/thermalogic/PyThermometer
 
 ## Microsoft Excel
 
-* [Language reference for Visual Basic for Applications (VBA)](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
+* [Language reference for Visual Basic for Applications(VBA)](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
 
 * [Excel VBA reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
 
