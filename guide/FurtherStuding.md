@@ -59,7 +59,7 @@
 
 * [Excel VBA reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
 
-  * [The Examples of Excel VBA for Engineering](https://github.com/ThermalogicArchive/Excel4Engineering)
+  * [The Examples of Excel VBA for Engineering](https://github.com/thermalogic/Excel4Engineering)
 
 * [Excel add-in tutorial](https://docs.microsoft.com/en-us/office/dev/add-ins/tutorials/excel-tutorial)
 
