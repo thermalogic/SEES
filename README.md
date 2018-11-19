@@ -96,7 +96,5 @@ Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `Star
 
 We highly recommend you practice coding whenever you have a few minutes.
 
-You **NEED** to **get your hands dirty** and **practice**
-
 # [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)
 
