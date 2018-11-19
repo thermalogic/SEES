@@ -25,12 +25,6 @@
 
 * Python 3 Module of the Week  https://pymotw.com/
 
-* [programming notes](http://www3.ntu.edu.sg/home/ehchua/programming/index.html)
-
-    * [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
-
-    * [Python Object Oriented Programming (OOP)](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1a_OOP.html)
-
 ### Python for mathematics, science and engineering
 
 * Scipy. http://www.scipy.org/
