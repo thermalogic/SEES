@@ -7,7 +7,7 @@
 
    * 陈光欣译. Python编程导论.  人民邮电出版社(第2版). 2018年2月1日
 
-   * [Accompanying Python3 Code]( https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
+   * [Accompanying Python3 Code](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
 
    * MIT OpenCourseWare
    
