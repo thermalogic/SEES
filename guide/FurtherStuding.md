@@ -53,8 +53,15 @@
 
      * PyThermometer https://github.com/PySEE/PyThermometer
 
-## MS Excel
+## Microsoft Excel
 
-* [Micorsoft Build powerful applications for Excel](https://developer.microsoft.com/en-us/excel)
+* [Language reference for Visual Basic for Applications (VBA)](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
+
+* [Excel VBA reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
 
   * [The Examples of Excel VBA for Engineering](https://github.com/PySEE/Excel4Engineering)
+
+* [Excel add-in tutorial](https://docs.microsoft.com/en-us/office/dev/add-ins/tutorials/excel-tutorial)
+
+* [Excel JavaScript API]( https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview?view=office-js)
+
