@@ -53,3 +53,8 @@
 
      * PyThermometer https://github.com/PySEE/PyThermometer
 
+## MS Excel
+
+* [Micorsoft Build powerful applications for Excel](https://developer.microsoft.com/en-us/excel)
+
+  * [The Examples of Excel VBA for Engineering](https://github.com/PySEE/Excel4Engineering)
