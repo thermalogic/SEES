@@ -14,7 +14,7 @@ We will cover:
 * apply [computational thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
 * use **computational tools** to model and understand data [Numpy, Scipy,Matplotlib](https://www.scipy.org/)
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
-* write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and evaluate software quality
+* write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and analysis software performance
 * C/C++ programming with [GCC](https://gcc.gnu.org/)
 * version control with [Git/Github](https://git-scm.com/) 
 
