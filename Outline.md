@@ -220,7 +220,7 @@
 
    * [timeit](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-3-DevTools_timeit.ipynb)
 
-       * `%time it`, `import timeit`
+       * `%timeit`, `import timeit`
 
    * [Profilers](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture7-4-DevTools_Profilers.ipynb)
 
