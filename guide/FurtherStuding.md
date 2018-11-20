@@ -17,9 +17,9 @@
 
 ## Scientific and Numeric
 
-* Pandas http://pandas.pydata.org/
-
 * Wes McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython(2nd Edition) O'Reilly Media, 2017 https://github.com/wesm/pydata-book
+
+* Pandas http://pandas.pydata.org/
 
 * The University of Utah, Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) 
 
