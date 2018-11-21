@@ -24,9 +24,9 @@ We will cover:
 
 * **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
 
-   * Python, Jupyter,Numpy,Scipy,Matplotlib，Visual Studio Code,IAPWS,SEUIF97
+   * Python,Jupyter,Visual Studio Code,Numpy,Scipy,Matplotlib,IAPWS,SEUIF97
    
-   * GCC,GSL,Gnuplot
+   * MinGW-WG4(GCC); Ubuntu,GSL,Gnuplot
    
    * Git,Github
  
@@ -42,7 +42,7 @@ We will cover:
    
    * [Notebook: Lectures in Jupyter Notebook](./notebook)
 
-     Please install Jupyter to read and **interactive** with the notebook.
+     Please install Jupyter to read and **interactive** with the notebooks.
 
      **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
 
