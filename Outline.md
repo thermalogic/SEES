@@ -140,7 +140,7 @@
 
      * type size and line width , `reParams`
 
-     * `%matplotlib.pyplot inline`
+     * `%matplotlib inline`
 
   * **Examples**: IF97 T-S,H-S Diagram; The Rankine Cycle T-S  Diagrams
 
