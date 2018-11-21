@@ -174,8 +174,12 @@
  
 * [21 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-   * It’s just as easy to **lie with numbers** as it is to lie with words
+   * Numpy: genfromtxt,mean,var,corrcoef
    
+   * Matplotlib: bar, subplot 
+
+   * It’s just as easy to **lie with numbers** as it is to lie with words
+
    * **Homework**
 
      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4)  
