@@ -7,7 +7,7 @@
 
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
-* [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-C-Chinese.md) 
+* [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-CPP(Chinese).md) 
 
 * [Coding With Terminal](./CodingWithTerminal.md/)
 
