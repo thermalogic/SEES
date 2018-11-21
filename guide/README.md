@@ -1,5 +1,5 @@
 
-# Learing by Doing！做中学！
+# Learing by Coding！做中学！
 
 * [The Guide of  Building Software Environment](./BuildingSoftwareEnvironment.md)
 
