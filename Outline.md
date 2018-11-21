@@ -296,7 +296,7 @@
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [Python: Stack Queues, Set)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-Stack_Queues_Set.ipynb)
+   * [Python: Stack Queues, Set](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-Stack_Queues_Set.ipynb)
 
    * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-4-11-2_Plotting_Mortgages.ipynb)
 
