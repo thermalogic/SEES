@@ -26,7 +26,7 @@ We will cover:
 
    * Python,Jupyter,Visual Studio Code,Numpy,Scipy,Matplotlib,IAPWS,SEUIF97
    
-   * MinGW-WG4(GCC); Ubuntu,GSL,Gnuplot
+   * MinGW-W64(GCC); Ubuntu,GSL,Gnuplot
    
    * Git,Github
  
