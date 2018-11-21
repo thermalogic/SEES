@@ -1,5 +1,5 @@
 
-## Foundamentals and Practice of Software Engineering
+# Foundamentals and Practice of Software Engineering
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
