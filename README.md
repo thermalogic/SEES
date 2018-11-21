@@ -24,7 +24,7 @@ We will cover:
 
 * **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
 
-   * Python,Jupyter,Visual Studio Code,Numpy,Scipy,Matplotlib,IAPWS,SEUIF97
+   * Python,Jupyter,Visual Studio Code,NumPy,SciPy,Matplotlib,IAPWS,SEUIF97
    
    * MinGW-W64(GCC); Ubuntu,GSL,Gnuplot
    
