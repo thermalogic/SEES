@@ -276,9 +276,9 @@
 
      * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
 
-* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
+* [CPP_4_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_Ubuntu_GSL_GNUPLOT.ipynb)
 
-   * [Ubuntu](./guide/Ubuntu-Python-C-Chinese.md)
+   * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
    * GSL,Gnuplot
    

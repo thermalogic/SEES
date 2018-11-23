@@ -55,18 +55,6 @@
 
 * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
-### Software Engineering
-
-* Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-
-* Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
-
-* FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
-
-* Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
-
-* Visual Studio Code：https://code.visualstudio.com/
-
 ### Git & Github
 
 * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
@@ -76,16 +64,6 @@
 * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
   
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
-### Programming C/C++ with GCC
-
-* GCC, the GNU Compiler Collection：http://gcc.gnu.org/
-
-* GCC for Windows 64 & 32 bits：http://mingw-w64.org/
-
-* An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
-
-* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ### Engineering System
 
@@ -97,5 +75,32 @@
 
 * R Sinha, Christiaan J. J. Paredis. etc. Modeling and Simulation Methods for Design of Engineering Systems. Transactions of the ASME[J]. 2001.03(1):84-91
 
+### Programming C/C++ with GCC
 
+* GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
+* GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
+* An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
+
+* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+
+### Ubuntu
+
+* edX: Introduction to Linux https://www.edx.org/course/introduction-to-linux
+
+* Ubuntu https://www.ubuntu.com/
+
+  * Ubuntukylin https://www.ubuntukylin.com/
+
+### Software Engineering
+
+* Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+
+* Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
+
+* FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
+
+* Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
+
+* Visual Studio Code：https://code.visualstudio.com/ 

@@ -80,7 +80,7 @@ https://github.com/PySEE/Practices/
 
 ### Using the Notebooks of PySEE/home 
 
-#### Download the Files of  PySEE/home to Your Computer 
+#### Download the *PySEE/home* Repository to Your Computer 
 
 You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
