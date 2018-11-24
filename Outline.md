@@ -246,9 +246,9 @@
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_DLL.ipynb)
 
-   * gcc/g++, once-only headers
-
-     * C stdio.h: `scanf,printf`
+   * GNU,GCC,MinGW-W64
+   
+   * once-only headers, stdio.h: `scanf,printf`
 
    * GNU **Make**
 
@@ -278,7 +278,7 @@
 
 * [CPP_4_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_Ubuntu_GSL_GNUPLOT.ipynb)
 
-   * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
+   * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
    * GSL,Gnuplot
    
