@@ -15,6 +15,9 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
         - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
+    - [C:Install MinGW-W64](#cinstall-mingw-w64)
+        - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
+        - [C.2 Set MinGW-w64 Environment](#c2-set-mingw-w64-environment)
     - [D:Visual Studio Code](#dvisual-studio-code)
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
         - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
@@ -215,9 +218,9 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
  unzip `home.zip`, double-click  `StartNB.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
 
- ## C:Install MinGW-W64
+## C:Install MinGW-W64
 
-**C.1** Download MinGW-W64
+### C.1 Download MinGW-W64
 
 Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
@@ -229,9 +232,11 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
   
   ![mingw-w64](./img/mingw-w64.jpg)
 
-**C.2** unzip the ziped MinGW-w64, remove to **C:\mingw64**
+### C.2 Set MinGW-w64 Environment
 
-**C.3** Add **C:\mingw64\bin** to the system environment variable **Path**
+**C.2.1** unzip the ziped MinGW-w64, remove to **C:\mingw64**
+
+**C.2.2** Add **C:\mingw64\bin** to the system environment variable **Path**
 
    For Windows 10: 
 
@@ -239,12 +244,12 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
-**C.4** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
+**C.2.3** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
 
-**C.5** Verify the GCC installation by listing the version of gcc:
+**C.2.4** Verify the GCC installation by listing the version of gcc:
 ```bash
 > gcc --version
-``` 
+```
 
 ## D:Visual Studio Code
 

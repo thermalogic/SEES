@@ -79,7 +79,7 @@
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
-* GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+* MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
