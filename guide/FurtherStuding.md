@@ -37,9 +37,11 @@
 
 * OpenMDAO: An open-source MDAO framework written in Python  http://openmdao.org/
 
-## GNU & Linux 
+## Linux 
 
 * GNU http://www.gnu.org
+
+* edX: Introduction to Linux https://www.edx.org/course/introduction-to-linux
 
 * Ubuntu https://www.ubuntu.com/
 

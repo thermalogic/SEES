@@ -87,8 +87,6 @@
 
 ### Ubuntu
 
-* edX: Introduction to Linux https://www.edx.org/course/introduction-to-linux
-
 * Ubuntu https://www.ubuntu.com/
 
   * Ubuntukylin https://www.ubuntukylin.com/
