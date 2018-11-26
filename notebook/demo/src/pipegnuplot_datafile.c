@@ -11,7 +11,7 @@ int main (void)
       fprintf(gnuplotPipe, "set xlabel 'Distances'\n");
       fprintf(gnuplotPipe, "set ylabel 'Mass'\n");
       fprintf(gnuplotPipe, "set title 'Observable'\n");
-      fprintf(gnuplotPipe, "plot './src/springData.csv' using 1:2 title 'Mass=f(Distance)-' \n");
+      fprintf(gnuplotPipe, "plot './demo/data/springData.csv' using 1:2 title 'Mass=f(Distance)-' \n");
 
     fflush(gnuplotPipe); //flush pipe
 

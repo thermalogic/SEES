@@ -1,9 +1,0 @@
-
-all: libctypemoredll
-
-libctypemoredll: obj
-	 g++  -shared -o ./demo/bin/libctypemore.dll ctypemore.o
-	 del ctypemore.o
-
-obj: 
-	 g++ -c -O3 -Wall -fPIC  ./demo/src/ctypemore.cpp 
