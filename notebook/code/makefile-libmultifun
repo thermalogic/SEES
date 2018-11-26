@@ -2,18 +2,23 @@
 CC=gcc
 CFLAGS=-O3 -Wall -fPIC  
 
-INC = -I ./code/gcc/ 
+SRCDIR= ./demo/src/
+OBJDIR= ./demo/obj/
+BINDIR= ./demo/bin/
 
-SRCS= ./code/gcc/funs.c ./code/gcc/fib.c 
+INC = -I$(SRCDIR) 
+
+SRCS= $(SRCDIR)funs.c \
+      $(SRCDIR)SumArray.c 
 
 all: libmultifuns.dll
 
 libmultifuns.dll: multifunsobj
-	 $(CC)  -shared -o ./code/gcc/libmultifuns.dll funs.o fib.o
-	 del funs.o fib.o
+	 $(CC)  -shared -o $(BINDIR)libmultifuns.dll funs.o SumArray.o
+	 del funs.o SumArray.o
     
 multifunsobj: 
 	 $(CC) -c $(CFLAGS) $(INC) $(SRCS) 
      
 clean:
-	 del .\code\bin\libmultifuns.dll
+	 del .\demo\bin\libmultifuns.dll

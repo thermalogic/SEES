@@ -268,6 +268,8 @@
 
    * `__stdcall`,`windll.LoadLibrary`
 
+   * Unit Test for C
+
    * Excel VBA 
 
    * **Homework**
@@ -300,7 +302,9 @@
 
    * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-4-11-2_Plotting_Mortgages.ipynb)
 
-   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-GCC-GFortran.ipynb)
+   * [ctypes more)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-ctypes_more.ipynb)
+
+   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-6-GCC-GFortran.ipynb)
 
  
 

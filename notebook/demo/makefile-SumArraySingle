@@ -1,0 +1,12 @@
+
+all: SumArraySingle
+
+SumArraySingle: obj
+	 gcc -o ./demo/bin/SumArraySingle.exe ./demo/obj/SumArraySingle.o
+	 del .\demo\obj\SumArraySingle.o
+    
+obj: ./demo/src/SumArraySingle.c
+	 gcc -c -o ./demo/obj/SumArraySingle.o ./demo/src/SumArraySingle.c
+     
+clean:
+	 del .\demo\bin\SumArraySingle.exe
