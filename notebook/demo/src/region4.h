@@ -1,19 +1,31 @@
 
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifdef BUILD_DLL
 
     #ifdef WIN32
-      #define DLLPORT __declspec(dllexport) __stdcall 
+        #define DLLPORT __declspec(dllexport) __stdcall 
     #else
-      #define DLLPORT 
-    #endif
+        #define DLLPORT 
+    #endif    
 
 #else
 
-#define DLLPORT 
+    #ifdef WIN32
+        #define DLLPORT __declspec(dllimport) __stdcall   
+    #else
+        #define DLLPORT 
+    #endif    
 
 #endif
 
-DLLPORT __stdcall double pSat(double T);
-DLLPORT __stdcall double TSat(double p);
+DLLPORT  double pSat(double T);
+DLLPORT  double TSat(double p);
+        
+#ifdef __cplusplus
+	}
+#endif        
