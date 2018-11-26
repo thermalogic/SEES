@@ -248,7 +248,9 @@
 
    * GNU,GCC,MinGW-W64
    
-   * once-only headers, stdio.h: `scanf,printf`
+   * C/C++ Preprocessor Directives, once-only headers, 
+   
+      * C :stdio.h: `scanf,printf`
 
    * GNU **Make**
 
@@ -266,7 +268,7 @@
 
 * [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_3_DLL_VBA_Python.ipynb)
 
-   * `__stdcall`,`windll.LoadLibrary`
+   * Windows DLL：`__stdcall`,`windll.LoadLibrary`
 
    * Unit Test for C
 
@@ -305,7 +307,3 @@
    * [ctypes more)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-ctypes_more.ipynb)
 
    * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-6-GCC-GFortran.ipynb)
-
- 
-
-  
