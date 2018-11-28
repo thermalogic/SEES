@@ -36,8 +36,6 @@
 
 <!-- /TOC -->
 
-
-
 ## 1 本地Git和远程Github版本控制的初始化
 
 对项目工作目录进行本地Git和远程Github版本控制需要做的初始化工作，只需做一次。
@@ -45,6 +43,8 @@
 ### 1.1 本地安装Git、远程建立Github账户
 
 ### 1.2 配置Git本地用户名和email(和Github账户一致）
+
+Configuration：Every git user should first introduce himself to git, by running these two commands:
 
 ```bash
 >git config --global user.name  yourname
