@@ -244,35 +244,33 @@
 
      * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
 
-* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_DLL.ipynb)
+* [CPP_1_GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_MAKE.ipynb)
 
    * GNU,GCC,MinGW-W64
+
+   * GNU **Make**
    
    * C/C++ Preprocessor Directives, once-only headers, 
    
       * C :stdio.h: `scanf,printf`
 
-   * GNU **Make**
+* [CPP_2_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_GCC_DLL.ipynb)
 
-   * the **Shared Library** 
-   
-   * **Homework**
-
-        * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
-
-* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_DLL_Python.ipynb)
-
-  * `ctypes`,`__cdecl`
+  * the **Shared Library** :Linux,Windows
   
-  * **Softwares**: SEUIF97 Dll, Office Excel 2013 above(64)
+  * **Homework**
 
-* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_3_DLL_VBA_Python.ipynb)
+      * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-   * Windows DLL：`__stdcall`,`windll.LoadLibrary`
+* [CPP_3_Python_ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_3_ython_ctypes.ipynb)
 
-   * Unit Test for C
+  * ctypes: `__cdecl`,`__stdcall`,`windll.LoadLibrary`
+  
+ * [CPP_4_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_DLL_VBA_Python.ipynb)
 
-   * Excel VBA 
+   * IAPWS-IF97,Windows DLL,Unit Test for C
+
+   * Excel VBA (Excel 2013 above(64)
 
    * **Homework**
     
@@ -280,7 +278,7 @@
 
      * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
 
-* [CPP_4_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_Ubuntu_GSL_GNUPLOT.ipynb)
+* [CPP_5_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5-CPP_5_Ubuntu_GSL_GNUPLOT.ipynb)
 
    * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
@@ -304,6 +302,4 @@
 
    * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-4-11-2_Plotting_Mortgages.ipynb)
 
-   * [ctypes variable](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-ctypes_variable.ipynb)
-
-   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-6-GCC-GFortran.ipynb)
+   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-GCC-GFortran.ipynb)

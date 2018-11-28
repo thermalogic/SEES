@@ -1,5 +1,4 @@
 
-#include <stdio.h>
 #include "funs.h"
 
 // x[0]*x[1]*...*x[n-1]

@@ -87,6 +87,8 @@
 
 * [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
+* Robert Mecklenburg. [Managing Projects with GNU Make(Third Edition)](https://www.oreilly.com/openbook/make3/book/index.html)
+
 ### Ubuntu
 
 * Ubuntu https://www.ubuntu.com/
