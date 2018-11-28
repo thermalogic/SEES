@@ -290,16 +290,16 @@
 
 * **Recap, Outlook**
 
-  * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-1-Python35-Quick-Reference.ipynb)
+  * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureA-1-Python35-Quick-Reference.ipynb)
   
   * [Further Studing](./guide/FurtherStuding.md)     
   
 * **Appendix**
 
-   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [Python: Stack Queues, Set](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-3-Stack_Queues_Set.ipynb)
+   * [Python: Stack Queues, Set](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureA-3-Stack_Queues_Set.ipynb)
 
-   * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-4-11-2_Plotting_Mortgages.ipynb)
+   * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureA-4-11-2_Plotting_Mortgages.ipynb)
 
-   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureApp-5-GCC-GFortran.ipynb)
+   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/LectureA-5-GCC-GFortran.ipynb)
