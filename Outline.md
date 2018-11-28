@@ -276,7 +276,7 @@
     
      * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-C-Chinese.md)
 
-     * [Excel4Engineering](https://github.com/PySEE/Excel4Engineering)
+     * [Excel4Engineering](https://github.com/thermalogic/Excel4Engineering)
 
 * [CPP_5_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5-CPP_5_Ubuntu_GSL_GNUPLOT.ipynb)
 
