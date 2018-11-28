@@ -61,6 +61,8 @@
 
 * Git https://git-scm.com
 
+   * Scott Chacon，Ben Straub. [Pro Git(Chinese)](https://git-scm.com/book/zh/v1/)
+
 * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
   
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
