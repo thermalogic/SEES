@@ -262,7 +262,7 @@
 
       * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-* [Python_ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3_Python_ctypes.ipynb)
+* [Python_ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-Python_ctypes.ipynb)
 
   * ctypes: `__cdecl`,`__stdcall`,`windll.LoadLibrary`
   
@@ -278,7 +278,7 @@
 
      * [Excel4Engineering](https://github.com/thermalogic/Excel4Engineering)
 
-* [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5_Ubuntu_GSL_GNUPLOT.ipynb)
+* [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5-Ubuntu_GSL_GNUPLOT.ipynb)
 
    * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
