@@ -46,7 +46,7 @@ We will cover:
 
    * [Guide](./guide) Markdown,Git/Github,Ubuntu
 
-    * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
+      * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
 
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: C/C++,Python,Java,MS Excel VBA 
 
