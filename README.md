@@ -40,11 +40,11 @@ We will cover:
 
 * **PySEE/HOME**
    
-   * [Lectures in Jupyter Notebook](./notebook)
+   * [Lectures in Jupyter Notebook](./notebook) 
 
       * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/)
 
-  * [Guide](./guide) Markdown,Git/Github,Ubuntu
+   * [Guide](./guide) Markdown,Git/Github,Ubuntu
 
     * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
 
@@ -52,14 +52,20 @@ We will cover:
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
 
+* [PySEE/Practices](.https://github.com/PySEE/Practices) The information of practices: tasks criteria, standards and submission(5 projects,1 Bonus) 
+
 ## Grading
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 15
-  * [**Practices(5 projects):65**; Bonus: +5](https://github.com/PySEE/Practices/)
+  * [**Practices(5 projects):65 Bonus: +5**](https://github.com/PySEE/Practices/)
   * Final Exam: 20
-  
+
+## Schedule and Structure
+
+The course schedule and structure are listed in the [**Outline**](./Outline.md)
+
 ## Using the Notebooks of PySEE/home 
 
 Please `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
@@ -81,4 +87,7 @@ Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `Star
 We highly recommend you practice coding whenever you have a few minutes.
 
 # [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)
+
+
+## Outline
 
