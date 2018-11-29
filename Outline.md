@@ -292,8 +292,8 @@
 
   * [Python35-Quick-Reference](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
   
-  * [Further Studing](./guide/FurtherStuding.md)     
-  
+  * [Further Studing](./guide/FurtherStuding.md)
+    
 * **Appendix**
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
