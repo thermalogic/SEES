@@ -52,7 +52,7 @@ We will cover:
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
 
-* [PySEE/Practices](.https://github.com/PySEE/Practices) The information of practices: tasks criteria, standards and submission(5 projects,1 Bonus) 
+* [PySEE/Practices](.https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
 
 ## Grading
 
@@ -82,12 +82,13 @@ Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `Star
 
 >We **recommend** that you [use git to clone and update the home repositoriey.](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
 
+## Readings and resources 
+
+Please visit [Reference](./Reference.md) and [Guide](./guide) for details
+
 ## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
 
 # [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)
-
-
-## Outline
 
