@@ -41,10 +41,11 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
 
 ## A:Python & PyPI
 
-Goto the official Python site  https://www.python.org/downloads/ to download the suitable version Python，e.g.**Python for Windows**： https://www.python.org/downloads/windows/
+Goto [the official Python site](https://www.python.org/downloads/), you can use typically **Download the latest version of Python** `button` that appears first on the page to get the latest version of Python.
 
-Python 3.7.0 for Windows x86-64 executable installer：
-https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
+You may choose the specific Python release for you, e.g. [**Python for Windows**](https://www.python.org/downloads/windows/)
+
+In the course ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)
 
 ### A.1 Customize Installation Python
   
@@ -52,7 +53,6 @@ https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
 
- 
 ![Python3-path](./img/python37-path.jpg)
 
 ![Python3-location](./img/python37-location.jpg)
