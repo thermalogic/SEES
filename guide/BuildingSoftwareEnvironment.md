@@ -45,10 +45,10 @@ Goto [the official Python site](https://www.python.org/downloads/), you can use 
 
 You may choose the specific Python release for you, e.g. [**Python for Windows**](https://www.python.org/downloads/windows/)
 
-In the course ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)
-
 ### A.1 Customize Installation Python
-  
+
+In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)  
+
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
