@@ -3,9 +3,9 @@
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
-### Goal
+## Goal
 
-This course is intended to train **students majored in thermal energy engineering** in good software skills for producing code.
+This course is intended to train **students majored in thermal energy engineering** in good programming skills for producing code.
 
 We will cover: 
 
@@ -18,15 +18,15 @@ We will cover:
 * C/C++ programming with [GCC](https://gcc.gnu.org/)
 * version control with [Git/Github](https://git-scm.com/) 
 
-### Required Materials
+## Required Materials
 
 * A laptop **computer** will be needed in the classroom.
 
 * **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
 
-   * Python,Jupyter,Visual Studio Code,NumPy,SciPy,Matplotlib,IAPWS,SEUIF97
+   * Python,Jupyter,NumPy,SciPy,Matplotlib,IAPWS,SEUIF97
    
-   * MinGW-W64(GCC); Ubuntu,GSL,Gnuplot
+   * Visual Studio Code,MinGW-W64(GCC); Ubuntu,GSL,Gnuplot
    
    * Git,Github
  
@@ -36,51 +36,35 @@ We will cover:
   
    * Michael J. Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
-### Contents
+## Contents
 
 * **PySEE/HOME**
    
-   * [Notebook: Lectures in Jupyter Notebook](./notebook)
+   * [Lectures in Jupyter Notebook](./notebook)
 
-     Please install Jupyter to read and **interactive** with the notebooks.
-
-     **Online read-only versions：**    http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/
+      * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/)
 
   * [Guide](./guide) Markdown,Git/Github,Ubuntu
 
-    * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,Scipy,GCC,etc.
+    * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
 
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: C/C++,Python,Java,MS Excel VBA 
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
 
-### Grading
+## Grading
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 15
-  * **Practices(5 projects):65**; Bonus: +5
+  * [**Practices(5 projects):65**; Bonus: +5](https://github.com/PySEE/Practices/)
   * Final Exam: 20
   
-### Practices(65)
-    
-https://github.com/PySEE/Practices/
+## Using the Notebooks of PySEE/home 
 
-  1. **Basic Programming**(15)：[Github,Python,Jupyter,MinGW-w64,Visual Studio Code，Markdown](https://github.com/PySEE/Practices/tree/S2019/P1)
+Please `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
 
-  2. **Python and Interactive Computing**(15)：[The Simple Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P2)
-   
-  3. **The Object-oriented Programming**(20)： [The General Simulator of Rankine cycle](https://github.com/PySEE/Practices/tree/S2019/P3)  
-  
-  4. **Data Analysis**(10)：[Statistics, regression and visualization](https://github.com/PySEE/Practices/tree/S2019/P4)
-
-  5. **C/C++ Programming**(5)：[C/C++ Programming with MinGW-w64,Makefile, Shared Library](https://github.com/PySEE/Practices/tree/S2019/P5)
-
-  6. **Bonus**(+5): [GCC, Ubuntu,GSL,Gnuplot, Git/Github](https://github.com/PySEE/Practices/tree/S2019/Bonus) 
-
-### Using the Notebooks of PySEE/home 
-
-#### Download the *PySEE/home* Repository to Your Computer 
+### Download the *PySEE/home* Repository to Your Computer 
 
 You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
@@ -90,9 +74,9 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
->We **recommend** that you [use git to clone and update the home repositoriey.](./guide/BuildingSoftwareEnvironment.md#e-using-git)
+>We **recommend** that you [use git to clone and update the home repositoriey.](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
 
-### TIPS
+## TIPS
 
 We highly recommend you practice coding whenever you have a few minutes.
 
