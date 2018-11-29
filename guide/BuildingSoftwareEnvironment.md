@@ -240,11 +240,11 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
 
    For Windows 10: 
 
-   start  "Windows Start Menu" ⇒ open "Settings" ⇒  search for "environment"  ⇒  select "Edit environment variables for your account"*.
+   Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit environment variables for your account"*.
 
   ![windows-setting-environment](./img/windows-setting-environment.jpg)
  
-   choose the "System Variable"  ⇒  Choose the "**Path**" ⇒ Choose "New" (add a new dir to  **Path** variable) > Enter the value: **C:\mingw64\bin**
+   Choose "System Variable" ⇒ Choose the "**Path**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
 
    ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
