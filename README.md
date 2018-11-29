@@ -52,7 +52,7 @@ We will cover:
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
 
-* [PySEE/Practices](.https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
+* [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
 
 ## Grading
 
@@ -61,10 +61,6 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * In-class Exercises: 15
   * [**Practices(5 projects):65 Bonus: +5**](https://github.com/PySEE/Practices/)
   * Final Exam: 20
-
-## Schedule and Structure
-
-The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
 ## Using the Notebooks of PySEE/home 
 
@@ -81,6 +77,10 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
 >We **recommend** that you [use git to clone and update the home repositoriey.](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
+
+## Schedule and Structure
+
+The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
 ## Readings and resources 
 
