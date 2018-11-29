@@ -84,7 +84,7 @@ The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
 ## Readings and resources 
 
-Please visit [Reference](./Reference.md) and [Guide](./guide) for details
+Please visit [References](./References.md) and [Guide](./guide) for details
 
 ## TIPS
 
