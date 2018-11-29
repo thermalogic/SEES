@@ -81,13 +81,15 @@
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
-* MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+   * MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
+   * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
 
 * An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
-* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-
 * Robert Mecklenburg. [Managing Projects with GNU Make(Third Edition)](https://www.oreilly.com/openbook/make3/book/index.html)
+
+* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ### Ubuntu
 
