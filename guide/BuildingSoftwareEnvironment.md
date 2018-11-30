@@ -244,7 +244,7 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
 
   ![windows-setting-environment](./img/windows-setting-environment.jpg)
  
-   Choose "Environment Variables" ⇒ Choose "System Variable" ⇒ Choose the "**Path**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
+   Choose "Environment Variables" ⇒  Go to the section  "**System Variable**" ⇒ Choose the "**Path**"⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
 
    ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
