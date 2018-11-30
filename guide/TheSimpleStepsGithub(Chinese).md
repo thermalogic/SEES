@@ -40,11 +40,15 @@
 
 对项目工作目录进行本地Git和远程Github版本控制需要做的初始化工作，只需做一次。
 
+**NOTE**: 所有Git命令都须在用Git进行版本控制项目的目录下，打开的终端中执行
+
+* open the terminal from the project directory, then run the git command.
+
 ### 1.1 本地安装Git、远程建立Github账户
 
 ### 1.2 配置Git本地用户名和email(和Github账户一致）
 
-Configuration：Every git user should first introduce himself to git, by running these two commands:
+Every git user should first introduce himself to git, by running these two commands:
 
 ```bash
 >git config --global user.name  yourname
@@ -52,8 +56,6 @@ Configuration：Every git user should first introduce himself to git, by running
 ```
 
 ## 2  使用Git对本地项目进行版本控制
-
-**NOTE**: 所有Git命令都须在用Git进行版本控制项目的目录下，打开的终端中执行
 
 ### 2.1  初始化本地项目的Git版本控制
 
