@@ -59,7 +59,7 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
    
 * 3 Using IDLE
 
-![idle](./img/idle.png)
+![idle](./img/python-idle.jpg)
 
 ### A.2 The Python Package Index(PyPI)
 
