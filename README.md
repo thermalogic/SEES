@@ -82,6 +82,8 @@ Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `Star
 
 The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
+
+
 ## Readings and resources 
 
 Please visit [References](./References.md) and [Guide](./guide) for details
