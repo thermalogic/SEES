@@ -240,7 +240,7 @@ Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?so
 
    For Windows 10: 
 
-   Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit environment variables for your account"*.
+   Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit System environment variables".
 
   ![windows-setting-environment](./img/windows-setting-environment.jpg)
  
