@@ -3,7 +3,7 @@
 
 * [The Guide of  Building Software Environment](./BuildingSoftwareEnvironment.md)
 
-* [Introduction to Markdown](./Introduction2Markdown.md) 
+* [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
 
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
