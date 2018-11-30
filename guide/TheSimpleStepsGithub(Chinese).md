@@ -36,13 +36,13 @@
 
 <!-- /TOC -->
 
-## 1 本地Git和远程Github版本控制的初始化
-
-对项目工作目录进行本地Git和远程Github版本控制需要做的初始化工作，只需做一次。
-
 **NOTE**: 所有Git命令都须在用Git进行版本控制项目的目录下，打开的终端中执行
 
 * open the terminal from the project directory, then run the git command.
+
+## 1 本地Git和远程Github版本控制的初始化
+
+对项目工作目录进行本地Git和远程Github版本控制需要做的初始化工作，只需做一次。
 
 ### 1.1 本地安装Git、远程建立Github账户
 
