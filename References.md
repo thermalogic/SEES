@@ -108,3 +108,5 @@
 * Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
 
 * Visual Studio Code：https://code.visualstudio.com/ 
+
+* 邹欣 [对大学 IT 专业教育的反馈](http://www.cnblogs.com/xinz/archive/2011/12/03/2274445.html)
