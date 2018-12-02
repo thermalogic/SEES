@@ -23,6 +23,8 @@
 
 * The University of Utah, Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) 
 
+*  UC Berkeley [Data 8: The Foundations of Data Science](http://data8.org/)
+
 ## Database
 
 * PostgreSQL：https://www.postgresql.org/
