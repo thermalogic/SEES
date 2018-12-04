@@ -22,7 +22,7 @@
 * The University of Utah, Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) 
 
 * Pandas http://pandas.pydata.org/
-
+ 
 ## Database
 
 * PostgreSQL：https://www.postgresql.org/

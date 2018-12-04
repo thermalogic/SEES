@@ -23,7 +23,9 @@
    
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
-* Python 3 Module of the Week  https://pymotw.com/
+* Python 3 Module of the Week  https://pymotw.com/3/
+
+* Gabriele Lanaro. [Python High Performance，Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition). Packt Publishing. 2017
 
 ### Python for mathematics, science and engineering
 
