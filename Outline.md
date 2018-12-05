@@ -302,6 +302,6 @@
 
    * [Python: 11.2 Plotting Mortgages](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-11-2_Plotting_Mortgages.ipynb)
 
-   * [GCC: C stdio)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-C_stdio.ipynb)
+   * [GCC: C stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-C_stdio.ipynb)
 
-   * [GCC: GFortran)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-6-GCC-GFortran.ipynb)
+   * [GCC: GFortran](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-6-GCC-GFortran.ipynb)
