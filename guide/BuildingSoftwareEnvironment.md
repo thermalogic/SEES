@@ -17,7 +17,6 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
     - [C:Install MinGW-W64](#cinstall-mingw-w64)
         - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
-        - [C.2 Set MinGW-w64 Environment](#c2-set-mingw-w64-environment)
     - [D:Visual Studio Code](#dvisual-studio-code)
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
         - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
@@ -222,19 +221,34 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
 ### C.1 Download MinGW-W64
 
-Goto MinGW mother site at：https://sourceforge.net/projects/mingw-w64/files/?source=navbar
+Goto [MinGW-W64](https://sourceforge.net/projects/mingw-w64/files/?source=navbar) site, you see that：
+
+**MinGW-W64 GCC-?.?.?**
+
+```bash 
+x86_64-posix-sjlj
+x86_64-posix-seh
+x86_64-win32-sjlj
+x86_64-win32-seh 
+```
+
+* posix: enable C++11/C11 multithreading features
+
+* win32 using the win32 API multithreading features 
 
 * sjlj: 32 and 64 bits,but it incurs a minor performance penalty
  
 * seh：64 bits only
   
-  Download： **GCC 8.1.0 x86_64-win32-sjlj**
+Download the latest available version of gcc compiler for **windows32/64** with **posix thread**：GCC-8.1.0 [x86_64-posix-sjlj](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/sjlj/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0.7z)
+
+> [POSIX](https://en.wikipedia.org/wiki/POSIX): The Portable Operating System Interface is a family of standards specified by the IEEE Computer Society for maintaining `compatibility between operating systems`. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of `Unix and other operating systems`.
+
+> [Thread](https://en.wikipedia.org/wiki/Thread_(computing)) In computer science, a thread of execution is the smallest sequence of programmed instructions that can be managed `independently by a scheduler`, which is typically a part of the operating system. The implementation of threads and processes differs between operating systems, but in most cases `a thread is a component of a process`. Multiple threads can exist within one process, executing `concurrently` and `sharing resources` such as memory, while different processes do not share these resources. In particular, the threads of a process share its executable code and the values of its dynamically allocated variables and non-thread-local global variables at any given time. 
   
-  ![mingw-w64](./img/mingw-w64.jpg)
+ ### C.2 Set MinGW-w64 Environment
 
-### C.2 Set MinGW-w64 Environment
-
-**C.2.1** unzip the ziped MinGW-w64, remove to **C:\mingw64**
+**C.2.1** unzip the zipped MinGW-w64,then,remove to **C:\mingw64**
 
 **C.2.2** Add **C:\mingw64\bin** to the system environment variable **Path**
 
