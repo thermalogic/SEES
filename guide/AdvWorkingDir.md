@@ -42,7 +42,7 @@ CourseSE
 
 ## 2 Downloand the repositories of  PySEE
 
-https：//github.com/PySEE
+https://github.com/PySEE
 
 **download the zip files** , then unzip 
 

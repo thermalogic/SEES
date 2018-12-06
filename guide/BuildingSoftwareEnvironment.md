@@ -34,7 +34,6 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
         - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
-        - [Open Jupyter Notebooks within Visual Studio Code](#open-jupyter-notebooks-within-visual-studio-code)
     - [References](#references)
 
 <!-- /TOC -->
@@ -397,22 +396,6 @@ Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF
 ```bash 
 >python -m pip install -r requirements.txt 
 ```
-### Open Jupyter Notebooks within Visual Studio Code  
-
-* Install Visual Studio Code Tools for AI extension
-
-https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/installation.md
-
-* Open Jupyter notebooks in VS Code
-https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-jupyter.md
-
-   * Set Python path properly in VS Code，for example: C:/python37/python.exe
-
-   * Open Jupyter notebooks in VS Code
-
-     Launch Visual Studio Code and select File > Open Folder (Ctrl+K Ctrl+O) Select a folder which contains the Jupyter notebook file (.pynb) you want to open.
-    Select command in context menu Right click the Jupyter notebook file node and select "AI: View in Jupyter Server" command. 
-
 ## References
 
 * 1 Python3:  https://www.python.org/downloads/
@@ -451,7 +434,7 @@ https://github.com/Microsoft/vscode-tools-for-ai/blob/master/docs/quickstart-06-
  
 * 4 GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
-     * MinGW-W64(GCC) Compiler Suite: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+     * MinGW-W64(GCC) Compiler Suite:：http://mingw-w64.org/
 
      * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
 
