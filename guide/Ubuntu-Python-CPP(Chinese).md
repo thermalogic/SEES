@@ -2,29 +2,36 @@
 
 在已安装Windows系统的电脑上，安装Ubuntu系统的过程简介
    
-## Windows环境硬盘空间要求
+## 一、 准备安装Ubuntu系统需要的空闲硬盘空间
 
-安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
+在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。
 
 为了学习工作方便，建议空间稍大些，如：50G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
-## 安装Ubuntu
+## 二、 准备Ubuntu安装U盘
 
-从Ubuntu官网下载Ubuntn 18.04 LTS的iso文件
+* 从Ubuntu官网下载Ubuntn 18.04 LTS的iso文件
 
-https://www.ubuntu.com/download/desktop
+   https://www.ubuntu.com/download/desktop
 
-BitTorrent enables higher download speeds and more reliable downloads of large files.
+   BitTorrent enables higher download speeds and more reliable downloads of large files.
 
-http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
+   http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 
-从 http://rufus.akeo.ie/  下载rufus，制作U盘安装系统
+* 从 http://rufus.akeo.ie/  下载rufus，制作安装系统用U盘，然后，用U盘安装双系统
 
-然后，用U盘安装双系统。网络上有很多安装过程的介绍文档，可参考
+>可选Ubuntu系统
+>
+>Ubuntu发行版很多，建议**新手**使用
+>
+>* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认安装中文支持：预安装有WPS，搜狗拼音输入法等
+> * 2 Linux Mint：https://www.linuxmint.com/。Linux Mint易用性高。但是英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议是Linux Mint Xfce版。
 
-## 安装要点
+## 三、 安装Ubuntu
+
+安装的详细过程可参考网络上的文档。下面给出需要注意的要点。
 
 * 1 Welcome界面：选择语言 **English**
 
@@ -34,71 +41,51 @@ http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 
 ![bionic-updates](./img/bionic-updates.jpg)
 
-* 4 Installation type界面: 选择 **something else**
+* **4 Installation type界面: 选择 `something else` (关键项目：安装类型一定选择为`something else`)**
 
 ![bionic-type](./img/bionic-type.jpg)
 
-   * 自定义系统分区和挂载点，简单可靠的方式如下：
-       * **/home**： home挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为 /home 挂载点
-         * **注意**: 
-           * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
-           * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
-       * **/**： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
-  * 分好区后，点安装
+然后，在 **`空闲空间`** 中定义`/home挂载点和分区`和`/系统分区和挂载点`点.(注意：一定要确定使用的是`空闲空间`，不要破坏Windows系统及其用户使用的空间）.
+
+* **/home**： home挂载点和分区：从**空闲空间**中划分出一个“logic”分区， 作为 /home 挂载点
+  * **注意**: 
+    * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
+    * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
+
+* **/**： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
 
 ![bionic-part-all](./img/bionic-part-home.jpg)
 
 ![bionic-part-all](./img/bionic-part-all.jpg)
 
 ![bionic-part-all](./img/bionic-parts.jpg)
-  
+
+
+定义挂载点和分好区，点`安装`前,再次确认使用的是`空闲空间`，不要破坏Windows系统及其用户使用的空间。
+
+确认无误后，点`安装`,进入以下步骤：
+
 * 5 Where are you:选择时区为 **shanghai**
 
 * 6 Who are you: 用户名和密码，选择自动登录
 
-   * 如重装系统且要使用 **原home分区**, 建议用**原用户名**
+   * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`**
 
 ![bionic-ok](./img/bionic-ok.jpg)
 
-## 可选系统安装方案：安装Ubuntu到U盘
+## 四、建立开发环境
 
-安装Ubuntu到U盘的步骤和安装到计算机硬盘分区一样
-
-不同的只是安装 **“位置”**：1）选择U盘为boot loader设备； 2）Ubuntu各分区挂载到U盘
-
-**建议：** 1) 使用高品质的USB3.0 U盘；盘容量较大; 2) 建一个FAT32文件系统分区，用于兼容Windows.
-
- 可查询参考网络上的相关资源。
-
-## 可选Ubuntu系统
-
-Ubuntu发行版很多，建议**新手**使用
-
-### 1 “中国味”的UbuntuKylin 18.04 LTS版
-
-UbuntuKylin官网 http://www.ubuntukylin.com/ 
-
-默认安装中文支持：WPS，搜狗拼音输入法等
-
-### 2 Linux Mint Xfce
-
-Linux Mint官网 https://www.linuxmint.com/
-
-易用，系统相应速度更快，适用于硬件性能较弱的计算机。
-
-系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)
-
-## Version Control: Git
+### 1 Version Control: Git
 
 ```bash 
 $sudo apt install git
 ```
 
-##  C/C++ With GCC
+### 2 C/C++ With GCC
 
-    Ubuntu系统内置GCC编译器，无需安装
+Ubuntu系统内置GCC编译器，无需安装
 
-## Python3开发环境
+### 3 Python3开发环境
 
 Ubuntu 18.04 LTS系统中,默认Python3.但不完整，需补充: pip3、idle3。
 
@@ -108,11 +95,6 @@ $sudo apt install python3-pip
 $sudo -H python3 -m  pip install  --upgrade pip 
 $sudo apt install idle3
 ```
-
-如安装过程中失败，根据提示如下安装补充依赖项目
-```bash
-$sudo apt-get -f install
-```
 Python3相关命令都加3，如：
 
 ```bash
@@ -120,24 +102,18 @@ $python3
 $idle3
 $pip3
 ```
-### 安装scipy
+### 4 安装scipy
 
 apt在线安装
 ```bash
 $sudo apt install python3-numpy python3-scipy python3-matplotlib
 ```
-### 安装Jupyter
-
-```bash
-$sudo -H pip3 install jupyter
-```
-the high-speed installation
+### 5 安装Jupyter
 
 ```bash
 $sudo -H pip3 install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
-### 安装IAPWS-IF97
+### 6 安装IAPWS-IF97
 
 #### SEUIF97
 
@@ -149,9 +125,9 @@ $sudo -H python3 -m pip install seuif97
 ```bash
 $sudo -H pip3 install iapws
 ```
-## Visual Studio Code开发环境
+### 7 Visual Studio Code开发环境
 
-### 1 Visual Studio Code
+#### 1 安装Visual Studio Code
 
 From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian,Ubuntu
 
@@ -159,22 +135,24 @@ From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for 
 $sudo dpkg -i [vscode filename].deb
 ```
 
-### 2 Install Python Extension in  Visual Studio Code
+#### 2 安装插件
+
+Install Python Extension in  Visual Studio Code
 
 * https://code.visualstudio.com/docs/languages/python
 
-### 3 Install the Microsoft C/C++ extension
+Install the Microsoft C/C++ extension
 
 * https://code.visualstudio.com/docs/languages/cpp
 
-### 4 set Python3 as the default Python Version
+#### 4 set Python3 as the default Python Version
 
 ```json
 // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
   "python.pythonPath": "python3",
 ```
 
-### 科学计算包gsl
+### 8 科学计算包GSL
 
 ```bash
 $sudo apt install gsl-bin
@@ -182,15 +160,15 @@ $sudo apt install gsl-bin
 $sudo apt install libgsl-dev
 
 ```
-### 数据可视化包Gnuplot
+### 9 数据可视化包Gnuplot
 
 ```bash
 $sudo apt install gnuplot
- ```
+```
 
-## 英文版Ubuntu补充中文支持
+## 六、英文版Ubuntu补充中文支持)
 
-> **Note:** 不同版本ubuntu的安装过程不同，可上网查询。
+> **Note:** 以下方法适用于Xubunt的。不同版本ubuntu差别，可上网查询方法。
 
 ### 1 安装中文语言支持包
 
@@ -201,11 +179,13 @@ $sudo apt install gnuplot
 >System->language support，选择和安装需要的语言包：English和Chinese，
 > 
 
-### 2  安装软件后,退出当前登录(logout)，然后再登入,选择keyboard input methods system默认输入法系统fcitx：setting->language support选择：fcitx
+### 2 选择fcitx
+
+安装软件后,退出当前登录(logout)，然后再登入,选择`keyboard input methods system`默认输入法系统`fcitx：setting->language support`,选择：`fcitx`
 
 ### 3 安装搜狗拼音输入法
 
-从官网下载最新版的搜狗拼音输入法，安装
+从搜狗官网下载最新版的搜狗拼音输入法，安装
 
 ```bash
 $sudo dpkg -i [sogoupinyinfilename].deb
@@ -218,11 +198,21 @@ $sudo apt-get -f install
 
 安装搜狗拼音输入法,退出当前登录(logout)，然后再登入（login)，就可以使用搜狗拼音输入法了
 
-查看和配置系统的输入法： setting->fcitx configuration
+查看和配置系统的输入法： `setting->fcitx configuration`
 
 ### 5 中英文输入法切换
 
 ctrl+space bar
+
+## 七、安装Ubuntu系统到U盘
+
+Ubuntu可以和安装到计算机硬盘一样，安装到U盘，成为便携的Ubuntu操作系统。
+
+其安装步骤和安装到计算机硬盘分区一样，不同的是安装 **`“位置”`** 参数：
+
+*  Ubuntu各分区挂载到U盘；U盘为`boot loader`设备；
+
+**建议：** 1) 使用高品质的USB3.0 U盘；盘容量较大(>=32G); 2) 在U盘上建一个FAT32文件系统分区，用于兼容Windows文件。
 
 ## Reference
 
