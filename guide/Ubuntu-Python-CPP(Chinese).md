@@ -163,7 +163,7 @@ $sudo apt install libgsl-dev
 $sudo apt install gnuplot
 ```
 
-## 六、英文版Ubuntu补充中文支持)
+## 六、英文版Ubuntu补充中文支持
 
 > **Note:** 以下方法适用于Xubunt的。不同版本ubuntu差别，可上网查询方法。
 
