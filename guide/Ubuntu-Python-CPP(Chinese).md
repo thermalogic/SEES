@@ -4,30 +4,25 @@
    
 ## 一、 准备安装Ubuntu系统需要的空闲硬盘空间
 
-在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。
-
-为了学习工作方便，建议空间稍大些，如：50G
+在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些，如：50G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网下载Ubuntn 18.04 LTS的iso文件
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载偶数年的长期技术支持LTS版系统的iso文件,如：Ubuntn 18.04 LTS
 
-   https://www.ubuntu.com/download/desktop
-
-   BitTorrent enables higher download speeds and more reliable downloads of large files.
+   建议使用：BitTorrent enables higher download speeds and more reliable downloads of large files.
 
    http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso.torrent
 
 * 从 http://rufus.akeo.ie/  下载rufus，制作安装系统用U盘，然后，用U盘安装双系统
 
->可选Ubuntu系统
 >
->Ubuntu发行版很多，建议**新手**使用
+>Ubuntu发行版很多，建议 **新手** 使用
 >
->* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认安装中文支持：预安装有WPS，搜狗拼音输入法等
-> * 2 Linux Mint：https://www.linuxmint.com/。Linux Mint易用性高。但是英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议是Linux Mint Xfce版。
+>* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
+>* 2 Linux Mint：https://www.linuxmint.com/。Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议是Linux Mint Xfce版。
 
 ## 三、 安装Ubuntu
 
@@ -49,10 +44,10 @@
 
 * **/home**： home挂载点和分区：从**空闲空间**中划分出一个“logic”分区， 作为 /home 挂载点
   * **注意**: 
-    * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
-    * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
+    * 使用 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
+    * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
 
-* **/**： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
+* **/**： 系统挂载点和分区：将余下空闲空间都划 给“/” 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
 
 ![bionic-part-all](./img/bionic-part-home.jpg)
 
@@ -61,7 +56,7 @@
 ![bionic-part-all](./img/bionic-parts.jpg)
 
 
-定义挂载点和分好区，点`安装`前,再次确认使用的是`空闲空间`，不要破坏Windows系统及其用户使用的空间。
+定义挂载点和分好区，点 `安装` 前,再次确认使用的是 `空闲空间`，不要破坏Windows系统及其用户使用的空间。
 
 确认无误后，点`安装`,进入以下步骤：
 
@@ -70,6 +65,8 @@
 * 6 Who are you: 用户名和密码，选择自动登录
 
    * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`**
+
+然后，安装程序将从U盘将Ubuntu安装到制定的硬盘分区中，安装过程需要些时间，耐心等待。下图是安装配置好的Ubuntu18.04系统桌面
 
 ![bionic-ok](./img/bionic-ok.jpg)
 
@@ -145,7 +142,7 @@ Install the Microsoft C/C++ extension
 
 * https://code.visualstudio.com/docs/languages/cpp
 
-#### 4 set Python3 as the default Python Version
+#### 3 set Python3 as the default Python Version
 
 ```json
 // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
