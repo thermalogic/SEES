@@ -10,7 +10,7 @@
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载偶数年的长期技术支持LTS版系统的iso文件,如：Ubuntn 18.04 LTS
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载偶数年的长期技术支持LTS版的iso文件,如：Ubuntn 18.04 LTS
 
    建议使用：BitTorrent enables higher download speeds and more reliable downloads of large files.
 
