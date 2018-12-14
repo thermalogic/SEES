@@ -23,7 +23,9 @@
    
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
-* Python 3 Module of the Week  https://pymotw.com/3/
+* Doug Hellmann. [Python 3 Module of the Week](https://pymotw.com/3/)
+  
+  * [The Python 3 Standard Library by Example, Second Edition](https://my.safaribooksonline.com/book/programming/python/9780134291154). Addison-Wesley Professional, June 12, 2017
 
 * Gabriele Lanaro. [Python High Performance，Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition). Packt Publishing. 2017
 
