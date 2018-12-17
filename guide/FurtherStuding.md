@@ -22,6 +22,8 @@
 * The University of Utah, Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) 
 
 * Pandas http://pandas.pydata.org/
+
+* Kaggle https://www.kaggle.com/
  
 ## Database
 
