@@ -4,69 +4,75 @@
    
 ## 一、 准备安装Ubuntu系统需要的空闲硬盘空间
 
-在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些，如：50G
+在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些，如：100G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载偶数年的长期技术支持LTS版的iso文件,如：Ubuntn 18.04.1 LTS
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntn 18.04.1 LTS
 
-   建议使用：BitTorrent enables higher download speeds and more reliable downloads of large files.
+   建议使用：Torrent enables higher download speeds and more reliable downloads of large files.
 
    http://releases.ubuntu.com/18.04.1/ubuntu-18.04.1-desktop-amd64.iso.torrent
 
-* 从 http://rufus.akeo.ie/  下载rufus，制作安装系统用U盘，然后，用U盘安装双系统
+* 从 http://rufus.akeo.ie/  下载rufus，制作系统安装用U盘，然后，用U盘安装Ubuntu
 
 >
 >Ubuntu发行版很多，建议 **新手** 使用
 >
 >* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
->* 2 Linux Mint：https://www.linuxmint.com/。Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议是Linux Mint Xfce版。
+>* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
 
 ## 三、 安装Ubuntu
 
-安装的详细过程可参考网络上的文档。下面给出需要注意的要点。
+详细的安装过程可参考网络上的文档。下面是需注意的要点：
 
-* 1 Welcome界面：选择语言 **English**
+* 1 Welcome：选择语言 **English**
 
-* 2 Wireless界面：选择 **不连接无线网络** 
+* 2 Wireless：选择 **不连接无线网络** 
 
-* 3 updates and other softwares: 选择 **安装第三方软件**
+* 3 updates and other software: 选择 **Install third-party software**
 
 ![bionic-updates](./img/bionic-updates.jpg)
 
-* **4 Installation type界面: 选择 `something else` (关键项目：安装类型一定选择为`something else`)**
+
+* 4 Installation type: 选择 `something else` (安装类型一定选择为 **`something else`**)
 
 ![bionic-type](./img/bionic-type.jpg)
 
-然后，在 **`空闲空间`** 中定义`/home挂载点和分区`和`/系统分区和挂载点`点.(注意：一定要确定使用的是`空闲空间`，不要破坏Windows系统及其用户使用的空间）.
+然后，在 **`空闲空间`** 中定义Ubuntu系统的分区（partition)和挂载点(Mount point)。
 
-* **/home**： home挂载点和分区：从**空闲空间**中划分出一个“logic”分区， 作为 /home 挂载点
-  * **注意**: 
-    * 使用 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
-    * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
+**注意**：一定要确定使用的是Windows的`空闲空间`，不要破坏Windows系统及其用户使用的空间.
 
-* **/**： 系统挂载点和分区：将余下空闲空间都划 给“/” 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
+Ubuntu系统的分区很多，快捷安装只需配置: `/home分区和挂载点` 和 `/系统分区和挂载点` 即可，其他分区由系统自动配置。
+
+ **/home** home分区和挂载点 ：从**空闲空间**中划出一个分区作为 /home 挂载点。
+  
+ * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
 
 ![bionic-part-all](./img/bionic-part-home.jpg)
 
+ **/** 系统挂载点和分区：将余下空闲空间都划给“/” 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
+
 ![bionic-part-all](./img/bionic-part-all.jpg)
+
+定义好`/home分区和挂载点` 和 `/系统分区和挂载点` 后，可见分区情况：
 
 ![bionic-part-all](./img/bionic-parts.jpg)
 
 
-定义挂载点和分好区，点 `安装` 前,再次确认使用的是 `空闲空间`，不要破坏Windows系统及其用户使用的空间。
+点 `Install Now` 前,务必再次确认使用的是 `空闲空间`及分区的配置信息正确，不要破坏Windows系统及其用户使用的空间。
 
-确认无误后，点`安装`,进入以下步骤：
+确认分区无误后，点`Install Now`,进入以下步骤：
 
 * 5 Where are you:选择时区为 **shanghai**
 
 * 6 Who are you: 用户名和密码，选择自动登录
 
-   * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`**
+   * 如是重装Ubuntu系统且要使用 **`原home`分区**, 使用 **`原用户名`**
 
-然后，安装程序将从U盘将Ubuntu安装到制定的硬盘分区中，安装过程需要些时间，耐心等待。下图是安装配置好的Ubuntu18.04系统桌面
+然后，安装程序将从U盘安装Ubuntu指定的硬盘分区中。安装过程需要些时间，耐心等待即可。下图是安装配置好的Ubuntu18.04系统桌面
 
 ![bionic-ok](./img/bionic-ok.jpg)
 
@@ -221,3 +227,5 @@ Ubuntu可以和安装到计算机硬盘一样，安装到U盘，成为便携的U
 
 * The Linux Mint Installation Guide https://linuxmint-installation-guide.readthedocs.io/en/latest/index.html
 
+* 优麒麟（UbuntuKylin）18.04 简易安装手册
+http://www.ubuntukylin.com/public/pdf/UK1804install.pdf
