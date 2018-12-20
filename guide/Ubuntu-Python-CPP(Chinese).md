@@ -188,7 +188,7 @@ $sudo apt install gnuplot
 
 ### 3 安装搜狗拼音输入法
 
-从搜狗官网下载最新版的搜狗拼音输入法，安装
+从 [搜狗拼音输入法官网](https://pinyin.sogou.com/linux/) 下载最新版的搜狗拼音输入法，安装
 
 ```bash
 $sudo dpkg -i [sogoupinyinfilename].deb
