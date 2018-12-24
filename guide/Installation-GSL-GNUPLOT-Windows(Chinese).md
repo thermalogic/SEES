@@ -37,7 +37,7 @@ gsl-1.16.dll和gslcblas-1.16.dll拷贝到`C:\Windows\System`中，注意不要�
 
  从 http://www.tatsuromatsuoka.com/gnuplot/Eng/winbin/ 下载MinGW-W64编译的Gnuplot for windows，然后，解压运行安装程序。
  
- 安装后，将gnuplot.exe所在目录加到系统环境变量path中，如`C:\Program Files (x86)\gnuplot\bin`
+ 安装后，将gnuplot.exe所在目录加到系统环境变量path中，如: `"C:\Program Files\gnuplot\bin\"`
 
 
  
