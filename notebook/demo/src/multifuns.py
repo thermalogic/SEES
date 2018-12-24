@@ -12,6 +12,12 @@ def dprod(x):
     arr= (c_double * n)(*x)
     return _lib.dprod(arr,int(n))
 
+# int factorial(int n)
+def factorial(n):
+    _lib.factorial.argtypes = [c_int]
+    _lib.factorial.restype  = c_int
+    return _lib.factorial(n)
+
 # int isum(int array[], int size);
 def isum(x):
     _lib.sum.argtypes = [POINTER(c_int), c_int]

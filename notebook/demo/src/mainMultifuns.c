@@ -10,5 +10,8 @@ int main() {
     
      double a2[] = {8.0, 4.0, 5.0, 3.0, 2.0};
      printf("dprod is %f\n", dprod(a2, 5));  // dprod is 960
+    
+     int n =5;
+     printf("the factorial of  %d is %d\n",n,factorial(n));  // 5!=120
      return 0;
 }

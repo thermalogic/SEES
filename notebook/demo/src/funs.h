@@ -3,5 +3,6 @@
 #define FUNS_H
 
 double dprod(double *x, int n);
+int factorial(int n);
 
 #endif
