@@ -7,15 +7,13 @@
 
 ### 下载GSL
 
-从 https://sourceforge.net/projects/mingw-w64/files/ 中的`Home/External binary packages(Win64 hosted)/Binaries (64-bit)`目录中,下载MinGW-W64编译好的GSL库压缩文件
+从 https://sourceforge.net/projects/mingw-w64/files/ 的 `Home/External binary packages(Win64 hosted)/Binaries (64-bit)`目录中,下载MinGW-W64编译好的GSL库压缩文件
 
-下载后，解压压缩文件，可见库文件在 `gsl-1.16-mingw-w64-winpthread-seh\gsl-1.16` 目录下。
+下载后，解压压缩文件，可见库文件在 `gsl-1.16-mingw-w64-winpthread-seh\gsl-1.16` 目录中。由文件名可见，编译好的GSL库适用于win64-seh版编译器，GSL版本是1.16，较旧。
 
-由文件名可见，编译好的GSL库适用于为win64-seh版编译器，GSL版本是1.16，较旧。
+* 库可以用于非win64-seh版的64位MinGW-W64编译器
 
-* 库可以用于非win64-seh版的其他64位MinGW-W64编译器
-
-* GSL 1.16能够满足常规工作需要
+* GSL 1.16版软件库可满足工作需要
 
 ### 安装GSL
 
