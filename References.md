@@ -107,7 +107,9 @@
 
 * Gnuplot http://gnuplot.info/
 
-    * Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
+    * Nishanth Sastry. [Visualize your data with gnuplot](http://fitzkee.chemistry.msstate.edu/sites/default/files/ch8990/ibm-gnuplot.pdf)
+  
+      * [中文版:gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
 
     * Henri Gavin. [GNUPLOT 4.2 - A Brief Manual and Tutorial](http://people.duke.edu/~hpgavin/gnuplot.html)
     
