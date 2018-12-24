@@ -95,11 +95,23 @@
 
 * [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
-### Ubuntu
+### Ubuntu,GSL,Gnuplot
 
 * Ubuntu https://www.ubuntu.com/
 
   * Ubuntukylin https://www.ubuntukylin.com/
+
+* GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
+
+    * The GSL Reference Manual online https://www.gnu.org/software/gsl/doc/html/index.html
+
+* Gnuplot http://gnuplot.info/
+
+    * Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
+
+    * Henri Gavin. [GNUPLOT 4.2 - A Brief Manual and Tutorial](http://people.duke.edu/~hpgavin/gnuplot.html)
+    
+    * Philipp K. Janert. Gnuplot in Action:Understanding data with graphs(2ed Edition). Manning Publications Co.2016
 
 ### Software Engineering
 

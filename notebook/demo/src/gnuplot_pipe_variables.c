@@ -22,12 +22,13 @@ int main (void)
   printf ("\n");
   
   // plot
-  FILE *gnuplotPipe = popen("gnuplot -persist", "w"); // Open a pipe to gnuplot
-  if (gnuplotPipe) // If gnuplot is found
+  FILE *pipe = popen("gnuplot -persist", "w"); // Open a pipe to gnuplot
+  if (pipe) // If gnuplot is found
   { 
-     fprintf(gnuplotPipe, "set xlabel 'X'\n");
-     fprintf(gnuplotPipe, "set ylabel 'Y'\n");
-     fprintf(gnuplotPipe, "set title '<X,Y> and Linear fit'\n");
+     fprintf(pipe, "set term wx\n");         // set the terminal
+     fprintf(pipe, "set xlabel 'X'\n");
+     fprintf(pipe, "set ylabel 'Y'\n");
+     fprintf(pipe, "set title '<X,Y> and Linear fit'\n");
       
      /* 
         1 sending gnuplot the plot '-' command 
@@ -36,26 +37,26 @@ int main (void)
      */
      
      // 1  sending gnuplot the plot '-' command
-     fprintf(gnuplotPipe, "plot '-' title '<x,y>','-' title 'Line' with line ls 12 \n");
+     fprintf(pipe, "plot '-' title '<x,y>','-' title 'Line' with line ls 12 \n");
      
      // 2 followed by data points: <x,y>
      for (int i = 0; i < n; i++)
      {
-        fprintf(gnuplotPipe, "%lf %lf\n", x[i], y[i]);
+        fprintf(pipe, "%lf %lf\n", x[i], y[i]);
      }
      // 3 followed by the letter "e" 
-     fprintf(gnuplotPipe, "e");
+     fprintf(pipe, "e");
      
      // linear fit
      for (int i = 0; i < n; i++)
      {
-        fprintf(gnuplotPipe, "%lf %lf\n", x[i], c0+c1*x[i]);
+        fprintf(pipe, "%lf %lf\n", x[i], c0+c1*x[i]);
      }
-     fprintf(gnuplotPipe, "e");
+     fprintf(pipe, "e");
       
-     fflush(gnuplotPipe);
-     fprintf(gnuplotPipe, "exit \n"); // exit gnuplot
-     pclose(gnuplotPipe);             //close pipe
+     fflush(pipe);
+     fprintf(pipe, "exit \n"); // exit gnuplot
+     pclose(pipe);             //close pipe
   }
   
   return 0;

@@ -273,6 +273,8 @@
    * Excel VBA (Excel 2013 above(64)
 
    * **Homework**
+
+     * [Install GSL GNUPLOT for Windows](./Installation-GSL-GNUPLOT-Windows(Chinese).md) 
     
      * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
 
