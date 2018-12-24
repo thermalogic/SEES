@@ -33,7 +33,7 @@ libgsl-1.16.dll.a和libgslcblas-1.16.dll.a
 
 gsl-1.16.dll和gslcblas-1.16.dll拷贝到`C:\Windows\System`中，注意不要改文件名。
 
-## 安装Gnuplot for windows
+## 安装Gnuplot for Windows
 
  从 http://www.tatsuromatsuoka.com/gnuplot/Eng/winbin/ 下载MinGW-W64编译器适用的Gnuplot for windows，然后，解压运行安装程序。
  
