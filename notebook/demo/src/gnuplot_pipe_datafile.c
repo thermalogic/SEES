@@ -13,11 +13,10 @@ int main (void)
       fprintf(pipe, "set ylabel 'Distance (meters)'\n");
       fprintf(pipe, "set title 'Measured Displacement of Spring'\n");
       fprintf(pipe, "plot './demo/data/springData.csv' using  ($2*9.81):1 title '(Force,Distance)'\n");
-
-    fflush(pipe); //flush pipe
-
-    fprintf(pipe,"exit \n");   // exit gnuplot
-    pclose(pipe);    //close pipe
+      
+      fflush(pipe); //flush pipe
+      fprintf(pipe,"exit \n");   // exit gnuplot
+      pclose(pipe);    //close pipe
     }
     return 0;
 };

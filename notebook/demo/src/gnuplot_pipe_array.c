@@ -11,13 +11,12 @@ int main (void)
   double c0, c1, cov00, cov01, cov11, sumsq;
 
   gsl_fit_linear(x, 1, y, 1, n,
-                   &c0, &c1, &cov00, &cov01, &cov11,
-                   &sumsq);
+                 &c0, &c1, &cov00, &cov01, &cov11,
+                 &sumsq);
 
   printf ("best fit: Y = %g + %g X\n", c0, c1);
   printf ("covariance matrix:\n");
-  printf ("[ %g, %g\n  %g, %g]\n",
-          cov00, cov01, cov01, cov11);
+  printf ("[ %g, %g\n  %g, %g]\n", cov00, cov01, cov01, cov11);
   printf ("sumsq = %g\n", sumsq);
   printf ("\n");
   
@@ -38,7 +37,7 @@ int main (void)
      */
      
      // 1 sending gnuplot the plot '-' command
-     fprintf(pipe, "plot '-' title '<x,y>','-' title 'Line' with line ls 12 \n");
+     fprintf(pipe, "plot '-' title '<x,y>','-' title 'Line' with  linespoints ls 12 \n");
      
      // 2 followed by data points: <x,y>
      for (int i = 0; i < n; i++)
