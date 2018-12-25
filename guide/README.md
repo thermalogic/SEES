@@ -7,7 +7,7 @@
 
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
-* [Install GSL GNUPLOT for Windows](./Installation-GSL-GNUPLOT-Windows(Chinese).md) 
+* [Install GSL GNUPLOT for Windows](./Installation-GSL-GNUPLOT-Windows.md) 
 
 * [GCC C/C++,Python and Ubuntu](./Ubuntu-Python-CPP(Chinese).md) 
 
