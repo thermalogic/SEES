@@ -33,7 +33,7 @@ TO `C:\Windows\System`
 
 Copy all *.h in the folder `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mingw32\include\gsl`
 
-### Gnuplot for Windows
+## Gnuplot for Windows
 
 Goto http://www.tatsuromatsuoka.com/gnuplot/Eng/winbin/ download Gnuplot for windows compiled withMinGW-W64，then unzip and run.
  
