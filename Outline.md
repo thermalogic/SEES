@@ -6,7 +6,7 @@
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
-  * **Course Repositories**: Home,SEUIF97,PyRrankine
+  * **Course Repositories**: Home,SEUIF97,PyRrankine，GSL4Windows，Practices 
 
   * **Homework**
    
