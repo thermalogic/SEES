@@ -284,7 +284,11 @@
 
    * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-   * GSL,Gnuplot
+   * GSL:  statistical functions, linear least-Squares fitting
+   
+   * Gnuplot: plotting function,data file, curve fitting
+
+       * C/C++ Plotting : pipe
    
    * **Homework**
 
