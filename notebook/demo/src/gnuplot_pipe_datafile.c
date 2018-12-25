@@ -9,10 +9,10 @@ int main (void)
     if (pipe) {   // If gnuplot is found
       fprintf(pipe, "set term wx\n");         // set the terminal               
       fprintf(pipe, "set datafile separator ','\n"); //datafile separator ','
-      fprintf(pipe, "set xlabel 'Distances'\n");
-      fprintf(pipe, "set ylabel 'Mass'\n");
-      fprintf(pipe, "set title 'Observable'\n");
-      fprintf(pipe, "plot './demo/data/springData.csv' using 1:2 title 'Mass=f(Distance)-' \n");
+      fprintf(pipe, "set xlabel '|Force| (Newtons)'\n");
+      fprintf(pipe, "set ylabel 'Distance (meters)'\n");
+      fprintf(pipe, "set title 'Measured Displacement of Spring'\n");
+      fprintf(pipe, "plot './demo/data/springData.csv' using  ($2*9.81):1 title '(Force,Distance)'\n");
 
     fflush(pipe); //flush pipe
 
