@@ -7,7 +7,7 @@ Install GSL and Gnuplot for Windows compiled with MinGW-W64
 
 Goto https://github.com/PySEE/GSL4Windows download the zip file,then unzip it，copy the files as the following steps：
 
-### 1 Copy Static and import libraries to the default path of MinGW-W64's lib
+### 1 Copy static and import libraries to the default path of MinGW-W64's lib
 
 Copy static and import libraries in  `GSL4Windows\lib`
 
@@ -19,7 +19,7 @@ To the subfolder `lib\gcc\x86_64-w64-mingw32\Version` of  MinGW-W64.
 
 For Example: MinGW-W64 8.1.0 is installed in `C:\mingw64\`, copy to `C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0`
 
-### 2 Copy dynamic libraries to the default path of Windows
+### 2 Copy dynamic libraries to the default path of Windows's dll
 
 Copy `GSL4Windows\bin` 
 

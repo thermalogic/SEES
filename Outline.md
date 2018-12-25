@@ -274,7 +274,7 @@
 
    * **Homework**
 
-     * [Install GSL GNUPLOT for Windows](./guide/Installation-GSL-GNUPLOT-Windows(Chinese).md) 
+     * [Install GSL & GNUPLOT for Windows](./guide/Installation-GSL-GNUPLOT-Windows.md) 
     
      * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
 
