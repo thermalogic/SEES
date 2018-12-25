@@ -11,6 +11,6 @@ set term wx
 set xlabel '|Force| (Newtons)'
 set ylabel 'Distance (meters)'
 set title 'Measured Displacement of Spring'
-plot './demo/data/springData.csv' using  ($2*9.81):1 title '(Force,Distance)'
-replot './demo/data/springData.csv' using ($2*9.81):(d($2*9.81)) title ''
-replot './demo/data/springData.csv' using ($2*9.81):(d($2*9.81))  title 'Force=f(Distance)' with line ls 12
+plot './demo/data/springData.csv' using  ($2*9.81):1 title '(Force,Distance)',\
+     './demo/data/springData.csv' using ($2*9.81):(d($2*9.81)) title '',\
+     './demo/data/springData.csv' using ($2*9.81):(d($2*9.81))  title 'Force=f(Distance)' with line ls 12
