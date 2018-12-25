@@ -76,7 +76,7 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
->We **recommend** that you [use git to clone and update the home repositoriey.](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
+>We **recommend** that you [use git to clone and update the home repository](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
 
 ## Schedule and Structure
 
