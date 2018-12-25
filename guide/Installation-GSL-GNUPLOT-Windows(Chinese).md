@@ -13,13 +13,13 @@
 
 * 可用于非x86_64-win32-seh版的64位MinGW-W64编译器
 
-* GSL 1.16版软件库可满足工作需要
+* GSL 1.16版软件库可满足常规工作需要
 
 ### 安装GSL
 
-#### 1 拷贝动态库的导入库到lib目录中
+#### 1 拷贝动态库导入库到lib目录
 
-将 `gsl-1.16-mingw-w64-winpthread-seh\gsl-1.16\lib`中的动态库的导入库（import library）
+将 `gsl-1.16-mingw-w64-winpthread-seh\gsl-1.16\lib`中的动态库导入库（import library）
 
 libgsl-1.16.dll.a和libgslcblas-1.16.dll.a
 
@@ -27,11 +27,13 @@ libgsl-1.16.dll.a和libgslcblas-1.16.dll.a
 
 然后，删除文件名中的版本号，即修改2个文件名为 libgsl.dll.a和libgslcblas.dll.a 
 
-#### 2 拷贝动态库文件到系统默认路径
+#### 2 拷贝动态库到系统默认路径
 
 将`gsl-1.16-mingw-w64-winpthread-seh\gsl-1.16\bin`中的
 
-gsl-1.16.dll和gslcblas-1.16.dll拷贝到`C:\Windows\System`中，注意不要改文件名。
+gsl-1.16.dll和gslcblas-1.16.dll
+
+拷贝到`C:\Windows\System`中，注意不要改文件名。
 
 ## 安装Gnuplot for Windows
 
