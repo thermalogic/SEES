@@ -286,7 +286,7 @@
 
    * GSL:  statistical functions, linear least-Squares fitting
    
-   * Gnuplot: plotting function,data file, curve fitting
+   * Gnuplot: plotting function,data file, curve fitting, point and line style 
 
        * C/C++ Plotting : pipe
    
