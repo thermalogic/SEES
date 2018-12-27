@@ -4,9 +4,9 @@
 
   * Goals,Grading,Practices
 
-  * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
+  * **Course Repositories**: Home,SEUIF97,PyRrankine,GSL4Windows,Practices 
 
-  * **Course Repositories**: Home,SEUIF97,PyRrankine，GSL4Windows，Practices 
+  * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
   * **Homework**
    
