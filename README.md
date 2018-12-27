@@ -12,7 +12,7 @@ We will cover:
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * interactive analysis and literate programming with the [Jupyter Notebook](https://jupyter.org)
 * apply [computational thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
-* use **computational tools** to model and understand data [Numpy, Scipy,Matplotlib](https://www.scipy.org/)
+* use **computational tools** to model and understand data [Numpy, Scipy, Matplotlib](https://www.scipy.org/)
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and analysis software performance
 * C/C++ programming with [GCC](https://gcc.gnu.org/)，[GSL](https://www.gnu.org/software/gsl/) and [Gnuplot](http://www.gnuplot.info/)
