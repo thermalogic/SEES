@@ -275,11 +275,15 @@
    * **Homework**
 
      * [Install GSL & GNUPLOT for Windows](./guide/Installation-GSL-GNUPLOT-Windows.md) 
-    
-     * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-     * [Excel4Engineering](https://github.com/thermalogic/Excel4Engineering)
+     * Install pypistats: >python -m pip install pypistats
 
+     * **Optional**: 
+        
+       * [Excel4Engineering](https://github.com/thermalogic/Excel4Engineering)
+
+       * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
+     
 * [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
 
    * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
@@ -292,7 +296,7 @@
    
    * **Homework**
 
-     * [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
+     * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
 * **Recap, Outlook**
 

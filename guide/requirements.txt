@@ -6,4 +6,4 @@ scipy
 matplotlib
 iapws
 seuif97
-
+pypistats
