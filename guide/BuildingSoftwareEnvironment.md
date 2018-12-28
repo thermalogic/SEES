@@ -1,4 +1,4 @@
-# The Guide of  Building Software Environment
+# The Guide of Building Software Environment
 
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
@@ -28,6 +28,12 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Package: SEUIF97](#f2-iapws-if97-package-seuif97)
+    - [G:Install GSL and Gnuplot for Windows](#ginstall-gsl-and-gnuplot-for-windows)
+        - [G.1 GSL for Windows](#g1-gsl-for-windows)
+            - [G.1.1 Copy static and import libraries to the default path of MinGW-W64's lib](#g11-copy-static-and-import-libraries-to-the-default-path-of-mingw-w64s-lib)
+            - [G.1.2 Copy dynamic libraries to the default path of Windows's dll](#g12-copy-dynamic-libraries-to-the-default-path-of-windowss-dll)
+            - [G.1.3 Copy header files to the default path of MinGW-W64's include](#g13-copy-header-files-to-the-default-path-of-mingw-w64s-include)
+        - [G.2 Gnuplot for Windows](#g2-gnuplot-for-windows)
     - [Extended](#extended)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
@@ -337,6 +343,47 @@ That's it - you'll have the latest version of the repository.
 > python -m pip install seuif97 
 ``` 
 
+## G:Install GSL and Gnuplot for Windows
+
+Install GSL and Gnuplot for Windows compiled with MinGW-W64
+
+### G.1 GSL for Windows
+
+Goto https://github.com/PySEE/GSL4Windows download the zip file,then unzip it，copy the files as the following steps：
+
+#### G.1.1 Copy static and import libraries to the default path of MinGW-W64's lib
+
+Copy static and import libraries in  `GSL4Windows\lib`
+
+* libgsl.a libgsl.dll.a 
+
+* libgslcblas.a libgslcblas.dll.a
+
+To the subfolder `lib\gcc\x86_64-w64-mingw32\Version` of  MinGW-W64.
+
+For Example: MinGW-W64 8.1.0 is installed in `C:\mingw64\`, copy to `C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0`
+
+#### G.1.2 Copy dynamic libraries to the default path of Windows's dll
+
+Copy `GSL4Windows\bin` 
+
+* libgsl-23.dll
+
+* libgslcblas-0.dll
+
+TO `C:\Windows\System`
+
+#### G.1.3 Copy header files to the default path of MinGW-W64's include
+
+Copy all *.h in the folder `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mingw32\include\gsl`
+
+### G.2 Gnuplot for Windows
+
+Goto http://www.tatsuromatsuoka.com/gnuplot/Eng/winbin/ download Gnuplot for windows compiled with MinGW-W64，then unzip and run.
+ 
+After installed, add the path of gnuplot.exe to the system environment variable **Path**，e.g: `"C:\Program Files\gnuplot\bin\"`
+
+ 
 ## Extended
 
 ### Windows10

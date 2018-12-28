@@ -274,7 +274,7 @@
 
    * **Homework**
 
-     * [Install GSL & GNUPLOT for Windows](./guide/Installation-GSL-GNUPLOT-Windows.md) 
+     * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
      * Install pypistats: >python -m pip install pypistats
 
