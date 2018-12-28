@@ -24,9 +24,9 @@ We will cover:
 
 * **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
 
-   * Python,Jupyter,NumPy,SciPy,Matplotlib,IAPWS,SEUIF97
+   * Python,Jupyter,NumPy,SciPy,Matplotlib,SEUIF97,IAPWS
    
-   * Visual Studio Code,MinGW-W64(GCC); Ubuntu,GSL,Gnuplot
+   * Visual Studio Code,MinGW-W64(GCC),GSL,Gnuplot,Ubuntu
    
    * Git,Github
  
@@ -44,9 +44,9 @@ We will cover:
 
       * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/)
 
-   * [Guide](./guide) Markdown,Git/Github,Ubuntu
+   * [Guide of Softwares](./guide) 
 
-      * [Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
+      * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
 
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: C/C++,Python,Java,MS Excel VBA 
 
@@ -68,7 +68,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
 Please `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
 
-### Download the *PySEE/home* Repository to Your Computer 
+### Download the *PySEE/home* Repository  
 
 You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
@@ -83,8 +83,6 @@ Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `Star
 ## Schedule and Structure
 
 The course schedule and structure are listed in the [**Outline**](./Outline.md)
-
-
 
 ## Readings and resources 
 
