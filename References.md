@@ -5,7 +5,7 @@
 
 *  John V. Guttag. **Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.**
 
-   * 陈光欣译. Python编程导论.  人民邮电出版社(第2版). 2018年2月1日
+   * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
 
    * [Accompanying Python3 Code](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
 
@@ -26,8 +26,6 @@
 * Doug Hellmann. [Python 3 Module of the Week](https://pymotw.com/3/)
   
   * [The Python 3 Standard Library by Example, Second Edition](https://my.safaribooksonline.com/book/programming/python/9780134291154). Addison-Wesley Professional, June 12, 2017
-
-* Gabriele Lanaro. [Python High Performance，Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition). Packt Publishing. 2017
 
 ### Python for mathematics, science and engineering
 
@@ -57,7 +55,7 @@
 
 * [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-* [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+* [Visual Studio Code: Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
 ### Git & Github
 
@@ -81,7 +79,7 @@
 
 * R Sinha, Christiaan J. J. Paredis. etc. Modeling and Simulation Methods for Design of Engineering Systems. Transactions of the ASME[J]. 2001.03(1):84-91
 
-### Programming C/C++ with GCC
+### C/C++ Programming with GCC
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 

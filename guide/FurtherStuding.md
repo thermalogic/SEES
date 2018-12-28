@@ -69,3 +69,9 @@
 
 * [Excel JavaScript API]( https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview?view=office-js)
 
+## High Performance Computing
+
+* Gabriele Lanaro. [Python High Performance，Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition). Packt Publishing. 2017
+
+* Blaise Barney. [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/) Livermore
+Computing Center, Lawrence Livermore National Laboratory,USA
