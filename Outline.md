@@ -87,6 +87,8 @@
    * **Dictionaries**,Mutability
 
    * **Homework**
+     
+     * Install iapws: >python -m pip install iapws
     
      * [Install iapws](./guide/BuildingSoftwareEnvironment.md),[Download the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
@@ -94,9 +96,7 @@
 
     * IAPWS-IF97
 
-    * Python library for IAPWS
-    
-    * SEUIF97
+    * Python library for IAPWS，SEUIF97
    
    * **Homework**
 

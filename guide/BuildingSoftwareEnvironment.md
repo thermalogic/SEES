@@ -27,9 +27,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
-        - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
-            - [F.2.1 iapws](#f21-iapws)
-            - [F.2.2 SEUIF97](#f22-seuif97)
+        - [F.2 IAPWS-IF97 Package: SEUIF97](#f2-iapws-if97-package-seuif97)
     - [Extended](#extended)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
@@ -37,7 +35,6 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
     - [References](#references)
 
 <!-- /TOC -->
-
 ## A:Python & PyPI
 
 Goto [the official Python site](https://www.python.org/downloads/), you can use typically **Download the latest version of Python** `button` that appears first on the page to get the latest version of Python.
@@ -148,7 +145,6 @@ Install from `@tsinghua` for the **higher speed**: https://pypi.tuna.tsinghua.ed
 >python -m pip install autopep8 
 >python -m pip install pylint
 ```
-
 or
 
 ```bash  
@@ -335,17 +331,7 @@ That's it - you'll have the latest version of the repository.
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### F.2 IAPWS-IF97 Packages: 
-
-#### F.2.1 iapws
-
-pre-installed:numpy and scipy
-
-```bash   
-> python -m pip install iapws 
-``` 
-
-#### F.2.2 SEUIF97
+### F.2 IAPWS-IF97 Package: SEUIF97 
 
 ```bash   
 > python -m pip install seuif97 
