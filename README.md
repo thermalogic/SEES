@@ -52,6 +52,8 @@ We will cover:
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
 
+* [PySEE/GSL4Windows](https://github.com/PySEE/GSL4Windows) The GNU Scientific Library(GSL) for Windows build with MinGW-W64(64) 
+
 * [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
 
 ## Grading
