@@ -90,7 +90,7 @@
      
      * Install iapws: >python -m pip install iapws
     
-     * [install the SEUIF97](https://github.com/PySEE/SEUIF97)  
+     * [Install the SEUIF97](https://github.com/PySEE/SEUIF97)  
 
  * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
