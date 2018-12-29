@@ -10,7 +10,7 @@ class Region4Test (unittest.TestCase):
                     [500, 0.263889776e1],
                     [600, 0.123443146e2]]
 
-        #I F97-dev, Table 36 Page 36 :  p(MPa) T(K)
+        # IF97-dev, Table 36 Page 36 :  p(MPa) T(K)
         self.tab36=[[0.1, 0.372755919e3],
                     [  1, 0.453035632e3],
                     [ 10, 0.584149488e3]]
