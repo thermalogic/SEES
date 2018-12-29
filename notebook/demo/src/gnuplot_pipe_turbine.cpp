@@ -11,6 +11,7 @@
 */
 
 #include <iostream>
+#include <iomanip>
 #include "seuif97.h"
 
 using namespace std;
@@ -59,7 +60,7 @@ void Turbine::output(void)
 {
     cout << "(Pin,Tin) = (" << win.p << "," << win.t << ")" << endl;
     cout << "(Pex,Tex) = (" << wex.p << "," << wex.t << ")" << endl;
-    cout << "The isentropic efficiency = " << ef << "%" << endl;
+    cout << "The isentropic efficiency = " << setiosflags(ios::fixed) << setprecision (2)<< ef << "%" << endl;
 };
 
 void Turbine::expansionline(void)
@@ -88,17 +89,18 @@ void Turbine::expansionline(void)
     if (pipe)                                    // If gnuplot is found
     {
         fprintf(pipe, "set term wx\n"); // set the terminal
+        fprintf(pipe, "set termoption enhanced\n"); //  set enhanced text mode 
         fprintf(pipe, "set xlabel 's(kJ/(kg.K))'\n");
         fprintf(pipe, "set ylabel 'h(kJ/kg)'\n");
         fprintf(pipe, "set title 'H-S(Mollier) Diagram of Steam Turbine Expansion'\n");
         fprintf(pipe, "set yrange [%lf:%lf]\n", h_isopex[0]-20, h_isopin[1]+20);
         fprintf(pipe, "set xrange [%lf:%lf]\n", s_isopex[0]-0.01,s_isopex[1]+0.01);
-        fprintf(pipe, "set label 'The isentropic efficiency= %.2f%%' at %lf,%lf left\n",ef,s_isopin[1]+0.01, h_isopin[1]-50);
-     
-        fprintf(pipe, "plot '-' title '' with line lc rgb 'red', \
-                       '-' title '' with line lc rgb 'green',\
+        fprintf(pipe, "set label 'The isentropic efficiency=(h_1-h_2)/(h_1-h_{2s})= %.2f%%' at %lf,%lf left\n", ef, s_isopin[1] + 0.01, h_isopin[1] - 50);
+
+        fprintf(pipe, "plot '-' title '' with line lc rgb 'blue', \
+                       '-' title '' with line lc rgb 'blue',\
                        '-' title '' with linespoints lc rgb 'orange',\
-                       '-' title 'Expansion Line' with linespoints lc rgb 'blue'\n");
+                       '-' title 'Expansion Line' with linespoints lc rgb 'red'\n");
       
         // 1 Isobar line : pin
         for (int i = 0; i < 2; i++)
