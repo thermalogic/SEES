@@ -59,7 +59,7 @@ void Turbine::output(void)
 {
     cout << "(Pin,Tin) = (" << win.p << "," << win.t << ")" << endl;
     cout << "(Pex,Tex) = (" << wex.p << "," << wex.t << ")" << endl;
-    cout << "Ef = " << ef << "%" << endl;
+    cout << "The isentropic efficiency = " << ef << "%" << endl;
 };
 
 void Turbine::expansionline(void)
