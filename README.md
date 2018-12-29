@@ -15,8 +15,9 @@ We will cover:
 * use **computational tools** to model and understand data [Numpy, Scipy, Matplotlib](https://www.scipy.org/)
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and analysis software performance
-* C/C++ programming with [GCC](https://gcc.gnu.org/)，[GSL](https://www.gnu.org/software/gsl/) and [Gnuplot](http://www.gnuplot.info/)
-* version control with [Git/Github](https://git-scm.com/) 
+* C/C++ programming with [GCC](https://gcc.gnu.org/)，[GSL](https://www.gnu.org/software/gsl/) and [Gnuplot](http://www.gnuplot.info/)，
+* C/C++ and Python programming in [Ubuntu](https://www.ubuntu.com/)
+* Version control with [Git/Github](https://git-scm.com/) 
 
 ## Required Materials
 
