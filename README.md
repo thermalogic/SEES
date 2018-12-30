@@ -65,6 +65,14 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * [**Practices(5 projects):65 Bonus: +5**](https://github.com/PySEE/Practices/)
   * Final Exam: 20
 
+## Schedule and Structure
+
+The course schedule and structure are listed in the [**Outline**](./Outline.md)
+
+## Readings and resources 
+
+Please visit [References](./References.md) and [Guide](./guide) for details
+
 ## Using the Notebooks of PySEE/home 
 
 Please `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
@@ -80,14 +88,6 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
 >We **recommend** that you [use git to clone and update the home repository](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
-
-## Schedule and Structure
-
-The course schedule and structure are listed in the [**Outline**](./Outline.md)
-
-## Readings and resources 
-
-Please visit [References](./References.md) and [Guide](./guide) for details
 
 ## TIPS
 
