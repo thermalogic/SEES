@@ -75,3 +75,7 @@
 
 * Blaise Barney. [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/) Livermore
 Computing Center, Lawrence Livermore National Laboratory,USA
+
+* Tim Mattson. [Intro_To_OpenMP_Mattson.pdf(Slides)](https://www.openmp.org/wp-content/uploads/Intro_To_OpenMP_Mattson.pdf). 2011
+
+    * Exercise files: [Mattson_OMP_exercises.zip](https://www.openmp.org/wp-content/uploads/Mattson_OMP_exercises.zip)

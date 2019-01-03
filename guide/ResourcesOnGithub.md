@@ -16,6 +16,8 @@
 
 * OpenFOAM: https://github.com/OpenFOAM
 
+* University of Bristol High Performance Computing Group https://github.com/UoB-HPC
+
 * OpenMDAO:  https://github.com/OpenMDAO
 
 * Computer Aided Chemical Engineering https://github.com/CAChemE

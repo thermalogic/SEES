@@ -86,7 +86,10 @@ $sudo apt install git
 
 ### 2 C/C++ With GCC
 
-Ubuntu系统内置GCC编译器，无需安装
+Ubuntu系统内置GCC编译器，无需安装.
+
+**Note**： 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装
+：$sudo apt-get install build-essential
 
 ### 3 Python3开发环境
 
