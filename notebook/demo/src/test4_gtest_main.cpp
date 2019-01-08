@@ -30,9 +30,3 @@ TEST(Region4Test, SaturationTTest)
     EXPECT_NEAR(tab36[i][1], TSat(p), 1.0e-6);
   }
 }
-
-int main(int argc, char **argv)
-{
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}

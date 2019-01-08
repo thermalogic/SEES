@@ -18,16 +18,20 @@ void setUp(void) {}
 
 void tearDown(void) {}
 
-void test_Saturationline(void)
-{
-  //  Saturation line
 
+void test_SaturationP(void)
+{
+  //  Saturation P line
   for (int i = 0; i < 3; i++)
   {
     double T = tab35[i][0];
     TEST_ASSERT_EQUAL_FLOAT(tab35[i][1], pSat(T));
   }
+}
 
+void test_SaturationT(void)
+{
+  //  Saturation T line
   for (int i = 0; i < 3; i++)
   {
     double p = tab36[i][0];
@@ -38,6 +42,7 @@ void test_Saturationline(void)
 int main(void)
 {
   UNITY_BEGIN();
-  RUN_TEST(test_Saturationline);
+  RUN_TEST(test_SaturationP);
+  RUN_TEST(test_SaturationT);
   return UNITY_END();
 }
