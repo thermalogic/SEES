@@ -125,4 +125,6 @@
 
 * Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
 
+* Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
+
 * Visual Studio Code：https://code.visualstudio.com/ 
