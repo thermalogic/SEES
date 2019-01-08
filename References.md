@@ -117,7 +117,9 @@
 
 * Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
-* Google 开源项目风格指南 (中文版) https://github.com/zh-google-styleguide/zh-google-styleguide
+* Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
+
+    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
 
