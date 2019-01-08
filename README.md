@@ -55,6 +55,8 @@ We will cover:
 
 * [PySEE/GSL4Windows](https://github.com/PySEE/GSL4Windows) The GNU Scientific Library(GSL) for Windows build with MinGW-W64(64) 
 
+* [PySEE/Googletest4Windows](https://github.com/PySEE/Googletest4Windows) Googletest for Windows compiled with MinGW-W64(64) 
+
 * [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
 
 ## Grading
