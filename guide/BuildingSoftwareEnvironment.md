@@ -3,7 +3,7 @@
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 
-- [The Guide of  Building Software Environment](#the-guide-of--building-software-environment)
+- [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Customize Installation Python](#a1-customize-installation-python)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
@@ -379,7 +379,7 @@ Copy all *.h in the folder `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mingw
 
 ### G.2 Gnuplot for Windows
 
-Goto http://www.tatsuromatsuoka.com/gnuplot/Eng/winbin/ download Gnuplot for windows compiled with MinGW-W64，then unzip and run.
+Goto http://tmacchant3.starfree.jp/gnuplot/Eng/winbin/ download Gnuplot for Windows64 compiled with MinGW-W64 64bit (`gp*-*-win64-mingw_exe.zip`),then unzip and run.
  
 After installed, add the path of gnuplot.exe to the system environment variable **Path**，e.g: `"C:\Program Files\gnuplot\bin\"`
 
