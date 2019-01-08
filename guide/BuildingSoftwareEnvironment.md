@@ -30,9 +30,9 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [F.2 IAPWS-IF97 Package: SEUIF97](#f2-iapws-if97-package-seuif97)
     - [G:Install GSL and Gnuplot for Windows](#ginstall-gsl-and-gnuplot-for-windows)
         - [G.1 GSL for Windows](#g1-gsl-for-windows)
-            - [G.1.1 Copy static and import libraries to the default path of MinGW-W64's lib](#g11-copy-static-and-import-libraries-to-the-default-path-of-mingw-w64s-lib)
+            - [G.1.1 Copy static and import libraries to the default `lib` path of MinGW-W64](#g11-copy-static-and-import-libraries-to-the-default-lib-path-of-mingw-w64)
             - [G.1.2 Copy dynamic libraries to the default path of Windows's dll](#g12-copy-dynamic-libraries-to-the-default-path-of-windowss-dll)
-            - [G.1.3 Copy header files to the default path of MinGW-W64's include](#g13-copy-header-files-to-the-default-path-of-mingw-w64s-include)
+            - [G.1.3 Copy header files to the default `include` path of MinGW-W64](#g13-copy-header-files-to-the-default-include-path-of-mingw-w64)
         - [G.2 Gnuplot for Windows](#g2-gnuplot-for-windows)
     - [Extended](#extended)
         - [Windows10](#windows10)
@@ -351,7 +351,7 @@ Install GSL and Gnuplot for Windows compiled with MinGW-W64
 
 Goto https://github.com/PySEE/GSL4Windows download the zip file,then unzip it，copy the files as the following steps：
 
-#### G.1.1 Copy static and import libraries to the default path of MinGW-W64's lib
+#### G.1.1 Copy static and import libraries to the default `lib` path of MinGW-W64 
 
 Copy static and import libraries in  `GSL4Windows\lib`
 
@@ -365,7 +365,7 @@ For Example: MinGW-W64 8.1.0 is installed in `C:\mingw64\`, copy to `C:\mingw64\
 
 #### G.1.2 Copy dynamic libraries to the default path of Windows's dll
 
-Copy `GSL4Windows\bin` 
+Copy dynamic libraries in `GSL4Windows\bin` 
 
 * libgsl-23.dll
 
@@ -373,9 +373,9 @@ Copy `GSL4Windows\bin`
 
 TO `C:\Windows\System`
 
-#### G.1.3 Copy header files to the default path of MinGW-W64's include
+#### G.1.3 Copy header files to the default `include` path of MinGW-W64 
 
-Copy all *.h in the folder `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mingw32\include\gsl`
+Copy the folder `\gsl` in the `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mingw32\include\`
 
 ### G.2 Gnuplot for Windows
 
