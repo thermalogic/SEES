@@ -270,7 +270,7 @@
 
    * IAPWS-IF97,Windows DLL,
    
-   * Unit Test for C:  Unity, Googletest
+   * Unit Test for C/C++:  Unity, Googletest
 
    * Excel VBA (Excel 2013 above(64)
 
