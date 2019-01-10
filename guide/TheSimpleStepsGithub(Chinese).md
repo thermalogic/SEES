@@ -211,4 +211,4 @@ git push --set-upstream origin master
 
 **[2]** Git Version Control in VS Code：   https://code.visualstudio.com/docs/editor/versioncontrol
 
-  * Visual Studio Code集成了对Git/Github的支持，可以更方便地使用GUI进行Git/Github工作。
+  * 使用Visual Studio Code进行Git/Github工作更方便些。

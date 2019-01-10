@@ -16,7 +16,7 @@
      
      * [Install Softwares: Python,Jupyter,MinGW-W64,Visual Studio Code,Git](./guide/BuildingSoftwareEnvironment.md)
 
-     * [Download the Home of PySEE, Using Juyter Notebooks of the course](https://github.com/PySEE/home)
+     * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
    
      * [ebooks](./Reference.md)
    
@@ -260,6 +260,8 @@
   
   * **Homework**
 
+      * Install [Googletest for Windows](https://github.com/PySEE/Googletest4Windows)
+
       * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
 * [Python_ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-3-Python_ctypes.ipynb)
@@ -270,15 +272,15 @@
 
    * IAPWS-IF97,Windows DLL,
    
-   * Unit Test for C/C++:  Unity, Googletest
+   * Excel VBA (Excel 2013 above 64bit)
 
-   * Excel VBA (Excel 2013 above(64)
+   * Unit Test for C/C++:  Unity, Googletest
 
    * **Homework**
 
      * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
-     * Install pypistats: >python -m pip install pypistats
+     * Install pypistats in the CMD terminal: >python -m pip install pypistats
 
      * **Optional**: 
         
@@ -290,7 +292,7 @@
 
    * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-   * GSL:  statistical functions, linear least-Squares fitting
+   * GSL: statistical functions, linear least-Squares fitting
    
    * Gnuplot: plotting function,data file,  point and line style，multiple plots,curve fitting
 

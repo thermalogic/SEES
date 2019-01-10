@@ -61,8 +61,7 @@ Ubuntu系统的分区很多，快捷安装只需配置: `/home分区和挂载点
 
 ![bionic-part-all](./img/bionic-parts.jpg)
 
-
-点 `Install Now` 前,务必再次确认使用的是 `空闲空间`及分区的配置信息正确，不要破坏Windows系统及其用户使用的空间。
+点 `Install Now` 前，务必再次确认使用的是 `空闲空间`及分区的配置信息正确，不要破坏Windows系统及其用户使用的空间。
 
 确认分区无误后，点`Install Now`,进入以下步骤：
 
@@ -86,16 +85,14 @@ $sudo apt install git
 
 ### 2 C/C++ With GCC
 
-Ubuntu系统内置GCC编译器，无需安装.
+Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
-**Note**： 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装
-：$sudo apt-get install build-essential
+**Note**： 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：$sudo apt-get install build-essential
 
-### 3 Python3开发环境
+### 3 Python3 and Tools
 
-Ubuntu 18.04 LTS系统中,默认Python3.但不完整，需补充: pip3、idle3。
+Ubuntu 18.04 LTS内置Python3. 但不完整，需补充: pip3、idle3。
 
-在线安装：
 ```bash
 $sudo apt install python3-pip
 $sudo -H python3 -m  pip install  --upgrade pip 
@@ -108,40 +105,39 @@ $python3
 $idle3
 $pip3
 ```
-### 4 安装scipy
+### 4 Analytics & Scientific Computing Python Packages
 
-apt在线安装
 ```bash
 $sudo apt install python3-numpy python3-scipy python3-matplotlib
 ```
-### 5 安装Jupyter
+### 5 Installing Jupyter
 
 ```bash
-$sudo -H pip3 install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
+$sudo -H python3 -m pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-### 6 安装IAPWS-IF97
+### 6 Installing IAPWS-IF97
 
 #### SEUIF97
 
 ```bash
-$sudo -H python3 -m pip install seuif97
+$sudo -H python3 -m pip install seuif97  
 ```
 #### IAPWS
 
 ```bash
-$sudo -H pip3 install iapws
+$sudo -H  python3 -m pip install iapws 
 ```
-### 7 Visual Studio Code开发环境
+### 7 Visual Studio Code
 
-#### 1 安装Visual Studio Code
+#### 1 Installing Visual Studio Code
 
-From   https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian,Ubuntu
+From  https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian/Ubuntu,the install in the terminal
 
 ```bash
 $sudo dpkg -i [vscode filename].deb
 ```
 
-#### 2 安装插件
+#### 2 Installing  Extensions
 
 Install Python Extension in  Visual Studio Code
 
@@ -151,22 +147,20 @@ Install the Microsoft C/C++ extension
 
 * https://code.visualstudio.com/docs/languages/cpp
 
-#### 3 set Python3 as the default Python Version
+#### 3 Set Python3 as the default Python Version
 
 ```json
 // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
   "python.pythonPath": "python3",
 ```
 
-### 8 科学计算包GSL
+### 8 Installing GSL
 
 ```bash
 $sudo apt install gsl-bin
- 
 $sudo apt install libgsl-dev
-
 ```
-### 9 数据可视化包Gnuplot
+### 9 Installing Gnuplot
 
 ```bash
 $sudo apt install gnuplot
