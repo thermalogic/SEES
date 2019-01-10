@@ -154,27 +154,27 @@
 
      * [The CSV,JSON Representation of Rankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
 
-     * [JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-JSON-Python.ipynb)
+     * [JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
 
-     * [Python's Packages,Redirect stdout,glob](https://github.com/PySEE/PyRankine/step4)
+     * [Python's Packages,Redirect stdout,glob]((http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb))
   
    * **Homework**
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
-   * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-ReheatCycle-Optimization.ipynb)
+     * [PyThermo-ReheatCycle-Optimization](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-5-PyThermo-ReheatCycle-Optimization.ipynb)
 
 * [18 UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
    * The Behavior of Springs： CSV File 
    
-       * Numpy: array,polyfit,Arithmetic Operations : elementwise
+       * NumPy: array,polyfit,Arithmetic Operations : elementwise
 
    * The Behavior of Projectiles: Coefficient of Determination
  
 * [21 LIES DAMNED LIES AND STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-   * Numpy: genfromtxt,mean,var,corrcoef
+   * NumPy: genfromtxt,mean,var,corrcoef
    
    * Matplotlib: bar, subplot 
 
