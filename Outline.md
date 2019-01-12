@@ -42,13 +42,13 @@
 
       * **Iteration**:  `while `
 
-      * **Python Developer's Guide**: The Zen of Python ,PEP20; Coding convention: PEP8
+      * **Python Style Guide**: The Zen of Python(PEP20）; Coding convention(PEP8)
      
 * [03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
    * Exhaustive Enumeration
  
-   * `For Loops`,`range(start,stop,step)`
+   * **Loop**：`For Loops`,`range(start,stop,step)`
 
    * Approximate Solutions and Bisection Search, Fancier Output Formatting, `str.format()` 
 
@@ -76,21 +76,21 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-   * Tuples, Multiple Assignment
+   * **Tuple**, Multiple Assignment
 
-   * **Lists**,  **Mutability**, Cloning, List Comprehension
+   * **List**,  **Mutability**, Cloning, List Comprehension
 
-   * Functions as Objects，Lambdas
+   * Functions as Objects, Lambdas
 
    * Strings
 
-   * **Dictionaries**,Mutability
+   * **Dictionary**, Mutability
 
    * **Homework**
      
      * Install iapws: >python -m pip install iapws
     
-     * [Install the SEUIF97](https://github.com/PySEE/SEUIF97)  
+     * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
 
  * [PyThermo-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
@@ -100,7 +100,7 @@
    
    * **Homework**
 
-     * [Download the PyRankine](https://github.com/PySEE/SEUIF97)  
+     * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
     
      * [ebook](./Reference.md)
    
@@ -108,11 +108,11 @@
 
 * [PyThermo-IdealRankineCycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
 
-   * the expression directly
-   
-   * List,Dict,Function
+   * Ideal Rankine Cycle：the expression directly, List,Dict,Function
 
    * [MathJax,LaTeX](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
+
+   * Matplotlib, pprint
 
   * **Homework**
     
@@ -166,7 +166,7 @@
 
    * The Behavior of Springs： CSV File 
    
-       * NumPy: array,polyfit,Arithmetic Operations : elementwise
+       * NumPy: array, polyfit, Arithmetic Operations: elementwise
 
    * The Behavior of Projectiles: Coefficient of Determination
  
@@ -268,9 +268,9 @@
   
  * [DLL_VBA_Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
 
-   * IAPWS-IF97,Windows DLL,
+   * Building Windows DLL
    
-   * Excel VBA (Excel 2013 above 64bit)
+   * Excel VBA(Excel 2013 above, 64bit)
 
    * Unit Test for C/C++:  Unity, Googletest
 
@@ -278,7 +278,7 @@
 
      * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
-     * Install pypistats in the CMD terminal: >python -m pip install pypistats
+     * Install pypistats: >python -m pip install pypistats
 
      * **Optional**: 
         
@@ -292,7 +292,7 @@
 
    * GSL: statistical functions, linear least-Squares fitting
    
-   * Gnuplot: plotting function,data file,  point and line style，multiple plots,curve fitting
+   * Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
 
        * C/C++ Plotting : pipe
    
@@ -310,7 +310,7 @@
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [Python: Stack Queues, Set](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-Stack_Queues_Set.ipynb)
+   * [Python: Stack, Queues and Set](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-Stack_Queues_Set.ipynb)
 
    * [Python: 11.2 Plotting Mortgages](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-11-2_Plotting_Mortgages.ipynb)
 
