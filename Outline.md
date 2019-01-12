@@ -162,8 +162,6 @@
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
-     * [PyThermo-ReheatCycle-Optimization](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-5-PyThermo-ReheatCycle-Optimization.ipynb)
-
 * [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
    * The Behavior of Springs： CSV File 
