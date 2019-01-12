@@ -112,7 +112,7 @@
 
    * [MathJax,LaTeX](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
 
-   * Matplotlib, pprint
+   * pprint，Matplotlib
 
   * **Homework**
     
