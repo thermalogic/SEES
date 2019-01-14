@@ -27,6 +27,9 @@
   
   * [The Python 3 Standard Library by Example, Second Edition](https://my.safaribooksonline.com/book/programming/python/9780134291154). Addison-Wesley Professional, June 12, 2017
 
+* Python 3 Cheat Sheet https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
+
+
 ### Python for mathematics, science and engineering
 
 * Scipy. http://www.scipy.org/
