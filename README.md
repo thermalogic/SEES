@@ -64,7 +64,7 @@ We will cover:
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 15
-  * [**Practices(5 projects):65 Bonus: +5**](https://github.com/PySEE/Practices/)
+  * [**Practices: 5 Projects(65 points); 1 Bonus(+5 points); 1 Self Exercise(0 points)**](https://github.com/PySEE/Practices/)
   * Final Exam: 20
 
 ## Schedule and Structure

@@ -88,6 +88,8 @@
 
    * **Homework**
      
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+ 
      * Install iapws: >python -m pip install iapws
     
      * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
@@ -115,7 +117,7 @@
    * pprint，Matplotlib
 
   * **Homework**
-    
+
      * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-1-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
@@ -127,7 +129,7 @@
    * Encapsulation and Information Hiding
 
    * `pass`,Generators
-
+  
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
@@ -144,6 +146,10 @@
 
   * **Examples**: IF97 T-S,H-S Diagram; The Rankine Cycle T-S  Diagrams
 
+  * **Homework**
+  
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+
 * **The General simulator of Rankine Cycle**
 
    * [The Object-oriented programming of Ideal Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
@@ -157,8 +163,8 @@
      * [JSON-Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
 
      * [Python's Packages,Redirect stdout,glob]((https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb))
-  
-   * **Homework**
+ 
+  * **Homework**
   
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
@@ -238,9 +244,11 @@
 
    * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md) 
 
-   * **Homework**
+* **Homework**
 
-     * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
+   * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+  
+   * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
 
 * [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
@@ -298,24 +306,26 @@
    
    * **Homework**
 
+     * DO [Your  Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+
      * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
 * **Recap, Outlook**
 
   * [Python Quick Review](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Recap-Python-Quick-Reference.ipynb)
 
-  * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-2-Recap-Python35-Quick-Reference.ipynb)
+  * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Recap-Python35-Quick-Reference.ipynb)
   
   * [Further Studing](./guide/FurtherStuding.md)
     
 * **Appendix**
 
-   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [Python: Stack, Queues and Set](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Stack_Queues_Set.ipynb)
+   * [Python: Stack, Queues and Set](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-Stack_Queues_Set.ipynb)
 
-   * [Python: 11.2 Plotting Mortgages](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-11-2_Plotting_Mortgages.ipynb)
+   * [Python: 11.2 Plotting Mortgages](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-11-2_Plotting_Mortgages.ipynb)
 
-   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-GCC-C_stdio.ipynb)
+   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-C_stdio.ipynb)
 
-   * [GCC: GFortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-GFortran.ipynb)
+   * [GCC: GFortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-6-GCC-GFortran.ipynb)
