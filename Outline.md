@@ -88,7 +88,7 @@
 
    * **Homework**
      
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
      * Install iapws: >python -m pip install iapws
     
@@ -148,7 +148,7 @@
 
   * **Homework**
   
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
 * **The General simulator of Rankine Cycle**
 
@@ -246,7 +246,7 @@
 
 * **Homework**
 
-   * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+   * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
   
    * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
 
@@ -306,7 +306,7 @@
    
    * **Homework**
 
-     * DO [Your  Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/Review/Python-Quick-Review.ipynb)
+     * DO [Your  Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
      * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
