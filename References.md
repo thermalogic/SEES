@@ -34,7 +34,7 @@
 
 * Scipy. http://www.scipy.org/
 
-   * [SciPy Tutorial]( https://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
+   * [SciPy Tutorial](https://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
   
 * Numpy. http://www.numpy.org/ 
 
@@ -50,9 +50,9 @@
     
    * IPython https://ipython.org/
     
-   * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+   * [A gallery of interesting notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
-* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures 
+* Robert Johansson [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
 
 ### Markdown
 
