@@ -86,11 +86,11 @@
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
+   * GCC Manual https://gcc.gnu.org/onlinedocs/
+
    * MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
    * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
-
-* An Introduction to GCC  http://www.network-theory.co.uk/docs/gccintro/index.html.
 
 * Robert Mecklenburg. [Managing Projects with GNU Make(Third Edition)](https://www.oreilly.com/openbook/make3/book/index.html)
 
