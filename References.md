@@ -29,7 +29,6 @@
 
 * Python 3 Cheat Sheet https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 
-
 ### Python for mathematics, science and engineering
 
 * Scipy. http://www.scipy.org/
@@ -120,16 +119,16 @@
 
 * Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
-* Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
-
-    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
-
 * FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
 
 * Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
 
+* Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
+
+    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
+
 * Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
 
-* Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
+    * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
 
 * Visual Studio Code：https://code.visualstudio.com/ 

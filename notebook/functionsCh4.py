@@ -16,7 +16,6 @@ def factR(n):
     else:
         return n*factR(n - 1)
 
-#Page 47, Figure 4.7
 def fib(n):
     """Assumes n an int >= 0
        Returns Fibonacci of n"""

@@ -322,10 +322,4 @@
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [Python: Stack, Queues and Set](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-Stack_Queues_Set.ipynb)
-
-   * [Python: 11.2 Plotting Mortgages](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-11-2_Plotting_Mortgages.ipynb)
-
    * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-C_stdio.ipynb)
-
-   * [GCC: GFortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-6-GCC-GFortran.ipynb)
