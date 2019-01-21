@@ -131,4 +131,10 @@
 
     * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
 
+* UML http://www.uml.org/
+
+* Donald Bell. [UML basics:An introduction to the Unified Modeling Language](https://www.ibm.com/developerworks/rational/library/769.html)
+
+   * [UML basics: The class diagram](https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/index.html?ca=drs-)
+
 * Visual Studio Code：https://code.visualstudio.com/ 
