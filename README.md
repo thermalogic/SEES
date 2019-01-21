@@ -12,7 +12,6 @@ We will cover:
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * interactive analysis and literate programming with the [Jupyter Notebook](https://jupyter.org)
 * apply [computational thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
-* use [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) to help understand and improve design in the object-oriented programming
 * use **computational tools** to model and understand data [Numpy, Scipy, Matplotlib](https://www.scipy.org/)
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and analysis software performance
