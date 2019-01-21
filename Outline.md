@@ -158,7 +158,7 @@
 
    * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
 
-     * [The CSV,JSON Representation of Rankine Cycle,UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo--RankineCycle-CSV-JSON-UML.ipynb)
+     * [The CSV,JSON Representation of Rankine Cycle,UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
 
      * [JSON-Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
 
