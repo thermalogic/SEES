@@ -1,0 +1,37 @@
+digraph "packages" {
+charset="utf-8"
+rankdir=BT
+"0" [label="step5", shape="box"];
+"1" [label="step5.components", shape="box"];
+"2" [label="step5.components.BComponent", shape="box"];
+"3" [label="step5.components.boiler", shape="box"];
+"4" [label="step5.components.condenser", shape="box"];
+"5" [label="step5.components.node", shape="box"];
+"6" [label="step5.components.openedheaterdw0", shape="box"];
+"7" [label="step5.components.pump", shape="box"];
+"8" [label="step5.components.turbineex0", shape="box"];
+"9" [label="step5.components.turbineex1", shape="box"];
+"10" [label="step5.rankine", shape="box"];
+"11" [label="step5.rankine_cycle", shape="box"];
+"2" -> "5" [arrowhead="open", arrowtail="none"];
+"3" -> "2" [arrowhead="open", arrowtail="none"];
+"3" -> "5" [arrowhead="open", arrowtail="none"];
+"4" -> "2" [arrowhead="open", arrowtail="none"];
+"4" -> "5" [arrowhead="open", arrowtail="none"];
+"6" -> "2" [arrowhead="open", arrowtail="none"];
+"6" -> "5" [arrowhead="open", arrowtail="none"];
+"7" -> "2" [arrowhead="open", arrowtail="none"];
+"7" -> "5" [arrowhead="open", arrowtail="none"];
+"8" -> "2" [arrowhead="open", arrowtail="none"];
+"8" -> "5" [arrowhead="open", arrowtail="none"];
+"9" -> "2" [arrowhead="open", arrowtail="none"];
+"9" -> "5" [arrowhead="open", arrowtail="none"];
+"10" -> "11" [arrowhead="open", arrowtail="none"];
+"11" -> "3" [arrowhead="open", arrowtail="none"];
+"11" -> "4" [arrowhead="open", arrowtail="none"];
+"11" -> "5" [arrowhead="open", arrowtail="none"];
+"11" -> "6" [arrowhead="open", arrowtail="none"];
+"11" -> "7" [arrowhead="open", arrowtail="none"];
+"11" -> "8" [arrowhead="open", arrowtail="none"];
+"11" -> "9" [arrowhead="open", arrowtail="none"];
+}
