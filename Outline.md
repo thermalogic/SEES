@@ -150,19 +150,17 @@
   
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
-* **The General simulator of Rankine Cycle**
+* [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine)
 
    * [The Object-oriented programming of Ideal Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-     * Computational thinking
+   * [CSV, JSON of Rankine Cycle, UML Class Diagram, Python's super()](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
 
-   * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine) 
+      * [Creating UML diagrams for python code](./guide/UMLPython.md) 
 
-     * [CSV, JSON of Rankine Cycle, UML Class Diagram, Python's super()](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
+   * [Python's JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
-     * [JSON-Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
-
-     * [Python's Packages,Redirect stdout,glob]((https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb))
+   * [Python's Packages,Redirect stdout,glob]((https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb))
  
   * **Homework**
   
