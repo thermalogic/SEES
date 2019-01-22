@@ -1,9 +1,9 @@
 
-# Creating UML diagrams for python code
+# Creating UML diagrams for Python code
 
 ## 1 Softwares
 
-### 1.1 Creating UML diagram for python code
+### 1.1 Creating UML diagram for Python code
 
 Pylint is shipped with Pyreverse which creates UML diagram for python code
 
@@ -15,7 +15,7 @@ python -m pip install pylint
 
 Here, we use the [graphviz/dot](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) format file as the output.
 
-### 1.2 Graph visualization of UML diagram in the `dot` format
+### 1.2 Graph Visualization of UML diagram in the `dot` format
 
 #### 1.2.1 graphviz
 
