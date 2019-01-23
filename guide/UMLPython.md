@@ -47,7 +47,7 @@ The Usage of `pyreverse` is:
 >pyreverse [options] <packages>
 ```
 
-If we want to generate the UML class diagrams in `dot` format files of Python package or modules
+If we want to generate the UML class diagrams in `dot` format files of Python packages or modules
 
 ```bash
 pyreverse -o dot  python-package/module-name
@@ -57,6 +57,23 @@ pyreverse -o dot  python-package/module-name
 
 * classes.dot : UML Classes diagrams
 * packages.dot: UML Classes Association diagrams  
+
+The [PyRankine/step5](https://github.com/PySEE/PyRankine/tree/master/step5) is used as the example of 
+to show the usage of `Pyreverse` 
+
+```
+PyRankine
+ │
+ ├──step5
+ │    │
+ │    ├──components   
+ │    │      
+ │    ├──cyclefiles
+ │    │        
+ │    |── rankine_cycle.py
+ │    │
+ │    |── rankine.py
+```     
 
 ### 2.1 Generating the UML diagrams of a Python package
 
@@ -76,9 +93,7 @@ Two dot files are created in the folder `/step5/`
 
 ### 2.2 Generating the UML diagrams of the Python modules(files)
 
-#### 2.2.1 Generating the UML diagram of one Python module(file)
-
-Example: Generating the UML diagrams of `rankine_cycle.py`
+Example 1: Generating the UML diagrams of `rankine_cycle.py`
 
 In the folder `./step5/`, run the command:
 
@@ -90,9 +105,7 @@ The dot file is generated in the folder `/step5/`
 
 * classes.dot: 
 
-#### 2.2.2 Generating the UML diagrams of Python modules(files)
-
-Example: Generating the UML diagrams of `rankine_cycle.py` and `rankine.py`
+Example2 : Generating the UML diagrams of `rankine_cycle.py` and `rankine.py`
 
 In the folder `./step5/`, run the command:
 
@@ -108,9 +121,9 @@ The two dot files are generated in the folder `./step5/`
 
  Example: `./step5/__init__.py`
 
- the,`step5` is a Python package suitable analysis by pyreverse
+ then,`step5` is a Python package analysis by pyreverse
 
-### 2. Generating the UML diagrams of the Python Projects 
+### 2.3.2 Generating the UML diagrams of the Python Projects 
 
 In the parent folder `PyRankine` of `step5`,run the command:
 
