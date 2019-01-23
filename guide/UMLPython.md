@@ -58,7 +58,7 @@ pyreverse -o dot  python-package/module-name
 * classes.dot : UML Classes diagrams
 * packages.dot: UML Classes Association diagrams  
 
-The [PyRankine/step5](https://github.com/PySEE/PyRankine/tree/master/step5) is used as the example of 
+The [PyRankine/step5](https://github.com/PySEE/PyRankine/tree/master/step5) is used as the example  
 to show the usage of `Pyreverse` 
 
 ```
