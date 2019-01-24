@@ -1,0 +1,16 @@
+{ "comps": [
+        {
+            "name": "Turbine",
+            "type": "TURBINE-EX0",
+            "inNode": 0,
+            "outNode": 1
+        },
+       {
+            "name": "Boiler",
+            "type": "BOILER",
+            "eff": null,
+            "inNode": 3,
+            "outNode": 0
+        }
+    ]
+} 
