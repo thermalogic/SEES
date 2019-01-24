@@ -158,9 +158,9 @@
 
       * [Creating UML diagrams for python code](./guide/UMLPython.md) 
 
-   * [Python's JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
+   * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
-   * [Python's Packages,Redirect stdout,glob]((https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb))
+   * [Python Package,Redirect stdout,glob](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
  
   * **Homework**
   
