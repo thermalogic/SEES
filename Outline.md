@@ -156,7 +156,7 @@
 
    * [JSON of Rankine Cycle, UML Class Diagram, Python's super()](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-JSON-UML.ipynb)
 
-      * [Creating UML diagrams for python code](./guide/UMLPython.md) 
+      * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
