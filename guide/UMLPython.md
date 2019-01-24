@@ -133,3 +133,20 @@ pyreverse -o dot step5/
 
 The two dot files are generated in the folder `./Pyrankine/`
 
+## 3 The Simple Python interface for Graphviz
+
+https://graphviz.readthedocs.io
+
+Install
+
+```bash
+python -m pip install graphviz
+```
+To render the generated DOT source code, you need to install [Graphviz](https://www.graphviz.org/download/e).
+
+Make sure that the directory containing the **dot** executable is on your systems' path.
+
+```python
+from graphviz import Source
+Source.from_file("./img/classes.dot")
+```
