@@ -150,3 +150,8 @@ Make sure that the directory containing the **dot** executable is on your system
 from graphviz import Source
 Source.from_file("classes.dot")
 ```
+## Using `dot` command to go from .dot to a graph
+
+```bash
+dot -Tsvg classes.dot -o classes.svg
+```
