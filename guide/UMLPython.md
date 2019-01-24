@@ -148,5 +148,5 @@ Make sure that the directory containing the **dot** executable is on your system
 
 ```python
 from graphviz import Source
-Source.from_file("./img/classes.dot")
+Source.from_file("classes.dot")
 ```
