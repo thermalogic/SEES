@@ -142,7 +142,7 @@ Install
 ```bash
 python -m pip install graphviz
 ```
-To render the generated DOT source code, you need to install [Graphviz](https://www.graphviz.org/download/e).
+To render the generated DOT source code, you need to install [Graphviz](https://www.graphviz.org/download/).
 
 Make sure that the directory containing the **dot** executable is on your systems' path.
 
