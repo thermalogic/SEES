@@ -155,3 +155,7 @@ Source.from_file("classes.dot")
 ```bash
 dot -Tsvg classes.dot -o classes.svg
 ```
+
+```bash
+dot -Tsvg packages.dot -o packages.svg
+```
