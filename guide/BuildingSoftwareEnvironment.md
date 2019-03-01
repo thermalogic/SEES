@@ -65,9 +65,9 @@ For Windows users, open the terminal in Windows, click the `Win+R`. In the dialo
 
 Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
 
-![python shell](./img/PythonShell.png)
+![python shell](./img/PythonShell.jpg)
 
-Now,We start a Python shell.
+Now, We start **a Python shell**.
 
 The symbol `>>>`  a **shell** prompt indicating that the interpreter is expecting the user to type some Python code into the shell.
 
