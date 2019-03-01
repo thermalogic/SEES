@@ -4,19 +4,15 @@
 
   * Goals,Grading,Practices
 
-  * **Course Repositories**: Home,SEUIF97,PyRrankine,GSL4Windows,Practices 
+  * **Repositories**: Home,SEUIF97,PyRrankine,Practices,GSL4Windows,Googletest4Windows
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
+  * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
+   
   * **Homework**
    
-     * Read the contents：Python, Jypyter, Markdown, Git, Github, Visual Studio Code
-
-     * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
-     
-     * [Install Softwares: Python,Jupyter,MinGW-W64,Visual Studio Code,Git](./guide/BuildingSoftwareEnvironment.md)
-
-     * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
+     * Read the contents：Python, Jypyter, MinGW-W64(GCC), Visual Studio Code，Git, Github, Markdown,
    
      * [ebooks](./Reference.md)
    
@@ -24,6 +20,12 @@
 
      * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
+       * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
+     
+       * [Install Softwares: Python,Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
+
+       * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
+    
 * [PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python

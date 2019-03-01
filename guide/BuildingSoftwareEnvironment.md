@@ -58,10 +58,50 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 ![Python3-path](./img/python37-path.jpg)
 
 ![Python3-location](./img/python37-location.jpg)
-   
-* 3 Using IDLE
+
+* 3 **Python Shell** : Running Python prompt on Windows
+
+For Windows users, open the terminal in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
+
+Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
+
+![python shell](./img/PythonShell.png)
+
+Now,We start a Python shell.
+
+The symbol `>>>`  a **shell** prompt indicating that the interpreter is expecting the user to type some Python code into the shell.
+
+A command, often called a statement, instructs the interpreter to do something. For example, the statement `print('Yankees rule!')` instructs the interpreter to call the function `print`, which will output the string `Yankees rule!` to the window associated
+with the shell.
+
+The sequence of commands
+
+```python
+print('Yankees rule!')
+print('But not in Boston!')
+print('Yankees rule,','but not in Boston!')
+```
+
+![python shell-run](./img/PythonShell-Run.png)  
+
+> **About Computer Terminal**
+> * Please Visit [CodingWithTerminal.md](./CodingWithTerminal.md)
+
+* 4 Using **IDLE**
+
+Typing programs directly into the **shell** is highly **inconvenient**. 
+
+Most programmers prefer to use some sort of **text editor** that is part of an integrated
+development environment (IDE).
+
+In this course, we will use **IDLE**,the IDE that comes as part of the standard Python installation package.
+
+* When IDLE starts it will open a **shell** window into which you can type Python commands
+
+* It will also provide you with a **file** menu and an edit menu
 
 ![idle](./img/python-idle.jpg)
+
 
 ### A.2 The Python Package Index(PyPI)
 
@@ -159,7 +199,11 @@ or
 
 ## B:Jupyter Notebook
 
-The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
+Interactive analysis and literate programming
+
+http://jupyter.org/
+
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
 ![jupyter-demo](./img/jupyter-demo.png)
 
@@ -242,7 +286,9 @@ x86_64-win32-seh
  
 * seh：64 bits only
   
-Download the latest available version of gcc compiler for **windows32/64** with **posix thread**：GCC-8.1.0 [x86_64-posix-sjlj](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/sjlj/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0.7z)
+Download the latest available version of gcc compiler for **windows64** with **win32 API multithreading**：
+
+* GCC-8.1.0 [x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
 
 > [POSIX](https://en.wikipedia.org/wiki/POSIX): The Portable Operating System Interface is a family of standards specified by the IEEE Computer Society for maintaining `compatibility between operating systems`. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of `Unix and other operating systems`.
 
@@ -287,8 +333,13 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 
 ### D.3 Using Visual Studio Code: Python,C/C++
 
+Getting Started with Python in VS Code
+https://code.visualstudio.com/docs/python/python-tutorial
+
 * Python ![vscode-python](./img/vscode-python.png)
----
+
+Getting Started with C/C++ in VS Code
+
 * C/C++  ![vscode-gcc](./img/vscode-gcc.jpg)
 
 ## E: Using Git
@@ -303,9 +354,13 @@ Download Git for Windows: https://git-scm.com/download/win ,then install
 
 After you have installed **git**, You may use the following **commands:**
 
-**Clone the S2019 branch of the PySEE/home to your computer**
+**Clone the PySEE/home to your computer**
 
-Cloning the S2019 branch of repository shallowly for saving bandwidth
+```bash
+>git clone https://github.com/PySEE/home.git
+```
+
+**Cloning the `S2019` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
@@ -331,7 +386,7 @@ That's it - you'll have the latest version of the repository.
 
 ### F.1 Scipy
    
-   Numpy,Scipy, Matplotlib https://www.scipy.org/install.html 
+   Numpy, Scipy, Matplotlib https://www.scipy.org/install.html 
 
 ```bash   
 > python -m pip install numpy scipy matplotlib
@@ -382,7 +437,6 @@ Copy the folder `\gsl` in the `GSL4Windows\include` to `C:\mingw64\x86_64-w64-mi
 Goto http://tmacchant3.starfree.jp/gnuplot/Eng/winbin/ download Gnuplot for Windows64 compiled with MinGW-W64 64bit (`gp*-*-win64-mingw_exe.zip`),then unzip and run.
  
 After installed, add the path of gnuplot.exe to the system environment variable **Path**，e.g: `"C:\Program Files\gnuplot\bin\"`
-
  
 ## Extended
 
