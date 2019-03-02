@@ -10,7 +10,7 @@
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntn 18.04.2 LTS
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntu 18.04.2 LTS
 
   Torrent下载： http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso.torrent
 
