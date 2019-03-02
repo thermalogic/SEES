@@ -84,8 +84,7 @@ print('Yankees rule,','but not in Boston!')
 
 ![python shell-run](./img/PythonShell-Run.png)  
 
-> **About Computer Terminal**
-> * Please Visit [CodingWithTerminal.md](./CodingWithTerminal.md)
+> **About Computer Terminal** ：[CodingWithTerminal.md](./CodingWithTerminal.md)
 
 * 4 Using **IDLE**
 
