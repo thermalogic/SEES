@@ -10,11 +10,9 @@
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntn 18.04.1 LTS
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntn 18.04.2 LTS
 
-   建议使用：Torrent enables higher download speeds and more reliable downloads of large files.
-
-   http://releases.ubuntu.com/18.04.1/ubuntu-18.04.1-desktop-amd64.iso.torrent
+  Torrent下载： http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso.torrent
 
 * 从 http://rufus.akeo.ie/  下载rufus，制作系统安装用U盘，然后，用U盘安装Ubuntu
 
