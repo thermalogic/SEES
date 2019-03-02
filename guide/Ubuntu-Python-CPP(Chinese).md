@@ -19,7 +19,7 @@
 * 从 http://rufus.akeo.ie/  下载rufus，制作系统安装用U盘，然后，用U盘安装Ubuntu
 
 >
->Ubuntu发行版很多，建议 **新手** 使用
+>基于的Ubuntu发行版很多，建议 **新手** 使用
 >
 >* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
 >* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
@@ -168,51 +168,15 @@ $sudo apt install gnuplot
 
 ## 六、英文版Ubuntu补充中文支持
 
-> **Note:** 以下方法适用于Xubunt的。不同版本ubuntu差别，可上网查询方法。
+ 为Ubuntu补充中文支持的基本环节,如下：
 
-### 1 安装中文语言支持包
+1. 安装中文语言支持包
 
-安装后，重新启动，联网状态下,在出现“Update information”->Incomplete language Support提示时
-，点“Run this action now”，在线安装English和Chinese 包
+2. 安装中文输入法，建议使用**搜狗拼音输入法**
 
-> 或者以后：
->System->language support，选择和安装需要的语言包：English和Chinese，
-> 
+3. 配置搜狗拼音输入法为系统中文输入方法
 
-### 2 选择fcitx
-
-安装软件后,退出当前登录(logout)，然后再登入,选择`keyboard input methods system`默认输入法系统`fcitx：setting->language support`,选择：`fcitx`
-
-### 3 安装搜狗拼音输入法
-
-从 [搜狗拼音输入法官网](https://pinyin.sogou.com/linux/) 下载最新版的搜狗拼音输入法，安装
-
-```bash
-$sudo dpkg -i [sogoupinyinfilename].deb
-```
-如果安装失败(提示缺少依赖)，在终端执行
-```bash
-$sudo apt-get -f install
-```
-### 4 配置搜狗拼音输入法为系统中文输入方法
-
-安装搜狗拼音输入法,退出当前登录(logout)，然后再登入（login)，就可以使用搜狗拼音输入法了
-
-查看和配置系统的输入法： `setting->fcitx configuration`
-
-### 5 中英文输入法切换
-
-ctrl+space bar
-
-## 七、安装Ubuntu系统到U盘
-
-Ubuntu可以和安装到计算机硬盘一样，安装到U盘，成为便携的Ubuntu操作系统。
-
-其安装步骤和安装到计算机硬盘分区一样，不同的是安装 **`“位置”`** 参数：
-
-*  Ubuntu各分区挂载到U盘；U盘为`boot loader`设备；
-
-**建议：** 1) 使用高品质的USB3.0 U盘；盘容量较大(>=32G); 2) 在U盘上建一个FAT32文件系统分区，用于兼容Windows文件。
+具体方法，可上网查询。
 
 ## Reference
 
