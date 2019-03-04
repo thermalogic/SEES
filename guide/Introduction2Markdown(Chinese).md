@@ -77,9 +77,9 @@ Markdown的常用标记符号不超过十个，相对于其他复杂的标记语
 
 插入图片与插入链接与的语法很像，区别在加一个 ! 号
 
-     ![Python IDLE](./img/idle.png)
+     ![Python IDLE](./img/python-idle.jpg)
 
-![Python IDLE](./img/idle.png)
+![Python IDLE](./img/python-idle.jpg)
 
 ### 1.5 粗体与斜体
 

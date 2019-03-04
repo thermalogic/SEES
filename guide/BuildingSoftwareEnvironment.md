@@ -1,5 +1,19 @@
 # The Guide of Building Software Environment
 
+**Jupyter连接Python3内核异常处理参考方法**
+
+在系统终端执行：
+
+    >python -m pip install ipython
+
+    >python -m pip install ipykernel
+
+    >python -m ipykernel install
+
+或者
+
+    >python -m ipykernel install --user
+
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 

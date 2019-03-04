@@ -1,6 +1,20 @@
 
 # FAQ 
 
+### Jupyter连接内核异常处理参考方法
+
+在系统终端执行：
+
+    > python -m pip install ipython
+
+    >python -m pip install ipykernel
+
+    >python -m ipykernel install
+
+或者
+
+    >python -m ipykernel install --user
+
 ###  命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32
 
 原因：使用管理员权限运行cmd,都启动到C:\Windows\system32
