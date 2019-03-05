@@ -1,5 +1,5 @@
 
-# QA 
+# Problem and Solution 
 
 ### Mar 1，2019后安装的Jupyter运行异常：连接Python3内核异常处理参考方法**
 
