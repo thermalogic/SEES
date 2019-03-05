@@ -20,6 +20,12 @@
 
 https://stackoverflow.com/ 一个IT技术问答网站。简单类比一下，是一个程序相关的“知乎”
 
+
+注意事项：
+
+1. 不要使用*搜狗、360*这类基于开源浏览器内核开发的**个性化**浏览器
+2. Windows10中不要安装任何第三方安全软件 
+
 ---
 
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
