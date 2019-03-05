@@ -5,6 +5,8 @@
 
 * [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
 
+* [Resources On Github](./ResourcesOnGithub.md)
+
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
 * [Creating UML diagrams for python code](./UMLPython.md) 
@@ -14,8 +16,6 @@
 * [Coding With Terminal](./CodingWithTerminal.md/)
 
 * [Further Studing](./FurtherStuding.md)
-
-* [Resources On Github](./ResourcesOnGithub.md)
 
 * [QA](./QA.md) 
 

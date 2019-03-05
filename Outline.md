@@ -9,6 +9,8 @@
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
+
+  * [Resources On Github](./guide/ResourcesOnGithub.md)
    
   * **Homework**
    
