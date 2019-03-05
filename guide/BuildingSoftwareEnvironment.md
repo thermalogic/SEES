@@ -1,12 +1,16 @@
 # The Guide of Building Software Environment
 
-**Jupyter连接Python3内核异常处理参考方法**
+**Mar 1, 2019后安装的Jupyter运行异常：连接Python3内核异常处理参考方法**
 
 **1. 参考GitHub issue**  jupyter notebook server "connecting to kernel" problem #2664
 
 https://github.com/jupyter/notebook/issues/2664
 
-downgrading tornado 6 to 5.1.1 
+Tornado had a release `6.0.0` on **Mar 1 2019**, which triggered this problem recently, see: #4437
+
+Note: the previous tornado release was `5.1.1`
+
+so, downgrading tornado 6 to 5.1.1 
 
     >python -m pip uninstall tornado
    
