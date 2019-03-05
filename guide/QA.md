@@ -1,11 +1,31 @@
 
 # FAQ 
 
-### Jupyter连接内核异常处理参考方法
+### Jupyter连接Python3内核异常处理参考方法
+
+**1. 参考GitHub issue**  jupter notebook server "connecting to kernel" problem #2664
+
+https://github.com/jupyter/notebook/issues/2664
+
+downgrading tornado 6 to 5.1.1 
+
+    >python -m pip uninstall tornado
+   
+    >python -m pip install tornado==5.1.1
+
+> **github issue**: 用于向github仓库提出问题
+
+**2. 参考提问** Jupyter notebook: connection to kernel restarts infinitely
+
+ * https://stackoverflow.com/questions/39208523/jupyter-notebook-connection-to-kernel-restarts-infinitely
+
+> https://stackoverflow.com/ 一个IT技术问答网站。简单类比一下，是一个程序相关的“知乎”
+
+**3. 更新ipykernel**
 
 在系统终端执行：
 
-    > python -m pip install ipython
+    >python -m pip install ipython
 
     >python -m pip install ipykernel
 
@@ -14,6 +34,11 @@
 或者
 
     >python -m ipykernel install --user
+
+**4. 注意事项：**
+
+1. 不要使用*搜狗、360*这类基于开源浏览器内核开发的**个性化**浏览器
+2. Windows10中不要安装任何第三方安全软件 
 
 ###  命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32
 
