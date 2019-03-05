@@ -14,6 +14,14 @@
 
     >python -m ipykernel install --user
 
+参考提问: Jupyter notebook: connection to kernel restarts infinitely
+
+ * https://stackoverflow.com/questions/39208523/jupyter-notebook-connection-to-kernel-restarts-infinitely
+
+https://stackoverflow.com/ 一个IT技术问答网站。简单类比一下，是一个程序相关的“知乎”
+
+---
+
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 
