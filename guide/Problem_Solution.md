@@ -9,7 +9,7 @@ https://github.com/jupyter/notebook/issues/2664
 
 Tornado had a release `6.0.0` on **Mar 1 2019**, which triggered this problem recently, see: #4437
 
-Note: the previous tornado release was `5.1.1`
+The previous tornado release was `5.1.1`
 
 so, downgrading tornado 6 to 5.1.1 
 
