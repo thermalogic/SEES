@@ -16,7 +16,7 @@ so, downgrading tornado 6 to 5.1.1
    
     >python -m pip install tornado==5.1.1
 
->github issue: 用于向github仓库提出问题
+>github issue: github仓库的问题提出，讨论等
 
 **2. 参考提问** Jupyter notebook: connection to kernel restarts infinitely
 

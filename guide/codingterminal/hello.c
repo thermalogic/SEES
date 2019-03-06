@@ -1,6 +1,6 @@
 /*
->gcc -c hello.C
->gcc -o hello.exe hello.o
+>gcc -c hello.c
+>gcc -o hello hello.o
 
 */ 
 #include <stdio.h>
