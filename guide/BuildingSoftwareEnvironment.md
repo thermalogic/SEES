@@ -2,7 +2,7 @@
 
 **Mar 1, 2019后安装的Jupyter运行异常：连接Python3内核异常处理参考方法**
 
-**1. 参考GitHub issue**  jupyter notebook server "connecting to kernel" problem #2664
+**参考GitHub issue**  jupyter notebook server "connecting to kernel" problem #2664
 
 https://github.com/jupyter/notebook/issues/2664
 
@@ -17,32 +17,6 @@ so, downgrading tornado 6 to 5.1.1
     >python -m pip install tornado==5.1.1
 
 >github issue: github仓库的问题提出，讨论等
-
-**2. 参考提问** Jupyter notebook: connection to kernel restarts infinitely
-
- * https://stackoverflow.com/questions/39208523/jupyter-notebook-connection-to-kernel-restarts-infinitely
-
-> https://stackoverflow.com/ 一个IT技术问答网站。简单类比一下，是一个程序相关的“知乎”
-
-
-**3. 更新ipykernel**
-
-在系统终端执行：
-
-    >python -m pip install ipython
-
-    >python -m pip install ipykernel
-
-    >python -m ipykernel install
-
-或者
-
-    >python -m ipykernel install --user
-
-**4. 注意事项：**
-
-1. 不要使用*搜狗、360*这类基于开源浏览器内核开发的**个性化**浏览器
-2. Windows10中不要安装任何第三方安全软件 
 
 ---
 
