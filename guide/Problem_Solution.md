@@ -1,7 +1,25 @@
 
 # Problem and Solution 
 
+### Windows环境下VS Code编译的C/C++程序向终端输出中文乱码
+
+VS Code是跨平台软件，所有的纯文本类型文件的默认字符集编码都是UTF-8,但是Windows终端的默认字符集编码GBK
+
+这样两者的默认字符集编码不同，输出不能正常解析，就显示乱码
+
+
+解决方案：
+
+保持VS Code默认字符集编码UTF-8，因为这是Linux平台默认的编码方式，也是各种操作系统平台默认字符集编码的趋势。
+
+这样就需要修改Windows终端的默认字符集编码为UTF-8，在终端执行
+
+    >chcp 65001
+
+即可。
+
 ### Mar 1，2019后安装的Jupyter运行异常：连接Python3内核异常处理参考方法**
+
 
 **1. 参考GitHub issue**  jupyter notebook server "connecting to kernel" problem #2664
 
