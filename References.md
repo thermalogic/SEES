@@ -1,6 +1,24 @@
 
 ## References
 
+### Markdown
+
+* [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+* [Visual Studio Code: Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+
+### Git & Github
+
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+* Git https://git-scm.com
+
+   * Scott Chacon，Ben Straub. [Pro Git(Chinese)](https://git-scm.com/book/zh/v1/)
+
+* [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
+  
+* Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+
 ### Python
 
 *  John V. Guttag. **Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.**
@@ -52,24 +70,6 @@
    * [A gallery of interesting notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
 * Robert Johansson [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
-
-### Markdown
-
-* [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-* [Visual Studio Code: Markdown](https://code.visualstudio.com/docs/languages/markdown/)
-
-### Git & Github
-
-* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
-* Git https://git-scm.com
-
-   * Scott Chacon，Ben Straub. [Pro Git(Chinese)](https://git-scm.com/book/zh/v1/)
-
-* [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
-  
-* Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 ### Engineering System
 
