@@ -355,11 +355,11 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 Getting Started with Python in VS Code
 https://code.visualstudio.com/docs/python/python-tutorial
 
-* Python ![vscode-python](./img/vscode-python.png)
+![vscode-python](./img/vscode-python.png)
 
 Getting Started with C/C++ in VS Code
 
-* C/C++  ![vscode-gcc](./img/vscode-gcc.jpg)
+![vscode-gcc](./img/vscode-gcc.jpg)
 
 ## E: Using Git
 
