@@ -1,7 +1,7 @@
 
 x = 8
 ans = 0
-while ans**3 < abs(x):
+while    ans**3 < abs(x):
 
     print('Value of the decrementing function abs(x) - ans**3 is',
           abs(x) - ans**3)  # add the statement at the start of the loop
