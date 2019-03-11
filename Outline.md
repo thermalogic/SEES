@@ -8,10 +8,12 @@
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
+    * [File Path](./guide/FilePath(Chinese).md) 
+  
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
   * [Resources On Github](./guide/ResourcesOnGithub.md)
-   
+
   * **Homework**
    
      * Read the contents：Python, Jypyter, MinGW-W64(GCC), Visual Studio Code，Git, Github, Markdown,
@@ -27,6 +29,7 @@
        * [Install Softwares: Python,Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
 
        * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
+
     
 * [PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
 
