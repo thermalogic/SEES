@@ -14,17 +14,17 @@ The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1
 
 >github issue: github仓库的问题提出，讨论等
 
-## 文件路径
+**文件路径**
 
 文件都存放在存储设备的某个路径中，访问文件时需要给出文件的路径。
 
-### 绝对路径：从 `盘符` 开始的路径
+**绝对路径：从 `盘符` 开始的路径**
 
 如g++编译器g++.exe位于C:\mingw64\bin，绝对路径就是C:\mingw64\bin，在任何路径中，都可以用绝对路径访问指定文件
 
 ![abspath](./img/abspath.jpg)
 
-### 相对路径：是从 `当前路径` 开始的路径
+**相对路径：是从 `当前路径` 开始的路径**
 
 假如当前路径为C:\mingw64\，那么，g++编译器g++.exe相对于C:\mingw64\的相对路径是：`.\bin`
 
@@ -36,22 +36,13 @@ The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1
 
 如当前路径为C:\mingw64\bin，进入上一级目录C:\mingw64命令是: `cd ..`
 
-
-
-
 ![relpath](./img/relpath.jpg)
-
-
-
 ---
 
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
-    - [文件路径](#文件路径)
-        - [绝对路径：从 `盘符` 开始的路径](#绝对路径从-盘符-开始的路径)
-        - [相对路径：是从 `当前路径` 开始的路径](#相对路径是从-当前路径-开始的路径)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Customize Installation Python](#a1-customize-installation-python)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)

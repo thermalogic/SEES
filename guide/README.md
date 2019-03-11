@@ -10,6 +10,8 @@
 
 * [Resources On Github](./ResourcesOnGithub.md)
 
+* [File Path](./FilePath(Chinese).md)
+
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
 * [Coding With Terminal](./CodingWithTerminal.md/)
