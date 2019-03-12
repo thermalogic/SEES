@@ -8,7 +8,7 @@
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
-    * [File Path](./guide/FilePath(Chinese).md) 
+    * [File Path of Windows](./guide/FilePath(Chinese).md) 
   
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
