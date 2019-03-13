@@ -9,6 +9,8 @@
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
     * [File Path of Windows](./guide/FilePath(Chinese).md) 
+
+    * [Computer Terminal](./CodingWithTerminal.md/)
   
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
@@ -30,7 +32,6 @@
 
        * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
-    
 * [PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
@@ -49,7 +50,7 @@
 
       * **Iteration**:  `while `
 
-      * **Python Style Guide**: The Zen of Python(PEP20）; Coding convention(PEP8)
+      * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
      
 * [03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
