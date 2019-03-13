@@ -1,9 +1,10 @@
 autopep8
 pylint
+tornado==5.1.1
 jupyter
 numpy
 scipy
 matplotlib
 iapws
 seuif97
-pypistats
+pypistatspip
