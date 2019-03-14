@@ -14,8 +14,7 @@
    * [requirements.txt](./requirements.txt) is the list of items to be installed for the course:
 
          >python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-     
-
+ 
 * [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
 
 * [Resources On Github](./ResourcesOnGithub.md)

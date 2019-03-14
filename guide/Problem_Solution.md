@@ -1,7 +1,7 @@
 
 # Problem and Solution
 
-## Windows环境下VS Code编译的C/C++程序向终端输出中文乱码
+## Windows环境下VS Code编辑的UTF-8编码C++源码，编译生成的运行文件向终端输出中文乱码
 
 VS Code是跨平台软件，所有的纯文本类型文件的默认字符集编码都是UTF-8,但是Windows终端的默认字符集编码GBK。两者的默认字符集编码不同，C/C++程序输出UTF-8编码字符不能被GBK编码正确解析，就显示乱码.
 

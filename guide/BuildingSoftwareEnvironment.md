@@ -19,7 +19,9 @@ The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1
 
 **[关于：计算机终端](./CodingWithTerminal.md/)**
 
----
+**[Windows环境下VS Code编辑的UTF-8编码C++源码，编译生成的运行文件向终端输出中文乱码](./Problem_Solution.md)**
+ 
+ ---
 
 
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
