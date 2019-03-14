@@ -68,9 +68,11 @@
     
      * [Install Numpy,Scipy,Matplotlib](./guide/BuildingSoftwareEnvironment.md)
 
+           > python -m pip install numpy scipy matplotlib
+
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
-   * Functions and Scoping: Definitions,  Positional, Keyword Arguments and Default Values
+   * Functions and Scoping: Definitions, Positional, Keyword Arguments and Default Values
 
    * Specifications, docstring
 
