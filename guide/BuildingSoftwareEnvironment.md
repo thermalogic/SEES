@@ -22,7 +22,7 @@ https://github.com/jupyter/notebook/issues/4467
 
     >python -m pip uninstall notebook
    
-    >python -m pip install notebook==5.7.3
+    >python -m pip install notebook==5.7.2
 
 >github issue: github仓库的问题提出，讨论等
 
