@@ -4,7 +4,7 @@
 
 安装后需要对Jupyte依赖的软件包Tornado,Notebook做降低版本处理
 
-**Mar 1, 2019后安装的Jupyter连接Python3内核时异常处理方法**
+**Mar 1, 2019后安装的Jupyter连接Python3内核时异常**
 
 https://github.com/jupyter/notebook/issues/2664
 
@@ -16,7 +16,7 @@ The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1
    
     >python -m pip install tornado==5.1.1
 
-**Mar 10, 2019后安装的Jupyter运行时：notebook gives `blank` page when start**
+**Mar 10, 2019后安装的Jupyter运行时,自动打开浏览器时异常**
 
 https://github.com/jupyter/notebook/issues/4467
 
