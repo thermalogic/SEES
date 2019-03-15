@@ -1,6 +1,6 @@
 # The Guide of Building Software Environment
 
-2019.3月以来Jupyter软件包，因为Tornado版本升级后带来的Bug比较多。
+2019.3月以来Jupyter软件包，因为Tornado版本升级带来的Bug比较多。
 
 安装后需要对Jupyte依赖的软件包Tornado,Notebook做降低版本处理
 
@@ -16,7 +16,7 @@ The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1
    
     >python -m pip install tornado==5.1.1
 
-**Mar 10, 2019后安装的Jupyter运行是会发生：notebook gives blank page when start**
+**Mar 10, 2019后安装的Jupyter运行时：notebook gives `blank` page when start**
 
 https://github.com/jupyter/notebook/issues/4467
 
@@ -48,6 +48,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
             - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
     - [B:Jupyter Notebook](#bjupyter-notebook)
         - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
+            - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
         - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
     - [C:Install MinGW-W64](#cinstall-mingw-w64)
@@ -253,6 +254,24 @@ To start up Jupyter, run the following command in a terminal:
 
 ```bash   
 >jupyter notebook
+```
+
+#### Install Jupyter Notebook extensions(optional)
+
+This repository 
+
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+
+contains a collection of extensions that add functionality to the Jupyter notebook.
+
+Install the python package
+```bash   
+>python -m pip install jupyter_contrib_nbextensions
+```
+Install javascript and css files
+
+```bash   
+>jupyter contrib nbextension install --user
 ```
 
 ### B.2 Literate programming your Jupyter Notebook in the `specific working folder`
