@@ -389,7 +389,15 @@ https://code.visualstudio.com/docs/python/python-tutorial
 
 Getting Started with C/C++ in VS Code
 
-![vscode-gcc](./img/vscode-gcc.jpg)
+* **1** Open the PowerShell terminal in the folder of C++ code file
+
+   ![vscode-open-terminal](./img/vscode-open-terminal.jpg)
+
+   ![vscode-terminal](./img/vscode-terminal.jpg)
+
+* **2** Using g++ to compiling the C++ code to the executable filefile,then running the exe file in the terminal
+
+   ![vscode-gcc](./img/vscode-gcc.jpg)
 
 ## E: Using Git
 
