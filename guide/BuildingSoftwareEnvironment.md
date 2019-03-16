@@ -395,7 +395,7 @@ Getting Started with C/C++ in VS Code
 
    ![vscode-terminal](./img/vscode-terminal.jpg)
 
-* **2** Using g++ to compiling the C++ code to the executable filefile,then running the exe file in the terminal
+* **2** Using g++ to compile the C++ code to the executable file,then running the exe file in the terminal
 
    ![vscode-gcc](./img/vscode-gcc.jpg)
 
