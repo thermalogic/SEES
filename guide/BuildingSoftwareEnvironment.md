@@ -58,6 +58,8 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
         - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
         - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
+            - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
+            - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
     - [E: Using Git](#e-using-git)
         - [E.1 Install Git for Windows](#e1-install-git-for-windows)
         - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
@@ -382,12 +384,15 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 
 ### D.3 Using Visual Studio Code: Python,C/C++
 
-Getting Started with Python in VS Code
+#### D.3.1 Getting Started with Python in VS Code
+
 https://code.visualstudio.com/docs/python/python-tutorial
 
-![vscode-python](./img/vscode-python.png)
+   ![vscode-python-0](./img/vscode-python-0.jpg)
 
-Getting Started with C/C++ in VS Code
+   ![vscode-python-1](./img/vscode-python-1.jpg)
+
+#### D.3.2 Getting Started with C/C++ in VS Code
 
 * **1** Open the PowerShell terminal in the folder of C++ code file
 
