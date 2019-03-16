@@ -37,6 +37,14 @@ The previous tornado release was `5.1.1`， so, downgrading tornado 6 to 5.1.1
 
 >github issue: github仓库的问题提出，讨论等
 
+## Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞
+
+使用 --no-cache-dir 选项安装
+
+```bash
+   python -m pip --no-cache-dir install jupyter
+```   
+
 ##  命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32
 
 原因：使用管理员权限运行cmd,都启动到C:\Windows\system32
