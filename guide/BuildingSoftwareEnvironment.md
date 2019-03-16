@@ -124,19 +124,15 @@ print('Yankees rule,','but not in Boston!')
 
 * 4 Using **IDLE**
 
-Typing programs directly into the **shell** is highly **inconvenient**. 
+Programmers use some sort of **text editor** that is part of an integrated development environment (IDE) to edit source code of computer programs. 
 
-Most programmers prefer to use some sort of **text editor** that is part of an integrated
-development environment (IDE).
+The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
 
-In this course, we will use **IDLE**,the IDE that comes as part of the standard Python installation package.
-
-* When IDLE starts it will open a **shell** window into which you can type Python commands
+* When IDLE starts it will open a **shell** window into which you can type `Python commands`
 
 * It will also provide you with a **file** menu and an edit menu
 
 ![idle](./img/python-idle.jpg)
-
 
 ### A.2 The Python Package Index(PyPI)
 
