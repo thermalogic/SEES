@@ -318,11 +318,15 @@ Download the latest available version of gcc compiler for **windows64** with **w
 
 For Windows 10: 
 
-Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit System environment variables".
+Open the `Start Search`, type in `env`, and choose `Edit the system environment variables`
 
-![windows-setting-environment](./img/windows-setting-environment.jpg)
+![path](./img/path.jpg)
  
-Choose "Environment Variables" ⇒  Go to the section  "**System Variable**" ⇒ Choose the "**Path**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
+Choose "**Environment Variables**" button
+
+![env](./img/env.jpg)
+
+ Go to the section  "**System Variable**"(the lower half) ⇒ find the "**Path**" row,and click "**edit**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable)  ⇒  Enter the value: **C:\mingw64\bin**
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
