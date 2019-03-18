@@ -1,40 +1,5 @@
 # The Guide of Building Software Environment
 
-2019.3月以来Jupyter软件包，因为Tornado版本升级带来的Bug比较多。
-
-安装后需要对Jupyte依赖的软件包Tornado,Notebook做降低版本处理
-
-**Mar 1, 2019后安装的Jupyter连接Python3内核时异常**
-
-https://github.com/jupyter/notebook/issues/2664
-
-Tornado had a release `6.0.0` on **Mar 1 2019**, which triggered this problem recently
-
-The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1 
-
-    >python -m pip uninstall tornado
-   
-    >python -m pip install tornado==5.1.1
-
-**Mar 10, 2019后安装的Jupyter运行时,自动打开浏览器时异常**
-
-https://github.com/jupyter/notebook/issues/4467
-
-    >python -m pip uninstall notebook
-   
-    >python -m pip install notebook==5.7.2
-
->github issue: github仓库的问题提出，讨论等
-
----
-**[关于：Windows文件路径](./FilePath(Chinese).md)**
-
-**[关于：计算机终端](./CodingWithTerminal.md/)**
-
-**[Windows环境下VS Code编辑的UTF-8编码C++源码，编译生成的运行文件向终端输出中文乱码](./Problem_Solution.md)**
- 
- ---
-
 Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
 <!-- TOC -->
 
