@@ -97,7 +97,7 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 
 ![Python3-location](./img/python37-location.jpg)
 
-* 3 **Python Shell** : Running Python prompt on Windows
+* 3 Using **Python Shell**
 
 For Windows users, open the terminal in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
 
@@ -120,7 +120,7 @@ print('But not in Boston!')
 print('Yankees rule,','but not in Boston!')
 ```
 
-![python shell-run](./img/PythonShell-Run.png)  
+ ![python shell-run](./img/PythonShell-Run.png)  
 
 > **About Computer Terminal** ：[CodingWithTerminal.md](./CodingWithTerminal.md)
 
