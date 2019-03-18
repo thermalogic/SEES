@@ -100,9 +100,13 @@
      
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
-     * Install iapws: >python -m pip install iapws
+     * Install iapws: 
+     
+           >python -m pip install iapws
     
      * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
+      
+           > python -m pip install seuif97
 
  * [PyThermo-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
