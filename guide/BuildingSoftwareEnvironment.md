@@ -58,9 +58,9 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 
 * 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
 
-![Python3-path](./img/python37-path.jpg)
+  ![Python3-path](./img/python37-path.jpg) 
 
-![Python3-location](./img/python37-location.jpg)
+  ![Python3-location](./img/python37-location.jpg)
 
 * 3 Using **Python Shell**
 
@@ -68,7 +68,7 @@ For Windows users, open the terminal in Windows, click the `Win+R`. In the dialo
 
 Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
 
-![python shell](./img/PythonShell.jpg)
+   ![python shell](./img/PythonShell.jpg)
 
 Now, We start **a Python shell**.
 
@@ -85,7 +85,7 @@ print('But not in Boston!')
 print('Yankees rule,','but not in Boston!')
 ```
 
- ![python shell-run](./img/PythonShell-Run.png)  
+   ![python shell-run](./img/PythonShell-Run.png)  
 
 > **About Computer Terminal** ：[CodingWithTerminal.md](./CodingWithTerminal.md)
 
@@ -99,7 +99,7 @@ The **IDLE** is the simple IDE that comes as part of the standard Python install
 
 * It will also provide you with a **file** menu and an edit menu
 
-![idle](./img/python-idle.jpg)
+  ![idle](./img/python-idle.jpg)
 
 ### A.2 The Python Package Index(PyPI)
 
@@ -175,7 +175,7 @@ Install from `@tsinghua` for the **higher speed**: https://pypi.tuna.tsinghua.ed
 >python -m pip install -U pip -i  https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-![Python3-update](./img/python37-update-pip.jpg)
+   ![Python3-update](./img/python37-update-pip.jpg)
 
 #### A.3.2 set `tsinghua` as default site 
 
@@ -203,7 +203,7 @@ http://jupyter.org/
 
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
-![jupyter-demo](./img/jupyter-demo.png)
+   ![jupyter-demo](./img/jupyter-demo.png)
 
 ### B.1 Install & Start-up Jupyter Notebook
 
@@ -255,13 +255,13 @@ Install javascript and css files
 
    * `2` Double-click **`start.bat`**，the **Jupyter Notebook**  server will start 
 
- ![jupyter-quick](./img/jupyter-bat.jpg) 
+  ![jupyter-quick](./img/jupyter-bat.jpg) 
 
 * `B.2.5 ` To create a new notebook 
 
   To create a new notebook, click the `New` button and select the `“Python 3”` option. You should see something like the follow Figure. If this is your first time, try clicking on the empty code `“cell”` and entering a line of Python code. Then press `Shift-Enter` to execute it.
 
-![jupyter-hello](./img/jupyter-hello.jpg) 
+  ![jupyter-hello](./img/jupyter-hello.jpg) 
   
   You may click  `File`->`Save As...` to save the notebook file as a given name with the extension `.ipynb`.
 
@@ -273,7 +273,7 @@ pre-installed:Python3 and Jupyter Notebook
 
 Go to the repo **home** on the Github: https://github.com/PySEE/home ,then download `home.zip` to your computer
 
-![download home.zip](./img/downloadhome.jpg)
+   ![download home.zip](./img/downloadhome.jpg)
 
 **B.3.2** Open the notebooks in Jupyter Notebook
 
@@ -316,19 +316,20 @@ Download the latest available version of gcc compiler for **windows64** with **w
 
 **C.2.2** Add **C:\mingw64\bin** to the system environment variable **Path**
 
-   For Windows 10: 
+For Windows 10: 
 
-   Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit System environment variables".
+Start  "Windows Start Menu" ⇒ Open "Settings" ⇒ Search for "environment" ⇒ Select "Edit System environment variables".
 
-  ![windows-setting-environment](./img/windows-setting-environment.jpg)
+![windows-setting-environment](./img/windows-setting-environment.jpg)
  
-   Choose "Environment Variables" ⇒  Go to the section  "**System Variable**" ⇒ Choose the "**Path**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
+Choose "Environment Variables" ⇒  Go to the section  "**System Variable**" ⇒ Choose the "**Path**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable) > Enter the value: **C:\mingw64\bin**
 
-   ![mingw-w64-path](./img/mingw-w64-path.jpg)
+![mingw-w64-path](./img/mingw-w64-path.jpg)
 
 **C.2.3** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
 
 **C.2.4** Verify the GCC installation by listing the version of gcc:
+
 ```bash
 > gcc --version
 ```
@@ -351,7 +352,7 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 
 #### D.3.1 Getting Started with Python in VS Code
 
-https://code.visualstudio.com/docs/python/python-tutorial
+ https://code.visualstudio.com/docs/python/python-tutorial
 
    ![vscode-python-0](./img/vscode-python-0.jpg)
 
