@@ -68,7 +68,7 @@ PyRankine
  │    │
  │    ├──components   
  │    │      
- │    ├──cyclefiles
+ │    ├──txtcycle
  │    │        
  │    |── rankine_cycle.py
  │    │
