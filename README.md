@@ -47,6 +47,8 @@ We will cover:
       
       * and execute in Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019)
 
+     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019?filepath=.%2Fnotebook)
+
    * [Guide of Softwares](./guide) 
 
       * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
