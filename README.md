@@ -43,7 +43,9 @@ We will cover:
    
    * [Lectures in Jupyter Notebook](./notebook) 
 
-      * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/)
+      * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/) 
+      
+      * and execute in [Binder](https://hub.mybinder.org/user/pysee-home-qrt552zc/tree/notebook)
 
    * [Guide of Softwares](./guide) 
 
