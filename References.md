@@ -5,6 +5,8 @@
 
 * [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
+* [LaTex mathematics for equations: LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+
 * [Visual Studio Code: Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
 ### Git & Github
