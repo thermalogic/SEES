@@ -2,4 +2,5 @@ numpy
 scipy
 matplotlib
 seuif97
-pypistats
+pypistat
+iapws
