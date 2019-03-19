@@ -86,15 +86,15 @@
 
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-   * **Tuple**, Multiple Assignment
+   * [Tuple, Range, Multiple Assignment](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-1-Tuple_Range.ipynb)
 
-   * **List**,  **Mutability**, Cloning, List Comprehension
+   * [List,  Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-2-List.ipynb)
 
-   * Functions as Objects, Lambdas
+      * Functions as Objects, Lambdas
 
-   * Strings
+      * Strings
 
-   * **Dictionary**, Mutability
+   * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-3-Dict.ipynb)
 
    * **Homework**
      
