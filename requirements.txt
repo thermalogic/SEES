@@ -1,7 +1,5 @@
-autopep8
 numpy
 scipy
 matplotlib
-iapws
 seuif97
 pypistats
