@@ -33,7 +33,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
-        - [F.2 IAPWS-IF97 Package: SEUIF97](#f2-iapws-if97-package-seuif97)
+        - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
     - [G:Install GSL and Gnuplot for Windows](#ginstall-gsl-and-gnuplot-for-windows)
         - [G.1 GSL for Windows](#g1-gsl-for-windows)
             - [G.1.1 Copy static and import libraries to the default `lib` path of MinGW-W64](#g11-copy-static-and-import-libraries-to-the-default-lib-path-of-mingw-w64)
@@ -431,11 +431,20 @@ That's it - you'll have the latest version of the repository.
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### F.2 IAPWS-IF97 Package: SEUIF97 
+### F.2 IAPWS-IF97 Packages: 
+
+SEUIF97 
 
 ```bash   
 > python -m pip install seuif97 
 ``` 
+
+IAPWS
+
+```bash   
+> python -m pip install iapws 
+``` 
+
 
 ## G:Install GSL and Gnuplot for Windows
 
