@@ -5,7 +5,10 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
 
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
-        - [A.1 Customize Installation Python](#a1-customize-installation-python)
+        - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
+            - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
+            - [A.1.2 Using Python Shell](#a12-using-python-shell)
+            - [A.1.3 Using IDLE](#a13-using-idle)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
         - [A.3 Install Packages](#a3-install-packages)
             - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
@@ -46,11 +49,15 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
 <!-- /TOC -->
 ## A:Python & PyPI
 
+Before you start to code Python, you will need Python on your computer.
+
+### A.1 Installing Python and Coding
+
+#### A.1.1 Customize Installing Python
+
 Goto [the official Python site](https://www.python.org/downloads/), you can use typically **Download the latest version of Python** `button` that appears first on the page to get the latest version of Python.
 
-You may choose the specific Python release for you, e.g. [**Python for Windows**](https://www.python.org/downloads/windows/)
-
-### A.1 Customize Installation Python
+* You may choose the specific Python release for you, e.g. [**Python for Windows**](https://www.python.org/downloads/windows/)
 
 In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)  
 
@@ -62,9 +69,9 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 
   ![Python3-location](./img/python37-location.jpg)
 
-* 3 Using **Python Shell**
+#### A.1.2 Using Python Shell
 
-For Windows users, open the terminal in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
+For Windows users, open [the terminal](./CodingWithTerminal.md) in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
 
 Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
 
@@ -72,10 +79,9 @@ Then, type `python` and in the terminal(if you have set the  `PATH` variable app
 
 Now, We start **a Python shell**.
 
-The symbol `>>>`  a **shell** prompt indicating that the interpreter is expecting the user to type some Python code into the shell.
+The symbol `>>>`  a **shell** prompt indicating that the interpreter is expecting the user to type some commands(Python code) into the shell.
 
-A command, often called a statement, instructs the interpreter to do something. For example, the statement `print('Yankees rule!')` instructs the interpreter to call the function `print`, which will output the string `Yankees rule!` to the window associated
-with the shell.
+A command, often called a statement, instructs the interpreter to do something. For example, the statement `print('Yankees rule!')` instructs the interpreter to call the function `print`, which will output the string `Yankees rule!` to the window associated with the shell.
 
 The sequence of commands
 
@@ -87,18 +93,16 @@ print('Yankees rule,','but not in Boston!')
 
    ![python shell-run](./img/PythonShell-Run.png)  
 
-> **About Computer Terminal** ：[CodingWithTerminal.md](./CodingWithTerminal.md)
-
-* 4 Using **IDLE**
+#### A.1.3 Using IDLE
 
 Programmers use some sort of **text editor** that is part of an integrated development environment (IDE) to edit source code of computer programs. 
 
 The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
 
-* When IDLE starts it will open a **shell** window into which you can type `Python commands`
+It provide you with a **file** menu and an edit menu to code Python source file
 
-* It will also provide you with a **file** menu and an edit menu
-
+* It also open a **shell** window into which you can type `Python commands`
+  
   ![idle](./img/python-idle.jpg)
 
 ### A.2 The Python Package Index(PyPI)
@@ -124,6 +128,7 @@ Install the  multiple modules at the one `pip install` command
 ```
 
 **A.2.2 Upgrading**
+
 Normally, if a suitable module is already installed, attempting to install it again will have no effect. Upgrading existing modules must be requested **explicitly**:
 
 ```bash
@@ -201,7 +206,9 @@ Interactive analysis and literate programming
 
 http://jupyter.org/
 
-The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+The Jupyter Notebook is an open-source **web application** that allows you to create and share **`documents`** that contain **`live code`**, equations, visualizations and narrative **`text`**. 
+
+Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
    ![jupyter-demo](./img/jupyter-demo.png)
 
