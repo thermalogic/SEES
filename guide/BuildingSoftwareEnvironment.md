@@ -154,8 +154,6 @@ Install from `@tsinghua` for the **higher speed**: https://pypi.tuna.tsinghua.ed
 
 **A.2.4 set one alternate index site as the default site**
 
-* if pip>10.0
-
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
