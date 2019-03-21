@@ -82,7 +82,7 @@
 
    * Module, the interpreter search path, `sys.path`, Scipy
 
-* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+* **Tuple, List, Dict and File**
 
    * [Tuple, Range, Multiple Assignment](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
