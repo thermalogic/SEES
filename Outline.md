@@ -82,19 +82,19 @@
 
    * Module, the interpreter search path, `sys.path`, Scipy
 
-   * Files
-
 * [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
 
-   * [Tuple, Range, Multiple Assignment](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-1-Tuple_Range.ipynb)
+   * [Tuple, Range, Multiple Assignment](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
-   * [List,  Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-2-List.ipynb)
+   * [List,  Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
       * Functions as Objects, Lambdas
 
       * Strings
 
-   * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05-3-Dict.ipynb)
+   * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
+
+   * [Files,List Dict](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict)
 
    * **Homework**
      
