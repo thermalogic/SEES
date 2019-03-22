@@ -363,6 +363,8 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 
  https://code.visualstudio.com/docs/python/python-tutorial
 
+It's simple to run Python source code file. `Right-click` in the editor and select `Run Python File in Terminal` (which saves the file automatically):
+ 
    ![vscode-python-0](./img/vscode-python-0.jpg)
 
    ![vscode-python-1](./img/vscode-python-1.jpg)

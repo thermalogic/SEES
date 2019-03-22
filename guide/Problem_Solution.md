@@ -64,21 +64,6 @@ https://github.com/jupyter/notebook/issues/4467
 
 >github issue: github仓库的问题提出，讨论等
 
-
-jupyter notebook server "connecting to kernel" problem #2664
-
-https://github.com/jupyter/notebook/issues/2664
-
-Tornado had a release `6.0.0` on **Mar 1 2019**, which triggered this problem recently
-
-The previous tornado release was `5.1.1`， so, downgrading tornado 6 to 5.1.1 
-
-    >python -m pip uninstall tornado
-   
-    >python -m pip install tornado==5.1.1
-
->github issue: github仓库的问题提出，讨论等
-
 ## Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞
 
 使用 --no-cache-dir 选项安装
