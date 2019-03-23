@@ -1,0 +1,7 @@
+Name      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)
+MainSteam 	   0   	 8.000    295.01    2758.61     5.745
+OutletHP  	   1   	 0.008     41.51    1795.08     5.745
+CondenserWater	   2   	 0.008     41.51     173.85     0.593
+MainFeedWater	   3   	 8.000     41.75     181.90     0.593
+(a) The thermal efficiency for the cycle is 37.082  %
+

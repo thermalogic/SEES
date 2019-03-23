@@ -1,0 +1,5 @@
+name,nid,p,t,x
+MainSteam,0,8,,1
+OutletHP,1,0.008,,
+CondenserWater,2,0.008,,0
+MainFeedWater,3,8,,
