@@ -132,6 +132,8 @@
 
    * pprint，Matplotlib, SVG
 
+   * [PyRankine，Example 8.6](https://github.com/PySEE/PyRankine)
+
   * **Homework**
 
      * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
