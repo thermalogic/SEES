@@ -12,7 +12,6 @@
     - [Windows安全防护](#windows安全防护)
     - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
     - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
-    - [Windows环境下，在VS Code中打开终端运行Python程序，Python的print函数出现OSError](#windows环境下在vs-code中打开终端运行python程序python的print函数出现oserror)
 
 <!-- /TOC -->
 
@@ -126,29 +125,3 @@ Jupyter notebook中可以ipynb转换为pdf
 
 从源下载包.
 
-## Windows环境下，在VS Code中打开终端运行Python程序，Python的print函数出现OSError
-
- 在Windows环境下，使用VS code打开终端运行Python程序，Python的print函数出现OSError问题，然而,在外部cmd中运行该Python程序没有问题.
-
-```bash
-OSError: raw write() returned invalid length 254 (should have been between 0 and 127)
-```
-与使用的Windows10系统的版本有关系,查看版本：
-
-```bash
->msinfo32
-```
-
-**解决办法**
-
-* 1 安装win_unicode_console包
-
-```bash
->pip install win_unicode_console
-```
-2 在代码文件中添加以下两行代码
-
-```python
-import win_unicode_console
-win_unicode_console.enable()
-```
