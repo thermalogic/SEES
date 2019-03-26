@@ -36,33 +36,37 @@
 
    * **Overview** Introduction to Computation and Programming Using Python
 
-* [02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)'
+* [02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
-   * **Python**: 
+   * **Python**: the interpreted ,dynamically typed, scripting Language
      
-      * **The Basic Elements of Python**: Objects, Expressions, and Numerical Types; Variables and Assignment;
+      * Objects, Numerical Types, Operators and Expressions; 
       
-      * **Branching Programs** : `if-else `
+      * Variables and Assignment； Comments：`#`
+
+      * String, Slicing, Input
+      
+* **03 Control Flow**
+
+   * [Control Flow 1: `if`, `while`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-Control-Flow-1-if-while-02.ipynb)
+
+     * `if`, `while`
      
-      * **Strings and Input**: String, Slicing, Input, Unicode
+     * **Indentation** :delineate blocks of code
+      
+   * [Control Flow 2: `for loops`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-03_Control-Flow-2-for-03.ipynb)
+ 
+       * `for loops`,`range(start,stop,step)`, `break`, `continue`
 
-      * **Iteration**:  `while `
+       * Fancier Output Formatting: `str.format()` 
 
-      * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
+       * Exhaustive Enumeration, Bisection and Newton-Raphson
      
-* [03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
- 
-   * Exhaustive Enumeration
- 
-   * **Loop**：`For Loops`,`range(start,stop,step)`
+       * Using Floats,`round(x, numDigits)`
 
-   * Approximate Solutions and Bisection Search, Fancier Output Formatting, `str.format()` 
-
-   * About Using Floats,`round(x, numDigits)`
-
-   * Newton-Raphson
+       * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
 
    * **Homework**
     
