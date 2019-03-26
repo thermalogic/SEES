@@ -88,9 +88,9 @@
 
 * **Tuple, List, Dict and File**
 
-   * [Tuple, Range, Multiple Assignment](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
+   * [Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
-   * [List,  Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
+   * [List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
       * Functions as Objects, Lambdas
 
@@ -98,7 +98,7 @@
 
    * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
 
-   * [Files,List，Dict，CSV](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict.ipynb)
+   * [Files,Unicode,Table Data，CSV](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict.ipynb)
 
    * **Homework**
      
