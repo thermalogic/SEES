@@ -76,15 +76,13 @@
 
 * [04 FUNCTIONS SCOPING AND ABSTRACTION](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
-   * Functions and Scoping: Definitions, Positional, Keyword Arguments and Default Values
+   * Function definitions, Positional, Keyword Arguments and Default Values
 
    * Specifications, docstring
 
-   * Recursion
+   * Scoping, Global Variables, Recursion
 
-   * Global Variables
-
-   * Module, the interpreter search path, `sys.path`, Scipy
+   * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
 * **Tuple, List, Dict and File**
 
