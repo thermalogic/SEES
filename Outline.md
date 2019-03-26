@@ -56,7 +56,7 @@
      
      * **Indentation** :delineate blocks of code
       
-   * [Control Flow 2: `for loops`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-03_Control-Flow-2-for-03.ipynb)
+   * [Control Flow 2: `for loops`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-Control-Flow-2-for-03.ipynb)
  
        * `for loops`,`range(start,stop,step)`, `break`, `continue`
 
