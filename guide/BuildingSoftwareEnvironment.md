@@ -7,8 +7,8 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
             - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
-            - [A.1.2 Using Python Shell](#a12-using-python-shell)
-            - [A.1.3 Using IDLE](#a13-using-idle)
+            - [A.1.2  Python Shell(command-line model)](#a12--python-shellcommand-line-model)
+            - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
         - [A.3 Install Packages](#a3-install-packages)
             - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
@@ -69,7 +69,15 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 
   ![Python3-location](./img/python37-location.jpg)
 
-#### A.1.2 Using Python Shell
+  Python is an interpreted language. Python programs are executed by an interpreter. 
+  
+  There are two ways to use the interpreter: 
+  
+  * `command-line` mode
+  
+  * `script` mode
+
+#### A.1.2  Python Shell(command-line model)
 
 For Windows users, open [the terminal](./CodingWithTerminal.md) in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
 
@@ -93,17 +101,19 @@ print('Yankees rule,','but not in Boston!')
 
    ![python shell-run](./img/PythonShell-Run.png)  
 
-#### A.1.3 Using IDLE
+#### A.1.3 Using IDLE(script mode)
 
 Programmers use some sort of **text editor** that is part of an integrated development environment (IDE) to edit source code of computer programs. 
 
 The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
 
-It provide you with a **file** menu and an edit menu to code Python source file
+It provide you with a `file` menu and an `edit` menu to code Python code files(script) have names that end with  `.py`.
 
-* It also open a **shell** window into which you can type `Python commands`
-  
+To execute the program(script), click menu:`Run`->`Run Module`.
+
   ![idle](./img/python-idle.jpg)
+
+> The **IDLE** also open a **shell** window into which you can type `Python commands`
 
 ### A.2 The Python Package Index(PyPI)
 
