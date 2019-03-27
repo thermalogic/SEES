@@ -14,7 +14,7 @@ absolute path: a path that begins with drive letter(e.g C:\() does not depend on
 
 ![abspath](./img/abspath.jpg)
 
-## 相对路径：是从 `当前路径` 开始的路径
+## 相对路径：从 `当前路径` 开始的路径
 
 relative path：a path relates to the current directory
 
