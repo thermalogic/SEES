@@ -46,7 +46,7 @@ relative path：a path relates to the current directory
 
 ## 在`源码所在路径打开终端`编译
 
-为了避免不同 **当前路径** 对应不同 **相对路径** 的复杂性，在VS Code中,在**源码所在路径打开终端**，然后，在当前路径终端中，使用g++编译源码hello.cpp
+为了避免不同 **当前路径** 对应不同 **相对路径** 的复杂性，在**源码所在路径打开终端**，然后，在当前路径终端中，使用g++编译源码hello.cpp
 
 Open the terminal(running cmd/powershell) in the directory of source code files:`F:\SEU\SEE\PySEE\Practices\P1\cpp`, then use `g++` to compile `hello.cpp`
 
