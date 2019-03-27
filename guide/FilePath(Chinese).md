@@ -44,6 +44,18 @@ relative path：a path relates to the current directory
 
   ![relpath-Practices-cpp](./img/relpath-practices-cpp.jpg)
 
-为了避免不过 **初始路径** 对应不同 **相对路径** 的复杂性，在VS Code中,在源码hello.cpp所在路径打开终端，然后，在当前路径终端中，使用g++编译源码hello.cpp
+### 在`源码所在路径打开终端`编译
+
+为了避免不同 **当前路径** 对应不同 **相对路径** 的复杂性，在VS Code中,在**源码所在路径打开终端**，然后，在当前路径终端中，使用g++编译源码hello.cpp
+
+Open the terminal(running cmd/powershell) in the directory of source code files:`F:\SEU\SEE\PySEE\Practices\P1\cpp`, then use `g++` to compile `hello.cpp`
 
 ![relpath-cpp](./img/relpath-cpp.jpg)
+
+The current directory of  **cmd/powershell** is `F:\SEU\SEE\PySEE\Practices\P1\cpp`
+
+* **cmd/powershell** looks for `g++` in the current directory and the system environment variable **Path**
+
+* **g++** has the same current directory, so it also looks for `hello.cpp` in the current directory
+
+* **cmd/powershell** looks for `./hello.exe` in the current directory 
