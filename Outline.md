@@ -32,11 +32,11 @@
 
        * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
-* [PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
+* [1 PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
 
    * **Overview** Introduction to Computation and Programming Using Python
 
-* [02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)
+* [2 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -44,13 +44,13 @@
      
       * Objects, Numerical Types, Operators and Expressions; 
       
-      * Variables and Assignment； Comments：`#`
+      * Variables and Assignment; Comments：`#`
 
       * String, Slicing, Input
       
-* **03 Control Flow**
+* **3 Control Flow**
 
-   * [Control Flow: `if`, `while` and `for`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-1-Control_Flow.ipynb)
+   * [3.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-1-Control_Flow.ipynb)
 
      * `if`, `while`,`for loops`,`range(start,stop,step)`, `break`, `continue`
      
@@ -58,7 +58,7 @@
     
      * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
       
-   * [03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+   * [3.2 03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
        * Exhaustive Enumeration, Bisection and Newton-Raphson
    
@@ -72,7 +72,7 @@
 
            > python -m pip install numpy scipy matplotlib
 
-* [04 FUNCTIONS SCOPING AND ABSTRACTION](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+* [4 04 FUNCTIONS SCOPING AND ABSTRACTION](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Function definitions, Positional, Keyword Arguments and Default Values
 
@@ -82,23 +82,23 @@
 
    * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
-* **05 Tuple, List, Dict**
+* **5 Tuple, List, Dict**
 
-   * [Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
+   * [5.1 Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
-   * [List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
+   * [5.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
       * Functions as Objects, Lambdas
 
       * Sequence types: Strings, Tuples, Ranges, and Lists
 
-   * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
+   * [5.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
    
    * **Homework**
      
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
-* [06 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
+* [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
    
    * File,Unicode,Table Data，CSV
 
@@ -131,7 +131,7 @@
 
 * [PyThermo: Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)
 
-   * Ideal Rankine Cycle：the expression directly, List,Dict,Function
+   * Ideal Rankine Cycle：the expression directly; List,Dict,Function
 
    * [LaTeX(MathJax)](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
 
