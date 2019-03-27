@@ -107,7 +107,7 @@ Programmers use some sort of **text editor** that is part of an integrated devel
 
 The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
 
-It provide you with a `file` menu and an `edit` menu to code Python code files(script) have names that end with  `.py`.
+It provide you with a `file` menu and an `edit` menu to code Python source files(script) have names that end with  `.py`.
 
 To execute the program(script), click menu:`Run`->`Run Module`.
 
