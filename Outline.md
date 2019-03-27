@@ -36,7 +36,7 @@
 
    * **Overview** Introduction to Computation and Programming Using Python
 
-* [2 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)
+* [2 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02-INTRODUCTION_TO_PYTHON.ipynb)
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -47,6 +47,8 @@
       * Variables and Assignment; Comments：`#`
 
       * String, Slicing, Input
+   
+   * IPython's `magic` functions： cell, line   
       
 * **3 Control Flow**
 
