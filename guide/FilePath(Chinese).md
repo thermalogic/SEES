@@ -44,7 +44,7 @@ relative path：a path relates to the current directory
 
   ![relpath-Practices-cpp](./img/relpath-practices-cpp.jpg)
 
-### 在`源码所在路径打开终端`编译
+## 在`源码所在路径打开终端`编译
 
 为了避免不同 **当前路径** 对应不同 **相对路径** 的复杂性，在VS Code中,在**源码所在路径打开终端**，然后，在当前路径终端中，使用g++编译源码hello.cpp
 
