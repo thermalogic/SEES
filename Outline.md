@@ -82,7 +82,7 @@
 
    * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
-* **Tuple, List, Dict and File**
+* **05 Tuple, List, Dict and File**
 
    * [Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
@@ -90,11 +90,11 @@
 
       * Functions as Objects, Lambdas
 
-      * Strings
+      * Sequence types: Strings, Tuples, Ranges, and Lists
 
    * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
 
-   * [Files,Unicode,Table Data，CSV](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict.ipynb)
+   * [Files,Unicode,Table Data，CSV](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
 
    * **Homework**
      
