@@ -2,13 +2,19 @@
 
 文件位于文件系统的某个路径中，访问文件时需要给出文件的路径。
 
+Files are organized into directories (also called “folders”). Every running program has a **“current directory”**, which is the default directory for most operations.
+
 ## 绝对路径：从 `盘符` 开始的路径
+
+absolute path: a path that begins with drive letter(e.g C:\() does not depend on the current directory
 
 如C++编译器g++.exe位于C:\mingw64\bin，绝对路径就是C:\mingw64\bin。在任何路径中，都可以用绝对路径访问指定文件
 
 ![abspath](./img/abspath.jpg)
 
 ## 相对路径：是从 `当前路径` 开始的路径
+
+relative path：a path relates to the current directory
 
 假如当前路径为C:\mingw64\，那么，g++编译器g++.exe相对于C:\mingw64\的相对路径是：`.\bin`
 
