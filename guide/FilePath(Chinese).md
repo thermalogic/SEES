@@ -4,7 +4,7 @@
 
 Files are organized into directories (also called “folders”). Every running program has a **“current directory”**, which is the default directory for most operations.
 
-A string like 'C:\mingw64\bin' that identifies a file or directory is called a **path**.
+A string like `C:\mingw64\bin` that identifies a file or directory is called a **path**.
 
 ## 绝对路径：从 `盘符` 开始的路径
 
