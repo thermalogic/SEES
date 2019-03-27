@@ -50,23 +50,21 @@
       
 * **03 Control Flow**
 
-   * [Control Flow 1: `if`, `while`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-Control-Flow-1-if-while-02.ipynb)
+   * [Control Flow: `if`, `while` and `for`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-1-Control_Flow.ipynb)
 
-     * `if`, `while`
+     * `if`, `while`,`for loops`,`range(start,stop,step)`, `break`, `continue`
      
-     * **Indentation** :delineate blocks of code
+     * **Indentation**: delineate blocks of code
+    
+     * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
       
-   * [Control Flow 2: `for loops`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-Control-Flow-2-for-03.ipynb)
+   * [03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
-       * `for loops`,`range(start,stop,step)`, `break`, `continue`
-
-       * Fancier Output Formatting: `str.format()` 
-
        * Exhaustive Enumeration, Bisection and Newton-Raphson
-     
+   
+       * Fancier Output Formatting: `str.format()` 
+  
        * Using Floats,`round(x, numDigits)`
-
-       * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
 
    * **Homework**
     
