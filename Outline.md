@@ -82,7 +82,7 @@
 
    * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
-* **05 Tuple, List, Dict and File**
+* **05 Tuple, List, Dict**
 
    * [Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
 
@@ -93,13 +93,17 @@
       * Sequence types: Strings, Tuples, Ranges, and Lists
 
    * [Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
-
-   * [Files,Unicode,Table Data，CSV](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
-
+   
    * **Homework**
      
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
+* [06 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
+   
+   * File,Unicode,Table Data，CSV
+
+   * **Homework** 
+  
      * Install iapws: 
      
            >python -m pip install iapws
@@ -107,6 +111,7 @@
      * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
            > python -m pip install seuif97
+
 
  * [PyThermo-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
