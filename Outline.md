@@ -100,7 +100,7 @@
      
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
-* [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files.ipynb)
+* [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-6-Files.ipynb)
    
    * File,Unicode,Table Data，CSV
 
