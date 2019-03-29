@@ -78,6 +78,8 @@
 
    * Function definitions, Positional, Keyword Arguments and Default Values
 
+   * Functions as Objects, Lambdas
+
    * Specifications, docstring
 
    * Scoping, Global Variables, Recursion
@@ -90,7 +92,7 @@
 
    * [5.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
-      * Functions as Objects, map, Lambdas
+      * map
 
       * Sequence types: Strings, Tuples, Ranges, and Lists
 
