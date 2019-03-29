@@ -90,7 +90,7 @@
 
    * [5.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
-      * Functions as Objects, Lambdas
+      * Functions as Objects, map, Lambdas
 
       * Sequence types: Strings, Tuples, Ranges, and Lists
 
@@ -102,7 +102,7 @@
  
 * [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-6-Files.ipynb)
    
-   * File,Unicode,Table Data，CSV
+   * File, Unicode, Table Data，CSV
 
    * **Homework** 
   
