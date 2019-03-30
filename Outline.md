@@ -100,8 +100,6 @@
    
    * **Homework**
 
-     * [5.4 Review](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-Review.ipynb)
-     
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
 * [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-6-Files.ipynb)
