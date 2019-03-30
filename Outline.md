@@ -88,13 +88,13 @@
 
 * **5 Tuple, List, Dict**
 
-   * [5.1 Tuple, Sequence unpacking，Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple_Range.ipynb)
+   * [5.1 Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple.ipynb)
 
    * [5.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
 
       * map
 
-      * Sequence types: Strings, Tuples, Ranges, and Lists
+      * Sequence Operators and Functions
 
    * [5.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
    
