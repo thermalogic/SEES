@@ -32,7 +32,7 @@
 
        * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
-* [1 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-02-INTRODUCTION_TO_PYTHON.ipynb)
+* [1 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-02-INTRODUCTION_TO_PYTHON.ipynb)
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -44,7 +44,7 @@
 
       * String, Slicing, Input
    
-   * IPython's `magic` functions： cell, line   
+   * Jupyter's `magic` functions： cell, line   
       
 * **2 Control Flow**
 
