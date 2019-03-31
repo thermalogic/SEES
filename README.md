@@ -23,7 +23,7 @@ We emphasize breadth rather than depth on the these topics. The goal is to provi
 
 **[行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)**
 
-[Practices](https://github.com/PySEE/Practices/) are a very important part of the course. You will have to spend a lot of time and effort to do challenging enough practices.
+[Practices](https://github.com/PySEE/Practices/) are the very important part of the course. You will have to spend a lot of time and effort to do challenging enough practices.
 
 We highly recommend you practice coding whenever you have a few minutes.
 
