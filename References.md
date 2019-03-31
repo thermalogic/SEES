@@ -40,7 +40,9 @@
      * [6.00.1x Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python0)
 
      * [6.00.2x Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-7)
-   
+
+* [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
+
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
 * Doug Hellmann. [Python 3 Module of the Week](https://pymotw.com/3/)

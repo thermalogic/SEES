@@ -7,7 +7,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
             - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
-            - [A.1.2  Python Shell(command-line model)](#a12--python-shellcommand-line-model)
+            - [A.1.2  Using Python Shell(command-line model)](#a12--using-python-shellcommand-line-model)
             - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
         - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
         - [A.3 Install Packages](#a3-install-packages)
@@ -49,6 +49,8 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
 <!-- /TOC -->
 ## A:Python & PyPI
 
+Python is one of those rare languages which can claim to be both simple and powerful. You will find yourself pleasantly surprised to see how easy it is to concentrate on the solution to the problem rather than the syntax and structure of the language you are programming in.
+
 Before you start to code Python, you will need Python on your computer.
 
 ### A.1 Installing Python and Coding
@@ -77,29 +79,39 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
   
   * `script` mode
 
-#### A.1.2  Python Shell(command-line model)
+#### A.1.2  Using Python Shell(command-line model)
 
 For Windows users, open [the terminal](./CodingWithTerminal.md) in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
 
 Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
 
-   ![python shell](./img/PythonShell.jpg)
+You should see the  **Shell**  symbol `>>>` indicating that the interpreter is expecting the user to type some commands(Python code) into the shell.
 
-Now, We start **a Python shell**.
 
-The symbol `>>>`  a **shell** prompt indicating that the interpreter is expecting the user to type some commands(Python code) into the shell.
+![python shell](./img/PythonShell.jpg)
 
-A command, often called a statement, instructs the interpreter to do something. For example, the statement `print('Yankees rule!')` instructs the interpreter to call the function `print`, which will output the string `Yankees rule!` to the window associated with the shell.
 
-The sequence of commands
+At the shell prompt `>>>`,if you type a line of code and hit `[enter]`, the interpreter displays the result:
+
+For example, type：
 
 ```python
-print('Yankees rule!')
-print('But not in Boston!')
-print('Yankees rule,','but not in Boston!')
+print('Python is a living language!')
 ```
+followed by the `[enter]` key. You should see the words `Python is a living language` printed to the screen.
 
-   ![python shell-run](./img/PythonShell-Run.png)  
+type：
+
+```python
+2*3+6
+```
+followed by the `[enter]` key. You should see the  value `12` printed to the screen.
+
+**Quit the Python shell**
+
+For Windows users, press `[ctrl + z]` followed by the `[enter]`  key.
+
+  ![python shell-demo](./img/PythonShell-demo.jpg)   
 
 #### A.1.3 Using IDLE(script mode)
 
@@ -107,7 +119,7 @@ Programmers use some sort of **text editor** that is part of an integrated devel
 
 The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
 
-It provide you with a `file` menu and an `edit` menu to code Python source files(script) have names that end with  `.py`.
+It provide you with the `File`,`Edit` and `Save As` menus to  edit and save Python source files(script) have names that end with  `.py`.
 
 To execute the program(script), click menu:`Run`->`Run Module`.
 
