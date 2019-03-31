@@ -5,7 +5,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me or ope
  
 ## Goal
 
-This course is intended to train **students majored in thermal energy engineering** in good programming skills for producing code.
+This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
 
@@ -18,6 +18,16 @@ We will cover:
 * C/C++ programming with [GCC](https://gcc.gnu.org/)，[GSL](https://www.gnu.org/software/gsl/) and [Gnuplot](http://www.gnuplot.info/)，
 * C/C++ and Python programming in [Ubuntu](https://www.ubuntu.com/)
 * Version control with [Git/Github](https://git-scm.com/) 
+
+We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge in the short course.
+
+**[行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)**
+
+[Practices](https://github.com/PySEE/Practices/) are a very important part of the course. You will have to spend a lot of time and effort to do challenging enough practices.
+
+We highly recommend you practice coding whenever you have a few minutes.
+
+After successfully completing the course, We wish you have a broad spectrum of of computer knowledge and is a good programmer in the context of using computation to solve complex problems.
 
 ## Required Materials
 
@@ -92,10 +102,4 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
 >We **recommend** that you [use git to clone and update the home repository](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
-
-## TIPS
-
-We highly recommend you practice coding whenever you have a few minutes.
-
-# [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)
 
