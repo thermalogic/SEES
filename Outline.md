@@ -263,10 +263,6 @@
        
        * **Decorator**, **Property**,`@property`,Private Variables(`_`)
 
-* [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-5-DevTools_Git.ipynb)
-
-   * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md) 
-
 * **Homework**
 
    * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
@@ -326,23 +322,27 @@
    * Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
 
        * C/C++ Plotting : pipe
-   
-   * **Homework**
 
-     * DO [Your  Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+* [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Git.ipynb)
+
+   * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
+
+   * **Homework**
 
      * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
 * **Recap, Outlook**
 
-  * [Python Quick Review](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Recap-Python-Quick-Reference.ipynb)
-
-  * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Recap-Python35-Quick-Reference.ipynb)
+  * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
   
   * [Further Studing](./guide/FurtherStuding.md)
+
+  * **Homework**
+  
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
     
 * **Appendix**
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
 
-   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-C_stdio.ipynb)
+   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-GCC-C_stdio.ipynb)
