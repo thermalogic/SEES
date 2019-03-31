@@ -3,7 +3,7 @@
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
  
-## Goal
+## Overview
 
 This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
 
