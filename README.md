@@ -19,7 +19,7 @@ We will cover:
 * C/C++ and Python programming in [Ubuntu](https://www.ubuntu.com/)
 * Version control with [Git/Github](https://git-scm.com/) 
 
-We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge in the short course.
+We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
 
 **[行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)**
 
