@@ -32,11 +32,7 @@
 
        * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
-* [1 PREFACE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-00_PREFACE.ipynb)
-
-   * **Overview** Introduction to Computation and Programming Using Python
-
-* [2 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-02-INTRODUCTION_TO_PYTHON.ipynb)
+* [1 02 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-02-INTRODUCTION_TO_PYTHON.ipynb)
 
    * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
 
@@ -50,9 +46,9 @@
    
    * IPython's `magic` functions： cell, line   
       
-* **3 Control Flow**
+* **2 Control Flow**
 
-   * [3.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-1-Control_Flow.ipynb)
+   * [2.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
 
      * `if`, `while`,`for loops`,`range(start,stop,step)`, `break`, `continue`
      
@@ -60,7 +56,7 @@
     
      * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
       
-   * [3.2 03 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+   * [2.2 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
        * Exhaustive Enumeration, Bisection and Newton-Raphson
    
@@ -74,7 +70,7 @@
 
            > python -m pip install numpy scipy matplotlib
 
-* [4 04 FUNCTIONS SCOPING AND ABSTRACTION](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+* [3 FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Function definitions, Positional, Keyword Arguments and Default Values
 
@@ -86,23 +82,23 @@
 
    * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
-* **5 Tuple, List, Dict**
+* **4 Tuple, List, Dict**
 
-   * [5.1 Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-1-05-Tuple.ipynb)
+   * [4.1 Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-1-05-Tuple.ipynb)
 
-   * [5.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-2-05-List.ipynb)
+   * [4.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
 
       * map
 
       * Sequence Operators and Functions
 
-   * [5.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-3-05-Dict.ipynb)
+   * [4.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-3-05-Dict.ipynb)
    
    * **Homework**
 
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
-* [6 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-6-Files.ipynb)
+* [5 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
    
    * File, Unicode, Table Data，CSV
 
