@@ -1,0 +1,1 @@
+Test: redirect sys.stdout to file
