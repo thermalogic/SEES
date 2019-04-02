@@ -231,49 +231,48 @@
 
    * `assert` statement
 
-* [06 TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-2-06_TESTING_AND_DEBUGGING.ipynb)
-
-   * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
-
-   * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process,`print`
-
-   * The typical mistakes
-
-* **Python's DevTools**
-
-   * [unittest — Unit testing framework](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-1-DevTools_unittest.ipynb)
-
-     * `unittest.TestCase`, test*，Asserting 
-
-     * Test Fixtures:`setUp`,`tearDown`
-
-     * Test Suites
-
-     * `*args`，`**kwargs`
-
-   * [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
+   * **Homework**
      
-     * `import doctest`
+       * [06 TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-2-06_TESTING_AND_DEBUGGING.ipynb)
 
-   * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_timeit.ipynb)
+         * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
 
-       * `%timeit`, `import timeit`
+         * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process,`print`
 
-   * [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_Profilers.ipynb)
+         * The typical mistakes
 
-       * `cProfile.run`,pstats
+* [Unit testing framework：unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-1-DevTools_unittest.ipynb)
 
-       * `cProfile.Profile()`, `io` module
+   * `unittest.TestCase`, test*，Asserting 
 
-       * Improve the Performance: memoization, `__call__`
+   * Test Fixtures:`setUp`,`tearDown`
+
+   * Test Suites
+
+   * `*args`，`**kwargs`
+
+   * **Homework**
+      
+      * [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
+     
+        * `import doctest`
+
+
+* [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_Profilers.ipynb)
+
+   * `cProfile.run`,pstats
+
+   * `cProfile.Profile()`, `io` module
+
+   * Improve the Performance: memoization, `__call__`
        
-       * **Decorator**, **Property**,`@property`,Private Variables(`_`)
+   * **Decorator**, **Property**,`@property`,Private Variables(`_`)
+   
+   * **Homework**
 
-* **Homework**
+       * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_timeit.ipynb)
 
-   * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
-  
-   * [GCC for Windows](./guide/BuildingSoftwareEnvironment.md)
+          * `%timeit`, `import timeit`
 
 * [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
