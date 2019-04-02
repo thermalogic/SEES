@@ -50,7 +50,9 @@
 
    * [2.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
 
-     * `if`, `while`,`for loops`,`range(start,stop,step)`, `break`, `continue`
+     * `if`, `while`,`for loops`, `break`, `continue`
+
+     * `range(start,stop,step)`
      
      * **Indentation**: delineate blocks of code
     
@@ -82,15 +84,19 @@
 
    * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
 
-* **4 Tuple, List, Dict**
+* **4 Structured types**
 
    * [4.1 Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-1-05-Tuple.ipynb)
 
-   * [4.2 List, Mutability, Cloning, List Comprehension](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
+   * [4.2 List,Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
 
+      * List, mutability, cloning,List Comprehension
+      
       * map
 
-      * Sequence Operators and Functions
+      * Range
+
+      * Sequence types(String,List,Tuple,Range): Operators and Functions
 
    * [4.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-3-05-Dict.ipynb)
    
