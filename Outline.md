@@ -191,7 +191,7 @@
 
    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
-   * [Python Package,Redirect stdout,glob](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
+   * [Python Package,glob](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
  
   * **Homework**
   
@@ -199,9 +199,9 @@
 
 * [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-   * The Behavior of Springs： CSV File 
+   * The Behavior of Springs：
    
-       * NumPy: array, polyfit, Arithmetic Operations: elementwise
+   * NumPy: array, polyfit, Arithmetic Operations: elementwise
 
    * The Behavior of Projectiles: Coefficient of Determination
  
