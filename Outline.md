@@ -185,7 +185,11 @@
 
 * [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine)
 
-   * [The Object-oriented programming of Ideal Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+   * [Ideal Rankine Cycle-OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+
+   * [Rankine Cycle-OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-2-PyThermo-RankineCycle-OOP.ipynb)
+
+      * glob
 
    * [JSON of Rankine Cycle, UML Class Diagram, Python's super()](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-JSON-UML.ipynb)
 
@@ -193,7 +197,7 @@
 
    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
-   * [Python Package,glob](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
+   * [Python Package, json, `__dict__`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
  
   * **Homework**
   
