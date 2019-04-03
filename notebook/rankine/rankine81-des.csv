@@ -1,0 +1,4 @@
+NAME,TYPE,eta,minID,moutID
+Turbine,TURBINE-EX0,1.0,0,1
+Feedwater Pump,PUMP,1.0,2,3
+Boiler,BOILER,,3,0
