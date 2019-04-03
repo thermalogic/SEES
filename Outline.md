@@ -197,6 +197,8 @@
 
    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
+   * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
+
    * [Python Package, json, `__dict__`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
  
   * **Homework**
