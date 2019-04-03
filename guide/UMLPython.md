@@ -91,6 +91,8 @@ Two dot files are created in the folder `/step5/`
 
 * classes.dot, packages.dot 
 
+![uml-package](./img/uml-package.jpg)
+
 ### 2.2 Generating the UML diagrams of the Python modules(files)
 
 Example 1: Generating the UML diagrams of `rankine_cycle.py`
@@ -125,7 +127,7 @@ The two dot files are generated in the folder `./step5/`
 
 ### 2.3.2 Generating the UML diagrams of the Python Projects 
 
-In the parent folder `PyRankine` of `step5`,run the command:
+In the parent folder of `step5`: `PyRankine`, run the command:
 
 ```
 pyreverse -o dot step5/
@@ -150,7 +152,8 @@ Make sure that the directory containing the **dot** executable is on your system
 from graphviz import Source
 Source.from_file("classes.dot")
 ```
-## Using `dot` command to go from .dot to a graph
+
+## Using `dot` command to go from `.dot` to a graph
 
 ```bash
 dot -Tsvg classes.dot -o classes.svg
