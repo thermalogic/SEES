@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+    - [pip安装时,提示Permision denied](#pip安装时提示permision-denied)
     - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
     - [Mar 1, 2019后安装的Jupyter运行异常](#mar-1-2019后安装的jupyter运行异常)
         - [Mar 1, 2019后安装的Jupyter连接Python3内核时异常](#mar-1-2019后安装的jupyter连接python3内核时异常)
@@ -14,6 +15,15 @@
     - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
 
 <!-- /TOC -->
+
+## pip安装时,提示Permision denied
+
+根据pip给出的提示加上--user
+
+
+    >python -m pip install --user  <packagename>
+
+
 
 ## Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码
 
