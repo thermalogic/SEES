@@ -38,11 +38,13 @@
 
    * **Python**: the interpreted ,dynamically typed, scripting Language
      
-      * Objects, Numerical Types, Operators and Expressions; 
+      * Objects, Numerical Types, Operators and Expressions 
       
       * Variables and Assignment; Comments：`#`
 
-      * String, Slicing, Input
+      * String, Slicing, Input, 
+      
+      * Type Conversion
    
    * Jupyter's `magic` functions： cell, line   
       
