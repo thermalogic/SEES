@@ -18,7 +18,12 @@
 
 ## pip安装时,提示Permision denied
 
+pip安装时,提示Permision denied
+
+![Permision denied](./img/pipuser.jpg)
+
 根据pip给出的提示加上--user
+
 
 
     >python -m pip install --user  <packagename>
