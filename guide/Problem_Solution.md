@@ -3,7 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
-    - [pip安装时,提示Permision denied](#pip安装时提示permision-denied)
+    - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
     - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
     - [Mar 1, 2019后安装的Jupyter运行异常](#mar-1-2019后安装的jupyter运行异常)
         - [Mar 1, 2019后安装的Jupyter连接Python3内核时异常](#mar-1-2019后安装的jupyter连接python3内核时异常)
@@ -16,9 +16,9 @@
 
 <!-- /TOC -->
 
-## pip安装时,提示Permision denied
+## pip安装时,提示Permission denied
 
-pip安装时,提示Permision denied
+pip安装时,提示Permission denied
 
 ![Permision denied](./img/pipuser.jpg)
 
