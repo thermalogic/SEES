@@ -159,7 +159,7 @@
 
    * `pass`,Invisible `__name`, Generators：`yield`
 
-   * `import datetime`
+   * `import datetime`,`from dateutil.relativedelta import relativedelta`
 
    * `%%timeit`
   
