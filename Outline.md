@@ -159,9 +159,9 @@
 
    * Inheritance
 
-   * Encapsulation and Information Hiding
+   * Encapsulation and Information Hiding，Invisible `__name`
 
-   * `pass`,Generators
+   * `pass`, Generators：`yield`
   
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
