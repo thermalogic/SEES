@@ -160,6 +160,8 @@
    * `pass`,Invisible `__name`, Generators：`yield`
 
    * `import datetime`
+
+   * `%%timeit`
   
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
@@ -264,7 +266,7 @@
         * `import doctest`
 
 
-* [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_Profilers.ipynb)
+* [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
 
    * `cProfile.run`,pstats
 
@@ -276,11 +278,9 @@
    
    * **Homework**
 
-       * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_timeit.ipynb)
+       * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
 
-          * `%timeit`, `import timeit`
-
-* [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
+  [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
    * GNU,GCC,MinGW-W64
 
