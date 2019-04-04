@@ -155,13 +155,11 @@
 
 * [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-1-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
-   * Abstract Data Types and Classes
+   * Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
 
-   * Inheritance
+   * `pass`,Invisible `__name`, Generators：`yield`
 
-   * Encapsulation and Information Hiding，Invisible `__name`
-
-   * `pass`, Generators：`yield`
+   * `import datetime`
   
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
