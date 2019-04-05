@@ -24,11 +24,7 @@ pip安装时,提示Permission denied
 
 根据pip给出的提示加上--user
 
-
-
     >python -m pip install --user  <packagename>
-
-
 
 ## Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码
 

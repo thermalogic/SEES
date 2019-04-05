@@ -1,7 +1,7 @@
 
 # 计算机终端和程序设计过程
 
-## 计算机终端 Computer Terminal
+## 1 计算机终端 Computer Terminal
 
 https://en.wikipedia.org/wiki/Computer_terminal
 
@@ -17,7 +17,7 @@ When using a **graphical user interface** (or GUI) like the X Window System, one
 
 ![terminalemulator](./codingterminal/terminal-emulator.jpg)
 
-## 程序设计过程
+## 2 程序源码编辑和运行
 
 编写源码 -> 编译、链接/解释器 -> 运行
 
@@ -31,21 +31,25 @@ When using a **graphical user interface** (or GUI) like the X Window System, one
 
    * 解释型语言： 该语言的解释器对源码边解释，边运行
 
-## 集成编程环境
+## 3 集成开发环境
 
-任何集成编程环境都是对这个过程进行的集成，以提高程序开发效率。
+集成开发环境（IDE)对`编写源码 -> 编译、链接/解释器 -> 运行`过程进行了集成，以提高程序开发效率。
 
  * 编码：提供语言的语法高亮、提示，补全等功能
 
- * 对**源码->运行**的命名行过程进行封装：用户点击鼠标，软件帮用户完成命名行的编译/解释、运行工作。
+ * 对**源码->运行**的命名过程用封装为图形用户界面。用户点击鼠标，软件帮用户完成命名行的编译/解释、运行工作。
 
-##  命令行`源码->运行`过程示例
+## 4 终端中使用命令`编译/解释源码->运行`过程示例
 
-* Windows系统**终端**中，命令行**源码->运行**过程示例
+### Windows终端中示例
+
+Open a Terminal in the folder in Windows10
+
+* If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on `"Open command window here"` or `"Open PowerShell window here"`
 
 ![Window操作系统终端中，命令行运行过程示例](./codingterminal/demo-windows-shell.jpg)
 
-* Visual Studio Code **终端** 中，命令行**源码->运行**过程示例
+### Visual Studio Code终端中示例
 
 ![Visual Studio Code **终端** 中，命令行运行过程示例](./codingterminal/demo-vscode-terminal.jpg)
 

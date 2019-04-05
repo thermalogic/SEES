@@ -18,6 +18,8 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
             - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
         - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
+            - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
+            - [B.2.2 Create a new notebook](#b22-create-a-new-notebook)
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
     - [C:Install MinGW-W64](#cinstall-mingw-w64)
         - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
@@ -246,6 +248,10 @@ To start up Jupyter, run the following command in a terminal:
 >jupyter notebook
 ```
 
+This will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows (among other things) to select which notebook to open.
+
+When started, the Jupyter Notebook can access only files within `its start-up folder (including any sub-folder)`.
+
 #### Install Jupyter Notebook extensions(optional)
 
 This repository 
@@ -266,32 +272,26 @@ Install javascript and css files
 
 ### B.2 Literate programming your Jupyter Notebook in the `specific working folder`
 
-* `B.2.1` make **the specific folder** for  your Jupyter Notebook,for example: `D:/mynotebook`
+#### B.2.1 Start Jupyter Notebook in a specific folder with `batch` file 
 
-* `B.2.2` **Open a cmd window in the folder**:  If you're already in the folder you want, you do `Shift+[mouse right-click]` on the background of the Explorer window, then click on `"Open command window here"` or `"Open PowerShell window here"`
+* `1` make **the specific folder** for  your Jupyter Notebook,for example: `D:/mynotebook`
 
-* `B.2.3` Enter `jupyter notebook` in cmd window of the folder,you will see the active jupyter server. the folder is the default  folder of your Jupyter Notebook 
+* `2` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working folder of your Jupyter Notebook
 
-   Jupyter will automatically open up in your default web browser
-
-   ![jupyter-cmd](./img/jupyter-cmd.jpg) 
-
-* `B.2.4`  start **Jupyter Notebook** quickly 
-
-   * `1` make the **"start.bat"** batch file with the content **`jupyter notebook`** through Windows's **notepad.exe**(记录本)  in the working folder of your Jupyter Notebook
-
-   * `2` Double-click **`start.bat`**，the **Jupyter Notebook**  server will start 
+* `3` Double-click **`start.bat`**，the **Jupyter Notebook**  server will automatically open up in your default web browser
 
   ![jupyter-quick](./img/jupyter-bat.jpg) 
 
-* `B.2.5 ` To create a new notebook 
+#### B.2.2 Create a new notebook 
 
-  To create a new notebook, click the `New` button and select the `“Python 3”` option. You should see something like the follow Figure. If this is your first time, try clicking on the empty code `“cell”` and entering a line of Python code. Then press `Shift-Enter` to execute it.
+To create a new notebook, click the `New` button on the top of the right hand side and select the `“Python 3”` option. You should see something like the follow Figure. 
 
-  ![jupyter-hello](./img/jupyter-hello.jpg) 
+If this is your first time, try clicking on the empty code `“cell”` and entering a line of Python code. Then press `Shift-Enter` to execute it.
+
+You may click  `File`->`Save As...` to save the notebook file as a given name with the extension `.ipynb`.
+
+   ![jupyter-hello](./img/jupyter-hello.jpg) 
   
-  You may click  `File`->`Save As...` to save the notebook file as a given name with the extension `.ipynb`.
-
 ### B.3 Using the Jupyter Notebook of PySEE/home
 
 pre-installed:Python3 and Jupyter Notebook
