@@ -263,9 +263,6 @@
       
       * [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
      
-        * `import doctest`
-
-
 * [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
 
    * `cProfile.run`,pstats
