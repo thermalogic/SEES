@@ -143,7 +143,7 @@
 
    * Data file(I/O), Redirect **stdout** to a file
 
-   * [LaTeX(MathJax)](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
+   * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-LaTeX-Math.ipynb)
 
    * pprint，Matplotlib, SVG
 
@@ -162,8 +162,14 @@
    * `import datetime`,`from dateutil.relativedelta import relativedelta`
 
    * `%%timeit`
-  
-* [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
+
+* [Package, UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-Package-UML.ipynb)
+
+   * **Homework**
+   
+     * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
+
+* [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-3-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
     
@@ -183,26 +189,26 @@
   
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
-* [The General simulator of Rankine Cycle](https://github.com/PySEE/PyRankine)
+* [The OOP of Rankine Cycle](https://github.com/PySEE/PyRankine)
 
-   * [Ideal Rankine Cycle-OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+   * [OOP:Ideal Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-   * [Rankine Cycle-OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-2-PyThermo-RankineCycle-OOP.ipynb)
+   * [OOP:Rankine Cycle:8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-2-PyThermo-RankineCycle-OOP.ipynb)
 
-      * glob
+      * `glob`
 
-   * [JSON of Rankine Cycle, UML Class Diagram, Python's super()](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-JSON-UML.ipynb)
+   * [The General simulator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General-Simulation.ipynb)
 
-      * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
+       * Rankine Cycle: JSON,UML Class Diagram
+       
+       * `super().*`, `__dict__.update()`
 
-   * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
+    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
-   * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
-
-   * [Python Package, json, `__dict__`](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-Pythons.ipynb)
- 
   * **Homework**
   
+     * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
+ 
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
 
 * [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)

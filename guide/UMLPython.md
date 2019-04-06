@@ -100,7 +100,7 @@ Example 1: Generating the UML diagrams of `rankine_cycle.py`
 In the folder `./step5/`, run the command:
 
 ```bash
-> pyreverse -o dot rankine_cycle.py
+> cd..
 ```
 
 The dot file is generated in the folder `/step5/`

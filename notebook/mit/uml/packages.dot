@@ -1,0 +1,10 @@
+digraph "packages" {
+charset="utf-8"
+rankdir=BT
+"0" [label="distinmulti", shape="box"];
+"1" [label="distinmulti.edu", shape="box"];
+"2" [label="distinmulti.edu.grade", shape="box"];
+"3" [label="distinmulti.edu.student", shape="box"];
+"4" [label="distinmulti.main_app", shape="box"];
+"2" -> "3" [arrowhead="open", arrowtail="none"];
+}

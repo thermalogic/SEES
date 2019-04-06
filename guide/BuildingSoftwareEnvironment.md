@@ -19,7 +19,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
             - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
         - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
             - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
-            - [B.2.2 Create a new notebook](#b22-create-a-new-notebook)
+            - [B.2.2 Create a new notebook document](#b22-create-a-new-notebook-document)
         - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
     - [C:Install MinGW-W64](#cinstall-mingw-w64)
         - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
@@ -282,11 +282,19 @@ Install javascript and css files
 
   ![jupyter-quick](./img/jupyter-bat.jpg) 
 
-#### B.2.2 Create a new notebook 
+#### B.2.2 Create a new notebook document
 
 To create a new notebook, click the `New` button on the top of the right hand side and select the `“Python 3”` option. You should see something like the follow Figure. 
 
-If this is your first time, try clicking on the empty code `“cell”` and entering a line of Python code. Then press `Shift-Enter` to execute it.
+If this is your first time, try clicking on the empty `Code cell` and entering a line of Python code. Then press `Shift-Enter` to execute it.
+
+Notebooks consist of a linear sequence of cells. There are two basic cell types:
+
+* `Code cells`: Input and output of live `code` that is run in the kernel
+
+* `Markdown cells`: Narrative `text` with embedded `LaTeX` equations
+
+You can change the cell type by using the `Cell` menu or the toolbar.
 
 You may click  `File`->`Save As...` to save the notebook file as a given name with the extension `.ipynb`.
 
