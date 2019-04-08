@@ -1,1 +1,1 @@
-Test: redirect sys.stdout to file
+redirect sys.stdout to file

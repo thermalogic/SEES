@@ -169,7 +169,32 @@
    
      * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
-* [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-3-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
+  * **Homework**
+  
+     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+
+* [The OOP of Rankine Cycle](https://github.com/PySEE/PyRankine)
+
+   * [OOP:Rankine Cycle:8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
+
+      * `glob`
+
+   * [The General simulator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
+
+       * Rankine Cycle: JSON,UML Class Diagram
+       
+       * `super().*`, `__dict__.update()`
+
+    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
+
+  * **Homework**
+  
+     * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
+ 
+     * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
+
+
+* [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
     
@@ -185,33 +210,7 @@
 
   * **Examples**: IF97 T-S,H-S Diagram; The Rankine Cycle T-S  Diagrams
 
-  * **Homework**
-  
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
-
-* [The OOP of Rankine Cycle](https://github.com/PySEE/PyRankine)
-
-   * [OOP:Ideal Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-1-PyThermo-IdealRankineCycle-OOP.ipynb)
-
-   * [OOP:Rankine Cycle:8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-2-PyThermo-RankineCycle-OOP.ipynb)
-
-      * `glob`
-
-   * [The General simulator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General-Simulation.ipynb)
-
-       * Rankine Cycle: JSON,UML Class Diagram
-       
-       * `super().*`, `__dict__.update()`
-
-    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
-
-  * **Homework**
-  
-     * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
- 
-     * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
-
-* [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
    * The Behavior of Springs：
    
@@ -219,7 +218,7 @@
 
    * The Behavior of Projectiles: Coefficient of Determination
  
-* [21 LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [21 LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
    * NumPy: genfromtxt,mean,var,corrcoef
    
@@ -323,8 +322,6 @@
 
      * **Optional**: 
         
-       * [Excel4Engineering](https://github.com/thermalogic/Excel4Engineering)
-
        * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
      
 * [Ubuntu_GSL_GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
@@ -357,6 +354,6 @@
     
 * **Appendix**
 
-   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Data-Files-Binary-Data-Files.ipynb)
+   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
    * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-GCC-C_stdio.ipynb)
