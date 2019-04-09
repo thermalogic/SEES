@@ -169,13 +169,11 @@
    
      * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
-  * **Homework**
-  
      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
 * [The OOP of Rankine Cycle](https://github.com/PySEE/PyRankine)
 
-   * [OOP:Rankine Cycle:8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
+   * [OOP:Rankine Cycle 8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
 
       * `glob`
 
