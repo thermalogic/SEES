@@ -4,7 +4,7 @@
 
   * Goals,Grading,Practices
 
-  * **Repositories**: Home,SEUIF97,PyRrankine,Practices,GSL4Windows,Googletest4Windows
+  * **Repositories**: Home,SEUIF97,PyRankine,Practices,GSL4Windows,Googletest4Windows
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
