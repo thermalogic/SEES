@@ -139,13 +139,13 @@
 
 * [PyThermo: Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)
 
-   * Ideal Rankine Cycle：the expression directly; List,Dict,Function
+   * Rankine Cycle 8.1,8.2：the expression directly; List,Dict,Function
 
-   * Data file(I/O), Redirect **stdout** to a file
+   * Data file(I/O), Redirect **stdout** to a file, pprint
 
    * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-LaTeX-Math.ipynb)
 
-   * pprint，Matplotlib, SVG
+   * Matplotlib：T-S Diagram of Rankine Cycle
 
    * [PyRankine，Example 8.6](https://github.com/PySEE/PyRankine)
 
@@ -196,7 +196,9 @@
 
    * **Matplotlib.pyplot**
     
-     * `figure`, `plot`, `show`, (x,y), (y) 
+     * `figure`, `plot`, `show`, (x,y), (y)，
+     
+     * write to file: png, svg
      
      * line style and color: `'b-'`,`'ro'`
    
