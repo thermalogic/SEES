@@ -92,9 +92,9 @@
 
    * [4.2 List,Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
 
-      * List, mutability, cloning,List Comprehension
+      * List, mutability, object equality, aliasing, cloning, 
       
-      * map
+      * List Comprehension, map
 
       * Range
 
