@@ -137,13 +137,17 @@
        
          Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
-* [PyThermo: Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)
+* **PyThermo: Rankine Cycle**
+
+   [RankineCycle: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb)
+
+   [RankineCycle: AdvVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)
 
    * Rankine Cycle 8.1,8.2：the expression directly; List,Dict,Function
 
    * Data file(I/O), Redirect **stdout** to a file, pprint
 
-   * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-LaTeX-Math.ipynb)
+   * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-4-PyThermo-LaTeX-Math.ipynb)
 
    * Matplotlib：T-S Diagram of Rankine Cycle
 

@@ -9,8 +9,8 @@ totalWExtracted is  100.920 MW.
 totalWRequired is  0.920 MW.
 totalQadded is  226.761 MW.
 
-NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)    X   
-MainSteam 	   0   	 13.500    550.00    3466.20     6.586     1.000
-OutletHP  	   1   	 0.004     28.96    1983.61     6.586     0.766
-CondenserWater	   2   	 0.004     28.96     121.40     0.422     0.000
-MainFeedWater	   3   	 13.500     29.26     134.92     0.422     0.000
+NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)    X     FDOT  
+MainSteam 	   0   	 13.500    550.00    3466.20     6.586     1.000     1.000
+OutletHP  	   1   	 0.004     28.96    1983.61     6.586     0.766     1.000
+CondenserWater	   2   	 0.004     28.96     121.40     0.422     0.000     1.000
+MainFeedWater	   3   	 13.500     29.26     134.92     0.422     0.000     1.000
