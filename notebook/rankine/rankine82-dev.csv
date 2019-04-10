@@ -1,5 +1,0 @@
-NAME,TYPE,EFF,NODES
-Turbine,TURBINE-EX0,85,0,1
-Condenser,CONDENSER,,1,2
-Feedwater Pump,PUMP,85,2,3
-Boiler,BOILER,,3,0
