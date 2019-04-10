@@ -28,7 +28,7 @@ cd %OPENMODELICAHOME%\share\omc\scripts\PythonInterface
 python -m pip install -U .
 ```
 
-### 4 Iinstall Jupyter OpenModelica Kernel
+### 4 Install Jupyter OpenModelica Kernel
 
 1. clone the project
 
@@ -36,7 +36,7 @@ python -m pip install -U .
 
 3. python setup.py install
 
-## 5 Using  OpenModelica Kernel
+## 5 Using OpenModelica Kernel
 
 To use it, run:
 ```
