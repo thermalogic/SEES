@@ -1,8 +1,16 @@
 
-  	./rankine\rankine82
- Thermal efficiency: 31.43 %
-NodeID 	         Name         	   P  	    T   	    H   	   S   	    V   	    X   
-  0    	      MainSteam       	  8.00	 295.009	 2758.61	  5.74 	   0.024	   1.0
-  1    	       OutletHP       	  0.01	  41.510	 1939.61	  6.20 	  13.303	 0.735
-  2    	    CondenserWater    	  0.01	  41.510	  173.85	  0.59 	   0.001	   0.0
-  3    	    MainFeedWater     	  8.00	  42.093	  183.32	  0.60 	   0.001	   0.0
+-------------------------
+Net Power is 100.000 MW.
+Mass flow rate is 444698.068 kg/h.
+The thermal efficiency is 31.435 %
+Heat Rate is 11452.280 kJ/kWh.
+Steam Rate is 4.447 kg/kWh
+totalWExtracted is  101.169 MW.
+totalWRequired is  1.169 MW.
+totalQadded is  318.119 MW.
+
+NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)    X   
+MainSteam 	   0   	 8.000    295.01    2758.61     5.745     1.000
+OutletHP  	   1   	 0.008     41.51    1939.61     6.204     0.735
+CondenserWater	   2   	 0.008     41.51     173.85     0.593     0.000
+MainFeedWater	   3   	 8.000     42.09     183.32     0.597     0.000

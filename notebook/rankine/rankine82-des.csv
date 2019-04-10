@@ -1,4 +1,4 @@
-NAME,TYPE,eta,minID,moutID
+NAME,TYPE,ETA,NODE0,NODE1
 Turbine,TURBINE-EX0,0.85,0,1
 Condenser,CONDENSER,,1,2
 Feedwater Pump,PUMP,0.85,2,3
