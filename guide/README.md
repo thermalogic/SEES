@@ -25,6 +25,8 @@
 
 * [Ubuntu，Python and GCC](./Ubuntu-Python-CPP(Chinese).md) 
 
+* [Install OpenModelica](./InstallOpenModelica.md) 
+
 * [Further Studing](./FurtherStuding.md)
 
 

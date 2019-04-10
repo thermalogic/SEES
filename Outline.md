@@ -190,7 +190,12 @@
      * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
  
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
+   
+     * (Optional) [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
+* [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-ModelingSimulation_EngineeringSystems.ipynb)
+ 
+   * Modelica, Jupyter OpenModelica kernel
 
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
