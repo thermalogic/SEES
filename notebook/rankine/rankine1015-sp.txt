@@ -1,0 +1,9 @@
+
+The thermal efficiency for the cycle is 44.099  %
+Heat Rate is 8163.385 kJ/kWh.
+Steam Rate is 2.451 kg/kWh
+NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)
+MainSteam 	   0   	 13.500    550.00    3466.20     6.586
+OutletHP  	   1   	 0.004     28.96    1983.61     6.586
+CondenserWater	   2   	 0.004     28.96     121.40     0.422
+MainFeedWater	   3   	 13.500     29.26     134.92     0.422
