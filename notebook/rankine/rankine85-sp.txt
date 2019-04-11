@@ -1,0 +1,19 @@
+
+-------------------------
+Net Power is 100.000 MW.
+Mass flow rate is 368813.089 kg/h.
+The thermal efficiency is 36.913 %
+Heat Rate is 9752.565 kJ/kWh.
+Steam Rate is 3.688 kg/kWh
+totalWExtracted is  100.884 MW.
+totalWRequired is  0.884 MW.
+totalQadded is  270.905 MW.
+
+NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)    X     FDOT  
+Boiler to Turbine	   0   	 8.000    480.00    3349.53     6.661     1.000     1.000
+Extracted Steam To Opened FWH	   1   	 0.700    194.85    2833.66     6.864     1.000     0.197
+Exhausted Steam to CD	   2   	 0.008     41.51    2250.10     7.191     0.864     0.803
+Condensate Water to CDW Pump	   3   	 0.008     41.51     173.85     0.593     0.000     0.803
+CDW Pump to Opened FWH	   4   	 0.700     41.53     174.55     0.593     0.000     0.803
+Opened FWH to FW Pump	   5   	 0.700    164.95     697.14     1.992     0.000     1.000
+FW Pump to Boiler	   6   	 8.000    165.85     705.22     1.992     0.000     1.000
