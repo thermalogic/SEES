@@ -1,0 +1,8 @@
+
+  	./rankine\rankine81
+ Thermal efficiency: 37.08 %
+NodeID 	         Name         	   P  	    T   	    H   	   S   	    V   	    X   
+  0    	      MainSteam       	  8.00	 295.009	 2758.61	  5.74 	   0.024	   1.0
+  1    	       OutletHP       	  0.01	  41.510	 1795.08	  5.74 	  12.215	 0.675
+  2    	    CondenserWater    	  0.01	  41.510	  173.85	  0.59 	   0.001	   0.0
+  3    	    MainFeedWater     	  8.00	  41.752	  181.90	  0.59 	   0.001	   0.0

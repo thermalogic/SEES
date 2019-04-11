@@ -7,31 +7,19 @@ class TCircle
 // A Circle instance models a circle with a radius 
 {
   private:
-    float radius;
   
   public: 
+    float radius;
     float area;
     
-    TCircle();
-    TCircle(float fradius);
-    ~ TCircle();
+    TCircle(float fradius=1.0);
     
     void cal_area();
 };
 
-TCircle:: TCircle()
-{
-  radius=1.0;   
-};
-
 TCircle:: TCircle(float fradius)
 {
-  radius=fradius;   
-};
-
-TCircle::~ TCircle()
-{
-    
+    radius=fradius;   
 };
 
 void TCircle::cal_area()
@@ -44,6 +32,6 @@ int main() {
    float area;
    TCircle c1(radius);
    c1.cal_area(); 
-   cout << "The Circle: radius="<<radius<<"\tarea="<<c1.area<<endl;
+   cout << "The Circle: radius="<<c1.radius<<"\tarea="<<c1.area<<endl;
    return 0;
 }
