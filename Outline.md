@@ -150,9 +150,7 @@
 * [RankineCycle 8.5: AdvVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)
 
    * Rankine Cycle 8.5：the expression directly; the general abstraction using List,Dict and Function
-
- * [PyRankine: Example 8.6](https://github.com/PySEE/PyRankine)
-
+ 
    * **Homework**
 
      * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
