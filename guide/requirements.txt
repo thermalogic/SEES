@@ -1,7 +1,7 @@
 autopep8
 pylint
 tornado==5.1.1
-notebook==5.7.2
+notebook~>5.7.2
 jupyter
 numpy
 scipy
