@@ -64,8 +64,6 @@
  
        * Exhaustive Enumeration, Bisection and Newton-Raphson
    
-       * Fancier Output Formatting: `str.format()` 
-  
        * Using Floats,`round(x, numDigits)`
 
    * **Homework**
