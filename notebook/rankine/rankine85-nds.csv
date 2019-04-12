@@ -1,8 +1,8 @@
 NAME,NID,p,t,x,mdot,fdot
-Boiler to Turbine,0,8,480,,,1
-Extracted Steam To Opened FWH,1,0.7,,,,
-Exhausted Steam to CD,2,0.008,,,,
-Condensate Water to CDW Pump,3,0.008,,0,,
-CDW Pump to Opened FWH,4,0.7,,,,
-Opened FWH to FW Pump,5,0.7,,0,,
-FW Pump to Boiler,6,8,,,,
+Boiler2Turbine,0,8,480,,,1
+ExtractedSteam2OpenedFWH,1,0.7,,,,
+ExhaustedSteam2CD,2,0.008,,,,
+CondensateWater2CDWPump,3,0.008,,0,,
+CDWPump2OpenedFWH,4,0.7,,,,
+OpenedFWH2FWPump,5,0.7,,0,,
+FWPump2Boiler,6,8,,,,
