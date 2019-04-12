@@ -1,7 +1,7 @@
 
-The thermal efficiency for the cycle is 31.435  %
-Heat Rate is 11452.280 kJ/kWh.
-Steam Rate is 4.447 kg/kWh
+The thermal efficiency for the cycle is 31.43%
+Heat Rate is 11452.28kJ/kWh.
+Steam Rate is 4.45kg/kWh
 NAME      	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)
 MainSteam 	   0   	 8.000    295.01    2758.61     5.745
 OutletHP  	   1   	 0.008     41.51    1939.61     6.204

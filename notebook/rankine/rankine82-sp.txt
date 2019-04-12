@@ -1,13 +1,13 @@
 
 -------------------------
-Net Power is 100.000 MW.
-Mass flow rate is 444698.068 kg/h.
-The thermal efficiency is 31.435 %
-Heat Rate is 11452.280 kJ/kWh.
-Steam Rate is 4.447 kg/kWh
-totalWExtracted is  101.169 MW.
-totalWRequired is  1.169 MW.
-totalQadded is  318.119 MW.
+Net Power is 100.00MW.
+Mass flow rate is 444698.07kg/h
+The thermal efficiency is 31.43%
+Heat Rate is 11452.28kg/kWh
+Steam Rate is 4.45kg/kWh
+totalWExtracted is 101.17MW.
+totalWRequired is 1.17MW.
+totalQadded is  318.12MW.
 
 NAME                        	  Node 	 P(MPa)    T(°C)   H(kJ/kg)  S(kJ/kg.K)    X       FDOT   
 MainSteam                   	   0   	 8.000    295.01    2758.61     5.745     1.000     1.000
