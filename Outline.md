@@ -8,10 +8,10 @@
 
   * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
-    * [File Path of Windows](./guide/FilePath(Chinese).md) 
+     * [Computer Terminal](./ComputerTerminal.md/)
 
-    * [Computer Terminal](./CodingWithTerminal.md/)
-  
+     * [Windows File System](./guide/WindowsFileSystem.md) 
+
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
   * [Resources On Github](./guide/ResourcesOnGithub.md)

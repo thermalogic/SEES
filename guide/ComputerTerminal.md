@@ -17,7 +17,22 @@ When using a **graphical user interface** (or GUI) like the X Window System, one
 
 ![terminalemulator](./codingterminal/terminal-emulator.jpg)
 
-## 2 程序源码编辑和运行
+## 2 Windows Command-Line "CMD" or "PowerShell" Shell
+
+http://www3.ntu.edu.sg/home/ehchua/programming/howto/CMD_Survival.html
+
+Programmers use a command-line interface (CLI) to issue text-commands to the Operating System, instead of clicking or double-clicking on a Graphical User Interface (GUI). This is because command-line is much more powerful than the graphical interface.
+
+The CMD/Powershell is a command-line Interface. It supports a set of commands and utilities; and has its own programming language for writing batch files (or shell scripts).
+
+You can launch a CMD/Powershell via:
+```
+"Win+R" ⇒ Enter "cmd/powershell"
+```
+The terminal shell displays a prompt which ends with a ">", in the form of "drive:\current-directory>". You can enter your command after the prompt.
+
+
+## 3 程序源码编辑和运行
 
 编写源码 -> 编译、链接/解释器 -> 运行
 
@@ -31,7 +46,7 @@ When using a **graphical user interface** (or GUI) like the X Window System, one
 
    * 解释型语言： 该语言的解释器对源码边解释，边运行
 
-## 3 集成开发环境
+## 4 集成开发环境
 
 集成开发环境（IDE)对`编写源码 -> 编译、链接/解释器 -> 运行`过程进行了集成，以提高程序开发效率。
 
@@ -39,7 +54,7 @@ When using a **graphical user interface** (or GUI) like the X Window System, one
 
  * 对**源码->运行**的命名过程用封装为图形用户界面。用户点击鼠标，软件帮用户完成命名行的编译/解释、运行工作。
 
-## 4 终端中使用命令`编译/解释源码->运行`过程示例
+## 5 终端中使用命令`编译/解释源码->运行`过程示例
 
 ### Windows终端中示例
 

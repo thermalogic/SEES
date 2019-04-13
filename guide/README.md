@@ -7,9 +7,9 @@
 
 * [The Guide of Building Software Environment](./BuildingSoftwareEnvironment.md)
 
-   * [File Path](./FilePath(Chinese).md)
+   * [The Computer Terminal](./ComputerTerminal.md/)
 
-   * [Coding With Terminal](./CodingWithTerminal.md/)
+   * [Windows File System](./WindowsFileSystems.md)
 
    * [requirements.txt](./requirements.txt) is the list of items to be installed for the course:
 
