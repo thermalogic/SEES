@@ -21,9 +21,7 @@
 
 ![syntaxerror](./img/syntaxerror.jpg)
 
-Python是解释性语言，前一句错误，会报下面没有错误语言的:`SyntaxError`。 
-
-很常见的情况。
+Python是解释性语言，前一句错误，会报下面没有错误语言的:`SyntaxError`。 **很常见的情况**。
 
 
 ## pip安装时,提示Permission denied
