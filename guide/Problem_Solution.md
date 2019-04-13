@@ -29,8 +29,6 @@
 
 **常见的错误**： 如上图的`（）`配对错误。 Python语言中，`（）`中可以多行语言。
 
-
-
 ## pip安装时,提示Permission denied
 
 pip安装时,提示Permission denied
