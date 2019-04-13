@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+    - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
     - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
     - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
     - [Mar 1, 2019后安装的Jupyter运行异常](#mar-1-2019后安装的jupyter运行异常)
@@ -15,6 +16,15 @@
     - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
 
 <!-- /TOC -->
+
+## 报没有错误语句的“SyntaxError"
+
+![syntanerror](./img/syntanerror.jpg)
+
+Python是解释性语言，前一句错误，会报下面没有错误语言的:`SyntaxError`。 
+
+很常见的情况。
+
 
 ## pip安装时,提示Permission denied
 
