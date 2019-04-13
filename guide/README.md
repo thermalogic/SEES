@@ -9,7 +9,7 @@
 
    * [The Computer Terminal](./ComputerTerminal.md/)
 
-   * [Windows File System](./WindowsFileSystems.md)
+   * [Windows File System](./WindowsFileSystem.md)
 
    * [requirements.txt](./requirements.txt) is the list of items to be installed for the course:
 
