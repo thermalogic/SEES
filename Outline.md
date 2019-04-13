@@ -48,23 +48,25 @@
    
    * Jupyter's `magic` functions： cell, line   
       
-* **2 Control Flow**
+* [2.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
 
-   * [2.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
+   * `if`, `while`,`for loops`, `break`, `continue`
 
-     * `if`, `while`,`for loops`, `break`, `continue`
-
-     * `range(start,stop,step)`
+   * `range(start,stop,step)`
      
-     * **Indentation**: delineate blocks of code
+   * **Indentation**: delineate blocks of code
+     
+   * Line Continuation
+
+   * Exhaustive Enumeration
     
-     * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
+   * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
       
-   * [2.2 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+* [2.2 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
-       * Exhaustive Enumeration, Bisection and Newton-Raphson
+   * Bisection，Newton-Raphson
    
-       * Using Floats,`round(x, numDigits)`
+   * Using Floats,`round(x, numDigits)`
 
    * **Homework**
     
@@ -92,11 +94,13 @@
 
       * List, mutability, object equality, aliasing, cloning, 
       
-      * List Comprehension, map
+      * List Comprehension
 
       * Range
 
       * Sequence types(String,List,Tuple,Range): Operators and Functions
+
+      * High-order function; map, filter, functools,reduce
 
    * [4.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-3-05-Dict.ipynb)
    
@@ -184,6 +188,8 @@
        * Rankine Cycle: JSON,UML Class Diagram
        
        * `super().*`, `__dict__.update()`
+
+       * jump table
 
     * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 
