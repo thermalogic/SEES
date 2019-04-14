@@ -305,6 +305,10 @@
    
       * C :stdio.h: `scanf,printf`
 
+   * **Homework**  
+    
+      * **(Optional(** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
+
 * [GCC_DLL](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 
   * the **Shared Library** :Linux,Windows
@@ -369,4 +373,8 @@
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
+   * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-ModelingSimulation_EngineeringSystems.ipynb)
+
    * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-GCC-C_stdio.ipynb)
+
+   * [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
