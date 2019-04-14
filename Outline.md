@@ -199,12 +199,12 @@
  
      * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
    
-     * (Optional) [Install OpenModelica](./guide/InstallOpenModelica.md) 
+     * **Optional**
+       
+       * [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
-* [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-ModelingSimulation_EngineeringSystems.ipynb)
+       * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-ModelingSimulation_EngineeringSystems.ipynb)
  
-   * Modelica, Jupyter OpenModelica kernel
-
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
@@ -369,4 +369,4 @@
 
    * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
-   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-GCC-C_stdio.ipynb)
+   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-GCC-C_stdio.ipynb)
