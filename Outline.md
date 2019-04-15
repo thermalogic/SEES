@@ -190,9 +190,9 @@
        * `super().*`, `__dict__.update()`
 
        * jump table
-
-    * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
-
+ 
+   * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
+  
   * **Homework**
   
      * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
@@ -203,8 +203,8 @@
        
        * [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
-       * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-ModelingSimulation_EngineeringSystems.ipynb)
- 
+       * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
+  
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
