@@ -169,7 +169,7 @@ $git config --global credential.helper 'store --file ~/.mygit-credentials'
 >git push origin :delBranchName
 ```
 
-注意：分支名前的冒号：代表删除
+注意：分支名前的冒号 `:` 代表删除
 
 or
 
@@ -183,7 +183,7 @@ git push origin –delete delBranchName
 
 ### 8.1. 在新托管网站建立一个和本地项目目录`同名`的空仓库
 
-新建的仓库必须是 **空** 仓库，不能有README.md等任何内容
+新建的仓库必须是 **空** 仓库，不要有README.md等任何内容
 
 ### 8.2. 同步本地仓库到新托管网站的远程仓库
 
@@ -193,6 +193,8 @@ git remote rm origin
 ```
 
 将新托管网站的仓库加为本地Git仓库远程源
+
+如
 ```
 git remote add origin https://github.com/ThermalogicArchive/Excel4Engineering.git
 ```
