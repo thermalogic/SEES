@@ -14,6 +14,11 @@
     - [Windows安全防护](#windows安全防护)
     - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
     - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
+        - [安装软件](#安装软件)
+        - [ipynb转换为pdf](#ipynb转换为pdf)
+            - [方法1：](#方法1)
+            - [方法2.](#方法2)
+            - [解决方法：](#解决方法)
 
 <!-- /TOC -->
 
@@ -119,33 +124,45 @@ http://windows.microsoft.com/zh-cn/windows/security-essentials-download
 
 通过请教老师、同学，最后发现是因为文件命名为unittest，然后当运行程序import unittest时系统会‘迷路’，因为文件名和Python的自带包unittest发生混淆，系统无法正确引用Python的unittest包。所以解决办法是：将文件名修改为非unittest即可。
 
-##  Windows环境下Jupyter notebook文件转换pdf失败
+## Windows环境下Jupyter notebook文件转换pdf失败
 
-Jupyter notebook中可以ipynb转换为pdf
+Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件可相应软件包.
 
-* 1 Windows环境下需要安装MikTex
+### 安装软件
+
+* 1 Windows环境下安装MikTex
 
 * 2 安装pandoc
 
 ```bash
->pip install pandoc
+>python -m pip install pandoc
 ```
 
-* 3 ipynb转换为pdf
+### ipynb转换为pdf
+
+#### 方法1：
 
 ```bash
 >jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-转换程序从MiKTex的远程仓库下载包时，可能会出现下载失败的问题，导致文档转换中断
+#### 方法2. 
 
-* 4 解决方法：
+用Google Chrome浏览器打开ipynb文件，然后, **`Download as`** -> **PDF Via LaTex(pdf)**,生成pdf文件。
 
-多试验几次
+ 初次使用，转换程序从MiKTex的远程仓库下载软件包时，可能会出现下载失败的问题，导致文档转换中断。
+
+![MiKTexPackageInstall](./img/MiKTex-package-install.jpg)
+
+#### 解决方法：
+
+多试验几次下面的转换命令，选择网络速度快的站点，多次下载MiKTex软件包
 
 ```bash   
 >jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-从源下载包.
+
+
+
 
