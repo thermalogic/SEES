@@ -1,4 +1,4 @@
-Distance (m) Mass (kg)
+Distance(m) Mass(kg)
 0.0865 0.1
 0.1015 0.15
 0.1106 0.2
