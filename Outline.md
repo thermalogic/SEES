@@ -204,7 +204,11 @@
        * [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
        * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-PyThermo-Python-JSON.ipynb)
-  
+
+* [Numpy Basic](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-0-Numpy-Basic.ipynb)
+
+   * array class, arithmetic operations: elementwise, index,slicing
+
 * [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
    * **Matplotlib.pyplot**
@@ -227,13 +231,13 @@
 
    * The Behavior of Springs：
    
-   * NumPy: array, polyfit, Arithmetic Operations: elementwise
+   * NumPy: polyfit
 
    * The Behavior of Projectiles: Coefficient of Determination
  
 * [21 LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-   * NumPy: narray, genfromtxt, mean,var,corrcoef
+   * NumPy: genfromtxt, mean,var,corrcoef
    
    * Matplotlib: bar, subplot 
 
