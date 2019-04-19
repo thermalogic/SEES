@@ -210,18 +210,18 @@
    * **Matplotlib.pyplot**
     
      * `figure`, `plot`, `show`, (x,y), (y)，
-     
+
+     * `title`,`xlabel`,`ylabel`,
+   
      * write to file: png, svg
      
-     * line style and color: `'b-'`,`'ro'`
+     * line style,color and width
    
-     * `title`,`xlabel`,`ylabel`,
-
-     * type size and line width , `reParams`
+     * type size, `reParams`
 
      * `%matplotlib inline`
 
-  * **Examples**: IF97 T-S,H-S Diagram; The Rankine Cycle T-S  Diagrams
+  * **Examples**: IF97 T-S,H-S Diagram, Turbine H-S Diagram; The Rankine Cycle T-S  Diagrams
 
 * [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
@@ -233,7 +233,7 @@
  
 * [21 LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-   * NumPy: genfromtxt,mean,var,corrcoef
+   * NumPy: narray, genfromtxt, mean,var,corrcoef
    
    * Matplotlib: bar, subplot 
 
@@ -283,7 +283,7 @@
      
 * [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
 
-   * `cProfile.run`,pstats
+   * `cProfile.run`, pstats
 
    * `cProfile.Profile()`, `io` module
 

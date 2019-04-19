@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+    - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
     - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
     - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
     - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
@@ -21,6 +22,24 @@
             - [解决方法：](#解决方法)
 
 <!-- /TOC -->
+
+
+##  print('{:>7.3f}'.format(h)输出运行错误
+
+p`print(str.format)`,输出时，会根据str给出的格式，将变量先转换为对应数据类型，再按照格式要求输出
+
+如：print('{:>6.3f}'.format(h)，即： float(h) -> print, 如果变量不能转换为对应类型，就会输出运行错误.
+
+**修改**
+
+ 数据类型转换异常时，不使用str.format方式输出
+
+```python
+try:
+    print('{:>7.3f}'.format(h))
+except:
+    print(h)
+```
 
 ## 报没有错误语句的“SyntaxError"
 
