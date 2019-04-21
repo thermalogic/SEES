@@ -1,8 +1,14 @@
 
 # Foundamentals and Practice of Software Engineering
 
+Jupyter Notebook for Foundamentals and Practice of Software Engineering
+
+* visit the Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/) 
+      
+ * run the Notebooks in a browser by pressing the Binder button： [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019) 
+
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
- 
+
 ## Overview
 
 This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
@@ -51,11 +57,11 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 * **PySEE/HOME**
    
-   * [Lectures in Jupyter Notebook](./notebook) 
+   * [Jupyter Notebook for the course](./notebook) 
 
-      * you may visit the Jupyter Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/) 
+      * [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/) 
       
-      * and execute in **Binder** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019)
+      * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019)
 
    * [Guide of Softwares](./guide) 
 

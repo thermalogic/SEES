@@ -68,13 +68,7 @@
    
    * Using Floats,`round(x, numDigits)`
 
-   * **Homework**
-    
-     * [Install Numpy,Scipy,Matplotlib](./guide/BuildingSoftwareEnvironment.md)
-
-           > python -m pip install numpy scipy matplotlib
-
-* [3 FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+  * [3 FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
    * Function definitions, Positional, Keyword Arguments and Default Values
 
@@ -82,9 +76,9 @@
 
    * Specifications, docstring
 
-   * Scoping, Global Variables, Recursion
+   * Scoping, Global Variablesn
 
-   * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`, Scipy
+   * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`
 
 * **4 Structured types**
 
@@ -113,7 +107,11 @@
    * File, Unicode, Table Data，CSV
 
    * **Homework** 
-  
+
+     * Install Numpy,Scipy,Matplotlib
+
+           > python -m pip install numpy scipy matplotlib
+
      * Install iapws: 
      
            >python -m pip install iapws
@@ -244,6 +242,8 @@
    * It’s just as easy to **lie with numbers** as it is to lie with words
 
    * **Homework**
+
+     * [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-4-Scipy.ipynb) 
 
      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4)  
 
