@@ -39,7 +39,7 @@
 
 * OpenMDAO: An open-source MDAO framework written in Python  http://openmdao.org/
 
-## Linux 
+## Linux/OS 
 
 * GNU http://www.gnu.org
 
@@ -48,6 +48,8 @@
 * Ubuntu https://www.ubuntu.com/
 
      * Ubuntukylin  https://www.ubuntukylin.com/
+
+* Allen B. Downey. Think OS：A Brief Introduction to Operating Systems http://greenteapress.com/thinkos.
 
 ## Maker 
 

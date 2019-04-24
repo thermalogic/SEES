@@ -115,8 +115,6 @@
   
       * [中文版:gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
 
-    * Henri Gavin. [GNUPLOT 4.2 - A Brief Manual and Tutorial](http://people.duke.edu/~hpgavin/gnuplot.html)
-    
     * Philipp K. Janert. Gnuplot in Action:Understanding data with graphs(2ed Edition). Manning Publications Co.2016
 
 ### Software Engineering

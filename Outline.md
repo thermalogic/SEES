@@ -38,10 +38,10 @@
 
    * **Python**: the interpreted ,dynamically typed, scripting Language
      
-      * Objects, Numerical Types, Operators and Expressions 
-      
-      * Variables and Assignment; Comments：`#`
+      * Objects,Variables and Assignment; Comments：`#`，`id()`
 
+      * Numerical Types, Operators and Expressions 
+     
       * String, Slicing, Input, 
       
       * Type Conversion
@@ -179,8 +179,6 @@
 
    * [OOP:Rankine Cycle 8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
 
-      * `glob`
-
    * [The General simulator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
 
        * Rankine Cycle: JSON,UML Class Diagram
@@ -279,7 +277,7 @@
 
    * Test Suites
 
-   * `*args`，`**kwargs`
+   * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
 
    * **Homework**
       
@@ -291,7 +289,7 @@
 
    * `cProfile.Profile()`, `io` module
 
-   * Improve the Performance: memoization, `__call__`
+   * Improve the Performance: memoization
        
    * **Decorator**, **Property**,`@property`,Private Variables(`_`)
    
@@ -311,7 +309,7 @@
 
    * **Homework**  
     
-      * **(Optional(** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
+      * **(Optional)** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
 
 * [GCC_DLL](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 
