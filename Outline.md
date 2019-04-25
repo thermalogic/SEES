@@ -243,8 +243,6 @@
 
      * [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-4-Scipy.ipynb) 
 
-     * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4)  
-
 * [07 EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-1-07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
    * Built-In Exception, `try: except` 
@@ -296,6 +294,8 @@
    * **Homework**
 
        * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
+
+       * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4) 
 
   [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
