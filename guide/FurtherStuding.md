@@ -19,7 +19,7 @@
 
 * Wes McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython(2nd Edition) O'Reilly Media, 2017 https://github.com/wesm/pydata-book
 
-* The University of Utah, Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) 
+* Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) The University of Utah
 
 * Pandas http://pandas.pydata.org/
 
@@ -39,17 +39,17 @@
 
 * OpenMDAO: An open-source MDAO framework written in Python  http://openmdao.org/
 
-## Linux/OS 
+## OS/Linux 
+
+* Allen B. Downey. [Think OS：A Brief Introduction to Operating Systems](http://greenteapress.com/thinkos)
+
+* edX: [Introduction to Linux](https://www.edx.org/course/introduction-to-linux)
 
 * GNU http://www.gnu.org
-
-* edX: Introduction to Linux https://www.edx.org/course/introduction-to-linux
 
 * Ubuntu https://www.ubuntu.com/
 
      * Ubuntukylin  https://www.ubuntukylin.com/
-
-* Allen B. Downey. Think OS：A Brief Introduction to Operating Systems http://greenteapress.com/thinkos.
 
 ## Maker 
 
