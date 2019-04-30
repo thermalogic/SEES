@@ -190,7 +190,9 @@
 * jump table
  
 ## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
-  
+
+*  The brief introduction of simulation software and Modelica
+
 * **Homework**
   
    * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
