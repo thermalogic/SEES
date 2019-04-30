@@ -50,7 +50,7 @@ def update(frames):
         y.popleft()
         y.append(value)
 
-    str_curtime=time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(time.time()))
+    str_curtime=time.strftime("%F %H:%M:%S", time.localtime(time.time()))
     time_text.set_text("Time:"+str_curtime)
     
     table_vals = [[tag,"%",str(value)]]

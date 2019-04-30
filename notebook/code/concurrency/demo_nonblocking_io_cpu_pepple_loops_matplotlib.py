@@ -42,7 +42,7 @@ def DataConsumerPlot(in_q,npoints):
 
             lines.set_xdata(np.arange(len(y)))
             lines.set_ydata(np.array(y))
-            str_curtime=time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(time.time()))   
+            str_curtime=time.strftime("%F %H:%M:%S", time.localtime(time.time()))   
             if rcvalue[1] is None:
                 str_cursecond=str_cursecond+" (Timeout)"
             time_text.set_text("Time:"+str_curtime)

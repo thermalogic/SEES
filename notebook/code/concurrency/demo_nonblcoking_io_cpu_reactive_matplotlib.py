@@ -30,7 +30,7 @@ def monitor_cpu(npoints):
     def update_plot(cpu_readings):
         lines.set_xdata(np.arange(len(cpu_readings)))
         lines.set_ydata(np.array(cpu_readings)[:,1])
-        str_curtime=time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(time.time()))  
+        str_curtime=time.strftime("%F %H:%M:%S", time.localtime(time.time()))  
         
         if np.array(cpu_readings)[-1,1] is None: 
             str_cursecond=str_cursecond+" (Timeout)"
