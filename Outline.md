@@ -1,374 +1,371 @@
-## Course Outline
 
-* **Introduction of PySEE**
+# Course Outline
 
-  * Goals,Grading,Practices
+## Introduction of PySEE
 
-  * **Repositories**: Home,SEUIF97,PyRankine,Practices,GSL4Windows,Googletest4Windows
+* Goals,Grading,Practices
 
-  * [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
+* **Repositories**: Home,SEUIF97,PyRankine,Practices,GSL4Windows,Googletest4Windows
 
-     * [Computer Terminal](./ComputerTerminal.md/)
+* [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
 
-     * [Windows File System](./guide/WindowsFileSystem.md) 
+  * [Computer Terminal](./ComputerTerminal.md/)
 
+  * [Windows File System](./guide/WindowsFileSystem.md) 
+  
   * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
   * [Resources On Github](./guide/ResourcesOnGithub.md)
 
-  * **Homework**
+* **Homework**
    
-     * Read the contents：Python, Jypyter, MinGW-W64(GCC), Visual Studio Code，Git, Github, Markdown,
+   * [ebooks](./Reference.md)
    
-     * [ebooks](./Reference.md)
-   
-       * John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.
+      * John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.
 
-     * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
+   * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2019/P1)
    
-       * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
+      * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
-       * [Install Softwares: Python,Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
+      * [Install Softwares: Python,Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
 
-       * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
+      * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
-* [1 INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-02-INTRODUCTION_TO_PYTHON.ipynb)
+ ## [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-1-02-INTRODUCTION_TO_PYTHON.ipynb)
 
-   * **Softwares**: Python Shell,IDLE,Jupyter,Visual Studio Code
-
-   * **Python**: the interpreted ,dynamically typed, scripting Language
+* **Python**: the interpreted ,dynamically typed, scripting Language
      
-      * Objects,Variables and Assignment; Comments：`#`，`id()`
+   * Objects,Variables and Assignment; Comments：`#`，`id()`
 
-      * Numerical Types, Operators and Expressions 
+   * Numerical Types, Operators and Expressions 
      
-      * String, Slicing, Input, 
+   * String, Slicing, Input, 
       
-      * Type Conversion
+   * Type Conversion
    
    * Jupyter's `magic` functions： cell, line   
       
-* [2.1 Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
+## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-1-Control_Flow.ipynb)
 
-   * `if`, `while`,`for loops`, `break`, `continue`
+* `if`, `while`,`for loops`, `break`, `continue`
 
-   * `range(start,stop,step)`
+* `range(start,stop,step)`
      
-   * **Indentation**: delineate blocks of code
+* **Indentation**: delineate blocks of code
      
-   * Line Continuation
+* Line Continuation: `\`
 
-   * Exhaustive Enumeration
+* Exhaustive Enumeration
     
-   * **Python Style Guide**: The Zen of Python(PEP20); Coding convention(PEP8)
+* **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
       
-* [2.2 SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+## [SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-2-2-03-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
  
-   * Bisection，Newton-Raphson
+* Bisection，Newton-Raphson
    
-   * Using Floats,`round(x, numDigits)`
+* Using Floats,`round(x, numDigits)`
 
-  * [3 FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+## [FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-3-04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
-   * Function definitions, Positional, Keyword Arguments and Default Values
+* Function definitions, Positional, Keyword Arguments and Default Values
 
-   * Functions as Objects, Lambdas
+* Functions as Objects, Lambdas
 
-   * Specifications, docstring
+* Specifications, docstring
 
-   * Scoping, Global Variablesn
+* Scoping, Global Variablesn
 
-   * Module: `import M`,`from M import *`; the interpreter search path, `sys.path`
+* Module: `import M`,`from M import *`
 
-* **4 Structured types**
+* The interpreter search path, `sys.path`
 
-   * [4.1 Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-1-05-Tuple.ipynb)
+## [Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-1-05-Tuple.ipynb)
 
-   * [4.2 List,Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
+* (1,)  a,b=(1,2)
 
-      * List, mutability, object equality, aliasing, cloning, 
+## [List,Range](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-2-05-List.ipynb)
+
+* List,List Comprehension
+
+* mutability, object equality, aliasing, cloning: `L[:]`
       
-      * List Comprehension
+* Range
 
-      * Range
+* Sequence types(String,List,Tuple,Range): Operators and Functions
 
-      * Sequence types(String,List,Tuple,Range): Operators and Functions
+* High-order function; map, filter, functools,reduce
 
-      * High-order function; map, filter, functools,reduce
+## [Dictionary](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-3-05-Dict.ipynb)
 
-   * [4.3 Dictionary, Mutability](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-4-3-05-Dict.ipynb)
-   
-   * **Homework**
+* {key:value} ; mutability;  cloning: `copy()`, `deepcopy()`
 
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+* **Homework**
+
+  * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
  
-* [5 Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
+## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
    
-   * File, Unicode, Table Data，CSV
+* File, Unicode, Table Data，CSV
 
-   * **Homework** 
+* **Homework** 
 
-     * Install Numpy,Scipy,Matplotlib
+   * Install Numpy,Scipy,Matplotlib
 
-           > python -m pip install numpy scipy matplotlib
+      > python -m pip install numpy scipy matplotlib
 
-     * Install iapws: 
+   * Install iapws: 
      
-           >python -m pip install iapws
+      >python -m pip install iapws
     
-     * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
+  * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
-           > python -m pip install seuif97
+       > python -m pip install seuif97
 
-      * **Optional** [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
+   * **Optional** [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
- * [PyThermo-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
+## [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
-    * IAPWS-IF97
+* IAPWS-IF97
 
-    * Python library for IAPWS，SEUIF97
+* Python library for IAPWS，SEUIF97
 
-    * `print(str.format())`
+* `print(str.format())`
    
-   * **Homework**
+* **Homework**
 
-     * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
+   * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
     
-     * [ebook](./Reference.md)
+   * [ebook](./Reference.md)
    
-       * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+      * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
        
-         Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
+       Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
-* [RankineCycle 8.1.8.2: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb)
+## [RankineCycle 8.1.8.2: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb)
 
    * Rankine Cycle 8.1,8.2：the expression directly; the simple abstraction using List,Dict and Function
   
    * Data file(I/O), Redirect **stdout** to a file, pprint
 
-   * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-4-PyThermo-LaTeX-Math.ipynb)
-
    * Matplotlib：T-S Diagram of Rankine Cycle
 
-* [RankineCycle 8.5: AdvVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)
+   * [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-4-PyThermo-LaTeX-Math.ipynb)
 
-   * Rankine Cycle 8.5：the expression directly; the general abstraction using List,Dict and Function
+## [RankineCycle 8.5: AdvVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)
+
+* Rankine Cycle 8.5：the expression directly; the general abstraction using List,Dict and Function
  
-   * **Homework**
+* **Homework**
 
-     * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
+   * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2019/P2)  
 
-* [08 CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-1-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-1-08_CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
-   * Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
+* Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
 
-   * `pass`,Invisible `__name`, Generators：`yield`
+* `pass`,Invisible `__name`, Generators：`yield`
 
-   * `import datetime`,`from dateutil.relativedelta import relativedelta`
+* `import datetime`,`from dateutil.relativedelta import relativedelta`
 
-   * `%%timeit`
+* `%%timeit`
 
-* [Package, UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-Package-UML.ipynb)
+## [Package, UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-Package-UML.ipynb)
 
-   * **Homework**
+* **Homework**
    
-     * [Creating UML diagrams for Python code](./guide/UMLPython.md) 
+    * **Optional** [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+    * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
-* [The OOP of Rankine Cycle](https://github.com/PySEE/PyRankine)
+## [The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
 
-   * [OOP:Rankine Cycle 8.1,8.2 with csv files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
+* The Rankine Cycle 8.1,8.2 with csv files
 
-   * [The General simulator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
+## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
 
-       * Rankine Cycle: JSON,UML Class Diagram
+* Rankine Cycle: JSON,UML Class Diagram
        
-       * `super().*`, `__dict__.update()`
+* `super().*`, `__dict__.update()`
 
-       * jump table
+* jump table
  
-   * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
+## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
   
-  * **Homework**
+* **Homework**
   
-     * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
+   * [Rankine Cycle：Step4,Step5](https://github.com/PySEE/PyRankine)
  
-     * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
+   * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2019/P3) 
    
-     * **Optional**
+   * **Optional**
        
-       * [Install OpenModelica](./guide/InstallOpenModelica.md) 
+      * [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
-       * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-PyThermo-Python-JSON.ipynb)
+      * [Python JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-PyThermo-Python-JSON.ipynb)
 
-* [Numpy Basic](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-0-Numpy-Basic.ipynb)
+## [Numpy Basic](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-0-Numpy-Basic.ipynb)
 
    * array class, arithmetic operations: elementwise, index,slicing
 
-* [11.1 PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
+## [PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING-USING-MATPLOTLIB.ipynb)
 
-   * **Matplotlib.pyplot**
+* **Matplotlib.pyplot**
     
-     * `figure`, `plot`, `show`, (x,y), (y)，
+   * `figure`, `plot`, `show`, (x,y), (y)，
 
-     * `title`,`xlabel`,`ylabel`,
+   * `title`,`xlabel`,`ylabel`,
    
-     * write to file: png, svg
+   * write to file: png, svg
      
-     * line style,color and width
+   * line style,color and width
    
-     * type size, `reParams`
+   * type size, `reParams`
 
-     * `%matplotlib inline`
+   * `%matplotlib inline`
 
-  * **Examples**: IF97 T-S,H-S Diagram, Turbine H-S Diagram; The Rankine Cycle T-S  Diagrams
+* **Examples**: IF97 T-S,H-S Diagram, Turbine H-S Diagram; The Rankine Cycle T-S  Diagrams
 
-* [18 UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-   * The Behavior of Springs：
+* The Behavior of Springs：
    
-   * NumPy: polyfit
+* NumPy: polyfit
 
-   * The Behavior of Projectiles: Coefficient of Determination
+* The Behavior of Projectiles, Coefficient of Determination
  
-* [21 LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-   * NumPy: genfromtxt, mean,var,corrcoef
+ * NumPy: genfromtxt, mean,var,corrcoef
    
-   * Matplotlib: bar, subplot 
+ * Matplotlib: bar, subplot 
 
-   * It’s just as easy to **lie with numbers** as it is to lie with words
+ * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
-   * **Homework**
+ * **Optional** [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-4-Scipy.ipynb) 
 
-     * [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-4-Scipy.ipynb) 
+## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-1-07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
-* [07 EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-1-07_EXCEPTIONS_AND_ASSERTIONS.ipynb)
+* Built-In Exception, `try: except` 
 
-   * Built-In Exception, `try: except` 
+* Raising Exceptions: `raise`
 
-   * Raising Exceptions: `raise`
+* User-defined Exceptions
 
-   * User-defined Exceptions
+* `try:-except-else-finally`
 
-   * `try:-except-else-finally`
+* Predefined Clean-up Actions:`with`
 
-   * Predefined Clean-up Actions:`with`
+*  `assert` statement
 
-   * `assert` statement
+*  **Optional** [TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-2-06_TESTING_AND_DEBUGGING.ipynb)
 
-   * **Homework**
+   * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
+
+   * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process,`print`
+
+   * The typical mistakes
+
+## [Unit testing framework：unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-1-DevTools_unittest.ipynb)
+
+* `unittest.TestCase`, test*，Asserting 
+
+* Test Fixtures:`setUp`,`tearDown`
+
+* Test Suites
+
+* `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
+
+* **(Optional)**  [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
      
-       * [06 TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit6-2-06_TESTING_AND_DEBUGGING.ipynb)
+[Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
 
-         * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
+* `cProfile.run`, pstats
 
-         * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process,`print`
+* `cProfile.Profile()`, `io` module
 
-         * The typical mistakes
-
-* [Unit testing framework：unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-1-DevTools_unittest.ipynb)
-
-   * `unittest.TestCase`, test*，Asserting 
-
-   * Test Fixtures:`setUp`,`tearDown`
-
-   * Test Suites
-
-   * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
-
-   * **(Optional)**  [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
-     
-* [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
-
-   * `cProfile.run`, pstats
-
-   * `cProfile.Profile()`, `io` module
-
-   * Improve the Performance: memoization
+* Improve the Performance: memoization
        
-   * **Decorator**, **Property**,`@property`,Private Variables(`_`)
+* **Decorator**, **Property**,`@property`,Private Variables(`_`)
 
-   * **(Optional)** [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
+* **(Optional)** [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
    
-   * **Homework**
+* **Homework**
 
-      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4) 
+   * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4) 
 
-  [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
+## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
-   * GNU,GCC,MinGW-W64
+* GNU,GCC,MinGW-W64
 
-   * GNU **Make**
+* GNU **Make**
    
-   * C/C++ Preprocessor Directives, once-only headers 
+* C/C++ Preprocessor Directives, once-only headers 
    
-      * C :stdio.h: `scanf,printf`
+* **(Optional)** [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O1-C_stdio.ipynb)
+ 
+    * C :stdio.h: `scanf,printf`
 
-      * **(Optional)** [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O1-C_stdio.ipynb)
+* **(Optional)** [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-O2-Fortran_gfortran.ipynb)    
 
-   * **(Optional)** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-O2-GCC_gfortran.ipynb)    
+## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 
-* [GCC_DLL](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
-
-  * the **Shared Library** :Linux,Windows
+* **Shared Library** :Linux,Windows
   
-  * **Homework**
+* **Homework**
 
-      * Install [Googletest for Windows](https://github.com/PySEE/Googletest4Windows)
+   * Install [Googletest for Windows](https://github.com/PySEE/Googletest4Windows)
 
-      * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
+   * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
-* [Python_ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-3-Python_ctypes.ipynb)
+## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-3-Python_ctypes.ipynb)
 
-  * ctypes: `__cdecl`,`__stdcall`,`windll.LoadLibrary`
+* ctypes: `__cdecl`,`__stdcall`,`windll.LoadLibrary`
   
- * [DLL_VBA_Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
+## [Windows DLL ,VBA and Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
 
-   * Building Windows DLL
+* Building Windows DLL
    
-   * Excel VBA(Excel 2013 above, 64bit)
+* Excel VBA(Excel 2013 above, 64bit)
 
-   * Unit Test for C/C++:  Unity, Googletest
+* Unit Test for C/C++:  Unity, Googletest
 
-   * **Homework**
+* **Homework**
 
-     * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
+   * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
-     * Install pypistats: >python -m pip install pypistats
+   * Install pypistats: >python -m pip install pypistats
 
-     * **Optional**: 
+   * **Optional**: 
         
-       * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
+      * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
      
-* [Ubuntu_GSL_GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
+## [Ubuntu, GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
 
-   * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
+* [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-   * GSL: statistical functions, linear least-Squares fitting
+* GSL: statistical functions, linear least-Squares fitting
    
-   * Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
+* Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
 
-       * C/C++ Plotting : pipe
+  * C/C++ Plotting : pipe
 
-* [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Git.ipynb)
+## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Git.ipynb)
 
-   * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
+* [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
+* **Homework**
 
-   * **Homework**
+   * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
 
-     * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
+## [Outlook: Further Studing](./guide/FurtherStuding.md)
 
-* **Recap, Outlook**
+* **Optional**: [MultiTask and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-MultiTask_InstrumentData_IO.ipynb)
 
-  * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
+   
+## Recap
   
-  * [Further Studing](./guide/FurtherStuding.md)
-
-  * **Optional**: [MultiTask and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-MultiTask_InstrumentData_IO.ipynb)
-
-  * **Homework**
+* [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
   
-      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+* **Homework**
+  
+    * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
