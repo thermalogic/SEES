@@ -120,6 +120,7 @@
       
            > python -m pip install seuif97
 
+      * **Optional** [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
  * [PyThermo-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
 
@@ -277,9 +278,7 @@
 
    * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
 
-   * **Homework**
-      
-      * [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
+   * **(Optional)**  [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-2-DevTools_doctest.ipynb)
      
 * [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-3-DevTools_Profilers.ipynb)
 
@@ -290,12 +289,12 @@
    * Improve the Performance: memoization
        
    * **Decorator**, **Property**,`@property`,Private Variables(`_`)
+
+   * **(Optional)** [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
    
    * **Homework**
 
-       * [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit7-4-DevTools_timeit.ipynb)
-
-       * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4) 
+      * Do [Practice 4](https://github.com/PySEE/Practices/tree/S2019/P4) 
 
   [GCC_MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
@@ -307,9 +306,9 @@
    
       * C :stdio.h: `scanf,printf`
 
-   * **Homework**  
-    
-      * **(Optional)** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
+      * **(Optional)** [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O1-C_stdio.ipynb)
+
+   * **(Optional)** [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-O2-GCC_gfortran.ipynb)    
 
 * [GCC_DLL](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 
@@ -367,16 +366,9 @@
   
   * [Further Studing](./guide/FurtherStuding.md)
 
+  * **Optional**: [MultiTask and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-MultiTask_InstrumentData_IO.ipynb)
+
   * **Homework**
   
-     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
-    
-* **Appendix**
+      * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
 
-   * [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
-
-   * [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-3-ModelingSimulation_EngineeringSystems.ipynb)
-
-   * [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-GCC-C_stdio.ipynb)
-
-   * [GCC: gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-5-GCC-gfortran.ipynb)
