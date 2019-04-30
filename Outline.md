@@ -111,15 +111,15 @@
 
    * Install Numpy,Scipy,Matplotlib
 
-      > python -m pip install numpy scipy matplotlib
+         > python -m pip install numpy scipy matplotlib
 
    * Install iapws: 
      
-      >python -m pip install iapws
+         >python -m pip install iapws
     
   * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
-       > python -m pip install seuif97
+         > python -m pip install seuif97
 
    * **Optional** [Python:Reading-and-Writing-Data-Files-Binary-Data-File](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-2-Reading-and-Writing-Binary-Data-Files.ipynb)
 
@@ -319,11 +319,11 @@
 
 ## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-3-Python_ctypes.ipynb)
 
-* ctypes: `__cdecl`,`__stdcall`,`windll.LoadLibrary`
+* ctypes: `__cdecl`,`__stdcall`, `windll.LoadLibrary`
   
 ## [Windows DLL ,VBA and Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
 
-* Building Windows DLL
+* Building Windows DLL: `__stdcall`
    
 * Excel VBA(Excel 2013 above, 64bit)
 
@@ -362,10 +362,14 @@
 
    
 ## Recap
-  
-* [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
-  
+
+* Python，GCC，Practices
+ 
 * **Homework**
   
     * DO [Your Python Quick Review](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/self-exercises/Python-Quick-Review.ipynb)
+
+    * https://github.com/PySEE/Practices
+
+    * [Python35 Quick Reference](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-1-Python35-Quick-Reference.ipynb)
 
