@@ -1,17 +1,17 @@
 import time
 from collections import deque
-import matplotlib.pyplot as plt
 import numpy as np
-import psutil
+import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+import psutil
 
 def virtual_interface_data(tag):
     # time.sleep(0.1)
-    try:
-        if tag=="CPU_PERCENT":
-            value=psutil.cpu_percent()
-        elif tag=="MEM_PERCENTT":
-            value=psutil.virtual_memory().percent
+    monitoringios={"CPU_PERCENT": psutil.cpu_percent(),
+                   "MEM_PERCENTT": psutil.virtual_memory().percent,
+                   "BAT_PERCENTT": psutil.sensors_battery().percent} 
+    try:              
+        value= monitoringios[tag]
         rc=1    
     except:
         rc,value=0,None  

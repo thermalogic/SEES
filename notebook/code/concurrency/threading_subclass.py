@@ -6,9 +6,11 @@ import datetime
 class MyThread(threading.Thread):
     
     def run(self):
+        str_curtime=datetime.datetime.now().strftime('%H:%M:%S.%f')
+        logging.debug('begin at '+ str_curtime)
         time.sleep(2.0)
-        str_curtime=datetime.datetime.now().strftime('%F %H:%M:%S.%f')
-        logging.debug('running at '+ str_curtime)
+        str_curtime=datetime.datetime.now().strftime('%H:%M:%S.%f')
+        logging.debug('  end at '+ str_curtime)
         
 logging.basicConfig(
     level=logging.DEBUG,
