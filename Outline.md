@@ -360,8 +360,7 @@
 
 ## [Outlook: Further Studing](./guide/FurtherStuding.md)
 
-* **Optional**: [Concurrency and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-Concurrency_InstrumentData_IO.ipynb)
-
+* **Optional**: [Multitasking and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-Multitasking_InstrumentData_IO.ipynb)
    
 ## Recap
 

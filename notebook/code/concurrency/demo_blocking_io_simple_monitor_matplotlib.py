@@ -8,8 +8,8 @@ import psutil
 def virtual_interface_data(tag):
     # time.sleep(0.1)
     monitoringios={"CPU_PERCENT": psutil.cpu_percent(),
-                   "MEM_PERCENTT": psutil.virtual_memory().percent,
-                   "BAT_PERCENTT": psutil.sensors_battery().percent} 
+                   "MEM_PERCENT": psutil.virtual_memory().percent,
+                   "BAT_PERCENT": psutil.sensors_battery().percent} 
     try:              
         value= monitoringios[tag]
         rc=1    
@@ -26,7 +26,7 @@ table_vals = [[tag,"%",""]]
 
 
 fig, ax = plt.subplots()
-ax.set_title("The Simplest Monitor:"+tag)
+ax.set_title("The Simple Monitor:"+tag)
 ln, = plt.plot([], [], 'b-o')
 str_cursecond=str(time.localtime(time.time()).tm_sec)   
 time_text = ax.text(0.5, 80, "")

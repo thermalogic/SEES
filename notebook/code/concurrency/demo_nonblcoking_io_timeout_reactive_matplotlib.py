@@ -2,18 +2,16 @@ from rx import Observable
 import numpy as np
 import matplotlib.pyplot as plt
 import time
-
 import sys  
-sys.path.append('./code/concurrency/')
-
-#from nonblocking_io_cpu import get_data_with_timeout
-from nonblocking_io_cpu_pepple import get_data_with_timeout
+sys.path.append('./code/concurrency/')  
+from nonblocking_io_timeout_thread import get_data_with_timeout
 
 intervalTime=100
 delay=1
+tag="CPU_PERCENT"
 cpu_data = (Observable
             .interval(intervalTime) 
-            .map(lambda rc,value: get_data_with_timeout(delay))
+            .map(lambda rc,value: get_data_with_timeout(delay,tag))
             .publish())
 
 cpu_data.connect()
