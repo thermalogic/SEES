@@ -360,8 +360,6 @@
 
 ## [Outlook: Further Studing](./guide/FurtherStuding.md)
 
-* **Optional**: [Multitasking and InstrumentData IO](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-Multitasking_InstrumentData_IO.ipynb)
-   
 ## Recap
 
 * Python，GCC，Practices
