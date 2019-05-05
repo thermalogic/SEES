@@ -7,11 +7,11 @@ import psutil
 
 def virtual_interface_data(tag):
     # time.sleep(0.1)
-    monitoringios={"CPU_PERCENT": psutil.cpu_percent(),
-                   "MEM_PERCENT": psutil.virtual_memory().percent,
-                   "BAT_PERCENT": psutil.sensors_battery().percent} 
+    tagfuncs={"CPU_PERCENT": psutil.cpu_percent(),
+               "MEM_PERCENT": psutil.virtual_memory().percent,
+               "BAT_PERCENT": psutil.sensors_battery().percent} 
     try:              
-        value= monitoringios[tag]
+        value= tagfuncs[tag]
         rc=1    
     except:
         rc,value=0,None  
