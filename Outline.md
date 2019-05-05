@@ -360,6 +360,8 @@
 
 ## [Outlook: Further Studing](./guide/FurtherStuding.md)
 
+* [Multithreading: The Simple Monitor of Computer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/UnitA-4-MultiThreading_The_Simple_Monitor_Computer.ipynb)
+
 ## Recap
 
 * Python，GCC，Practices
