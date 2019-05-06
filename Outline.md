@@ -354,6 +354,7 @@
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit9-1-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
+
 * **Homework**
 
    * **Optional**: [Do Bonus](https://github.com/PySEE/Practices/tree/S2019/Bonus)
