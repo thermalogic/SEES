@@ -1,0 +1,12 @@
+
+all: helloexe
+    
+helloexe: helloobj
+	 gcc -o ./demo/bin/hello.exe ./demo/obj/hello.o
+	 del .\demo\obj\hello.o
+    
+helloobj: ./demo/src/hello.c
+	 gcc -c -o ./demo/obj/hello.o ./demo/src/hello.c
+     
+clean:
+	 del .\demo\bin\hello.exe
