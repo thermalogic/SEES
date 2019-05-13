@@ -303,11 +303,13 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-* **(Optional)** [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O1-C_stdio.ipynb)
+* [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O1-C_stdio.ipynb)
  
-    * C :stdio.h: `scanf,printf`
+    * stdio.h: `scanf,printf`
 
-* **(Optional)** [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-O2-Fortran_gfortran.ipynb)    
+* [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-O2-Fortran_gfortran.ipynb)    
+
+    * program, subroutine, function, module
 
 ## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 
