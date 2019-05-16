@@ -319,21 +319,25 @@
 
    * Install [Googletest for Windows](https://github.com/PySEE/Googletest4Windows)
 
-   * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
-
 ## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-3-Python_ctypes.ipynb)
 
-* ctypes: `__cdecl`,`__stdcall`, `windll.LoadLibrary`
+* ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
   
-## [Windows DLL ,VBA and Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
+## [Windows DLL, Unit Test,VBA and Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-4-DLL_VBA_Python.ipynb)
 
 * Building Windows DLL: `__stdcall`
+
+* Unit Test for C/C++:  Unity, Googletest
    
 * Excel VBA(Excel 2013 above, 64bit)
 
-* Unit Test for C/C++:  Unity, Googletest
+## [Debugging_C_Programs_with_GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Debugging_C_Programs_with_GDB.ipynb)
+
+* GNU GDB
 
 * **Homework**
+
+   * Do [Practice 5](https://github.com/PySEE/Practices/tree/S2019/P5)
 
    * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
@@ -343,7 +347,7 @@
         
       * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
      
-## [Ubuntu, GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
+## [Ubuntu, GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-6-Ubuntu_GSL_GNUPLOT.ipynb)
 
 * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
