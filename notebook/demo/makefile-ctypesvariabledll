@@ -1,0 +1,9 @@
+
+all: libctypesvariable
+
+libctypesvariable: obj
+	 g++  -shared -o ./demo/bin/libctypesvariable.dll ctypesvariable.o
+	 del ctypesvariable.o
+
+obj: 
+	 g++ -c -O3 -Wall -fPIC  ./demo/src/ctypesvariable.cpp 

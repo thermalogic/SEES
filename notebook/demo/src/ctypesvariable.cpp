@@ -16,7 +16,7 @@ extern "C"  __declspec(dllexport)  int __stdcall  TestSimpleStruct(int *n,int &m
   return struout->nNo;
 }
 
-// 2 using the name of one-dimensional array in Python.non byref
+// 2 using the name of one-dimensional array in Python，non byref
 extern "C"  __declspec(dllexport)  void  __stdcall  TestArray1(int nsize,double *narray)
 {
   for(int i=0; i<nsize; i++)
@@ -25,7 +25,7 @@ extern "C"  __declspec(dllexport)  void  __stdcall  TestArray1(int nsize,double 
   }
 }
 
-// 3 using the name of two-dimensional array in Python.  non byref
+// 3 using the name of two-dimensional array in Python，  non byref
 extern "C"  __declspec(dllexport)  void  __stdcall  TestArray21(int ni, int nj,double *ptr)
 {
     int i, j;
