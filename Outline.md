@@ -331,6 +331,8 @@
    
 * Excel VBA(Excel 2013 above, 64bit)
 
+    * https://github.com/thermalogic/Excel4Engineering 
+
 ## [Debugging_C_Programs_with_GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Debugging_C_Programs_with_GDB.ipynb)
 
 * GNU GDB
