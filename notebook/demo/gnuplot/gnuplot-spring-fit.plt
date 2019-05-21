@@ -1,6 +1,7 @@
 
 # 1 Define a function with unknown parameters
 #  k = F/x -> F=(1/k)*x, F=mass*9.81
+
 d(x) = (1/k)*x
 
 # 2 Fit the parameters with specified data
