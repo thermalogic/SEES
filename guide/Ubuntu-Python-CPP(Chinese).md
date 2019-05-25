@@ -85,7 +85,9 @@ $sudo apt install git
 
 Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
-**Note**： 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：$sudo apt-get install build-essential
+#### 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
+
+$sudo apt-get install build-essential
 
 ### 3 Python3 and Tools
 
