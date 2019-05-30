@@ -349,9 +349,11 @@
         
       * [Install Ubuntu,GSL,Gnuplot](./guide/Ubuntu-Python-CPP(Chinese).md)
      
-## [Ubuntu, GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-6-Ubuntu_GSL_GNUPLOT.ipynb)
+## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-6-Ubuntu.ipynb)
 
 * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
+
+## [GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-7-GSL_GNUPLOT.ipynb)
 
 * GSL: statistical functions, linear least-Squares fitting
    
