@@ -73,6 +73,15 @@ Ubuntu系统的分区很多，快捷安装只需配置: `/home分区和挂载点
 
 ![bionic-ok](./img/bionic-ok.jpg)
 
+* 7 更新系统
+
+系统安装后，更新系统软件
+
+```bash 
+$sudo apt update
+$sudo apt upgrade
+```
+
 ## 四、建立开发环境
 
 ### 1 Version Control: Git
