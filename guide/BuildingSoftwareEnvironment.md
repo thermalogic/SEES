@@ -414,7 +414,7 @@ It's simple to run Python source code file. `Right-click` in the editor and sele
 
 * **3** Disable Precompiled header caching
 
-   set the "`C_Cpp.intelliSenseCacheSize = 0` to disable Precompiled header caching   
+   set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
 
     ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
 
