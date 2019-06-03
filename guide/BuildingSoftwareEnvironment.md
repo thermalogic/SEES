@@ -411,6 +411,13 @@ It's simple to run Python source code file. `Right-click` in the editor and sele
 
    ![vscode-gcc](./img/vscode-gcc.jpg)
 
+
+* **3** Disable Precompiled header caching
+
+   set the "`C_Cpp.intelliSenseCacheSize = 0` to disable Precompiled header caching   
+
+    ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
+
 ## E: Using Git
 
 We **recommend** that you use [git](https://git-scm.com) to handle everything in the course: the repositories of PySEE,your projects,etc. 
