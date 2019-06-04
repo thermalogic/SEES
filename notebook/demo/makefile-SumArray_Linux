@@ -1,0 +1,13 @@
+
+all: mainSum
+
+clean:
+	rm -f ./demo/bin/mainSum.exe
+
+mainSum: obj  
+	gcc -o ./demo/bin/mainSum.exe ./demo/obj/mainSum.o ./demo/obj/SumArray.o 
+	rm -f  ./demo/obj/*.o
+
+obj:  
+	gcc -c -o ./demo/obj/mainSum.o ./demo/src/mainSum.c -I./demo/src/ 
+	gcc -c -o ./demo/obj/SumArray.o  ./demo/src/SumArray.c

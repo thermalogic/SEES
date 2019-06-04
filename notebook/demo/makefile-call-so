@@ -1,0 +1,18 @@
+
+
+SRCDIR= ./demo/src/
+OBJDIR= ./demo/obj/
+BINDIR= ./demo/bin/
+
+all: main
+
+clean:
+	rm -f ./demo/bin/mainSum.exe
+
+main: sumobj $(SRCDIR)SumArray.h 
+	gcc -o $(BINDIR)mainSum.exe $(OBJDIR)mainSum.o -L$(BINDIR) -lSumArray -Wl,-rpath=./code/bin/ 
+	rm -f ./demo/obj/mainSum.o
+
+sumobj: $(SRCDIR)mainSum.c 
+	gcc -c -o $(OBJDIR)mainSum.o $(SRCDIR)mainSum.c -I$(SRCDIR)     
+     

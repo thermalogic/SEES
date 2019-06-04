@@ -1,0 +1,19 @@
+
+CC=gcc
+
+SRCDIR= ./demo/src/
+OBJDIR= ./demo/obj/
+BINDIR= ./demo/bin/
+
+all: mainSum
+
+clean:
+	del .\demo\bin\mainSum.exe
+
+mainSum: obj  
+	$(CC) -o $(BINDIR)mainSum.exe $(OBJDIR)mainSum.o $(OBJDIR)SumArray.o 
+	del  .\demo\obj\*.o
+
+obj:  
+	$(CC) -c -o $(OBJDIR)mainSum.o $(SRCDIR)mainSum.c -I$(SRCDIR) 
+	$(CC) -c -o $(OBJDIR)SumArray.o  $(SRCDIR)SumArray.c

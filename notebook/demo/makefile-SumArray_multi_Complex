@@ -1,0 +1,22 @@
+
+CC=gcc
+
+SRCDIR= ./demo/src/
+OBJDIR= ./demo/obj/
+BINDIR= ./demo/bin/
+
+SRCS=$(SRCDIR)SumArray.c \
+     $(SRCDIR)mainSum.c 
+
+filename=$(notdir $(SRCS))
+
+OBJS=$(patsubst %.c,$(OBJDIR)%.o,$(filename))
+
+all:mainSum
+    
+mainSum: $(OBJS)  
+	$(CC) -o $(BINDIR)$@ $(OBJS) 
+	del  .\demo\obj\*.o
+
+$(OBJS):$(SRCS)
+	$(CC) -o $(OBJDIR)$(notdir $@) -c $(patsubst  %.o,$(SRCDIR)%.c,$(notdir $@))  -I$(SRCDIR) 
