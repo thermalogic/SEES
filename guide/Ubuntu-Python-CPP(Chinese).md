@@ -16,12 +16,6 @@
 
 * 从 http://rufus.akeo.ie/  下载rufus，制作系统安装用U盘，然后，用U盘安装Ubuntu
 
->
->基于的Ubuntu发行版很多，建议 **新手** 使用
->
->* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
->* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
-
 ## 三、 安装Ubuntu
 
 详细的安装过程可参考网络上的文档。下面是需注意的要点：
@@ -73,17 +67,23 @@ Ubuntu系统的分区很多，快捷安装只需配置: `/home分区和挂载点
 
 * 7 更新系统
 
-系统安装后，连接网络，更新系统软件
-
-安装配置好的Ubuntu18.04系统桌面
-
-![bionic-ok](./img/bionic-ok.jpg)
-
+系统安装后，连接网络更新最新的系统软件修订
 
 ```bash 
 $sudo apt update
 $sudo apt upgrade
 ```
+
+安装配置好的Ubuntu18.04系统桌面
+
+![bionic-ok](./img/bionic-ok.jpg)
+
+>
+>可选用基于Ubuntu的发行版：
+>
+>* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
+>* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
+
 
 ## 四、建立开发环境
 
@@ -195,10 +195,6 @@ $sudo apt install gnuplot
 * How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
 
 * Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
-
-* Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
-
-* The Linux Mint Installation Guide https://linuxmint-installation-guide.readthedocs.io/en/latest/index.html
 
 * 优麒麟（UbuntuKylin）18.04 简易安装手册
 http://www.ubuntukylin.com/public/pdf/UK1804install.pdf
