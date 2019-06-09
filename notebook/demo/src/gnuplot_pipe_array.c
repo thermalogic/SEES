@@ -54,12 +54,12 @@ int main (void)
      
      // linear fit
      fprintf(pipe,"\n"); // start a new draw item
-     fprintf(pipe, "%lf %lf\n", 0.0, c0+c1*0,0);
+     fprintf(pipe, "%lf %lf\n", 0.0, c0+c1*0.0);
      for (int i = 0; i < n; i++)
      {
         fprintf(pipe, "%lf %lf\n", x[i], c0+c1*x[i]);
      }
-     fprintf(pipe, "%lf %lf\n", 20.0,c0+c1*20,0);
+     fprintf(pipe, "%lf %lf\n", 20.0,c0+c1*20.0);
      fprintf(pipe, "e");
       
      fflush(pipe);
