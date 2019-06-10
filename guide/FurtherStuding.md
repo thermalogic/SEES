@@ -7,19 +7,15 @@
 
 * Tornado http://www.tornadoweb.org/en/stable/
 
-     * PyThermometer https://github.com/thermalogic/PyThermometer
-
 ## GUI Development
 
 * PyQt: https://riverbankcomputing.com/software/pyqt/intro
-
-     * PyThermometer(PyQt4) https://github.com/thermalogic/PyThermometer
 
 ## Data Science
 
 * Wes McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython(2nd Edition) O'Reilly Media, 2017 https://github.com/wesm/pydata-book
 
-* Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course) The University of Utah
+* Alexander Lex,Braxton Osting. [Introduction to Data Science](https://github.com/datascience-course), The University of Utah
 
 * Pandas http://pandas.pydata.org/
 
@@ -60,4 +56,4 @@ Computing Center, Lawrence Livermore National Laboratory,USA
 
 * Arduino https://www.arduino.cc/
 
-     * PyThermometer https://github.com/thermalogic/PyThermometer
+   * PyThermometer https://github.com/thermalogic/PyThermometer
