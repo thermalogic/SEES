@@ -182,9 +182,9 @@ $sudo apt install gnuplot
 
  为Ubuntu补充中文支持的基本环节,如下：
 
-1. 安装中文语言支持包
+1. 安装中文语言支持包：`Language Support`-->`Install`
 
-2. 安装中文输入法，建议使用**搜狗拼音输入法**
+2. 安装中文输入法，建议使用**搜狗拼音输入法**:  https://pinyin.sogou.com/linux/
 
 3. 配置搜狗拼音输入法为系统中文输入方法
 
