@@ -103,7 +103,19 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 ![download](./guide/img/downloadhome.jpg)
 
->We **recommend** that you [use git to clone and update the home repository](./guide/BuildingSoftwareEnvironment.md#e2-clone--update-the-pyseehome)
+>We **recommend** that you use git to clone and update the home repository]
+>
+>**Cloning the `S2019` branch of repository `shallowly` for saving bandwidth**
+>
+>```bash
+>git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
+>```
+>**Updating to The Latest Version**
+>
+>```bash
+>git pull
+>```
+>
 
 ### Open the Notebooks of PySEE/home in Jupyter Notebook
 
