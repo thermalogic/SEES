@@ -4,7 +4,7 @@
    
 ## 一、 准备安装Ubuntu系统需要的空闲硬盘空间
 
-在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些，如：100G
+在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些,以便作为正式的开发环境，如：100G。(基本安装10G也可以)
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
@@ -14,11 +14,15 @@
 
   Torrent下载： http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso.torrent
 
-* 从 http://rufus.akeo.ie/  下载rufus，制作系统安装用U盘，然后，用U盘安装Ubuntu
+* 从 http://rufus.akeo.ie/  下载rufus，用rufus制作可启动的Ubuntu系统安装U盘
+
+* 电脑启动时，通过BIOS/UFEI/(F12,F11 or F2 depending on your computer)，设置电脑从U盘启动，然后，安装Ubuntu
 
 ## 三、 安装Ubuntu
 
-详细的安装过程可参考网络上的文档。下面是需注意的要点：
+安装过程中的主要步骤如下：
+
+### 3.1 基本项目
 
 * 1 Welcome：选择语言 **English**
 
@@ -26,57 +30,74 @@
 
 * 3 updates and other software: 选择 **Install third-party software**
 
-![bionic-updates](./img/bionic-updates.jpg)
+  ![bionic-updates](./img/bionic-updates.jpg)
 
+### 3.2 Installation 
 
-* 4 Installation type: 选择 `something else` (安装类型一定选择为 **`something else`**)
+* 4 Installation type（安装类型）
 
-![bionic-type](./img/bionic-type.jpg)
+  选择 `something else` (安装类型一定选择为 **`something else`**)
 
-然后，在 **`空闲空间`** 中定义Ubuntu系统的分区（partition)和挂载点(Mount point)。
+   ![bionic-type](./img/bionic-type.jpg)
 
-**注意**：一定要确定使用的是Windows的`空闲空间`，不要破坏Windows系统及其用户使用的空间.
+* 5 Create Partition（建立分区） 
 
-Ubuntu系统的分区很多，快捷安装只需配置: `/home分区和挂载点` 和 `/系统分区和挂载点` 即可，其他由系统自动配置。
+   在 **`空闲空间（freespace)`** 中定义Ubuntu系统的分区（partition)和挂载点(Mount point)。
 
- **/home** home分区和挂载点 ：从**空闲空间**中划出一个分区作为 /home 挂载点。
+    * **注意**：一定要确定使用的是Windows的`空闲空间（freespace)`，不要破坏Windows系统及其用户使用的空间.
+
+   Ubuntu系统的分区很多，快捷安装只需配置:
+   
+   *  `/home 分区和挂载点` 
+   
+   *  `/ 系统分区和挂载点`
+   
+   其他由系统自动配置。
+
+  **`/home` 分区和挂载点**：从**空闲空间**中划出一个分区作为 `/home` 挂载点。
   
- * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
+     * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
 
-![bionic-part-all](./img/bionic-part-home.jpg)
+     ![bionic-part-all](./img/bionic-part-home.jpg)
 
- **/** 系统挂载点和分区：将余下空闲空间都划给“/” 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
+  **`/` 系统分区和挂载点**：将余下空闲空间都划给`“/”` 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
 
-![bionic-part-all](./img/bionic-part-all.jpg)
+   &emsp; &emsp;![bionic-part-all](./img/bionic-part-all.jpg)
 
-定义好`/home分区和挂载点` 和 `/系统分区和挂载点` 后，可见分区情况：
+  定义好`/home 分区和挂载点` 和 `/ 系统分区和挂载点` 后，可见分区情况：
 
-![bionic-part-all](./img/bionic-parts.jpg)
+   &emsp; &emsp;![bionic-part-all](./img/bionic-parts.jpg)
 
-点 `Install Now` 前，务必再次确认使用的是 `空闲空间（freespace)`及分区的配置信息正确，不要破坏Windows系统及其用户使用的空间。
+* 6  Installing 
 
-确认分区无误后，点`Install Now`,进入以下步骤：
+  点 `Install Now` 前，务必再次确认使用的是 `空闲空间（freespace)`及分区的配置信息正确，不要破坏Windows系统及其用户使用的空间。
 
-* 5 Where are you:选择时区为 **shanghai**
+  确认分区无误后，点`Install Now`,进入以下步骤：
 
-* 6 Who are you: 给出用户名和密码，选择自动登录
+### 3.3 用户信息配置 
+
+* 7 Where are you: 选择时区为 **shanghai**
+
+* 8  Who are you: 给出用户名和密码，选择自动登录（为方便使用，名字和密码宜简短）
 
    * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`** 
 
-然后，安装程序将从U盘安装Ubuntu到指定的硬盘分区中。安装过程需要些时间，耐心等待即可。
+  安装程序将从U盘安装Ubuntu到指定的硬盘分区中。安装过程需要些时间，耐心等待即可。
 
-* 7 更新系统
+### 3.4 更新系统
 
-系统安装后，连接网络更新最新的系统软件修订
+系统安装后，移除U盘，重新启动系统，配置电脑连接Internet, 然后，打开终端（Ctrl+Alt+T), 执行以下命令，更新软件源和系统软件
 
 ```bash 
 $sudo apt update
 $sudo apt upgrade
 ```
 
-安装配置好的Ubuntu18.04系统桌面
+进一步，可对系统桌面做个性化配置，下图是配置后的Ubuntu18.04系统桌面
 
-![bionic-ok](./img/bionic-ok.jpg)
+&emsp;&emsp;![bionic-ok](./img/bionic-ok.jpg)
+
+以上是安装过程的要点步骤，详细的安装过程搜索网络。
 
 >
 >可选用基于Ubuntu的发行版：
@@ -85,15 +106,15 @@ $sudo apt upgrade
 >* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高。英文系统系统安装后，需要补充安装中文包及其输入法(如：搜狗输入法)。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
 
 
-## 四、建立开发环境
+## 四、开发环境
 
-### 1 Version Control: Git
+### 4.1 Version Control: Git
 
 ```bash 
 $sudo apt install git
 ```
 
-### 2 C/C++ With GCC
+### 4.2 C/C++ With GCC
 
 Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
@@ -101,47 +122,53 @@ Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
 $sudo apt-get install build-essential
 
-### 3 Python3 and Tools
+### 4.3 Python3 and Tools
 
 Ubuntu 18.04 LTS内置Python3. 但不完整，需补充: pip3、idle3。
 
 ```bash
 $sudo apt install python3-pip
-$sudo -H python3 -m  pip install  --upgrade pip 
+$sudo -H python3 -m  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
 $sudo apt install idle3
 ```
-Python3相关命令都加3，如：
+目前，Ubuntu系统中同时有Python2和Python3两个版本的解释器。Python3版本的相关命令都加3，如：
 
 ```bash
 $python3 
 $idle3
 $pip3
 ```
-### 4 Analytics & Scientific Computing Python Packages
+### 4.4 Analytics & Scientific Computing Python Packages
+
+Installing from Ubuntu Software Sources
 
 ```bash
 $sudo apt install python3-numpy python3-scipy python3-matplotlib
 ```
-### 5 Installing Jupyter
+### 4.5 Installing Python Packages from Pypi
+
+#### 4.5.1 set `tsinghua` as the mirror site of Pypi
 
 ```bash
-$sudo -H python3 -m pip install jupyter -i  https://pypi.tuna.tsinghua.edu.cn/simple
+$sudo -H python3 -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-### 6 Installing IAPWS-IF97
+#### 4.5.2 Installing Packages
 
-#### SEUIF97
+```bash
+$sudo -H python3 -m pip install jupyter 
+```
 
 ```bash
 $sudo -H python3 -m pip install seuif97  
 ```
-#### IAPWS
 
 ```bash
 $sudo -H  python3 -m pip install iapws 
 ```
-### 7 Visual Studio Code
 
-#### 1 Installing Visual Studio Code
+### 4.6 Visual Studio Code
+
+#### 4.6.1 Installing Visual Studio Code
 
 From  https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian/Ubuntu,the install in the terminal
 
@@ -149,7 +176,7 @@ From  https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for D
 $sudo dpkg -i [vscode filename].deb
 ```
 
-#### 2 Installing  Extensions
+#### 4.6.2 Installing  Extensions
 
 Install Python Extension in  Visual Studio Code
 
@@ -159,26 +186,26 @@ Install the Microsoft C/C++ extension
 
 * https://code.visualstudio.com/docs/languages/cpp
 
-#### 3 Set Python3 as the default Python Version
+#### 4.6.3 Set Python3 as the default Python Version
 
 ```json
 // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
   "python.pythonPath": "python3",
 ```
 
-### 8 Installing GSL
+### 4.7 Installing GSL
 
 ```bash
 $sudo apt install gsl-bin
 $sudo apt install libgsl-dev
 ```
-### 9 Installing Gnuplot
+### 4.8 Installing Gnuplot
 
 ```bash
 $sudo apt install gnuplot
 ```
 
-## 六、英文版Ubuntu补充中文支持
+## 五、英文版Ubuntu补充中文支持
 
  为Ubuntu补充中文支持的基本环节,如下：
 
@@ -196,5 +223,4 @@ $sudo apt install gnuplot
 
 * Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
-* 优麒麟（UbuntuKylin）18.04 简易安装手册
-http://www.ubuntukylin.com/public/pdf/UK1804install.pdf
+* 优麒麟18.04(UbuntuKylin)简易安装手册 http://www.ubuntukylin.com/public/pdf/UK1804install.pdf
