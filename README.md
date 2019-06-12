@@ -103,9 +103,9 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 ![download](./guide/img/downloadhome.jpg)
 
->We **recommend** that you use git to clone and update the home repository]
+>We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
->**Cloning the `S2019` branch of repository `shallowly` for saving bandwidth**
+>**Cloning the S2019 branch of repository shallowly for saving bandwidth**
 >
 >```bash
 >git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
