@@ -124,12 +124,6 @@ Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 $sudo apt-get install build-essential
 ```
 
-#### 安装Googletest
-
-```bash 
-$sudo apt install libgtest-dev
-```
-
 ### 4.3 Python3 and Tools
 
 Ubuntu 18.04 LTS内置Python3. 但不完整，需补充: pip3、idle3。
