@@ -114,11 +114,21 @@ $sudo apt install git
 
 ### 4.2 C/C++ With GCC
 
+#### GCC编译器
+
 Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
-#### 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
+部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
 
+```bash 
 $sudo apt-get install build-essential
+```
+
+#### 安装Googletest
+
+```bash 
+$sudo apt install libgtest-dev
+```
 
 ### 4.3 Python3 and Tools
 
