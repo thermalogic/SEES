@@ -123,7 +123,9 @@ Markdown的常用标记符号不超过十个，相对于其他复杂的标记语
 
 如果是一个**代码块**，用两组3个连续的反引号```, 把代码包裹起来形成 **“代码框”**。 
 
-如果需要句法高亮，3个连续的反引号后加语言名称，如：```python
+如果需要句法高亮，3个连续的反引号后加语言名称，
+
+如：```python
 
 
         ```python
@@ -151,6 +153,51 @@ while (itersLeft != 0):
 
 print(str(x) + '*' + str(x) + ' = ' + str(ans)) 
 ```
+
+如：```cpp
+
+        ```cpp
+        #include <iostream>
+        using namespace std;
+
+        int main()
+        {
+            int x = 12;
+            if( x % 2==0 )
+            {
+                cout << "Even" <<endl; 
+                cout <<x<<endl; 
+                cout <<x%2<<endl; 
+            }
+        else
+        { 
+            cout << "Odd" << endl;
+        };
+        return 0;
+        }  
+        ```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 12;
+    if( x % 2==0 )
+    {
+        cout << "Even" <<endl; 
+        cout <<x<<endl; 
+        cout <<x%2<<endl; 
+    }
+   else
+   { 
+       cout << "Odd" << endl;
+   };
+   return 0;
+}  
+```
+
 
 ### 1.8 分割线
 
