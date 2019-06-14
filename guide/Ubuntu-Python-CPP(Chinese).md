@@ -240,6 +240,27 @@ sudo dpkg -i sogoupinyin_filename.deb
 
 安装后logout当前用户，再login，输入法就安装好了。Ctrl+Blank Space 可以切换中/英文输入法
 
+## 六、修改grub启动顺序
+
+安装了双系统的计算机启动时有启动菜单，供用户选择启动那个系统。默认是菜单中的第一项目：Ubuntu系统。 
+
+如果需默认启动Windows，可以修改grub启动配置文件。
+
+用下面的命令打开grub启动配置文件
+
+```bash
+$sudo gedit  /etc/default/grub
+```
+GRUB启动项是按照启动菜单依次使用数字进行索引了，起始数字为0。
+文件中的`GRUB_DEFAULT=0`就是设置的默认启动项。
+
+如果Windows启动项在第3项，就需要修改为2（因为第一项是从0开始的）。修改完成，保存退出。
+
+然后，执行如下命令，重新生成GRUB启动配置项
+```bash
+$sudo update-grub
+```
+
 ## Reference
 
 * How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
