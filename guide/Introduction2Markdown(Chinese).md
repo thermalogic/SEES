@@ -169,11 +169,11 @@ print(str(x) + '*' + str(x) + ' = ' + str(ans))
                 cout <<x<<endl; 
                 cout <<x%2<<endl; 
             }
-        else
-        { 
+           else
+           { 
             cout << "Odd" << endl;
-        };
-        return 0;
+           };
+           return 0;
         }  
         ```
 
