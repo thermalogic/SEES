@@ -90,6 +90,14 @@
 $sudo apt update
 $sudo apt upgrade
 ```
+### 3.4 修正Ubuntu和Windows时间的不一致
+
+Windows和Linux对硬件标准时间的设置不同，Windows默认为当地时间，而Linux默认为UTC时间，会差8小时.
+
+执行以下命令，设定Ubuntu使用当地时间
+```bash
+$sudo timedatectl set-local-rtc 1 
+```
 
 进一步，可对系统桌面做个性化配置，下图是配置后的Ubuntu18.04系统桌面
 
@@ -263,21 +271,7 @@ $sudo update-grub
 
 ## 七、修正一些异常
 
-### 7.1  Time resets to UTC after boot
-
-用下面的命令打开rcS文件
-
-```bash
-$sudo gedit  /etc/default/rcS
-```
-修改：
-
-```
-# assume that the BIOS clock is set to UTC time (recommended)
-UTC=no
-```
-
-### 7.2 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
+### 7.1 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
 
 Boot into Ubuntu. Start a terminal and issue these commands:
 
