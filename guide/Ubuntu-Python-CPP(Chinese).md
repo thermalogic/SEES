@@ -279,6 +279,7 @@ Boot into Ubuntu. Start a terminal and issue these commands:
 sudo update-grub
 sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 ```
+
 * The first command could fix the problem. 
 
 * The second command is used to manually add Windows partition into the GRUB boot menu.
