@@ -90,6 +90,11 @@
 $sudo apt update
 $sudo apt upgrade
 ```
+
+Ubuntu的默认软件源可能速度较慢，可以通过 `Software & Updates` 改为速度快的镜像源。如使用华为云镜像：
+
+![UbuntuMirror](./img/UbuntuMirror.png)
+
 ### 3.4 修正Ubuntu和Windows时间的不一致
 
 Windows和Linux对硬件标准时间的设置不同，Windows默认为当地时间，而Linux默认为UTC时间，会差8小时.
