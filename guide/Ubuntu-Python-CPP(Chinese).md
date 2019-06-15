@@ -217,7 +217,7 @@ $sudo apt install gnuplot
 
 ## 五、英文版Ubuntu补充中文支持
 
- 为Ubuntu补充中文支持的基本环节如下：
+为Ubuntu补充中文支持的基本环节如下：
 
 1. 安装中文语言支持包：`Language Support`-->`Install`
 
@@ -237,16 +237,42 @@ $sudo dpkg -i sogoupinyin_filename.deb
 
 安装时，如果提示缺少依赖，执行
 ```bash
-sudo apt -f install
+$sudo apt -f install
 ```
 
 然后，再次
 
 ```bash
-sudo dpkg -i sogoupinyin_filename.deb 
+$sudo dpkg -i sogoupinyin_filename.deb 
 ```
 
 安装后logout当前用户，再login，输入法就安装好了。Ctrl+Blank Space 可以切换中/英文输入法
+
+## 英文版补充Office软件
+
+Ubuntu中内置有Libreoffice,但其和Microsoft Office的兼容性一般。
+
+如果需要处理Microsoft Office文档，可以安装WPS Office For Linux(现在是和Microsoft Office兼容性最好的Linux办公软件）
+
+从 https://www.wps.cn/product/wpslinux/ 下载最新版的WPS，打开终端安装
+
+```bash
+$sudo dpkg -i wps-office_*_amd64.deb 
+```
+
+安装时，如果提示缺少依赖，执行
+
+```bash
+$sudo apt -f install
+```
+
+英文版的Ubuntu中运行WPS Office For Linux时，会提示缺失一些字体。解决方案可网上查询
+
+安装WPS Office For Linux后，可以删除libreoffice。终端执行命令
+
+···bash
+$sudo apt-get remove --purge libreoffice*
+```
 
 ## 六、修改grub启动顺序
 
@@ -276,8 +302,8 @@ $sudo update-grub
 Boot into Ubuntu. Start a terminal and issue these commands:
 
 ```bash
-sudo update-grub
-sudo grub-install /dev/[Windows Boot partition e.g., sda1]
+$sudo update-grub
+$sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 ```
 
 * The first command could fix the problem. 
