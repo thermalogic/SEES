@@ -261,6 +261,34 @@ GRUB启动项是按照启动菜单依次使用数字进行索引了，起始数�
 $sudo update-grub
 ```
 
+## 七、修正一些异常
+
+### 7.1  Time resets to UTC after boot
+
+用下面的命令打开rcS文件
+
+```bash
+$sudo gedit  /etc/default/rcS
+```
+修改：
+
+```
+# assume that the BIOS clock is set to UTC time (recommended)
+UTC=no
+```
+
+### 7.2 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
+
+Boot into Ubuntu. Start a terminal and issue these commands:
+
+```bash
+sudo update-grub
+sudo grub-install /dev/[Windows Boot partition e.g., sda1]
+```
+* The first command could fix the problem. 
+
+* The second command is used to manually add Windows partition into the GRUB boot menu.
+
 ## Reference
 
 * How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
