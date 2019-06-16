@@ -91,9 +91,19 @@ $sudo apt update
 $sudo apt upgrade
 ```
 
-Ubuntu的默认软件源可能速度较慢，可以通过 `Software & Updates` 改为速度快的镜像源。如使用华为云镜像：
+Ubuntu的默认软件源可能速度较慢，需要改为更快的镜像软件源：
+
+点击桌面任务栏的
+
+![Ubuntutask](./img/ubuntu-task.png)
+
+ 打开 `Software & Updates`，在 `Download from` 项目的镜像源列表中,选择速度快的镜像源，如华为云镜像。
+ 
+ 点击`关闭`后，系统自动更新
+
 
 ![UbuntuMirror](./img/UbuntuMirror.png)
+
 
 ### 3.4 修正Ubuntu和Windows时间的不一致
 
