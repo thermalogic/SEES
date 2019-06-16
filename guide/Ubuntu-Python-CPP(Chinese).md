@@ -82,7 +82,7 @@
 
   安装程序将从U盘安装Ubuntu到指定的硬盘分区中。安装过程需要些时间，耐心等待即可。
 
-### 3.3 更新系统
+### 3.3 更新系统和镜像软件源
 
 系统安装后，移除U盘，重新启动系统，配置电脑连接Internet, 然后，打开终端（Ctrl+Alt+T), 执行以下命令，更新软件源和系统软件
 
@@ -91,18 +91,22 @@ $sudo apt update
 $sudo apt upgrade
 ```
 
-Ubuntu的默认软件源可能速度较慢，需要改为更快的镜像软件源：
+Ubuntu的默认软件源可能速度较慢，需要改为更快的 **`镜像软件源`**：
 
-点击桌面任务栏的:
+* 点击桌面任务栏中的:
 
-![Ubuntutask](./img/ubuntu-task.png)
+  ![Ubuntutask](./img/ubuntu-task.png)`Show Application`
 
- 打开 `Software & Updates`，在 `Download from` 项目的镜像源列表中,选择速度快的镜像源，如华为云镜像。
+* 点击
+
+  ![ubuntu-src](./img/ubuntu-src.jpg)`Software & Updates`
  
- 点击`Close`后，系统自动更新。
+   在其`Download from` 镜像源列表中,选择速度快的镜像源，如华为云镜像。
+ 
+   点击`Close`后，系统自动更新。
 
 
-![UbuntuMirror](./img/UbuntuMirror.png)
+  ![UbuntuMirror](./img/UbuntuMirror.png)
 
 
 ### 3.4 修正Ubuntu和Windows时间的不一致
