@@ -30,6 +30,7 @@ Firstly，You **MUST** [setup the working directory for the course](./AdvWorking
         - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
             - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
             - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
+            - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
     - [E: Using Git](#e-using-git)
         - [E.1 Install Git for Windows](#e1-install-git-for-windows)
         - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
@@ -411,12 +412,13 @@ It's simple to run Python source code file. `Right-click` in the editor and sele
 
    ![vscode-gcc](./img/vscode-gcc.jpg)
 
+#### D.3.3 Disable Precompiled header caching
 
-* **3** Disable Precompiled header caching
+The defualt Intelli Sense Cache Size is 5120 MB. 
 
-   set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
+set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
 
-    ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
+ ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
 
 ## E: Using Git
 
