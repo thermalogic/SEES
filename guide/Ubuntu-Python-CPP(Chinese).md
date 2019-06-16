@@ -1,7 +1,7 @@
 # Ubuntu系统安装和Python,C/C++开发环境的建立
 
 在已安装Windows系统的电脑上，安装Ubuntu系统的过程简介
-   
+
 ## 一、 准备安装Ubuntu系统需要的空闲硬盘空间
 
 在Windows环境下，从`空余`的硬盘空间中划出一个`空的独立分区`，给Ubuntu使用。建议空间稍大些,以便作为正式的开发环境，如：100G。(基本安装10G也可以)
@@ -125,9 +125,7 @@ $sudo timedatectl set-local-rtc 1
 $sudo apt install git
 ```
 
-### 4.2 C/C++ With GCC
-
-#### GCC编译器
+### 4.2 GCC编译器
 
 Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
@@ -253,7 +251,7 @@ $sudo dpkg -i sogoupinyin_filename.deb
 
 安装后logout当前用户，再login，输入法就安装好了。Ctrl+Blank Space 可以切换中/英文输入法
 
-## 英文版补充Office软件
+## 六、 英文版补充WPS Office软件
 
 Ubuntu中内置有Libreoffice,但其和Microsoft Office的兼容性一般。
 
@@ -275,11 +273,11 @@ $sudo apt -f install
 
 安装WPS Office For Linux后，可以删除libreoffice。终端执行命令
 
-···bash
+```bash
 $sudo apt-get remove --purge libreoffice*
 ```
 
-## 六、修改grub启动顺序
+## 七、修改grub启动顺序
 
 安装了双系统的计算机启动时有启动菜单，供用户选择启动那个系统。默认是菜单中的第一个项目：Ubuntu系统。 
 
@@ -300,7 +298,7 @@ GRUB启动项是按照启动菜单依次使用数字进行索引了，起始数�
 $sudo update-grub
 ```
 
-## 七、修正一些异常
+## 八、修正一些异常
 
 ### 7.1 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
 
@@ -315,7 +313,7 @@ $sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 
 * The second command is used to manually add Windows partition into the GRUB boot menu.
 
-## Reference
+## 参考
 
 * How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
 
