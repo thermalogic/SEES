@@ -379,6 +379,8 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
  
 Download  Visual Studio Code https://code.visualstudio.com/, then install
 
+ ![vscode](./img/vscode.jpg)
+
 ### D.2 Install Extension: Python,C/C++
 
 * Python https://code.visualstudio.com/docs/languages/python
