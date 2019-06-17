@@ -90,7 +90,7 @@ Every git user should first introduce himself to git, by running these two comma
 在本地Git仓库所在目录下打开的终端中执行：
 
 ```bash
->git remote add origin https://github.com/your-username/your-reponame.git     
+>git remote add origin https://github.com/your-username/your-reponame.git   
 ```
 ### 3.3 `首次` 推送本地仓库到远程github仓库 
 
@@ -137,47 +137,51 @@ $git config --global credential.helper 'store --file ~/.mygit-credentials'
 
 ## 6 创建分支
 
+设创建分支：devBranch1
+
 ### 6.1 本地新建分支 
 
 ```bash
->git branch newBranchName 
+>git branch devBranch1 
 ```
 
 ### 6.2 切换到新分支
 
 ```bash
->git checkout newBranchName
+>git checkout devBranch1
 ```
 
 ### 6.3 新分支发布到远程Github上
 
 ```bash
->git push origin newBranchName 
+>git push origin devBranch1 
 ```
 
 ## 7 删除分支 
 
+设删除分支：betaBranch1
+
 ### 7.1 删除本地分支 
 
 ```bash
->git branch -d delBranchName 
+>git branch -d betaBranch1 
 ```
 
 ### 7.2 删除远程Github仓库中的分支
 
 ```bash
->git push origin :delBranchName
+git push origin –delete betaBranch1 
+```
+or 
+
+```bash
+>git push origin :betaBranch1
 ```
 
 注意：分支名前的冒号 `:` 代表删除
 
-or
 
-```bash
-git push origin –delete delBranchName 
-```
-
-注意：删除远程分支后，如果有对应的本地分支，本地分支并不会同步自动删除！。如果需要删除本地分支，还需要执行本地删除。
+注意：删除远程分支后，如果有对应的本地分支，本地分支并不会同步自动删除！如果需要删除本地分支，还需要执行本地删除。
 
 ## 8. 改变Git托管网站
 
