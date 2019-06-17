@@ -183,7 +183,9 @@ git push origin –delete delBranchName
 
 ### 8.1. 在新托管网站建立一个和本地项目目录`同名`的空仓库
 
-新建的仓库必须是 **空** 仓库，不要有README.md等任何内容
+如使用码云(gitee.com)作为新托管网站，在其中建立和本地项目目录`同名`的 **空** 仓库，不要有README.md等任何内容
+
+https://gitee.com/your-username/your-reponame
 
 ### 8.2. 同步本地仓库到新托管网站的远程仓库
 
@@ -196,7 +198,7 @@ git remote rm origin
 
 如
 ```
-git remote add origin https://github.com/ThermalogicArchive/Excel4Engineering.git
+git remote add origin https://gitee.com/your-username/your-reponame.git
 ```
 
 首次提交本地网站到远程源
