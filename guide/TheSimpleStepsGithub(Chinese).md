@@ -198,19 +198,19 @@ https://gitee.com/your-username/your-reponame
 
 ### 8.2. 同步本地仓库到新托管网站的远程仓库
 
-删除本地仓库的原远程仓库源
+删除本地仓库的原远程仓库
 ```bash
 git remote rm origin
 ```
 
-将新托管网站的仓库加为本地Git仓库远程源
+将新托管网站的仓库加为本地Git仓库远程
 
 如
 ```
 git remote add origin https://gitee.com/your-username/your-reponame.git
 ```
 
-首次提交本地网站到远程源
+首次提交本地网站到远程
 
 ```bash
 git push --set-upstream origin master
