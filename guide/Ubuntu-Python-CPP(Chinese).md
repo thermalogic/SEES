@@ -314,7 +314,7 @@ $sudo update-grub
 
 ## 八、修正一些异常
 
-### 7.1 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
+### 8.1 Windows 10 does not show up in the GRUB Boot menu after installing Ubuntu
 
 Boot into Ubuntu. Start a terminal and issue these commands:
 
