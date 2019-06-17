@@ -118,11 +118,11 @@ Windows和Linux对硬件标准时间的设置不同，Windows默认为当地时�
 $sudo timedatectl set-local-rtc 1 
 ```
 
-进一步，可对系统桌面做个性化配置，下图是配置后的Ubuntu18.04系统桌面
-
-&emsp;&emsp;![bionic-ok](./img/bionic-ok.jpg)
-
 以上是安装过程的要点步骤，详细的安装过程搜索网络。
+
+进一步安装工作需要的软件，并对系统桌面做个性化配置。
+
+&emsp;&emsp;![Ubuntu18042](./img/Ubuntu18042.png)
 
 >
 >可选用基于Ubuntu的发行版：
