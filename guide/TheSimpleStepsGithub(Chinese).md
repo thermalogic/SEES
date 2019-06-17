@@ -92,6 +92,9 @@ Every git user should first introduce himself to git, by running these two comma
 ```bash
 >git remote add origin https://github.com/your-username/your-reponame.git   
 ```
+
+> origin: 用户在Github建立远程仓库时，git为用户默认创建的指向这个远程仓库的标签（名字）
+
 ### 3.3 `首次` 推送本地仓库到远程github仓库 
 
 在本地Git仓库所在目录下打开的终端中执行：
@@ -99,6 +102,8 @@ Every git user should first introduce himself to git, by running these two comma
 ```bash
 >git push -u origin master
 ```
+
+> master: git仓库中默认创建的第一个branch
 
 ## 4 本地仓库工作内容变化更新、同步到远程github
 
