@@ -333,11 +333,11 @@
         
       * [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit10-1-Ubuntu.ipynb)
+## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Ubuntu.ipynb)
 
 * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit11-1-Git.ipynb)
+## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitB-1-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
 
