@@ -81,9 +81,9 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises: 15
-  * [**Practices: 5 Projects(65 points); 1 Bonus(+5 points); 1 Self Exercise(0 points)**](https://github.com/PySEE/Practices/)
-  * Final Exam: 20
+  * In-class Exercises: 20
+  * [**Practices: 4 Projects(50 points)](https://github.com/PySEE/Practices/)
+  * Final Exam: 30
 
 ## Schedule and Structure
 
@@ -105,10 +105,10 @@ You can manually download the `home.zip` file of the `PySEE/home` to your comput
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
->**Cloning the S2019 branch of repository shallowly for saving bandwidth**
+>**Cloning the S2020 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
+>git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
 >```
 >**Updating to The Latest Version**
 >
