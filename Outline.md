@@ -149,6 +149,14 @@
 
 ## [LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-6-LaTeX-Math.ipynb)
 
+## [Live Updating and Interactive Plots](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-7-Live_Interact_Plot.ipynb)
+
+* matplotlib.pyplot.ion(), matplotlib.animation
+
+* `interactive plots`： from IPython import display, from ipywidgets import *, %matplotlib notebook
+   
+* psutil
+
 ## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
 * Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
