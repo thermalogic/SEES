@@ -3,9 +3,9 @@
 
 Jupyter Notebook for Foundamentals and Practice of Software Engineering
 
-* visit the Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/) 
+* visit the Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
       
- * run the Notebooks in a browser by pressing the Binder button： [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2019) 
+ * run the Notebooks in a browser by pressing the Binder button： [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020) 
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
 
@@ -82,43 +82,43 @@ After successfully completing the course, We wish you have a broad spectrum of o
 The Course graded on an 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 20
-  * [**Practices: 4 Projects(50 points)](https://github.com/PySEE/Practices/)
+  * [Practices:50](https://github.com/PySEE/Practices/)
   * Final Exam: 30
 
 ## Schedule and Structure
 
-The course schedule and structure are listed in the [**Outline**](./Outline.md)
+* The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
 ## Readings and resources 
 
-Please visit [References](./References.md) and [Guide](./guide) for details
+* Please visit [References](./References.md) and [Guide](./guide) for details
 
 ## Using the Notebooks of PySEE/home 
 
-Please `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
+`download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
 
-### Download the *PySEE/home* Repository  
+* Download the *PySEE/home* Repository  
 
-You can manually download the `home.zip` file of the `PySEE/home` to your computer
+  You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
-![download](./guide/img/downloadhome.jpg)
+  ![download](./guide/img/downloadhome.jpg)
 
->We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
->
->**Cloning the S2020 branch of repository shallowly for saving bandwidth**
->
->```bash
->git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
->```
->**Updating to The Latest Version**
->
->```bash
->git pull
->```
->
+   >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
+   >
+   >**Cloning the S2020 branch of repository shallowly for saving bandwidth**
+   >
+   >```bash
+   >git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
+   >```
+   >**Updating to The Latest Version**
+   >
+   >```bash
+   >git pull
+   >```
+   >
 
-### Open the Notebooks of PySEE/home in Jupyter Notebook
+* Open the Notebooks of PySEE/home in Jupyter Notebook
 
-Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
+   Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
 
