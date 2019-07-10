@@ -1,6 +1,6 @@
 # The Guide of Building Software Environment
 
-Firstly，You **MUST** [setup the working directory for the course](./AdvWorkingDir.md)
+Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)

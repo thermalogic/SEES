@@ -14,9 +14,9 @@
 
 * Introduction to Data Science.The University of Utah (https://github.com/datascience-course)
 
-* OpenFOAM: https://github.com/OpenFOAM
-
 * University of Bristol High Performance Computing Group https://github.com/UoB-HPC
+
+* OpenFOAM: https://github.com/OpenFOAM
 
 * OpenMDAO:  https://github.com/OpenMDAO
 

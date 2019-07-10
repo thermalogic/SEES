@@ -35,12 +35,6 @@
 
        * [Introduction to Computational Thinking and Data Science fall 2016](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
 
-   * edX Course
-         
-     * [6.00.1x Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python0)
-
-     * [6.00.2x Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-7)
-
 * [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
 
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
@@ -119,15 +113,15 @@
 
 ### Software Engineering
 
-* Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+* FOSSEE. [Software Engineering for Engineers and Scientists](https://github.com/FOSSEE/sees)
 
-* FOSSEE. Software Engineering for Engineers and Scientists. https://github.com/FOSSEE/sees
+* Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
 * Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
 
 * Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
 
-    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
+* 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
 
@@ -139,4 +133,3 @@
 
    * [UML basics: The class diagram](https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/index.html?ca=drs-)
 
-* Visual Studio Code：https://code.visualstudio.com/ 

@@ -7,9 +7,6 @@
     - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
     - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
     - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
-    - [Mar 1, 2019后安装的Jupyter运行异常](#mar-1-2019后安装的jupyter运行异常)
-        - [Mar 1, 2019后安装的Jupyter连接Python3内核时异常](#mar-1-2019后安装的jupyter连接python3内核时异常)
-        - [Mar 10, 2019后安装的Jupyter运行自动打开浏览器时异常](#mar-10-2019后安装的jupyter运行自动打开浏览器时异常)
     - [Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞](#jupyter软件包安装中断后再次安装中使用cache造成安装过程停滞)
     - [命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32](#命令行执行jupyter-notebook后jupyter总是启动到c\windows\system32)
     - [Windows安全防护](#windows安全防护)
@@ -28,7 +25,7 @@
 
 `print(str.format)`,输出时，会根据str给出的格式，将变量先转换为对应数据类型，再按照格式要求输出
 
-如：print('{:>6.3f}'.format(h)，即： float(h) -> print, 如果变量不能转换为对应类型，就会输出运行错误.
+如：`print('{:>6.3f}'.format(h)`，即： `float(h) -> print`, 如果变量不能转换为对应类型，就会输出运行错误.
 
 **修改**
 
@@ -83,34 +80,6 @@ UTF-8是Linux默认编码方式，也是很多编程软件默认的编码方式�
 
       >g++ -o hello hello.cpp -fexec-charset=GBK
 
-## Mar 1, 2019后安装的Jupyter运行异常
-
-2019.3月以来Jupyter软件包，因为Tornado版本升级带来的Bug比较多。
-
-安装后需要对Jupyte依赖的软件包Tornado,Notebook做降低版本处理
-
-### Mar 1, 2019后安装的Jupyter连接Python3内核时异常
-
-https://github.com/jupyter/notebook/issues/2664
-
-Tornado had a release `6.0.0` on **Mar 1 2019**, which triggered this problem recently
-
-The previous tornado release was `5.1.1`, then,downgrading tornado 6 to 5.1.1 
-
-    >python -m pip uninstall tornado
-   
-    >python -m pip install tornado==5.1.1
-
-### Mar 10, 2019后安装的Jupyter运行自动打开浏览器时异常
-
-https://github.com/jupyter/notebook/issues/4467
-
-    >python -m pip uninstall notebook
-   
-    >python -m pip install notebook==5.7.2
-
->github issue: github仓库的问题提出，讨论等
-
 ## Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞
 
 使用 --no-cache-dir 选项安装
@@ -139,9 +108,9 @@ http://windows.microsoft.com/zh-cn/windows/security-essentials-download
 
 03014311 骆应东
 
-我在一开始写单元测试的程序时将其写在一个命名为unittest的程序文件里，这个时候运行程序会出现错误 module ‘unittest’hasn't the attribute of ‘TestCase’提示
+我在一开始写单元测试的程序时将其写在一个命名为`unittest`的程序文件里，这个时候运行程序会出现错误` module ‘unittest’hasn't the attribute of ‘TestCase’`提示
 
-通过请教老师、同学，最后发现是因为文件命名为unittest，然后当运行程序import unittest时系统会‘迷路’，因为文件名和Python的自带包unittest发生混淆，系统无法正确引用Python的unittest包。所以解决办法是：将文件名修改为非unittest即可。
+通过请教老师、同学，最后发现是因为文件命名为`unittest`，然后当运行程序`import unittest`时系统会‘迷路’，因为文件名和Python的自带包unittest发生混淆，系统无法正确引用Python的unittest包。所以解决办法是：将文件名修改为非unittest即可。
 
 ## Windows环境下Jupyter notebook文件转换pdf失败
 

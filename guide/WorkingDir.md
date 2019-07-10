@@ -31,20 +31,17 @@ CourseSE
  │   │ 
  │   |── P4
  │   │ 
- │   |── P5
- │   │ 
- │   |── Bonus
  │
- ├──Softwares
+ ├──softwares
  │
- ├──EBooks
+ ├──ebooks
  │
- ├──Others
+ ├──others
  │
 
 ``` 
 
-## 2 Downloand the repositories of  PySEE
+## 2 Downloand the repositories of PySEE
 
 https://github.com/PySEE
 
