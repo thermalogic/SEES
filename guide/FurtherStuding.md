@@ -1,6 +1,12 @@
 
 # Further Studing 
 
+## Documenting
+
+* Documenting your code https://projects.raspberrypi.org/en/projects/documenting-your-code
+
+* Sphinx  http://www.sphinx-doc.org/en/master/
+
 ## Web Development
 
 * Django https://www.djangoproject.com/
