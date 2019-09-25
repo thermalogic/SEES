@@ -1,14 +1,6 @@
 
 # Foundamentals and Practice of Software Engineering
 
-Jupyter Notebook for Foundamentals and Practice of Software Engineering
-
-* visit the Notebooks at [nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
-      
- * run the Notebooks in a browser by pressing the Binder button： [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020) 
-
-If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
-
 ## Overview
 
 This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
@@ -26,6 +18,8 @@ We will cover:
 * Version control with [Git/Github](https://git-scm.com/) 
 
 We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
+
+If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
 
 **[行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)**
 
