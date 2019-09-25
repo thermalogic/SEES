@@ -1,8 +1,6 @@
 
 # Foundamentals and Practice of Software Engineering
 
-## Overview
-
 This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
