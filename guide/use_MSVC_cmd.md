@@ -6,7 +6,7 @@ You can build C and C++ applications on the command line by using tools that are
 
 ## Download and Install Microsoft C++ (MSVC) toolset
 
-If you've installed Visual Studio and a C++ workload, you have all the command-line tools. For information on how to install C++ and Visual Studio, see [Install C++ support in Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=vs-2019). If you only want the command-line toolset, download the [Build Tools for Visual Studio]https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019). When you run the downloaded executable, it updates and runs the Visual Studio Installer. To install only the tools you need for C++ development, select the C++ build tools workload. You can select optional libraries and toolsets to include under Installation details.
+If you've installed Visual Studio and a C++ workload, you have all the command-line tools. For information on how to install C++ and Visual Studio, see [Install C++ support in Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=vs-2019). If you only want the command-line toolset, download the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019). When you run the downloaded executable, it updates and runs the Visual Studio Installer. To install only the tools you need for C++ development, select the C++ build tools workload. You can select optional libraries and toolsets to include under Installation details.
 
 ## Set the Compiler,Lib and Include path
 
