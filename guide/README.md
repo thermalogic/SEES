@@ -21,6 +21,8 @@
 
 * [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
 
+* [Use the Microsoft C++ toolset from the command line](./use_MSVC_cmd.md)
+
 * [Creating UML diagrams for python code](./UMLPython.md) 
 
 * [Ubuntu，Python and GCC](./Ubuntu-Python-CPP(Chinese).md) 
