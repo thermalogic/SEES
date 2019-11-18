@@ -9,7 +9,7 @@ static double n[11] = {0, 0.11670521452767E+04, -0.72421316703206E+06, -0.170738
                          -0.48232657361591E+04, 0.40511340542057E+06, -0.23855557567849E+00,
                           0.65017534844798E+03};
 
-double pSat(double T)
+PORT pSat(double T)
 // saturation pressure of water
 // pSat in MPa
 // T :temperaturein K
@@ -31,7 +31,7 @@ double pSat(double T)
     return pS;
 }
 
-double TSat(double p)
+PORT TSat(double p)
 // saturation temperature of water
 // TSat in K
 // p :pressure MPa

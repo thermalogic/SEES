@@ -8,23 +8,23 @@ extern "C" {
 #ifdef BUILD_DLL
 
     #ifdef WIN32
-        #define DLLPORT __declspec(dllexport) __stdcall 
+        #define PORT __declspec(dllexport) double __stdcall 
     #else
-        #define DLLPORT 
+        #define PORT double
     #endif    
 
 #else
 
     #ifdef WIN32
-        #define DLLPORT __declspec(dllimport) __stdcall   
+        #define PORT __declspec(dllimport) double __stdcall   
     #else
-        #define DLLPORT 
+        #define PORT double
     #endif    
 
 #endif
 
-DLLPORT  double pSat(double T);
-DLLPORT  double TSat(double p);
+PORT pSat(double T);
+PORT TSat(double p);
         
 #ifdef __cplusplus
 	}
