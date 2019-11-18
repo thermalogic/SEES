@@ -310,7 +310,7 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
 **B.3.2** Open the notebooks in Jupyter Notebook
 
- unzip `home.zip`, double-click  `StartNB.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
+ unzip `home.zip`, double-click  `nb.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
 
 ## C:Install MinGW-W64
 

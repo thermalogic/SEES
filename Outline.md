@@ -295,7 +295,7 @@
  
     * stdio.h: `scanf,printf`
 
-## [Debugging C Programs with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Debugging_C_Programs_with_GDB.ipynb)
+## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Debugging_C_with_GDB.ipynb)
 
 * GNU GDB
 
