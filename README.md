@@ -19,7 +19,7 @@ We emphasize breadth rather than depth on the these topics. The goal is to provi
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
 
-**[行是知之始，知是行之成 - 陶行知](https://book.douban.com/subject/3353668/)**
+**行是知之始，知是行之成 - 陶行知**
 
 [Practices](https://github.com/PySEE/Practices/) are the very important part of the course. You will have to spend a lot of time and effort to do challenging enough practices.
 
