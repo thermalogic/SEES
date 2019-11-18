@@ -1,23 +1,23 @@
 
 // 1 Struct
-struct SimpleStruct
+typedef struct SimpleStruct1
 {
     int nNo;
     float fValue;
-};
+} SimpleStruct;
 
-extern "C"  __declspec(dllexport)  int __stdcall  TestSimpleStruct(int *n,int &m,SimpleStruct struin,SimpleStruct *struout)
+__declspec(dllexport)  int __stdcall  TestSimpleStruct(int *n,int *m,SimpleStruct struin,SimpleStruct *struout)
 {
   struout->fValue= struin.fValue+2;
   struout->nNo=struin.nNo+3;
   
   *n=struin.nNo+20;
-  m=*n+30;
+  *m=*n+30;
   return struout->nNo;
 }
 
 // 2 using the name of one-dimensional array in Python，non byref
-extern "C"  __declspec(dllexport)  void  __stdcall  TestArray1(int nsize,double *narray)
+__declspec(dllexport)  void  __stdcall  TestArray1(int nsize,double *narray)
 {
   for(int i=0; i<nsize; i++)
   {
@@ -26,7 +26,7 @@ extern "C"  __declspec(dllexport)  void  __stdcall  TestArray1(int nsize,double 
 }
 
 // 3 using the name of two-dimensional array in Python，  non byref
-extern "C"  __declspec(dllexport)  void  __stdcall  TestArray21(int ni, int nj,double *ptr)
+__declspec(dllexport)  void  __stdcall  TestArray21(int ni, int nj,double *ptr)
 {
     int i, j;
     for(i=0; i<ni; i++)
@@ -39,7 +39,7 @@ extern "C"  __declspec(dllexport)  void  __stdcall  TestArray21(int ni, int nj,d
 }
 
 // 4 using byref in Python
-extern "C"  __declspec(dllexport)  void  __stdcall  TestArray22(int ni, int nj,double **ptr)
+__declspec(dllexport)  void  __stdcall  TestArray22(int ni, int nj,double **ptr)
 {
     int i, j;
     for(i=0; i<ni; i++)
