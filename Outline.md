@@ -321,7 +321,7 @@
 
   * C/C++ Plotting : pipe
 
-## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Python_ctypes.ipynb)
+## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-ctypes.ipynb)
 
 * ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
 
