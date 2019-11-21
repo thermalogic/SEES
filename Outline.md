@@ -291,7 +291,7 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-O1-C_stdio.ipynb)
+## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-C_stdio.ipynb)
  
     * stdio.h: `scanf,printf`
 
@@ -299,41 +299,43 @@
 
 * GNU GDB
 
-## [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Fortran_gfortran.ipynb)    
+## [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Fortran_gfortran.ipynb)    
 
     * program, subroutine, function, module
 
-## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-GCC_DLL.ipynb)
+## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-GCC_Lib.ipynb)
 
 * **Shared Library** :Linux,Windows
+
+## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-ctypes.ipynb)
+
+* ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
+
+## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-3-DLL_VBA.ipynb)
+
+* Building Windows DLL: `__stdcall`
   
+* Excel VBA(Excel 2013 above, 64bit)
+
+    * https://github.com/thermalogic/Excel4Engineering  
+
 * **Homework**
 
    * [Install GSL & GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
 
    * Install [Googletest for Windows](https://github.com/PySEE/Googletest4Windows)
 
-## [GSL and GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-7-GSL_GNUPLOT.ipynb)
+## [GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Gnuplot.ipynb)
 
-* GSL: statistical functions, linear least-Squares fitting
-   
 * Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
 
   * C/C++ Plotting : pipe
 
-## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-ctypes.ipynb)
+## [GSL](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-2-GSL.ipynb)
 
-* ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
-
-## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-DLL_VBA.ipynb)
-
-* Building Windows DLL: `__stdcall`
-  
-* Excel VBA(Excel 2013 above, 64bit)
-
-    * https://github.com/thermalogic/Excel4Engineering   
-
-## [CPP Unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-5-CPP_Unittest.ipynb)
+*  statistical functions, linear least-Squares fitting
+ 
+## [CPP Unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-3-CPP_Unittest.ipynb)
 
 * Unit Test for C/C++:  Unity, Googletest
 
@@ -345,11 +347,11 @@
         
       * [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Ubuntu.ipynb)
+## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-4-Ubuntu.ipynb)
 
 * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitB-1-Git.ipynb)
+## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-5-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)   
 
