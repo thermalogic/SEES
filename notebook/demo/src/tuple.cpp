@@ -6,12 +6,10 @@ using namespace std;
 
 int main()
 {
-  auto triple = make_tuple(100, 200);
-  int x,y;
-  cout << get<0>(triple)<<" "<<get<1>(triple)<<endl;
-  // Python lets you unpack a tuple into separate variables:
-  // x, y = triple
-  tie(x, y) = triple;
-  cout <<x<<" "<<y<<endl;
+  tuple<int,float,long> tup{1,2.0,3};
+  cout << get<0>(tup)<<" "<<get<1>(tup)<<endl;
+  // C++17, decompose a tuple into individual vars
+  auto [a, b, c] = tup;
+  std::cout << a << ", " << b << ", " << c << "\n";
   return 0;
 }

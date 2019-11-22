@@ -87,11 +87,15 @@
 
    * MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
-   * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
+     * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
 
 * Robert Mecklenburg. [Managing Projects with GNU Make(Third Edition)](https://www.oreilly.com/openbook/make3/book/index.html)
 
 * [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+
+* Ivor Horton,Peter Van Weert: Beginning C++17: From Novice to Professional(Fifth Edition),Ivor Horton and Peter Van Weert,2018 
+
+  * Code: https://github.com/Apress/beg-cplusplus17
 
 ### Ubuntu,GSL,Gnuplot
 

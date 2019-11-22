@@ -1,7 +1,0 @@
-NAME,TYPE,ETA,NODE0,NODE1,NODE2
-Turbine,TURBINE-EX1,0.85,0,2,1
-Condenser,CONDENSER,,2,3,
-CondensatePump,PUMP,1.0,3,4,
-OpenedFeedwaterHeater,FWH-OPEN-DW0,,1,4,5
-FeedwaterPump,PUMP,1.0,5,6,
-Boiler,BOILER,,6,0,

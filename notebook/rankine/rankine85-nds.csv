@@ -1,8 +1,0 @@
-NAME,NID,p,t,x,mdot,fdot
-Boiler2Turbine,0,8,480,,,1
-ExtractedSteam2OpenedFWH,1,0.7,,,,
-ExhaustedSteam2CD,2,0.008,,,,
-CondensateWater2CDWPump,3,0.008,,0,,
-CDWPump2OpenedFWH,4,0.7,,,,
-OpenedFWH2FWPump,5,0.7,,0,,
-FWPump2Boiler,6,8,,,,
