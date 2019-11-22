@@ -66,7 +66,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The rankine cycle simulator to demonstrate the general abstraction 
 
-* [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
+* [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission
 
 ## Grading
 
