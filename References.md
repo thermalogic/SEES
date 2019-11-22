@@ -25,23 +25,17 @@
 
 *  John V. Guttag. **Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.**
 
-   * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
+    * [Accompanying Python3 Code](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
 
-   * [Accompanying Python3 Code](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
-
-   * MIT OpenCourseWare
-   
-       * [Introduction to Computer Science and Programming fall 2016](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016//)
-
-       * [Introduction to Computational Thinking and Data Science fall 2016](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
-
-* [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
-
+    * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
+ 
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
 * Doug Hellmann. [Python 3 Module of the Week](https://pymotw.com/3/)
   
   * [The Python 3 Standard Library by Example, Second Edition](https://my.safaribooksonline.com/book/programming/python/9780134291154). Addison-Wesley Professional, June 12, 2017
+
+* [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
 
 * Python 3 Cheat Sheet https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 
@@ -97,23 +91,23 @@
 
   * Code: https://github.com/Apress/beg-cplusplus17
 
-### Ubuntu,GSL,Gnuplot
+* Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
+
+### Gnuplot
+
+* Gnuplot http://gnuplot.info/
+
+* Nishanth Sastry. [Visualize your data with gnuplot](http://fitzkee.chemistry.msstate.edu/sites/default/files/ch8990/ibm-gnuplot.pdf)
+  
+   * [中文版:gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
+
+* Philipp K. Janert. `Gnuplot in Action:Understanding data with graphs(2ed Edition)`. Manning Publications Co.2016
+
+### Ubuntu
 
 * Ubuntu https://www.ubuntu.com/
 
   * Ubuntukylin https://www.ubuntukylin.com/
-
-* GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
-
-    * The GSL Reference Manual online https://www.gnu.org/software/gsl/doc/html/index.html
-
-* Gnuplot http://gnuplot.info/
-
-    * Nishanth Sastry. [Visualize your data with gnuplot](http://fitzkee.chemistry.msstate.edu/sites/default/files/ch8990/ibm-gnuplot.pdf)
-  
-      * [中文版:gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
-
-    * Philipp K. Janert. Gnuplot in Action:Understanding data with graphs(2ed Edition). Manning Publications Co.2016
 
 ### Software Engineering
 
@@ -125,15 +119,16 @@
 
 * Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
 
-* 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
-
-* Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
-
-    * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
+    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * UML http://www.uml.org/
 
 * Donald Bell. [UML basics:An introduction to the Unified Modeling Language](https://www.ibm.com/developerworks/rational/library/769.html)
 
    * [UML basics: The class diagram](https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/index.html?ca=drs-)
+
+* Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
+
+   * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
+
 

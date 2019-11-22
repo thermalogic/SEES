@@ -1,7 +1,7 @@
 
 # Foundamentals and Practice of Software Engineering
 
-This course is intended to train **students majored in thermal energy engineering** become skillful at making productive use of computational techniques. 
+This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
 
@@ -11,9 +11,10 @@ We will cover:
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and [profile](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) the software performance
-* C/C++ programming with [GCC](https://gcc.gnu.org/)，[GSL](https://www.gnu.org/software/gsl/) and [Gnuplot](http://www.gnuplot.info/)，
-* C/C++ and Python programming in [Ubuntu](https://www.ubuntu.com/)
-* Version control with [Git/Github](https://git-scm.com/) 
+* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://en.wikipedia.org/wiki/Fortran) applications
+* using [Gnuplot](http://www.gnuplot.info/) to analyze, interpret, and present numerical data
+* version control with [Git/Github](https://git-scm.com/) 
+* C/C++ and Python programming in [Linux/Ubuntu](https://www.ubuntu.com/)
 
 We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
 
@@ -62,10 +63,6 @@ After successfully completing the course, We wish you have a broad spectrum of o
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: Python,C/C++,Excel VBA,MATLAB,Java,Fortran,C#
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The step-by-step codes of the rankine cycle simulator from zero abstraction to the general abstraction 
-
-* [PySEE/GSL4Windows](https://github.com/PySEE/GSL4Windows) The GNU Scientific Library(GSL) for Windows build with MinGW-W64(64) 
-
-* [PySEE/Googletest4Windows](https://github.com/PySEE/Googletest4Windows) Googletest for Windows compiled with MinGW-W64(64) 
 
 * [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission(5 projects,1 Bonus) 
 

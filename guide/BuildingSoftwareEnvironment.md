@@ -37,9 +37,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
-    - [G:Install GSL and Gnuplot for Windows](#ginstall-gsl-and-gnuplot-for-windows)
-        - [G.1 GSL for Windows](#g1-gsl-for-windows)
-        - [G.2 Gnuplot for Windows](#g2-gnuplot-for-windows)
+    - [G:Install Gnuplot sfor Windows](#ginstall-gnuplot-sfor-windows)
     - [Extended](#extended)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
@@ -326,23 +324,11 @@ x86_64-posix-seh
 x86_64-win32-sjlj
 x86_64-win32-seh 
 ```
-
-* posix: enable C++11/C11 multithreading features
-
-* win32 using the win32 API multithreading features 
-
-* sjlj: 32 and 64 bits,but it incurs a minor performance penalty
- 
-* seh：64 bits only
   
-Download the latest available version of gcc compiler for **windows64** with **win32 API multithreading**：
+Download the latest available version of gcc compiler for **windows64** with **win32 API multithreading** - `x86_64-win32-seh`, for example：
 
 * GCC-8.1.0 [x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
-
-> [POSIX](https://en.wikipedia.org/wiki/POSIX): The Portable Operating System Interface is a family of standards specified by the IEEE Computer Society for maintaining `compatibility between operating systems`. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of `Unix and other operating systems`.
-
-> [Thread](https://en.wikipedia.org/wiki/Thread_(computing)) In computer science, a thread of execution is the smallest sequence of programmed instructions that can be managed `independently by a scheduler`, which is typically a part of the operating system. The implementation of threads and processes differs between operating systems, but in most cases `a thread is a component of a process`. Multiple threads can exist within one process, executing `concurrently` and `sharing resources` such as memory, while different processes do not share these resources. In particular, the threads of a process share its executable code and the values of its dynamically allocated variables and non-thread-local global variables at any given time. 
-  
+ 
 ### C.2 Set MinGW-W64 Environment
 
 **C.2.1** unzip the zipped MinGW-w64,then,remove to **C:\mingw64**
@@ -484,20 +470,12 @@ IAPWS
 ``` 
 
 
-## G:Install GSL and Gnuplot for Windows
-
-Install GSL and Gnuplot for Windows compiled with MinGW-W64
-
-### G.1 GSL for Windows
-
-Goto https://github.com/PySEE/GSL4Windows download the zip file,then unzip and install the GSL according to the guide.
-
-### G.2 Gnuplot for Windows
+## G:Install Gnuplot sfor Windows
 
 Goto http://tmacchant3.starfree.jp/gnuplot/Eng/winbin/ download Gnuplot for Windows64 compiled with MinGW-W64 64bit (`gp*-*-win64-mingw_exe.zip`),then unzip and run.
  
 After installed, add the path of gnuplot.exe to the system environment variable **Path**，e.g: `"C:\Program Files\gnuplot\bin\"`
- 
+
 ## Extended
 
 ### Windows10
