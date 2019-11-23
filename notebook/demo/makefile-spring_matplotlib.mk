@@ -12,4 +12,4 @@ BIN= ./demo/bin/demo
 all: spring_matplotlib
 
 spring_matplotlib: 
-	 g++ -o $(BIN) $(SRC) $(INC) -L$(LIBDIR) -lPython37 
+	 g++ -std=c++11 -o $(BIN) $(SRC) $(INC) -L$(LIBDIR) -lPython37 

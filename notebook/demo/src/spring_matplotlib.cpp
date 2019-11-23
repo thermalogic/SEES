@@ -44,22 +44,16 @@ int main(void)
   int n = 1; // n is the degree of Polynomial
   double a[n + 1];
   int size=vecdistances.size();
-  double forces[size];
-  double distances[size];
-  copy(vecforces.begin(), vecforces.end(),forces);
-  copy(vecdistances.begin(), vecdistances.end(),distances);
-  PolynomialFit(forces, distances, size - 6, n, a);
+  int baddata=6;
+  PolynomialFit(vecforces.data(),vecdistances.data(),size - baddata, n, a); 
   cout << "PolynomialFit:k =" << 1 / a[1] << std::endl;
   
   plt::plot(vecforces, vecdistances, "r*");
  
   vector<double> vecpredictedDistances;
-  vector<double> vecprevarforces;
-  for (int i = 0; i < size-6; i++)
-  {  
-     vecprevarforces.push_back(forces[i]);
-     vecpredictedDistances.push_back(a[1]*forces[i] + a[0]);
-  }    
+  vector<double> vecprevarforces= vector<double>(vecforces.begin(), vecforces.end()-baddata);
+  for (auto val : vecprevarforces)
+      vecpredictedDistances.push_back(a[1]*val + a[0]);
   plt::plot(vecprevarforces, vecpredictedDistances,"b+");
   plt::plot(vecprevarforces, vecpredictedDistances);
     
