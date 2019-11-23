@@ -470,7 +470,7 @@ IAPWS
 ``` 
 
 
-## G:Install Gnuplot sfor Windows
+## G:Install Gnuplot for Windows
 
 Goto http://tmacchant3.starfree.jp/gnuplot/Eng/winbin/ download Gnuplot for Windows64 compiled with MinGW-W64 64bit (`gp*-*-win64-mingw_exe.zip`),then unzip and run.
  

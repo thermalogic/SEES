@@ -321,7 +321,7 @@
 
 * **Homework**
 
-   * [Install GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gsl-and-gnuplot-for-windows) 
+   * [Install GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gnuplot-for-windows) 
 
 ## [GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Gnuplot.ipynb)
 
@@ -339,7 +339,7 @@
 
    * **Optional**: [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-   * [Install Windows Subsystem for Linux (WSL) on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
+   * **Optional**: [Install Windows Subsystem for Linux (WSL) on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 
 ## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-2-Ubuntu.ipynb)
 
