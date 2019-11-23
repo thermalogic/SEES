@@ -37,7 +37,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
-    - [G:Install Gnuplot sfor Windows](#ginstall-gnuplot-sfor-windows)
+    - [G:Install Gnuplot for Windows](#ginstall-gnuplot-for-windows)
     - [Extended](#extended)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
