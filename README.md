@@ -35,11 +35,11 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
    * Python,Jupyter,NumPy,SciPy,Matplotlib,SEUIF97
    
-   * Visual Studio Code, MinGW-W64(GCC), Gnuplot
-   
-   * Ubuntu
+   * Visual Studio Code, MinGW-W64(GCC)
    
    * Git,Github
+
+   * Ubuntu
  
 * **[Textbooks](./References.md)**
 

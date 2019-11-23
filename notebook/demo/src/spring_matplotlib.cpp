@@ -33,8 +33,10 @@ int main(void)
          fields.push_back(field); 
       string d =fields[0];
       string m =fields[1];
-      vecdistances.push_back(atof(d.c_str()));
-      vecforces.push_back(9.81*atof(m.c_str()));
+      if (atof(d.c_str()) > 0)
+           vecdistances.push_back(atof(d.c_str()));
+      if (atof(m.c_str()) > 0)
+          vecforces.push_back(9.81*atof(m.c_str()));
   };
     
   fin.close();
