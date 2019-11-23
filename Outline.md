@@ -321,9 +321,7 @@
 
 ## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Python-C-API.ipynb)
 
-* Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
-
-  * C/C++ Plotting : pipe
+* Using Matplotlib through C/C++ API
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Git.ipynb)
 
