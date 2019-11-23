@@ -1,5 +1,9 @@
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
 #include "../include/matplotlibcpp.h"
 
 using namespace std;
@@ -11,35 +15,52 @@ void PolynomialFit(double x[], double y[], int size, int n, double a[]);
 
 int main(void)
 {
-  double distances[] = {0.0865, 0.1015, 0.1106, 0.1279, 0.1892,
-                        0.2695, 0.2888, 0.2425, 0.3465, 0.3225,
-                        0.3764, 0.4263, 0.4562, 0.4502, 0.4499,
-                        0.4534, 0.4416, 0.4304, 0.437};
-  double masses[] = {0.10, 0.15, 0.20, 0.25, 0.30,
-                     0.35, 0.40, 0.45, 0.50, 0.55,
-                     0.60, 0.65, 0.70, 0.75, 0.80,
-                     0.85, 0.90, 0.95, 1.00};
-
+  vector<double> vecforces;  
+  vector<double> vecdistances; 
+    
+  ifstream fin("../data/springData.csv");
+  if(!fin) {
+     cerr<<"failed to open file for reading"<<endl;
+     return 1;
+  }
+  string line;
+  while(getline(fin, line))
+  {
+      istringstream sin(line);
+      vector<string> fields; 
+      string field;
+      while (getline(sin, field, ','))
+         fields.push_back(field); 
+      string d =fields[0];
+      string m =fields[1];
+      vecdistances.push_back(atof(d.c_str()));
+      vecforces.push_back(9.81*atof(m.c_str()));
+  };
+    
+  fin.close();
+ 
   int n = 1; // n is the degree of Polynomial
   double a[n + 1];
-
-  int size = (sizeof(masses) / sizeof(double));
+  int size=vecdistances.size();
   double forces[size];
-  for (int i = 0; i < size; i++)
-    forces[i] = masses[i] * 9.81;
+  double distances[size];
+  copy(vecforces.begin(), vecforces.end(),forces);
+  copy(vecdistances.begin(), vecdistances.end(),distances);
   PolynomialFit(forces, distances, size - 6, n, a);
   cout << "PolynomialFit:k =" << 1 / a[1] << std::endl;
-  //plot
-  vector<double> vecforces(forces, forces+sizeof(forces)/sizeof(double)-6);  
-  vector<double> vecdistances(distances, distances+sizeof(distances)/sizeof(double)-6); 
+  
   plt::plot(vecforces, vecdistances, "r*");
-  
+ 
   vector<double> vecpredictedDistances;
+  vector<double> vecprevarforces;
   for (int i = 0; i < size-6; i++)
-      vecpredictedDistances.push_back(a[1]*forces[i] + a[0]);
-  plt::plot(vecforces, vecpredictedDistances,"b+");
-  plt::plot(vecforces, vecpredictedDistances);
-  
-  plt::title("Sample figure");
+  {  
+     vecprevarforces.push_back(forces[i]);
+     vecpredictedDistances.push_back(a[1]*forces[i] + a[0]);
+  }    
+  plt::plot(vecprevarforces, vecpredictedDistances,"b+");
+  plt::plot(vecprevarforces, vecpredictedDistances);
+    
+  plt::title("Spring Data");
   plt::show();
 }
