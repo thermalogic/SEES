@@ -12,7 +12,6 @@ We will cover:
 * [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and [profile](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) the software performance
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://en.wikipedia.org/wiki/Fortran) applications
-* using [Gnuplot](http://www.gnuplot.info/) to analyze, interpret, and present numerical data
 * version control with [Git/Github](https://git-scm.com/) 
 * C/C++ and Python programming in [Linux/Ubuntu](https://www.ubuntu.com/)
 

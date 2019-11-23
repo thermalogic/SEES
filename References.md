@@ -93,16 +93,6 @@
 
 * Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
 
-### Gnuplot
-
-* Gnuplot http://gnuplot.info/
-
-* Nishanth Sastry. [Visualize your data with gnuplot](http://fitzkee.chemistry.msstate.edu/sites/default/files/ch8990/ibm-gnuplot.pdf)
-  
-   * [中文版:gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
-
-* Philipp K. Janert. `Gnuplot in Action:Understanding data with graphs(2ed Edition)`. Manning Publications Co.2016
-
 ### Ubuntu
 
 * Ubuntu https://www.ubuntu.com/

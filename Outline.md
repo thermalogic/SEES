@@ -319,11 +319,7 @@
 
     * https://github.com/thermalogic/Excel4Engineering  
 
-* **Homework**
-
-   * [Install GNUPLOT for Windows](./guide/BuildingSoftwareEnvironment.md#ginstall-gnuplot-for-windows) 
-
-## [GNUPLOT](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Gnuplot.ipynb)
+## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Python-C-API.ipynb)
 
 * Gnuplot: plotting function,data file, point and line style，multiple plots,curve fitting
 

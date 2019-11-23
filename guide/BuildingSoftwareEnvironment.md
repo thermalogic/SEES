@@ -37,7 +37,6 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
-    - [G:Install Gnuplot for Windows](#ginstall-gnuplot-for-windows)
     - [Extended](#extended)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
@@ -468,13 +467,6 @@ IAPWS
 ```bash   
 > python -m pip install iapws 
 ``` 
-
-
-## G:Install Gnuplot for Windows
-
-Goto http://tmacchant3.starfree.jp/gnuplot/Eng/winbin/ download Gnuplot for Windows64 compiled with MinGW-W64 64bit (`gp*-*-win64-mingw_exe.zip`),then unzip and run.
- 
-After installed, add the path of gnuplot.exe to the system environment variable **Path**，e.g: `"C:\Program Files\gnuplot\bin\"`
 
 ## Extended
 
