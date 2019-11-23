@@ -5,9 +5,9 @@
 
 * Goals,Grading,Practices
 
-* **Repositories**: Home,SEUIF97,PyRankine,Practices,GSL4Windows,Googletest4Windows
+* **Repositories**: Home, Practices, SEUIF97, PyRankine
 
-* [Building Software Environment](./guide/BuildingSoftwareEnvironment.md) 
+* [Building Software Environment，Python IDLE, Jupyter](./guide/BuildingSoftwareEnvironment.md) 
 
   * [Computer Terminal](./ComputerTerminal.md/)
 
@@ -19,15 +19,11 @@
 
 * **Homework**
    
-   * [ebooks](./Reference.md)
-   
-      * John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.
-
-   * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2020/P1)
+    * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2020/P1)
    
       * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
-      * [Install Softwares: Python,Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
+      * [Install Softwares: Python, Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
 
       * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
@@ -185,7 +181,7 @@
       
          > python -m pip install seuif97
 
-## [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-PyThermo-IF97.ipynb)
+## [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-IF97.ipynb)
 
 * IAPWS-IF97
 
@@ -196,14 +192,8 @@
 * **Homework**
 
    * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
-    
-   * [ebook](./Reference.md)
-   
-      * Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
-       
-       Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
-
-## [RankineCycle 8.1.8.2: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-PyThermo-RankineCycle-SimVer.ipynb)
+ 
+## [RankineCycle 8.1.8.2: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimVer.ipynb)
 
    * Rankine Cycle 8.1,8.2：the expression directly; the simple abstraction using List,Dict and Function
   
@@ -211,11 +201,11 @@
 
    * Matplotlib：T-S Diagram of Rankine Cycle
 
-## [The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
+## [The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
 
-* The Rankine Cycle 8.1,8.2 with csv files
+* OOP: The Rankine Cycle 8.1,8.2 with csv files
 
-## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
+## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-RankineCycle-General.ipynb)
 
 * Rankine Cycle: JSON,UML Class Diagram
        
@@ -295,11 +285,11 @@
  
     * stdio.h: `scanf,printf`
 
-## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Debugging_C_with_GDB.ipynb)
+## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Debugging_C_GDB.ipynb)
 
 * GNU GDB
 
-## [Fortran using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Fortran_gfortran.ipynb)    
+## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Fortran_gfortran.ipynb)    
 
     * program, subroutine, function, module
 
@@ -310,6 +300,8 @@
 ## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-ctypes.ipynb)
 
 * ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
+
+* the simple C code: Polynomial Regression; CSV's reader
 
 ## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-3-DLL_VBA.ipynb)
 
@@ -322,6 +314,8 @@
 ## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Python-C-API.ipynb)
 
 * Using Matplotlib through C/C++ API
+
+* the simple C++ reader of CSV
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Git.ipynb)
 
