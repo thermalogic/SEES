@@ -37,17 +37,17 @@
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### MinGW-W64(GCC)
-
-* 将安装路径加入系统环境变量`Path`
-
-* 重命名 `mingw32-make.exe` 为 `make.exe`
-
 ##### 快速安装Python软件包
 
 将 [installpackage.bat](./bat/installpackage.bat)和 [requirements.txt](./bat/requirements.txt) 保存到本地电脑的同一个目录中，然后，双击 [installpackage.bat](./bat/installpackage.bat)，即可一次性完成：
 
 * 设定tsinghua`为软件包的源；安装课程需要的Python软件包的工作
+
+### MinGW-W64(GCC)
+
+* 将安装路径加入系统环境变量`Path`
+
+* 重命名 `mingw32-make.exe` 为 `make.exe`
 
 ## 历史问题及答案
 
