@@ -1,6 +1,4 @@
 
-# Learing by Coding！做中学！<!-- TOC -->
-
 ## Contents
 
 * [The Guide of Building Software Environment](./BuildingSoftwareEnvironment.md)
