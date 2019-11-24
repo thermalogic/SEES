@@ -1,6 +1,48 @@
 
 # Learing by Coding！做中学！
 
+## 课程软件安装建议
+
+###  安装顺序：
+
+1. Python解释器
+
+2. VS Code代码编写软件及Python和C/C++插件
+
+3. Git版本控制软件
+
+4. Python各种软件包
+
+###  安装要点
+
+#### Python解释器
+
+1. `勾选`,将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
+
+2.  选择自定义安装：`Customize Installation`，勾选相关项目
+  
+3. 按照Python解释器版本号，自定义`简短`的安装目录(`Customize Install location`)，如：
+      
+    *  Python3.7，定义为 `C:\Python37`；Python3.8，定义为 `C:\Python38`
+
+#### Python各种软件包
+ 
+##### 设定`tsinghua`为软件包的源 
+
+如在终端逐个使用`pip`安装软件包，安装前，务必设定`tsinghua`为软件包的源 
+
+```bash
+>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+##### 快速安装Python软件包
+
+将 [installpackage.bat](./bat/installpackage.bat)和 [requirements.txt](./bat/requirements.txt) 保存到本地电脑的同一个目录中，然后，双击 [installpackage.bat](./bat/installpackage.bat)，即可一次性完成：
+
+* 设定tsinghua`为软件包的源；安装课程需要的Python软件包的工作
+
+## 历史问题及答案
+
 * [Problem and Answer](./Problem_Solution.md)
 
 ---
@@ -11,10 +53,6 @@
 
    * [Windows File System](./WindowsFileSystem.md)
 
-   * [requirements.txt](./requirements.txt) is the list of items to be installed for the course:
-
-         >python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
- 
 * [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
 
 * [Resources On Github](./ResourcesOnGithub.md)
