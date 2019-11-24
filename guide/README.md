@@ -1,19 +1,35 @@
 
-# Learing by Coding！做中学！
+# Learing by Coding！做中学！<!-- TOC -->
 
-## 课程软件安装建议
+## Contents
 
-###  安装顺序：
+* [The Guide of Building Software Environment](./BuildingSoftwareEnvironment.md)
 
-1. Python解释器
+   * [The Computer Terminal](./ComputerTerminal.md/)
 
-2. VS Code代码编写软件及Python和C/C++插件
+   * [Windows File System](./WindowsFileSystem.md)
 
-3. Git版本控制软件
+* [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
 
-4. Python各种软件包
+* [Resources On Github](./ResourcesOnGithub.md)
 
-5. 安装MinGW-W64(GCC)
+* [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
+
+* [Creating UML diagrams for python code](./UMLPython.md) 
+
+* [Ubuntu，Python and GCC](./Ubuntu-Python-CPP(Chinese).md) 
+
+* [Install OpenModelica](./InstallOpenModelica.md) 
+
+* [Further Studing](./FurtherStuding.md)
+
+## 软件安装建议
+
+###  安装顺序
+
+    1. Python解释器    2. VS Code代码编写软件及Python和C/C++插件
+
+    3. Git版本控制软件  4. Python各种软件包  5. MinGW-W64(GCC)
 
 ###  安装要点
 
@@ -52,27 +68,4 @@
 ## 历史问题及答案
 
 * [Problem and Answer](./Problem_Solution.md)
-
----
-
-* [The Guide of Building Software Environment](./BuildingSoftwareEnvironment.md)
-
-   * [The Computer Terminal](./ComputerTerminal.md/)
-
-   * [Windows File System](./WindowsFileSystem.md)
-
-* [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
-
-* [Resources On Github](./ResourcesOnGithub.md)
-
-* [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
-
-* [Creating UML diagrams for python code](./UMLPython.md) 
-
-* [Ubuntu，Python and GCC](./Ubuntu-Python-CPP(Chinese).md) 
-
-* [Install OpenModelica](./InstallOpenModelica.md) 
-
-* [Further Studing](./FurtherStuding.md)
-
 
