@@ -13,6 +13,8 @@
 
 4. Python各种软件包
 
+5. 安装MinGW-W64(GCC)
+
 ###  安装要点
 
 #### Python解释器
@@ -34,6 +36,12 @@
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+### MinGW-W64(GCC)
+
+* 将安装路径加入系统环境变量`Path`
+
+* 重命名 `mingw32-make.exe` 为 `make.exe`
 
 ##### 快速安装Python软件包
 
