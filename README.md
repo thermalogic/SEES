@@ -45,6 +45,8 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
    * John V. Guttag. Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition). MIT Press, 2016.
   
+   * Peter Prinz,Tony Crawford: C in a Nutshell(2nd Edition). O’Reilly Media, Inc. 2016
+
    * Michael J. Moran. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
 ## Contents

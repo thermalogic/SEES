@@ -75,6 +75,8 @@
 
 ### C/C++ Programming with GCC
 
+* Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
+
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
    * GCC Manual https://gcc.gnu.org/onlinedocs/
@@ -90,8 +92,6 @@
 * Ivor Horton,Peter Van Weert: Beginning C++17: From Novice to Professional(Fifth Edition),Ivor Horton and Peter Van Weert,2018 
 
   * Code: https://github.com/Apress/beg-cplusplus17
-
-* Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
 
 ### Ubuntu
 
