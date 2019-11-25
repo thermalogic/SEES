@@ -71,11 +71,15 @@
 
      查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
 
+   * [The Textbook Companions: Jupyter Notebook](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro)  
+
 * R Sinha, Christiaan J. J. Paredis. etc. Modeling and Simulation Methods for Design of Engineering Systems. Transactions of the ASME[J]. 2001.03(1):84-91
 
 ### C/C++ Programming with GCC
 
 * Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
+    
+    * Code https://github.com/oreillymedia/c-in-a-nutshell-2E
 
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
