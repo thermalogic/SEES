@@ -32,7 +32,10 @@
     - [8. 改变Git托管网站](#8-改变git托管网站)
         - [8.1. 在新托管网站建立一个和本地项目目录`同名`的空仓库](#81-在新托管网站建立一个和本地项目目录同名的空仓库)
         - [8.2. 同步本地仓库到新托管网站的远程仓库](#82-同步本地仓库到新托管网站的远程仓库)
-    - [9 Windows中使用Git GUI](#9-windows中使用git-gui)
+    - [9 同一本地仓库使用多个远程仓库](#9-同一本地仓库使用多个远程仓库)
+        - [9.1 添加一个远程仓库](#91-添加一个远程仓库)
+        - [9.2 推送本地仓库内容到镜像仓库](#92-推送本地仓库内容到镜像仓库)
+    - [10 Windows中使用Git GUI](#10-windows中使用git-gui)
     - [参考：](#参考)
 
 <!-- /TOC -->
@@ -219,7 +222,41 @@ git push --set-upstream origin master
 
 提交成功以后的操作和使用Github作为仓库托管网站一样。
 
-## 9 Windows中使用Git GUI
+## 9 同一本地仓库使用多个远程仓库
+
+### 9.1 添加一个远程仓库
+
+如使用码云(gitee.com)为本地·your-reponame·加一个远程仓库，在其中建立和本地项目目录`同名`的 **空** 仓库，不要有README.md等任何内容
+
+使用命令，为本地仓库加这个远程仓库，并为其命名，比如称为`mirror`：
+
+```
+git remote add mirror https://gitee.com/your-username/your-reponame.git
+```
+
+命令会修改config文件，加入一个`mirror`远程仓库：
+
+```
+[remote "origin"]
+	url = https://github.com/your-username/your-reponame.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "mirror"]
+	url = https://gitee.com/your-username/your-reponame.git
+	fetch = +refs/heads/*:refs/remotes/mirror/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/S2018
+```
+
+### 9.2 推送本地仓库内容到镜像仓库
+
+使用以下命令，可以推送(`push`)本地内容到远程镜像仓库的master分支：
+
+```
+git push mirror master
+```
+
+## 10 Windows中使用Git GUI
 
 在使用git的项目目录中打开终端，执行
 
