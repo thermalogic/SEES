@@ -30,10 +30,6 @@ int main()
       char *save_ptr;
       // The first call to strtok_r(), str point to the string to be parsed" line
       char *d = strtok_r(line, ",", &save_ptr);
-      if (d == NULL)
-      {
-         break; // end of the file
-      }
       // In subsequent calls, str is NULL, and saveptr is unchanged since the previous call.
       char *m = strtok_r(NULL, ",", &save_ptr);
       distances[i] = atof(d);
