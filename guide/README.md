@@ -1,25 +1,25 @@
 
 ## Contents
 
-* [The Guide of Building Software Environment](./BuildingSoftwareEnvironment.md)
+* [The Guide of Building Software Environment](./doc/BuildingSoftwareEnvironment.md)
 
-   * [The Computer Terminal](./ComputerTerminal.md/)
+   * [The Computer Terminal](./doc/ComputerTerminal.md/)
 
-   * [Windows File System](./WindowsFileSystem.md)
+   * [Windows File System](./doc/WindowsFileSystem.md)
 
-* [Introduction to Markdown](./Introduction2Markdown(Chinese).md) 
+* [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
-* [Resources On Github](./ResourcesOnGithub.md)
+* [Resources On Github](./doc/ResourcesOnGithub.md)
 
-* [The Simple Guide to Github](./TheSimpleStepsGithub(Chinese).md) 
+* [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-* [Creating UML diagrams for python code](./UMLPython.md) 
+* [Creating UML diagrams for python code](./doc/UMLPython.md) 
 
-* [Ubuntu，Python and GCC](./Ubuntu-Python-CPP(Chinese).md) 
+* [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
 
-* [Install OpenModelica](./InstallOpenModelica.md) 
+* [Install OpenModelica](./doc/InstallOpenModelica.md) 
 
-* [Further Studing](./FurtherStuding.md)
+* [Further Studing](./doc/FurtherStuding.md)
 
 ## 软件安装建议
 
@@ -65,5 +65,5 @@
 
 ## 历史问题及答案
 
-* [Problem and Answer](./Problem_Solution.md)
+* [Problem and Answer](./doc/Problem_Solution.md)
 
