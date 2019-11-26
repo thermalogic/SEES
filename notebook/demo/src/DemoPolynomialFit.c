@@ -13,7 +13,6 @@ int main()
 
   int size = 19;
   double distances[size];
-  double masses[size];
   double forces[size];
 
    FILE *fp = fopen("./demo/data/springData.csv", "r");
@@ -27,21 +26,18 @@ int main()
   while(fgets(line, sizeof(line), fp))
   {
     char *save_ptr;
+    // The first call to strtok_r(), str point to the string to be parsed" line
     char *d = strtok_r(line, ",", &save_ptr);
     if (d == NULL) {
        break;
     }
+    // In subsequent calls, str is NULL, and saveptr is unchanged since the previous call.  
      char *m = strtok_r(NULL, ",", &save_ptr);
-     if (atof(d) > 0)
-           distances[i-1] = atof(d);
-     if (atof(m) > 0)
-           masses[i-1] = atof(m);
-    i++;  
+     distances[i-1] = atof(d);
+     forces[i-1] = atof(m) * 9.81;;
+     i++;  
   }
-  for (int n = 0; n < size; n++)
-  {
-    forces[n] = masses[n] * 9.81;
-  }
+
   int n = 1; // n is the degree of Polynomial
   double a[n + 1];
   PolynomialFit(forces, distances, size - 6, n, a);
