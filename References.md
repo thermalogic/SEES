@@ -81,6 +81,8 @@
     
     * Code https://github.com/oreillymedia/c-in-a-nutshell-2E
 
+    * 袁野译, C语言核心技术(原书第2版), 机械工业出版社，2017
+
 * GCC, the GNU Compiler Collection：http://gcc.gnu.org/
 
    * GCC Manual https://gcc.gnu.org/onlinedocs/
