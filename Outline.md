@@ -41,7 +41,7 @@
    
    * Jupyter's `magic` functions： cell, line   
       
-## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-1-Control_Flow.ipynb)
+## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)
 
 * `if`, `while`,`for loops`, `break`, `continue`
 
@@ -55,12 +55,6 @@
     
 * **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
       
-## [SOME SIMPLE NUMERICAL PROGRAMS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-2-SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
- 
-* Bisection，Newton-Raphson
-   
-* Using Floats,`round(x, numDigits)`
-
 ## [FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
 
 * Function definitions, Positional, Keyword Arguments and Default Values
