@@ -221,7 +221,7 @@
        
       * [Install OpenModelica](./guide/InstallOpenModelica.md) 
 
-## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
+## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
 * Built-In Exception, `try: except` 
 
@@ -235,7 +235,7 @@
 
 *  `assert` statement
 
-## [TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-2-TESTING_AND_DEBUGGING.ipynb)
+## [TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit5-2-TESTING_AND_DEBUGGING.ipynb)
 
    * Testing: test suite,Black-Box Testing,Glass-Box Testing,unit testing, integration testing
 
@@ -243,7 +243,7 @@
 
    * The typical mistakes
 
-## [Unit testing framework：unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-DevTools_unittest.ipynb)
+## [Unit testing framework：unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-1-DevTools_unittest.ipynb)
 
 * `unittest.TestCase`, test*，Asserting 
 
@@ -253,9 +253,9 @@
 
 * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
 
-## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-2-DevTools_doctest.ipynb)
+## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-2-DevTools_doctest.ipynb)
      
-## [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-DevTools_Profilers.ipynb)
+## [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-3-DevTools_Profilers.ipynb)
 
 * `cProfile.run`, pstats
 
@@ -265,9 +265,9 @@
        
 * **Decorator**, **Property**,`@property`,Private Variables(`_`)
 
-## [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-4-DevTools_timeit.ipynb)
+## [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit6-4-DevTools_timeit.ipynb)
    
-## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_MAKE.ipynb)
+## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
 
 * GNU,GCC,MinGW-W64
 
@@ -275,29 +275,29 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-C_stdio.ipynb)
+## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-2-C_stdio.ipynb)
  
     * stdio.h: `scanf,printf`
 
-## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-Debugging_C_GDB.ipynb)
+## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-Debugging_C_GDB.ipynb)
 
 * GNU GDB
 
-## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Fortran_gfortran.ipynb)    
+## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-4-Fortran_gfortran.ipynb)    
 
     * program, subroutine, function, module
 
-## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-GCC_Lib.ipynb)
+## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
 
 * **Shared Library** :Linux,Windows
 
-## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-ctypes.ipynb)
+## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
 
 * ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
 
 * the simple C code: Polynomial Regression; CSV's reader
 
-## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-3-DLL_VBA.ipynb)
+## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
 * Building Windows DLL: `__stdcall`
   
@@ -305,13 +305,13 @@
 
     * https://github.com/thermalogic/Excel4Engineering  
 
-## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-4-Python-C-API.ipynb)
+## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Python-C-API.ipynb)
 
 * Using Matplotlib through C/C++ API
 
 * the simple C++ reader of CSV
 
-## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Git.ipynb)
+## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)  
 
@@ -323,7 +323,7 @@
 
    * **Optional**: [Install Windows Subsystem for Linux (WSL) on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 
-## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-2-Linux.ipynb)
+## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-Linux.ipynb)
 
 * [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
