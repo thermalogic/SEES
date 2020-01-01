@@ -8,7 +8,6 @@ We will cover:
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * apply [computatisonal thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
-* [debug programs](https://en.wikipedia.org/wiki/Debugging) using a standardized approach
 * write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and [profile](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) the software performance
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://en.wikipedia.org/wiki/Fortran) applications
 * version control with [Git/Github](https://git-scm.com/) 
