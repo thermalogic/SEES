@@ -9,7 +9,7 @@
 
 ###  安装要点
 
-#### 1 Python解释器
+#### Python解释器
 
 1. `勾选`,将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
 
@@ -47,15 +47,6 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
-
-    - [软件安装建议](#软件安装建议)
-        - [安装顺序](#安装顺序)
-        - [安装要点](#安装要点)
-            - [1 Python解释器](#1-python解释器)
-            - [Python各种软件包](#python各种软件包)
-                - [设定`tsinghua`为软件包的源](#设定tsinghua为软件包的源)
-                - [快速安装Python软件包](#快速安装python软件包)
-        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
