@@ -107,8 +107,8 @@ The Course graded on an 100 point scale and then weighted according to the follo
    >```
    >
 
-* Open the Notebooks of PySEE/home in Jupyter Notebook
+* Open the Jupyter Notebooks of PySEE/home:  
 
-   Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `StartNB.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
+   Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
 
