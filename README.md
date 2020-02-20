@@ -91,7 +91,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
   You can manually download the `home.zip` file of the `PySEE/home` to your computer
 
-  ![download](./guide/img/downloadhome.jpg)
+  ![download](./guide/doc/img/downloadhome.jpg)
 
    >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
    >
