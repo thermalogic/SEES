@@ -45,13 +45,6 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
-
-    - [软件安装建议](#软件安装建议)
-        - [安装顺序](#安装顺序)
-        - [安装要点](#安装要点)
-            - [Python解释器](#python解释器)
-            - [安装Python软件包](#安装python软件包)
-        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
