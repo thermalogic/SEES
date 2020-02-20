@@ -7,9 +7,9 @@ We will cover:
 
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](https://en.wikipedia.org/wiki/Computational_thinking) to model and solve the complex problems
-* write [unit tests](https://en.wikipedia.org/wiki/Unit_testing) and [profile](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) the software performance
-* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://en.wikipedia.org/wiki/Fortran) applications
+* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the complex problems
+* write [unit tests](https://baike.baidu.com/item/单元测试) and [profile](https://baike.baidu.com/item/性能分析) the software performance
+* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://baike.baidu.com/item/FORTRAN语言) applications
 * version control with [Git/Github](https://git-scm.com/) 
 * C/C++ and Python programming in [Linux/Ubuntu](https://www.ubuntu.com/)
 
