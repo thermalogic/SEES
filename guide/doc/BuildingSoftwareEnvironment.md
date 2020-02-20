@@ -19,6 +19,12 @@
       
     *  Python3.7，定义为 `C:\Python37`；Python3.8，定义为 `C:\Python38`
 
+4. Python解释器安装过程中，会从外网服务器下载一些软件库，过程可能比较慢，也可能失败
+
+   如果出现这些问题，不要勾选以下项目，减少安装时从外网下载的软件库
+
+   ![](./img/PythonInstallError.jpg)
+
 #### 安装Python软件包
 
 使用`pip`安装软件包前，**务必** 设定`tsinghua`为软件包的源 

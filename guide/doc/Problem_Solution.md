@@ -3,7 +3,6 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
-    - [安装Python解释器失败](#安装python解释器失败)
     - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
     - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
     - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
@@ -20,18 +19,6 @@
             - [解决方法：](#解决方法)
 
 <!-- /TOC -->
-
-##  安装Python解释器失败
-
-安装Python解释器失败。提示0x80072efd错误
-
-Python安装解释器过程中会联外网服务器，下载一些软件库，过程可能比较慢，也可失败。
-
-**解决方法：**
-
-减少安装时需要从外网下载的软件库
-
-![](./img/PythonInstallError.jpg)
 
 ##  print('{:>7.3f}'.format(h)输出运行错误
 
