@@ -19,21 +19,13 @@
       
     *  Python3.7，定义为 `C:\Python37`；Python3.8，定义为 `C:\Python38`
 
-#### Python各种软件包
+#### 安装Python软件包
 
-##### 设定`tsinghua`为软件包的源 
-
-如在终端逐个使用`pip`安装软件包，安装前，务必设定`tsinghua`为软件包的源 
+使用`pip`安装软件包前，**务必** 设定`tsinghua`为软件包的源 
 
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
-##### 快速安装Python软件包
-
-将 [installpackage.bat](./bat/installpackage.bat)和 [requirements.txt](./bat/requirements.txt) 保存到本地电脑的同一个目录中，然后，双击 [installpackage.bat](./bat/installpackage.bat)，即可一次性完成：
-
-* 设定tsinghua`为软件包的源；安装课程需要的Python软件包的工作
 
 ### MinGW-W64(GCC)
 
@@ -47,6 +39,13 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
+
+    - [软件安装建议](#软件安装建议)
+        - [安装顺序](#安装顺序)
+        - [安装要点](#安装要点)
+            - [Python解释器](#python解释器)
+            - [安装Python软件包](#安装python软件包)
+        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
