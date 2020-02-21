@@ -1,3 +1,9 @@
+/*
+g++ -o cpp_clang cpp_clang.cpp
+
+./cpp_clang
+
+*/
 #include <iostream>
 using namespace std;
  
