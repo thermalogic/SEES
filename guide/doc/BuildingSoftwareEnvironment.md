@@ -1,19 +1,11 @@
 
-## 软件安装建议
+##  安装要点
 
-###  安装顺序
-
-    1. Python解释器    2. VS Code代码编写软件及Python和C/C++插件
-
-    3. Git版本控制软件  4. Python各种软件包  5. MinGW-W64(GCC)
-
-###  安装要点
-
-#### Python解释器
+### Python解释器
 
 1. `勾选`,将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
 
-2.  选择自定义安装：`Customize Installation`，勾选相关项目
+2. 选择自定义安装：`Customize Installation`，勾选相关项目
   
 3. 按照Python解释器版本号，自定义`简短`的安装目录(`Customize Install location`)，如：
       
@@ -25,9 +17,9 @@
 
    ![](./img/PythonInstallError.jpg)
 
-#### 安装Python软件包
+### 安装Python软件包
 
-使用`pip`安装软件包前，**务必** 设定`tsinghua`为软件包的源 
+`pip`命令安装软件包的源式Pypi. 因为Pypi服务器在外网，安装速度慢.也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
 
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
