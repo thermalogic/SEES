@@ -19,7 +19,7 @@
 
 ### 安装Python软件包
 
-`pip`命令安装软件包的源式Pypi. 因为Pypi服务器在外网，安装速度慢.也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
+`pip`命令安装软件包的源是Pypi。因为Pypi服务器在外网，安装速度慢，也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
 
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
