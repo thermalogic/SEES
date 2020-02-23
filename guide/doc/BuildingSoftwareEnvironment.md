@@ -463,11 +463,13 @@ After you have installed **git**, You may use the following **commands:**
 >git clone https://github.com/PySEE/home.git
 ```
 
-**Cloning the `S2019` branch of repository `shallowly` for saving bandwidth**
+**Cloning the `S2020` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b S2019 https://github.com/PySEE/home.git
+>git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
 ```
+* --depth 1 
+* -b S2020 
 
 When you clone a repository you set up a copy on your computer. This will create a folder **home** on your computer with the files in sub-folders.
 
