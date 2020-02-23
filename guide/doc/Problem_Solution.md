@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+    - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
     - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
     - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
     - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
@@ -19,6 +20,25 @@
             - [解决方法：](#解决方法)
 
 <!-- /TOC -->
+
+## 中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文
+
+**原因：** 中文Windows10环境下PowerShell终端,默认语言是中文
+
+**修改**: 在PowerShell终终端执行以下命令, 配置为英文
+
+```
+>set LC_ALL=en_US.UTF-8
+>set LANG=en_US.UTF-8
+```
+
+**Reference**：Change the (natural) language of the Notebook interface back to English #4158
+
+https://github.com/jupyter/notebook/issues/4158
+
+>**tips**: 
+>* Github是软件宝库，也是解决问题的好帮手。一般而言，是软件就会有问题，对于托管在github的项目，软件的问题会被社区参与者通过issue提出和讨论。
+>* 如果你使用的软件托管在Github, 遇到难以解决的问题时，看看其Github仓库中的issue，也许问题答案就在那里。如果还是没有，你也可以提出issue ，需求帮助。
 
 ##  print('{:>7.3f}'.format(h)输出运行错误
 
