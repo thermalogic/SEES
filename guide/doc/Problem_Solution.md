@@ -28,7 +28,6 @@
 **修改**: 在PowerShell终端，执行以下命令,配置字符集编码为英文en_US.UTF-8
 
 ```
->set LC_ALL=en_US.UTF-8
 >set LANG=en_US.UTF-8
 ```
 
