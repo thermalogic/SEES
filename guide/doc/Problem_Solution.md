@@ -89,9 +89,9 @@ UTF-8是Linux默认编码方式，也是很多编程软件默认的编码方式�
 
 ##  命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32
 
-原因：使用管理员权限运行cmd,都启动到C:\Windows\system32
+**原因**：使用管理员权限运行cmd,都启动到C:\Windows\system32
 
-解决方法：使用普通用户权限运行jupyter notebook
+**解决方法**：使用普通用户权限运行jupyter notebook
 
 ## Windows安全防护
 
@@ -101,7 +101,9 @@ UTF-8是Linux默认编码方式，也是很多编程软件默认的编码方式�
 
 http://windows.microsoft.com/zh-cn/windows/security-essentials-download
       
-安装security essentials后，卸载所有其他各种"安全”软件。
+安装security essentials后，卸载所有其他各种**"安全”**软件。
+
+》 **建议**： 除Googlg Chrome以外，不要安装操作系统以外的其他浏览器
    
 ## module ‘unittest’hasn't the attribute of ‘TestCase’
 
@@ -113,7 +115,7 @@ http://windows.microsoft.com/zh-cn/windows/security-essentials-download
 
 ## Windows环境下Jupyter notebook文件转换pdf失败
 
-Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件可相应软件包.
+Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件包.
 
 ### 安装软件
 
