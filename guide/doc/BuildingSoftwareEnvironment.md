@@ -411,6 +411,8 @@ Download  Visual Studio Code https://code.visualstudio.com/, then install
 
 * C/C++ https://code.visualstudio.com/docs/languages/cpp
 
+  ![vscode-ext-python](./img/vscode-ext-python.jpg)
+
 ### D.3 Using Visual Studio Code: Python,C/C++
 
 #### D.3.1 Getting Started with Python in VS Code
