@@ -38,10 +38,6 @@
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
-    - [安装要点](#安装要点)
-        - [Python解释器](#python解释器)
-        - [安装Python软件包](#安装python软件包)
-        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -404,6 +400,11 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 Download  Visual Studio Code https://code.visualstudio.com/, then install
 
  ![vscode](./img/vscode.jpg)
+
+>Set Display Language
+>
+>Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, choice the item,then set the language 
+> ![vscode](./img/vscode-display-en.jpg)
 
 ### D.2 Install Extension: Python,C/C++
 
