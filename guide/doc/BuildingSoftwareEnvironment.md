@@ -492,7 +492,7 @@ That's it - you'll have the latest version of the repository.
 
 #### E.2.3 Discard Changes
 
-If you change the contents of home, you may use thn follow command to discard all changes
+If you change the contents of home, you may  `checkout` to discard all changes
 
 ```bash
 >git checkout .
