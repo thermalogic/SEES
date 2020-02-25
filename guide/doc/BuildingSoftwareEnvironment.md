@@ -37,6 +37,11 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
+
+    - [安装要点](#安装要点)
+        - [Python解释器](#python解释器)
+        - [安装Python软件包](#安装python软件包)
+        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -488,8 +493,6 @@ That's it - you'll have the latest version of the repository.
 
 ![download](./img/clonehomedir.jpg)
 
->you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
-
 #### E.2.3 Discard Changes
 
 If you change the contents of home, you may  `checkout` to discard all changes
@@ -497,6 +500,8 @@ If you change the contents of home, you may  `checkout` to discard all changes
 ```bash
 >git checkout .
 ```
+
+>you may also use any **GUI git client** to clone, update and checkout this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or [GitHub Desktop](https://desktop.github.com/)
 
 ## F:Scientific Computation Packages
 
