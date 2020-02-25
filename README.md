@@ -56,7 +56,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
       * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
       
       * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
-
+    
    * [Guide of Softwares](./guide) 
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
