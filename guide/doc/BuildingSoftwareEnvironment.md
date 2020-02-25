@@ -37,7 +37,6 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
-
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -68,7 +67,10 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
             - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
     - [E: Using Git](#e-using-git)
         - [E.1 Install Git for Windows](#e1-install-git-for-windows)
-        - [E.2 Clone & Update the PySEE/home](#e2-clone--update-the-pyseehome)
+        - [E.2 Using Git with  PySEE/home](#e2-using-git-with--pyseehome)
+            - [E.2.1 Clone the PySEE/home to your computer](#e21-clone-the-pyseehome-to-your-computer)
+            - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
+            - [E.2.3 Discard Changes](#e23-discard-changes)
     - [F:Scientific Computation Packages](#fscientific-computation-packages)
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
@@ -454,11 +456,11 @@ We **recommend** that you use [git](https://git-scm.com) to handle everything in
 
 Download Git for Windows: https://git-scm.com/download/win ,then install
 
-### E.2 Clone & Update the PySEE/home 
+### E.2 Using Git with  PySEE/home 
 
-After you have installed **git**, You may use the following **commands:**
+After you have installed **git**, You may use the following **commands:** to clean,update and checkout 
 
-**Clone the PySEE/home to your computer**
+#### E.2.1 Clone the PySEE/home to your computer
 
 ```bash
 >git clone https://github.com/PySEE/home.git
@@ -474,7 +476,7 @@ After you have installed **git**, You may use the following **commands:**
 
 When you clone a repository you set up a copy on your computer. This will create a folder **home** on your computer with the files in sub-folders.
 
-**Updating to The Latest Version**
+#### E.2.2 Updating to The Latest Version
 
 As we release new files or  update files, you'll have to update your repository. You can do this by changing into the `home` directory and executing:
 
@@ -487,6 +489,14 @@ That's it - you'll have the latest version of the repository.
 ![download](./img/clonehomedir.jpg)
 
 >you may also use any GUI git client to clone and update this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or  [GitHub Desktop](https://desktop.github.com/)
+
+#### E.2.3 Discard Changes
+
+If you change the contents of home, you may use thn follow command to discard all changes
+
+```bash
+>git checkout .
+```
 
 ## F:Scientific Computation Packages
 
