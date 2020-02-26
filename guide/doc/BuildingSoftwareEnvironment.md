@@ -59,7 +59,10 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
         - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
         - [C.2 Set MinGW-W64 Environment](#c2-set-mingw-w64-environment)
     - [D:Visual Studio Code](#dvisual-studio-code)
-        - [D.1 Download and Install Visual Studio Code](#d1-download-and-install-visual-studio-code)
+        - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
+            - [D.1.1 Install](#d11-install)
+            - [D.1.2 Set the default type of a new file](#d12-set-the-default-type-of-a-new-file)
+            - [D.1.3 Set Display Language](#d13-set-display-language)
         - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
         - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
             - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
@@ -397,16 +400,30 @@ Choose "**Environment Variables**" button
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
-### D.1 Download and Install Visual Studio Code 
+### D.1 Install and setup Visual Studio Code 
  
+#### D.1.1 Install
+
 Download  Visual Studio Code https://code.visualstudio.com/, then install
 
  ![vscode](./img/vscode.jpg)
 
->Set Display Language
->
->Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, choice the item,then set the language 
-> ![vscode](./img/vscode-display-en.jpg)
+
+#### D.1.2 Set the default type of a new file
+
+By default if you open a new file, it's set for `Plain Text`,
+
+You can set the `default language` at either the user or workspace settings level using `files.defaultLanguage`:
+
+If the item is configured to `${activeEditorLanguage}`, it will use the language mode of the currently active text editor if any.
+
+![vscode](./img/vscode-filetype.jpg)
+
+#### D.1.3 Set Display Language
+
+Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, choice the item,then set the language 
+
+![vscode](./img/vscode-display-en.jpg)
 
 ### D.2 Install Extension: Python,C/C++
 
