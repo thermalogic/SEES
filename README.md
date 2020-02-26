@@ -1,12 +1,11 @@
 
 # Foundamentals and Practice of Software Engineering
 
-This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
+* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
 
-* [The non-interactive notebook preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
-      
 * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
-    
+
+This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
 
@@ -59,7 +58,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
    * [Jupyter Notebook for the course](./notebook) 
 
       * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
-      
+
       * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
     
    * [Guide of Softwares](./guide) 
