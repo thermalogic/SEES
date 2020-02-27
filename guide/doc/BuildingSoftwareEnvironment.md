@@ -416,6 +416,9 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 * Add the shortcut of VS code to `Task bar`
 
+   ![vscode-taskbar](./img/vscode-taskbar.jpg)
+ 
+
 #### D.1.2 Set the default type of a new file
 
 By default if you open a new file, it's set for `Plain Text`,
