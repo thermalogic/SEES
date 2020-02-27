@@ -24,12 +24,17 @@
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+### Visual Studio Code
+
+1. 安装过程中`勾选`有关项目，方便使用
+
+2. 将Visual Studio Code快捷方式固定到  `任务栏 `
 
 ### MinGW-W64(GCC)
 
-* 将安装路径加入系统环境变量`Path`
+1. 将安装路径加入系统环境变量`Path`
 
-* 重命名 `mingw32-make.exe` 为 `make.exe`
+2. 重命名 `mingw32-make.exe` 为 `make.exe`
 
 **请参考如下指导安装软件**
 
