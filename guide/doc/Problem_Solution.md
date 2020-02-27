@@ -84,21 +84,23 @@ pip安装时,提示Permission denied
 
 VS Code是跨平台软件，所有的纯文本类型文件的默认字符集编码都是UTF-8,但是Windows终端的默认字符集编码GBK。两者的默认字符集编码不同，C/C++程序输出UTF-8编码字符不能被GBK编码正确解析，就显示乱码.
 
-UTF-8是Linux默认编码方式，也是很多编程软件默认的编码方式。
+UTF-8是Linux默认编码方式，也是很多软件开发工作中的编码。
 
 趋势是UTF-8会成为各种操作系统(包括Windows)和软件的默认字符集编码方式。
 
-* Windows10已经提供了Beta版的配置UTF-8为默认字符集编码的功能
-
 因此，宜保持VS Code中程序源码文件的字符集编码为UTF-8，选择采用以下推荐方案之一，输出中文到Windows终端。
 
-* 1 修改Windows终端的字符集编码为UTF-8。在终端执行
+1. 高版本的Windows10中，配置UTF-8为默认字符集编码(Beta版)
 
-      >chcp 65001
+   ![](./img/windows-utf-8.jpg)
 
-* 2 使用gcc编译选项，编译生成输出字符的中文编码为GBK的运行文件
+2. 修改Windows终端的字符集编码为UTF-8。在终端执行
 
-      >g++ -o hello hello.cpp -fexec-charset=GBK
+    >chcp 65001
+
+3. 使用gcc编译选项，编译生成输出字符的中文编码为GBK的运行文件
+
+    >g++ -o hello hello.cpp -fexec-charset=GBK
 
 ## Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞
 
