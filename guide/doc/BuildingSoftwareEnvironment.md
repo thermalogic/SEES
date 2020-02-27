@@ -42,6 +42,7 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
+
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -409,10 +410,11 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
  
 #### D.1.1 Install
 
-Download  Visual Studio Code https://code.visualstudio.com/, then install
+* Download  Visual Studio Code https://code.visualstudio.com/, then install
 
- ![vscode](./img/vscode.jpg)
+   ![vscode](./img/vscode.jpg)
 
+* Add the shortcut of VS code to `Task bar`
 
 #### D.1.2 Set the default type of a new file
 
