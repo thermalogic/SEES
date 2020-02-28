@@ -19,13 +19,11 @@
 
 * **Homework**
    
-    * Do [Practice 1](https://github.com/PySEE/Practices/tree/S2020/P1)
-   
-      * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
+   * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
      
-      * [Install Softwares: Python, Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
+   * [Install Softwares: Python, Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
 
-      * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
+   * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
  ## [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
 
