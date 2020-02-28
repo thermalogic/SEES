@@ -43,6 +43,11 @@
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
+    - [安装要点](#安装要点)
+        - [Python解释器](#python解释器)
+        - [安装Python软件包](#安装python软件包)
+        - [Visual Studio Code](#visual-studio-code)
+        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -382,17 +387,15 @@ Download the latest available version of gcc compiler for **windows64** with **w
 
 For Windows 10: 
 
-Press `Win+Q`,Open the `Start Search`, type in `env`, and choose `Edit the system environment variables`
+Press `Win+Q`, Open the `Start Search`, type in `env`, and choose `Edit the system environment variables`, choose "**Environment Variables**" button
 
-![path](./img/path.jpg)
- 
-Choose "**Environment Variables**" button
-
-![env](./img/env.jpg)
+![env](./img/gcc-path-1.jpg)
 
  Go to the section  "**System Variable**"(the lower half) ⇒ find the "**Path**" row,and click "**edit**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable)  ⇒  Enter the value: **C:\mingw64\bin**
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
+
+> **Note:** Existing shells and/or running programs will probably be using the old path, but any `new` shell/program will use the new settings.
 
 **C.2.3** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
 
