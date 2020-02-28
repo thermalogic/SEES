@@ -4,29 +4,33 @@
 
 * Python https://github.com/python
 
-* FOSSEE https://github.com/FOSSEE
+* Microsoft https://github.com/Microsoft
 
-* Packt https://github.com/PacktPublishing
+* NASA https://github.com/nasa
 
 * Software Carpentry https://github.com/swcarpentry
-
-* Advanced JavaScript at NYU https://github.com/advanced-js
-
-* Introduction to Data Science.The University of Utah (https://github.com/datascience-course)
-
-* University of Bristol High Performance Computing Group https://github.com/UoB-HPC
 
 * OpenFOAM: https://github.com/OpenFOAM
 
 * OpenMDAO:  https://github.com/OpenMDAO
 
-* Computer Aided Chemical Engineering https://github.com/CAChemE
+* University of Bristol High Performance Computing Group https://github.com/UoB-HPC
 
 * Thermal Systems Modeling Toolkit：https://github.com/TSTK
 
-* Microsoft https://github.com/Microsoft
+* ebooks
 
-* NASA https://github.com/nasa
+   * FOSSEE https://github.com/FOSSEE
+
+   * Packt https://github.com/PacktPublishing
+
+* Courses 
+
+  * Advanced JavaScript at NYU https://github.com/advanced-js
+
+  * Introduction to Data Science.The University of Utah (https://github.com/datascience-course)
+
+  * Computer Aided Chemical Engineering https://github.com/CAChemE
 
 ## Repositories
 
@@ -40,10 +44,12 @@
 
 ## Accounts
 
-* Anders Hejlsberg. https://github.com/ahejlsberg
-
 * Linus Torvalds. https://github.com/torvalds
+
+* Anders Hejlsberg. https://github.com/ahejlsberg
 
 * Cheng Zhao. https://github.com/zcbenz
 
 * wei https://github.com/t104306033
+
+* 吉珣碧 https://github.com/Jxb814  美国密歇根大学安娜堡分校 2018硕士研究生，2020博士研究生
