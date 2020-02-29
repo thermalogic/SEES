@@ -119,13 +119,17 @@
 
 ### 下次内容
 
-1. 检查同学们的软件和课件的安装和使用情况:
-   * Python Shell,IDLE
-   * pip 
-   * Jupyter
-   * VS Code 
-      * Python,Jupyter
-      * MinGW-64,C++
-      * Markdown
-   * Git：Clone,pull,checkout
-2. QQ群答疑
+检查同学们的软件和课件的安装和使用情况- **记平时分: 2**
+* Python Shell,IDLE
+* pip 
+* Jupyter
+* MinGW-64(GCC)
+* Markdown
+* VS Code 
+   * Workspace
+   * Extensions
+   * Python,Jupyter
+   * C++
+   * Markdown
+* Git：Clone,pull,checkout
+* home
