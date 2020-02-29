@@ -68,12 +68,13 @@
 ### 课后工作
 
 1. 安装和使用Python、VS Code软件
-2. 下载并使用课件
+2. 下载home仓库并使用
 3. 电邮反馈信息：cmh@seu.edu.cn
 
 ### 下次内容
 
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
+   * [Resources On Github](./doc/ResourcesOnGithub.md)
 2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
 4. [课程内容、练习和考核要求等](./README.md)
 
@@ -99,6 +100,7 @@
 ### 内容
  
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
+   * [Resources On Github](./doc/ResourcesOnGithub.md)
 2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
 3. 同学们体验以上内容，QQ群反馈信息
 * -- 课间休息 ---
@@ -108,9 +110,9 @@
 
 ### 课后工作
 
-1. 熟悉开发软件
-2. 下载home并使用课件
-3. 做自己学习备忘录Markdown文档 (建议工作，不考核)
+1. 熟悉开发软件:Python,Jupyter,VS Code
+2. 使用Git克隆，更新home
+3. 做个人的学习备忘录Markdown文档 (建议工作，不考核)
 3. 电邮反馈信息：cmh@seu.edu.cn
 
 ### 下次内容

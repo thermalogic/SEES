@@ -52,4 +52,4 @@
 
 * wei https://github.com/t104306033
 
-* 吉珣碧 https://github.com/Jxb814  美国密歇根大学安娜堡分校 2018硕士研究生，2020博士研究生
+* 吉珣碧 https://github.com/Jxb814  美国密歇根大学安娜堡分校 2020博士研究生
