@@ -119,6 +119,5 @@
 
 ### 下次内容
 
-Python简介：`Unit1-1-INTRODUCTION_TO_PYTHON.ipynb`
-
-* 在线访问 https://nbviewer.jupyter.org/github/PySEE/home/blob/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb
+1. 检查同学们的软件和课件的安装和使用情况
+2. QQ群答疑
