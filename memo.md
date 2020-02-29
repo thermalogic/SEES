@@ -76,7 +76,8 @@
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
    * [Resources On Github](./guide/doc/ResourcesOnGithub.md)
 2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
-4. [课程内容、练习和考核要求等](./README.md)
+3. [课程内容、练习和考核要求等](./README.md)
+   * [计算机能力养成](./guide/doc/tips4coding.md)
 
 ## 0302
 
@@ -105,6 +106,7 @@
 3. 同学们体验以上内容，QQ群反馈信息
 * -- 课间休息 ---
 4. [课程内容、练习和考核要求等](./README.md)
+   * [计算机能力养成](./guide/doc/tips4coding.md)
 5. QQ群反馈信息
 * -- 下课 ---
 
