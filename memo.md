@@ -107,29 +107,30 @@
 * -- 课间休息 ---
 4. [课程内容、练习和考核要求等](./README.md)
    * [计算机能力养成](./tips4coding.md)
+   * [课程概要](./outline.md)
 5. QQ群反馈信息
 * -- 下课 ---
 
 ### 课后工作
 
-1. 熟悉开发软件:Python,Jupyter,VS Code
-2. 使用Git克隆，更新home
-3. 做个人的学习备忘录Markdown文档 (建议工作，不考核)
-3. 电邮反馈信息：cmh@seu.edu.cn
+1. 完成软件安装和使用
+   * Python Shell,IDLE
+   * pip 
+   * Jupyter
+   * MinGW-64(GCC)
+   * Markdown
+   * VS Code 
+      * Workspace
+      * Extensions
+      * Python,Jupyter
+      * C++
+      * Markdown
+   * Git：Clone,pull,checkout
+2. 完成下载课件和使用
+   * home
+3. 制作个人学习备忘录Markdown文档 (`建议工作，不考核`)
+4. 电邮反馈信息：cmh@seu.edu.cn
 
 ### 下次内容
 
-检查同学们的软件和课件的安装和使用情况- **记平时分: 2**
-* Python Shell,IDLE
-* pip 
-* Jupyter
-* MinGW-64(GCC)
-* Markdown
-* VS Code 
-   * Workspace
-   * Extensions
-   * Python,Jupyter
-   * C++
-   * Markdown
-* Git：Clone,pull,checkout
-* home
+* Python简介：[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
