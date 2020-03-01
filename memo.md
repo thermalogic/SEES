@@ -59,11 +59,11 @@
 2. VS Code中的Python环境建立：插件、autopep8,pylint
 3. VS Code中使用Jupyter
 4. 同学们体验以上内容，QQ群反馈信息
-* -- 课间休息 ---
+* -- 课间休息 --
 5. MinGW-W64(GCC)编译器安装
 6. VS Code中C++编程
 7. 同学们体验以上内容，QQ群反馈信息
-* --  下课 ---
+* --  下课 --
 
 ### 课后工作
 
