@@ -78,6 +78,7 @@
 2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
 3. [课程内容、练习和考核要求等](./README.md)
    * [计算机能力养成](./tips4coding.md)
+   * [课程概要](./outline.md)
 
 ## 0302
 
