@@ -42,12 +42,6 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
-
-    - [安装要点](#安装要点)
-        - [Python解释器](#python解释器)
-        - [安装Python软件包](#安装python软件包)
-        - [Visual Studio Code](#visual-studio-code)
-        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -89,6 +83,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
         - [F.1 Scipy](#f1-scipy)
         - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
     - [Extended](#extended)
+        - [QPython: Python for Android](#qpython-python-for-android)
         - [Windows10](#windows10)
         - [SEUIF97 Shared Library](#seuif97-shared-library)
         - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
@@ -553,6 +548,12 @@ IAPWS
 ``` 
 
 ## Extended
+
+### QPython: Python for Android
+
+https://www.qpython.org/
+
+QPython is a script engine that runs Python on android devices. It lets your android device run Python scripts and projects. It contains the Python interpreter, console, editor, and the SL4A Library for Android.
 
 ### Windows10
 
