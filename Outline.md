@@ -149,6 +149,14 @@
    
 * psutil
 
+## [The-SIR-epidemic-model](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-8-Special-Example-The-SIR-epidemic-model.ipynb)
+
+* SIR
+
+* NUmpy,Scipy,Matplotlib
+
+* LaTex-Math
+
 ## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
 * Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
