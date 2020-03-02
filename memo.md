@@ -94,7 +94,7 @@
 * https://www.python.org/
 * https://www.seu.edu.cn/
 
-**结果**：
+**结果**：全到
 
 ### 内容
  
@@ -120,7 +120,7 @@
       * Python,Jupyter
       * C++
       * Markdown
-   * Git：Clone,pull,checkout
+   * Git：clone,pull,checkout
 2. 完成下载课件和使用
    * home
 3. 制作个人学习备忘录Markdown文档 (`建议工作，不考核`)
