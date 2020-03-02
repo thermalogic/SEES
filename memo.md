@@ -104,7 +104,6 @@
 * -- 课间休息 --
 3. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
 4. 同学们体验以上内容，QQ群反馈信息
-5. QQ群反馈信息
 * -- 下课 --
 
 ### 课后工作
