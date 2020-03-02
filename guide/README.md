@@ -1,4 +1,9 @@
 
+
+## 问题及解决方案
+
+* [Problem and Answer](./doc/Problem_Solution.md)
+
 ## Contents
 
 * [The Guide of Building Software Environment](./doc/BuildingSoftwareEnvironment.md)
@@ -20,8 +25,4 @@
 * [Install OpenModelica](./doc/InstallOpenModelica.md) 
 
 * [Further Studing](./doc/FurtherStuding.md)
-
-## 历史问题及答案
-
-* [Problem and Answer](./doc/Problem_Solution.md)
 
