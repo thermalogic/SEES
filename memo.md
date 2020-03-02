@@ -76,9 +76,6 @@
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
    * [Resources On Github](./guide/doc/ResourcesOnGithub.md)
 2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
-3. [课程内容、练习和考核要求等](./README.md)
-   * [计算机能力养成](./tips4coding.md)
-   * [课程概要](./outline.md)
 
 ## 0302
 
@@ -103,12 +100,10 @@
  
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
    * [Resources On Github](./guide/doc/ResourcesOnGithub.md)
-2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
-3. 同学们体验以上内容，QQ群反馈信息
+2. 同学们体验以上内容，QQ群反馈信息
 * -- 课间休息 --
-4. [课程内容、练习和考核要求等](./README.md)
-   * [计算机能力养成](./tips4coding.md)
-   * [课程概要](./outline.md)
+3. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
+4. 同学们体验以上内容，QQ群反馈信息
 5. QQ群反馈信息
 * -- 下课 --
 
@@ -134,4 +129,8 @@
 
 ### 下次内容
 
-* Python简介：[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+1. [课程内容、练习和考核要求等](./README.md)
+   * [计算机能力养成](./tips4coding.md)
+   * [课程概要](./outline.md)
+
+2. Python简介：[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
