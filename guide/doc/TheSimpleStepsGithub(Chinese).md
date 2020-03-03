@@ -134,7 +134,7 @@ Every git user should first introduce himself to git, by running these two comma
 
 ### 4.4 Git本地和远程仓库操作过程图 
 
-   ![The process of Git](./img/theProcessGit.jpg)
+   ![The process of Git](./img/TheProcessGit.jpg)
 
 ## 5 持久化远程Github账号
 
