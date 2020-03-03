@@ -42,6 +42,12 @@
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
+
+    - [安装要点](#安装要点)
+        - [Python解释器](#python解释器)
+        - [安装Python软件包](#安装python软件包)
+        - [Visual Studio Code](#visual-studio-code)
+        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
@@ -392,7 +398,8 @@ Press `Win+Q`, Open the `Start Search`, type in `env`, and choose `Edit the syst
 
 ![mingw-w64-path](./img/mingw-w64-path.jpg)
 
-> **Note:** Existing shells and/or running programs will probably be using the old path, but any `new` shell/program will use the new settings.
+> **Note:** Existing console windows will be using the old path. 
+> so that, you will need to reopen any console windows for the new `PATH` location to be available.
 
 **C.2.3** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
 
