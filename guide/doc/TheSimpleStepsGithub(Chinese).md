@@ -271,8 +271,7 @@ git push mirror master
 
 ## 参考：
 
-**[1]** How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+* [1] [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
-**[2]** Git Version Control in VS Code：   https://code.visualstudio.com/docs/editor/versioncontrol
+* [2] [Git Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
-  * 使用Visual Studio Code进行Git/Github工作更方便些。
