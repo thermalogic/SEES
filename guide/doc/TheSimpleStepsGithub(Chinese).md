@@ -21,7 +21,7 @@
         - [4.1 本地工作内容变化提交到暂存区](#41-本地工作内容变化提交到暂存区)
         - [4.2 存入暂存区内容提交至本地仓库](#42-存入暂存区内容提交至本地仓库)
         - [4.3 本地仓库的更新同步到远程github仓库](#43-本地仓库的更新同步到远程github仓库)
-        - [4.4 The process of Git](#44-the-process-of-git)
+        - [4.4 Git本地和远程仓库操作过程图](#44-git本地和远程仓库操作过程图)
     - [5 持久化远程Github账号](#5-持久化远程github账号)
     - [6 创建分支](#6-创建分支)
         - [6.1 本地新建分支](#61-本地新建分支)
@@ -132,9 +132,9 @@ Every git user should first introduce himself to git, by running these two comma
 >git push
 ```
 
-### 4.4 The process of Git 
+### 4.4 Git本地和远程仓库操作过程图 
 
-![Git Storage Model](./img/Git_StorageDataFlow_Simple.jpg)
+   ![The process of Git](./img/theProcessGit.jpg)
 
 ## 5 持久化远程Github账号
 
