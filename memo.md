@@ -2,25 +2,33 @@
 
 <!-- TOC -->
 
+- [线上点名](#线上点名)
 - [0220](#0220)
     - [内容](#内容)
 - [0227](#0227)
     - [点名](#点名)
     - [内容](#内容-1)
     - [课后工作](#课后工作)
-    - [下次内容](#下次内容)
 - [0302](#0302)
     - [点名](#点名-1)
     - [内容](#内容-2)
     - [课后工作](#课后工作-1)
-    - [下次内容](#下次内容-1)
 - [0305](#0305)
     - [点名](#点名-2)
     - [内容](#内容-3)
     - [课后工作](#课后工作-2)
-    - [下次内容](#下次内容-2)
+    - [下次内容](#下次内容)
 
 <!-- /TOC -->
+
+## 线上点名
+
+QQ群 `群投票`
+
+**截止时间：** 课程开始时间 + 5 分钟
+
+1. 选项不影响平时分
+2. 不投, 算缺席，减平时分
 
 ## 0220
 
@@ -37,19 +45,10 @@
 
 ### 点名
 
-`群投票`形式 `点名`
+投票内容：0227-课前预习情况统计(点名）
 
-**截止时间：** 14：05
-
-1. 实际情况投票，选项不影响平时分
-2. 不投, 算缺席，减平时分
-
-投票内容：
-
-* 0227-课前预习情况统计(点名）
-
-  * 课前已安装VS Code
-  * 课前未安装VS Code
+* 课前已安装VS Code
+* 课前未安装VS Code
 
 **结果** ：全到  
 
@@ -76,23 +75,9 @@
 2. 下载home仓库并使用
 3. 电邮反馈信息：cmh@seu.edu.cn
 
-### 下次内容
-
-1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
-   * [Resources On Github](./guide/doc/ResourcesOnGithub.md)
-2. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
-
 ## 0302
 
 ### 点名
-
-`群投票`形式 `点名`
-
-**截止时间：** 15:55
-
-1. 选项不影响平时分
-
-2. 不投, 算缺席，减平时分
 
 投票内容：0302-Python语言官网地址(点名）
 
@@ -131,34 +116,9 @@
 3. 制作个人学习备忘录Markdown文档 (`建议工作，不考核`)
 4. 电邮反馈信息：cmh@seu.edu.cn
 
-### 下次内容
-
-1. [课程内容、练习和考核要求等](./README.md)
-   * [计算机能力养成](./tips4coding.md)
-   * [课程概要](./outline.md)
-
-2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-    * Python
-       * the interpreted ,dynamically typed, scripting Language
-       * Objects `id()`,Variables and Assignment
-       * Numerical Types, Operators and Expressions 
-       * output: `print()`
-       * Comments：`#`
-    * Jupyter
-      * `magic` functions： `cell`, `line`  
-      * `!` shell command
-
 ## 0305
 
 ### 点名
-
-`群投票`形式 `点名`
-
-**截止时间：** 14:05
-
-1. 选项不影响平时分
-
-2. 不投, 算缺席，减平时分
 
 投票内容：0305-Git是(点名）
 
