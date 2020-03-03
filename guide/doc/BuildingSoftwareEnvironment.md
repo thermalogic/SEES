@@ -121,6 +121,8 @@ For Windows users, open [the terminal](./CodingWithTerminal.md) in Windows, clic
 
 Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
 
+* [Computer Terminal](./CodingWithTerminal.md)
+
 You should see the  **Shell**  symbol `>>>` indicating that the interpreter is expecting the user to type some commands(Python code) into the shell.
 
 
