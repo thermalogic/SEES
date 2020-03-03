@@ -3,19 +3,11 @@
 
 **Python解释器**
 
-1. `勾选`,将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
+1. 勾选将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
 
-2. 选择自定义安装：`Customize Installation`，勾选相关项目
-  
-3. 按照Python解释器版本号，自定义`简短`的安装目录(`Customize Install location`)，如：
+2. 选择自定义安装：`Customize Installation`，对 `Customize Install location`项目， 按照Python解释器版本号，自定义`简短`的安装目录，如：
       
     *  Python3.7，定义为 `C:\Python37`；Python3.8，定义为 `C:\Python38`
-
-4. Python解释器安装过程中，会从外网服务器下载一些软件库，过程可能比较慢，也可能失败
-
-   如果出现这些问题，不要勾选以下项目，减少安装时从外网下载的软件库
-
-   ![](./img/PythonInstallError.jpg)
 
 **安装Python软件包**
 
@@ -24,7 +16,6 @@
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
 **Visual Studio Code**
 
 1. 安装过程中`勾选`有关项目，方便使用
@@ -112,19 +103,17 @@ In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/
 
 * 1  Make sure you **check** option **Add Python 3.7 to PATH**
 
-* 2  To change install location, click on **Customize installation** , then **Next** and enter **C:\python37** the item of  **Customize installation location**
+* 2  To `change install location`, click on **Customize installation** , enter **C:\python37** in the item of  **Customize installation location**
 
-  ![Python3-path](./img/python37-path.jpg) 
+  ![Python3-install](./img/python37-install.jpg) 
 
-  ![Python3-location](./img/python37-location.jpg)
-
-  Python is an interpreted language. Python programs are executed by an interpreter. 
+Python is an interpreted language. Python programs are executed by an interpreter. 
   
-  There are two ways to use the interpreter: 
+There are two ways to use the interpreter: 
   
-  * `command-line` mode
+* `command-line` mode
   
-  * `script` mode
+* `script` mode
 
 #### A.1.2  Using Python Shell(command-line model)
 

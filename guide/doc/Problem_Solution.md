@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+    - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
     - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
     - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
     - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
@@ -21,6 +22,12 @@
 
 <!-- /TOC -->
 
+## Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败
+
+**原因：** Python解释器`Advanced Options`选择安装预编译标准库等时，会从`外网`服务器下载这些库，过程可能比较慢，也可能失败
+
+**解决：**  如果多次安装都失败，不要勾选这些项目
+ 
 ## 中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文
 
 **原因：** 中文Windows10环境下PowerShell终端的默认字符集编码是中文GBK，Jupyter Notebook启动时被默认配置为其显示语言
