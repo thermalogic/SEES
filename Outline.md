@@ -42,16 +42,14 @@
       
 ## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)
 
-* `if`, `while`,`for loops`, `break`, `continue`
+* `if`, `while loop`,`for loop`, `break`, `continue`
 
 * `range(start,stop,step)`
      
 * **Indentation**: delineate blocks of code
      
-* Line Continuation: `\`
-
-* Exhaustive Enumeration
-    
+* Line Continuation: `() [] {}` , `\`
+   
 * **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
       
 ## [FUNCTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
