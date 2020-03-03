@@ -498,8 +498,9 @@ After you have installed **git**, You may use the following **commands:** to cle
 ```bash
 >git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
 ```
-* --depth 1 
 * -b S2020 
+* --depth 1 
+  * Create a shallow clone with a history truncated to the specified number of commits
 
 When you clone a repository you set up a copy on your computer. This will create a folder **home** on your computer with the files in sub-folders.
 
