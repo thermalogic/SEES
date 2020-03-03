@@ -1,7 +1,7 @@
 
-##  安装要点
+**安装要点**
 
-### Python解释器
+**Python解释器**
 
 1. `勾选`,将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
 
@@ -17,20 +17,21 @@
 
    ![](./img/PythonInstallError.jpg)
 
-### 安装Python软件包
+**安装Python软件包**
 
 `pip`命令安装软件包的源是Pypi。因为Pypi服务器在外网，安装速度慢，也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
 
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-### Visual Studio Code
+
+**Visual Studio Code**
 
 1. 安装过程中`勾选`有关项目，方便使用
 
 2. 将Visual Studio Code快捷方式固定到  `任务栏 `
 
-### MinGW-W64(GCC)
+**MinGW-W64(GCC)**
 
 1. 将安装路径加入系统环境变量`Path`
 
@@ -43,11 +44,6 @@
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
-    - [安装要点](#安装要点)
-        - [Python解释器](#python解释器)
-        - [安装Python软件包](#安装python软件包)
-        - [Visual Studio Code](#visual-studio-code)
-        - [MinGW-W64(GCC)](#mingw-w64gcc)
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
     - [A:Python & PyPI](#apython--pypi)
         - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
