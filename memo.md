@@ -14,6 +14,11 @@
     - [内容](#内容-2)
     - [课后工作](#课后工作-1)
     - [下次内容](#下次内容-1)
+- [0305](#0305)
+    - [点名](#点名-2)
+    - [内容](#内容-3)
+    - [课后工作](#课后工作-2)
+    - [下次内容](#下次内容-2)
 
 <!-- /TOC -->
 
@@ -132,4 +137,58 @@
    * [计算机能力养成](./tips4coding.md)
    * [课程概要](./outline.md)
 
-2. Python简介：[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+    * Python
+       * the interpreted ,dynamically typed, scripting Language
+       * Objects,Variables and Assignment; Comments：`#`，`id()`
+       * Numerical Types, Operators and Expressions 
+    * Jupyter's `magic` functions： `cell`, `line`  
+
+## 0305
+
+### 点名
+
+`群投票`形式 `点名`
+
+**截止时间：** 15:55
+
+1. 选项不影响平时分
+
+2. 不投, 算缺席，减平时分
+
+投票内容：0305-Git是(点名）
+
+* 开源的分布式版本控制系统
+* 关系型数据库管理系统(RDBMS)
+
+**结果**：
+
+### 内容
+ 
+
+1. [课程内容、练习和考核要求等](./README.md)
+   * [计算机能力养成](./tips4coding.md)
+   * [课程概要](./outline.md)
+* -- 课间休息 --
+2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+    * Python
+       * the interpreted ,dynamically typed, scripting Language
+       * Objects,Variables and Assignment; Comments：`#`，`id()`
+       * Numerical Types, Operators and Expressions 
+    * Jupyter's `magic` functions： cell, line   
+   
+3. 同学们体验以上内容，QQ群反馈信息
+* -- 下课 --
+
+### 课后工作
+
+1. 建立Jupyter Notebook, 练习课程内容(`建议工作，不考核`)
+2. 电邮反馈信息：cmh@seu.edu.cn
+
+### 下次内容
+
+1. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+   * String, Slicing, Input 
+   * Type Conversion
+2. [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)   
+   

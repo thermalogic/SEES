@@ -37,7 +37,7 @@
       
    * Type Conversion
    
-   * Jupyter's `magic` functions： cell, line   
+   * Jupyter's `magic` functions： `cell`, `line`   
       
 ## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)
 
