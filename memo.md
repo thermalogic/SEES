@@ -140,9 +140,13 @@
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
     * Python
        * the interpreted ,dynamically typed, scripting Language
-       * Objects,Variables and Assignment; Comments：`#`，`id()`
+       * Objects `id()`,Variables and Assignment
        * Numerical Types, Operators and Expressions 
-    * Jupyter's `magic` functions： `cell`, `line`  
+       * output: `print()`
+       * Comments：`#`
+    * Jupyter
+      * `magic` functions： `cell`, `line`  
+      * `!` shell command
 
 ## 0305
 
@@ -165,7 +169,6 @@
 
 ### 内容
  
-
 1. [课程内容、练习和考核要求等](./README.md)
    * [计算机能力养成](./tips4coding.md)
    * [课程概要](./outline.md)
@@ -173,22 +176,28 @@
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
     * Python
        * the interpreted ,dynamically typed, scripting Language
-       * Objects,Variables and Assignment; Comments：`#`，`id()`
+       * Objects `id()`,Variables and Assignment; 
        * Numerical Types, Operators and Expressions 
-    * Jupyter's `magic` functions： cell, line   
-   
+       * output: `print()`
+       * Comments：`#`
+    * Jupyter
+      * `magic` functions： `cell`, `line`  
+      * `!` shell command
 3. 同学们体验以上内容，QQ群反馈信息
 * -- 下课 --
 
 ### 课后工作
 
-1. 建立Jupyter Notebook, 练习课程内容(`建议工作，不考核`)
+1. 练习课程内容(`建议工作，不考核`)
+   * 建一个Jupyter Notebook文件练习
+   * 建一个Python源码文件练习
 2. 电邮反馈信息：cmh@seu.edu.cn
 
 ### 下次内容
 
 1. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-   * String, Slicing, Input 
+   * String, Slicing
+   * Input：`input()`
    * Type Conversion
 2. [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)   
    

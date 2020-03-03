@@ -28,16 +28,17 @@
  ## [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
 
 * **Python**: the interpreted ,dynamically typed, scripting Language
-     
-   * Objects,Variables and Assignment; Comments：`#`，`id()`
-
+   * The interpreted ,dynamically typed, scripting Language
+   * Objects `id()`,Variables and Assignment; 
    * Numerical Types, Operators and Expressions 
-     
-   * String, Slicing, Input, 
-      
+   * Output: `print()`
+   * Comments：`#`
+   * String, Slicing
+   * Input：`input()`
    * Type Conversion
-   
-   * Jupyter's `magic` functions： `cell`, `line`   
+* Jupyter
+   *  `magic` functions： `cell`, `line`   
+   *  `!`  Shell command
       
 ## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)
 
