@@ -90,7 +90,7 @@
 ### 内容
  
 1. [Git使用：获取、更新课件](./guide/doc/BuildingSoftwareEnvironment.md#e-using-git)
-   * [Resources On Github](./guide/doc/ResourcesOnGithub.md)
+   * [Github资源简介](./guide/doc/ResourcesOnGithub.md)
 2. 同学们体验以上内容，QQ群反馈信息
 * -- 课间休息 --
 3. [Markdown简介: 标志语法，使用VS Code编辑](./guide/doc/Introduction2Markdown(Chinese).md)
@@ -133,13 +133,13 @@
    * [课程概要](./outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-    * Python
+    * Python 语言对象、变量、赋值表达式等
        * The interpreted ,dynamically typed, scripting Language
        * Objects `id()`,Variables and Assignment
        * Comments：`#`
        * Numerical Types, Operators and Expressions 
        * Output: `print()`
-    * Jupyter
+    * Jupyter魔法命令等
       * `magic` functions： `cell`, `line`  
       * `!` shell command
 3. 同学们体验以上内容，QQ群反馈信息
