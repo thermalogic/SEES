@@ -99,6 +99,8 @@
 
   * Code: https://github.com/Apress/beg-cplusplus17
 
+* [Microsoft: Welcome back to C++ - Modern C++](https://docs.microsoft.com/en-us/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=vs-2019)
+
 ### Ubuntu
 
 * Ubuntu https://www.ubuntu.com/
