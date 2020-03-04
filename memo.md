@@ -133,7 +133,7 @@
    * [课程概要](./outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-    * Python 语言对象、变量、赋值表达式等
+    * Python 语言对象、变量、赋值、数值类型，运算符和表达式等
        * The interpreted ,dynamically typed, scripting Language
        * Objects `id()`,Variables and Assignment
        * Comments：`#`
