@@ -27,12 +27,11 @@
 
  ## [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
 
-* **Python**: the interpreted ,dynamically typed, scripting Language
-   * The interpreted ,dynamically typed, scripting Language
+* **Python**: The interpreted ,dynamically typed, scripting Language
    * Objects `id()`,Variables and Assignment; 
+   * Comments：`#`
    * Numerical Types, Operators and Expressions 
    * Output: `print()`
-   * Comments：`#`
    * String, Slicing
    * Input：`input()`
    * Type Conversion

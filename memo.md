@@ -134,11 +134,11 @@
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
     * Python
-       * the interpreted ,dynamically typed, scripting Language
-       * Objects `id()`,Variables and Assignment; 
-       * Numerical Types, Operators and Expressions 
-       * output: `print()`
+       * The interpreted ,dynamically typed, scripting Language
+       * Objects `id()`,Variables and Assignment
        * Comments：`#`
+       * Numerical Types, Operators and Expressions 
+       * Output: `print()`
     * Jupyter
       * `magic` functions： `cell`, `line`  
       * `!` shell command
