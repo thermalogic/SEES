@@ -358,17 +358,13 @@ Goto [MinGW-W64](https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 
 **MinGW-W64 GCC-?.?.?**
 
-```bash 
-x86_64-posix-sjlj
-x86_64-posix-seh
-x86_64-win32-sjlj
-x86_64-win32-seh 
-```
-  
 Download the latest available version of gcc compiler for **windows64** with **win32 API multithreading** - `x86_64-win32-seh`, for example：
 
-* GCC-8.1.0 [x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
+* [GCC-8.1.0 x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
  
+> [The Latest MinGW-w64 for Windows by Brecht Sanders](http://winlibs.com/)
+
+
 ### C.2 Set MinGW-W64 Environment
 
 **C.2.1** unzip the zipped MinGW-w64,then,remove to **C:\mingw64**
