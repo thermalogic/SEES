@@ -11,8 +11,6 @@ int main()
     cout <<myList[2]<<endl; 
     
     for (auto &item : myList)
-    {
         cout << item << " ";
-    }
     cout << endl;
 }
