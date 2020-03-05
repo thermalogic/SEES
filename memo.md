@@ -139,7 +139,7 @@
       * `magic` functions： `%% cell`, `% line`  
       * `!` shell command
 3. [Windows文件系统](./guide/doc/WindowsFileSystem.md )
-4. [计算机终端]()./guide/doc/ComputerTerminal.md)
+4. [计算机终端](./guide/doc/ComputerTerminal.md)
 5. 同学们体验以上内容，QQ群反馈信息
 
 
