@@ -97,7 +97,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
   ![download](./guide/doc/img/downloadhome.jpg)
 
-* Usimg the Jupyter Notebooks of PySEE/home:  
+* Using the Jupyter Notebooks of PySEE/home:  
 
    Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
