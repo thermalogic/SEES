@@ -29,7 +29,10 @@
     - [点名](#点名-2)
     - [内容](#内容-3)
     - [课后工作](#课后工作-2)
-    - [下次内容](#下次内容)
+- [0312](#0312)
+    - [点名](#点名-3)
+    - [内容](#内容-4)
+    - [课后工作](#课后工作-3)
 
 <!-- /TOC -->
 
@@ -133,7 +136,7 @@
    * [课程概要](./outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-    * 编译型语言
+    * 编译、静态类型语言：C/C++
     * Python3
     * Jupyter魔法命令等
       * `magic` functions： `%% cell`, `% line`  
@@ -142,22 +145,45 @@
 4. [计算机终端](./guide/doc/ComputerTerminal.md)
 5. 同学们体验以上内容，QQ群反馈信息
 
+### 课后工作
+
+练习课程内容(`建议工作，不考核`)
+* 建一个Jupyter Notebook文件练习
+
+
+## 0312
+
+### 点名
+
+投票内容：0312-C/C++语言是(点名）
+
+* 编译、静态类型语言
+* 解释。动态类型语言
+
+**结果**：
+
+### 内容
+
+[Python基础](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+
+1. 对象、变量、数值类型，表达式等
+   * The interpreted ,dynamically typed, scripting Language1 
+   * Objects `id()`,Variables and Assignment
+   * Comments：`#`
+   * Numerical Types, Operators and Expressions 
+   * Output: `print()`
+* -- 课间休息 --
+2. 字符串等
+    * String, Slicing
+    * Input：`input()`
+    * Type Conversion
+3. 同学们体验以上内容，QQ群反馈信息
 
 ### 课后工作
 
 练习课程内容(`建议工作，不考核`)
 * 建一个Jupyter Notebook文件练习
-     
-### 下次内容
+* 建Python源码文件练习
 
-[PythonN: 对象、变量、数值类型，表达式等](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-* The interpreted ,dynamically typed, scripting Language
-* Objects `id()`,Variables and Assignment
-* Comments：`#`
-* Numerical Types, Operators and Expressions 
-* Output: `print()`
-* String, Slicing
-* Input：`input()`
-* Type Conversion
  
    
