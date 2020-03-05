@@ -93,26 +93,24 @@ The Course graded on an 100 point scale and then weighted according to the follo
 
 * Download the *PySEE/home* Repository  
 
-  You can manually download the `home.zip` file of the `PySEE/home` to your computer
+  You can manually download the `zip` file of the `PySEE/home` to your computer
 
   ![download](./guide/doc/img/downloadhome.jpg)
 
-   >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
-   >
-   >**Cloning the S2020 branch of repository shallowly for saving bandwidth**
-   >
-   >```bash
-   >git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
-   >```
-   >**Updating to The Latest Version**
-   >
-   >```bash
-   >git pull
-   >```
-   >
+* Usimg the Jupyter Notebooks of PySEE/home:  
 
-* Open the Jupyter Notebooks of PySEE/home:  
+   Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
 
-   Unzip **home.zip**.In the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
-
-
+>We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
+>
+>**Cloning the S2020 branch of repository shallowly for saving bandwidth**
+>
+>```bash
+>git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
+>```
+>**Updating to The Latest Version**
+>
+>```bash
+>git pull
+>```
+>
