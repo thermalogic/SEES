@@ -134,6 +134,7 @@
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
     * 编译型语言
+    * Python3
     * Jupyter魔法命令等
       * `magic` functions： `%% cell`, `% line`  
       * `!` shell command
