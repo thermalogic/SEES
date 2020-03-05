@@ -133,16 +133,13 @@
    * [课程概要](./outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-    * Python 语言对象、变量、赋值、数值类型，运算符和表达式等
-       * The interpreted ,dynamically typed, scripting Language
-       * Objects `id()`,Variables and Assignment
-       * Comments：`#`
-       * Numerical Types, Operators and Expressions 
-       * Output: `print()`
+    * 编译型语言
     * Jupyter魔法命令等
-      * `magic` functions： `cell`, `line`  
+      * `magic` functions： `%% cell`, `% line`  
       * `!` shell command
-3. 同学们体验以上内容，QQ群反馈信息
+3. [Windows文件系统](./guide/doc/WindowsFileSystem.md )
+4. [计算机终端][./guide/doc/ComputerTerminal.md)
+5. 同学们体验以上内容，QQ群反馈信息
 
 
 ### 课后工作
@@ -154,6 +151,11 @@
 ### 下次内容
 
 1. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+          * The interpreted ,dynamically typed, scripting Language
+       * Objects `id()`,Variables and Assignment
+       * Comments：`#`
+       * Numerical Types, Operators and Expressions 
+       * Output: `print()`
    * String, Slicing
    * Input：`input()`
    * Type Conversion
