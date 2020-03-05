@@ -147,18 +147,18 @@
 
 1. 练习课程内容(`建议工作，不考核`)
    * 建一个Jupyter Notebook文件练习
-   * 建一个Python源码文件练习
-
+     
 ### 下次内容
 
-1. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
-          * The interpreted ,dynamically typed, scripting Language
-       * Objects `id()`,Variables and Assignment
-       * Comments：`#`
-       * Numerical Types, Operators and Expressions 
-       * Output: `print()`
-   * String, Slicing
-   * Input：`input()`
-   * Type Conversion
-2. [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)   
+[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+
+* The interpreted ,dynamically typed, scripting Language
+* Objects `id()`,Variables and Assignment
+* Comments：`#`
+* Numerical Types, Operators and Expressions 
+* Output: `print()`
+* String, Slicing
+* Input：`input()`
+* Type Conversion
+ 
    
