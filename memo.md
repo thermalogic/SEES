@@ -139,7 +139,7 @@
     * 编译、静态类型语言：C/C++
     * Python3
     * Jupyter魔法命令等
-      * `magic` functions： `%% cell`, `% line`  
+      * `magic` functions： `%% cell`, `% line`; `%%file 文件名`
       * `!` shell command
 3. [Windows文件系统](./guide/doc/WindowsFileSystem.md )
 4. [计算机终端](./guide/doc/ComputerTerminal.md)
