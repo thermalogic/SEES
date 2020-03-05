@@ -150,7 +150,7 @@
      
 ### 下次内容
 
-[INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+[PythonN: 对象、变量、数值类型，表达式等](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
 
 * The interpreted ,dynamically typed, scripting Language
 * Objects `id()`,Variables and Assignment
