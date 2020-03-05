@@ -10,7 +10,7 @@ int main()
         myList.push_back(i);
     cout <<myList[2]<<endl; 
     
-    for (const int& item : myList)
+    for (auto &item : myList)
     {
         cout << item << " ";
     }
