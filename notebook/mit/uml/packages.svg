@@ -12,22 +12,22 @@
 <!-- 0 -->
 <g id="node1" class="node"><title>0</title>
 <polygon fill="none" stroke="black" points="74,-36 0,-36 0,-0 74,-0 74,-36"/>
-<text text-anchor="middle" x="37" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">distinmulti</text>
+<text text-anchor="middle" x="37" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node"><title>1</title>
 <polygon fill="none" stroke="black" points="190,-36 92,-36 92,-0 190,-0 190,-36"/>
-<text text-anchor="middle" x="141" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">distinmulti.edu</text>
+<text text-anchor="middle" x="141" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit.edu</text>
 </g>
 <!-- 2 -->
 <g id="node3" class="node"><title>2</title>
 <polygon fill="none" stroke="black" points="340,-36 208,-36 208,-0 340,-0 340,-36"/>
-<text text-anchor="middle" x="274" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">distinmulti.edu.grade</text>
+<text text-anchor="middle" x="274" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit.edu.grade</text>
 </g>
 <!-- 3 -->
 <g id="node4" class="node"><title>3</title>
 <polygon fill="none" stroke="black" points="345,-108 203,-108 203,-72 345,-72 345,-108"/>
-<text text-anchor="middle" x="274" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">distinmulti.edu.student</text>
+<text text-anchor="middle" x="274" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">mit.edu.student</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <g id="edge1" class="edge"><title>2&#45;&gt;3</title>
@@ -37,7 +37,7 @@
 <!-- 4 -->
 <g id="node5" class="node"><title>4</title>
 <polygon fill="none" stroke="black" points="490,-36 358,-36 358,-0 490,-0 490,-36"/>
-<text text-anchor="middle" x="424" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">distinmulti.main_app</text>
+<text text-anchor="middle" x="424" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit.main_app</text>
 </g>
 </g>
 </svg>

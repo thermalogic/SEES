@@ -362,9 +362,6 @@ Download the latest available version of gcc compiler for **windows64** with **w
 
 * [GCC-8.1.0 x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
  
-> [The Latest MinGW-w64 for Windows by Brecht Sanders](http://winlibs.com/)
-
-
 ### C.2 Set MinGW-W64 Environment
 
 **C.2.1** unzip the zipped MinGW-w64,then,remove to **C:\mingw64**
@@ -408,7 +405,6 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
  
-
 #### D.1.2 Set the default type of a new file
 
 By default if you open a new file, it's set for `Plain Text`,

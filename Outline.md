@@ -169,12 +169,10 @@
 
 * `%%timeit`
 
-## [Package, UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Package-UML.ipynb)
+## [UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-UML.ipynb)
 
 * **Homework**
-   
-    * **Optional** [Creating UML diagrams for Python code](./guide/UMLPython.md) 
-
+ 
    * Install iapws: 
      
          >python -m pip install iapws
@@ -182,6 +180,8 @@
   * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
          > python -m pip install seuif97
+
+  * **Optional** [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
 ## [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-IF97.ipynb)
 
