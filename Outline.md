@@ -39,7 +39,7 @@
    *  `magic` functions： `cell`, `line`   
    *  `!`  Shell command
       
-## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control_Flow.ipynb)
+## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control-Flow.ipynb)
 
 * `if`, `while loop`,`for loop`, `break`, `continue`
 
