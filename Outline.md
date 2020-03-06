@@ -87,9 +87,11 @@
 
 * {key:value} ; mutability;  cloning: `copy()`, `deepcopy()`
 
-## [Python Eq C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-PythonEQCPP.ipynb)
+## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
 
-* Tuple,List,Dict -> <tuple>,<verctor>,<unordered_map>
+* `std::tuple`, `std::verctor`, `std::unordered_map`
+
+*  auto, {}, any 
 
 ## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
    
