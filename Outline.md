@@ -65,6 +65,8 @@
 
 * The interpreter search path, `sys.path`
 
+* Package, `__init__.py`
+
 ## [Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-1-Tuple.ipynb)
 
 * (1,)  a,b=(1,2)
