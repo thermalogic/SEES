@@ -426,6 +426,8 @@ Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, c
 * Python https://code.visualstudio.com/docs/languages/python
 
 * C/C++ https://code.visualstudio.com/docs/languages/cpp
+        
+     * [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 

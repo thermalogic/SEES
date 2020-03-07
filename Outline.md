@@ -327,9 +327,15 @@
   
    * Install pypistats: >python -m pip install pypistats
 
-   * **Optional**: [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
+   * **Optional**:
+   
+      * [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-   * **Optional**: [Install Windows Subsystem for Linux (WSL) on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
+      * [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+
+         * [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
+
+         * [VS code: Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl#nodejs-articles)
 
 ## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-Linux.ipynb)
 
