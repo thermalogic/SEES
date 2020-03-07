@@ -20,8 +20,9 @@
     - [4 本地仓库工作内容变化更新、同步到远程github](#4-本地仓库工作内容变化更新同步到远程github)
         - [4.1 本地工作内容变化提交到暂存区](#41-本地工作内容变化提交到暂存区)
         - [4.2 存入暂存区内容提交至本地仓库](#42-存入暂存区内容提交至本地仓库)
-        - [4.3 本地仓库的更新同步到远程github仓库](#43-本地仓库的更新同步到远程github仓库)
-        - [4.4 Git本地和远程仓库操作过程图](#44-git本地和远程仓库操作过程图)
+    - [4.3 查询文件提交历史和恢复老版本](#43-查询文件提交历史和恢复老版本)
+        - [4.4 本地仓库的更新同步到远程github仓库](#44-本地仓库的更新同步到远程github仓库)
+        - [4.5 Git本地和远程仓库操作过程图](#45-git本地和远程仓库操作过程图)
     - [5 持久化远程Github账号](#5-持久化远程github账号)
     - [6 创建分支](#6-创建分支)
         - [6.1 本地新建分支](#61-本地新建分支)
@@ -126,13 +127,31 @@ Every git user should first introduce himself to git, by running these two comma
 >git commit -m “your desc of the commit"
 ```
 
-### 4.3 本地仓库的更新同步到远程github仓库
+## 4.3 查询文件提交历史和恢复老版本
+
+查询指定文件的提交历史
+
+```
+》git log --patch filename
+```
+
+* type `q` to exit the log screen
+
+回复指定文件到某次提交`<unique ID of last commit>·`
+
+```
+git checkout <unique ID of last commit> filename
+```
+
+* Git lets us use just the first few characters `<unique ID of last commit>` (typically `seven` for normal size projects)
+
+### 4.4 本地仓库的更新同步到远程github仓库
 
 ```bash
 >git push
 ```
 
-### 4.4 Git本地和远程仓库操作过程图 
+### 4.5 Git本地和远程仓库操作过程图 
 
    ![The process of Git](./img/TheProcessGit.jpg)
 
