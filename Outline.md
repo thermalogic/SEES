@@ -331,7 +331,7 @@
    
       * [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
 
-      * [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+      * [Install Windows Subsystem for Linux (WSL) on Windows 10(1803 above)(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
          * [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
