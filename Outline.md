@@ -211,8 +211,12 @@
 ## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-RankineCycle-General.ipynb)
 
 * Rankine Cycle: JSON,UML Class Diagram
+
+* `json.loads()`
        
-* `super().*`, `__dict__.update()`
+*  `__dict__.update()`
+
+* `__iter__
 
 * jump table
  
