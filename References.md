@@ -113,10 +113,6 @@
 
 * FOSSEE. [Software Engineering for Engineers and Scientists](https://github.com/FOSSEE/sees)
 
-* Greg Wilson, D. A. Aruliah,etc. [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-
-* Jeannette M. Wing, Computational Thinking Benefits Society http://socialissues.cs.toronto.edu/index.html%3Fp=279.html
-
 * Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
 
     * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
