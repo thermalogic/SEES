@@ -286,11 +286,7 @@
  
     * stdio.h: `scanf,printf`
 
-## [Debugging C with GDB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-Debugging_C_GDB.ipynb)
-
-* GNU GDB
-
-## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-4-Fortran_gfortran.ipynb)    
+## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-Fortran_gfortran.ipynb)    
 
     * program, subroutine, function, module
 
