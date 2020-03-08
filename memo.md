@@ -168,10 +168,9 @@
 
 1. 对象、变量、数值类型，表达式等
    * The interpreted ,dynamically typed, scripting Language1 
-   * Objects `id()`,Variables and Assignment
-   * Comments：`#`
+   * Variables and Assignment
+   * Comments：`#`, Output: `print()`
    * Numerical Types, Operators and Expressions 
-   * Output: `print()`
 * -- 课间休息 --
 2. 字符串等
     * String, Slicing
