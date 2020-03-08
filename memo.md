@@ -166,7 +166,7 @@
 
 [Python基础](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
 
-1. 对象、变量、数值类型，表达式等
+1. 变量、数值类型，表达式等
    * The interpreted ,dynamically typed, scripting Language1 
    * Variables and Assignment
    * Comments：`#`, Output: `print()`
