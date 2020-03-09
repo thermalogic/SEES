@@ -56,7 +56,9 @@
 
 * Functions as Objects, Lambdas
 
-* Specifications, docstring
+* Specifications, 
+
+* `docstring`,`pydoc`
 
 * Scoping, Global Variablesn
 

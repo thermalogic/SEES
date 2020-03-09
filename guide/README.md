@@ -14,7 +14,7 @@
 
 * [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
-* [Documenting Software](./doc/DocumentingSoftware)
+* [Documenting Software](./doc/DocumentingSoftware.md)
 
 * [Resources On Github](./doc/ResourcesOnGithub.md)
 
