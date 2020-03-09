@@ -54,7 +54,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 ## Schedule and Structure
 
-* The course schedule and structure are listed in the [**Outline**](./outline.md)
+* The course schedule and structure are listed in the [**Outline**](./Outline.md)
 
 ## Contents
 

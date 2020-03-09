@@ -127,13 +127,13 @@
 * 分布式版本控制系统(DVCS)
 * 关系型数据库管理系统(RDBMS)
 
-**结果**：全到
+**结果**：全到O
 
 ### 内容
  
 1. [课程内容、练习和考核要求等](./README.md)
    * [计算机能力养成](./guide/doc/tips4coding.md)
-   * [课程概要](./outline.md)
+   * [课程概要](./Outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
     * 编译、静态类型语言：C/C++
