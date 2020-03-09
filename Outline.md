@@ -196,7 +196,7 @@
 
    * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
  
-## [RankineCycle 8.1.8.2: SimVer](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimVer.ipynb)
+## [RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
 
    * Rankine Cycle 8.1,8.2：the expression directly; the simple abstraction using List,Dict and Function
   
