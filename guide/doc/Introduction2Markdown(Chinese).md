@@ -88,7 +88,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 > 这里是引用
 
-### 3.4 图片与链接
+### 3.4 链接与图片
 
 #### 插入链接
 
@@ -96,9 +96,6 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
  [东南大学](http://www.seu.edu.cn)
 ```
 [东南大学](http://www.seu.edu.cn)
-
-     [Markdown官网](http://daringfireball.net/projects/markdown/)
-[Markdown官网](http://daringfireball.net/projects/markdown/)
 
 #### 插入图片
 
