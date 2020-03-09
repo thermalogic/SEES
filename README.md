@@ -33,17 +33,9 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 * A laptop **computer** will be needed in the classroom.
 
-* **[Softwares](./guide/BuildingSoftwareEnvironment.md)**
-
-   * Python,Jupyter,NumPy,SciPy,Matplotlib,SEUIF97
+* **Softwares** : Python, GCC, Git, VS Code and WSL/Ubuntu etc.
    
-   * Visual Studio Code, MinGW-W64(GCC)
-   
-   * Git,Github
-
-   * WSL/Ubuntu
- 
-* **Textbooks**
+* **Reference Textbooks**
 
    * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
   
