@@ -1,9 +1,0 @@
-
-all: libdemoctypes
-
-libdemoctypes: obj
-	 gcc -shared -o ./demo/bin/libdemoctypes.dll ./demo/obj/democtypes.o
-	 del .\demo\obj\democtypes.o
-
-obj: 
-	 gcc -c -O3 -Wall -fPIC -o ./demo/obj/democtypes.o  ./demo/src/democtypes.c 
