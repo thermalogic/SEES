@@ -61,7 +61,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
       
-      * [References](./doc/guide/References.md)
+      * [References](./guide/doc/References.md)
 
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: Python,C/C++,Excel VBA,MATLAB,Java,Fortran,C#
 
