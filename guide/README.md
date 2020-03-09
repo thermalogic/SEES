@@ -20,7 +20,7 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-* [计算机能力养成](./doc/tips4coding(Chinese).md.md) 
+* [计算机能力养成](./doc/tips4coding(Chinese).md) 
 
 ## Further Reading
 
