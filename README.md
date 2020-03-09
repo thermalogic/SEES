@@ -43,14 +43,13 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
    * WSL/Ubuntu
  
-* **[Textbooks](./References.md)**
+* **Textbooks**
 
    * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
   
    * Peter Prinz,Tony Crawford: [C in a Nutshell(2nd Edition)](https://github.com/oreillymedia/c-in-a-nutshell-2E). O’Reilly Media, Inc. 2016
 
    * Michael J. Moran. [Fundamentals of Engineering Thermodynamics(7th Edition)](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro). John Wiley & Sons, Inc. 2011
-
 
 ## Schedule and Structure
 
