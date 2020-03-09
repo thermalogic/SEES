@@ -1,27 +1,27 @@
 
 # Course Outline
 
-## Introduction of PySEE
+## Introduction of the Course
 
 * Goals,Grading,Practices
 
 * **Repositories**: Home, Practices, SEUIF97, PyRankine
 
-* [Building Software Environment，Python IDLE, Jupyter](./guide/BuildingSoftwareEnvironment.md) 
+* [Building Software Environment: Python, VS Code, GCC，Git](./guide/BuildingSoftwareEnvironment.md) 
 
   * [Computer Terminal](./ComputerTerminal.md/)
 
   * [Windows File System](./guide/WindowsFileSystem.md) 
   
-  * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
+* [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
 
-  * [Resources On Github](./guide/ResourcesOnGithub.md)
+* [Resources On Github](./guide/ResourcesOnGithub.md)
 
 * **Homework**
    
-   * [Setup the working folder for the course](./guide/AdvWorkingDir.md)
+   * [Setup the working folder for the course](./guide/doc/AdvWorkingDir.md)
      
-   * [Install Softwares: Python, Jupyter, MinGW-W64(GCC), Visual Studio Code, Git](./guide/BuildingSoftwareEnvironment.md)
+   * [Install Softwares: Python,MinGW-W64(GCC), VS Code, Git](./guide/doc/BuildingSoftwareEnvironment.md)
 
    * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
