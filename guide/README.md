@@ -2,9 +2,7 @@
 
 * [问题及解决方案](./doc/Problem_Solution.md)
 
-* [计算机能力养成](./doc/C(Chinese).md.md) 
-
-* [参考资源](./doc/Reference.md)
+* [参考资源](./doc/References.md)
 
 ## Contents
 
@@ -22,9 +20,12 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
+* [计算机能力养成](./doc/tips4coding(Chinese).md.md) 
+
 ## Further Reading
 
 * [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
+
 * [Install OpenModelica](./doc/InstallOpenModelica.md) 
 
 * [Creating UML diagrams for python code](./doc/UMLPython.md) 
