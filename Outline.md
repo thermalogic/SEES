@@ -56,11 +56,11 @@
 
 * Functions as Objects, Lambdas
 
+* Scoping, Global Variablesn
+
 * Specifications, 
 
 * `docstring`,`pydoc`
-
-* Scoping, Global Variablesn
 
 * Module: `import M`,`from M import *`
 
