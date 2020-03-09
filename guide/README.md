@@ -1,8 +1,10 @@
 
 
-## 问题及解决方案
+* [问题及解决方案](./doc/Problem_Solution.md)
 
-* [Problem and Answer](./doc/Problem_Solution.md)
+* [计算机能力养成](./doc/C(Chinese).md.md) 
+
+* [参考资源](./doc/Reference.md)
 
 ## Contents
 
@@ -14,17 +16,18 @@
 
 * [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
-* [Documenting Software](./doc/DocumentingSoftware.md)
-
 * [Resources On Github](./doc/ResourcesOnGithub.md)
+
+* [Documenting Software](./doc/DocumentingSoftware.md)
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-* [Creating UML diagrams for python code](./doc/UMLPython.md) 
+## Further Reading
 
 * [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
-
 * [Install OpenModelica](./doc/InstallOpenModelica.md) 
+
+* [Creating UML diagrams for python code](./doc/UMLPython.md) 
 
 * [Further Studing](./doc/FurtherStuding.md)
 

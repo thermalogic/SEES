@@ -132,7 +132,7 @@
 ### 内容
  
 1. [课程内容、练习和考核要求等](./README.md)
-   * [计算机能力养成](./tips4coding.md)
+   * [计算机能力养成](./guide/doc/tips4coding.md)
    * [课程概要](./outline.md)
 * -- 课间休息 --
 2. [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)

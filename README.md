@@ -41,7 +41,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
    
    * Git,Github
 
-   * Ubuntu
+   * WSL/Ubuntu
  
 * **[Textbooks](./References.md)**
 
@@ -50,6 +50,11 @@ After successfully completing the course, We wish you have a broad spectrum of o
    * Peter Prinz,Tony Crawford: [C in a Nutshell(2nd Edition)](https://github.com/oreillymedia/c-in-a-nutshell-2E). O’Reilly Media, Inc. 2016
 
    * Michael J. Moran. [Fundamentals of Engineering Thermodynamics(7th Edition)](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro). John Wiley & Sons, Inc. 2011
+
+
+## Schedule and Structure
+
+* The course schedule and structure are listed in the [**Outline**](./outline.md)
 
 ## Contents
 
@@ -61,9 +66,11 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
       * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
     
-   * [Guide of Softwares](./guide) 
+   * [Guide](./guide)  
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
+      
+      * [References](./doc/guide/References.md)
 
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: Python,C/C++,Excel VBA,MATLAB,Java,Fortran,C#
 
@@ -78,14 +85,6 @@ The Course graded on an 100 point scale and then weighted according to the follo
   * In-class Exercises: 20
   * [Practices:50](https://github.com/PySEE/Practices/)
   * Final Exam: 30
-
-## Schedule and Structure
-
-* The course schedule and structure are listed in the [**Outline**](./Outline.md)
-
-## Readings and resources 
-
-* Please visit [References](./References.md) and [Guide](./guide) for details
 
 ## Using the Notebooks of PySEE/home 
 
