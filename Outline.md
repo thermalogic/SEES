@@ -168,9 +168,11 @@
 
 * `pass`
 
-## [Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Generator.ipynb)
+## [Iterator Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Iterator-Generator.ipynb)
 
-*  Generators：`yield`
+*  Iterator; `iter`, `__next__`
+
+*  Generator：`yield`
 
 * `%%timeit`
 
