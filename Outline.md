@@ -326,7 +326,7 @@
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
-* [The Simple Guide to Git/Github](./guide/TheSimpleStepsGithub(Chinese).md)  
+* [The Simple Guide to Git/Github](./guide/doc/TheSimpleStepsGithub(Chinese).md)  
 
 * Homework
   
@@ -334,7 +334,7 @@
 
    * **Optional**:
    
-      * [Install Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md)
+      * [Install Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md)
 
       * [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
@@ -344,9 +344,9 @@
 
 ## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-Linux.ipynb)
 
-* [Ubuntu](./guide/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
+* [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-## [Outlook: Further Studing](./guide/FurtherStuding.md)
+## [Outlook: Further Studing](./guide/doc/FurtherStuding.md)
 
 ## Recap
 
