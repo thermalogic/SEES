@@ -162,15 +162,19 @@
 
 ## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
-* Abstract Data Types and Classes, Inheritance, Encapsulation and Information Hiding
+* Abstract Data Types and Classes, Inheritance, 
 
-* `pass`,Invisible `__name`, Generators：`yield`
+* Encapsulation and Information Hiding, Invisible `__name`
 
-* `import datetime`,`from dateutil.relativedelta import relativedelta`
+* `pass`
+
+## [Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Generator.ipynb)
+
+*  Generators：`yield`
 
 * `%%timeit`
 
-## [UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-UML.ipynb)
+## [UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-3-UML.ipynb)
 
 * **Homework**
  
