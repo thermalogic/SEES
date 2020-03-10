@@ -306,13 +306,13 @@
 
 ## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
 
-* ctypes: `__cdecl`,`__stdcall`, `cdll.LoadLibrary`,`windll.LoadLibrary`
+* ctypes: `__cdecl`,`cdll.LoadLibrary`
 
-* the simple C code: Polynomial Regression; CSV's reader
+* C code: Polynomial Regression; CSV's reader
 
 ## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
-* Building Windows DLL: `__stdcall`
+* Building Windows DLL: `__stdcall`,`windll.LoadLibrary`
   
 * Excel VBA(Excel 2013 above, 64bit)
 
@@ -322,7 +322,7 @@
 
 * Using Matplotlib through C/C++ API
 
-* the simple C++ reader of CSV
+* the C++ reader of CSV；`std::istringstream, std::vector, std::string`
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
