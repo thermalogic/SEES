@@ -304,11 +304,19 @@
 
 * **Shared Library** :Windows  and Linux
 
-## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
+## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes.ipynb)
 
 * ctypes: `__cdecl`,`cdll.LoadLibrary`
 
 * C code: Polynomial Regression; CSV's reader
+
+## [ctypes-function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-function.ipynb)
+
+*  `CDLL`,`WinDLL`
+
+* call Python function in C
+
+* C code: bisection
 
 ## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
