@@ -304,13 +304,15 @@
 
 * **Shared Library** :Windows  and Linux
 
-## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes.ipynb)
+## [ctypes: variable](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-var.ipynb)
 
-* ctypes: `__cdecl`,`cdll.LoadLibrary`
+* ctypes: `__cdecl`,`cdll.LoadLibrary` 
+
+* one/two dimension array, structure
 
 * C code: Polynomial Regression; CSV's reader
 
-## [ctypes-function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-function.ipynb)
+## [ctypes: function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-fun.ipynb)
 
 *  `CDLL`,`WinDLL`
 

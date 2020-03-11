@@ -1,18 +1,20 @@
-
+/*
+  Numerical Recipes http://numerical.recipes
+*/ 
 #include <math.h>
 #include "ourmath.h"
 
 double sign(double a, double b)
 {
 	if (b < 0.0)
-		return(-fabs(a));
+		return (-fabs(a));
 	else
-		return(fabs(a));
+		return (fabs(a));
 }
 
-void bisect(Fun f, double a,double b, double eps,double *root, int *ier)
+void bisect(Fun f, double a, double b, double eps, double *root, int *ier)
 {
-/*
+	/*
 	The program uses the bisection method to solve 	the equation
 		f(x) = 0.
 	The solution is to be in [a,b] and it is assumed 	that
@@ -27,53 +29,50 @@ void bisect(Fun f, double a,double b, double eps,double *root, int *ier)
 	const double zero = 0.0, one = 1.0, two = 2.0;
 	double c, fa, fb, fc, sfa, sfb, sfc;
 
-	/* Initialize  */
-
+	// Initialize
 	fa = (*f)(a);
 	fb = (*f)(b);
 	sfa = sign(one, fa);
 	sfb = sign(one, fb);
-	if (sfa*sfb > 0.0)  
+	if (sfa * sfb > 0.0)
 	{
-
-		/*  The choice of a and b is in error  */
-
+		// The choice of a and b is in error
 		*ier = 1;
 		return;
 	}
 
-	/* Create a new value of c, the midpoint of [a,b]  */
-
-	while (1)  {
-		c = (a + b)/two;
-		if (fabs(b-c) <= eps)  
+	// Create a new value of c, the midpoint of [a,b]
+	while (1)
+	{
+		c = (a + b) / two;
+		if (fabs(b - c) <= eps)
 		{
-			/* c is an acceptable solution of f(x)=0  */
+			// c is an acceptable solution of f(x)=0
 			*root = c;
 			*ier = 0;
 			return;
 		}
-		/* The value of c was not sufficiently accurate.
+		/* The value of c was not sufficiently accurate. 
 			Begin a new iteration  */
 		fc = (*f)(c);
-		if (fc == zero)  
+		if (fc == zero)
 		{
-			/* c is an acceptable solution of f(x)=0  */
+			// c is an acceptable solution of f(x)=0
 			*root = c;
 			*ier = 0;
 			return;
 		}
 		sfc = sign(one, fc);
-		if (sfb*sfc > zero)  
+		if (sfb * sfc > zero)
 		{
-			/*  The solution is in [a,c]  */
+			//  The solution is in [a,c]
 			b = c;
 			sfb = sfc;
 		}
-		else  
+		else
 		{
-			/*  The solution is in [c,b]  */
-            a = c;
+			//  The solution is in [c,b]
+			a = c;
 			sfa = sfc;
 		}
 	}
