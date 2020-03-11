@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cstdint> // <cstdint> requires c++11 support
 #include <functional>
+#include <unordered_map>
 
 #include <Python.h>
 
@@ -73,6 +74,7 @@ struct _interpreter {
     PyObject *s_python_function_ylabel;
     PyObject *s_python_function_xticks;
     PyObject *s_python_function_yticks;
+    PyObject *s_python_function_tick_params;
     PyObject *s_python_function_grid;
     PyObject *s_python_function_clf;
     PyObject *s_python_function_errorbar;
@@ -203,6 +205,7 @@ private:
         s_python_function_ylabel = safe_import(pymod, "ylabel");
         s_python_function_xticks = safe_import(pymod, "xticks");
         s_python_function_yticks = safe_import(pymod, "yticks");
+    	s_python_function_tick_params = safe_import(pymod, "tick_params");
         s_python_function_grid = safe_import(pymod, "grid");
         s_python_function_xlim = safe_import(pymod, "xlim");
         s_python_function_ion = safe_import(pymod, "ion");
@@ -659,7 +662,8 @@ bool hist(const std::vector<Numeric>& y, long bins=10,std::string color="b",
 template<typename NumericX, typename NumericY>
 bool scatter(const std::vector<NumericX>& x,
              const std::vector<NumericY>& y,
-             const double s=1.0) // The marker size in points**2
+             const double s=1.0, // The marker size in points**2
+             const std::unordered_map<std::string, std::string> & keywords = {})
 {
     assert(x.size() == y.size());
 
@@ -668,6 +672,10 @@ bool scatter(const std::vector<NumericX>& x,
 
     PyObject* kwargs = PyDict_New();
     PyDict_SetItemString(kwargs, "s", PyLong_FromLong(s));
+    for (const auto& it : keywords)
+    {
+        PyDict_SetItemString(kwargs, it.first.c_str(), PyString_FromString(it.second.c_str()));
+    }
 
     PyObject* plot_args = PyTuple_New(2);
     PyTuple_SetItem(plot_args, 0, xarray);
@@ -1370,6 +1378,30 @@ inline void yticks(const std::vector<Numeric> &ticks, const std::map<std::string
     yticks(ticks, {}, keywords);
 }
 
+inline void tick_params(const std::map<std::string, std::string>& keywords, const std::string axis = "both")
+{
+  // construct positional args
+  PyObject* args;
+  args = PyTuple_New(1);
+  PyTuple_SetItem(args, 0, PyString_FromString(axis.c_str()));
+  
+  // construct keyword args
+  PyObject* kwargs = PyDict_New();
+  for (std::map<std::string, std::string>::const_iterator it = keywords.begin(); it != keywords.end(); ++it)
+  {
+    PyDict_SetItemString(kwargs, it->first.c_str(), PyString_FromString(it->second.c_str()));
+  }
+  
+  
+  PyObject* res = PyObject_Call(detail::_interpreter::get().s_python_function_tick_params, args, kwargs);
+  
+  Py_DECREF(args);
+  Py_DECREF(kwargs);
+  if (!res) throw std::runtime_error("Call to tick_params() failed");
+  
+  Py_DECREF(res);
+}
+
 inline void subplot(long nrows, long ncols, long plot_number)
 {
     // construct positional args
@@ -1385,7 +1417,7 @@ inline void subplot(long nrows, long ncols, long plot_number)
     Py_DECREF(res);
 }
 
-void subplot2grid(long nrows, long ncols, long rowid=0, long colid=0, long rowspan=1, long colspan=1)
+inline void subplot2grid(long nrows, long ncols, long rowid=0, long colid=0, long rowspan=1, long colspan=1)
 {
     PyObject* shape = PyTuple_New(2);
     PyTuple_SetItem(shape, 0, PyLong_FromLong(nrows));

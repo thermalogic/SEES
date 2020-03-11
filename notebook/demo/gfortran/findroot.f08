@@ -1,4 +1,4 @@
-program nonlinear
+program findroot
 
   implicit none
 
@@ -30,4 +30,4 @@ program nonlinear
   ! terminate the program
   stop
 
-end program nonlinear
+end program findroot

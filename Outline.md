@@ -302,7 +302,7 @@
 
 ## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
 
-* **Shared Library** :Linux,Windows
+* **Shared Library** :Windows  and Linux
 
 ## [Python: ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
 
@@ -318,11 +318,11 @@
 
     * https://github.com/thermalogic/Excel4Engineering  
 
-## [Python C API](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Python-C-API.ipynb)
+## [Python/C API: Matplotlib]https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Python=C=API.ipynb)
 
 * Using Matplotlib through C/C++ API
 
-* the C++ reader of CSV；`std::istringstream, std::vector, std::string`
+* C++ reader of CSV；`std::istringstream, std::vector, std::string`
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 

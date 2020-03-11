@@ -15,7 +15,7 @@ int main()
    double distances[size];
    double forces[size];
 
-   FILE *fp = fopen("./demo/data/springData.csv", "r");
+   FILE *fp = fopen("./data/springData.csv", "r");
    if (fp == NULL)
    {
       fprintf(stderr, "failed to open file for reading\n");
@@ -28,7 +28,7 @@ int main()
    while (fgets(line, sizeof(line), fp))
    {
       char *save_ptr;
-      // The first call to strtok_r(), str point to the string to be parsed" line
+      // The first call to strtok_r(), str point to the string to be parsed line
       char *d = strtok_r(line, ",", &save_ptr);
       // In subsequent calls, str is NULL, and saveptr is unchanged since the previous call.
       char *m = strtok_r(NULL, ",", &save_ptr);

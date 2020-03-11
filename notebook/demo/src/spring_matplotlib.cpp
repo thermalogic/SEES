@@ -4,7 +4,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "../include/matplotlibcpp.h"
+#include "matplotlibcpp.h"
 
 using namespace std;
 

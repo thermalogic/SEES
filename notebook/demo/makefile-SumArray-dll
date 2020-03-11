@@ -10,10 +10,6 @@ all: libdll
 
 libdll: obj
 	 $(CC) -shared -o $(BINDIR)libSumArray.dll $(OBJDIR)SumArray.o
-	 del .\demo\obj\SumArray.o
     
 obj: ./demo/src/SumArray.c
 	 $(CC) -c $(CFLAGS)  -o $(OBJDIR)SumArray.o $(SRCDIR)SumArray.c
-     
-clean:
-	 del .\demo\src\libSumArray.dll
