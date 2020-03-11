@@ -1,5 +1,6 @@
 
-INC= -IC:/Python38/include \
+INC=-I./include \
+    -IC:/Python38/include \
     -IC:/Python38/Lib/site-packages/numpy/core/include
         
 LIBDIR= C:/Python38/

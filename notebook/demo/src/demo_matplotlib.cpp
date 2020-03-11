@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/matplotlibcpp.h"
+#include "matplotlibcpp.h"
 
 using namespace std;
 namespace plt = matplotlibcpp;

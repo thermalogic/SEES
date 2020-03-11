@@ -318,7 +318,7 @@
 
     * https://github.com/thermalogic/Excel4Engineering  
 
-## [Python/C API: Matplotlib]https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-Python=C=API.ipynb)
+## [CPP Plotting with Matplotlib](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-CPP=Matplotlib.ipynb)
 
 * Using Matplotlib through C/C++ API
 

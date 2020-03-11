@@ -10,7 +10,7 @@ using namespace std;
 
 namespace plt = matplotlibcpp;
 
-// Unit9-2-ctypes:Polynomial Regression
+// Unit8-2-ctypes:Polynomial Regression
 void PolynomialFit(double x[], double y[], int size, int n, double a[]);
 
 int main(void)
@@ -37,7 +37,6 @@ int main(void)
       vecdistances.push_back(atof(d.c_str()));
       vecforces.push_back(9.81*atof(m.c_str()));
   };
-    
   fin.close();
  
   int n = 1; // n is the degree of Polynomial
