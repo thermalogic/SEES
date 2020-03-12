@@ -193,7 +193,7 @@
 
 ### 点名
 
-群投票：0312点名-Python语句 **'abcd'[1:3]** 的输出是
+群投票：0316点名-Python语句 **'abcd'[1:3]** 的输出是
 
 * **'bc'**
 * **'bcd'**
@@ -202,7 +202,7 @@
 
 ### 内容
 
-[Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+[Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-2-Control-Flow.ipynb)
 
 1. 分支、循环
    
