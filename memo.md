@@ -208,7 +208,7 @@
    
    * `if`, `while loop`,`for loop`, `break`, `continue`
 
-2. 相关语言点
+2. 语言点
   
    * `range(start,stop,step)`
      
@@ -221,6 +221,8 @@
    * The Zen of Python(`PEP20`)
    
    * Coding convention(`PEP8`)
+
+   * Jupyter notebook extensions
 
 4. 同学们体验以上内容，QQ群反馈信息
 

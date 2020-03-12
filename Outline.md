@@ -47,9 +47,11 @@
 * **Indentation**: delineate blocks of code
      
 * Line Continuation: `() [] {}` , `\`
-   
+  
 * **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
-      
+
+* Jupyter notebook extensions
+
 ## [Function, Module & Package](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
 
 * Function definitions, Positional, Keyword Arguments and Default Values
@@ -97,6 +99,8 @@
 ## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
    
 * File, Unicode, Table Data，CSV
+
+* `%load`
 
 * **Homework** 
 
