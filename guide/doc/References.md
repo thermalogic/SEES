@@ -21,7 +21,7 @@
 
 * [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 
-* Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+* [Git Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
 ### Python
 
@@ -68,10 +68,6 @@
 ### Engineering System
 
 * Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
-   
-   * The ebook at SEU http://www.lib.seu.edu.cn/
-
-     查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
 
    * [The Textbook Companions: Jupyter Notebook](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro)  
 
@@ -85,11 +81,11 @@
 
     * 袁野译, C语言核心技术(原书第2版), 机械工业出版社，2017
 
-* GCC, the GNU Compiler Collection：http://gcc.gnu.org/
+* [GCC, The GNU Compiler Collection](http://gcc.gnu.org/)
 
    * GCC Manual https://gcc.gnu.org/onlinedocs/
 
-   * MinGW-W64: GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+   * [MinGW-W64: GCC for Windows 64 & 32 bits](http://mingw-w64.org/)
 
      * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
 
@@ -113,7 +109,7 @@
 
 * FOSSEE. [Software Engineering for Engineers and Scientists](https://github.com/FOSSEE/sees)
 
-* Google. Style guides for Google-originated open-source projects https://github.com/google/styleguide
+* [Google. Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
 
     * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
@@ -123,7 +119,7 @@
 
    * [UML basics: The class diagram](https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/index.html?ca=drs-)
 
-* Googletest - Google Testing and Mocking Framework https://github.com/google/googletest
+* [Googletest - Google Testing and Mocking Framework](https://github.com/google/googletest)
 
    * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
 

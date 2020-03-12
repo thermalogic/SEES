@@ -1,8 +1,15 @@
-# makefile for the hello
-all: helloexe
-    
-helloexe: helloobj
-	 gcc -o ./bin/hello ./obj/hello.o
-    
-helloobj: ./src/hello.c
-	 gcc -c -o ./obj/hello.o ./src/hello.c
+CXX = g++
+CXXFLAGS = -Wall -Werror -Wextra -pedantic -std=c++17 -g -fsanitize=address
+LDFLAGS =  -fsanitize=address
+
+SRC = 
+OBJ = $(SRC:.cc=.o)
+EXEC = makefile
+
+all: $(EXEC)
+
+$(EXEC): $(OBJ)
+	$(CXX) $(LDFLAGS) -o $@ $(OBJ) $(LBLIBS)
+
+clean:
+	rm -rf $(OBJ) $(EXEC)
