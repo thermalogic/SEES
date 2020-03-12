@@ -2,6 +2,6 @@
 #ifndef SUMARRAY_H
 #define SUMARRAY_H
 
-int sum(const int *array, int length);
+int sum(int array[], int size);
 
 #endif
