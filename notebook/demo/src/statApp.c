@@ -3,7 +3,8 @@
 #include "statistics.h"
 
 int main() {
-     double b[] = {8, 4, 5, 3, 2};
-     printf("mean is %f\n", mean(b,5)); 
+     double a[] = {8, 4, 5, 3, 2};
+     int length = sizeof(a)/sizeof(double);  
+     printf("mean is %f\n", mean(a,length)); 
      return 0;
 }

@@ -33,6 +33,9 @@
     - [点名](#点名-3)
     - [内容](#内容-4)
     - [课后工作](#课后工作-3)
+    - [点名](#点名-4)
+    - [内容](#内容-5)
+    - [课后工作](#课后工作-4)
 
 <!-- /TOC -->
 
@@ -160,7 +163,7 @@
 * 编译、静态类型语言
 * 解释、动态类型语言
 
-**结果**：
+**结果**：-1
 
 ### 内容
 
@@ -171,9 +174,10 @@
    * Variables and Assignment
    * Comments：`#`, Output: `print()`
    * Numerical Types, Operators and Expressions 
+   * String
 * -- 课间休息 --
 2. 字符串等
-    * String, Slicing
+    * Slicing
     * Input：`input()`
     * Type Conversion
 3. 同学们体验以上内容，QQ群反馈信息
@@ -184,5 +188,47 @@
 * 建一个Jupyter Notebook文件练习
 * 建Python源码文件练习
 
+ ## 0316
+
+### 点名
+
+群投票：0312点名-Python语句 `abcd`[1:3]的输出是
+
+* `bc`
+* `bcd`
+
+**结果**：
+
+### 内容
+
+[Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+
+1. 分支、循环
+   
+   * `if`, `while loop`,`for loop`, `break`, `continue`
+
+2. 相关语言点
+  
+   * `range(start,stop,step)`
+     
+   * **Indentation**: delineate blocks of code
+     
+   * Line Continuation: `() [] {}` , `\`
+
+3. Python编码规范
+   
+   * The Zen of Python(`PEP20`)
+   
+   * Coding convention(`PEP8`)
+
+4. 同学们体验以上内容，QQ群反馈信息
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建一个Jupyter Notebook文件练习
+* 建Python源码文件练习
+
  
+   
    
