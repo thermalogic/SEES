@@ -1,6 +1,5 @@
 #include <math.h>
 // function definition
-typedef double (*Fun)(double x);
+typedef double (*fun)(double);
 
-double sign(double, double);
-void bisect(Fun f, double, double, double, double *, int *);
+int rtbis(fun func,double , double, double ,double *);

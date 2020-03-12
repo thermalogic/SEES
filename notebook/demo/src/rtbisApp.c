@@ -8,18 +8,18 @@ double fcn(double x)
 {
 	double result;
 	result = x * x - 4;
-	return (result);
+	return result;
 }
 
 int main()
 {
-	double xl, xr, epsilon, root;
+	double xl, xu, epsilon, root;
 	int ier;
 	xl = 0.1;
-	xr = 3.2;
+	xu = 3.2;
 	epsilon = 0.001;
 	// Calculate root
-	rtbis(fcn, xl, xr, epsilon, &root, &ier);
+	ier=rtbis(fcn, xl, xu, epsilon, &root);
 	// Print answers
 	printf("root = %14.7e  ier = %1d", root, ier);
 	return 0;

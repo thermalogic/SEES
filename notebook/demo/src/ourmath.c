@@ -4,76 +4,35 @@
 #include <math.h>
 #include "ourmath.h"
 
-double sign(double a, double b)
+int rtbis(fun func,double x1, double x2, double xacc,double *rtb)
 {
-	if (b < 0.0)
-		return (-fabs(a));
-	else
-		return (fabs(a));
-}
-
-void bisect(Fun f, double a, double b, double eps, double *root, int *ier)
-{
-	/*
-	The program uses the bisection method to solve 	the equation
+ /*
+	The program uses the bisection method to solve the equation
 		f(x) = 0.
-	The solution is to be in [a,b] and it is assumed 	that
-		f(a)*f(b) <= 0.
-	The solution is returned in root, and it is to	be in error by at most eps.
+	The solution is to be in [x1,x2] and it is assumed that
+		f(x1)*f(x2) <= 0.
+	The solution is returned in rtb, and it is to be in error by at most xacc.
 	
-	ier is an error indicator.
-	  If ier=0 on completion of the routine, then the 	solution has been computed satisfactorily.
-	  If ier=1, then f(a)*f(b) was greater than 0, contrary to assumption.
+	return value is an error indicator.
+	  If =0, the solution has been computed satisfactorily.
+	  If =1, f(x1)*f(x2) was greater than 0, contrary to assumption 
+      If =2, exceeded the maximum number of iteration 
 */
+	const int IMAX=100; // the maximum number of iteration
+    float dx,f,fmid,xmid;
 
-	const double zero = 0.0, one = 1.0, two = 2.0;
-	double c, fa, fb, fc, sfa, sfb, sfc;
-
-	// Initialize
-	fa = (*f)(a);
-	fb = (*f)(b);
-	sfa = sign(one, fa);
-	sfb = sign(one, fb);
-	if (sfa * sfb > 0.0)
-	{
-		// The choice of a and b is in error
-		*ier = 1;
-		return;
-	}
-
-	// Create a new value of c, the midpoint of [a,b]
-	while (1)
-	{
-		c = (a + b) / two;
-		if (fabs(b - c) <= eps)
-		{
-			// c is an acceptable solution of f(x)=0
-			*root = c;
-			*ier = 0;
-			return;
-		}
-		/* The value of c was not sufficiently accurate. 
-			Begin a new iteration  */
-		fc = (*f)(c);
-		if (fc == zero)
-		{
-			// c is an acceptable solution of f(x)=0
-			*root = c;
-			*ier = 0;
-			return;
-		}
-		sfc = sign(one, fc);
-		if (sfb * sfc > zero)
-		{
-			//  The solution is in [a,c]
-			b = c;
-			sfb = sfc;
-		}
-		else
-		{
-			//  The solution is in [c,b]
-			a = c;
-			sfa = sfc;
-		}
-	}
+	f=(*func)(x1);
+	fmid=(*func)(x2);
+	if (f*fmid >= 0.0) // endpoints do not straddle y=0
+       return 1; 
+    // init the root value: rtb
+	*rtb = f < 0.0 ? (dx=x2-x1,x1) : (dx=x1-x2,x2);
+	for (int i=1;i<=IMAX;i++) {
+		fmid=(*func)(xmid=(*rtb)+(dx *= 0.5));
+		if (fmid <= 0.0) *rtb=xmid;
+		if (fabs(dx) < xacc || fmid == 0.0) 
+           return 0;
+  	}
+    // Exceeded the maximum number of iteration
+    return 2;
 }
