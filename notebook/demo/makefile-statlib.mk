@@ -7,6 +7,7 @@ OBJDIR= ./obj/
 BINDIR= ./bin/
 INCDIR=./include/
 
+# Linux
 #LIB=libstat.so
 
 LIB=libstat.dll

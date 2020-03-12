@@ -13,17 +13,7 @@ __declspec(dllexport)  void __stdcall  TestSimpleStruct(SimpleStruct v,SimpleStr
   // return res->nNo;
 }
 
-// 2 one-dimensional array :
-//    return: *narray: ith ,item =i
-__declspec(dllexport)  void  __stdcall  TestArray1(double *narray,int size)
-{
-  for(int i=0; i<size; i++)
-  {
-     narray[i]=i;  
-  }
-}
-
-// 3  two-dimensional array : double **ptr
+// 2  two-dimensional array : double **ptr
 //       return:  2*item
 __declspec(dllexport)  void  __stdcall  TestArray22(double **ptr,int row, int col)
 {
