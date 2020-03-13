@@ -1,6 +1,8 @@
 
 # Foundamentals and Practice of Software Engineering
 
+[![DOI](https://zenodo.org/badge/43438544.svg)](https://zenodo.org/badge/latestdoi/43438544)
+
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
 
 * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
@@ -103,4 +105,7 @@ The Course graded on an 100 point scale and then weighted according to the follo
 >```bash
 >git pull
 >```
->
+
+## Cite as
+
+Cheng Maohua. (2020, March 13). PySEE/home: First Release of Courseware (Version V1.0.0). Zenodo. http://doi.org/10.5281/zenodo.3709440
