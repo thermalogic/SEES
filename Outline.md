@@ -316,13 +316,19 @@
 
 * C code: Polynomial Regression; CSV's reader
 
-## [ctypes: function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-fun.ipynb)
+## [ctypes: 2D Array](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-2-ctypes-2DArray.ipynb)
+
+* ctypes: 2D Array
+
+* Gauss Elimination Methods in C
+
+## [ctypes: Function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-3-ctypes-fun.ipynb)
 
 *  `CDLL`,`WinDLL`
 
-* call Python function in C
+* Call Python function in C
 
-* C code: bisection
+* Bisection in C
 
 ## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
