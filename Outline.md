@@ -306,35 +306,11 @@
 
 ## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
 
-* **Shared Library** :Windows  and Linux
+* **Shared Library** :Windows, Linux
 
-## [ctypes: variable](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-1-ctypes-var.ipynb)
+## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
 
-* ctypes: `__cdecl`,`cdll.LoadLibrary` 
-
-* one dimension array
-
-*  Homework:  
-  
-   * 周建华等：《几何与代数》  1.4 线性方程组的求解 " 4.6 线性方程组的最小二乘解
-
-## [ctypes: 2D Array](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-2-ctypes-2DArray.ipynb)
-
-* ctypes: two dimension array
-
-* Gauss Elimination Methods in C
-
-## [Polynomial Regression](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-3-ctypes-ployfit.ipynb)
-
-* Polynomial Regressionv in C; CSV's reader
-
-## [ctypes: Function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-4-ctypes-fun.ipynb)
-
-*  `CDLL`,`WinDLL`
-
-* Call Python function in C
-
-* Bisection in C
+* ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
 ## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
@@ -343,12 +319,6 @@
 * Excel VBA(Excel 2013 above, 64bit)
 
     * https://github.com/thermalogic/Excel4Engineering  
-
-## [CPP Plotting with Matplotlib](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-4-CPP=Matplotlib.ipynb)
-
-* Using Matplotlib through C/C++ API
-
-* C++ reader of CSV；`std::istringstream, std::vector, std::string`
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
