@@ -314,6 +314,10 @@
 
 * one dimension array
 
+*  Homework:  
+  
+   * 周建华等：《几何与代数》  1.4 线性方程组的求解 " 4.6 线性方程组的最小二乘解
+
 ## [ctypes: 2D Array](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-2-ctypes-2DArray.ipynb)
 
 * ctypes: two dimension array
