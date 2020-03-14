@@ -312,17 +312,19 @@
 
 * ctypes: `__cdecl`,`cdll.LoadLibrary` 
 
-* one/two dimension array, structure
-
-* C code: Polynomial Regression; CSV's reader
+* one dimension array
 
 ## [ctypes: 2D Array](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-2-ctypes-2DArray.ipynb)
 
-* ctypes: 2D Array
+* ctypes: two dimension array
 
 * Gauss Elimination Methods in C
 
-## [ctypes: Function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-3-ctypes-fun.ipynb)
+## [Polynomial Regression](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-3-ctypes-ployfit.ipynb)
+
+* Polynomial Regressionv in C; CSV's reader
+
+## [ctypes: Function](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-4-ctypes-fun.ipynb)
 
 *  `CDLL`,`WinDLL`
 

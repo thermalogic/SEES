@@ -7,11 +7,10 @@ BINDIR= ./bin/
 INCDIR= ./include/
 
 # Linux
-# LIB=libeqlin.so 
-LIB=libeqlin.dll
+# LIB=libcurvefit.so 
+LIB=libcurvefit.dll
 
-SRCS=$(SRCDIR)gauss.c \
-	$(SRCDIR)/gauss_am_pivoting.c
+SRCS=$(SRCDIR)curvefit.c  
 
 # non-path filename
 filename=$(notdir $(SRCS))
@@ -22,7 +21,7 @@ OBJS=$(patsubst %.c,$(OBJDIR)%.o,$(filename))
 all:$(LIB)
     
 $(LIB): $(OBJS)  
-	$(CC) -shared -o $(BINDIR)$@ $(OBJS) 
+	$(CC) -shared -o $(BINDIR)$@ $(OBJS) -L./bin/ -leqlin
 
 # the pattern rule: one step rule for multiple source files
 $(OBJS):$(SRCS)
