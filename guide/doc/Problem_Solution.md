@@ -14,11 +14,11 @@
     - [Windows安全防护](#windows安全防护)
     - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
     - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
-        - [安装软件](#安装软件)
-        - [ipynb转换为pdf](#ipynb转换为pdf)
-            - [方法1：](#方法1)
-            - [方法2.](#方法2)
-            - [解决方法：](#解决方法)
+        - [ipynb件转换pdf](#ipynb件转换pdf)
+            - [需要软件](#需要软件)
+            - [ipynb转换为pdf](#ipynb转换为pdf)
+                - [方法1：](#方法1)
+                - [方法2.](#方法2)
 
 <!-- /TOC -->
 
@@ -147,7 +147,29 @@ http://windows.microsoft.com/zh-cn/windows/security-essentials-download
 
 Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件包.
 
-### 安装软件
+ 转换程序从MiKTex的远程仓库下载软件包时，可能会出现下载失败的问题，导致文档转换中断。
+
+**解决方法**
+
+ 1. 选择网络速度快的`镜像站点`
+
+   ```
+   >mpm.exe --set-repository=https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/win32/miktex/tm/packages/
+   ```
+   ![MiKTex-mirroe](./img/miktex-mirror.jpg)
+ 
+ 2. 配置Miktex软件包离线安装目录(`Package Shell be installed from a local directory`)
+
+    ![MiKTex-local](./img/miktex-local.jpg)
+   
+    从镜像站点下载软件包到本地仓库
+    ```bash
+    >miktexsetup --verbose --local-package-repository=[the local package repository] --package-set=complete download
+    ```
+    
+### ipynb件转换pdf
+
+#### 需要软件
 
 * 1 Windows环境下安装MikTex
 
@@ -157,29 +179,21 @@ Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件�
 >python -m pip install pandoc
 ```
 
-### ipynb转换为pdf
+#### ipynb转换为pdf
 
-#### 方法1：
+##### 方法1：
 
 ```bash
 >jupyter nbconvert  --to pdf  需要转换的ipynb文件名
 ```
 
-#### 方法2. 
+##### 方法2. 
 
 用Google Chrome浏览器打开ipynb文件，然后, **`Download as`** -> **PDF Via LaTex(pdf)**,生成pdf文件。
 
- 初次使用，转换程序从MiKTex的远程仓库下载软件包时，可能会出现下载失败的问题，导致文档转换中断。
 
-![MiKTexPackageInstall](./img/MiKTex-package-install.jpg)
 
-#### 解决方法：
 
-多试验几次下面的转换命令，选择网络速度快的站点，多次下载MiKTex软件包
-
-```bash   
->jupyter nbconvert  --to pdf  需要转换的ipynb文件名
-```
 
 
 
