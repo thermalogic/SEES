@@ -320,6 +320,10 @@
 
     * https://github.com/thermalogic/Excel4Engineering  
 
+* **Homework**
+
+   * [Download the GSL4Windows](https://github.com/PySEE/GSL4Windows)  
+
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/doc/TheSimpleStepsGithub(Chinese).md)  
