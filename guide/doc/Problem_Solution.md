@@ -159,14 +159,13 @@ Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件�
    ![MiKTex-mirroe](./img/miktex-mirror.jpg)
  
  2. 配置Miktex软件包离线安装目录(`Package Shell be installed from a local directory`)
-
-    ![MiKTex-local](./img/miktex-local.jpg)
-   
+ 
     从镜像站点下载软件包到本地仓库
     ```bash
     >miktexsetup --verbose --local-package-repository=[the local package repository] --package-set=complete download
     ```
-    
+    ![MiKTex-local](./img/miktex-local.jpg)
+ 
 ### ipynb件转换pdf
 
 #### 需要软件
