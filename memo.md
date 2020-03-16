@@ -37,6 +37,7 @@
     - [点名](#点名-4)
     - [内容](#内容-5)
     - [课后工作](#课后工作-4)
+- [0319](#0319)
     - [点名](#点名-5)
     - [内容](#内容-6)
     - [课后工作](#课后工作-5)
@@ -235,14 +236,14 @@
 * 建一个Jupyter Notebook文件练习
 * 建Python源码文件练习
 
- ## 0319
+## 0319
 
 ### 点名
 
 群投票：0319点名-Python标识语句块方法
 
 * 缩进
-* {}
+* { }
 
 **结果**：
 
@@ -260,13 +261,7 @@
 
 * `docstring`,`pydoc`
 
-* `print(str.format())`
-
-* Module: `import M`,`from M import *`
-
-* The interpreter search path, `sys.path`
-
-* Package, `__init__.py`
+* `print()`, `str.format()`
 
 2. 同学们体验以上内容，QQ群反馈信息
 
