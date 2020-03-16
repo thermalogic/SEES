@@ -60,9 +60,11 @@
 
 * Scoping, Global Variablesn
 
-* Specifications, 
+* Specifications
 
 * `docstring`,`pydoc`
+
+* `print(str.format())`
 
 * Module: `import M`,`from M import *`
 
@@ -200,7 +202,6 @@
 
 * Python library for IAPWS，SEUIF97
 
-* `print(str.format())`
    
 * **Homework**
 
