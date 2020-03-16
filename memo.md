@@ -37,6 +37,9 @@
     - [点名](#点名-4)
     - [内容](#内容-5)
     - [课后工作](#课后工作-4)
+    - [点名](#点名-5)
+    - [内容](#内容-6)
+    - [课后工作](#课后工作-5)
 
 <!-- /TOC -->
 
@@ -232,6 +235,46 @@
 * 建一个Jupyter Notebook文件练习
 * 建Python源码文件练习
 
- 
+ ## 0319
+
+### 点名
+
+群投票：0319点名-Python标识语句块方法
+
+* 缩进
+* {}
+
+**结果**：
+
+### 内容
+
+1. [函数, 模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
+
+* Function definitions, Positional, Keyword Arguments and Default Values
+
+* Functions as Objects, Lambdas
+
+* Scoping, Global Variablesn
+
+* Specifications
+
+* `docstring`,`pydoc`
+
+* `print(str.format())`
+
+* Module: `import M`,`from M import *`
+
+* The interpreter search path, `sys.path`
+
+* Package, `__init__.py`
+
+2. 同学们体验以上内容，QQ群反馈信息
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建一个Jupyter Notebook文件练习
+* 建Python源码文件练习
+
    
    
