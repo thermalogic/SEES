@@ -202,7 +202,7 @@
 * **'bc'**
 * **'bcd'**
 
-**结果**：
+**结果**：-1
 
 ### 内容
 
@@ -249,7 +249,7 @@
 
 ### 内容
 
-1. [函数, 模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
+[函数, 模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
 
 * Function definitions, Positional, Keyword Arguments and Default Values
 
@@ -263,7 +263,7 @@
 
 * `print()`, `str.format()`
 
-2. 同学们体验以上内容，QQ群反馈信息
+**同学们体验以上内容，QQ群反馈信息**
 
 ### 课后工作
 
