@@ -220,6 +220,8 @@
      
    * Line Continuation: `() [] {}` , `\`
 
+   * `pass`
+
 3. Python编码规范
    
    * The Zen of Python(`PEP20`)

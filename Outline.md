@@ -47,6 +47,8 @@
 * **Indentation**: delineate blocks of code
      
 * Line Continuation: `() [] {}` , `\`
+
+* `pass`
   
 * **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
 
@@ -172,7 +174,7 @@
 
 * Encapsulation and Information Hiding, Invisible `__name`
 
-* `pass`
+* `pass` as a placeholder
 
 ## [Iterator Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Iterator-Generator.ipynb)
 
