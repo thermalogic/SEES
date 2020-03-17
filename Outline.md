@@ -350,8 +350,6 @@
 
 * Qt
 
-* [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
-
 ## [Outlook: Further Studing](./guide/doc/FurtherStuding.md)
 
 ## Recap
