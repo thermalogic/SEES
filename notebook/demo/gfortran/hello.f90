@@ -1,4 +1,4 @@
 
 program hello
-  write(*,*) 'Fortran says Hello, world!'
+  PRINT *, 'Fortran says Hello, world!'
 end program hello

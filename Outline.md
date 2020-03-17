@@ -203,7 +203,6 @@
 * IAPWS-IF97
 
 * Python library for IAPWS，SEUIF97
-
    
 * **Homework**
 
@@ -303,7 +302,7 @@
  
     * stdio.h: `scanf,printf`
 
-## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-Fortran_gfortran.ipynb)    
+## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-3-Fortran.ipynb)    
 
     * program, subroutine, function, module
 
@@ -322,10 +321,6 @@
 * Excel VBA(Excel 2013 above, 64bit)
 
     * https://github.com/thermalogic/Excel4Engineering  
-
-* **Homework**
-
-   * [Download the GSL4Windows](https://github.com/PySEE/GSL4Windows)  
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
 
@@ -346,6 +341,14 @@
          * [VS code: Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl#nodejs-articles)
 
 ## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-2-Linux.ipynb)
+
+* [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
+
+## [Threading](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-Threading(PyQt5).ipynb)
+
+* Threading
+
+* Qt
 
 * [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 

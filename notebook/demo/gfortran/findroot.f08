@@ -21,13 +21,10 @@ program findroot
   ! ask for tolerance
   tol=0.01
 
-  ! solve by bisection
+  ! call the bisection
   call bisect(myfun,xl,xr,x,f,tol)
 
   ! print result
-  print *,'Solution is:',x,' with final residual:',f
-
-  ! terminate the program
-  stop
+  print *,'Solution is:',x,' with final residual F0.4:',f
 
 end program findroot

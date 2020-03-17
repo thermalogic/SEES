@@ -48,7 +48,7 @@ contains
 ! CIRCLE_PRINT prints information about the circle
 !==============================================================================
 
-  subroutine circle_print(this)
+subroutine circle_print(this)
 
     type(Circle), intent(inout) :: this ! circle instance
 
@@ -58,10 +58,6 @@ contains
     ! calculate circumference
     this%circum = circle_circum(this)
 
-    ! print results
-    write(*,'("The area is:",T30,F0.4,/,"The circumference is:",T30,F0.4)')    &
-   &           this%area,this%circum
-
-  end subroutine circle_print
+end subroutine circle_print
 
 end module class_Circle

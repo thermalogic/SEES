@@ -1,6 +1,7 @@
+
 subroutine bisect(fun,xl,xr,x,f,tol)
 
-implicit none
+  implicit none
 
   ! arguments
   real(8),intent(inout) :: xl       ! left bound
@@ -49,9 +50,6 @@ implicit none
 
     end if
 
-
-    ! print out information
-    print *,'Iteration:',i,' Residual:',f
 
   end do
 

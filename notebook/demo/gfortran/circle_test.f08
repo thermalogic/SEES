@@ -7,12 +7,13 @@ program circle_test
   type(Circle) :: acircle  ! a circle instance
 
   acircle%radius=3.2
- 
-  write(*,'("The radius is:",T30,F0.4)') acircle%radius
-  ! print out results
-  call circle_print(acircle)
 
-  ! terminate the program
-  stop
+  call circle_print(acircle)
+ 
+  ! print out  results
+  PRINT '("The radius is:",T30,F0.4,/,&
+           "The area is:",T30,F0.4,/,&
+           "The circumference is:",T30,F0.4)', &
+             acircle%radius, acircle%area,acircle%circum
 
 end program circle_test
