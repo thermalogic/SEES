@@ -8,11 +8,30 @@ import threading
 def get_data():
     return psutil.cpu_percent()
 
+class MonitorThread(threading.Thread):
+    """ A thread clacc for monitoring a CPU. """
+
+    def __init__(self,ON,valueUI):
+        threading.Thread.__init__(self)
+        self.value =None
+        self.ON=ON
+        self.valueUI=valueUI
+
+    def run(self):
+        while True:
+            if self.ON==True:
+                self.value = get_data()
+            else:
+                self.value="Paused"
+            self.valueUI.showMessage(str(self.value))
+            time.sleep(2)
+
 class Example(QMainWindow):
     
     def __init__(self):
         super().__init__()
         self.initUI()
+        self.cpu_monitor=None
         
     def initUI(self):      
 
@@ -35,17 +54,20 @@ class Example(QMainWindow):
     def button1Clicked(self):
         sender = self.sender()
         self.statusBar().showMessage(sender.text() + ' was pressed')
-
-    def io_worker(self):
-        """thread's worker function"""
-        while True:
-            self.value=get_data()
-            self.statusBar().showMessage(str(self.value))  
-            time.sleep(2)
-     
+      
     def button2Clicked(self):
-        self.t = threading.Thread(target=self.io_worker)
-        self.t.start()
+        if self.cpu_monitor==None:
+            self.cpu_monitor = MonitorThread(True,self.statusBar())
+            self.cpu_monitor.start()
+        else:
+            self.cpu_monitor.ON = not self.cpu_monitor.ON 
+              
+        text = self.btn2.text()
+        self.btn2.setText("To Pause" 
+                          if text == "Start CPU" else "Start CPU")   
+      
+             
+        
         
 if __name__ == '__main__':
     app = QApplication(sys.argv)
