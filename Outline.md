@@ -344,12 +344,6 @@
 
 * [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md), Ubuntukylin
 
-## [GUI & Threading](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/UnitA-1-PyQt5-Threading.ipynb)
-
-* PyQt5
-
-* Threading
-
 ## [Outlook: Further Studing](./guide/doc/FurtherStuding.md)
 
 ## Recap
