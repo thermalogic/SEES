@@ -41,6 +41,10 @@
     - [点名](#点名-5)
     - [内容](#内容-6)
     - [课后工作](#课后工作-5)
+- [0326](#0326)
+    - [点名](#点名-6)
+    - [内容](#内容-7)
+    - [课后工作](#课后工作-6)
 
 <!-- /TOC -->
 
@@ -257,13 +261,15 @@
 
 * Functions as Objects, Lambdas
 
-* Scoping, Global Variablesn
+* Scoping
 
 * Specifications
 
+* `print()`, `str.format()`
+
 * `docstring`,`pydoc`
 
-* `print()`, `str.format()`
+* `%load` 
 
 **同学们体验以上内容，QQ群反馈信息**
 
@@ -273,5 +279,42 @@
 * 建一个Jupyter Notebook文件练习
 * 建Python源码文件练习
 
+## 0326
+
+### 点名
+
+群投票：0326点名-Python函数定义关键字是
+
+* def
+* define
+
+**结果**：
+
+### 内容
+
+[函数, 模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
+
+* Global Variablesn
+
+* Module: `import M`,`from M import *`
+
+* The interpreter search path, `sys.path`
+
+* Package, `__init__.py`
+
+ [元组类型Tuple](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-1-Tuple.ipynb)
+
+* (1,)  a,b=(1,2)
+
+**同学们体验以上内容，QQ群反馈信息**
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建一个Jupyter Notebook文件练习
+* 建Python源码文件练习
+
+   
+   
    
    
