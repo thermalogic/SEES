@@ -56,13 +56,11 @@
 
 ## [Function, Module & Package](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
 
-* Function definitions, Positional, Keyword Arguments and Default Values
+* Function definitions, Positional, Keyword Arguments and Default Values, Functions as Objects, 
 
-* Functions as Objects, Lambdas
+* Scoping
 
-* Scoping, Global Variablesn
-
-* Specifications
+* Lambdas
 
 * `docstring`,`pydoc`
 
