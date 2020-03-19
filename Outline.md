@@ -64,6 +64,8 @@
 
 * `docstring`,`pydoc`
 
+* `%load`
+
 * `print(str.format())`
 
 * Module: `import M`,`from M import *`
@@ -101,8 +103,6 @@
 ## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
    
 * File, Unicode, Table Data，CSV
-
-* `%load`
 
 * **Homework** 
 

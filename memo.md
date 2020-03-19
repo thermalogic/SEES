@@ -257,13 +257,13 @@
 
 [函数, 模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
 
-* Function definitions, Positional, Keyword Arguments and Default Values, Functions as Objects
+* Function 
 
-* Functions as Objects
+  * definitions,  Positional, Keyword Arguments and Default Values
+  
+  *  Scoping,  Functions as Objects
 
 * Lambdas
-
-* Scoping
 
 * `print()`, `str.format()`
 
