@@ -292,7 +292,7 @@
 
 ### 内容
 
-[模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module_Package.ipynb)
+[模块和软件包](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-3-Function-Module-Package.ipynb)
 
 * Module: `import M`,`from M import *`
 
