@@ -72,6 +72,8 @@
 
 * The interpreter search path, `sys.path`
 
+* if __name__ == '__main__':
+
 * Package, `__init__.py`
 
 ## [Tuple, Sequence unpacking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-1-Tuple.ipynb)
