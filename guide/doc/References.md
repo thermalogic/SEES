@@ -99,11 +99,14 @@
 
 * [Microsoft: Welcome back to C++ - Modern C++](https://docs.microsoft.com/en-us/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=vs-2019)
 
-### Ubuntu
+### Linux/Ubuntu
 
 * Ubuntu https://www.ubuntu.com/
 
   * Ubuntukylin https://www.ubuntukylin.com/
+
+* [An In Depth Tutorial on Linux Development on Windows with WSL and Visual Studio Code](
+  https://devblogs.microsoft.com/commandline/an-in-depth-tutorial-on-linux-development-on-windows-with-wsl-and-visual-studio-code/)
 
 ### Software Engineering
 
@@ -113,14 +116,13 @@
 
     * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
-* UML http://www.uml.org/
+* Greg Wilson, Co-founder of Software Carpentry 
+  * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+  * [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
-* Donald Bell. [UML basics:An introduction to the Unified Modeling Language](https://www.ibm.com/developerworks/rational/library/769.html)
+* 周以真(Jeannette M. Wing), Professor, Columbia University 
+  * [Computational Thinking Benefits Society](http://socialissues.cs.toronto.edu/index.html%3Fp=279.html)
 
-   * [UML basics: The class diagram](https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/index.html?ca=drs-)
-
-* [Googletest - Google Testing and Mocking Framework](https://github.com/google/googletest)
-
-   * Arpan Sen. [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
-
+* Tom Preston-Werner, Chatterbug cofounder, Previously Github cofounder/CEO:
+  * [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 
