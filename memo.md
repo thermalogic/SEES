@@ -344,7 +344,7 @@
 ### 课后工作
 
 练习课程内容(`不考核`)
-* 建一个Jupyter Notebook文件练习
+* 建Jupyter Notebook文件练习
 * 建Python源码文件练习
    
    
