@@ -68,7 +68,7 @@
 
 * `print(str.format())`
 
-* Module: `import M`,`from M import *`
+* Module: `import M`,`from M import *` `import as`
 
 * The interpreter search path, `sys.path`
 
