@@ -86,11 +86,7 @@
 
 * mutability, object equality, aliasing, cloning: `L[:]`
       
-* Range
-
 * Sequence types(String,List,Tuple,Range): Operators and Functions
-
-* High-order function; map, filter, functools,reduce
 
 ## [Dictionary](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-3-Dict.ipynb)
 
