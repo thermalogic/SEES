@@ -339,6 +339,8 @@
       
 * Sequence types(String,List,Tuple,Range): Operators and Functions
 
+**同学们体验以上内容，QQ群反馈信息**
+
 ### 课后工作
 
 练习课程内容(`不考核`)
