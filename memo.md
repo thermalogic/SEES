@@ -45,6 +45,10 @@
     - [点名](#点名-6)
     - [内容](#内容-7)
     - [课后工作](#课后工作-6)
+- [0330](#0330)
+    - [点名](#点名-7)
+    - [内容](#内容-8)
+    - [课后工作](#课后工作-7)
 
 <!-- /TOC -->
 
@@ -288,7 +292,7 @@
 * def
 * define
 
-**结果**：
+**结果**：-2
 
 ### 内容
 
@@ -314,7 +318,32 @@
 * 建一个Jupyter Notebook文件练习
 * 建Python源码文件练习
 
-   
+## 0330
+
+### 点名
+
+群投票：0330点名-一个元素的Python元组正确定义是
+
+* (2,)
+* (2)
+
+**结果**：
+
+### 内容
+
+[列表](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-2-List.ipynb)
+
+* List,List Comprehension
+
+* mutability, object equality, aliasing, cloning: `L[:]`
+      
+* Sequence types(String,List,Tuple,Range): Operators and Functions
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建一个Jupyter Notebook文件练习
+* 建Python源码文件练习
    
    
    

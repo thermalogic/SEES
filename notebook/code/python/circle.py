@@ -7,6 +7,5 @@ def area(radius):  # function definitions.
 def circumference(radius):
     return 2*pi*radius
 
-if __name__ == '__main__':
-   # execute only if run as a script
-   print(area(3.2))
+# add test code
+print(area(3.2))
