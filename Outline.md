@@ -310,7 +310,7 @@
 
 * ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
-## [Winndows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
+## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
 * Building Windows DLL: `__stdcall`,`windll.LoadLibrary`
   

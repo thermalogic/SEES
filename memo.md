@@ -49,6 +49,10 @@
     - [点名](#点名-7)
     - [内容](#内容-8)
     - [课后工作](#课后工作-7)
+- [0402](#0402)
+    - [点名](#点名-8)
+    - [内容](#内容-9)
+    - [课后工作](#课后工作-8)
 
 <!-- /TOC -->
 
@@ -327,7 +331,7 @@
 * (2,)
 * (2)
 
-**结果**：
+**结果**：-2
 
 ### 内容
 
@@ -335,9 +339,11 @@
 
 * List,List Comprehension
 
-* mutability, object equality, aliasing, cloning: `L[:]`
+* mutability, aliasing, cloning: `L[:]`Variables and object
       
 * Sequence types(String,List,Tuple,Range): Operators and Functions
+
+* `copy()`, `deepcopy()`
 
 **同学们体验以上内容，QQ群反馈信息**
 
@@ -347,5 +353,29 @@
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习
    
-   
-   
+## 0402
+
+### 点名
+
+群投票：0402点名 - 列表是 
+
+* 可变类型
+* 不可变类型
+
+**结果**：
+
+### 内容
+
+[列表](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-2-List.ipynb)
+
+* string  Operators and Functions
+
+[字典](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-3-Dict.ipynb)
+
+* {key:value} ; mutability;  cloning: 
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建Jupyter Notebook文件练习
+* 建Python源码文件练习  
