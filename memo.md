@@ -379,3 +379,7 @@
 练习课程内容(`不考核`)
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习  
+
+自研：
+* [现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
+ 
