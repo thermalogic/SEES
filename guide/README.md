@@ -26,8 +26,6 @@
 
 * [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
 
-* [Install OpenModelica](./doc/InstallOpenModelica.md) 
-
 * [Creating UML diagrams for python code](./doc/UMLPython.md) 
 
 * [Further Studing](./doc/FurtherStuding.md)

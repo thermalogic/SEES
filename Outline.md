@@ -238,8 +238,8 @@
    
    * **Optional**
        
-      * [Install OpenModelica](./guide/InstallOpenModelica.md) 
-
+      * Install OpenModelica/Dymola 
+      
 ## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
 
 * Built-In Exception, `try: except` 
