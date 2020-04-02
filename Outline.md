@@ -92,6 +92,8 @@
 
 * {key:value} ; mutability;  
 
+* dict view objects
+
 ## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
 
 * `std::tuple`, `std::verctor`, `std::unordered_map`
