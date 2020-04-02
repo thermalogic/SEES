@@ -378,7 +378,7 @@
 
 * {key:value} ; mutability;  cloning: 
 
-* [现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
+[现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
 
 ### 课后工作
 
