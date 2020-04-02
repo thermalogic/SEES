@@ -22,7 +22,7 @@
 
 * [计算机能力养成](./doc/tips4coding(Chinese).md) 
 
-* [使用MSVC工具集(CL,LINK,NMAKE)命令行编译程序](./doc/使用MSVC工具集命令行编译程序.md)
+* [使用MSVC工具集命令行编译程序](./doc/使用MSVC工具集命令行编译程序.md)
 
 ## Further Reading
 
