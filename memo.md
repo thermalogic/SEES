@@ -53,6 +53,10 @@
     - [点名](#点名-8)
     - [内容](#内容-9)
     - [课后工作](#课后工作-8)
+- [0409](#0409)
+    - [点名](#点名-9)
+    - [内容](#内容-10)
+    - [课后工作](#课后工作-9)
 
 <!-- /TOC -->
 
@@ -374,12 +378,43 @@
 
 * {key:value} ; mutability;  cloning: 
 
+* [现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建Jupyter Notebook文件练习
+* 建Python源码文件练习  
+* 自研：现代C++
+
+## 0409
+
+### 点名
+
+群投票：0402点名 - Python语言字典的key必须是 
+
+* 可变类型
+* 不可变类型
+
+**结果**：
+
+### 内容
+
+[文件](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
+   
+* File, Unicode, Table Data，CSV
+
 ### 课后工作
 
 练习课程内容(`不考核`)
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习  
 
-自研：
-* [现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
- 
+安装Numpy,Scipy,Matplotlib
+
+```bash
+> python -m pip install numpy scipy matplotlib
+```
+
+
+
