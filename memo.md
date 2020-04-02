@@ -372,11 +372,11 @@
 
 [列表](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-2-List.ipynb)
 
-* string  Operators and Functions
+* string : Functions
 
 [字典](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-3-Dict.ipynb)
 
-* {key:value} ; mutability;  cloning: 
+* {key:value} ; mutability; 
 
 [现代C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
 

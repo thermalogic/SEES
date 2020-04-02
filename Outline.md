@@ -84,13 +84,13 @@
 
 * List,List Comprehension
 
-* mutability, object equality, aliasing, cloning: `L[:]`
+* mutability, object equality, aliasing, cloning: `L[:]` `copy()`, `deepcopy()`
       
 * Sequence types(String,List,Tuple,Range): Operators and Functions
 
 ## [Dictionary](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-3-Dict.ipynb)
 
-* {key:value} ; mutability;  cloning: `copy()`, `deepcopy()`
+* {key:value} ; mutability;  
 
 ## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-4-4-ModernCPP.ipynb)
 
