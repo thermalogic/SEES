@@ -57,6 +57,10 @@
     - [点名](#点名-9)
     - [内容](#内容-10)
     - [课后工作](#课后工作-9)
+- [0413](#0413)
+    - [点名](#点名-10)
+    - [内容](#内容-11)
+    - [课后工作](#课后工作-10)
 
 <!-- /TOC -->
 
@@ -398,7 +402,7 @@
 * 不可变类型
 * 可变类型
 
-**结果**：
+**结果**：-1
 
 ### 内容
 
@@ -425,6 +429,36 @@
 ```bash
 > python -m pip install numpy scipy matplotlib
 ```
+
+## 0413
+
+### 点名
+
+群投票：0413点名 - Python语言默认字符集编码是 
+
+* UTF-8
+* GBK
+
+**结果**：
+
+### 内容
+
+[Numpy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-1-Numpy-Basic.ipynb)
+
+* array class, arithmetic operations: elementwise, index,slicing
+
+[PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-PLOTTING-USING-MATPLOTLIB.ipynb)
+
+* `figure`, `plot`, `show`, (x,y), (y)，
+
+* `title`,`xlabel`,`ylabel`,
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建Jupyter Notebook文件练习
+* 建Python源码文件练习  
+
 
 
 
