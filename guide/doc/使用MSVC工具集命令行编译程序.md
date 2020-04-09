@@ -18,15 +18,16 @@ If you've installed Visual Studio and a C++ workload, you have all the command-l
 
 For MSVC, the paths are depended on the **specific version** Windows and Visual Studio you have installed 
 
-For example
+For example:
 
-* Windows 10.0.18362.0, 
+* Windows 10.0.18362.0,
 
 * Microsoft Visual Studio Community 2019 14.25.28610
 
 #### Set the Compiler path
 
 Add the Compiler path to the system environment variable `Path`：
+
 ```
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx64\x64
 ```
@@ -50,9 +51,7 @@ C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x64
 
 ```
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include
-
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt
-
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um
 ```
 
