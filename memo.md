@@ -404,7 +404,11 @@
 
 1. [文件](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
    
-* File, Unicode, Table Data，CSV
+* File
+
+* Character Encoding, Unicode
+
+* Table Data，CSV
 
 2. Microsoft Visual Studio C++编程简介
 

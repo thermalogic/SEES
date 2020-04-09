@@ -102,7 +102,11 @@
 
 ## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
    
-* File, Unicode, Table Data，CSV
+* File
+
+* Character Encoding, Unicode
+
+* Table Data，CSV
 
 * **Homework** 
 
