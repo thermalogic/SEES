@@ -132,8 +132,6 @@
    
    * type size, `reParams`
 
-   * `%matplotlib inline`
-
 ## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * The Behavior of Springs：

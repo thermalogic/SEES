@@ -61,6 +61,12 @@
     - [点名](#点名-10)
     - [内容](#内容-11)
     - [课后工作](#课后工作-10)
+- [0416](#0416)
+    - [点名](#点名-11)
+    - [内容](#内容-12)
+- [[UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)](#understanding-experimental-datahttpsnbvieweripythonorggithubpyseehometrees2020notebookunit2-3-understanding_experimental_dataipynb)
+- [[LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)](#lies-damned-lies-and-statisticshttpsnbvieweripythonorggithubpyseehometrees2020notebookunit2-4-lies_damned_lies_and_statisticsipynb)
+    - [课后工作](#课后工作-11)
 
 <!-- /TOC -->
 
@@ -451,13 +457,54 @@
 
 * `figure`, `plot`, `show`, (x,y), (y)，
 
-* `title`,`xlabel`,`ylabel`,
+* `title`,`xlabel`,`ylabel`
+
+* line style,color and width
+   
+* type size, `reParams`
 
 ### 课后工作
 
 练习课程内容(`不考核`)
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习  
+
+## 0416
+
+### 点名
+
+群投票：0416点名 -NumPy中array元素类型的正确说法是 
+
+* 必须是同一种类型
+* 可以是不同类型
+
+**结果**：
+
+### 内容
+
+## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+* The Behavior of Springs
+   
+* NumPy: polyfit
+
+* The Behavior of Projectiles, Coefficient of Determination
+ 
+## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+
+ * NumPy: genfromtxt, mean,var,corrcoef
+   
+ * Matplotlib: bar, `subplot` 
+
+### 课后工作
+
+练习课程内容(`不考核`)
+* 建Jupyter Notebook文件练习
+* 建Python源码文件练习  
+
+
+
+
 
 
 
