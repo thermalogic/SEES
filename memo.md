@@ -64,8 +64,6 @@
 - [0416](#0416)
     - [点名](#点名-11)
     - [内容](#内容-12)
-- [[UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)](#understanding-experimental-datahttpsnbvieweripythonorggithubpyseehometrees2020notebookunit2-3-understanding_experimental_dataipynb)
-- [[LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)](#lies-damned-lies-and-statisticshttpsnbvieweripythonorggithubpyseehometrees2020notebookunit2-4-lies_damned_lies_and_statisticsipynb)
     - [课后工作](#课后工作-11)
 
 <!-- /TOC -->
@@ -482,7 +480,7 @@
 
 ### 内容
 
-## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+[UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * The Behavior of Springs
    
@@ -490,11 +488,13 @@
 
 * The Behavior of Projectiles, Coefficient of Determination
  
-## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+[LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
  * NumPy: genfromtxt, mean,var,corrcoef
    
  * Matplotlib: bar, `subplot` 
+
+ [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-5-Scipy.ipynb)
 
 ### 课后工作
 
