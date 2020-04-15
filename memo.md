@@ -498,6 +498,8 @@
 
 ### 课后工作
 
+[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
 练习课程内容(`不考核`)
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习  

@@ -48,7 +48,7 @@
      
 * Line Continuation: `() [] {}` , `\`
 
-* `pass`
+* `pass` as a placeholder
   
 * **Python Style Guide**: The Zen of Python(`PEP20`); Coding convention(`PEP8`)
 
@@ -170,7 +170,9 @@
 
 ## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
 
-* Abstract Data Types and Classes, Inheritance, 
+* `Computational thinking`
+
+* Class, Inheritance
 
 * Encapsulation and Information Hiding, Invisible `__name`
 
