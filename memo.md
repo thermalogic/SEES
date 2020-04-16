@@ -65,6 +65,10 @@
     - [点名](#点名-11)
     - [内容](#内容-12)
     - [课后工作](#课后工作-11)
+- [0423](#0423)
+    - [点名](#点名-12)
+    - [内容](#内容-13)
+    - [课后工作](#课后工作-12)
 
 <!-- /TOC -->
 
@@ -503,6 +507,36 @@
 练习课程内容(`不考核`)
 * 建Jupyter Notebook文件练习
 * 建Python源码文件练习  
+
+## 0423
+
+### 点名
+
+群投票：0423点名-LaTex 行中 数学公式的形式是
+
+* $数学公式$
+* $$数学公式$$
+
+**结果**：
+
+### 内容
+
+[Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-5-Scipy.ipynb)
+
+[Live Updating and Interactive Plots](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-7-Live_Interact_Plot.ipynb)
+
+[The-SIR-epidemic-model](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-8-Special-Example-The-SIR-epidemic-model.ipynb)
+
+### 课后工作
+
+[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
+
+
+
+
+
+
 
 
 
