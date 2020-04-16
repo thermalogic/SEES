@@ -476,7 +476,7 @@
 * 必须是同一种类型
 * 可以是不同类型
 
-**结果**：
+**结果**：-1
 
 ### 内容
 
@@ -487,14 +487,14 @@
 * NumPy: polyfit
 
 * The Behavior of Projectiles, Coefficient of Determination
- 
+
 [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
  * NumPy: genfromtxt, mean,var,corrcoef
    
  * Matplotlib: bar, `subplot` 
 
- [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-5-Scipy.ipynb)
+[LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-6-LaTeX-Math.ipynb)
 
 ### 课后工作
 
