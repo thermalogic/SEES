@@ -527,6 +527,8 @@
 
 [The-SIR-epidemic-model](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-8-Special-Example-The-SIR-epidemic-model.ipynb)
 
+[编程思维(Computational Thinking/)](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+
 ### 课后工作
 
 [练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
