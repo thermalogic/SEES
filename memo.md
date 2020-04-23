@@ -69,6 +69,10 @@
     - [点名](#点名-12)
     - [内容](#内容-13)
     - [课后工作](#课后工作-12)
+- [0427](#0427)
+    - [点名](#点名-13)
+    - [内容](#内容-14)
+    - [课后工作](#课后工作-13)
 
 <!-- /TOC -->
 
@@ -517,7 +521,7 @@
 * $数学公式$
 * $$数学公式$$
 
-**结果**：
+**结果**：-2
 
 ### 内容
 
@@ -532,6 +536,37 @@
 ### 课后工作
 
 [练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
+## 0427
+
+### 点名
+
+群投票：0427点名-下面那个Python语言Class实例构建方法定义是正确的
+
+* ```def __init__(self):```
+* ```def __init__():```
+
+**结果**：
+
+### 内容
+
+[面向对象的程序设计)](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+
+* Class, Inheritance
+
+* Encapsulation and Information Hiding, Invisible `__name`
+
+* `pass` as a placeholder
+
+### 课后工作
+
+[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
+
+
+
+
+
 
 
 

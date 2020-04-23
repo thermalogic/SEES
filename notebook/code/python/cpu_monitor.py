@@ -3,11 +3,15 @@ from time import sleep, strftime
 import matplotlib.pyplot as plt
 
 pltLength = 100
+
+#Turn the interactive mode on.
+plt.ion()
+
+# index 
 x = [i for i in range(pltLength)]
+# value
 y = [None for i in range(pltLength)]
 i = 0
-
-plt.ion()
 
 def write_cpu(cpu):
     with open("cpu.csv", "a") as log:
@@ -22,8 +26,10 @@ def graph(cpu):
         # Once enough data is captured, append the newest data point and delete the oldest
         y.append(cpu)
         del y[0]
-
+        
+    # clear the current figure.
     plt.clf()
+    
     plt.xlim(0, pltLength)
     plt.plot(x, y, "b-o")
     plt.draw()
