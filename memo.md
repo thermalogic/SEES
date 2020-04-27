@@ -73,6 +73,10 @@
     - [点名](#点名-13)
     - [内容](#内容-14)
     - [课后工作](#课后工作-13)
+- [0430](#0430)
+    - [点名](#点名-14)
+    - [内容](#内容-15)
+    - [课后工作](#课后工作-14)
 
 <!-- /TOC -->
 
@@ -502,7 +506,7 @@
    
  * Matplotlib: bar, `subplot` 
 
-[LaTeX-Math](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-6-LaTeX-Math.ipynb)
+[LaTeX-MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-6-LaTeX-MathJax.ipynb)
 
 ### 课后工作
 
@@ -558,11 +562,36 @@
 
 * `pass` as a placeholder
 
+[迭代器与生成器](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Iterator-Generator.ipynb)
+
+*  Iterator; `iter`, `__next__`
+
+*  Generator：`yield`
+
 ### 课后工作
 
 [练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
 
+## 0430
 
+### 点名
+
+群投票：0430点名-下面那个是生成器表达式 
+
+* (x for x in range(1,100))
+* [x for x in range(1,100)]
+
+**结果**：-3
+
+### 内容
+
+[迭代器与生成器](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-2-Iterator-Generator.ipynb)
+
+[UML类图](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-3-UML.ipynb)
+
+### 课后工作
+
+[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
 
 
 
