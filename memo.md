@@ -593,6 +593,7 @@
 
 [RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
 
+[The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
 
 ### 课后工作
 
