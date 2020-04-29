@@ -589,9 +589,16 @@
 
 [UML类图](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-3-UML.ipynb)
 
+[IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-IF97.ipynb)
+
+[RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
+
+
 ### 课后工作
 
 [练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
+[下载PyRankine](https://github.com/PySEE/PyRankine)  
 
 
 
