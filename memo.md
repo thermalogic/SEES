@@ -585,7 +585,7 @@
 * (x for x in range(1,100))
 * [x for x in range(1,100)]
 
-**结果**：
+**结果**：-2
 
 ### 内容
 
@@ -594,7 +594,6 @@
 [UML类图](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-3-UML.ipynb)
 
 [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-IF97.ipynb)
-
 
 ### 课后工作
 
