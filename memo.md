@@ -77,6 +77,10 @@
     - [点名](#点名-14)
     - [内容](#内容-15)
     - [课后工作](#课后工作-14)
+- [0507](#0507)
+    - [点名](#点名-15)
+    - [内容](#内容-16)
+    - [课后工作](#课后工作-15)
 
 <!-- /TOC -->
 
@@ -581,7 +585,7 @@
 * (x for x in range(1,100))
 * [x for x in range(1,100)]
 
-**结果**：-3
+**结果**：
 
 ### 内容
 
@@ -591,9 +595,6 @@
 
 [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-1-IF97.ipynb)
 
-[RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
-
-[The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
 
 ### 课后工作
 
@@ -602,6 +603,34 @@
 [下载PyRankine](https://github.com/PySEE/PyRankine)  
 
 工程热力学- 蒸汽动力循环
+
+## 0507
+
+### 点名
+
+群投票：0507点名-IAPWS-IF97是
+
+* Industrial Formulation 1997 for the Thermodynamic Properties of Water and Steam
+* Formulation for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use
+
+**结果**：
+
+### 内容
+
+[RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
+
+[The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
+
+[The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-RankineCycle-General.ipynb)
+
+### 课后工作
+
+[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
+
+[学习PyRankine](https://github.com/PySEE/PyRankine)  
+
+工程热力学- 蒸汽动力循环
+
 
 
 
