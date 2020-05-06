@@ -81,6 +81,14 @@
     - [点名](#点名-15)
     - [内容](#内容-16)
     - [课后工作](#课后工作-15)
+- [0511](#0511)
+    - [点名](#点名-16)
+    - [内容](#内容-17)
+    - [课后工作](#课后工作-16)
+- [0514](#0514)
+    - [点名](#点名-17)
+    - [内容](#内容-18)
+    - [课后工作](#课后工作-17)
 
 <!-- /TOC -->
 
@@ -609,7 +617,7 @@
 
 群投票：0507点名-IAPWS-IF97是
 
-* Industrial Formulation 1997 for the Thermodynamic Properties of Water and Steam
+* Industrial Formulation for the Thermodynamic Properties of Water and Steam
 * Formulation for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use
 
 **结果**：
@@ -624,11 +632,55 @@
 
 ### 课后工作
 
-[练习1](https://github.com/PySEE/Practices/tree/S2020/P1/)
-
 [学习PyRankine](https://github.com/PySEE/PyRankine)  
 
+[学习Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-5-ModelingSimulation_EngineeringSystems.ipynb)
+
 工程热力学- 蒸汽动力循环
+
+## 0511
+
+### 点名
+
+群投票：0511点名-
+
+* 
+* 
+
+**结果**：
+
+### 内容
+ 
+[EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
+
+### 课后工作
+
+[练习2](https://github.com/PySEE/Practices/tree/S2020/P2/)
+
+
+## 0514
+
+### 点名
+
+群投票：0514点名-
+
+* 
+* 
+
+**结果**：
+
+### 内容
+ 
+[GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
+
+[GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
+
+### 课后工作
+
+[练习2](https://github.com/PySEE/Practices/tree/S2020/P2/)
+
+
+
 
 
 
