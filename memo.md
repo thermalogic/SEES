@@ -617,8 +617,8 @@
 
 群投票：0507点名-IAPWS-IF97是
 
-* Industrial Formulation for the Thermodynamic Properties of Water and Steam
-* Formulation for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use
+* 工业用公式
+* 普适和科学用公式
 
 **结果**：
 
@@ -651,8 +651,6 @@
 
 ### 内容
  
-[EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
-
 [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
 
 ### 课后工作
