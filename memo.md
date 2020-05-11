@@ -642,7 +642,7 @@
 
 ### 点名
 
-群投票：0511点名- Open Feedwater Heaterz中文翻译
+群投票：0511点名- Open Feedwater Heater中文翻译
 
 * 开式给水加热器(混合式)
 * 闭式给水加热器(表面式)
@@ -668,14 +668,16 @@
 
 ### 点名
 
-群投票：0514点名-
+群投票：0514点名-免费软件一定是自由软件吗？
 
-* 
-* 
+* 不是
+* 是
 
-**结果**：
+**结果**：-2
 
 ### 内容
+
+[GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
 
 [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
 
