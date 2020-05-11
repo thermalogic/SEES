@@ -653,6 +653,12 @@
  
 [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
 
+* GNU,GCC,MinGW-W64
+
+* GNU **Make**
+   
+* C/C++ Preprocessor Directives, once-only headers 
+
 ### 课后工作
 
 [练习2](https://github.com/PySEE/Practices/tree/S2020/P2/)
