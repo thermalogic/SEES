@@ -7,15 +7,38 @@
 
 2. 选择自定义安装：`Customize Installation`，对 `Customize Install location`项目， 按照Python解释器版本号，自定义`简短`的安装目录，如：
       
-    *  Python3.7，定义为 `C:\Python37`；Python3.8，定义为 `C:\Python38`
+    *  Python3.8，定义为 `C:\Python38`
 
-**安装Python软件包**
+**Python软件包**
 
 `pip`命令安装软件包的源是Pypi。因为Pypi服务器在外网，安装速度慢，也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
 
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+**安装课程需要的Python软件包命令汇总**
+
+安装好Python解释器后，在命令终端 `>` 执行以下命令：
+
+```bash
+>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+>python -m pip install --upgrade pip
+
+>python -m pip install autopep8 pylint
+
+>python -m pip install jupyter
+
+>python -m pip install jupyter_contrib_nbextensions
+
+>jupyter contrib nbextension install --user
+
+>python -m pip install numpy scipy matplotlib
+
+>python -m pip install iapws seuif97
+```
+
 **Visual Studio Code**
 
 1. 安装过程中`勾选`有关项目，方便使用
@@ -36,53 +59,53 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
 <!-- TOC -->
 
 - [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
-    - [A:Python & PyPI](#apython--pypi)
-        - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
-            - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
-            - [A.1.2  Using Python Shell(command-line model)](#a12--using-python-shellcommand-line-model)
-            - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
-        - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
-        - [A.3 Install Packages](#a3-install-packages)
-            - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
-            - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
-            - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
-    - [B:Jupyter Notebook](#bjupyter-notebook)
-        - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
-            - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
-        - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
-            - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
-            - [B.2.2 Create a new notebook document](#b22-create-a-new-notebook-document)
-        - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
-    - [C:Install MinGW-W64](#cinstall-mingw-w64)
-        - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
-        - [C.2 Set MinGW-W64 Environment](#c2-set-mingw-w64-environment)
-    - [D:Visual Studio Code](#dvisual-studio-code)
-        - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
-            - [D.1.1 Install](#d11-install)
-            - [D.1.2 Set the default type of a new file](#d12-set-the-default-type-of-a-new-file)
-            - [D.1.3 Set Display Language](#d13-set-display-language)
-        - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
-        - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
-            - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
-            - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
-            - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
-    - [E: Using Git](#e-using-git)
-        - [E.1 Install Git for Windows](#e1-install-git-for-windows)
-        - [E.2 Using Git with  PySEE/home](#e2-using-git-with--pyseehome)
-            - [E.2.1 Clone the PySEE/home to your computer](#e21-clone-the-pyseehome-to-your-computer)
-            - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
-            - [E.2.3 Discard Changes](#e23-discard-changes)
-    - [F:Scientific Computation Packages](#fscientific-computation-packages)
-        - [F.1 Scipy](#f1-scipy)
-        - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
-    - [Extended](#extended)
-        - [Python for mobile devices](#python-for-mobile-devices)
-            - [Python for Android](#python-for-android)
-            - [Python for Apple IOS](#python-for-apple-ios)
-        - [Windows10](#windows10)
-        - [SEUIF97 Shared Library](#seuif97-shared-library)
-        - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
-    - [References](#references)
+  - [A:Python & PyPI](#apython--pypi)
+    - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
+      - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
+      - [A.1.2  Using Python Shell(command-line model)](#a12-using-python-shellcommand-line-model)
+      - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
+    - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
+    - [A.3 Install Packages](#a3-install-packages)
+      - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
+      - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
+      - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
+  - [B:Jupyter Notebook](#bjupyter-notebook)
+    - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
+      - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
+    - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
+      - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
+      - [B.2.2 Create a new notebook document](#b22-create-a-new-notebook-document)
+    - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
+  - [C:Install MinGW-W64](#cinstall-mingw-w64)
+    - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
+    - [C.2 Set MinGW-W64 Environment](#c2-set-mingw-w64-environment)
+  - [D:Visual Studio Code](#dvisual-studio-code)
+    - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
+      - [D.1.1 Install](#d11-install)
+      - [D.1.2 Set the default type of a new file](#d12-set-the-default-type-of-a-new-file)
+      - [D.1.3 Set Display Language](#d13-set-display-language)
+    - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
+    - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
+      - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
+      - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
+      - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
+  - [E: Using Git](#e-using-git)
+    - [E.1 Install Git for Windows](#e1-install-git-for-windows)
+    - [E.2 Using Git with  PySEE/home](#e2-using-git-with-pyseehome)
+      - [E.2.1 Clone the PySEE/home to your computer](#e21-clone-the-pyseehome-to-your-computer)
+      - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
+      - [E.2.3 Discard Changes](#e23-discard-changes)
+  - [F:Scientific Computation Packages](#fscientific-computation-packages)
+    - [F.1 Scipy](#f1-scipy)
+    - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
+  - [Extended](#extended)
+    - [Python for mobile devices](#python-for-mobile-devices)
+      - [Python for Android](#python-for-android)
+      - [Python for Apple IOS](#python-for-apple-ios)
+    - [Windows10](#windows10)
+    - [SEUIF97 Shared Library](#seuif97-shared-library)
+    - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
+  - [References](#references)
 
 <!-- /TOC -->
 ## A:Python & PyPI
@@ -353,6 +376,7 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 ## C:Install MinGW-W64
 
 ### C.1 Download MinGW-W64
+
 
 Goto [MinGW-W64](https://sourceforge.net/projects/mingw-w64/files/?source=navbar) site, you see that：
 

@@ -125,13 +125,7 @@ UTF-8是Linux默认编码方式，也是很多软件开发工作中的编码。
 
 ## Windows安全防护
 
-微软提供的security essentials是Windows最好的安全防护软件
-  
-从下面网址下载和操作系统对应的版本的security essentials（**Windows 10默认已经安装**），安装
-
-http://windows.microsoft.com/zh-cn/windows/security-essentials-download
-      
-安装security essentials后，卸载所有其他各种 **"安全”** 软件。
+Windows 10系统中的安全防护可以满足需要，无需安装其他各种 **"安全”** 软件。
 
 》 **建议**： 除Googlg Chrome以外，不要安装操作系统以外的其他浏览器
    

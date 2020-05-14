@@ -9,7 +9,7 @@ INCDIR=./include/
 
 # Linux
 #LIB=libstat.so
-
+# Windows
 LIB=libstat.dll
 
 all:  $(LIB)
