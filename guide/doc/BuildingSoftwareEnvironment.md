@@ -76,9 +76,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
       - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
       - [B.2.2 Create a new notebook document](#b22-create-a-new-notebook-document)
     - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
-  - [C:Install MinGW-W64](#cinstall-mingw-w64)
-    - [C.1 Download MinGW-W64](#c1-download-mingw-w64)
-    - [C.2 Set MinGW-W64 Environment](#c2-set-mingw-w64-environment)
+  - [C:Install GCC for Windows：TDM-GCC](#cinstall-gcc-for-windowstdm-gcc)
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
       - [D.1.1 Install](#d11-install)
@@ -373,45 +371,13 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
  unzip `home.zip`, double-click  `nb.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
 
-## C:Install MinGW-W64
+## C:Install GCC for Windows：TDM-GCC
 
-### C.1 Download MinGW-W64
+Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) 
 
+**Download** the latest available version of gcc compiler for **windows64** - for example：`tdm64-gcc-9.2.0.exe`
 
-Goto [MinGW-W64](https://sourceforge.net/projects/mingw-w64/files/?source=navbar) site, you see that：
-
-**MinGW-W64 GCC-?.?.?**
-
-Download the latest available version of gcc compiler for **windows64** with **win32 API multithreading** - `x86_64-win32-seh`, for example：
-
-* [GCC-8.1.0 x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z)
- 
-### C.2 Set MinGW-W64 Environment
-
-**C.2.1** unzip the zipped MinGW-w64,then,remove to **C:\mingw64**
-
-**C.2.2** Add **C:\mingw64\bin** to the system environment variable **Path**
-
-For Windows 10: 
-
-Press `Win+Q`, Open the `Start Search`, type in `env`, and choose `Edit the system environment variables`, choose "**Environment Variables**" button
-
-![env](./img/gcc-path-1.jpg)
-
- Go to the section  "**System Variable**"(the lower half) ⇒ find the "**Path**" row,and click "**edit**" ⇒ Choose "**New**" (add a new folder to  the **Path** variable)  ⇒  Enter the value: **C:\mingw64\bin**
-
-![mingw-w64-path](./img/mingw-w64-path.jpg)
-
-> **Note:** Existing console windows will be using the old path. 
-> so that, you will need to reopen any console windows for the new `PATH` location to be available.
-
-**C.2.3** RENAME `C:\mingw64\bin\mingw32-make.exe` to  `C:\mingw64\bin\make.exe`
-
-**C.2.4** Verify the GCC installation by listing the version of gcc:
-
-```bash
-> gcc --version
-```
+**RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 ## D:Visual Studio Code
 
