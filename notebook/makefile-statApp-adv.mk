@@ -22,5 +22,6 @@ all:statApp
 statApp: $(OBJS)  
 	$(CC) -o $(BINDIR)$@ $(OBJS) 
 
+# the pattern rule: one step rule for multiple source files
 $(OBJS):$(SRCS)
-	$(CC) -o $@ -c $<  -I$(INCDIR) 
+	$(CC) -o $(OBJDIR)$(notdir $@) -c $(patsubst  %.o,$(SRCDIR)%.c,$(notdir $@))  -I$(INCDIR) 
