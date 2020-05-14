@@ -6,7 +6,7 @@ OBJDIR= ./obj/
 BINDIR= ./bin/
 INCDIR= ./include/
 
-# SRCS=$(SRCDIR)statistics.c \ 
+#SRCS=$(SRCDIR)statistics.c \ 
 #     $(SRCDIR)statApp.c 
 
 SRCS=$(wildcard $(SRCDIR)stat*.c)
