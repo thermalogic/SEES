@@ -45,11 +45,6 @@
 
 2. 将Visual Studio Code快捷方式固定到  `任务栏 `
 
-**TDM-GCC**
-
-1. 安装过程中`勾选`将安装路径加入系统环境变量`Path`
-2. 重命名 `mingw32-make.exe` 为 `make.exe`
-
 **请参考如下指导安装软件**
 
 # The Guide of Building Software Environment
@@ -374,13 +369,7 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
 Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) 
 
-**Download** the latest available version of gcc compiler for **windows64** - for example：`tdm64-gcc-9.2.0.exe`
-
-then,run the installer
-
-* Make sure you **check** option **Add to PATH**)
-
-   ![](./img/tdm-gcc.jpg)
+**Download** the latest available version of gcc compiler for **windows64** - for example：`tdm64-gcc-9.2.0.exe`,then,run the installer
 
 **RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
