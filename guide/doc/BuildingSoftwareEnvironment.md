@@ -91,12 +91,9 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
     - [F.1 Scipy](#f1-scipy)
     - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
   - [Extended](#extended)
-    - [Python for mobile devices](#python-for-mobile-devices)
-      - [Python for Android](#python-for-android)
-      - [Python for Apple IOS](#python-for-apple-ios)
     - [Windows10](#windows10)
-    - [SEUIF97 Shared Library](#seuif97-shared-library)
-    - [Install Python Packages: Third Parties,Requirements](#install-python-packages-third-partiesrequirements)
+    - [Install Python Packages: Third Parties](#install-python-packages-third-parties)
+    - [Install Python Packages:  Requirements](#install-python-packages-requirements)
   - [References](#references)
 
 <!-- /TOC -->
@@ -524,20 +521,6 @@ IAPWS
 
 ## Extended
 
-### Python for mobile devices
-
-#### Python for Android
-
-[QPython: Python for Android](https://www.qpython.org/)
-
-QPython is a script engine that runs Python on android devices. It lets your android device run Python scripts and projects. It contains the Python interpreter, console, editor, and the SL4A Library for Android.
-
-#### Python for Apple IOS
-
-[Pythonista 3: A Full Python IDE for iOS](http://omz-software.com/pythonista/)
-
-Pythonista is a complete development environment for writing Python™ scripts on your iPad or iPhone.
-
 ### Windows10
 
 64-bit Windows10 
@@ -557,78 +540,34 @@ Do you want to install Windows 10 on your PC?
 * download and run the media creation tool: 
        https://go.microsoft.com/fwlink/?LinkId=691209
  
-### SEUIF97 Shared Library
+### Install Python Packages: Third Parties
 
-Go to the repo on the Github：https://github.com/PySEE/SEUIF97 , download SEUIF97.zip
-
-![Download SEUIF97.zip](./img/downloadseuif97.jpg)
-   
-*  Unzip the downloaded file,then：
-   
-   * 1 copy **libseuif97.dll** to c:\windows\system
-   * 2 copy **seuif97.py** to the **Lib** dir of installed Python. If you have install Python3.7 in the C:\Python37\, copy to `C:\python37\Lib`
-
-### Install Python Packages: Third Parties,Requirements
-
-* `1` Binary packages are also available from third parties. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
+Binary packages are also available from third parties. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
 
 ```bash 
 >pip install *.whl
 ```
 
-* `2` Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
+### Install Python Packages:  Requirements
+
+* Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
 
 ```bash 
 >python -m pip install -r requirements.txt 
 ```
+
 ## References
 
-* 1 Python3:  https://www.python.org/downloads/
+* Python3:  https://www.python.org/downloads/
   
-  * Guido van Rossum. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+* Jupyter: http://jupyter.org/
 
-* 2 Python Packages
+* Numpy、Scipy and Matplotlib http://www.scipy.org/ 
 
-  * Jupyter: http://jupyter.org/
+* Visual Studio Code：https://code.visualstudio.com/
 
-  * Documentation. http://jupyter.readthedocs.org/en/latest/
+* Git https://git-scm.com
 
-  * Numpy、Scipy and Matplotlib http://www.scipy.org/ 
+* TDM-GCC https://jmeubank.github.io/tdm-gcc 
 
-    * Scipy. http://www.scipy.org/
-
-    * Numpy. http://www.numpy.org/
   
-    * Matplotlib.  http://matplotlib.org/
-
-  * IAPWS-IF97:
-
-     * Shared Lib: https://github.com/PySEE/SEUIF97
-
-     * Python: https://github.com/jjgomera/iapws
- 
-* 3 Visual Studio Code：https://code.visualstudio.com/
-
-   * Documentation: https://code.visualstudio.com/docs
-
-   * **Markdown** and VS Code： https://code.visualstudio.com/docs/languages/markdown
-
-   * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
-
-   * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
- 
-* 4 GCC, the GNU Compiler Collection：http://gcc.gnu.org/
-
-     * MinGW-W64(GCC) Compiler Suite:：http://mingw-w64.org/
-
-     * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
-
-* 5 Git
-
-    * Git  https://git-scm.com
-
-    * How to get started with GIT and work with GIT Remote Repo  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
-
-    * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
-    * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065

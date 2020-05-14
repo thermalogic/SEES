@@ -695,7 +695,7 @@
 
 ### 点名
 
-群投票：0521点名- 正确的MinGW-W64(GCC)编译产生的Windows动态库文件名？
+群投票：0521点名 - MinGW-W64(GCC)编译的Windows动态库正确文件名是？
 
 * libstat.dll
 * stat.dll
