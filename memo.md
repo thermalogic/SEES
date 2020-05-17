@@ -706,11 +706,15 @@
 
 * [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-3-DLL_VBA.ipynb)
 
-* [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-Git.ipynb)
-
 ### 课后工作
 
-[练习2](https://github.com/PySEE/Practices/tree/S2020/P2/)
+* [练习2](https://github.com/PySEE/Practices/tree/S2020/P2/)
 
-[练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
+* [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
+
+* 在 https://github.com/ 或者 https://gitee.com/ 建立个人账户
+
+* 安装WSL: [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+
+* 安装Visual Studio Code Remote  [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
