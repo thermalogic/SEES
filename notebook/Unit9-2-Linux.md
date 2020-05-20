@@ -80,11 +80,13 @@ $ls -l /usr/lib
 
   * Slackware, [OpenSUSE](https://www.opensuse.org/)
 
-  * archlinux https://www.archlinux.org/
+  * archlinux https://www.archlinux.org  [Manjaro[(https://manjaro.org/)
 
-  * Gentoo
-  
-  * **Mobile** OS: [Android](https://en.wikipedia.org/wiki/Android_(operating_system))(Google),[Tizen](https://www.tizen.org/)(The Linux Foundation)
+  * **Mobile** OS: 
+   
+     * [Android](https://en.wikipedia.org/wiki/Android_(operating_system))(Google)
+      
+     * [Tizen](https://www.tizen.org/)(The Linux Foundation)
 
 **[DistroWatch](https://distrowatch.com/)**
 
@@ -170,7 +172,15 @@ The **proportion** of using Linux operating system( <b style="color:blue">>70%</
 
 ## 5 Ubuntu
 
-[Ubuntu](https://www.ubuntu.com/) is a free and open-source operating system and [Linux](https://en.wikipedia.org/wiki/Linux) distribution based on [Debian](https://www.debian.org/). Ubuntu is offered in three official editions:  <b style="color:blue">Ubuntu Desktop</b> for personal computers,  <b style="color:blue">Ubuntu Server</b> for servers and the cloud, and  <b style="color:blue">Ubuntu Core</b> for Internet of things devices and robots.
+[Ubuntu](https://www.ubuntu.com/) is a free and open-source operating system and [Linux](https://en.wikipedia.org/wiki/Linux) distribution based on [Debian](https://www.debian.org/).
+
+ Ubuntu is offered in three official editions: 
+ 
+ *  <b style="color:blue">Ubuntu Desktop</b> for personal computers,
+   
+ *  <b style="color:blue">Ubuntu Server</b> for servers and the cloud, and 
+   
+ *   <b style="color:blue">Ubuntu Core</b> for Internet of things (**IOT**)devices and robots.
 
 Ubuntu is produced by **Canonical** and the developer community, under a meritocratic governance model.
 
@@ -178,39 +188,39 @@ Ubuntu is named after the Southern African philosophy of ubuntu (literally, 'hum
     
 * **New releases** of Ubuntu occur every **6** months. 
 
-
 * The **long-term support (LTS)** releases occur every **2**
 
-  * The most recent LTS is `18.04 LTS (Bionic Beaver)`,supported for ten years. 
-
+  * The most recent LTS is `20.04 LTS (Bionic Beaver)`,supported for ten years. 
 
 [优麒麟（Ubuntu Kylin）](http://www.ubuntukylin.com/)
 
 由中国 CCN（由CSIP、Canonical、NUDT三方联合组建）开源创新联合实验室与天津麒麟信息技术有限公司主导开发的全球开源项目，其宗旨是通过研发用户友好的桌面环境以及特定需求的应用软件，为全球 Linux 桌面用户带来非凡的全新体验！
+
 优麒麟操作系统是 Ubuntu 官方衍生版，得到来自 Debian、Ubuntu、Mate、LUPA 等国际社区及众多国内外社区爱好者的广泛参与和热情支持
 
 [银河麒麟](http://www.kylinos.cn/) 
 
-银河麒麟操作系统及相关衍生产品已成功应用于国防、政务、电力、金融、能源、教育等行业，基于银河麒麟操作系统和飞腾CPU的自主可控产品及方案已经成为我国自主安全可控信息系统的核心技术应用。
+银河麒麟操作系统及相关衍生产品已成功应用于国防、政务、**电力**、金融、能源、教育等行业，基于银河麒麟操作系统和飞腾CPU的自主可控产品及方案已经成为我国自主安全可控信息系统的核心技术应用。
 
 ![UbuntuKylin](./img/ubuntukylin.jpg)
-
-
 
 [Raspberry Pi](https://www.raspberrypi.org/)
 
 Our mission is to put the power of computing and digital making into the hands of people all over the world. We do this so that more people are able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.
 
 **Raspbian** is our official operating system for all models of the Raspberry Pi. Download it here, or use NOOBS, our easy installer for Raspbian and more.
-
-![raspberryp](./img/raspberrypi.jpg)
+i
+![raspberrypi](./img/raspberrypi.jpg)
 
 
 **Ubuntu on Windows**
 
 you may install `Ubuntu on Windows` through `Windows Store` to use Ubuntu Terminal and run Ubuntu command line utilities include `bash,ssh,git,apt and any more`.
 
-![UbuntuOnWindows](./img/UbuntuOnWindows.jpg)
+![UbuntuOnWindows](./img/Linux-shell.png)
+
+> [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+
 
 ## 6 Using Terminal
 
@@ -260,7 +270,7 @@ While it is reasonably safe to suppose that **everything you encounter on a Linu
 
 ### 7.2 File Directory Structure
 
-* All`files` are arranged in `directories`.
+* All `files` are arranged in `directories`.
 
 * These `directores` are organized into the `file system`
 
@@ -269,7 +279,8 @@ While it is reasonably safe to suppose that **everything you encounter on a Linu
 
 **Important Directories**
 
-
+* `/`: the root directory
+* 
 * /bin:  contains files that are essential for system operation, available for use by all
 users.
 
@@ -297,7 +308,7 @@ all users.
 
 * **/home:**  contains home directories of **all users**. 
 
-  * This is the directory where you are at when you login to a Linux/UNIX system.
+  * `This is the directory` where you are at when you `login` to a Linux/UNIX system.
 
 ![dev](./img/linux-dev.jpg)
 
@@ -309,14 +320,15 @@ File Path(Definition): position/address in the `directory tree`
 
 `Uniquely` defined and does **NOT depend on the current path**
 
+  *  from the root directory: `/`
+
 **Relative path**
 
 **Depend on the current location** in the directory tree
 
-*  . is the current working directory
+*  `.` is the current working directory
 
-* .. is one directory up
-
+* `..` is one directory up
 
 ### 7.4 Linux is Case Sensitive
 
@@ -326,26 +338,25 @@ All names are **case sensitive**
 
 Example: `MyFile.txt, myfile.txt, MYFILE.TXT` are three different files in Linux
 
-
 ### 7.5 Linux File Permission
 
 Designed as the multi **user** environment, the **access restriction** of files to other users on the system is embedded.
 
 Three types of **file permission**
 
-* Read (r)
+* Read (`r`)
 
-* Write (w)
+* Write (`w`)
 
-* Execute (x)
+* Execute (`x`)
 
 Three types of **user**
 
-* User (u) (owner)
+* User (`u`) (owner)
 
-* Group (g) (group members)
+* Group (`g`) (group members)
 
-* World (o) (everyone else on the system)
+* World (`o`) (everyone else on the system)
 
 Each file in Linux has the following attributes:
 
@@ -359,7 +370,7 @@ Each file in Linux has the following attributes:
 
 The `-l`option to **ls** displays the file type,using the **first column** indicates the type of a **file/dir/link**
 
-* `d`: for directory
+* `d`: for `directory`
 
 * `l`: for `symbolic link`(符号链接(软链接):将路径名链接到一个文件)
 
@@ -371,12 +382,13 @@ The `-l`option to **ls** displays the file type,using the **first column** indic
 
 ### 7.6 Changing File Permission
 
-**chmod** is a *NIX command to change permissions on a file
+**chmod** is a `*NIX` command to change permissions on a file
 
 Usage: 
 ```bash
 chmod <option> <permissions> <file or directory name>
 ```
+
 * –R: change permission recursively in a directory(all files in a  directory)
 
 **chmod in Symbolic Mode:**
@@ -433,6 +445,10 @@ Before installing software, you **should update your package list** with apt upd
 sudo apt update
 ```
 
+```
+sudo apt upgrade
+```
+
 ### 9.2 Installing a package with APT
 
 Installing a package with APT
@@ -480,20 +496,21 @@ sudo apt install somepackage
 which may be useful if you're low on disk space or you have limited download bandwidth.
 
 ### 9.5 Searching for software
+
 You can search the archives for a package with a given keyword with `apt search`
 
 ```
-apt search python3-pip
+sudo apt search python3-pip
 ```
 You can view more information about a package before installing it with  `apt show`
 
 ```
-apt show  python3-pip
+sudo apt show  python3-pip
 ```
 
 ###  9.6 Installing a package with dpkg
 
-* `dpkg:` The dpkg (Debian Package Manager) is the low level tool for installing, removing and providing information about '.deb' packages.
+* `dpkg:` The dpkg (`Debian Package Manager`) is the low level tool for installing, removing and providing information about '.deb' packages.
 
 ```bash
 sudo dpkg -i vscode_filename.deb
@@ -501,9 +518,7 @@ sudo dpkg -i vscode_filename.deb
 
 ## 10 Programming C/C++ Under Linux
 
-
 * [Unit8-1-GCC_Lib](./Unit8-1-GCC_Lib.ipynb)
-
 
 ## 11 Installing Ubuntu for Programming with Python,C/C++
 
@@ -519,9 +534,3 @@ https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chinese).md
 
   * Ubuntukylin https://www.ubuntukylin.com/
 
-
-
-
-```python
-
-```
