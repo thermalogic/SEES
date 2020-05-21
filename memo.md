@@ -93,6 +93,10 @@
   - [点名](#%e7%82%b9%e5%90%8d-18)
   - [内容](#%e5%86%85%e5%ae%b9-19)
   - [课后工作](#%e8%af%be%e5%90%8e%e5%b7%a5%e4%bd%9c-18)
+- [0525](#0525)
+  - [点名](#%e7%82%b9%e5%90%8d-19)
+  - [内容](#%e5%86%85%e5%ae%b9-20)
+  - [课后工作](#%e8%af%be%e5%90%8e%e5%b7%a5%e4%bd%9c-19)
 
 <!-- /TOC -->
 
@@ -695,7 +699,7 @@
 
 ### 点名
 
-群投票：0521点名 - MinGW-W64(GCC)编译的Windows动态库正确文件名是？
+群投票：0521点名 - MinGW-W64(GCC)适用的Windows动态库文件名是？
 
 * libstat.dll
 * stat.dll
@@ -718,3 +722,26 @@
 
 * 安装Visual Studio Code Remote  [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
+## 0525
+
+### 点名
+
+群投票：0525点名 - 下面那个是正确的Windows __stdcall 动态库的出口函数原型声明？
+
+* __declspec(dllexport) double __stdcall  mean(double data[], int size);
+
+* __declspec(dllimport) double __stdcall  mean(double data[], int size);
+
+**结果**：
+
+### 内容
+
+[The Simple Guide to Git/Github](https://github.com/PySEE/home/blob/S2020/notebook/Unit9-1-TheSimpleStepsGithub(Chinese).md)  
+
+### 课后工作
+
+* [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
+
+* 安装WSL: [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+
+* 安装Visual Studio Code Remote  [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
