@@ -71,7 +71,7 @@ Every git user should first introduce himself(yourname,youremail) to git, by run
 
 ### 2.2 提交工作内容到Git仓库
 
-#### 2.2.1 工作内容提交到缓存区
+#### 2.2.1 工作内容提交到`缓存区`
 
 ```bash
 >git add .
@@ -79,7 +79,7 @@ Every git user should first introduce himself(yourname,youremail) to git, by run
 
 注意： add命令后面是：`空格` 加一个 `.`
 
-#### 2.2.2 存入缓存区的内容提交至本地仓库
+#### 2.2.2 存入`缓存区`的内容提交至本地仓库
 
 ```bash
 >git commit -m “your desc of the commit"
