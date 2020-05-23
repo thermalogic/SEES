@@ -19,7 +19,7 @@ We will cover:
 * version control with [Git/Github](https://git-scm.com/) 
 * C/C++ and Python programming in [Linux/Ubuntu](https://www.ubuntu.com/)
 
-We emphasize breadth rather than depth on the these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
+We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
 
@@ -29,7 +29,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me or ope
 
 We highly recommend you practice coding whenever you have a few minutes.
 
-After successfully completing the course, We wish you have a broad spectrum of of computer knowledge and is a good programmer in the context of using computation to solve complex problems.
+After successfully completing the course, We wish you have a broad spectrum of computer knowledge and is a good programmer in the context of using computation to solve complex problems.
 
 ## Required Materials
 
@@ -73,7 +73,7 @@ After successfully completing the course, We wish you have a broad spectrum of o
 
 ## Grading
 
-The Course graded on an 100 point scale and then weighted according to the following distribution:
+The Course graded on the 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 20
   * [Practices:50](https://github.com/PySEE/Practices/)
