@@ -137,7 +137,7 @@ Every git user should first introduce himself(yourname,youremail) to git, by run
 
 * type `q` to exit the log screen
 
-回复`指定文件`到某次提交index `<unique ID of last commit>·`
+回复`指定文件`到某次提交commit `<unique ID of last commit>·`
 
 ```
 git checkout <unique ID of last commit> filename
@@ -287,6 +287,8 @@ git push mirror master
 ```bash
 >git gui
 ```
+
+
 
 ## 参考：
 
