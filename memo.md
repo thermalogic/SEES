@@ -780,7 +780,7 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 ### 点名
 
-群投票：0604点名 - 将Android操作系统的内核是：
+群投票：0604点名 - Android操作系统的内核是：
 
 * Linux kernel
 
