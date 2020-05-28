@@ -101,6 +101,10 @@
   - [点名](#点名-20)
   - [内容](#内容-21)
   - [课后工作](#课后工作-20)
+- [0604](#0604)
+  - [点名](#点名-21)
+  - [内容](#内容-22)
+  - [课后工作](#课后工作-21)
 
 <!-- /TOC -->
 
@@ -767,6 +771,27 @@
 Linux https://github.com/PySEE/home/blob/S2020/notebook/Unit9-2-Linux.md
 
 Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chinese).md
+
+### 课后工作
+
+* [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
+
+## 0604
+
+### 点名
+
+群投票：0604点名 - 将Android操作系统的内核是：
+
+* Linux kernel
+
+* Windows core
+
+**结果**：
+
+### 内容
+
+
+复习： Python语言1
 
 ### 课后工作
 
