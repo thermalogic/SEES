@@ -808,7 +808,7 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 ### 点名
 
-群投票：0609点名列表分片 [2, 5, 7, 8, 10][2:4] 结果是：
+群投票：0609点名-列表分片 [2, 5, 7, 8, 10][2:4] 结果是：
 
 * [7, 8]
 
