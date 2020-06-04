@@ -105,6 +105,10 @@
   - [点名](#点名-21)
   - [内容](#内容-22)
   - [课后工作](#课后工作-21)
+- [0609](#0609)
+  - [点名](#点名-22)
+  - [内容](#内容-23)
+  - [课后工作](#课后工作-22)
 
 <!-- /TOC -->
 
@@ -786,6 +790,8 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 * 线上考试
 
+* 线上、线下都可以
+
 **结果**：
 
 ### 内容
@@ -797,3 +803,24 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 * [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
 
+
+## 0609
+
+### 点名
+
+群投票：0609点名列表分片 [2, 5, 7, 8, 10][2:4] 结果是：
+
+* [7, 8]
+
+* [7, 8, 10]
+
+**结果**：
+
+### 内容
+
+
+复习： Python语言2
+
+### 课后工作
+
+* [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
