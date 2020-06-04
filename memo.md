@@ -780,11 +780,11 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 ### 点名
 
-群投票：0604点名 - Android操作系统的内核是：
+群投票：0604点名 - 你建议的期末考试形式：
 
-* Linux kernel
+* 线下考试(8月返校后）
 
-* Windows core
+* 线上考试
 
 **结果**：
 
