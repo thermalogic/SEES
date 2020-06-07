@@ -23,4 +23,4 @@ statApp: $(OBJS)
 	$(CC) -o $(BINDIR)$@ $(OBJS) 
 
 $(OBJS):$(SRCS)
-	$(CC) -o $@ -c $(patsubst  %.o,$(SRCDIR)%.c,$(notdir $@))  -I$(INCDIR) 
+	$(CC) -o $@ -c $(SRCDIR)$(patsubst  %.o,%.c,$(notdir $@))  -I$(INCDIR) 

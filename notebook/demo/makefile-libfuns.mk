@@ -27,4 +27,4 @@ $(LIB): $(OBJS)
 
 # the pattern rule: one step rule for multiple source files
 $(OBJS):$(SRCS)
-	$(CC) $(CFLAGS) -o $@ -c $(patsubst  %.o,$(SRCDIR)%.c,$(notdir $@))  -I$(INCDIR)
+	$(CC) $(CFLAGS) -o $@ -c $(SRCDIR)$(patsubst  %.o,%.c,$(notdir $@))  -I$(INCDIR)
