@@ -101,12 +101,13 @@
 
 ### Linux/Ubuntu
 
+* [Operating System Tutorials](https://www.w3schools.in/operating-system-tutorial/linux-operating-system)
+
 * Ubuntu https://www.ubuntu.com/
 
   * Ubuntukylin https://www.ubuntukylin.com/
 
-* [An In Depth Tutorial on Linux Development on Windows with WSL and Visual Studio Code](
-  https://devblogs.microsoft.com/commandline/an-in-depth-tutorial-on-linux-development-on-windows-with-wsl-and-visual-studio-code/)
+* [An In Depth Tutorial on Linux Development on Windows with WSL and Visual Studio Code](https://devblogs.microsoft.com/commandline/an-in-depth-tutorial-on-linux-development-on-windows-with-wsl-and-visual-studio-code/)
 
 ### Software Engineering
 
@@ -126,3 +127,6 @@
 * Tom Preston-Werner, Chatterbug cofounder, Previously Github cofounder/CEO:
   * [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 
+## Data structures
+
+https://www.w3schools.in/data-structures-tutorial/intro/

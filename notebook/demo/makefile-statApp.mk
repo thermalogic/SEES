@@ -1,14 +1,9 @@
 
-SRCDIR= ./src/
-OBJDIR= ./obj/
-BINDIR= ./bin/
-INCDIR=./include/
-
 all: statApp
 
 statApp: statobj  
-	gcc -o $(BINDIR)statApp $(OBJDIR)statApp.o -L$(BINDIR) -lstat
-#	gcc -o $(BINDIR)statApp $(OBJDIR)statApp.o -L$(BINDIR) -lstat -Wl,-rpath=./bin/  
+	gcc -o ./bin/statApp ./obj/statApp.o ./obj/statistics.o 
 
-statobj: $(SRCDIR)statApp.c 
-	gcc -c -o $(OBJDIR)statApp.o $(SRCDIR)statApp.c -I$(INCDIR)
+statobj:  
+	gcc -c -o ./obj/statApp.o ./src/statApp.c -I./include/ 
+	gcc -c -o ./obj/statistics.o  ./src/statistics.c -I./include/ 

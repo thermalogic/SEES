@@ -25,5 +25,6 @@ all:$(LIB)
 $(LIB): $(OBJS)  
 	$(CC) -shared -o $(BINDIR)$@ $(OBJS) 
 
+# the pattern rule: one step rule for multiple source files
 $(OBJS):$(SRCS)
-	$(CC) $(CFLAGS) -o $@ -c $<  -I$(INCDIR) 
+	$(CC) $(CFLAGS) -o $@ -c $(patsubst  %.o,$(SRCDIR)%.c,$(notdir $@))  -I$(INCDIR)
