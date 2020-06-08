@@ -108,6 +108,10 @@
     - [点名](#点名-22)
     - [内容](#内容-23)
     - [课后工作](#课后工作-22)
+- [0614](#0614)
+    - [点名](#点名-23)
+    - [内容](#内容-24)
+    - [课后工作](#课后工作-23)
 
 <!-- /TOC -->
 
@@ -820,6 +824,27 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 
 复习： Python语言2
+
+### 课后工作
+
+* [练习3](https://github.com/PySEE/Practices/tree/S2020/P3/)
+
+
+## 0614
+
+### 点名
+
+群投票：0614点名-运行po={}; po['x']=1后,下面那个说法是正常的
+
+* 继续运行po['y']=2; print(po)后,输出{'x': 1, 'y': 2}
+
+* 继续运行po1=po; po1['y']=2; print(po)后,输出{'x': 1}
+
+**结果**：
+
+### 内容
+
+复习： GCC, Github, Linux
 
 ### 课后工作
 
