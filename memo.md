@@ -834,7 +834,7 @@ Ubuntu https://github.com/PySEE/home/blob/S2020/guide/doc/Ubuntu-Python-CPP(Chin
 
 ### 点名
 
-群投票：0611点名-运行po={}; po['x']=1后,下面那个说法是正常的
+群投票：0611点名-运行po={}; po['x']=1后,下面那个说法是正确的
 
 * 继续运行po['y']=2; print(po)后,输出{'x': 1, 'y': 2}
 
