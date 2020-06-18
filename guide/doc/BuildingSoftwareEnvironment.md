@@ -3,21 +3,9 @@
 
 **Python解释器**
 
-1. 勾选将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
+* **勾选** 将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
 
-2. 选择自定义安装：`Customize Installation`，对 `Customize Install location`项目， 按照Python解释器版本号，自定义`简短`的安装目录，如：
-      
-    *  Python3.8，定义为 `C:\Python38`
-
-**Python软件包**
-
-`pip`命令安装软件包的源是Pypi。因为Pypi服务器在外网，安装速度慢，也可能超时失败，所以，使用`pip`安装软件包前，**务必** 配置软件包源为国内的镜像。推荐使用清华的镜像`tsinghua`为软件包的源。
-
-```bash
->pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-**安装课程需要的Python软件包命令汇总**
+**Python软件包安装命令汇总**
 
 安装好Python解释器后，在命令终端 `>` 执行以下命令：
 
@@ -39,11 +27,15 @@
 >python -m pip install iapws seuif97
 ```
 
-**Visual Studio Code**
+**安装Visual Studio Code**
 
-1. 安装过程中`勾选`有关项目，方便使用
+* 安装过程中`勾选`有关项目，方便使用
 
-2. 将Visual Studio Code快捷方式固定到  `任务栏 `
+**安装TDM-GCC**
+
+* TDM-GCC https://jmeubank.github.io/tdm-gcc 
+
+---
 
 **请参考如下指导安装软件**
 
