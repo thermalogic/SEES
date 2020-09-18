@@ -5,8 +5,6 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
 
-* The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
-
 This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
@@ -15,9 +13,9 @@ We will cover:
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the complex problems
 * write [unit tests](https://baike.baidu.com/item/单元测试) and [profile](https://baike.baidu.com/item/性能分析) the software performance
-* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ and [Fortran](https://baike.baidu.com/item/FORTRAN语言) applications
+* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git/Github](https://git-scm.com/) 
-* C/C++ and Python programming in [Linux/Ubuntu](https://www.ubuntu.com/)
+* Introduction to [Linux/Ubuntu](https://www.ubuntu.com/)
 
 We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
 
@@ -41,7 +39,7 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
    * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
   
-   * Peter Prinz,Tony Crawford: [C in a Nutshell(2nd Edition)](https://github.com/oreillymedia/c-in-a-nutshell-2E). O’Reilly Media, Inc. 2016
+   * Neil Matthew，Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
    * Michael J. Moran. [Fundamentals of Engineering Thermodynamics(7th Edition)](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro). John Wiley & Sons, Inc. 2011
 
@@ -57,8 +55,6 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
       * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
 
-      * The interactive notebook on Binder [![the interactive notebook on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PySEE/home/S2020)
-    
    * [Guide](./guide)  
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
@@ -75,9 +71,9 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises: 20
-  * [Practices:50](https://github.com/PySEE/Practices/)
-  * Final Exam: 30
+  * In-class Exercises: 10
+  * [Practices:40](https://github.com/PySEE/Practices/)
+  * Final Exam: 50
 
 ## Using the Notebooks of PySEE/home 
 
@@ -98,7 +94,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 >**Cloning the S2020 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
+>git clone --depth 1 -b S2021 https://github.com/PySEE/home.git
 >```
 >**Updating to The Latest Version**
 >
