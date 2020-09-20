@@ -3,7 +3,7 @@
 
 [![DOI](https://zenodo.org/badge/43438544.svg)](https://zenodo.org/badge/latestdoi/43438544)
 
-* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
+* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/) 
 
 This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
 
@@ -43,10 +43,6 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
    * Michael J. Moran. [Fundamentals of Engineering Thermodynamics(7th Edition)](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro). John Wiley & Sons, Inc. 2011
 
-## Schedule and Structure
-
-* The course schedule and structure are listed in the [**Outline**](./Outline.md)
-
 ## Contents
 
 * **PySEE/HOME**
@@ -59,8 +55,6 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
       
-      * [References](./guide/doc/References.md)
-
 * [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: Python,C/C++,Excel VBA,MATLAB,Java,Fortran,C#
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The rankine cycle simulator to demonstrate the general abstraction 

@@ -150,13 +150,7 @@
 
 ## [LaTeX-MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-5-LaTeX-MathJax.ipynb)
 
-## [Numpy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-A-Numpy.ipynb)
-
-   * array class, arithmetic operations: elementwise, index,slicing
-
-## [Scipy](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-B-Scipy.ipynb)
-
-## [Live Updating and Interactive Plots](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-C-Live_Interact_Plot.ipynb)
+## [Live Updating and Interactive Plots](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-A-Live_Interact_Plot.ipynb)
 
 * matplotlib.pyplot.ion(), matplotlib.animation
 
@@ -300,23 +294,21 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-2-C_stdio.ipynb)
+## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-2-C_stdio.ipynb)
  
     * stdio.h: `scanf,printf`
 
-## [Fortran: using gfortran](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-3-Fortran.ipynb)    
-
-    * program, subroutine, function, module
-
-## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit8-1-GCC_Lib.ipynb)
+## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-3-GCC_Lib.ipynb)
 
 * **Shared Library** :Windows, Linux
 
-## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit8-2-ctypes.ipynb)
+## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-4-ctypes.ipynb)
 
 * ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
-## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit8-3-DLL_VBA.ipynb)
+## [ctypes-fun](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-5-ctypes-fun.ipynb)
+
+## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-A-DLL_VBA.ipynb)
 
 * Building Windows DLL: `__stdcall`,`windll.LoadLibrary`
   
