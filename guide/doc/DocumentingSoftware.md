@@ -17,7 +17,6 @@ It’s really easy to have an idea in your head that sounds perfect, but the act
 
 Writing documentation improves the design of your code. Talking through your API and design decisions on paper allows you to `think about them in a more formalized way`. A nice side effect is that it allows people to contribute code that follows your original intentions as well.
 
-
 ## Documenting Tools:
 
 **Version controlled plain text**

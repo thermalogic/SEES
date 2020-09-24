@@ -20,10 +20,6 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-* [计算机能力养成](./doc/tips4coding(Chinese).md) 
-
-* [使用MSVC工具集命令行编译程序](./doc/使用MSVC工具集命令行编译程序.md)
-
 ## Further Reading
 
 * [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
