@@ -30,20 +30,7 @@
 <path fill="none" stroke="black" d="M36.8205,-107.513C42.3582,-126.692 49.3382,-150.867 55.2895,-171.478"/>
 <polygon fill="none" stroke="black" points="51.9808,-172.636 58.1175,-181.273 58.7061,-170.694 51.9808,-172.636"/>
 </g>
-<!-- 1 -->
-<g id="node2" class="node"><title>1</title>
-<polygon fill="none" stroke="black" points="163.5,-0.5 163.5,-144.5 262.5,-144.5 262.5,-0.5 163.5,-0.5"/>
-<text text-anchor="middle" x="213" y="-129.3" font-family="Times New Roman,serif" font-size="14.00">Grades</text>
-<polyline fill="none" stroke="black" points="163.5,-121.5 262.5,-121.5 "/>
-<text text-anchor="start" x="171.5" y="-106.3" font-family="Times New Roman,serif" font-size="14.00">grades : dict</text>
-<text text-anchor="start" x="171.5" y="-91.3" font-family="Times New Roman,serif" font-size="14.00">isSorted : bool</text>
-<text text-anchor="start" x="171.5" y="-76.3" font-family="Times New Roman,serif" font-size="14.00">students : list</text>
-<polyline fill="none" stroke="black" points="163.5,-68.5 262.5,-68.5 "/>
-<text text-anchor="start" x="171.5" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">addGrade()</text>
-<text text-anchor="start" x="171.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">addStudent()</text>
-<text text-anchor="start" x="171.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">getGrades()</text>
-<text text-anchor="start" x="171.5" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">getStudents()</text>
-</g>
+
 <!-- 2 -->
 <g id="node3" class="node"><title>2</title>
 <polygon fill="none" stroke="black" points="27.5,-288.5 27.5,-357.5 108.5,-357.5 108.5,-288.5 27.5,-288.5"/>

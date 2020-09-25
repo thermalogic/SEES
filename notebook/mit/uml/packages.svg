@@ -9,16 +9,6 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <title>packages</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-112 494,-112 494,4 -4,4"/>
-<!-- 0 -->
-<g id="node1" class="node"><title>0</title>
-<polygon fill="none" stroke="black" points="74,-36 0,-36 0,-0 74,-0 74,-36"/>
-<text text-anchor="middle" x="37" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit</text>
-</g>
-<!-- 1 -->
-<g id="node2" class="node"><title>1</title>
-<polygon fill="none" stroke="black" points="190,-36 92,-36 92,-0 190,-0 190,-36"/>
-<text text-anchor="middle" x="141" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit.edu</text>
-</g>
 <!-- 2 -->
 <g id="node3" class="node"><title>2</title>
 <polygon fill="none" stroke="black" points="340,-36 208,-36 208,-0 340,-0 340,-36"/>
@@ -33,11 +23,6 @@
 <g id="edge1" class="edge"><title>2&#45;&gt;3</title>
 <path fill="none" stroke="black" d="M274,-36.3034C274,-44.0173 274,-53.2875 274,-61.8876"/>
 <polygon fill="black" stroke="black" points="274,-71.8957 269.5,-61.8956 274,-66.8957 274,-61.8957 274,-61.8957 274,-61.8957 274,-66.8957 278.5,-61.8957 274,-71.8957 274,-71.8957"/>
-</g>
-<!-- 4 -->
-<g id="node5" class="node"><title>4</title>
-<polygon fill="none" stroke="black" points="490,-36 358,-36 358,-0 490,-0 490,-36"/>
-<text text-anchor="middle" x="424" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">mit.main_app</text>
 </g>
 </g>
 </svg>
