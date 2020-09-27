@@ -178,8 +178,6 @@
 
 * `%%timeit`
 
-## [UML Class Diagram](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit3-3-UML.ipynb)
-
 * **Homework**
  
    * Install iapws: 
@@ -189,8 +187,6 @@
   * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
          > python -m pip install seuif97
-
-  * **Optional** [Creating UML diagrams for Python code](./guide/UMLPython.md) 
 
 # 4 Rankine Cycle
 

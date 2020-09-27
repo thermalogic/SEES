@@ -8,9 +8,9 @@
 
 * [The Guide of Building Software Environment](./doc/BuildingSoftwareEnvironment.md)
 
-   * [The Computer Terminal](./doc/ComputerTerminal.md/)
+* [The Computer Terminal](./doc/ComputerTerminal.md/)
 
-   * [Windows File System](./doc/WindowsFileSystem.md)
+* [Windows File System](./doc/WindowsFileSystem.md)
 
 * [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
@@ -20,11 +20,7 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-## Further Reading
-
-* [Ubuntu，Python and GCC](./doc/Ubuntu-Python-CPP(Chinese).md) 
-
-* [Creating UML diagrams for python code](./doc/UMLPython.md) 
+* [Ubuntu](./doc/Ubuntu-Python-CPP(Chinese).md) 
 
 * [Further Studing](./doc/FurtherStuding.md)
 

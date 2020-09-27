@@ -29,8 +29,13 @@ string TurbineEx1(void)
 }
 
 int main()
-{
-    compdict comps = {{"BOILER", &Boiler}, { "CONDENSER",  &Condenser},{"TURBINE-EX1", &TurbineEx1}};
+{   
+    // Jump Table in C++
+    
+    compdict comps = {{"BOILER", &Boiler}, 
+                      { "CONDENSER",  &Condenser},
+                      {"TURBINE-EX1", &TurbineEx1}
+                     };
     
     cout <<comps["BOILER"]()<< endl;
     
