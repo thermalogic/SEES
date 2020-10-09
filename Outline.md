@@ -202,10 +202,6 @@
 
 ## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-4-RankineCycle-General.ipynb)
 
-* Rankine Cycle: JSON,`json.loads()`
-
-* UML Class Diagram
-
 * jump table
 
 * **Homework**
@@ -216,7 +212,7 @@
  
 ## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-A-ModelingSimulation_EngineeringSystems.ipynb)
 
-*  The brief introduction of simulation software and Modelica
+*  Modelica
 
 ## Software Enginering Tools
 
