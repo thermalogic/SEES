@@ -96,12 +96,6 @@
 
 * dict view objects
 
-## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit1-4-A-ModernCPP.ipynb)
-
-* `std::tuple`, `std::verctor`, `std::unordered_map`
-
-*  auto, {}, any 
-
 ## [Files](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit1-5-Files.ipynb)
    
 * File
@@ -118,7 +112,7 @@
 
 # 2 Scipy
 
-## [PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-2-PLOTTING-USING-MATPLOTLIB.ipynb)
+## [PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-1-PLOTTING-USING-MATPLOTLIB.ipynb)
 
 * **Matplotlib.pyplot**
     
@@ -132,7 +126,7 @@
    
    * type size, `reParams`
 
-## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-2-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * The Behavior of Springs：
    
@@ -140,7 +134,7 @@
 
 * The Behavior of Projectiles, Coefficient of Determination
  
-## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-3-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
  * NumPy: genfromtxt, mean,var,corrcoef
    
@@ -148,15 +142,7 @@
 
  * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
-## [LaTeX-MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-5-LaTeX-MathJax.ipynb)
-
-## [Live Updating and Interactive Plots](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-A-Live_Interact_Plot.ipynb)
-
-* matplotlib.pyplot.ion(), matplotlib.animation
-
-* `interactive plots`： from IPython import display, from ipywidgets import *, %matplotlib notebook
-   
-* psutil
+## [LaTeX-MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-4-LaTeX-MathJax.ipynb)
 
 # 3 Class
 
@@ -184,7 +170,7 @@
      
          >python -m pip install iapws
     
-  * [Download and Install SEUIF97](https://github.com/PySEE/SEUIF97)  
+  * [Install SEUIF97](https://github.com/PySEE/SEUIF97)  
       
          > python -m pip install seuif97
 
@@ -226,7 +212,7 @@
   
    * [Rankine Cycle](https://github.com/PySEE/PyRankine)
  
-   * Do [Practice 3](https://github.com/PySEE/Practices/tree/S2021/P3) 
+   * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2021/P2) 
  
 ## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-A-ModelingSimulation_EngineeringSystems.ipynb)
 
@@ -267,19 +253,6 @@
 * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
 
 ## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit5-A-DevTools_doctest.ipynb)
-
-## [Profilers](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit5-B-DevTools_Profilers.ipynb)
-
-* `cProfile.run`, pstats
-
-* `cProfile.Profile()`, `io` module
-
-* Improve the Performance: memoization
-       
-* **Decorator**, **Property**,`@property`,Private Variables(`_`)
-
-## [timeit](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit5-C-DevTools_timeit.ipynb)
-
 # 6 GCC and Make
 
 ## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-1-GCC_MAKE.ipynb)
