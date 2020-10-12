@@ -260,7 +260,6 @@ $sudo apt -f install
 然后，再次
 
 ```bash
-$sudo dpkg -i sogoupinyin_filename.deb 
 ```
 
 安装后logout当前用户，再login，输入法就安装好了。Ctrl+Blank Space 可以切换中/英文输入法
@@ -269,7 +268,7 @@ $sudo dpkg -i sogoupinyin_filename.deb
 
 Ubuntu中内置有Libreoffice,但其和Microsoft Office的兼容性一般。
 
-如果需要处理Microsoft Office文档，可以安装WPS Office For Linux(现在是和Microsoft Office兼容性最好的Linux办公软件）
+如果需要处理Microsoft Office文档，可以安装WPS Office For Linux(Microsoft Office兼容性好的Linux办公软件）
 
 从 https://www.wps.cn/product/wpslinux/ 下载最新版的WPS，打开终端安装
 
