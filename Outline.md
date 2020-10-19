@@ -142,7 +142,7 @@
 
  * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
-## [LaTeX-MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-4-LaTeX-MathJax.ipynb)
+## [MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-A-MathJax.ipynb)
 
 # 3 Class
 
