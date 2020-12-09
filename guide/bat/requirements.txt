@@ -4,6 +4,5 @@ jupyter
 numpy
 scipy
 matplotlib
-iapws
-seuif97
+coolprop
 pypistats

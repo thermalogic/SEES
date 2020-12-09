@@ -5,7 +5,7 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/) 
 
-This course is intended to train **students in thermal energy power engineering** become skillful at making productive use of computational techniques. 
+This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques. 
 
 We will cover: 
 
@@ -41,8 +41,6 @@ After successfully completing the course, We wish you have a broad spectrum of c
   
    * Neil Matthew，Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
-   * Michael J. Moran. [Fundamentals of Engineering Thermodynamics(7th Edition)](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro). John Wiley & Sons, Inc. 2011
-
 ## Contents
 
 * **PySEE/HOME**
@@ -55,10 +53,6 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
       
-* [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97) IAPWS-IF97 high-speed shared library (Windows32/64, Linux64); API: Python,C/C++,Excel VBA,MATLAB,Java,Fortran,C#
-
-* [PySEE/PyRankine](https://github.com/PySEE/PyRankine) The rankine cycle simulator to demonstrate the general abstraction 
-
 * [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission
 
 ## Grading
@@ -66,8 +60,8 @@ After successfully completing the course, We wish you have a broad spectrum of c
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 10
-  * [Practices:40](https://github.com/PySEE/Practices/)
-  * Final Exam: 50
+  * [Practices:30](https://github.com/PySEE/Practices/)
+  * Final Exam: 60
 
 ## Using the Notebooks of PySEE/home 
 
@@ -88,7 +82,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 >**Cloning the S2020 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b S2021 https://github.com/PySEE/home.git
+>git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
 >```
 >**Updating to The Latest Version**
 >

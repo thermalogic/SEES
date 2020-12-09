@@ -24,7 +24,7 @@
 
 >python -m pip install numpy scipy matplotlib
 
->python -m pip install iapws seuif97
+>python -m pip install coolprop
 ```
 
 **安装Visual Studio Code**
@@ -497,18 +497,10 @@ If you change the contents of home, you may  `checkout` to discard all changes
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### F.2 IAPWS-IF97 Packages: 
-
-SEUIF97 
+### F.2 CoolProp Packages: 
 
 ```bash   
-> python -m pip install seuif97 
-``` 
-
-IAPWS
-
-```bash   
-> python -m pip install iapws 
+> python -m pip coolprop 
 ``` 
 
 ## Extended
@@ -538,14 +530,6 @@ Binary packages are also available from third parties. For Windows, Christoph Go
 
 ```bash 
 >pip install *.whl
-```
-
-### Install Python Packages:  Requirements
-
-* Requirements file [requirements.txt](./requirements.txt) is the file containing a list of items to be installed for the course:
-
-```bash 
->python -m pip install -r requirements.txt 
 ```
 
 ## References

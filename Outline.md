@@ -166,51 +166,17 @@
 
 * **Homework**
  
-   * Install iapws: 
+   * Install coolprop
      
-         >python -m pip install iapws
-    
-  * [Install SEUIF97](https://github.com/PySEE/SEUIF97)  
-      
-         > python -m pip install seuif97
+         >python -m pip install coolprop
 
-# 4 Rankine Cycle
+# 4 Refrigeration Cycle
 
-## [IAPWS-IF97](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-1-IF97.ipynb)
+## [Refrigeration Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-1-RefrigerationCycle.ipynb)
 
-* IAPWS-IF97
+## [Refrigeration Cycle using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-2-RefrigerationCycle-OOP.ipynb)
 
-* Python library for IAPWS，SEUIF97
-   
-* **Homework**
-
-   * [Download the PyRankine](https://github.com/PySEE/PyRankine)  
- 
-## [RankineCycle 8.1.8.2: SimFUN](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-2-RankineCycle-SimFun.ipynb)
-
-   * Rankine Cycle 8.1,8.2：the expression directly; the simple abstraction using List,Dict and Function
-  
-   * Data file(I/O), Redirect **stdout** to a file, pprint
-
-   * glob
-
-   * Matplotlib：T-S Diagram of Rankine Cycle
-
-## [The simple Rankine Cycle simulator using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-RankineCycle-OOP.ipynb)
-
-* OOP: The Rankine Cycle 8.1,8.2 with csv files
-
-## [The General Simulator of Rankine Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-4-RankineCycle-General.ipynb)
-
-* jump table
-
-* **Homework**
-  
-   * [Rankine Cycle](https://github.com/PySEE/PyRankine)
- 
-   * Do [Practice 2](https://github.com/PySEE/Practices/tree/S2021/P2) 
- 
-## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-A-ModelingSimulation_EngineeringSystems.ipynb)
+## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
 
 *  Modelica
 
@@ -249,6 +215,7 @@
 * `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
 
 ## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit5-A-DevTools_doctest.ipynb)
+
 # 6 GCC and Make
 
 ## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-1-GCC_MAKE.ipynb)
@@ -265,7 +232,7 @@
 
 ## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-3-GCC_Lib.ipynb)
 
-* **Shared Library** :Windows, Linux
+* **Shared Library**: Windows, Linux
 
 ## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-4-ctypes.ipynb)
 
