@@ -1,6 +1,0 @@
-
-NAME,NID,p,t,x
-Main Steam,0,8,None,1
-Outlet Steam of HP,1,0.008,None
-Condenser Water,2,0.008,None,0
-Main FeedWater,3,8,None,None
