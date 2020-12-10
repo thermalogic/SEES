@@ -1,33 +1,33 @@
 
- Rankine Cycle: Ideal_VPR, Time: 2020/12/10 20:56:59
+ Rankine Cycle: Ideal_VPR, Time: 2020/12/10 21:35:19
  CompressionWork(kW) 1.41
 RefrigerationCapacity(ton) 16.71
                  cop 9.24
 
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	      MDOT(kg/s)
-  1    	 Evaporator to Compressor       	  0.293	       0.00	     398.60	  1.73 	           0.000	   1.0	         0.08
-  2    	 Compressor to  Condenser       	  0.685	      29.27	     416.21	  1.73 	           0.000	 -0.001	         0.08
-  3    	 Condenser to Expansion Valve   	  0.685	      26.00	     235.97	  1.12 	           0.000	   0.0	         0.08
-  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	      	                	      	         0.08
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+  1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	       1.00	         0.08
+  2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	           	         0.08
+  3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	       0.00	         0.08
+  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	        	           	         0.08
 
 Compressor
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	      MDOT(kg/s)
-  1    	 Evaporator to Compressor       	  0.293	       0.00	     398.60	  1.73 	           0.000	   1.0	         0.08
-  2    	 Compressor to  Condenser       	  0.685	      29.27	     416.21	  1.73 	           0.000	 -0.001	         0.08
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+  1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	       1.00	         0.08
+  2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	           	         0.08
 Wc(kW): 	1.41
 
 Condenser
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	      MDOT(kg/s)
-  2    	 Compressor to  Condenser       	  0.685	      29.27	     416.21	  1.73 	           0.000	 -0.001	         0.08
-  3    	 Condenser to Expansion Valve   	  0.685	      26.00	     235.97	  1.12 	           0.000	   0.0	         0.08
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+  2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	           	         0.08
+  3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	       0.00	         0.08
 
 Expansion Valve 
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	      MDOT(kg/s)
-  3    	 Condenser to Expansion Valve   	  0.685	      26.00	     235.97	  1.12 	           0.000	   0.0	         0.08
-  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	      	                	      	         0.08
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+  3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	       0.00	         0.08
+  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	        	           	         0.08
 
 Evaporator
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	      MDOT(kg/s)
-  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	      	                	      	         0.08
-  1    	 Evaporator to Compressor       	  0.293	       0.00	     398.60	  1.73 	           0.000	   1.0	         0.08
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+  4    	 Expansion Valve to Evaporator 	       	       0.00	     235.97	        	           	         0.08
+  1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	       1.00	         0.08
 Qlow(kW): 	13.01
