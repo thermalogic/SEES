@@ -1,7 +1,7 @@
 """
  General Object-oriented Abstraction of vpr Cycle 
 
-RefrigerationCycle: the Simulator class of Rankine Cycle  
+RefrigerationCycle: the Simulator class of VPR Cycle  
 
 dictcycle={"name":namestring,
                      "nodes":[{node1},{node2},...],
@@ -46,57 +46,43 @@ class RefrigerationCycle:
         for curdev in dictcomps:
             self.comps[curdev['name']] = compdict[curdev['devtype']](
                 curdev, self.nodes)
-
-        self.totalworkRequired = 0
-        self.totalheatAdded = 0
+       
+        self.Wc = 0
+        self.Qlow = 0
         self.cop = 0.0
 
        
     def ComponentState(self):
         for key in self.comps:
             self.comps[key].state()
+       
+        for key in self.nodes:
+            if self.nodes[key].stateok==False:
+              self.nodes[key].setstate()
 
     def ComponentBalance(self):
-        keys = list(self.comps.keys())
-        deviceok = False
-
-        i = 0  # i: the count of deviceok to avoid endless loop
-        while (deviceok == False and i <= self.DevNum):
-
-            for curdev in keys:
-                try:
-                    self.comps[curdev].balance()
-                    keys.remove(curdev)
-                except:
-                    pass
-
-            i += 1
-            if (len(keys) == 0):
-                deviceok = True
-
-        # for debug: check the failed devices
-        if (len(keys) > 0):
-            print(keys)
-
+        for curdev in self.comps:
+            self.comps[curdev].balance()
+    
     def simulator(self):
         self.ComponentState()
         self.ComponentBalance()
 
-        self.totalworkRequired = 0
-        self.totalheatAdded = 0
+        self.Wc= 0
+        self.Qlow = 0
 
         for key in self.comps:
-            if self.comps[key].energy == "workRequired":
-                self.totalworkRequired += self.comps[key].workRequired
-            elif self.comps[key].energy == "heatAdded":
-                self.totalheatAdded += self.comps[key].heatAdded
+            if self.comps[key].energy == "CompressionWork":
+                self.Wc += self.comps[key].Wc
+            elif self.comps[key].energy == "RefrigerationCapacity":
+                self.Qlow += self.comps[key].Qlow
 
-        self.cop = self.HeatRate / self.totalheatAdded
+        self.cop = self.Qlow / self.Wc
+        self.Qlow += self.Qlow*60*(1/211)
 
-  
     def __setformatstr(self, formatstr, result):
-        result += formatstr.format('totalWRequired(MW)', self.totalWRequired)
-        result += formatstr.format('totalQAdded(MW)', self.totalQAdded)
+        result += formatstr.format('CompressionWork(kW)', self.Wc)
+        result += formatstr.format('RefrigerationCapacity(ton)', self.Qlow)
         result += formatstr.format('cop', self.cop)
         return result
 

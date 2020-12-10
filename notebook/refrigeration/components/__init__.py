@@ -18,8 +18,8 @@ from .evaporator  import  Evaporator
 # --------------------------------------------------------------------------------
 
 compdict = {
-    "BOILER": Compressor,
+    "COMPRESSOR": Compressor,
     "CONDENSER": Condenser,
     "EXPANSIONVALVE":ExpansionValve,
-    "EVAPORATE":Evaporator
+    "EVAPORATOR":Evaporator
 } 

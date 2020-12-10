@@ -28,7 +28,7 @@ if __name__ == "__main__":
     for curcycle in cycles:
         ResultFileName=ResultFilePath+curcycle.cycle['name']
 
-        cycle = RankineCycle(curcycle.cycle)
+        cycle = RefrigerationCycle(curcycle.cycle)
         cycle.simulator()
         # output to text
         OutFiles(cycle)
