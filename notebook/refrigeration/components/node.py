@@ -1,3 +1,4 @@
+
 import CoolProp.CoolProp as cp
 
 
@@ -49,6 +50,8 @@ class Node:
                             
         self.x = cp.PropsSI('Q', 'P', self.p*1.0e6, 'S',
                             self.s*1000, 'R134a')
+        if self.x ==-1: 
+            self.x=None
       
         self.stateok = True
 
@@ -62,6 +65,8 @@ class Node:
         if self.x is None:
             self.x = cp.PropsSI('Q', 'P', self.p*1.0e6, 'H',
                             self.h*1000, 'R134a')
+            if self.x ==-1:
+                self.x=None
         
         self.stateok = True    
 
