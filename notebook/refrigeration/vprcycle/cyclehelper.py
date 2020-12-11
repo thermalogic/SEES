@@ -1,11 +1,9 @@
 
+
 """
 General Object-oriented Abstraction of vpr Cycle 
 
  - OutFiles(cycle, outfilename=None)
- - SpecifiedSimulator(cycle, prefixResultFileName, SetPower=None, SetMass=None):
-
-Author:Cheng Maohua  Email: cmh@seu.edu.cn
 
 """
 import sys

@@ -14,6 +14,7 @@ class  Evaporator:
 
     def state(self):
         self.iNode.t=self.oNode.t
+        self.iNode.p=self.oNode.p
 
     def balance(self):
         """ mass and energy balance  """

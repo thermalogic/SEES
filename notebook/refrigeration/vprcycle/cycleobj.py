@@ -8,7 +8,6 @@ dictcycle={"name":namestring,
                      "comps":[{component1},{component2},...]
                      }
   
-Author:Cheng Maohua  Email: cmh@seu.edu.cn
 
 """
 
@@ -89,7 +88,7 @@ class RefrigerationCycle:
     def __str__(self):
         str_curtime = time.strftime(
             "%Y/%m/%d %H:%M:%S", time.localtime(time.time()))
-        result = "\n Rankine Cycle: {}, Time: {}\n".format(
+        result = "\n Refrigeration Cycle: {}, Time: {}\n".format(
             self.name, str_curtime)
         try:
             formatstr = "{:>20} {:>.2f}\n"
