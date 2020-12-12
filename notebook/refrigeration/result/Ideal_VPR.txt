@@ -1,33 +1,33 @@
 
- Refrigeration Cycle: Ideal_VPR, Time: 2020/12/11 22:14:42
- CompressionWork(kW) 1.41
-RefrigerationCapacity(ton) 16.71
-                 cop 9.24
+Refrigeration Cycle: Ideal_VPR, Time: 2020/12/12 08:56:22
+Compression Work(kW) 1.41
+Refrigeration Capacity(ton) 16.71
+The coefficient of performance 9.24
 
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  Quality	      MDOT(kg/s)
   1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	         1.00	         0.08
   2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	             	         0.08
   3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	         0.00	         0.08
   4    	 Expansion Valve to Evaporator 	 0.293 	       0.00	     235.97	    1.13	         0.18	         0.08
 
 Compressor
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  Quality	      MDOT(kg/s)
   1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	         1.00	         0.08
   2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	             	         0.08
 Wc(kW): 	1.41
 
 Condenser
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  Quality	      MDOT(kg/s)
   2    	 Compressor to  Condenser      	 0.685 	      29.27	     416.21	    1.73	             	         0.08
   3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	         0.00	         0.08
 
 Expansion Valve 
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  Quality	      MDOT(kg/s)
   3    	 Condenser to Expansion Valve  	 0.685 	      26.00	     235.97	    1.12	         0.00	         0.08
   4    	 Expansion Valve to Evaporator 	 0.293 	       0.00	     235.97	    1.13	         0.18	         0.08
 
 Evaporator
-NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	     X	      MDOT(kg/s)
+NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  Quality	      MDOT(kg/s)
   4    	 Expansion Valve to Evaporator 	 0.293 	       0.00	     235.97	    1.13	         0.18	         0.08
   1    	 Evaporator to Compressor      	 0.293 	       0.00	     398.60	    1.73	         1.00	         0.08
 Qlow(kW): 	13.01

@@ -1,5 +1,3 @@
-
-
 """
 General Object-oriented Abstraction of vpr Cycle 
 

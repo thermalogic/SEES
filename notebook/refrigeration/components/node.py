@@ -4,8 +4,8 @@ import CoolProp.CoolProp as cp
 
 class Node:
 
-    title = ('{:^6} \t {:^30} \t {:<3}\t {:>10}\t {:>10}\t {:>10} \t {:>5}\t {:>15}'.format
-             ("NodeID", "Name", "P(MPa)", "T(°C)", "H(kJ/kg)", "S(kJ/kg.K)",  "X", "MDOT(kg/s)"))
+    title = ('{:^6} \t {:^30} \t {:<3}\t {:>10}\t {:>10}\t {:>10} \t {:>8}\t {:>15}'.format
+             ("NodeID", "Name", "P(MPa)", "T(°C)", "H(kJ/kg)", "S(kJ/kg.K)",  "Quality", "MDOT(kg/s)"))
 
     def __init__(self, dictnode):
         """ create the node object"""

@@ -80,15 +80,15 @@ class RefrigerationCycle:
         self.Qlow += self.Qlow*60*(1/211)
 
     def __setformatstr(self, formatstr, result):
-        result += formatstr.format('CompressionWork(kW)', self.Wc)
-        result += formatstr.format('RefrigerationCapacity(ton)', self.Qlow)
-        result += formatstr.format('cop', self.cop)
+        result += formatstr.format('Compression Work(kW)', self.Wc)
+        result += formatstr.format('Refrigeration Capacity(ton)', self.Qlow)
+        result += formatstr.format('The coefficient of performance', self.cop)
         return result
 
     def __str__(self):
         str_curtime = time.strftime(
             "%Y/%m/%d %H:%M:%S", time.localtime(time.time()))
-        result = "\n Refrigeration Cycle: {}, Time: {}\n".format(
+        result = "\nRefrigeration Cycle: {}, Time: {}\n".format(
             self.name, str_curtime)
         try:
             formatstr = "{:>20} {:>.2f}\n"
