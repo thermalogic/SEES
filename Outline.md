@@ -176,7 +176,7 @@
 
 ## [Refrigeration Cycle using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-2-RefrigerationCycle-OOP.ipynb)
 
-## [Modeling and Simulation Methods of Engineering Systems](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
+## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
 
 *  Modelica
 

@@ -1,3 +1,4 @@
-from . import ivpr1
+from . import ivpr723
+from . import ivpr724
 
-cycles = [ivpr1]
+cycles = [ivpr723,ivpr724]

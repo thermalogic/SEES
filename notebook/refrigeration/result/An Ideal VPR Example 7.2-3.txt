@@ -1,0 +1,33 @@
+
+Refrigeration Cycle: An Ideal VPR Example 7.2-3 (Time: 2020/12/12 20:57:09)
+             Compression Work(kW):   1.41
+      Refrigeration Capacity(ton):   3.70
+   The coefficient of performance:   9.24
+
+NodeID 	              Name               	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  1    	Evaporator to Compressor        	 0.2928	    0.00	    398.60	   1.727	    1.0000	    0.08
+  2    	Compressor to Condenser         	 0.6854	   29.27	    416.21	   1.727	          	    0.08
+  3    	Condenser to Expansion Valve    	 0.6854	   26.00	    235.97	   1.125	    0.0000	    0.08
+  4    	Expansion Valve to Evaporator   	 0.2928	    0.00	    235.97	   1.132	    0.1811	    0.08
+
+Compressor
+NodeID 	              Name               	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  1    	Evaporator to Compressor        	 0.2928	    0.00	    398.60	   1.727	    1.0000	    0.08
+  2    	Compressor to Condenser         	 0.6854	   29.27	    416.21	   1.727	          	    0.08
+Wc(kW): 	1.41
+
+Condenser
+NodeID 	              Name               	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  2    	Compressor to Condenser         	 0.6854	   29.27	    416.21	   1.727	          	    0.08
+  3    	Condenser to Expansion Valve    	 0.6854	   26.00	    235.97	   1.125	    0.0000	    0.08
+
+Expansion Valve 
+NodeID 	              Name               	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  3    	Condenser to Expansion Valve    	 0.6854	   26.00	    235.97	   1.125	    0.0000	    0.08
+  4    	Expansion Valve to Evaporator   	 0.2928	    0.00	    235.97	   1.132	    0.1811	    0.08
+
+Evaporator
+NodeID 	              Name               	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  4    	Expansion Valve to Evaporator   	 0.2928	    0.00	    235.97	   1.132	    0.1811	    0.08
+  1    	Evaporator to Compressor        	 0.2928	    0.00	    398.60	   1.727	    1.0000	    0.08
+Qlow(kW): 	13.01

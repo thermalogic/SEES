@@ -14,7 +14,6 @@ class Condenser:
         self.oNode = nodes[dictDev['oNode']]
 
     def state(self):
-        self.oNode.p=cp.PropsSI('P', 'T', 273.15+self.oNode.t, 'Q',self.oNode.x, 'R134a')/1.0e6
         self.iNode.p=self.oNode.p
         
     def balance(self):

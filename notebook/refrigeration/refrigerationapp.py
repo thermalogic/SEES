@@ -2,11 +2,11 @@
 """
 General Object-oriented Abstraction  of VPR Cycle 
 
-The Simulator of vpr Cycle 
+The Simulator of VPR Cycle 
 
   * Input :vpr cycle dict model
 
-  * output: text file
+  * Output: text file
 
  
 Run: 
@@ -17,8 +17,8 @@ python refrigerationapp.py
 """
 from vprcycle.cycleobj import RefrigerationCycle
 from vprcycle.cyclehelper import OutFiles
-from cyclemodel import *
-from platform import *
+from cyclemodel import cycles
+from platform import os
 
 if __name__ == "__main__":
        

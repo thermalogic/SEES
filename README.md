@@ -60,8 +60,8 @@ After successfully completing the course, We wish you have a broad spectrum of c
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
   * In-class Exercises: 10
-  * [Practices:30](https://github.com/PySEE/Practices/)
-  * Final Exam: 60
+  * [Practices:40](https://github.com/PySEE/Practices/)
+  * Final Exam: 50
 
 ## Using the Notebooks of PySEE/home 
 
