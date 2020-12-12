@@ -81,7 +81,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
       - [E.2.3 Discard Changes](#e23-discard-changes)
   - [F:Scientific Computation Packages](#fscientific-computation-packages)
     - [F.1 Scipy](#f1-scipy)
-    - [F.2 IAPWS-IF97 Packages:](#f2-iapws-if97-packages)
+    - [F.2 CoolProp:](#f2-coolprop)
   - [Extended](#extended)
     - [Windows10](#windows10)
     - [Install Python Packages: Third Parties](#install-python-packages-third-parties)
@@ -454,12 +454,12 @@ After you have installed **git**, You may use the following **commands:** to cle
 >git clone https://github.com/PySEE/home.git
 ```
 
-**Cloning the `S2020` branch of repository `shallowly` for saving bandwidth**
+**Cloning the `BEFE2021` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b S2020 https://github.com/PySEE/home.git
+>git clone --depth 1 -b BEFE2020 https://github.com/PySEE/home.git
 ```
-* -b S2020 
+* -b BEFE2021 
 * --depth 1 
   * Create a shallow clone with a history truncated to the specified number of commits
 
@@ -497,7 +497,7 @@ If you change the contents of home, you may  `checkout` to discard all changes
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### F.2 CoolProp Packages: 
+### F.2 CoolProp: 
 
 ```bash   
 > python -m pip coolprop 
