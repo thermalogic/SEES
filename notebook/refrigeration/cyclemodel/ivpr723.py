@@ -1,5 +1,5 @@
 cycle = {}
-cycle["name"] = "An Ideal VPR Example 7.2-3"
+cycle["name"] = "The Ideal VPR Example 7.2-3"
 cycle["nodes"] = [{
     "name": "Evaporator to Compressor",
             "id": 1,

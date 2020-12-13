@@ -46,11 +46,6 @@ class RefrigerationCycle:
             self.comps[curdev['name']] = compdict[curdev['devtype']](
                 curdev, self.nodes)
        
-        self.Wc = 0
-        self.Qlow = 0
-        self.cop = 0.0
-
-       
     def ComponentState(self):
         for key in self.comps:
             self.comps[key].state()

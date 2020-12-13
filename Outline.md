@@ -212,7 +212,7 @@
 
 * Test Suites
 
-* `*args`，`**kwargs` ， `__call__`, unittest in IAPWS Package
+* `*args`，`**kwargs` 
 
 ## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit5-A-DevTools_doctest.ipynb)
 
@@ -240,7 +240,7 @@
 
 ## [ctypes-fun](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-5-ctypes-fun.ipynb)
 
-## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-A-DLL_VBA.ipynb)
+## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit6-6-DLL_VBA.ipynb)
 
 * Building Windows DLL: `__stdcall`,`windll.LoadLibrary`
   
