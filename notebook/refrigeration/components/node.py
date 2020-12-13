@@ -1,6 +1,6 @@
 
 """
-The Object-oriented Programming Demo of  VPR Cycle 
+The Object-oriented Programming Demo of  VCR Cycle
     Node
 """
 import CoolProp.CoolProp as cp

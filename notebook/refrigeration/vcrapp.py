@@ -1,7 +1,7 @@
 
 """
 
-The Object-oriented Programming Demo of VPR Cycle 
+The Object-oriented Programming Demo of VCR Cycle
 
  * Input :vpr cycle dict model
 
@@ -9,12 +9,12 @@ The Object-oriented Programming Demo of VPR Cycle
  
 Run: 
 
-python refrigerationapp.py
+python vcrapp.py
   
 
 """
-from vprcycle.cycleobj import RefrigerationCycle
-from vprcycle.cyclehelper import OutFiles
+from vcrcycle.cycleobj import VCRCycle
+from vcrcycle.cyclehelper import OutFiles
 from cyclemodel import cycles
 from platform import os
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     for curcycle in cycles:
         ResultFileName=ResultFilePath+curcycle.cycle['name']
 
-        cycle = RefrigerationCycle(curcycle.cycle)
+        cycle = VCRCycle(curcycle.cycle)
         cycle.simulator()
         # output to text
         OutFiles(cycle)

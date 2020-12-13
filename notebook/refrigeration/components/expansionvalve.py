@@ -1,12 +1,13 @@
 
 """
-The Object-oriented Programming Demo of VPR Cycle 
+The Object-oriented Programming Demo of VCR Cycle
     ExpansionValve: Throttling
 
 """
+
 from .node import *
 
-class ExpansionValveExpansionValve:
+class ExpansionValve:
 
     energy = "None"
     devtype = "EXPANSIONVALVE"

@@ -1,7 +1,7 @@
 
 """
-The Object-oriented Programming Demo of VPR Cycle 
-  Compressor : Isentropic compression (ideal VPR cycle)
+The Object-oriented Programming Demo of VCR Cycle
+  Compressor : Isentropic compression (ideal VCR cycle)
 """
 from .node import *
 

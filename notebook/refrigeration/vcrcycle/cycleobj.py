@@ -1,7 +1,7 @@
 """
-The  Object-oriented Programming Demo  of VPR Cycle 
+The  Object-oriented Programming Demo  of VCR Cycle
 
-RefrigerationCycle: the Simulator class of VPR Cycle  
+VCRCycle: the Simulator class of VCR Cycle 
 
 dictcycle={"name":namestring,
                      "nodes":[{node1},{node2},...],
@@ -15,7 +15,7 @@ from components.node import Node
 from components import compdict
 
 
-class RefrigerationCycle:
+class VCRCycle:
 
     def __init__(self, dictcycle):
         """

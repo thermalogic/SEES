@@ -1,7 +1,7 @@
 
 
 """
-The Object-oriented Programming Demo of VPR Cycle 
+The Object-oriented Programming Demo of VCR Cycle
     Evaporator: Constant pressure heat addition 
 """
 from .node import *

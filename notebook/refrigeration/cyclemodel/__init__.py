@@ -1,8 +1,8 @@
 """
-The Object-oriented Programming Demo of VPR Cycle 
+The Object-oriented Programming Demo of VCR Cycle
  cycle data
 """
-from . import ivpr723
-from . import ivpr724
+from . import ivcr723
+from . import ivcr724
 
-cycles = [ivpr723,ivpr724]
+cycles = [ivcr723,ivcr724]
