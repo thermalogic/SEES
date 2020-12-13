@@ -1,4 +1,4 @@
-model VPRR134a
+model VCRR134a
   import R134a = Modelica.Media.R134a.R134a_ph;
 
   type SpecificEnthalpy=Real(unit="kJ/kg",displayUnit="kJ/kg");
@@ -47,4 +47,4 @@ equation
 
   //The coefficient of performance
   cop=(h1-h4)/(h2-h1);
-end VPRR134a;
+end VCRR134a;
