@@ -2,7 +2,7 @@
 """
 The Object-oriented Programming Demo of VPR Cycle 
   
-  Condenser
+  Condenser:Constant pressure heat rejection
 """
 from .node import *
 import CoolProp.CoolProp as cp
@@ -19,6 +19,9 @@ class Condenser:
         self.oNode = nodes[dictDev['oNode']]
 
     def state(self):
+        """ 
+         Constant pressure heat rejection
+        """
         self.iNode.p=self.oNode.p
         
     def balance(self):

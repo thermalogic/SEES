@@ -1,7 +1,8 @@
 
 """
 The Object-oriented Programming Demo of VPR Cycle 
-    ExpansionValve
+    ExpansionValve: Throttling
+
 """
 from .node import *
 
@@ -17,6 +18,9 @@ class ExpansionValveExpansionValve:
         self.oNode = nodes[dictDev['oNode']]
 
     def state(self):
+        """
+          Throttling in an expansion value
+        """
         self.oNode.h=self.iNode.h
     
     def balance(self):

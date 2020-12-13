@@ -2,7 +2,7 @@
 
 """
 The Object-oriented Programming Demo of VPR Cycle 
-    Evaporator
+    Evaporator: Constant pressure heat addition 
 """
 from .node import *
 
@@ -18,6 +18,9 @@ class  Evaporator:
         self.oNode = nodes[dictDev['oNode']]
 
     def state(self):
+        """ 
+           Constant pressure heat addition 
+        """   
         self.iNode.t=self.oNode.t
         self.iNode.p=self.oNode.p
 

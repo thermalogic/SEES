@@ -1,8 +1,7 @@
 
 """
 The Object-oriented Programming Demo of VPR Cycle 
-  
-  Compressor
+  Compressor : Isentropic compression (ideal VPR cycle)
 """
 from .node import *
 
@@ -22,7 +21,7 @@ class Compressor:
   
     def state(self):
         """
-        Isentropic compression of the refrigeran
+        Isentropic compression  (ideal VPR cycle)
         """
         self.oNode.s=self.iNode.s
                 
