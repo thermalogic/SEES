@@ -1,8 +1,9 @@
-#
-# Node
-#
-import CoolProp.CoolProp as cp
 
+"""
+The Object-oriented Programming Demo of  VPR Cycle 
+    Node
+"""
+import CoolProp.CoolProp as cp
 
 class Node:
 

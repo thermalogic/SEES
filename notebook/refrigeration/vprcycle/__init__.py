@@ -1,9 +1,7 @@
 
 """
- General Object-oriented Abstraction of vpr Cycle 
-    
-    cycle Package 
-
+ The Object-oriented Programming Demo of VPR Cycle 
+   vprcycle Package 
 """
 
 import sys

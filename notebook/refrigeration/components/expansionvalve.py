@@ -1,7 +1,11 @@
 
+"""
+The Object-oriented Programming Demo of VPR Cycle 
+    ExpansionValve
+"""
 from .node import *
 
-class ExpansionValve:
+class ExpansionValveExpansionValve:
 
     energy = "None"
     devtype = "EXPANSIONVALVE"

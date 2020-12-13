@@ -1,4 +1,9 @@
 
+"""
+The Object-oriented Programming Demo of VPR Cycle 
+  
+  Compressor
+"""
 from .node import *
 
 class Compressor:

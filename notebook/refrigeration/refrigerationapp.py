@@ -1,13 +1,11 @@
 
 """
-General Object-oriented Abstraction  of VPR Cycle 
 
-The Simulator of VPR Cycle 
+The Object-oriented Programming Demo of VPR Cycle 
 
-  * Input :vpr cycle dict model
+ * Input :vpr cycle dict model
 
-  * Output: text file
-
+ * Output: text file
  
 Run: 
 

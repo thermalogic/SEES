@@ -1,7 +1,7 @@
 """
-General Object-oriented Abstraction of vpr Cycle 
+The Object-oriented Programming Demo of VPR Cycle 
 
- - OutFiles(cycle, outfilename=None)
+  OutFiles(cycle, outfilename=None)
 
 """
 import sys

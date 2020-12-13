@@ -1,7 +1,7 @@
 """
-    Components Package  
+The Object-oriented Programming Demo of VPR Cycle 
+   Components Package  
 """
-
 from .node import Node
 
 from .compressor import  Compressor

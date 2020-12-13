@@ -1,5 +1,5 @@
 
-Refrigeration Cycle: An Ideal VPR Example 7.2-3 (Time: 2020/12/12 20:57:09)
+Refrigeration Cycle: The Ideal VPR Example 7.2-3 (Time: 2020/12/13 12:35:01)
              Compression Work(kW):   1.41
       Refrigeration Capacity(ton):   3.70
    The coefficient of performance:   9.24

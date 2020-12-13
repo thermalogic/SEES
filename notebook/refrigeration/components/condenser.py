@@ -1,4 +1,9 @@
 
+"""
+The Object-oriented Programming Demo of VPR Cycle 
+  
+  Condenser
+"""
 from .node import *
 import CoolProp.CoolProp as cp
 

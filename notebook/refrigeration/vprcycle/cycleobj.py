@@ -1,5 +1,5 @@
 """
- General Object-oriented Abstraction of vpr Cycle 
+The  Object-oriented Programming Demo  of VPR Cycle 
 
 RefrigerationCycle: the Simulator class of VPR Cycle  
 
@@ -7,8 +7,6 @@ dictcycle={"name":namestring,
                      "nodes":[{node1},{node2},...],
                      "comps":[{component1},{component2},...]
                      }
-  
-
 """
 
 import time
