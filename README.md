@@ -3,7 +3,7 @@
 
 [![DOI](https://zenodo.org/badge/43438544.svg)](https://zenodo.org/badge/latestdoi/43438544)
 
-* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/) 
+* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/) 
 
 This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques. 
 
@@ -11,7 +11,7 @@ We will cover:
 
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the complex problems
+* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process
 * write [unit tests](https://baike.baidu.com/item/单元测试) 
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git/Github](https://git-scm.com/) 
@@ -47,7 +47,7 @@ After successfully completing the course, We wish you have a broad spectrum of c
    
    * [Jupyter Notebook for the course](./notebook) 
 
-      * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/) 
+      * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/) 
 
    * [Guide](./guide)  
 
@@ -79,7 +79,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
->**Cloning the S2020 branch of repository shallowly for saving bandwidth**
+>**Cloning the BEFE2020 branch of repository shallowly for saving bandwidth**
 >
 >```bash
 >git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
