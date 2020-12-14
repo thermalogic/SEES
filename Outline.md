@@ -176,6 +176,12 @@
 
 ## [Refrigeration Cycle using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-2-RefrigerationCycle-OOP.ipynb)
 
+* **Homework**
+
+   * **Optional**: [Download FREE TRIAL VERSION Dymola](https://www.3ds.com/products-services/catia/products/dymola/latest-release/)
+     
+     * http://www.3ds.com/fileadmin/PRODUCTS-SERVICES/CATIA/Dymola/dymola-demo.zip
+
 ## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
 
 *  Modelica
