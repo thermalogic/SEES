@@ -7,19 +7,13 @@
 
 * [LaTex mathematics for equations: LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 
-* [Visual Studio Code: Markdown](https://code.visualstudio.com/docs/languages/markdown/)
-
 ### Git & Github
 
 * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
 * Git https://git-scm.com
 
-   * Scott Chacon，Ben Straub. [Pro Git(Chinese)](https://git-scm.com/book/zh/v1/)
-
 * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
-
-* [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 
 * [Git Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
@@ -32,10 +26,6 @@
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
  
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
-
-* Doug Hellmann. [Python 3 Module of the Week](https://pymotw.com/3/)
-  
-  * [The Python 3 Standard Library by Example, Second Edition](https://my.safaribooksonline.com/book/programming/python/9780134291154). Addison-Wesley Professional, June 12, 2017
 
 * [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
 
@@ -59,17 +49,9 @@
     
    * [Jupyter Documentation](http://jupyter.readthedocs.org/en/latest/)
     
-   * IPython https://ipython.org/
-    
-   * [A gallery of interesting notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
-
 * Robert Johansson [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
 
 ### Engineering System
-
-* Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
-
-   * [The Textbook Companions: Jupyter Notebook](https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro)  
 
 * R Sinha, Christiaan J. J. Paredis. etc. Modeling and Simulation Methods for Design of Engineering Systems. Transactions of the ASME[J]. 2001.03(1):84-91
 
@@ -81,23 +63,11 @@
 
     * 袁野译, C语言核心技术(原书第2版), 机械工业出版社，2017
 
-* [GCC, The GNU Compiler Collection](http://gcc.gnu.org/)
-
-   * GCC Manual https://gcc.gnu.org/onlinedocs/
-
-   * [MinGW-W64: GCC for Windows 64 & 32 bits](http://mingw-w64.org/)
-
-     * [What is a DLL and How Do I Create or Use One?](http://www.mingw.org/wiki/DLL)
-
-* Robert Mecklenburg. [Managing Projects with GNU Make(Third Edition)](https://www.oreilly.com/openbook/make3/book/index.html)
-
-* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-
 * Ivor Horton,Peter Van Weert: Beginning C++17: From Novice to Professional(Fifth Edition),Ivor Horton and Peter Van Weert,2018 
 
   * Code: https://github.com/Apress/beg-cplusplus17
 
-* [Microsoft: Welcome back to C++ - Modern C++](https://docs.microsoft.com/en-us/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=vs-2019)
+* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ### Linux/Ubuntu
 
@@ -124,9 +94,3 @@
 * 周以真(Jeannette M. Wing), Professor, Columbia University 
   * [Computational Thinking Benefits Society](http://socialissues.cs.toronto.edu/index.html%3Fp=279.html)
 
-* Tom Preston-Werner, Chatterbug cofounder, Previously Github cofounder/CEO:
-  * [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
-
-## Data structures
-
-https://www.w3schools.in/data-structures-tutorial/intro/

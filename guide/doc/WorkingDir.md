@@ -15,9 +15,7 @@ CourseSE
  │    │
  │    ├── Home
  │    │      
- │    ├── PyRankine
- │    │        
- │    |── SEUIF97
+ │    ├── PySimVCR
  │    │
  │    |── Practices
  │        
@@ -49,10 +47,8 @@ https://github.com/PySEE
  │    │
  │    ├── Home
  │    │      
- │    ├── PyRankine
+ │    ├── PySimVCR
  │    │        
- │    |── SEUIF97
- │    │
  │    |── Practices
 ```
 

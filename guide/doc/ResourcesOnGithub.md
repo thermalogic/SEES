@@ -16,8 +16,6 @@
 
 * University of Bristol High Performance Computing Group https://github.com/UoB-HPC
 
-* Thermal Systems Modeling Toolkit：https://github.com/TSTK
-
 * ebooks
 
    * FOSSEE https://github.com/FOSSEE
@@ -26,15 +24,11 @@
 
 * Courses 
 
-  * Advanced JavaScript at NYU https://github.com/advanced-js
-
   * Introduction to Data Science.The University of Utah (https://github.com/datascience-course)
 
   * Computer Aided Chemical Engineering https://github.com/CAChemE
 
 ## Repositories
-
-* Lorena A. Barba's CFD Python: https://github.com/htapia/cfd-python-class
 
 * Jeffrey Kantor. Introduction to Chemical Engineering Analysis https://github.com/jckantor/CBE20255
 
@@ -52,11 +46,6 @@
 
 * wei https://github.com/t104306033
 
-* 吉珣碧 https://github.com/Jxb814  
-
 ## Special Events
 
 * CSSE at Johns Hopkins University https://github.com/CSSEGISandData
-
-* 2019ncovmemory https://github.com/2019ncovmemory
-

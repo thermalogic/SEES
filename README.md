@@ -39,7 +39,9 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
    * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
   
-   * Neil Matthew，Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
+   * Claus Borgnakke, Richard E. Sonntag. Fundamentals of Thermodynamics(8th). John Wiley & Sons, Inc, 2013
+   
+   * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
 ## Contents
 
