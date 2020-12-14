@@ -2,7 +2,7 @@
 """
 The Object-oriented Programming Demo of VCR Cycle
   
-  Condenser:Constant pressure heat rejection
+  Condenser: Isobaric heat rejection 
 """
 from .node import *
 import CoolProp.CoolProp as cp
@@ -20,7 +20,7 @@ class Condenser:
 
     def state(self):
         """ 
-         Constant pressure heat rejection
+         Isobaric heat rejection 
         """
         self.iNode.p=self.oNode.p
         

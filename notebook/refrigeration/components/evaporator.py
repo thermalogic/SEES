@@ -2,7 +2,7 @@
 
 """
 The Object-oriented Programming Demo of VCR Cycle
-    Evaporator: Constant pressure heat addition 
+    Evaporator: Isobaric heat addition 
 """
 from .node import *
 
@@ -19,9 +19,8 @@ class  Evaporator:
 
     def state(self):
         """ 
-           Constant pressure heat addition 
+            Isobaric heat addition 
         """   
-        self.iNode.t=self.oNode.t
         self.iNode.p=self.oNode.p
 
     def balance(self):

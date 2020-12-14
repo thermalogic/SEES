@@ -1,7 +1,7 @@
 
 """
 The Object-oriented Programming Demo of VCR Cycle
-    ExpansionValve: Throttling
+    ExpansionValve: Throttling：Isenthalpic expansion
 
 """
 
@@ -20,7 +20,7 @@ class ExpansionValve:
 
     def state(self):
         """
-          Throttling in an expansion value
+          Throttling ：Isenthalpic expansion
         """
         self.oNode.h=self.iNode.h
     
