@@ -1,20 +1,22 @@
 #include <math.h>
 #include "R134aSat.h"
 
-PORT pSat(double t)
+double pSat(double t)
 {
-	const double ti[]={1,1.5,2.3,3.6,5.2,7.3};
-    const double Ni[]={-7.6896400207782598, 2.0859760566425463, -2.6755347075503888,
-                       0.3010493765467589, -5.8583601582059233, 3.4788072104059631};
+    // p = pc*exp(Tc/T*sum(n_i*theta^t_i))
+	const double ti[]={0.845,0.99,1.14,2.651,4.507,17.235};
+    const double Ni[]={0.4331478287291047, -9.090302559074352, 2.1476074125217703,
+                      -1.557687007603464,  -3.5020328972698604, 14.958442337201044};
     double Pcrit=4059280.0;
     double Tcrit=374.21;
-    double Treduce=374.18;
+    double Treduce=374.21;
     double summer=0,theta;
     double T=t+273.15;
+    int i;
     theta=1.0-T/Treduce;
-    for (int i=0;i<=5;i++)
+    for (i=0;i<=5;i++)
     {
-        summer +=Ni[i]*pow(theta,ti[i]);
+        summer += Ni[i]*pow(theta,ti[i]);
     }
-    return  Pcrit*exp(summer*Tcrit/T)/1.0e6;
+    return Pcrit*exp((Tcrit/T)*summer)/1.0e6;
 }
