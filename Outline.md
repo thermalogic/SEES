@@ -252,8 +252,6 @@
   
 * Excel VBA(Excel 2013 above, 64bit)
 
-    * https://github.com/thermalogic/Excel4Engineering  
-
 # 7  Version Control：Git
 
 ## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-1-Git.ipynb)
