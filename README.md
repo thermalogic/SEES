@@ -43,7 +43,7 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
 ## Contents
 
-* **PySEE/HOME**
+1. **PySEE/HOME**
    
    * [Jupyter Notebook for the course](./notebook) 
 
@@ -52,8 +52,10 @@ After successfully completing the course, We wish you have a broad spectrum of c
    * [Guide](./guide)  
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
-      
-* [PySEE/Practices](https://github.com/PySEE/Practices) The information of practices: tasks, grading standards and submission
+
+2. [PySEE/PySimVCR](https://github.com/PySEE/Practices) The demo vapor-compression refrigeration cycle simulator of steady-state
+
+3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks, grading standards 
 
 ## Grading
 
@@ -79,7 +81,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
->**Cloning the BEFE2020 branch of repository shallowly for saving bandwidth**
+>**Cloning the BEFE2021 branch of repository shallowly for saving bandwidth**
 >
 >```bash
 >git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
