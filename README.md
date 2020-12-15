@@ -77,7 +77,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 * Using the Jupyter Notebooks of PySEE/home:  
 
-   Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows) or run the command:`jupyter notebook` in a terminal. This will open a web page in your browser with a list of the available notebooks.
+   Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows). This will open a web page in your browser with a list of the available notebooks.
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
