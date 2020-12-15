@@ -7,6 +7,7 @@ The Object-oriented Programming Demo of VCR Cycle
 from .node import *
 import CoolProp.CoolProp as cp
 
+
 class Condenser:
 
     energy = "None"
@@ -22,8 +23,8 @@ class Condenser:
         """ 
          Isobaric heat rejection 
         """
-        self.iNode.p=self.oNode.p
-        
+        self.iNode.p = self.oNode.p
+
     def balance(self):
         """ mass and energy balance of the condenser  """
         if self.iNode.mdot is not None:
@@ -31,11 +32,9 @@ class Condenser:
         elif self.oNode.fdot is not None:
             self.iNode.mdot = self.oNode.mdot
 
-  
     def __str__(self):
         result = '\n' + self.name
         result += '\n' + Node.title
         result += '\n' + self.iNode.__str__()
         result += '\n' + self.oNode.__str__()
         return result
-

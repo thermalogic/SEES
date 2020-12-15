@@ -6,7 +6,8 @@ The Object-oriented Programming Demo of VCR Cycle
 """
 from .node import *
 
-class  Evaporator:
+
+class Evaporator:
 
     energy = "RefrigerationCapacity"
     devtype = "EVAPORATOR"
@@ -20,8 +21,8 @@ class  Evaporator:
     def state(self):
         """ 
             Isobaric heat addition 
-        """   
-        self.iNode.p=self.oNode.p
+        """
+        self.iNode.p = self.oNode.p
 
     def balance(self):
         """ mass and energy balance  """
@@ -29,13 +30,13 @@ class  Evaporator:
             self.oNode.mdot = self.iNode.mdot
         elif self.oNode.fdot is not None:
             self.iNode.mdot = self.oNode.mdot
-        self.Qlow= self.iNode.mdot * (self.oNode.h - self.iNode.h)
- 
+        self.Qlow = self.iNode.mdot * (self.oNode.h - self.iNode.h)
+
     def __str__(self):
         result = '\n' + self.name
         result += '\n' + Node.title
         result += '\n' + self.iNode.__str__()
         result += '\n' + self.oNode.__str__()
-        result += '\nQlow(kW): \t{:>.2f}'.format(self.Qlow)    
-       
+        result += '\nQlow(kW): \t{:>.2f}'.format(self.Qlow)
+
         return result

@@ -4,10 +4,10 @@ cycle["nodes"] = [{
     "name": "Evaporator to Compressor",
             "id": 1,
             "p": None,
-            "t":-10.0,
+            "t": -10.0,
             "x": 1,
             "mdot": 0.08
- },
+},
     {
     "name": "Compressor to Condenser",
             "id": 2,

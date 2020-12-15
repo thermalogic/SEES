@@ -5,6 +5,7 @@ The Object-oriented Programming Demo of VCR Cycle
 """
 from .node import *
 
+
 class Compressor:
     """ Isentropic compression of the refrigerant"""
     energy = "CompressionWork"
@@ -17,14 +18,14 @@ class Compressor:
         self.name = dictDev['name']
         self.iNode = nodes[dictDev['iNode']]
         self.oNode = nodes[dictDev['oNode']]
-        self.Wc=None
-  
+        self.Wc = None
+
     def state(self):
         """
         Isentropic compression  (ideal VPR cycle)
         """
-        self.oNode.s=self.iNode.s
-                
+        self.oNode.s = self.iNode.s
+
     def balance(self):
         """  mass and energy balance    """
         # mass balance
@@ -35,7 +36,6 @@ class Compressor:
         # energy
         self.Wc = self.iNode.mdot * (self.oNode.h - self.iNode.h)
 
-  
     def __str__(self):
         result = '\n' + self.name
         result += '\n' + Node.title

@@ -43,24 +43,24 @@ class VCRCycle:
         for curdev in dictcomps:
             self.comps[curdev['name']] = compdict[curdev['devtype']](
                 curdev, self.nodes)
-       
+
     def ComponentState(self):
         for key in self.comps:
             self.comps[key].state()
-       
+
         for key in self.nodes:
-            if self.nodes[key].stateok==False:
-              self.nodes[key].setstate()
+            if self.nodes[key].stateok == False:
+                self.nodes[key].setstate()
 
     def ComponentBalance(self):
         for curdev in self.comps:
             self.comps[curdev].balance()
-    
+
     def simulator(self):
         self.ComponentState()
         self.ComponentBalance()
 
-        self.Wc= 0
+        self.Wc = 0
         self.Qlow = 0
 
         for key in self.comps:

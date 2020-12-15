@@ -3,15 +3,15 @@ cycle["name"] = "The Ideal VCR Example 7.2-3"
 cycle["nodes"] = [{
     "name": "Evaporator to Compressor",
             "id": 1,
-            "p":None,
+            "p": None,
             "t": 0.0,
             "x": 1,
             "mdot": 0.08
- },
+},
     {
     "name": "Compressor to Condenser",
             "id": 2,
-            "p":None,
+            "p": None,
             "t": None,
             "x": None,
             "mdot": None
@@ -19,7 +19,7 @@ cycle["nodes"] = [{
     {
     "name": "Condenser to Expansion Valve ",
             "id": 3,
-            "p":None,
+            "p": None,
             "t": 26.0,
             "x": 0,
             "mfdot": None
@@ -27,7 +27,7 @@ cycle["nodes"] = [{
     {
     "name": "Expansion Valve to Evaporator",
             "id": 4,
-            "p":None,
+            "p": None,
             "t": None,
             "x": None,
             "mdot": None

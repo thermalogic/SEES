@@ -5,6 +5,7 @@ The Object-oriented Programming Demo of  VCR Cycle
 """
 import CoolProp.CoolProp as cp
 
+
 class Node:
 
     title = ('{:^6} \t{:^32} \t{:<8} \t{:>8} \t{:>10} \t{:>10} \t{:^10} \t{:>10}'.format
@@ -20,12 +21,12 @@ class Node:
             self.p = float(dictnode['p'])
         except:
             self.p = None
-        
+
         try:
             self.t = float(dictnode['t'])
         except:
             self.t = None
-        
+
         try:
             self.x = float(dictnode['x'])
         except:
@@ -49,77 +50,83 @@ class Node:
 
     def tx(self):
         try:
-           self.p = cp.PropsSI('P', 'T', 273.15+self.t,
-                            'Q', self.x, 'R134a')/1.0e6
-           self.h = cp.PropsSI('H', 'T', 273.15+self.t, 'Q', self.x, 'R134a')/1000
-           self.s = cp.PropsSI('S', 'T', 273.15+self.t, 'Q', self.x, 'R134a')/1000
-           self.stateok = True
+            self.p = cp.PropsSI('P', 'T', 273.15+self.t,
+                                'Q', self.x, 'R134a')/1.0e6
+            self.h = cp.PropsSI('H', 'T', 273.15+self.t,
+                                'Q', self.x, 'R134a')/1000
+            self.s = cp.PropsSI('S', 'T', 273.15+self.t,
+                                'Q', self.x, 'R134a')/1000
+            self.stateok = True
         except:
             self.stateok = False
-        
+
     def px(self):
         try:
-           self.t = cp.PropsSI('T', 'P', self.p*1.0e6,'Q', self.x, 'R134a')-273.15
-           self.h = cp.PropsSI('H', 'P', self.p*1.0e6, 'Q', self.x, 'R134a')/1000
-           self.s = cp.PropsSI('S', 'P', self.p*1.0e6, 'Q', self.x, 'R134a')/1000
-           self.stateok = True
+            self.t = cp.PropsSI('T', 'P', self.p*1.0e6,
+                                'Q', self.x, 'R134a')-273.15
+            self.h = cp.PropsSI('H', 'P', self.p*1.0e6,
+                                'Q', self.x, 'R134a')/1000
+            self.s = cp.PropsSI('S', 'P', self.p*1.0e6,
+                                'Q', self.x, 'R134a')/1000
+            self.stateok = True
         except:
             self.stateok = False
-      
+
     def pt(self):
         try:
-            self.h = cp.PropsSI('H', 'P', self.p*1.0e6,'T', self.t+273.15, 'R134a')/1000
-            self.s = cp.PropsSI('S', 'P', self.p*1.0e6, 'T', self.t+273.15, 'R134a')/1000
-            self.x = cp.PropsSI('Q', 'P', self.p*1.0e6, 'H', self.h*1000, 'R134a')
+            self.h = cp.PropsSI('H', 'P', self.p*1.0e6, 'T',
+                                self.t+273.15, 'R134a')/1000
+            self.s = cp.PropsSI('S', 'P', self.p*1.0e6, 'T',
+                                self.t+273.15, 'R134a')/1000
+            self.x = cp.PropsSI('Q', 'P', self.p*1.0e6,
+                                'H', self.h*1000, 'R134a')
             if self.x == -1:
                 self.x = None
             self.stateok = True
         except:
             self.stateok = False
-      
+
     def ps(self):
         try:
             if self.h is None:
                 self.h = cp.PropsSI('H', 'P', self.p*1.0e6, 'S',
-                            self.s*1000, 'R134a')/1000
+                                    self.s*1000, 'R134a')/1000
             if self.t is None:
-               self.t = cp.PropsSI('T', 'P', self.p*1.0e6, 'S',
-                            self.s*1000, 'R134a')-273.15
+                self.t = cp.PropsSI('T', 'P', self.p*1.0e6, 'S',
+                                    self.s*1000, 'R134a')-273.15
             if self.x is None:
                 self.x = cp.PropsSI('Q', 'P', self.p*1.0e6, 'S',
-                            self.s*1000, 'R134a')
+                                    self.s*1000, 'R134a')
                 if self.x == -1:
                     self.x = None
             self.stateok = True
         except:
             self.stateok = False
-        
 
     def ph(self):
         try:
             if self.s is None:
                 self.s = cp.PropsSI('S', 'P', self.p*1.0e6, 'H',
-                                self.h*1000, 'R134a')/1000
+                                    self.h*1000, 'R134a')/1000
             if self.t is None:
                 self.t = cp.PropsSI('T', 'P', self.p*1.0e6, 'H',
-                                self.h*1000, 'R134a')-273.15
+                                    self.h*1000, 'R134a')-273.15
             if self.x is None:
                 self.x = cp.PropsSI('Q', 'P', self.p*1.0e6, 'H',
-                                self.h*1000, 'R134a')
+                                    self.h*1000, 'R134a')
                 if self.x == -1:
                     self.x = None
             self.stateok = True
         except:
             self.stateok = False
-           
 
     def setstate(self):
         if self.stateok == False:
             if self.p is not None and self.s is not None:
-               self.ps()
+                self.ps()
             elif self.p is not None and self.h is not None:
-               self.ph()
-       
+                self.ph()
+
     def __str__(self):
         result = ('{:^6} \t{:<32}'.format(self.id, self.name))
 

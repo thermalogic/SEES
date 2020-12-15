@@ -7,6 +7,7 @@ The Object-oriented Programming Demo of VCR Cycle
 import sys
 from components.node import Node
 
+
 def OutFiles(cycle, outfilename=None):
     savedStdout = sys.stdout
     # redirect to the outfilename
@@ -16,7 +17,7 @@ def OutFiles(cycle, outfilename=None):
 
     # 1 output cycle performance
     print(cycle)
-   
+
     # 2 output nodes
     print(Node.title)
     for key in cycle.nodes:
@@ -24,7 +25,7 @@ def OutFiles(cycle, outfilename=None):
     # 3 output devices
     for key in cycle.comps:
         print(cycle.comps[key])
-    
+
     # return to sys.stdout
     if (outfilename != None):
         datafile.close()

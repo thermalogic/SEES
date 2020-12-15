@@ -7,6 +7,7 @@ The Object-oriented Programming Demo of VCR Cycle
 
 from .node import *
 
+
 class ExpansionValve:
 
     energy = "None"
@@ -22,8 +23,8 @@ class ExpansionValve:
         """
           Throttling ：Isenthalpic expansion
         """
-        self.oNode.h=self.iNode.h
-    
+        self.oNode.h = self.iNode.h
+
     def balance(self):
         """ mass and energy balance  """
         if self.iNode.mdot is not None:
@@ -31,7 +32,6 @@ class ExpansionValve:
         elif self.oNode.fdot is not None:
             self.iNode.mdot = self.oNode.mdot
 
- 
     def __str__(self):
         result = '\n' + self.name
         result += '\n' + Node.title

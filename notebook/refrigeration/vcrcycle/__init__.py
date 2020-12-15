@@ -1,7 +1,7 @@
 
 """
- The Object-oriented Programming Demo of VPR Cycle 
-   vprcycle Package 
+ The Object-oriented Programming Demo of VCR Cycle 
+   vcrcycle Package 
 """
 
 import sys

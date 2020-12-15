@@ -4,11 +4,10 @@ The Object-oriented Programming Demo of VCR Cycle
 """
 from .node import Node
 
-from .compressor import  Compressor
-from .condenser import  Condenser
-from .expansionvalve  import  ExpansionValve
-from .evaporator  import  Evaporator
-
+from .compressor import Compressor
+from .condenser import Condenser
+from .expansionvalve import ExpansionValve
+from .evaporator import Evaporator
 
 
 # ------------------------------------------------------------------------------
@@ -20,6 +19,6 @@ from .evaporator  import  Evaporator
 compdict = {
     "COMPRESSOR": Compressor,
     "CONDENSER": Condenser,
-    "EXPANSIONVALVE":ExpansionValve,
-    "EVAPORATOR":Evaporator
-} 
+    "EXPANSIONVALVE": ExpansionValve,
+    "EVAPORATOR": Evaporator
+}

@@ -5,9 +5,9 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/) 
 
-This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques. 
+This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques.
 
-We will cover: 
+We will cover:
 
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
@@ -37,9 +37,9 @@ After successfully completing the course, We wish you have a broad spectrum of c
    
 * **Reference Textbooks**
 
-   * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
+  * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
   
-   * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
+  * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
 ## Contents
 
@@ -61,9 +61,9 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
-  * In-class Exercises: 10
-  * [Practices:40](https://github.com/PySEE/Practices/)
-  * Final Exam: 50
+* In-class Exercises: 10
+* [Practices:40](https://github.com/PySEE/Practices/)
+* Final Exam: 50
 
 ## Using the Notebooks of PySEE/home 
 

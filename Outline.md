@@ -5,9 +5,9 @@
 
 * Goals,Grading,Practices
 
-* **Repositories**: Home, Practices, SEUIF97, PyRankine
+* **Repositories**: Home,  PySimVCR, Practices
 
-* [Building Software Environment: Python, VS Code, GCC，Git](./guide/BuildingSoftwareEnvironment.md) 
+* [Building Software Environment: Python, VS Code, GCC, Git](./guide/BuildingSoftwareEnvironment.md) 
 
   * [Computer Terminal](./ComputerTerminal.md/)
 
@@ -21,7 +21,7 @@
    
    * [Setup the working folder for the course](./guide/doc/AdvWorkingDir.md)
      
-   * [Install Softwares: Python,MinGW-W64(GCC), VS Code, Git](./guide/doc/BuildingSoftwareEnvironment.md)
+   * [Install Softwares: Python,VS Code,MinGW-W64(GCC),Git](./guide/doc/BuildingSoftwareEnvironment.md)
 
    * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
 
@@ -182,7 +182,7 @@
 
 ## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
 
-*  Modelica
+* Modelica
 
 ## Software Enginering Tools
 
@@ -279,6 +279,3 @@
 # Outlook
 
 ## [Outlook: Further Studing](./guide/doc/FurtherStuding.md)
-
-
-
