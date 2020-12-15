@@ -8,8 +8,6 @@
 
 * NASA https://github.com/nasa
 
-* Software Carpentry https://github.com/swcarpentry
-
 * OpenFOAM: https://github.com/OpenFOAM
 
 * OpenMDAO:  https://github.com/OpenMDAO
@@ -29,8 +27,6 @@
   * Computer Aided Chemical Engineering https://github.com/CAChemE
 
 ## Repositories
-
-* Jeffrey Kantor. Introduction to Chemical Engineering Analysis https://github.com/jckantor/CBE20255
 
 * pychemqt: https://github.com/jjgomera/pychemqt
 

@@ -82,10 +82,6 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
   - [F:Scientific Computation Packages](#fscientific-computation-packages)
     - [F.1 Scipy](#f1-scipy)
     - [F.2 CoolProp:](#f2-coolprop)
-  - [Extended](#extended)
-    - [Windows10](#windows10)
-    - [Install Python Packages: Third Parties](#install-python-packages-third-parties)
-    - [Install Python Packages:  Requirements](#install-python-packages-requirements)
   - [References](#references)
 
 <!-- /TOC -->
@@ -457,7 +453,7 @@ After you have installed **git**, You may use the following **commands:** to cle
 **Cloning the `BEFE2021` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b BEFE2020 https://github.com/PySEE/home.git
+>git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
 ```
 * -b BEFE2021 
 * --depth 1 
@@ -502,36 +498,6 @@ If you change the contents of home, you may  `checkout` to discard all changes
 ```bash   
 > python -m pip coolprop 
 ``` 
-
-## Extended
-
-### Windows10
-
-64-bit Windows10 
-
-**1 Southeast University**
-
-January 2015, Southeast University and Microsoft Corp provide legitimate Windows, Office for the staffs and students.
-
-  http://nic.seu.edu.cn/2015/0113/c12333a115289/page.htm
-  
-**2 Microsoft**
-  
-https://www.microsoft.com/en-gb/software-download/windows10
-
-Do you want to install Windows 10 on your PC?
-       
-* download and run the media creation tool: 
-       https://go.microsoft.com/fwlink/?LinkId=691209
- 
-### Install Python Packages: Third Parties
-
-Binary packages are also available from third parties. For Windows, Christoph Gohlke provides [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
-
-```bash 
->pip install *.whl
-```
-
 ## References
 
 * Python3:  https://www.python.org/downloads/

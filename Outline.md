@@ -216,8 +216,6 @@
 
 * Test Suites
 
-* `*args`，`**kwargs` 
-
 ## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-A-DevTools_doctest.ipynb)
 
 # 6 GCC and Make
