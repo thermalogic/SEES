@@ -17,13 +17,13 @@ We will cover:
 * version control with [Git/Github](https://git-scm.com/) 
 * Introduction to [Linux/Ubuntu](https://www.ubuntu.com/)
 
-We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology in the short course. 
+We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology.
 
-If you have concerns about the course, please email(cmh@seu.edu.cn) to me or open [the github issue](https://github.com/PySEE/home/issues). I value all suggestions.
+If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
 
 **行是知之始，知是行之成 - 陶行知**
 
-[Practices](https://github.com/PySEE/Practices/) are the very important part of the course. You will have to spend a lot of time and effort to do challenging enough practices.
+[Practices](https://github.com/PySEE/Practices/) are the very important part of the course. 
 
 We highly recommend you practice coding whenever you have a few minutes.
 
