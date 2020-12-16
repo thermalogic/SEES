@@ -7,7 +7,7 @@
 double fcn(double x)
 {
 	double result;
-	result = x * x - 4;
+	result = x * x;
 	return result;
 }
 
@@ -18,8 +18,9 @@ int main()
 	xl = 0.1;
 	xu = 3.2;
 	epsilon = 0.001;
+    double y=4;
 	// Calculate root
-	ier=rtbis(fcn, xl, xu, epsilon, &root);
+	ier=rtbis(fcn,y,xl, xu, epsilon, &root);
 	// Print answers
 	printf("root = %14.7e  ier = %1d", root, ier);
 	return 0;
