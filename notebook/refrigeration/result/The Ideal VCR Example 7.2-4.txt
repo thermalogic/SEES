@@ -1,5 +1,5 @@
 
-Refrigeration Cycle: The Ideal VCR Example 7.2-4 (Time: 2020/12/14 08:49:25)
+Refrigeration Cycle: The Ideal VCR Example 7.2-4 (Time: 2020/12/16 13:08:51)
              Compression Work(kW):   2.50
       Refrigeration Capacity(ton):   3.25
    The coefficient of performance:   4.58
