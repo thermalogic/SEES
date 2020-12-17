@@ -3,18 +3,18 @@
 
 The Object-oriented Programming Demo of VCR Cycle
 
- * Input :vpr cycle dict model
+ * Input :vcr cycle dict model
 
  * Output: text file
  
 Run: 
 
-python vcrapp.py
+python vcapp.py
   
 
 """
-from vcrcycle.cycleobj import VCRCycle
-from vcrcycle.cyclehelper import OutFiles
+from vccycle.cycleobj import VCRCycle
+from vccycle.cyclehelper import OutFiles
 from cyclemodel import cycles
 from platform import os
 
