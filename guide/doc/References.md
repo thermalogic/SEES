@@ -28,9 +28,6 @@
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
 * [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
-
-* Python 3 Cheat Sheet https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
-
 ### Python for mathematics, science and engineering
 
 * Scipy. http://www.scipy.org/
@@ -55,6 +52,8 @@
 
 * R Sinha, Christiaan J. J. Paredis. etc. Modeling and Simulation Methods for Design of Engineering Systems. Transactions of the ASME[J]. 2001.03(1):84-91
 
+* Michael M. Tiller. [Modelica by Example](http://modelicabyexample.globalcrown.com.cn)
+
 ### C/C++ Programming with GCC
 
 * Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
@@ -73,19 +72,13 @@
 
 * [Operating System Tutorials](https://www.w3schools.in/operating-system-tutorial/linux-operating-system)
 
-* Ubuntu https://www.ubuntu.com/
-
-  * Ubuntukylin https://www.ubuntukylin.com/
-
 * [An In Depth Tutorial on Linux Development on Windows with WSL and Visual Studio Code](https://devblogs.microsoft.com/commandline/an-in-depth-tutorial-on-linux-development-on-windows-with-wsl-and-visual-studio-code/)
 
 ### Software Engineering
 
+* Kristian Rother, Magdalena Rother. [The Simple Software Engineering techniques for Python developers](https://github.com/krother/software-engineering-python)
+
 * FOSSEE. [Software Engineering for Engineers and Scientists](https://github.com/FOSSEE/sees)
-
-* [Google. Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
-
-    * 中文版 https://github.com/zh-google-styleguide/zh-google-styleguide
 
 * Greg Wilson, Co-founder of Software Carpentry 
   * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)

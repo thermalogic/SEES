@@ -11,8 +11,8 @@ We will cover:
 
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process
-* write [unit tests](https://baike.baidu.com/item/单元测试) 
+* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process problems
+* testing and debugging, write [unit tests](https://baike.baidu.com/item/单元测试) 
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git/Github](https://git-scm.com/) 
 * Introduction to [Linux/Ubuntu](https://www.ubuntu.com/)
@@ -37,8 +37,8 @@ After successfully completing the course, We wish you have a broad spectrum of c
    
 * **Reference Textbooks**
 
-  * John V. Guttag. [Introduction to Computation and Programming Using Python : With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
-  
+  * John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
+
   * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
 ## Contents

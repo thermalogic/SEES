@@ -32,6 +32,8 @@
 
 * John Kitchin. Python computations in science and engineering  https://github.com/jkitchin/pycse
 
+* Francesco Witte and Ilja Tuschy [Thermal Engineering Systems in Python](https://github.com/oemof/tespy)
+
 ## Accounts
 
 * Linus Torvalds. https://github.com/torvalds
