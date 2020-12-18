@@ -178,7 +178,7 @@
 
    * [Dymola](https://www.3ds.com/products-services/catia/products/dymola/latest-release/)
      
-     * **Optional**: [Download FREE TRIAL VERSION Dymola](http://www.3ds.com/fileadmin/PRODUCTS-SERVICES/CATIA/Dymola/dymola-demo.zip)
+     * **Optional**: [Download and Install FREE TRIAL VERSION Dymola](http://www.3ds.com/fileadmin/PRODUCTS-SERVICES/CATIA/Dymola/dymola-demo.zip)
 
 ## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
 
@@ -230,7 +230,7 @@
    
 ## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-2-C_stdio.ipynb)
  
-    * stdio.h: `scanf,printf`
+* stdio.h: `scanf,printf`
 
 ## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-3-GCC_Lib.ipynb)
 
@@ -258,7 +258,7 @@
   
    * Install pypistats: >python -m pip install pypistats
   
-   *  [Windows Subsystem for Linux (WSL))](https://docs.microsoft.com/zh-cn/windows/wsl/)
+   * [Windows Subsystem for Linux (WSL))](https://docs.microsoft.com/zh-cn/windows/wsl/)
    
       * [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
