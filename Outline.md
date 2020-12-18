@@ -244,7 +244,7 @@
 
 ## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-A-DLL_VBA.ipynb)
 
-* Building Windows DLL: `__stdcall`,`windll.LoadLibrary`
+* Windows DLL: `__stdcall`,`windll.LoadLibrary`
   
 * Excel VBA(Excel 2013 above, 64bit)
 

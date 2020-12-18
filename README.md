@@ -12,7 +12,7 @@ We will cover:
 * write clean, testable, high quality code in [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process problems
-* testing and debugging, write [unit tests](https://baike.baidu.com/item/单元测试) 
+* write [unit tests](https://baike.baidu.com/item/单元测试) 
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git/Github](https://git-scm.com/) 
 * Introduction to [Linux/Ubuntu](https://www.ubuntu.com/)
