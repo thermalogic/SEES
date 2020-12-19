@@ -186,12 +186,6 @@
 
 * [The Simple VCR Cycle Simulator in Modelica](https://github.com/thermalogic/SimVCR) 
 
-## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-A-ModernCPP.ipynb)
-
-* std::tuple,std::vectors, std::unordered_map, std::any, C++17
-
-* The CPP version of Node Class 
-
 ## Software Enginering Tools
 
 ## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
@@ -255,6 +249,12 @@
 * Windows DLL: `__stdcall`,`windll.LoadLibrary`
   
 * Excel VBA(Excel 2013 above, 64bit)
+
+## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-B-ModernCPP.ipynb)
+
+* std::tuple,std::vectors, std::unordered_map, std::any, C++17
+
+* The CPP version of Node Class 
 
 # 7  Version Control：Git
 
