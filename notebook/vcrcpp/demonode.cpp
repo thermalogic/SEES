@@ -10,34 +10,15 @@ g++  -std=c++17 -o ./bin/demonode.exe  -DCOOLPROP_LIB demonode.cpp ./src/node.cp
 #include <string>
 #include <iostream>
 #include <iomanip>
-#include<map>
+#include <map>
 #include <any>
 #include <vector>
 #include "node.hpp"
 
 using namespace std;
 
- 
 int main()
 {
-    dictNode dictnode1 = {{"desc", "Evaporator to Compressor"},
-                          {"id", 1},
-                          {"p", NAN},
-                          {"t", 0.0},
-                          {"x", 0.0},
-                          {"mdot", 0.08}};
-
-    Node *curnode1;
-    curnode1 = new Node(dictnode1);
-    cout << setiosflags(ios::fixed);
-    cout << curnode1->desc << endl;
-    cout << curnode1->id << endl;
-    cout << curnode1->p << endl;
-    cout << curnode1->t << endl;
-    cout << curnode1->h << endl;
-    cout << curnode1->s << endl;
-    cout << curnode1->mdot << endl;
-
     vector<dictNode> dictNodes = {
         {{"desc", "Evaporator to Compressor"},
          {"id", 1},
@@ -56,18 +37,23 @@ int main()
     mapNode dNodes;
     for (auto &item : dictNodes)
     {
-        int id=any_cast<int>(item["id"]);
-        dNodes.insert(mapNode::value_type(id,new Node(item)));
+        int id = any_cast<int>(item["id"]);
+        dNodes.insert(mapNode::value_type(id, new Node(item)));
     }
-    mapNode::iterator iter;
-    for(iter=dNodes.begin(); iter != dNodes.end(); iter++)  
-    {  
-        cout<<iter->first<<"\t"<<iter->second->id<<"\t"<<iter->second->desc<<endl;  
-    };  
 
-    if((iter=dNodes.find(1))!=dNodes.end()) 
-		cout<<"get it,value= "<<iter->second->id<<"\t"<<iter->second->desc<<endl;
-	else
-		cout<<"not find"<<endl;
+    cout << setiosflags(ios::fixed);
+    mapNode::iterator iter;
+    for (iter = dNodes.begin(); iter != dNodes.end(); iter++)
+    {
+        cout << iter->first << "\t" << iter->second->id << "\t" << iter->second->desc;
+        cout << "\t" << iter->second->p << "\t" << iter->second->t << "\t" << iter->second->h << "\t" << iter->second->s <<  "\t"<<iter->second->x << endl;
+    };
+
+    for (auto &item : dictNodes)
+    {
+        int i = any_cast<int>(item["id"]);
+        cout << i << "\t" << dNodes[i]->id << "\t" << dNodes[i]->desc;
+        cout << "\t" << dNodes[i]->p << "\t" << dNodes[i]->t << "\t" << dNodes[i]->h << "\t" << dNodes[i]->s << "\t" << dNodes[i]->x << endl;
+    }
     return 0;
 }
