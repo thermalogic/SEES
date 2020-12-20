@@ -45,10 +45,10 @@ Node::Node(dictNode curdictnode)
    s = NAN;
    stateok = false;
 
-   if ((t != NAN) && (x != NAN))
+   if (isnan(t) & isnan(x))
    {
       tx();
-   }
+   }   
 }
 
 Node::~Node()
