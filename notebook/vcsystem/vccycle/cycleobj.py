@@ -31,14 +31,13 @@ class VCRCycle:
         dictnodes = dictcycle["nodes"]
         dictcomps = dictcycle["comps"]
 
-        # 1 convert dict to the object of nodes
+        # 1 convert dict to the dict of node objects {node id:node object}
         self.NodeNum = len(dictnodes)
         self.nodes = {}
         for curnode in dictnodes:
             self.nodes[curnode["id"]] = Node(curnode)
 
-        # 2 convert dict to the object of Comps
-        self.DevNum = len(dictcomps)
+        # 2 convert dict to the dict of device objects: {device name:device object}
         self.comps = {}
         for curdev in dictcomps:
             self.comps[curdev['name']] = compdict[curdev['devtype']](
