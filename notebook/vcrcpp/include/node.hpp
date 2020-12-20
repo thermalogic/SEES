@@ -1,18 +1,16 @@
 /*--------------------------------------------- 
 
-    node.cpp
-
-  by Cheng Maohua on 2017-04-06.
+  node.cpp
 -------------------------------------------------------*/
 
 #ifndef NODE_HPP
 #define NODE_HPP
-#define NULL_VALUE -100.0
 
 #include <string>
 #include <unordered_map>
 #include <any>
 #include <exception> 
+#include <cmath>
 #include "CoolPropLib.h"
 
 using namespace std;
