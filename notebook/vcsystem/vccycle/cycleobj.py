@@ -24,8 +24,10 @@ class VCRCycle:
                      "comps":[{component1},{component2},...]
                      }
           TO:           
-             self.nodes : dict of all node objects
-             self.comps : dict of all component objects
+             self.nodes : dict of all node objects:
+                  {node id:node object}
+             self.comps : dict of all component objects:
+                  {device name:device object}
         """
         self.name = dictcycle["name"]
         dictnodes = dictcycle["nodes"]
