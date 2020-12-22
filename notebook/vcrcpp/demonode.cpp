@@ -42,8 +42,7 @@ int main()
     }
 
     cout << setiosflags(ios::fixed);
-    mapNode::iterator iter;
-    for (iter = dNodes.begin(); iter != dNodes.end(); iter++)
+    for (mapNode::iterator iter = dNodes.begin(); iter != dNodes.end(); iter++)
     {
         cout << iter->first << "\t" << iter->second->id << "\t" << iter->second->desc;
         cout << "\t" << iter->second->p << "\t" << iter->second->t << "\t" << iter->second->h << "\t" << iter->second->s <<  "\t"<<iter->second->x << endl;
@@ -55,5 +54,11 @@ int main()
         cout << i << "\t" << dNodes[i]->id << "\t" << dNodes[i]->desc;
         cout << "\t" << dNodes[i]->p << "\t" << dNodes[i]->t << "\t" << dNodes[i]->h << "\t" << dNodes[i]->s << "\t" << dNodes[i]->x << endl;
     }
+
+
+    for (mapNode::iterator iter = dNodes.begin(); iter!= dNodes.end(); iter++)
+        delete iter->second;
+    dNodes.clear();
+
     return 0;
 }

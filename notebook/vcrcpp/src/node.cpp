@@ -53,6 +53,7 @@ Node::Node(dictNode curdictnode)
 
 Node::~Node()
 {
+  
 }
 
 void Node::tx()
