@@ -11,7 +11,6 @@ g++  -std=c++17 -o ./bin/demonode.exe  -DCOOLPROP_LIB demonode.cpp ./src/node.cp
 #include <iostream>
 #include <iomanip>
 #include <map>
-#include <any>
 #include <vector>
 #include "node.hpp"
 
@@ -48,15 +47,7 @@ int main()
         cout << "\t" << iter->second->p << "\t" << iter->second->t << "\t" << iter->second->h << "\t" << iter->second->s <<  "\t"<<iter->second->x << endl;
     };
 
-    for (auto &item : dictNodes)
-    {
-        int i = any_cast<int>(item["id"]);
-        cout << i << "\t" << dNodes[i]->id << "\t" << dNodes[i]->desc;
-        cout << "\t" << dNodes[i]->p << "\t" << dNodes[i]->t << "\t" << dNodes[i]->h << "\t" << dNodes[i]->s << "\t" << dNodes[i]->x << endl;
-    }
-
-
-    for (mapNode::iterator iter = dNodes.begin(); iter!= dNodes.end(); iter++)
+   for (mapNode::iterator iter = dNodes.begin(); iter!= dNodes.end(); iter++)
         delete iter->second;
     dNodes.clear();
 
