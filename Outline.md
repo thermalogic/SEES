@@ -1,5 +1,5 @@
 
-# Course Outline
+# Outline
 
 ## Introduction of the Course
 
@@ -27,12 +27,12 @@
 
 # 1 Python Basic
 
-## [INTRODUCTION TO PYTHON](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-1-INTRODUCTION_TO_PYTHON.ipynb)
+## [Introduction To Python](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-1-Introduction_To_Python.ipynb)
 
 * **Python**: The interpreted ,dynamically typed, scripting Language
+   * Numerical Types, Operators and Expressions 
    * Variables and Assignment 
    * Output: `print()` Comments：`#`
-   * Numerical Types, Operators and Expressions 
    * String, Slicing
    * Input：`input()`
    * Type Conversion
@@ -40,7 +40,7 @@
    *  `magic` functions： `cell`, `line`   
    *  `!`  Shell command
       
-## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-2-Control-Flow.ipynb)
+## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-2-Control_Flow.ipynb)
 
 * `if`, `while loop`,`for loop`, `break`, `continue`
 
@@ -112,7 +112,7 @@
 
 # 2 Scipy
 
-## [PLOTTING USING MATPLOTLIB](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-1-PLOTTING-USING-MATPLOTLIB.ipynb)
+## [Plotting Using Matplotlib](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-1-Plotting_Using_Matplotlib.ipynb)
 
 * **Matplotlib.pyplot**
     
@@ -126,7 +126,7 @@
    
    * type size
 
-## [UNDERSTANDING EXPERIMENTAL DATA](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-2-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+## [Understanding Examperimental Data](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-2-Understanding_Examperimental_Data.ipynb)
 
 * The Behavior of Springs：
    
@@ -134,7 +134,7 @@
 
 * The Behavior of Projectiles, Coefficient of Determination
  
-## [LIES DAMNED LIES AND STATISTICS](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-3-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+## [Lies Namned Lies And Statictics](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-3-Lies_Namned_Lies_And_Statictics.ipynb)
 
  * NumPy: genfromtxt, mean,var,corrcoef
    
@@ -142,11 +142,11 @@
 
  * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
-## [MathJax](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-A-MathJax.ipynb)
+## [Latex Math](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit2-A-Latex_Math.ipynb)
 
 # 3 Class
 
-## [CLASSES AND OBJECT-ORIENTED PROGRAMMING](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+## [Classes And Object-Oriented Programming](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit3-1-Classes_And_Object-Oriented_Programming.ipynb)
 
 * `Computational thinking`
 
@@ -172,7 +172,9 @@
 
 ## [Refrigeration Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-1-RefrigerationCycle.ipynb)
 
-## [Refrigeration Cycle using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-2-RefrigerationCycle-OOP.ipynb)
+* ModelingSimulation_EngineeringSystems
+
+## [Refrigeration Cycle Using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-2-RefrigerationCycle_OOP.ipynb)
 
 * **Homework**
 
@@ -180,7 +182,7 @@
      
      * **Optional**: [Download and Install FREE TRIAL VERSION Dymola](http://www.3ds.com/fileadmin/PRODUCTS-SERVICES/CATIA/Dymola/dymola-demo.zip)
 
-## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-3-ModelingSimulation_EngineeringSystems.ipynb)
+## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-3-Modelica.ipynb)
 
 * Modelica
 
@@ -188,7 +190,7 @@
 
 ## Software Enginering Tools
 
-## [EXCEPTIONS AND ASSERTIONS](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-EXCEPTIONS_AND_ASSERTIONS.ipynb)
+## [Exception And Assertion](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-Exception_And_Assertion.ipynb)
 
 * Built-In Exception, `try: except` 
 
@@ -202,7 +204,7 @@
 
 *  `assert` statement
 
-## [TESTING AND DEBUGGING](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-2-TESTING_AND_DEBUGGING.ipynb)
+## [Testing And Debugging](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-2-Testing And Debugging.ipynb)
 
    * Testing: Black-Box Testing,Glass-Box Testing,unit testing, integration testing
 
@@ -210,7 +212,7 @@
 
    * The typical mistakes
 
-## [unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-DevTools_unittest.ipynb)
+## [unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-DevTools_Unittest.ipynb)
 
 * `unittest.TestCase`, test*，Asserting 
 
@@ -218,11 +220,11 @@
 
 * Test Suites
 
-## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-A-DevTools_doctest.ipynb)
+## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-A-DevTools_Doctest.ipynb)
 
 # 6 GCC and Make
 
-## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-1-GCC_MAKE.ipynb)
+## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-1-GCC_Make.ipynb)
 
 * GNU,GCC,MinGW-W64
 
@@ -252,9 +254,9 @@
 
 ## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-B-ModernCPP.ipynb)
 
-* std::tuple,std::vectors, std::unordered_map, std::any, C++17
+* C++11 and above, std::tuple,std::vectors, std::unordered_map, std::any 
 
-* The CPP version of Node Class 
+* [The simple vapor-compression refrigeration cycle simulator in C++](https://github.com/thermalogic/CPPSimVCR)
 
 # 7  Version Control：Git
 

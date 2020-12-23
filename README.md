@@ -53,7 +53,7 @@ After successfully completing the course, We wish you have a broad spectrum of c
 
       * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
 
-2. [PySEE/PySimVCR](https://github.com/PySEE/Practices) The demo vapor-compression refrigeration cycle simulator of steady-state
+2. [PySEE/PySimVCR](https://github.com/PySEE/PySimVCR) The demo vapor-compression refrigeration cycle simulator of steady-state
 
 3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks, grading standards 
 
