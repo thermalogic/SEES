@@ -56,7 +56,7 @@
 
 * Jupyter notebook extensions
 
-## [Function, Module & Package](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-3-Function-Module_Package.ipynb)
+## [Function, Module & Package](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-3-Function_Module_Package.ipynb)
 
 * Function definitions, Positional, Keyword Arguments and Default Values, Functions as Objects, 
 

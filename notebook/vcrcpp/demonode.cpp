@@ -15,6 +15,7 @@ g++  -std=c++17 -o ./bin/demonode.exe  -DCOOLPROP_LIB demonode.cpp ./src/node.cp
 #include "node.hpp"
 
 using namespace std;
+typedef map<int, Node *> mapNode;
 
 int main()
 {
@@ -32,7 +33,6 @@ int main()
          {"x", NAN},
          {"mdot", NAN}}};
 
-    typedef map<int, Node *> mapNode;
     mapNode dNodes;
     for (auto &item : dictNodes)
     {
@@ -44,10 +44,10 @@ int main()
     for (mapNode::iterator iter = dNodes.begin(); iter != dNodes.end(); iter++)
     {
         cout << iter->first << "\t" << iter->second->id << "\t" << iter->second->desc;
-        cout << "\t" << iter->second->p << "\t" << iter->second->t << "\t" << iter->second->h << "\t" << iter->second->s <<  "\t"<<iter->second->x << endl;
+        cout << "\t" << iter->second->p << "\t" << iter->second->t << "\t" << iter->second->h << "\t" << iter->second->s << "\t" << iter->second->x << endl;
     };
 
-   for (mapNode::iterator iter = dNodes.begin(); iter!= dNodes.end(); iter++)
+    for (mapNode::iterator iter = dNodes.begin(); iter != dNodes.end(); iter++)
         delete iter->second;
     dNodes.clear();
 

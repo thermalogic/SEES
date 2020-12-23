@@ -9,36 +9,34 @@
 #include <string>
 #include <unordered_map>
 #include <any>
-#include <exception> 
+#include <exception>
 #include <cmath>
 #include "CoolPropLib.h"
 
 using namespace std;
 
-typedef unordered_map<string, any>  dictNode;
+typedef unordered_map<string, any> dictNode;
 
 class Node
 {
-  public:
-    // fields
-    string desc;
-    int id;
-  
-    double p;
-    double t;
-    double h;
-    double s;
-    double x;
-    double mdot;
-    bool stateok;
-    
-    // methods
-    Node(dictNode curdictnode);
-    ~Node();
-    
-    void tx();
-   
-   
+public:
+  // fields
+  string desc;
+  int id;
+
+  double p;
+  double t;
+  double h;
+  double s;
+  double x;
+  double mdot;
+  bool stateok;
+
+  // methods
+  Node(dictNode curdictnode);
+  ~Node();
+
+  void tx();
 };
 
 #endif /* node_hpp */
