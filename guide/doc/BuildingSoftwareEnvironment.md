@@ -1,6 +1,12 @@
 
 **安装要点**
 
+**注意**：新版的numpy有bug，和Python新版解释器及其他一些软件包，有兼容性问题。建议安装旧些版本
+
+*  Python 7/8
+ 
+*  Numpy 1.16.0 : python -m pip install numpy==1.16.0
+
 **Python解释器**
 
 * **勾选** 将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
