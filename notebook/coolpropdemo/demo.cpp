@@ -1,5 +1,7 @@
 /* 
-The example use a MinGW64 64-bit dll of CoolProp:
+The example use the shared library of CoolProp in c
+
+The library: libCoolProp.dll or CoolProp_x64.dll
 
 g++  -o ./bin/demo.exe  -DCOOLPROP_LIB demo.cpp -I./include -L./bin -lCoolProp
 
