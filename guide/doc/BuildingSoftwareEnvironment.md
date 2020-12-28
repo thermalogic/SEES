@@ -1,11 +1,11 @@
 
 **安装要点**
 
-**注意**：新版的numpy有bug，和Python新版解释器及其他一些软件包，有兼容性问题。建议安装旧些版本
+**注意**：新版的numpy和Python新版解释器及其他一些软件包，有兼容性问题，所以，建议安装老版本
 
-*  Python 7/8
+*  Python 3.8.7
  
-*  Numpy 1.16.0 : python -m pip install numpy==1.16.0
+*  Numpy 1.18.0 
 
 **Python解释器**
 
@@ -16,21 +16,25 @@
 安装好Python解释器后，在命令终端 `>` 执行以下命令：
 
 ```bash
->pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
->python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 
->python -m pip install autopep8 pylint
+python -m pip install autopep8 pylint
 
->python -m pip install jupyter
+python -m pip install jupyter
 
->python -m pip install jupyter_contrib_nbextensions
+python -m pip install jupyter_contrib_nbextensions
 
->jupyter contrib nbextension install --user
+jupyter contrib nbextension install --user
 
->python -m pip install numpy scipy matplotlib
+python -m pip install numpy==1.18.0
 
->python -m pip install coolprop
+python -m pip install scipy
+
+python -m pip install matplotlib
+
+python -m pip install coolprop
 ```
 
 **安装Visual Studio Code**
@@ -105,13 +109,11 @@ Goto [the official Python site](https://www.python.org/downloads/), you can use 
 
 * You may choose the specific Python release for you, e.g. [**Python for Windows**](https://www.python.org/downloads/windows/)
 
-In the example ,we use [Python 3.7.0 for Windows x86-64](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)  
+In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)  
 
-* 1  Make sure you **check** option **Add Python 3.7 to PATH**
+*  Make sure you **check** option **Add Python 3.8 to PATH**
 
-* 2  To `change install location`, click on **Customize installation** , enter **C:\python37** in the item of  **Customize installation location**
-
-  ![Python3-install](./img/python37-install.jpg) 
+  ![Python3-install-path](./img/python38-install-path.jpg) 
 
 Python is an interpreted language. Python programs are executed by an interpreter. 
   

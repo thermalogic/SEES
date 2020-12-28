@@ -19,33 +19,16 @@
 
 ### Python
 
-*  John V. Guttag. **Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016.**
-
-    * [Accompanying Python3 Code](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
+*  John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.**
 
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
  
 * Guido van Rossum. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
-* [Python Getting Started and Basics](http://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python1_Basics.html)
-### Python for mathematics, science and engineering
-
-* Scipy. http://www.scipy.org/
-
-   * [SciPy Tutorial](https://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
-  
-* Numpy. http://www.numpy.org/ 
-
-   * [NumPy Tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
-  
-* Matplotlib.  http://matplotlib.org/
-  
-   * [Matplotlib Beginner’s Guide](https://matplotlib.org/users/beginner.html)
+* Scipy. http://www.scipy.org/: Numpy, Scipy. Matplotlib
 
 * Jupyter. http://jupyter.org/
-    
-   * [Jupyter Documentation](http://jupyter.readthedocs.org/en/latest/)
-    
+   
 * Robert Johansson [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
 
 ### Engineering System
@@ -54,7 +37,9 @@
 
 * Michael M. Tiller. [Modelica by Example](http://modelicabyexample.globalcrown.com.cn)
 
-### C/C++ Programming with GCC
+* Francesco Witte and Ilja Tuschy. [tespy:Thermal Engineering Systems in Python](https://github.com/oemof/tespy)
+
+### C/C++ Programming 
 
 * Peter Prinz,Tony Crawford: `C in a Nutshell`, 2nd Edition. O’Reilly Media, Inc. 2016
     
@@ -62,11 +47,7 @@
 
     * 袁野译, C语言核心技术(原书第2版), 机械工业出版社，2017
 
-* Ivor Horton,Peter Van Weert: Beginning C++17: From Novice to Professional(Fifth Edition),Ivor Horton and Peter Van Weert,2018 
-
-  * Code: https://github.com/Apress/beg-cplusplus17
-
-* [GCC and Make：Compiling, Linking and Building C/C++ Applications](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+* Fedor G. Pikus. [Hands-On Design Patterns with C++](https://github.com/PacktPublishing/Hands-On-Design-Patterns-with-CPP), Packt Publishing,UK,2019
 
 ### Linux/Ubuntu
 
@@ -76,9 +57,9 @@
 
 ### Software Engineering
 
-* Kristian Rother, Magdalena Rother. [The Simple Software Engineering techniques for Python developers](https://github.com/krother/software-engineering-python)
-
 * FOSSEE. [Software Engineering for Engineers and Scientists](https://github.com/FOSSEE/sees)
+
+* Daniel Jackson,Srini Devadas. [Laboratory in Software Engineering](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-laboratory-in-software-engineering-fall-2005/index.htm),MIT,2005
 
 * Greg Wilson, Co-founder of Software Carpentry 
   * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)

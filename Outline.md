@@ -9,13 +9,9 @@
 
 * [Building Software Environment: Python, VS Code, GCC, Git](./guide/BuildingSoftwareEnvironment.md) 
 
-  * [Computer Terminal](./ComputerTerminal.md/)
-
   * [Windows File System](./guide/WindowsFileSystem.md) 
   
 * [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
-
-* [Resources On Github](./guide/ResourcesOnGithub.md)
 
 * **Homework**
    
@@ -154,13 +150,25 @@
 
 * Encapsulation and Information Hiding, Invisible `__name`
 
-## [Iterator Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit3-2-Iterator-Generator.ipynb)
+## [Iterator Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit3-2-Iterator_Generator.ipynb)
 
 *  Iterator; `iter`, `__next__`
 
 *  Generator：`yield`
 
 * `%%timeit`
+
+## [Exception And Assertion](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-Exception_And_Assertion.ipynb)
+
+* Built-In Exception, `try: except` `try:-except-else-finally`
+
+* Raising Exceptions: `raise`
+
+* User-defined Exceptions
+
+* Predefined Clean-up Actions:`with`
+
+*  `assert` statement
 
 * **Homework**
  
@@ -172,59 +180,15 @@
 
 ## [Refrigeration Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-1-RefrigerationCycle.ipynb)
 
-* ModelingSimulation_EngineeringSystems
+* Modeling Simulation Engineering System
+
+* Vapor-compression refrigeration cycle
 
 ## [Refrigeration Cycle Using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-2-RefrigerationCycle_OOP.ipynb)
 
-* **Homework**
+# 5 GCC and Make
 
-   * [Dymola](https://www.3ds.com/products-services/catia/products/dymola/latest-release/)
-     
-     * **Optional**: [Download and Install FREE TRIAL VERSION Dymola](http://www.3ds.com/fileadmin/PRODUCTS-SERVICES/CATIA/Dymola/dymola-demo.zip)
-
-## [Modelica](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit4-3-Modelica.ipynb)
-
-* Modelica
-
-* [The Simple VCR Cycle Simulator in Modelica](https://github.com/thermalogic/SimVCR) 
-
-## Software Enginering Tools
-
-## [Exception And Assertion](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-Exception_And_Assertion.ipynb)
-
-* Built-In Exception, `try: except` 
-
-* Raising Exceptions: `raise`
-
-* User-defined Exceptions
-
-* `try:-except-else-finally`
-
-* Predefined Clean-up Actions:`with`
-
-*  `assert` statement
-
-## [Testing And Debugging](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-2-Testing And Debugging.ipynb)
-
-   * Testing: Black-Box Testing,Glass-Box Testing,unit testing, integration testing
-
-   * Debugging: bug:Overt,covert,Persistent,intermittent,dubugging process, `print`
-
-   * The typical mistakes
-
-## [unittest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-DevTools_Unittest.ipynb)
-
-* `unittest.TestCase`, test*，Asserting 
-
-* Test Fixtures:`setUp`,`tearDown`
-
-* Test Suites
-
-## [doctest](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-A-DevTools_Doctest.ipynb)
-
-# 6 GCC and Make
-
-## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-1-GCC_Make.ipynb)
+## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-1-GCC_Make.ipynb)
 
 * GNU,GCC,MinGW-W64
 
@@ -232,35 +196,27 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-2-C_stdio.ipynb)
+## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-2-C_stdio.ipynb)
  
 * stdio.h: `scanf,printf`
 
-## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-3-GCC_Lib.ipynb)
+## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-GCC_Lib.ipynb)
 
 * **Shared Library**: Windows, Linux
 
-## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-4-ctypes.ipynb)
+## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-4-ctypes.ipynb)
 
 * ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
-## [ctypes-fun](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-5-ctypes-fun.ipynb)
+## [ctypes-fun](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-5-ctypes-fun.ipynb)
 
-## [Windows DLL, Excel VBA](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-A-DLL_VBA.ipynb)
-
-* Windows DLL: `__stdcall`,`windll.LoadLibrary`
-  
-* Excel VBA(Excel 2013 above, 64bit)
-
-## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-B-ModernCPP.ipynb)
+## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-A-ModernCPP.ipynb)
 
 * C++11 and above, std::tuple,std::vectors, std::unordered_map, std::any 
 
-* [The simple vapor-compression refrigeration cycle simulator in C++](https://github.com/thermalogic/CPPSimVCR)
+# 6  Version Control：Git
 
-# 7  Version Control：Git
-
-## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit7-1-Git.ipynb)
+## [Version Control](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit6-1-Git.ipynb)
 
 * [The Simple Guide to Git/Github](./guide/doc/TheSimpleStepsGithub(Chinese).md)  
 
@@ -278,14 +234,11 @@
 
    * **Optional**: [Install Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md)
 
-# 8 Linux
+# 7 Linux
 
-## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit8-1-Linux.ipynb)
+## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit7-1-Linux.ipynb)
 
 * Linux OS
 
 * [Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md)
 
-# Outlook
-
-## [Outlook: Further Studing](./guide/doc/FurtherStuding.md)

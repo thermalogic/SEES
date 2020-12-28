@@ -105,7 +105,6 @@ Ubuntu的默认软件源可能速度较慢，需要改为更快的 **`镜像软�
  
    点击`Close`后，系统自动更新。
 
-
   ![UbuntuMirror](./img/UbuntuMirror.png)
 
 
@@ -186,11 +185,7 @@ $sudo -H python3 -m pip install jupyter
 ```
 
 ```bash
-$sudo -H python3 -m pip install seuif97  
-```
-
-```bash
-$sudo -H  python3 -m pip install iapws 
+$sudo -H  python3 -m pip install coolprop 
 ```
 
 ### 4.6 Visual Studio Code

@@ -1,8 +1,0 @@
-autopep8
-pylint
-jupyter
-numpy
-scipy
-matplotlib
-coolprop
-pypistats
