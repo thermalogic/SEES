@@ -3,7 +3,7 @@
 
 [![DOI](https://zenodo.org/badge/43438544.svg)](https://zenodo.org/badge/latestdoi/43438544)
 
-* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/) 
+* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
 
 This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques.
 
@@ -13,20 +13,16 @@ We will cover:
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process problems
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
-* version control with [Git/Github](https://git-scm.com/) 
-* Introduction to [Linux/Ubuntu](https://www.ubuntu.com/)
+* version control with [Git](https://git-scm.com/) 
+* Introduction to [Linux](https://www.ubuntu.com/)
 
 We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology.
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
 
-**行是知之始，知是行之成 - 陶行知**
-
 [Practices](https://github.com/PySEE/Practices/) are the very important part of the course. 
 
 We highly recommend you practice coding whenever you have a few minutes.
-
-After successfully completing the course, We wish you have a broad spectrum of computer knowledge and is a good programmer in the context of using computation to solve complex problems.
 
 ## Required Materials
 
@@ -45,16 +41,12 @@ After successfully completing the course, We wish you have a broad spectrum of c
 1. **PySEE/HOME**
    
    * [Jupyter Notebook for the course](./notebook) 
-
-      * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/) 
-
-   * [Guide](./guide)  
-
-      * [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md) Python,Jupyter,SciPy,GCC,etc.
+  
+   * [Guide](./guide): [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md),etc.
 
 2. [PySEE/PySimVCR](https://github.com/PySEE/PySimVCR) The demo vapor-compression refrigeration cycle simulator of steady-state
 
-3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks, grading standards 
+3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks
 
 ## Grading
 
@@ -80,10 +72,10 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
 >
->**Cloning the BEFE2021 branch of repository shallowly for saving bandwidth**
+>**Cloning the B2021 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
+>git clone --depth 1 -b B2021 https://github.com/PySEE/home.git
 >```
 >**Updating to The Latest Version**
 >

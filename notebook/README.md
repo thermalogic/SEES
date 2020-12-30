@@ -1,27 +1,7 @@
 
-# Outline
+# Jupyter Notebook of the PySEE 
 
-## Introduction of the Course
-
-* Goals,Grading,Practices
-
-* **Repositories**: Home,  PySimVCR, Practices
-
-* [Building Software Environment: Python, VS Code, GCC, Git](./guide/BuildingSoftwareEnvironment.md) 
-
-  * [Windows File System](./guide/WindowsFileSystem.md) 
-  
-* [Introduction to Markdown](./guide/Introduction2Markdown(Chinese).md)
-
-* **Homework**
-   
-   * [Setup the working folder for the course](./guide/doc/AdvWorkingDir.md)
-     
-   * [Install Softwares: Python,VS Code,MinGW-W64(GCC),Git](./guide/doc/BuildingSoftwareEnvironment.md)
-
-   * [Download the Home of PySEE, Using Jupyter Notebooks of the course](https://github.com/PySEE/home)
-
-# 1 Python Basic
+* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
 
 ## [Introduction To Python](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit1-1-Introduction_To_Python.ipynb)
 
