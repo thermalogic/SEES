@@ -5,7 +5,7 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
 
-This course is intended to train **students in Building Environment and Energy Application Engineering** become skillful at making productive use of computational techniques.
+This course is intended to train **students in Building Environment and Energy Application Engineering** become skillful at computational techniques.
 
 We will cover:
 
@@ -18,11 +18,11 @@ We will cover:
 
 We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology.
 
-If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
-
 [Practices](https://github.com/PySEE/Practices/) are the very important part of the course. 
 
 We highly recommend you practice coding whenever you have a few minutes.
+
+If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
 
 ## Required Materials
 
