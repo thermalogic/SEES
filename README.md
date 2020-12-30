@@ -9,7 +9,7 @@ This course is intended to train **students in Building Environment and Energy A
 
 We will cover:
 
-* write clean, testable, high quality code in [Python](https://www.python.org/)
+* [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
 * apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process problems
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
