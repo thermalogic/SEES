@@ -5,7 +5,7 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
 
-This course is intended to train **students in building environment and facilities engineering** become skillful at making productive use of computational techniques.
+This course is intended to train **students in Building Environment and Energy Application Engineering** become skillful at making productive use of computational techniques.
 
 We will cover:
 
