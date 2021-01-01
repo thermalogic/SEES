@@ -44,7 +44,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I val
   
    * [Guide](./guide): [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md),etc.
 
-2. [PySEE/PySimVCR](https://github.com/PySEE/PySimVCR) The demo vapor-compression refrigeration cycle simulator of steady-state
+2. [PySEE/SimVCCE](https://github.com/PySEE/SimVCCE) The vapor-compression refrigeration cycle steady-state simulator in Python, C++ and Modelica
 
 3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks
 
