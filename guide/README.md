@@ -3,7 +3,7 @@
 
 * [Install Software](./doc/InstallSoftware.md)
 
-  * [Install and Use Software](./doc/InstallandUseSoftware.md)
+  * [Install and Use Software](./doc/InstallUseSoftware.md)
 
 * [Windows File System](./doc/WindowsFileSystem.md)
 
