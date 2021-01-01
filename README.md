@@ -42,7 +42,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I val
    
    * [Jupyter Notebook for the course](./notebook) 
   
-   * [Guide](./guide): [Building Software Environment](./guide/doc/BuildingSoftwareEnvironment.md),etc.
+   * [Guide](./guide): [Install Software](./guide/doc/InstallSoftware.md),etc.
 
 2. [PySEE/SimVCCE](https://github.com/PySEE/SimVCCE) The vapor-compression refrigeration cycle steady-state simulator in Python, C++ and Modelica
 

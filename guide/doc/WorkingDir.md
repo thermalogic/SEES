@@ -13,9 +13,9 @@ CourseSE
  │
  ├──PySEE
  │    │
- │    ├── Home
+ │    ├── home
  │    │      
- │    ├── PySimVCR
+ │    ├── SimVCCE
  │    │
  │    |── Practices
  │        

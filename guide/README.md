@@ -1,7 +1,9 @@
 
 # Contents
 
-* [The Guide of Building Software Environment](./doc/BuildingSoftwareEnvironment.md)
+* [Install Software](./doc/InstallSoftware.md)
+
+  * [Install and Use Software](./doc/InstallandUseSoftware.md)
 
 * [Windows File System](./doc/WindowsFileSystem.md)
 

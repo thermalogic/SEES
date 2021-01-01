@@ -1,70 +1,22 @@
 
-**安装要点**
-
-**注意**：新版的numpy和Python新版解释器及其他一些软件包，有兼容性问题，所以，建议安装老版本
-
-*  Python 3.8.7
- 
-*  Numpy 1.18.0 
-
-**Python解释器**
-
-* **勾选** 将解释器安装路径加入系统环境变量Path: `Add Python 3.* to PATH`
-
-**Python软件包安装命令汇总**
-
-安装好Python解释器后，在命令终端 `>` 执行以下命令：
-
-```bash
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-
-python -m pip install --upgrade pip
-
-python -m pip install autopep8 pylint
-
-python -m pip install jupyter
-
-python -m pip install jupyter_contrib_nbextensions
-
-jupyter contrib nbextension install --user
-
-python -m pip install numpy==1.18.0
-
-python -m pip install scipy
-
-python -m pip install matplotlib
-
-python -m pip install coolprop
-```
-
-**安装Visual Studio Code**
-
-* 安装过程中`勾选`有关项目，方便使用
-
-**安装TDM-GCC**
-
-* TDM-GCC https://jmeubank.github.io/tdm-gcc 
-
----
-
-**请参考如下指导安装软件**
-
-# The Guide of Building Software Environment
+# Install and Use Software
 
 Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
-- [The Guide of Building Software Environment](#the-guide-of-building-software-environment)
+- [Install and Use Software](#install-and-use-software)
   - [A:Python & PyPI](#apython--pypi)
     - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
       - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
-      - [A.1.2  Using Python Shell(command-line model)](#a12-using-python-shellcommand-line-model)
+      - [A.1.2  Using Python Shell(command-line model)](#a12--using-python-shellcommand-line-model)
       - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
     - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
     - [A.3 Install Packages](#a3-install-packages)
       - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
       - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
       - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
+      - [A.3.4 Scipy](#a34-scipy)
+    - [A.3.5 CoolProp:](#a35-coolprop)
   - [B:Jupyter Notebook](#bjupyter-notebook)
     - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
       - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
@@ -85,13 +37,10 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
       - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
   - [E: Using Git](#e-using-git)
     - [E.1 Install Git for Windows](#e1-install-git-for-windows)
-    - [E.2 Using Git with  PySEE/home](#e2-using-git-with-pyseehome)
+    - [E.2 Using Git with  PySEE/home](#e2-using-git-with--pyseehome)
       - [E.2.1 Clone the PySEE/home to your computer](#e21-clone-the-pyseehome-to-your-computer)
       - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
       - [E.2.3 Discard Changes](#e23-discard-changes)
-  - [F:Scientific Computation Packages](#fscientific-computation-packages)
-    - [F.1 Scipy](#f1-scipy)
-    - [F.2 CoolProp:](#f2-coolprop)
   - [References](#references)
 
 <!-- /TOC -->
@@ -266,6 +215,20 @@ or
 >python -m pip install autopep8 pylint
 ```
 
+#### A.3.4 Scipy
+   
+Numpy, Scipy, Matplotlib https://www.scipy.org/install.html 
+
+```bash   
+> python -m pip install numpy scipy matplotlib
+``` 
+
+### A.3.5 CoolProp: 
+
+```bash   
+> python -m pip coolprop 
+``` 
+
 ## B:Jupyter Notebook
 
 Interactive analysis and literate programming
@@ -362,9 +325,9 @@ Go to the repo **home** on the Github: https://github.com/PySEE/home ,then downl
 
 Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) 
 
-**Download** the latest available version of gcc compiler for **windows64** - for example：`tdm64-gcc-9.2.0.exe`,then,run the installer
+**Download** the latest available version of gcc compiler for **windows64** - `tdm64-gcc-9.2.0.exe`,run the installer
 
-**RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
+then, **RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 ## D:Visual Studio Code
 
@@ -458,12 +421,12 @@ After you have installed **git**, You may use the following **commands:** to cle
 >git clone https://github.com/PySEE/home.git
 ```
 
-**Cloning the `BEFE2021` branch of repository `shallowly` for saving bandwidth**
+**Cloning the `B2021` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b BEFE2021 https://github.com/PySEE/home.git
+>git clone --depth 1 -b B2021 https://github.com/PySEE/home.git
 ```
-* -b BEFE2021 
+* -b B2021 
 * --depth 1 
   * Create a shallow clone with a history truncated to the specified number of commits
 
@@ -491,21 +454,7 @@ If you change the contents of home, you may  `checkout` to discard all changes
 
 >you may also use any **GUI git client** to clone, update and checkout this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or [GitHub Desktop](https://desktop.github.com/)
 
-## F:Scientific Computation Packages
 
-### F.1 Scipy
-   
-   Numpy, Scipy, Matplotlib https://www.scipy.org/install.html 
-
-```bash   
-> python -m pip install numpy scipy matplotlib
-``` 
-
-### F.2 CoolProp: 
-
-```bash   
-> python -m pip coolprop 
-``` 
 ## References
 
 * Python3:  https://www.python.org/downloads/
