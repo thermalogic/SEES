@@ -323,7 +323,7 @@ $sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 
 ## 参考
 
-* How to install and Get Started with Ubuntu Desktop 16.04LTS  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+* How to install and Get Started with Ubuntu Desktop http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
 
 * Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 

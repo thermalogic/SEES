@@ -1,7 +1,5 @@
 # The Working Directory for The Course
 
-## 1 Setup your working directory
-
 **Note**: 
 
 * 1. Setup your working directory on a **non-System** disk.e.g: **D:**
@@ -27,7 +25,7 @@ CourseSE
  │   │ 
  │   |── P3
  │   
- ├──softwares
+ ├──Softwares
  │
  ├──ebooks
  │
@@ -35,20 +33,4 @@ CourseSE
  │
 
 ``` 
-
-## 2 Downloand the repositories of PySEE
-
-https://github.com/PySEE
-
-**download the zip files** , then unzip 
-
-```
- ├──PySEE
- │    │
- │    ├── Home
- │    │      
- │    ├── PySimVCR
- │    │        
- │    |── Practices
-```
 

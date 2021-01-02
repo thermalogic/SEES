@@ -11,6 +11,8 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
+* [The Guide to WSL](./doc/GuideWSL(Chinese)(Chinese).md) 
+
 * [Ubuntu](./doc/Ubuntu-Python-CPP(Chinese).md)
 
 * [问题及解决方法](./doc/Problem_Solution.md)
