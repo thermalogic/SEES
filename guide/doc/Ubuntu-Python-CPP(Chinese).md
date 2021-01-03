@@ -145,9 +145,12 @@ Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
 
 ```bash 
-$sudo apt-get install build-essential
+$sudo apt install build-essential
 ```
 
+```bash 
+$sudo apt install  gcc-multilib  g++-multilib
+```
 ### 4.3 Python3 and Tools
 
 Ubuntu 18.04 LTS内置Python3. 但不完整，需补充: pip3、idle3。
