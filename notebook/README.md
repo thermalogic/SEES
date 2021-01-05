@@ -180,9 +180,9 @@
  
 * stdio.h: `scanf,printf`
 
-## [GCC Shared Library](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-GCC_Lib.ipynb)
+## [GCC LLibrary](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-3-GCC_Shared_Library.ipynb)
 
-* **Shared Library**: Windows, Linux
+* Static and Shared Library
 
 ## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/BEFE2021/notebook/Unit5-4-ctypes.ipynb)
 

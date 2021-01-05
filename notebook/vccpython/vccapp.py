@@ -9,19 +9,19 @@ The Object-oriented Programming Demo of VCR Cycle
  
 Run: 
 
-python vcapp.py
+python vccapp.py
   
 
 """
-from vccycle.cycleobj import VCRCycle
-from vccycle.cyclehelper import OutFiles
-from cyclemodel import cycles
+from vcc.vccobj import VCRCycle
+from vcc.utils import OutFiles
+from vccmodel import cycles
 from platform import os
 
 if __name__ == "__main__":
 
     curpath = os.path.abspath(os.path.dirname(__file__))
-    ResultFilePath = curpath+'\\'+'./result/'
+    ResultFilePath = curpath+'/result/'
 
     for curcycle in cycles:
         ResultFileName = ResultFilePath+curcycle.cycle['name']

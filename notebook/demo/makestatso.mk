@@ -2,9 +2,9 @@
 CC=gcc
 CFLAGS=-O3 -Wall -fPIC 
 
-SRCDIR= ./src/
-OBJDIR= ./obj/
-BINDIR= ./bin/
+SRCDIR=./src/
+OBJDIR=./obj/
+BINDIR=./bin/
 INCDIR=./include/
 
 # Linux
@@ -14,9 +14,10 @@ LIB=libstat.dll
 
 all:  $(LIB)
 
-$(LIB): obj
+$(LIB): statobj
 	 $(CC) -shared -o $(BINDIR)$@ $(OBJDIR)statistics.o
+	 del .\obj\statistics.o
     
-obj: $(SRCDIR)statistics.c
+statobj: $(SRCDIR)statistics.c
 	 $(CC) -c $(CFLAGS)  -o $(OBJDIR)statistics.o $(SRCDIR)statistics.c -I$(INCDIR)
      

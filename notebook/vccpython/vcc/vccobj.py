@@ -10,6 +10,8 @@ dictcycle={"name":namestring,
 """
 
 import time
+import getpass
+from platform import os
 
 from components.node import Node
 from components import compdict
@@ -82,8 +84,8 @@ class VCRCycle:
     def __str__(self):
         str_curtime = time.strftime(
             "%Y/%m/%d %H:%M:%S", time.localtime(time.time()))
-        result = "\nRefrigeration Cycle: {} (Time: {})\n".format(
-            self.name, str_curtime)
+        result = "\nRefrigeration Cycle: {} (Time: {} by {} on {})\n".format(
+            self.name, str_curtime,getpass.getuser(),os.popen('hostname').read())
         try:
             formatstr = "{:>35} {:>5.2f}\n"
             result = self.__setformatstr(formatstr, result)

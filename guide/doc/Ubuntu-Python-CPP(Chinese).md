@@ -124,10 +124,10 @@ $sudo timedatectl set-local-rtc 1
 &emsp;&emsp;![Ubuntu18042](./img/Ubuntu18042.png)
 
 >
->可选用基于Ubuntu的发行版：
+>建议可选Ubuntu发行版：
 >
 >* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
->* 2 Linux Mint：https://www.linuxmint.com/ Linux Mint易用性高(类似Windows）。Linux Mint有多个不同桌面环境的版本，如果电脑性能弱，建议使用Linux Mint Xfce版。
+
 
 
 ## 四、开发环境
@@ -258,6 +258,7 @@ $sudo apt -f install
 然后，再次
 
 ```bash
+$sudo dpkg -i sogoupinyin_filename.deb
 ```
 
 安装后logout当前用户，再login，输入法就安装好了。Ctrl+Blank Space 可以切换中/英文输入法

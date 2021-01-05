@@ -27,6 +27,6 @@ def OutFiles(cycle, outfilename=None):
         print(cycle.comps[key])
 
     # return to sys.stdout
-    if (outfilename != None):
+    if (outfilename is not None):
         datafile.close()
         sys.stdout = savedStdout
