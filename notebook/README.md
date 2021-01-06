@@ -102,7 +102,7 @@
    
    * type size
 
-## [Understanding Examperimental Data](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-2-Understanding_Examperimental_Data.ipynb)
+## [Understanding Examperimental Data](https://nbviewer.ipython.org/github/PySEE/home/blob/B2021/notebook/Unit2-2-Understanding_Experimental_Data.ipynb)
 
 * The Behavior of Springs：
    
@@ -165,6 +165,10 @@
 * Vapor-compression refrigeration cycle
 
 ## [Refrigeration Cycle Using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-2-RefrigerationCycle_OOP.ipynb)
+
+## [Design Pattern](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-A-Design_Pattern.ipynb)
+
+* Factory Pattern
 
 # 5 GCC and Make
 
