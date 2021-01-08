@@ -4,7 +4,7 @@ The example use the shared library of CoolProp in c
 
 The library: libCoolProp.dll or CoolProp_x64.dll
 
-g++ -o ./bin/main.exe  -DCOOLPROP_LIB main.c -I./include -L./bin -lCoolProp
+g++ -o ./bin/main  -DCOOLPROP_LIB main.c -I./include -L./bin -lCoolProp
        
 ./bin/main
 

@@ -16,8 +16,6 @@ all:  $(LIB)
 
 $(LIB): statobj
 	 $(CC) -shared -o $(BINDIR)$@ $(OBJDIR)statistics.o
-	 del .\obj\statistics.o
     
 statobj: $(SRCDIR)statistics.c
-	 $(CC) -c $(CFLAGS)  -o $(OBJDIR)statistics.o $(SRCDIR)statistics.c -I$(INCDIR)
-     
+	 $(CC) -c $(CFLAGS)  -o $(OBJDIR)statistics.o $(SRCDIR)statistics.c -I$(INCDIR)    

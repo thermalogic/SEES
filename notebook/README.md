@@ -217,3 +217,7 @@
 ## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-1-Linux.ipynb)
 
 * Linux OS
+
+## [Programming On Linux](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-2-Programming_On_Linux.ipynb)
+
+* C/C++, Python On Linux

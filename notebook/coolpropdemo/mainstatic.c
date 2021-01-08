@@ -4,7 +4,7 @@ The example use the static library of CoolProp in c
 
 The library: ./lib/libCoolProp.a
 
-g++ -o ./bin/mainstatic.exe   main.c -I./include -L./lib -lCoolProp
+g++ -o ./bin/mainstatic   main.c -I./include -L./lib -lCoolProp
        
 ./bin/mainstatic
 
