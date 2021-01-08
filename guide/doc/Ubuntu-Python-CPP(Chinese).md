@@ -144,9 +144,13 @@ Ubuntu 18.04 LTS内置GCC编译器，无需安装.
 
 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
 
+The command installs a bunch of new packages including gcc, g++ and make.
+
 ```bash 
 $sudo apt install build-essential
 ```
+
+`gcc-multilib` is useful for cross-compiling, that is, compiling a program to run on a different processor architecture.
 
 ```bash 
 $sudo apt install  gcc-multilib  g++-multilib
