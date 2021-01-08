@@ -3,7 +3,7 @@
 The example use the shared library of CoolProp in c
 
 g++ -o ./bin/mainso  -DCOOLPROP_LIB mainso.c -I./include -L./bin -lCoolProp -Wl,-rpath=./bin/ 
-       
+     
 ./bin/mainso
 
 */
