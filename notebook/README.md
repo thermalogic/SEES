@@ -205,9 +205,7 @@
 * [The Simple Guide to Git/Github](./guide/doc/TheSimpleStepsGithub(Chinese).md)  
 
 * Homework
-  
-   * Install pypistats: >python -m pip install pypistats
-  
+   
    * [Install Windows Subsystem for Linux (WSL))](./guide/doc/GuideWSL(Chinese).md)
    
    * **Optional**: [Install Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md)

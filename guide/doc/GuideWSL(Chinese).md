@@ -4,25 +4,26 @@
 
 1. 安装WSL: [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
-建议使用Ubuntu20.04 LTS 
+   手动安装，建议安装WSL1 
 
-2. 建立用户
+   * 步骤 1 - 启用适用于 Linux 的 Windows 子系统
 
-在Windows的cmd/powershell终端输入
+   * 步骤 6 - 安装所选的 Linux 分发，建议安装Ubuntu20.04LTS 
 
-```text
->wsl
-```
+2. 为新的Linux分发版创建用户帐户和密码
 
-启动新安装的 Linux 分发版, 在Linux系统终端，创建用户帐户和密码
+   https://docs.microsoft.com/zh-cn/windows/wsl/user-support
+
+   启动新安装的Linux分发版, 在Linux系统终端，创建用户帐户和密码
 
 3. 修改ubuntu软件源
 
-WSL在电脑中的安装目录是：C:\Users\你的当前用户名\AppData\Local\Packages\
+    WSL在电脑中的安装目录是：C:\Users\你的当前用户名\AppData\Local\Packages\
 
-用`sources.list`覆盖WSL原文件，配置软件源为aliyun.
-
-* C:\Users\你的当前用户名\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc\LocalState\rootfs\etc\apt
+    用`sources.list`覆盖WSL原文件，配置软件源为aliyun.
+```
+C:\Users\你的当前用户名\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc\LocalState\rootfs\etc\apt
+```
 
 4. 更新系统
 
@@ -38,13 +39,13 @@ $sudo apt upgrade
 在Ubuntu终端执行
 
 ```bash
-$sudo apt install g++ gcc
+$sudo apt install build-essential
 $sudo apt install python3-pip
 ```
 
 ## Visual Studio Code Remote
 
-1. 安装Visual Studio Code Remote  [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
+1. 安装Visual Studio Code Remote插件 [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
 2. 在Ubuntu终端执行
  
@@ -56,7 +57,7 @@ $sudo apt install python3-pip
 
 * [Windows Subsystem for Linux (WSL))](https://docs.microsoft.com/zh-cn/windows/wsl/)
    
-* [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+  * [Install Windows Subsystem for Linux (WSL) on Windows 10(Chinese)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
 * [VS code: Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 
