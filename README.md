@@ -11,10 +11,10 @@ We will cover:
 
 * [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the industrial process problems
+* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the complex problems
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git](https://git-scm.com/) 
-* Introduction to [Linux](https://www.ubuntu.com/)
+* introduction to [Linux](https://www.ubuntu.com/)
 
 We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology.
 
