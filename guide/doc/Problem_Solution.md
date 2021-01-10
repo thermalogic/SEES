@@ -3,24 +3,33 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
-    - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
-    - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
-    - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
-    - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
-    - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
-    - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
-    - [Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞](#jupyter软件包安装中断后再次安装中使用cache造成安装过程停滞)
-    - [命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32](#命令行执行jupyter-notebook后jupyter总是启动到c\windows\system32)
-    - [Windows安全防护](#windows安全防护)
-    - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
-    - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
-        - [ipynb件转换pdf](#ipynb件转换pdf)
-            - [需要软件](#需要软件)
-            - [ipynb转换为pdf](#ipynb转换为pdf)
-                - [方法1：](#方法1)
-                - [方法2.](#方法2)
+  - [Jupyter nbextensions does not work as of jan 2021 update notebook](#jupyter-nbextensions-does-not-work-as-of-jan-2021-update-notebook)
+  - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
+  - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
+  - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
+  - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
+  - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
+  - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
+  - [Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞](#jupyter软件包安装中断后再次安装中使用cache造成安装过程停滞)
+  - [命令行执行>jupyter notebook后，jupyter总是启动到C:\Windows\system32](#命令行执行jupyter-notebook后jupyter总是启动到cwindowssystem32)
+  - [Windows安全防护](#windows安全防护)
+  - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
+  - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
+    - [ipynb件转换pdf](#ipynb件转换pdf)
+      - [需要软件](#需要软件)
+      - [ipynb转换为pdf](#ipynb转换为pdf)
+        - [方法1：](#方法1)
+        - [方法2.](#方法2)
 
 <!-- /TOC -->
+
+## Jupyter nbextensions does not work as of jan 2021 update notebook
+
+https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/issues/128
+
+downgrade the notebook version
+
+>pip install notebook==6.1.5
 
 ## Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败
 

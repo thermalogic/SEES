@@ -72,6 +72,10 @@ To install Jupyter,run the following command in a terminal:
 >python -m pip install jupyter
 ```
 
+```bash   
+>python -m pip install notebook==6.1.5
+```
+
 Install Jupyter Notebook extension
 
 ```bash   

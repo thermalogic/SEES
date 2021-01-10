@@ -1,0 +1,7 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!CoolProp_x64.dll
+!libCoolProp.dll
+!libCoolProp.so.6.4.1
