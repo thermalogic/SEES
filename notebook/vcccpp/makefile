@@ -11,5 +11,8 @@ CFLAGES=-std=c++17 -O3
 	 
 OUTFILE=./bin/vccdemo
 
+all: $(OUTFILE)
+	$(OUTFILE)
+
 $(OUTFILE): ./demovcclib.cpp  
 	g++ $(CFLAGES) -o $@ $^   -I./include $(LIBFLAGS)
