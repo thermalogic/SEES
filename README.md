@@ -11,7 +11,7 @@ We will cover:
 
 * [Python](https://www.python.org/)
 * using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](https://baike.baidu.com/item/计算思维) to model and solve the complex problems
+* apply [Computational thinking](http://scratched.gse.harvard.edu/ct/defining.html) to model and solve the complex problems
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
