@@ -15,7 +15,7 @@
 
 using namespace std;
 
-typedef unordered_map<string, any> dictNode;
+typedef unordered_map<string, any> umapNode;
 
 class Node
 {

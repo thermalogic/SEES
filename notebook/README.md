@@ -8,12 +8,12 @@
 * **Python**: The interpreted ,dynamically typed, scripting Language
    * Numerical Types, Operators and Expressions 
    * Variables and Assignment 
-   * Output: `print()` Comments：`#`
+   * `print()` `input()`
+   *  Comments：`#`
    * String, Slicing
-   * Input：`input()`
    * Type Conversion
 * Jupyter
-   *  `magic` functions： `cell`, `line`   
+   *  `magic` functions： `cellv %%`, `line %`   
    *  `!`  Shell command
       
 ## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit1-2-Control_Flow.ipynb)
@@ -80,12 +80,6 @@
 
 * Table Data，CSV
 
-* **Homework** 
-
-   * Install Numpy,Scipy,Matplotlib
-
-         > python -m pip install numpy scipy matplotlib
-
 # 2 Scipy
 
 ## [Plotting Using Matplotlib](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-1-Plotting_Using_Matplotlib.ipynb)
@@ -104,7 +98,7 @@
 
 ## [Understanding Examperimental Data](https://nbviewer.ipython.org/github/PySEE/home/blob/B2021/notebook/Unit2-2-Understanding_Experimental_Data.ipynb)
 
-* The Behavior of Springs：
+* The Behavior of Springs
    
 * NumPy: polyfit
 
@@ -150,12 +144,6 @@
 
 *  `assert` statement
 
-* **Homework**
- 
-   * Install coolprop
-     
-         >python -m pip install coolprop
-
 # 4 Refrigeration Cycle
 
 ## [Refrigeration Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-1-RefrigerationCycle.ipynb)
@@ -184,7 +172,7 @@
  
 * stdio.h: `scanf,printf`
 
-## [GCC LLibrary](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-3-GCC_Shared_Library.ipynb)
+## [GCC Library](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-3-GCC_Library.ipynb)
 
 * Static and Shared Library
 
@@ -192,7 +180,7 @@
 
 * ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
-## [ctypes-fun](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-5-ctypes-fun.ipynb)
+* arrays,function
 
 ## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-A-ModernCPP.ipynb)
 
@@ -206,16 +194,18 @@
 
 * Homework
    
-   * [Install Windows Subsystem for Linux (WSL))](./guide/doc/GuideWSL(Chinese).md)
+   * [Install Windows Subsystem for Linux (WSL)](./guide/doc/GuideWSL(Chinese).md)
    
    * **Optional**: [Install Ubuntu](./guide/doc/Ubuntu-Python-CPP(Chinese).md)
 
 # 7 Linux
 
-## [Linux/Ubuntu](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-1-Linux.ipynb)
+## [Linux](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-1-Linux.ipynb)
 
 * Linux OS
 
-## [Programming On Linux](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-2-Programming_On_Linux.ipynb)
+## [Programming On Linux](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit7-A-Programming_On_Linux.ipynb)
 
 * C/C++, Python On Linux
+
+* Shared Library on Linux

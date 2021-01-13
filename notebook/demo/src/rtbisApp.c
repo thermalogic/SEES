@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -7,7 +6,7 @@
 double fcn(double x)
 {
 	double result;
-	result = x * x;
+    result = x * x;
 	return result;
 }
 
@@ -24,4 +23,5 @@ int main()
 	// Print answers
 	printf("root = %14.7e  ier = %1d", root, ier);
 	return 0;
-}
+}	
+

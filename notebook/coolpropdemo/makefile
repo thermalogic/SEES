@@ -1,4 +1,5 @@
 BIN=./bin/
+INC=./include/
 MAIN_FILE=mainso.c
 SONAME=libCoolProp.so.6
 REAL_NAME=libCoolProp.so.6.4.1
@@ -13,7 +14,7 @@ symlink:
 	ln -sf $(SONAME) $(BIN)$(LINKER_NAME)
 
 buildexec:
-	g++ -o $(BIN)${OUTPUT_FILE} -DCOOLPROP_LIB  $(MAIN_FILE) -I./include $(LINKERFLAGS)
+	g++ -DCOOLPROP_LIB -o $(BIN)${OUTPUT_FILE}  $(MAIN_FILE) -I$(INC) $(LINKERFLAGS)
     
 exec:
 	$(BIN)${OUTPUT_FILE}

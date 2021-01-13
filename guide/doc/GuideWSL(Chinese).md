@@ -6,17 +6,15 @@
 
    手动安装，建议安装WSL1 
 
-   * 步骤 1 - 启用适用于 Linux 的 Windows 子系统
+   * 步骤 1 - 启用适用于Linux的Windows子系统
 
-   * 步骤 6 - 安装所选的 Linux 分发，建议安装Ubuntu20.04LTS 
+   * 步骤 6 - 安装所选的Linux分发版，建议安装Ubuntu20.04LTS 
 
 2. 为新的Linux分发版创建用户帐户和密码
 
    https://docs.microsoft.com/zh-cn/windows/wsl/user-support
 
-   启动新安装的Linux分发版, 在Linux系统终端，创建用户帐户和密码
-
-3. 修改ubuntu软件源
+ 3. 修改Ubuntu软件源
 
     WSL在电脑中的安装目录是：C:\Users\你的当前用户名\AppData\Local\Packages\
 

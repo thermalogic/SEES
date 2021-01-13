@@ -3,7 +3,7 @@ The example use the shared library of CoolProp in c
 
 The library: libCoolProp.dll or CoolProp_x64.dll
 
-g++  -o ./bin/demo  -DCOOLPROP_LIB demo.cpp -I./include -L./bin -lCoolProp
+g++ -DCOOLPROP_LIB -o ./bin/demo  demo.cpp -I./include -L./bin -lCoolProp
 
 ./bin/demo
 

@@ -16,7 +16,7 @@ symlink:
 	ln -sf $(SONAME) $(BIN)$(LINKER_NAME)
 
 buildexec:
-	gcc -o $(BIN)${OUTPUT_FILE} -DCOOLPROP_LIB  $(SRC)$(MAIN_FILE) -I$(INC) $(LINKERFLAGS)
+	gcc -o $(BIN)${OUTPUT_FILE}  $(SRC)$(MAIN_FILE) -I$(INC) $(LINKERFLAGS)
     
 exec:
 	$(BIN)${OUTPUT_FILE}
