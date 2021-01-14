@@ -1,7 +1,7 @@
 /*
  The vapor-compression refrigeration cycle simulator for education in C++
 */
-#include "vcclib.hpp"
+#include "vcc.hpp"
 
 vector<dictDevice> dictNodes = {
     {{"desc", "Evaporator->Compressor"},

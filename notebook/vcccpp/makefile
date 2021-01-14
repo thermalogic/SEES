@@ -14,5 +14,5 @@ OUTFILE=./bin/vccdemo
 all: $(OUTFILE)
 	$(OUTFILE)
 
-$(OUTFILE): ./demovcclib.cpp  
+$(OUTFILE): ./demovcc.cpp  
 	g++ $(CFLAGES) -o $@ $^   -I./include $(LIBFLAGS)

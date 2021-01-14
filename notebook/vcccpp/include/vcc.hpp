@@ -1,9 +1,9 @@
 /*
 The vapor-compression refrigeration cycle simulator for education in C++
-  VCCLIB.hpp for the libvcc
+  VCC.hpp for the client
 */
-#ifndef VCCLIB_HPP
-#define VCCLIB_HPP
+#ifndef VCC_HPP
+#define VCC_HPP
 
 #include <string>
 #include <unordered_map>
@@ -41,4 +41,4 @@ public:
     void outresults();
 };
 
-#endif /* VCCLIB_HPP */
+#endif /* VCC_HPP */

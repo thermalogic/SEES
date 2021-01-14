@@ -5,16 +5,18 @@ SONAME=libCoolProp.so.6
 REAL_NAME=libCoolProp.so.6.4.1
 LINKER_NAME=libCoolProp.so
 OUTPUT_FILE=mainso.out
-LINKERFLAGS=-L./bin -lCoolProp -Wl,-rpath=./bin/
+LINKERFLAGS=-L./bin -lCoolProp 
 
-all:symlink buildexec exec
-
-symlink:
-	ln -sf $(REAL_NAME) $(BIN)$(SONAME)
-	ln -sf $(SONAME) $(BIN)$(LINKER_NAME)
+all:buildexec exec
 
 buildexec:
 	g++ -DCOOLPROP_LIB -o $(BIN)${OUTPUT_FILE}  $(MAIN_FILE) -I$(INC) $(LINKERFLAGS)
     
 exec:
 	$(BIN)${OUTPUT_FILE}
+    
+install:
+	cp $(BIN)$(REAL_NAME) /usr/lib/
+	ln -sf $(REAL_NAME)  /usr/lib/$(SONAME)
+	ln -sf $(SONAME)  /usr/lib/$(LINKER_NAME)
+    
