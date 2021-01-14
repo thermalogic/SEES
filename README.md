@@ -22,6 +22,11 @@ We emphasize breadth rather than depth on these topics. The goal is to provide y
 
 We highly recommend you practice coding whenever you have a few minutes.
 
+* **行是知之始，知是行之成 - 陶行知**
+
+* **Project-Driven Learning-by-Doing(项目驱动，边做边学)**
+
+
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
 
 ## Required Materials
