@@ -13,7 +13,7 @@
    * String, Slicing
    * Type Conversion
 * Jupyter
-   *  `magic` functions： `cellv %%`, `line %`   
+   *  `magic` functions： `cell %%`, `line %`   
    *  `!`  Shell command
       
 ## [Control Flow](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit1-2-Control_Flow.ipynb)
@@ -112,7 +112,7 @@
 
  * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
-## [Latex Math](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-A-Latex_Math.ipynb)
+## [LaTex Math](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-A-LaTex_Math.ipynb)
 
 # 3 Class
 
@@ -154,15 +154,11 @@
 
 ## [Refrigeration Cycle Using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-2-RefrigerationCycle_OOP.ipynb)
 
-## [Design Pattern](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-A-Design_Pattern.ipynb)
-
-* Factory Pattern
-
 # 5 GCC and Make
 
 ## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-1-GCC_Make.ipynb)
 
-* GNU,GCC,MinGW-W64
+* GNU,GCC, GCC on Windows
 
 * GNU **Make**
    
