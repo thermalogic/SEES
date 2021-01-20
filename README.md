@@ -24,7 +24,7 @@ We highly recommend you practice coding whenever you have a few minutes.
 
 * **行是知之始，知是行之成 - 陶行知**
 
-* **Project-Driven Learning-by-Doing(项目驱动，边做边学)**
+* **项目驱动，边做边学**
 
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
@@ -68,8 +68,6 @@ The Course graded on the 100 point scale and then weighted according to the foll
 * Download the *PySEE/home* Repository  
 
   You can manually download the `zip` file of the `PySEE/home` to your computer
-
-  ![download](./guide/doc/img/downloadhome.jpg)
 
 * Using the Jupyter Notebooks of PySEE/home:  
 
