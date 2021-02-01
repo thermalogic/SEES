@@ -5,7 +5,7 @@
 
 * [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
 
-This course is intended to train **students in Building Environment and Energy Application Engineering** become skillful at computational techniques.
+The branch **B2021** is intended to train **students in Building Environment and Energy Application Engineering** become skillful at computational techniques.
 
 We will cover:
 
