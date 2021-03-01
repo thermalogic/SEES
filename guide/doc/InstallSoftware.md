@@ -92,7 +92,7 @@ Install javascript and css files
 
 Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) to download the latest available version of gcc compiler for **Windows64** - `tdm64-gcc-9.2.0.exe`,run the installer.
 
-Ahter the install, **Rename**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
+After the install, **Rename**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 ## D: Visual Studio Code
 
