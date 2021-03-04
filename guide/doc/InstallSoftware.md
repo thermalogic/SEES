@@ -61,7 +61,7 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 ``` 
 
 ```bash   
-> python -m pip coolprop 
+> python -m pip install  coolprop 
 ``` 
 
 ## B: Install Jupyter Notebook
