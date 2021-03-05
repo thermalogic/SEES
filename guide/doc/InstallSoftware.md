@@ -39,7 +39,13 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 ### A.2 Install Package using pip
 
 #### A.2.1 set the faster mirror index site of PyPi
- 
+
+```bash
+>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+```
+
+or 
+
 ```bash
 >pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
