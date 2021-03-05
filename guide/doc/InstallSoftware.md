@@ -41,33 +41,33 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 #### A.2.1 set the faster mirror index site of PyPi
 
 ```bash
->pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 ```
 
 or 
 
 ```bash
->pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 #### A.2.2 update pip to the most recent version
 
 ```bash
->python -m pip install -U pip
+python -m pip install -U pip
 ```
 
 #### A.2.3 Install  Packages
 
 ```bash  
->python -m pip install autopep8 pylint
+python -m pip install autopep8 pylint
 ```
 
 ```bash   
-> python -m pip install numpy==1.18.0 scipy matplotlib
+python -m pip install numpy==1.18.0 scipy matplotlib
 ``` 
 
 ```bash   
-> python -m pip install  coolprop 
+python -m pip install  coolprop 
 ``` 
 
 ## B: Install Jupyter Notebook
@@ -75,23 +75,23 @@ or
 To install Jupyter,run the following command in a terminal:
 
 ```bash   
->python -m pip install jupyter
+python -m pip install jupyter
 ```
 
 ```bash   
->python -m pip install notebook==6.1.5
+python -m pip install notebook==6.1.5
 ```
 
 Install Jupyter Notebook extension
 
 ```bash   
->python -m pip install jupyter_contrib_nbextensions
+python -m pip install jupyter_contrib_nbextensions
 ```
 
 Install javascript and css files
 
 ```bash   
->jupyter contrib nbextension install --user
+jupyter contrib nbextension install --user
 ```
 
 ## C: Install GCC for Windows：TDM-GCC
