@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+  - [pip安装提示cannot connect to proxy](#pip安装提示cannot-connect-to-proxy)
   - [Jupyter nbextensions does not work as of jan 2021 update notebook](#jupyter-nbextensions-does-not-work-as-of-jan-2021-update-notebook)
   - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
   - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
@@ -22,6 +23,17 @@
         - [方法2.](#方法2)
 
 <!-- /TOC -->
+
+## pip安装提示cannot connect to proxy
+
+pip安装提示异常：
+
+![](./img/pipproxy.jpg)
+
+网络环境问题. 先检查电脑能不能上网
+
+* 如果能上网，可能是所在网络没有开放访问pip源站点的端口或者地址
+* 如果网络没有问题，可能是电脑配置了网络代理，如浏览器中配置了代理，关闭代理即可：参考 https://www.h3399.cn/202102/793670.html2 
 
 ## Jupyter nbextensions does not work as of jan 2021 update notebook
 
