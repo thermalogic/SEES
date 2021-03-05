@@ -40,8 +40,12 @@ pip安装提示异常：
 https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/issues/128
 
 downgrade the notebook version
-
+```
 >pip install notebook==6.1.5
+```
+>**tips**: 
+>* Github是软件宝库，也是解决问题的好帮手。是软件就会有问题，对于托管在Github的项目，软件的问题会被社区参与者通过issue提出和讨论。
+>* 如果你使用的软件托管在Github, 遇到难以解决的问题时，可查看其Github仓库中的issue，也许问题答案就在那里。如果还是没有，你也可提出issue ，寻求帮助。
 
 ## Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败
 
@@ -64,10 +68,6 @@ downgrade the notebook version
 Change the (natural) language of the Notebook interface back to English #4158
 
    https://github.com/jupyter/notebook/issues/4158
-
-   >**tips**: 
-   >* Github是软件宝库，也是解决问题的好帮手。一般而言，是软件就会有问题，对于托管在Github的项目，软件的问题会被社区参与者通过issue提出和讨论。
-   >* 如果你使用的软件托管在Github, 遇到难以解决的问题时，看看其Github仓库中的issue，也许问题答案就在那里。如果还是没有，你也可提出issue ，寻求帮助。
 
 ##  print('{:>7.3f}'.format(h)输出运行错误
 
