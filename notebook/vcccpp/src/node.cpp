@@ -5,7 +5,7 @@
 
 #include "node.hpp"
 
-Node::Node(dictNode curdictnode)
+Node::Node(umapNode curdictnode)
 {
    desc = any_cast<const char *>(curdictnode["desc"]);
    id = any_cast<int>(curdictnode["id"]);

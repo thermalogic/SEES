@@ -19,7 +19,7 @@ typedef map<int, Node *> mapNode;
 
 int main()
 {
-    vector<dictNode> dictNodes = {
+    vector<umapNode> dictNodes = {
         {{"desc", "Evaporator to Compressor"},
          {"id", 1},
          {"p", NAN},

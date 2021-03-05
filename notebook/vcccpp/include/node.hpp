@@ -33,7 +33,7 @@ public:
   bool stateok;
 
   // methods
-  Node(dictNode curdictnode);
+  Node(umapNode curdictnode);
   ~Node();
 
   void tx();
