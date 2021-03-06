@@ -16,7 +16,7 @@
   - [Windows安全防护](#windows安全防护)
   - [module ‘unittest’hasn't the attribute of ‘TestCase’](#module-unittesthasnt-the-attribute-of-testcase)
   - [Windows环境下Jupyter notebook文件转换pdf失败](#windows环境下jupyter-notebook文件转换pdf失败)
-    - [ipynb件转换pdf](#ipynb件转换pdf)
+    - [ipynb文件转换为pdf](#ipynb文件转换为pdf)
       - [需要软件](#需要软件)
       - [ipynb转换为pdf](#ipynb转换为pdf)
         - [方法1：](#方法1)
@@ -160,9 +160,9 @@ Windows 10系统中的安全防护可以满足需要，无需安装其他各种 
 
 ## Windows环境下Jupyter notebook文件转换pdf失败
 
-Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件包.
+Jupyter notebook的ipynb文件转换为pdf，需要一些软件和软件包.
 
- 转换程序从MiKTex的远程仓库下载软件包时，可能会出现下载失败的问题，导致文档转换中断。
+转换程序从MiKTex的远程仓库下载软件包时，可能会出现下载失败的问题，导致文档转换中断。
 
 **解决方法**
 
@@ -181,7 +181,7 @@ Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件�
     ```
     ![MiKTex-local](./img/miktex-local.jpg)
  
-### ipynb件转换pdf
+### ipynb文件转换为pdf
 
 #### 需要软件
 
@@ -198,7 +198,7 @@ Jupyter notebook的ipynb文件可以转换为pdf，需要一些软件和软件�
 ##### 方法1：
 
 ```bash
->jupyter nbconvert  --to pdf  需要转换的ipynb文件名
+>jupyter nbconvert  --to pdf  `需要转换的ipynb文件名`
 ```
 
 ##### 方法2. 
