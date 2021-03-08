@@ -66,6 +66,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 * 3CA
 * 2BD
 
+  
 #### 有序列表
 
 有序列表：在文字前加序号符号1. 2. 3; 序号符号和文字之间加上 **一个空格**.
@@ -77,6 +78,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 1. 1AA
 2. 3CA
 3. 2BD
+
 
 ### 3.3 引用
 
@@ -130,9 +132,10 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 | 序号 |课程         | 学分 |
 | ---- |:----------:| ----:|
-| 1    |  工程热力学 | 4 |
-| 2    |  流体力学  | 3 |
-| 3    |  传热学    | 3 |
+| 1    |  工程热力学 | 4    |
+| 2    |  流体力学  | 3    |
+| 3    |  传热学    | 3    |
+| 4    |  hdhd      | hdhd |   
 
 ### 3.7 代码框
 
@@ -232,12 +235,16 @@ int main()
      ---
      >到这里，**Markdown**的基本语法就可以满足*日常*大部分文档要求了。
 
+
+
 ---
  >到这里，**Markdown**的基本语法就可以满足*日常*大部分文档要求了。
 
 ### 3.9 换行
 
+
 在Markdown中输入 **回车键** 进行换行，预览中 **起不到换行或者空行的作用**。
+
 如果需要换行，在需要的位置输入`<br/>`或者`两个空格+回车键`
 
 如：
@@ -260,8 +267,6 @@ int main()
 
 ## 参考
 
-* [CommonMark](http://commonmark.org/)
-* [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
 * [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
