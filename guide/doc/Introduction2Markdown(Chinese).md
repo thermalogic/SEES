@@ -16,7 +16,7 @@ Markdown的常用标记符号不超过十个，相对于其他复杂的标记语
 
 ## 2 Markdown编辑
 
-`纯文本`的「标记语言」文档，如Markdown、HTML,不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint，
+Markdown是`纯文本`的「标记语言」文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint，
 
 **文档` 撰写`、 `预览` 是分开的**
 
