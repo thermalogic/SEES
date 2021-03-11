@@ -2,7 +2,17 @@
 
 ## 1 简介
 
-Markdown是一种轻量级「标记语言」，目前被越来越多领域的人使用，是互联网上最流行的写作语言。
+Markdown是一种轻量级「标记语言」.
+
+Markdown文件是`纯文本`文档，不同于 `富媒体`文档，如Word、PowerPoint
+
+* 内容字符
+
+* 标志字符
+
+Markdown的`常用标记符号`不超过十个，相对于其他复杂的标记语言，如：HTML来说，Markdown十分轻量，学习成本很低。
+
+目前被越来越多领域的人使用，是互联网上最流行的写作语言。
 
 * `软件文档`主要形式
 
@@ -12,13 +22,11 @@ Markdown是一种轻量级「标记语言」，目前被越来越多领域的人
 
   * Github中最常见的Markdown文档是仓库中的README.md
 
-Markdown的常用标记符号不超过十个，相对于其他复杂的标记语言，如：HTML来说，Markdown十分轻量，学习成本很低。
-
 ## 2 Markdown编辑
 
-Markdown是`纯文本`的「标记语言」文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint，
+Markdown`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint
 
-**文档` 撰写`、 `预览` 是分开的**
+**Markdown文档` 撰写`、 `预览` 是分开的**
 
   ![](./img/vscode-markdown.jpg)
 
@@ -135,7 +143,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 | 1    |  工程热力学 | 4    |
 | 2    |  流体力学  | 3    |
 | 3    |  传热学    | 3    |
-| 4    |  hdhd      | hdhd |   
+
 
 ### 3.7 代码框
 
