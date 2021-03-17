@@ -114,6 +114,8 @@
 
 ## [LaTex Math](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-A-LaTex_Math.ipynb)
 
+## [Live_Interact_Plot](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-B-Live_Interact_Plot.ipynb)
+
 # 3 Class
 
 ## [Classes Object-Oriented Programming](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit3-1-Classes_Object-Oriented_Programming.ipynb)
