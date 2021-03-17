@@ -145,12 +145,6 @@ python -m pip install SomePackage==1.0.4     # specific version
 python -m pip install 'SomePackage>=1.0.4'     # minimum version
 ```
 
-The following command will install the latest version of a module and its dependencies from the Python Packaging Index:
-
-```bash
-python -m pip install SomePackage  
-```
-
 Install the  `multiple` modules at the one `pip install` command
 
 ```bash
