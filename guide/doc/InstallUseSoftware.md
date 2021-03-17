@@ -130,15 +130,28 @@ The Python Package Index(PyPI) is a repository of software for the Python progra
 
 * Installing Python Modules : https://docs.python.org/3/installing/
 
+pip is a command line program which can be run from the command prompt as follows in Windows:
+
+```
+python  -m pip <pip arguments>
+```
 **A.2.1 Install** 
+
+The most common scenario is to install from PyPI
+
+```python
+python -m pip install SomePackage            # latest version
+python -m pip install SomePackage==1.0.4     # specific version
+python -m pip install 'SomePackage>=1.0.4'     # minimum version
+```
 
 The following command will install the latest version of a module and its dependencies from the Python Packaging Index:
 
 ```bash
->python -m pip install SomePackage  
+python -m pip install SomePackage  
 ```
 
-Install the  multiple modules at the one `pip install` command
+Install the  `multiple` modules at the one `pip install` command
 
 ```bash
 >python -m pip install SomePackage1  SomePackage2 
