@@ -156,6 +156,10 @@
 
 ## [Refrigeration Cycle Using OOP](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-2-RefrigerationCycle_OOP.ipynb)
 
+## [Refrigeration Cycle JSON](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-A-RefrigerationCycle_json.ipynb)
+
+* json
+ 
 # 5 GCC and Make
 
 ## [GCC and MAKE](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-1-GCC_Make.ipynb)
