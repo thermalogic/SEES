@@ -41,6 +41,8 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I val
 
   * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
 
+  * 徐士良. 计算机软件技术基础（第四版）. 清华大学出版社，2016.4
+
 ## Contents
 
 1. **PySEE/HOME**
