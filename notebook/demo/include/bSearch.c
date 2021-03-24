@@ -1,5 +1,8 @@
+/* 
 
-/* Search an array for a key using Binary Search (BinarySearch.c) */
+Search an array for a key using Binary Search (bSearch.c)
+
+*/
 
 #include "bSearch.h"
 #include <stdio.h>

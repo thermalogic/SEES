@@ -1,4 +1,6 @@
-/* DoubleLinkedNode template class for double linked list (DoubleLinkedNode.h) */
+/* 
+  DoubleLinkedNode template class for double linked list (DoubleLinkedNode.h)
+*/
 #ifndef DOUBLE_LINKED_NODE_H
 #define DOUBLE_LINKED_NODE_H
  
