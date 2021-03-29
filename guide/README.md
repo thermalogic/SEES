@@ -15,8 +15,6 @@
 
 * [Ubuntu](./doc/Ubuntu-Python-CPP(Chinese).md)
 
-* [Introduction to Software Engineering](./doc/Introduction2SoftwareEngineering.md)
-
 * [问题及解决方法](./doc/Problem_Solution.md)
 
 * [参考资源](./doc/References.md)
