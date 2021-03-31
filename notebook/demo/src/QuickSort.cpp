@@ -11,27 +11,7 @@ void choosePivot(int a[], int left, int right);
 int partition(int a[], int left, int right);
 void print(const int a[], int left, int right);
  
-int main() {
-   // Test 1
-   const int SIZE_1 = 8;
-   int a1[SIZE_1] = {8, 4, 5, 3, 2, 9, 4, 1};
- 
-   print(a1, 0, SIZE_1 - 1);
-   cout << endl;
-   quickSort(a1, SIZE_1);
-   print(a1, 0, SIZE_1 - 1);
-   cout << endl << endl;
- 
-   // Test 2
-   const int SIZE_2 = 13;
-   int a2[SIZE_2] = {8, 4, 5, 3, 2, 9, 4, 1, 9, 1, 2, 4, 5};
- 
-   print(a2, 0, SIZE_2 - 1);
-   cout << endl;
-   quickSort(a2, SIZE_2);
-   print(a2, 0, SIZE_2 - 1);
-   cout << endl;
-}
+
  
 // Sort the given array of size
 void quickSort(int a[], int size) {
@@ -108,3 +88,18 @@ void print(const int a[], int left, int right) {
    }
    cout << "} ";
 }
+
+int main() {
+   // Test 1
+   const int SIZE_1 = 8;
+   int a1[SIZE_1] = {8, 4, 5, 3, 2, 9, 4, 1};
+ 
+   print(a1, 0, SIZE_1 - 1);
+   cout << endl;
+   cout <<"Sorting ..."<< endl;
+   quickSort(a1, SIZE_1);
+   print(a1, 0, SIZE_1 - 1);
+   cout << endl << endl;
+ 
+}  
+ 
