@@ -1,5 +1,6 @@
-#include"MaxHeap.h"
-// Max Heap implementation in C++
+// Min Heap implementation in C++
+#include"MinHeap.h"
+
 int main()
 {
     PriorityQueue pq;
@@ -44,3 +45,4 @@ int main()
     return 0;
 }
 
+Output:

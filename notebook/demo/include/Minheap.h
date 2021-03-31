@@ -1,14 +1,10 @@
-
-#ifndef MAXHEAP_H
-#define MAXHEAP_H
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
 using namespace std;
  
-// Data structure to store a max-heap node
+// Data structure to store a min-heap node
 class PriorityQueue
 {
 private:
@@ -40,24 +36,24 @@ private:
         int left = LEFT(i);
         int right = RIGHT(i);
  
-        int largest = i;
+        int smallest = i;
  
         // compare `A[i]` with its left and right child
-        // and find the largest value
-        if (left < size() && A[left] > A[i]) {
-            largest = left;
+        // and find the smallest value
+        if (left < size() && A[left] < A[i]) {
+            smallest = left;
         }
  
-        if (right < size() && A[right] > A[largest]) {
-            largest = right;
+        if (right < size() && A[right] < A[smallest]) {
+            smallest = right;
         }
  
-        // swap with a child having greater value and
+        // swap with a child having lesser value and
         // call heapify-down on the child
-        if (largest != i)
+        if (smallest != i)
         {
-            swap(A[i], A[largest]);
-            heapify_down(largest);
+            swap(A[i], A[smallest]);
+            heapify_down(smallest);
         }
     }
  
@@ -65,7 +61,7 @@ private:
     void heapify_up(int i)
     {
         // check if the node at index `i` and its parent violate the heap property
-        if (i && A[PARENT(i)] < A[i])
+        if (i && A[PARENT(i)] > A[i])
         {
             // swap the two if heap property is violated
             swap(A[i], A[PARENT(i)]);
@@ -97,7 +93,7 @@ public:
         heapify_up(index);
     }
  
-    // Function to remove an element with the highest priority (present at the root)
+    // Function to remove an element with the lowest priority (present at the root)
     void pop()
     {
         try {
@@ -122,7 +118,7 @@ public:
         }
     }
  
-    // Function to return an element with the highest priority (present at the root)
+    // Function to return an element with the lowest priority (present at the root)
     int top()
     {
         try {
@@ -143,4 +139,3 @@ public:
     }
 };
  
-#endif
