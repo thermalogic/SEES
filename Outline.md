@@ -171,21 +171,21 @@
    
 * C/C++ Preprocessor Directives, once-only headers 
    
-## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-2-C_stdio.ipynb)
- 
-* stdio.h: `scanf,printf`
-
-## [GCC Library](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-3-GCC_Library.ipynb)
+## [GCC Library](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-2-GCC_Library.ipynb)
 
 * Static and Shared Library
 
-## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-4-ctypes.ipynb)
+## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-3-ctypes.ipynb)
 
 * ctypes:  `__cdecl`,`cdll.LoadLibrary` 
 
 * arrays,function
 
-## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-A-ModernCPP.ipynb)
+## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-A-C_stdio.ipynb)
+ 
+* stdio.h: `scanf,printf`
+
+## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-B-ModernCPP.ipynb)
 
 * C++11 and above, std::tuple,std::vectors, std::unordered_map, std::any 
 
