@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
  
-void bubbleSort(int a[], int size);
+
 void print(const int a[], int size);
  
 

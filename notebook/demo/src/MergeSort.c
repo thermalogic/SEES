@@ -1,110 +1,102 @@
-/* 
- Sorting an array using Quick Sort (QuickSort.cpp) 
 
-*/
-#include <iostream>
-using namespace std;
+/* Sorting an array using Merge Sort (MergeSort.c) */
+#include <stdio.h>
+#include <stdlib.h>
  
-void quickSort(int a[], int size);
-void quickSort(int a[], int left, int right);
-void choosePivot(int a[], int left, int right);
-int partition(int a[], int left, int right);
-void print(const int a[], int left, int right);
+void mSort(int a[], int size);
+void mergeSort(int a[], int iLeft, int iRight, int work[]);
+void merge(int a[], int iLeftHalfLeft, int iLeftHalfRight,
+           int iRightHalfLeft, int iRightHalfRight, int work[]);
+void print(const int a[], int iLeft, int iRight);
+
+ 
+// Sort the given array of size
+void mSort(int a[], int size) {
+   int work[size];  // work space
+   mergeSort(a, 0, size - 1, work);
+}
+ 
+// Sort the given array in [iLeft, iRight]
+void mergeSort(int a[], int iLeft, int iRight, int work[]) {
+   if ((iRight - iLeft) >= 1) {   // more than 1 elements, divide and sort
+      // Divide into left and right half
+      int iLeftHalfLeft = iLeft;
+      int iLeftHalfRight = (iRight + iLeft) / 2;   // truncate
+      int iRightHalfLeft = iLeftHalfRight + 1;
+      int iRightHalfRight = iRight;
+ 
+      // Recursively sort each half
+      mergeSort(a, iLeftHalfLeft, iLeftHalfRight, work);
+      mergeSort(a, iRightHalfLeft, iRightHalfRight, work);
+ 
+      // Merge two halves
+      merge(a, iLeftHalfLeft, iLeftHalfRight, iRightHalfLeft, iRightHalfRight, work);
+   }
+}
+ 
+// Merge two halves in [iLeftHalfLeft, iLeftHalfRight] and [iRightHalfLeft, iRightHalfRight]
+// Assume that iLeftHalfRight + 1 = iRightHalfLeft
+void merge(int a[], int iLeftHalfLeft, int iLeftHalfRight,
+           int iRightHalfLeft, int iRightHalfRight, int work[]) {
+   int size = iRightHalfRight - iLeftHalfLeft + 1;
+   int iResult = 0;
+   int iLeft = iLeftHalfLeft;
+   int iRight = iRightHalfLeft;
+   while (iLeft <= iLeftHalfRight && iRight <= iRightHalfRight) {
+      if (a[iLeft] <= a[iRight]) {
+         work[iResult++] = a[iLeft++];
+      } else {
+         work[iResult++] = a[iRight++];
+      }
+   }
+   // Copy the remaining left or right into work
+   while (iLeft <= iLeftHalfRight) work[iResult++] = a[iLeft++];
+   while (iRight <= iRightHalfRight) work[iResult++] = a[iRight++];
+ 
+   // for tracing
+   print(a, iLeftHalfLeft, iLeftHalfRight);
+   print(a, iRightHalfLeft, iRightHalfRight);
+   printf("=> ");
+   print(work, 0, size - 1);
+   printf("\n");
+ 
+   // Copy the work back to the original array
+   for (iResult = 0, iLeft = iLeftHalfLeft; iResult < size; ++iResult, ++iLeft) {
+      a[iLeft] = work[iResult];
+   }
+}
+ 
+// Print the contents of the given array from iLeft to iRight (inclusive)
+void print(const int a[], int iLeft, int iRight) {
+   printf("{");
+   for (int i = iLeft; i <= iRight; ++i) {
+      printf("%d", a[i]);
+      if (i < iRight) printf(",");
+   }
+   printf("} ");
+}
+
  
 int main() {
    // Test 1
    const int SIZE_1 = 8;
-   int a1[SIZE_1] = {8, 4, 5, 3, 2, 9, 4, 1};
+   int a1[8] = {8, 4, 5, 3, 2, 9, 4, 1};
  
    print(a1, 0, SIZE_1 - 1);
-   cout << endl;
-   quickSort(a1, SIZE_1);
+   printf("\n");
+   mSort(a1, SIZE_1);
    print(a1, 0, SIZE_1 - 1);
-   cout << endl << endl;
+   printf("\n \n");
  
    // Test 2
    const int SIZE_2 = 13;
-   int a2[SIZE_2] = {8, 4, 5, 3, 2, 9, 4, 1, 9, 1, 2, 4, 5};
+   int a2[13] = {8, 4, 5, 3, 2, 9, 4, 1, 9, 1, 2, 4, 5};
  
    print(a2, 0, SIZE_2 - 1);
-   cout << endl;
-   quickSort(a2, SIZE_2);
+   printf("\n");
+   mSort(a2, SIZE_2);
    print(a2, 0, SIZE_2 - 1);
-   cout << endl;
-}
- 
-// Sort the given array of size
-void quickSort(int a[], int size) {
-   quickSort(a, 0, size - 1);
-}
- 
-// Sort the given array in [left, right]
-void quickSort(int a[], int left, int right) {
-   if ((right - left) >= 1) {   // more than 1 elements, need to sort
-      choosePivot(a, left, right);
-      int pivotIndex = partition(a, left, right);
-      quickSort(a, left, pivotIndex -  1);
-      quickSort(a, pivotIndex + 1, right);
-   }
-}
- 
-// Choose a pivot element and swap with the right
-void choosePivot(int a[], int left, int right) {
-   int pivotIndex = (right + left) / 2;
-   int temp;
-   temp = a[pivotIndex];
-   a[pivotIndex] = a[right];
-   a[right] = temp;
-}
- 
-// Partition the array [left, right] with pivot initially on the right.
-// Return the index of the pivot after partition, all elements to the
-// left of pivot are smaller; while to the right are larger.
-int partition(int a[], int left, int right) {
-   int pivot = a[right];
-   int temp;  // for swapping
-   int storeIndex = left;
-      // Start the storeIndex from left, swap elements smaller than
-      //  pivot into storeIndex and increase the storeIndex.
-      // At the end of the pass, all elements up to storeIndex are
-      //  smaller than pivot.
-   for (int i = left; i < right; ++i) {  // exclude pivot
-      if (a[i] < pivot) {
-         // for tracing
-         print(a, left, right);
- 
-         if (i != storeIndex) {
-            temp = a[i];
-            a[i] = a[storeIndex];
-            a[storeIndex] = temp;
-         }
-         ++storeIndex;
- 
-         // for tracing
-         cout << "=> ";
-         print(a, left, right);
-         cout << endl;
-      }
-   }
-   // Swap pivot and storeIndex
-   a[right] = a[storeIndex];
-   a[storeIndex] = pivot;
- 
-   // for tracing
-   print(a, left, storeIndex - 1);
-   cout << "{" << a[storeIndex] << "} ";
-   print(a, storeIndex + 1, right);
-   cout << endl;
- 
-   return storeIndex;
-}
- 
-// Print the contents of the given array from left to right (inclusive)
-void print(const int a[], int left, int right) {
-   cout << "{";
-   for (int i = left; i <= right; ++i) {
-      cout << a[i];
-      if (i < right) cout << ",";
-   }
-   cout << "} ";
+   printf("\n \n");
+    
+   return 0;
 }

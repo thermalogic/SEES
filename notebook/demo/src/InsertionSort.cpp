@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void insertionSort(int a[], int size);
+
 void print(const int a[], int iMin, int iMax);
 
 // Sort the given array of size using insertion sort
