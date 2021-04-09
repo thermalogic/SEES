@@ -11,7 +11,7 @@ void max_heapify(int arr[], int n, int i)
     if (l < n && arr[l] > arr[largest]) 
         largest = l; 
   
-    // I如果 right 比 root 大的话
+    // 如果 right 比 root 大的话
     if (r < n && arr[r] > arr[largest]) 
         largest = r; 
     
