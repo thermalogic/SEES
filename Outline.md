@@ -175,12 +175,6 @@
 
 * Static and Shared Library
 
-## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-3-ctypes.ipynb)
-
-* ctypes:  `__cdecl`,`cdll.LoadLibrary` 
-
-* arrays,function
-
 ## [GCC: C stdio](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-A-C_stdio.ipynb)
  
 * stdio.h: `scanf,printf`
@@ -188,6 +182,12 @@
 ## [Modern C++](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-B-ModernCPP.ipynb)
 
 * C++11 and above, std::tuple,std::vectors, std::unordered_map, std::any 
+
+## [ctypes](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit5-C-ctypes.ipynb)
+
+* ctypes:  `__cdecl`,`cdll.LoadLibrary` 
+
+* arrays,function
 
 # 6  Version Control：Git
 
