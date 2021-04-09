@@ -10,8 +10,8 @@ The branch **B2021** is intended to train **students in Building Environment and
 We will cover:
 
 * [Python](https://www.python.org/)
-* using [Numpy, Scipy, Matplotlib](https://www.scipy.org/) to model and understand data
-* apply [Computational thinking](http://scratched.gse.harvard.edu/ct/defining.html) to model and solve the complex problems
+* using [SciPy](https://www.scipy.org/) to model and understand data
+* model and solve the complex problems
 * using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
