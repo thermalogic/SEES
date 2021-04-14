@@ -11,7 +11,9 @@ We will cover:
 
 * [Python](https://www.python.org/)
 * use [computational tools](https://www.scipy.org/) to model and understand data
-* apply abstraction and decomposition to solve the complex problems with a set of data structure and algorithmic
+* apply abstraction and decomposition to solve the complex problems 
+* a set of data structure and algorithmic
+* the software development paradigms and the good practices
 * build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
