@@ -1,7 +1,7 @@
 
 #include <stdio.h> 
 #include "statistics.h"
-#include "funs.h"
+#include "number.h"
 
 int main() {
     

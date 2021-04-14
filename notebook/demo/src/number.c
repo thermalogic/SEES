@@ -1,5 +1,5 @@
 
-#include "funs.h"
+#include "number.h"
 
 // The factorial of a positive integer n, denoted by n!, 
 //    is the product of all positive integers less than or equal to n. 

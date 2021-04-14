@@ -10,9 +10,9 @@ The branch **B2021** is intended to train **students in Building Environment and
 We will cover:
 
 * [Python](https://www.python.org/)
-* using [SciPy](https://www.scipy.org/) to model and understand data
-* model and solve the complex problems
-* using [GCC and Make](https://gcc.gnu.org/) to build C/C++ applications
+* use [computational tools](https://www.scipy.org/) to model and understand data
+* apply abstraction and decomposition to solve the complex problems with a set of data structure and algorithmic
+* build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
 
@@ -25,7 +25,6 @@ We highly recommend you practice coding whenever you have a few minutes.
 * **行是知之始，知是行之成 - 陶行知**
 
 * **项目驱动，边做边学**
-
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
 

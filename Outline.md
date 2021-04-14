@@ -98,8 +98,6 @@
 
 ## [Understanding Examperimental Data](https://nbviewer.ipython.org/github/PySEE/home/blob/B2021/notebook/Unit2-2-Understanding_Experimental_Data.ipynb)
 
-* The Behavior of Springs
-   
 * NumPy: polyfit
 
 * The Behavior of Projectiles, Coefficient of Determination
@@ -113,10 +111,6 @@
  * **It’s just as easy to `lie with numbers` as it is to lie with words**
 
 ## [LaTex Math](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-A-LaTex_Math.ipynb)
-
-## [Live_Interact_Plot](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit2-B-Live_Interact_Plot.ipynb)
-
-* Queue in Python
 
 # 3 Class
 
