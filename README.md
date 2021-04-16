@@ -10,15 +10,11 @@ The branch **B2021** is intended to train **students in Building Environment and
 We will cover:
 
 * [Python](https://www.python.org/)
-* use [computational tools](https://www.scipy.org/) to model and understand data
-* apply abstraction and decomposition to solve the complex problems 
 * a set of data structure and algorithmic
-* the software development paradigms and the good practices
+* the software development paradigms and good practices
 * build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
-
-We emphasize breadth rather than depth on these topics. The goal is to provide you with a brief introduction to more essential topics of computer knowledge and keep pace with the latest developments in computer technology.
 
 [Practices](https://github.com/PySEE/Practices/) are the very important part of the course. 
 
@@ -76,7 +72,7 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
    Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows). This will open a web page in your browser with a list of the available notebooks.
 
->We **recommend** that you use [git](https://git-scm.com/) to clone and update the home repository
+>We **recommend** that you use [git](https://git-scm.com/) to clone and update the repository
 >
 >**Cloning the B2021 branch of repository shallowly for saving bandwidth**
 >
