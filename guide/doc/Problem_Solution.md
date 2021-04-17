@@ -4,12 +4,12 @@
 
 - [Problem and Solution](#problem-and-solution)
   - [VS Code中makefile报错分隔符](#vs-code中makefile报错分隔符)
+  - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
+  - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
   - [pip安装提示cannot connect to proxy](#pip安装提示cannot-connect-to-proxy)
   - [Jupyter nbextensions does not work as of jan 2021 update notebook](#jupyter-nbextensions-does-not-work-as-of-jan-2021-update-notebook)
   - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
   - [中文Windows10环境下，在VS Codo的PowerShell终端启动Jupyter Notebook后，用户界面为中文](#中文windows10环境下在vs-codo的powershell终端启动jupyter-notebook后用户界面为中文)
-  - [print('{:>7.3f}'.format(h)输出运行错误](#print73fformath输出运行错误)
-  - [报没有错误语句的“SyntaxError"](#报没有错误语句的syntaxerror)
   - [pip安装时,提示Permission denied](#pip安装时提示permission-denied)
   - [Windows下，MinGW-W64编译UTF-8编码的C++源码，生成的运行文件向终端输出中文乱码](#windows下mingw-w64编译utf-8编码的c源码生成的运行文件向终端输出中文乱码)
   - [Jupyter软件包安装中断后，再次安装中使用cache造成安装过程停滞](#jupyter软件包安装中断后再次安装中使用cache造成安装过程停滞)
@@ -43,6 +43,34 @@ VS Code中makefile报错分隔符
 或者：
 
 click the `Space: 4` on the downright corner and change it to `tab` when editing your Makefile.
+
+## print('{:>7.3f}'.format(h)输出运行错误
+
+`print(str.format)`,输出时，会根据str给出的格式，将变量先转换为对应数据类型，再按照格式要求输出
+
+如：`print('{:>6.3f}'.format(h)`，即： `float(h) -> print`, 如果变量不能转换为对应类型，就会输出运行错误.
+
+**修改**
+
+ 数据类型转换异常时，不使用str.format方式输出
+
+```python
+try:
+    print('{:>7.3f}'.format(h))
+except:
+    print(h)
+```
+## 报没有错误语句的“SyntaxError"
+
+![syntaxerror](./img/syntaxerror.jpg)
+
+**很常见的情况**： 前一句错误，报下面没有错误语言的:`SyntaxError`
+
+因为，Python解释器认为前面一句还没有结束，将前面语言和当前被报错语言作为一个`多行`语句解析，所以，报错在解释器认为的多行语句结束行处 。
+
+>如上图的`（）`配对错误, 报下面的语句 ```Cycle['bwr']=...``` 错误。 Python语言`（）`中可以多行语言。
+
+**改错：** 检查被报错误语句的前面语言，存在什么错误：使得解释器认为前面语言没有结束，是`多行`语句.  
 
 ## pip安装提示cannot connect to proxy
 
@@ -88,35 +116,6 @@ downgrade the notebook version
 Change the (natural) language of the Notebook interface back to English #4158
 
    https://github.com/jupyter/notebook/issues/4158
-
-##  print('{:>7.3f}'.format(h)输出运行错误
-
-`print(str.format)`,输出时，会根据str给出的格式，将变量先转换为对应数据类型，再按照格式要求输出
-
-如：`print('{:>6.3f}'.format(h)`，即： `float(h) -> print`, 如果变量不能转换为对应类型，就会输出运行错误.
-
-**修改**
-
- 数据类型转换异常时，不使用str.format方式输出
-
-```python
-try:
-    print('{:>7.3f}'.format(h))
-except:
-    print(h)
-```
-
-## 报没有错误语句的“SyntaxError"
-
-![syntaxerror](./img/syntaxerror.jpg)
-
-**很常见的情况**： 前一句错误，报下面没有错误语言的:`SyntaxError`
-
-因为，Python解释器认为前面一句还没有结束，将前面语言和当前被报错语言作为一个`多行`语句解析，所以，报错在解释器认为的多行语句结束行处 。
-
->如上图的`（）`配对错误, 报下面的语句 ```Cycle['bwr']=...``` 错误。 Python语言`（）`中可以多行语言。
-
-**改错：** 检查被报错误语句的前面语言，存在什么错误：使得解释器认为前面语言没有结束，是`多行`语句.  
 
 ## pip安装时,提示Permission denied
 
