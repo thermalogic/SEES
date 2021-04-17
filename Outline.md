@@ -120,8 +120,6 @@
 
 * Class, Inheritance
 
-* Encapsulation and Information Hiding, Invisible `__name`
-
 ## [Exception  Assertion](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit3-2-Exception_Assertion.ipynb)
 
 * Built-In Exception, `try: except` `try:-except-else-finally`
@@ -134,13 +132,6 @@
 
 *  `assert` statement
 
-## [Iterator Generator](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit3-A-Iterator_Generator.ipynb)
-
-*  Iterator; `iter`, `__next__`
-
-*  Generator：`yield`
-
-* `%%timeit`
 # 4 Refrigeration Cycle
 
 ## [Refrigeration Cycle](https://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/Unit4-1-RefrigerationCycle.ipynb)
