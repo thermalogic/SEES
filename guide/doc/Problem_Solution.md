@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Problem and Solution](#problem-and-solution)
+  - [VS Code中makefile报错分隔符](#vs-code中makefile报错分隔符)
   - [pip安装提示cannot connect to proxy](#pip安装提示cannot-connect-to-proxy)
   - [Jupyter nbextensions does not work as of jan 2021 update notebook](#jupyter-nbextensions-does-not-work-as-of-jan-2021-update-notebook)
   - [Python解释器`Advanced Options`中选择预编译标准库等时，安装过程很慢或失败](#python解释器advanced-options中选择预编译标准库等时安装过程很慢或失败)
@@ -23,6 +24,22 @@
         - [方法2.](#方法2)
 
 <!-- /TOC -->
+
+## VS Code中makefile报错分隔符
+
+VS Code中makefile报错分隔符
+```
+*** missing separator.  Stop.
+```
+
+原因：vscode默认tab键是4个空格，导致make的时候没法识别
+
+解决方法： setting选项里,
+
+1. 搜索`renderControlCharacters`，`勾`选选项
+
+2. 然后`renderWhitespace`，选成`all`
+
 
 ## pip安装提示cannot connect to proxy
 

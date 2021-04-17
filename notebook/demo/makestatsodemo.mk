@@ -11,3 +11,8 @@ statdemoso: statobj
 
 statobj: $(SRC)statdemo.c 
 	gcc -c -o $(OBJ)statdemo.o $(SRC)statdemo.c -I$(INC)
+    
+run:
+	./bin/statdemoso
+    
+    
