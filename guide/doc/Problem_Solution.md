@@ -40,6 +40,9 @@ VS Code中makefile报错分隔符
 
 2. 然后`renderWhitespace`，选成`all`
 
+或者：
+
+click the `Space: 4` on the downright corner and change it to `tab` when editing your Makefile.
 
 ## pip安装提示cannot connect to proxy
 
