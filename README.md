@@ -10,8 +10,8 @@ The branch **B2021** is intended to train **students in Building Environment and
 We will cover:
 
 * [Python](https://www.python.org/)
-* a set of data structure and algorithmic
-* the programming paradigms and good practices
+* apply abstraction and decomposition to solve the complex problems 
+* a useful set of algorithmic and data structure
 * build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
