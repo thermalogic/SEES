@@ -11,7 +11,7 @@ We will cover:
 
 * [Python](https://www.python.org/)
 * a set of data structure and algorithmic
-* the software development paradigms and good practices
+* the programming paradigms and good practices
 * build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
 * version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
