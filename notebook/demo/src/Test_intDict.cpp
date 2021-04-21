@@ -5,7 +5,7 @@ using namespace std;
 
 class HashTable{
 private:
-  list<int> *table;
+  list<int> *table; // 
   int total_elements;
 
   // Hash function to calculate hash for a value:
