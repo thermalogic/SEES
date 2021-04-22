@@ -1,7 +1,7 @@
 TagID,Tag,Desc,Unit,Value
 108600,CompressorIPortM,压缩机入口流量,kg/s,0.08
 108616,CompressorOPortP,压缩机出口压力,MPa,0.6854
-108614,CompressorOPortT,压缩机出口温度,°C,29.27
+108613,CompressorOPortT,压缩机出口温度,°C,29.27
 108714,CondenserOPortT,冷凝器出口温度,°C,26
 108708,CondenserOPortX,冷凝器出口干度,-,0
 108814,ExpansionValveOPortT,膨胀阀出口温度,°C,26
