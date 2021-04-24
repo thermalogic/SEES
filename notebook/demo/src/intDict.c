@@ -97,4 +97,3 @@ int getValue(Hashtable *hTable, int key)
 		return p->value;
 	}
 }
-
