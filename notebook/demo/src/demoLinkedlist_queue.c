@@ -10,18 +10,18 @@ typedef struct _node
 void push(node **head, node **tail, int val)
 /*Adding an item to the end of the list*/
 {
-	node *new_node = (node *)malloc(sizeof(node));
+	node *new_node  = (node *)malloc(sizeof(node));
 	new_node->val = val;
 	new_node->next = NULL;
 	if (*head == NULL)
 	{
 		*head = new_node;
-		*tail = new_node;
+        *tail=new_node;
 	}
 	else
 	{
-		(*tail)->next = new_node;
-	}
+        (*tail)->next = new_node;
+    }		
 }
 
 void print_list(node *head)
@@ -37,9 +37,9 @@ void print_list(node *head)
 int main()
 {
 	node *test_list = NULL;
-	node *tail = NULL;
+    node *tail = NULL;
 
-	push(&test_list, &tail, 8);
-	push(&test_list, &tail, 88);
-	print_list(test_list);
+    push(&test_list, &tail, 8);
+    push(&test_list, &tail,88);
+    print_list(test_list);
 }

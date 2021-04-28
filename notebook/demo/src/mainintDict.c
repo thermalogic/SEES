@@ -6,7 +6,7 @@
 int main()
 {
 	int numBuckets = 5;
-	int numEntries = 20;
+	int numEntries = 10;
 	Hashtable *hTable;
 	int *key;
 	int *value;
