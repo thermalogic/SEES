@@ -23,13 +23,15 @@ int main() {
    lst1.popBack(result)
       ? cout << "value is " << result << ", list is " << lst1 << endl
       : cout << "empty list" << endl;
+  
    lst1.popFront(result)
       ? cout << "value is " << result << ", list is " << lst1 << endl
       : cout << "empty list" << endl;
    lst1.popFront(result)
       ? cout << "value is " << result << ", list is " << lst1 << endl
       : cout << "empty list" << endl;
-   lst1.popBack(result)
+   
+    lst1.popBack(result)
       ? cout << "value is " << result << ", list is " << lst1 << endl
       : cout << "empty list" << endl;
 }

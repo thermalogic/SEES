@@ -1,25 +1,22 @@
-/* 
-   Node template class for binary tree (Node.h)
-*/
 #ifndef NODE_H
 #define NODE_H
- 
-template <typename T> class BinaryTree; // Forward reference
- 
+
 template <typename T>
-class Node {
+class List; // Forward reference
+
+template <typename T>
+class Node
+{
 private:
    T data;
-   Node * rightPtr;
-   Node * leftPtr;
+   Node *nextPtr;
+
 public:
-   Node (T d) : data(d), rightPtr(0), leftPtr(0) { };
-   T getData() const { return data; };
-   Node * getRightPtr() const { return rightPtr; }
-   Node * getLeftPtr() const  { return leftPtr;  }
- 
-friend class BinaryTree<T>;
-   // Make BinaryTree class a friend to access private data
+   Node(T d) : data(d), nextPtr(0){};           // Constructor
+   T getData() const { return data; };          // Public getter for data
+   Node *getNextPtr() const { return nextPtr; } // Public getter for nextPtr
+
+   friend class List<T>; // Make List class a friend to access private data
 };
- 
+
 #endif

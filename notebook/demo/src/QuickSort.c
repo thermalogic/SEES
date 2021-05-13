@@ -1,28 +1,28 @@
 /* 
- Sorting an array using Quick Sort (QuickSort.cpp) 
+ Sorting an array using Quick Sort (QuickSort.c) 
 
 */
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
  
 void quickSort(int a[], int size);
-void quickSort(int a[], int left, int right);
+void quick_Sort(int a[], int left, int right);
 void choosePivot(int a[], int left, int right);
 int partition(int a[], int left, int right);
 void print(const int a[], int left, int right);
  
 // Sort the given array of size
 void quickSort(int a[], int size) {
-   quickSort(a, 0, size - 1);
+   quick_Sort(a, 0, size - 1);
 }
  
 // Sort the given array in [left, right]
-void quickSort(int a[], int left, int right) {
+void quick_Sort(int a[], int left, int right) {
    if ((right - left) >= 1) {   // more than 1 elements, need to sort
       choosePivot(a, left, right);
       int pivotIndex = partition(a, left, right);
-      quickSort(a, left, pivotIndex -  1);
-      quickSort(a, pivotIndex + 1, right);
+      quick_Sort(a, left, pivotIndex -  1);
+      quick_Sort(a, pivotIndex + 1, right);
    }
 }
  
@@ -89,7 +89,7 @@ void print(const int a[], int left, int right) {
 
 int main() {
    const int SIZE = 8;
-   int a[SIZE] = {49, 38,65, 97,76, 13, 27,49};
+   int a[8] = {49,38,65, 97,76, 13, 27,49};
  
    print(a, 0, SIZE - 1);
    printf("\n");

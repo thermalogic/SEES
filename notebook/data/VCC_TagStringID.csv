@@ -1,0 +1,10 @@
+Tag,Desc,Unit,Value
+CompressorIPortM,压缩机入口流量,kg/s,0.08
+CompressorOPortP,压缩机出口压力,MPa,0.6854
+CompressorOPortT,压缩机出口温度,°C,29.27
+CondenserOPortT,冷凝器出口温度,°C,26
+CondenserOPortX,冷凝器出口干度,-,0
+ExpansionValveOPortT,膨胀阀出口温度,°C,26
+ExpansionValveOPortX,膨胀阀出口干度,°C,0
+EvaporatorValveOPortT,蒸发器出口温度,°C,0
+EvaporatorValveOPortX,蒸发器出口干度,-,1

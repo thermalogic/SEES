@@ -1,5 +1,6 @@
 # makefile for the hello
 all: helloexe
+	./bin/hello
     
 helloexe: helloobj
 	 gcc -o ./bin/hello ./obj/hello.o

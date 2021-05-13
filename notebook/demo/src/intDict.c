@@ -44,13 +44,13 @@ void *freeHash(Hashtable *hTable)
 	free(hTable);
 }
 
-// hash function for int keys
+// hash function for int key
 int inthash(int key, int numBuckets)
 {
 	return key % numBuckets;
 }
 
-// Lookup  by int key
+// Lookup by int key
 Node *searchEntry(Hashtable *hTable, int key)
 {
 	Node *p;
@@ -64,7 +64,7 @@ Node *searchEntry(Hashtable *hTable, int key)
 }
 
 // Add Entry to table - keyed by int
-void addEntry(Hashtable *hTable, int key, int value)
+void addEntry(Hashtable *hTable, int key, char value)
 {
 	int addr;
 	Node *p, *entry;
@@ -87,8 +87,8 @@ void addEntry(Hashtable *hTable, int key, int value)
 	}
 }
 
-// Get by int
-int getValue(Hashtable *hTable, int key)
+// Get by int key
+char getValue(Hashtable *hTable, int key)
 {
 	Node *p;
 	p = searchEntry(hTable, key);
