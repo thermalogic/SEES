@@ -1,5 +1,5 @@
 /* 
-The example use the shared library of CoolProp in c
+The example use the shared library of CoolProp in c++
 
 g++ -DCOOLPROP_LIB -o ./bin/demo  demo.cpp -I./include -L./bin -lCoolProp
 

@@ -1,6 +1,6 @@
 BIN=./bin/
 INC=./include/
-MAIN_FILE=mainso.c
+MAIN_FILE=main.c
 SONAME=libCoolProp.so.6
 REAL_NAME=libCoolProp.so.6.4.1
 LINKER_NAME=libCoolProp.so
