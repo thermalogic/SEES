@@ -34,8 +34,8 @@
     - [8.1 克隆远程仓库到本地](#81-克隆远程仓库到本地)
     - [8.2 获取远程更新](#82-获取远程更新)
   - [9 Git GUI客户端](#9-git-gui客户端)
-    - [9.2 it Version Control in VS Code](#92-it-version-control-in-vs-code)
-    - [9.1 Git GUI](#91-git-gui)
+    - [9.1 Version Control in VS Code](#91-version-control-in-vs-code)
+    - [9.2 Git GUI](#92-git-gui)
   - [参考：](#参考)
 
 <!-- /TOC -->
@@ -206,11 +206,11 @@ git pull
 
 ## 9 Git GUI客户端
 
-### 9.2 it Version Control in VS Code
+### 9.1 Version Control in VS Code
 
 ![](./img/vscode-git.jpg)
 
-### 9.1 Git GUI
+### 9.2 Git GUI
 
 在使用git的项目目录中打开终端，执行
 
