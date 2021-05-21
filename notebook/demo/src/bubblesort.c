@@ -7,29 +7,30 @@ void bubbleSort(int a[], int size);
 void print(const int a[], int size);
 
 // Sort the given array of size
-void bubbleSort(int a[], int size) {
+void bubbleSort(int a[], int size) 
+{
    bool done = false; // terminate if no more swap thru a pass
-   int pass = 0;      // pass number, for tracing
    int temp;          // use for swapping
  
-   while (!done) {
-      printf("PASS %d ...\n ",++pass);
-      done = true;
-      // Pass thru the list, compare adjacent items and swap
-      // them if they are in wrong order
-      for (int i = 0; i < size - 1; ++i) {
-         if (a[i] > a[i+1]) {
-            print(a, size); // for tracing
-            temp = a[i];
-            a[i] = a[i+1];
-            a[i+1] = temp;
-            done = false;   // swap detected, one more pass
-            printf("=> ");  // for tracing
-            print(a, size);
-            printf("\n");
-         }
-      }
-   }
+    for (int i = 1; i < size; i++)
+    {   printf("PASS %d ...\n ",i);
+        done = true;
+        for (int j = 0; j < size - i; j++)
+        {
+            if (a[j] > a[j + 1])
+            {
+                print(a, size); // for tracing
+                temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+                done = false; // swap detected, one more pass
+                printf("=> ");  // for tracing
+                print(a, size);
+                printf("\n");
+            }
+        }
+        if (done)  break;
+    }
 }
  
 // Print the contents of the given array of size
