@@ -11,9 +11,9 @@
 
 * [The Simple Guide to Github](./doc/TheSimpleStepsGithub(Chinese).md) 
 
-* [The Guide to WSL](./doc/GuideWSL(Chinese).md) 
+* [安装WSL](./doc/GuideWSL(Chinese).md) 
 
-* [Ubuntu](./doc/Ubuntu-Python-CPP(Chinese).md)
+* [Window环境下Ubuntu系统安装及开发环境建立](./doc/Ubuntu-Python-CPP(Chinese).md)
 
 * [问题及解决方法](./doc/Problem_Solution.md)
 
