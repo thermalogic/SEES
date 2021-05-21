@@ -1,8 +1,8 @@
 /* 
-  Sorting an array using Insertion Sort (InsertionSort.cpp) 
+  Sorting an array using Insertion Sort (InsertionSort.c) 
 */
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
 void insertionSort(int a[], int size);
 void print(const int a[], int iMin, int iMax);
@@ -16,7 +16,7 @@ void insertionSort(int a[], int size)
       // for tracing
       print(a, 0, i - 1);    // already sorted
       print(a, i, size - 1); // to be sorted
-      cout << endl;
+      printf("\n");
 
       // For element at i, insert into proper position in [0, i-1]
       //  which is already sorted.
@@ -39,26 +39,24 @@ void insertionSort(int a[], int size)
 }
 
 // Print the contents of the array in [iMin, iMax]
-void print(const int a[], int iMin, int iMax)
-{
-   cout << "{";
-   for (int i = iMin; i <= iMax; ++i)
-   {
-      cout << a[i];
-      if (i < iMax)
-         cout << ",";
+void print(const int a[], int iMin, int iMax) {
+   printf("{");
+   for (int i = iMin; i <= iMax; ++i) {
+      printf("%d", a[i]);
+      if (i < iMax) printf(",");
    }
-   cout << "} ";
+   printf("} ");
 }
+
 
 int main()
 {
    const int SIZE = 8;
-   int a[SIZE] = {4, 3, 2, 10, 12, 1, 5, 6};
+   int a[] = {4, 3, 2, 10, 12, 1, 5, 6};
 
    print(a, 0, SIZE - 1);
-   cout << endl;
+   printf("\n");
    insertionSort(a, SIZE);
    print(a, 0, SIZE - 1);
-   cout << endl;
+   printf("\n");
 }

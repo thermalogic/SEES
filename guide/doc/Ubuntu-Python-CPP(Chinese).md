@@ -10,9 +10,9 @@
 
 ## 二、 准备Ubuntu安装U盘
 
-* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntu 18.04.2 LTS
+* 从Ubuntu官网 https://www.ubuntu.com/download/desktop 下载**偶数年**的长期技术支持LTS版,如：Ubuntu 20.04.2 LTS
 
-  Torrent下载： http://releases.ubuntu.com/18.04.2/ubuntu-18.04.2-desktop-amd64.iso.torrent
+  Torrent下载： http://releases.ubuntu.com/20.04.2/ubuntu-20.04.2.0-desktop-amd64.iso.torrent
 
 * 从 http://rufus.akeo.ie/  下载rufus，用rufus制作可启动的Ubuntu系统安装U盘
 
@@ -36,13 +36,13 @@
 
 * 4 Installation type（安装类型）
 
-  选择 `something else` (安装类型一定选择为 **`something else`**)
+  选择 `something else` (注意：**务必** 选择安装类型 为 **`something else`**，以便自定义分区)
 
    ![bionic-type](./img/bionic-type.jpg)
 
 * 5 Create Partition（建立分区） 
 
-   在 **`空闲空间（freespace)`** 中定义Ubuntu系统的分区（partition)和挂载点(Mount point)。
+   在 **`空闲空间（freespace)`** 中定义Ubuntu系统的分区(partition)和挂载点(Mount point)。
 
     * **注意**：一定要确定使用的是Windows的`空闲空间（freespace)`，不要破坏Windows系统及其用户使用的空间.
 
@@ -129,7 +129,6 @@ $sudo timedatectl set-local-rtc 1
 >* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
 
 
-
 ## 四、开发环境
 
 ### 4.1 Version Control: Git
@@ -140,7 +139,7 @@ $sudo apt install git
 
 ### 4.2 GCC编译器
 
-Ubuntu 18.04 LTS内置GCC编译器，无需安装.
+Ubuntu内置GCC编译器，无需安装.
 
 部分Debian/Ubuntu发行版缺少GCC开发支持包，需补充安装：
 
@@ -157,18 +156,16 @@ $sudo apt install  gcc-multilib  g++-multilib
 ```
 ### 4.3 Python3 and Tools
 
-Ubuntu 18.04 LTS内置Python3. 但不完整，需补充: pip3、idle3。
+Ubuntu内置Python3解释器. 但不完整，需补充包安装工具: pip3
 
 ```bash
 $sudo apt install python3-pip
 $sudo -H python3 -m  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
-$sudo apt install idle3
 ```
 目前，Ubuntu系统中同时有Python2和Python3两个版本的解释器。Python3版本的相关命令都加3，如：
 
 ```bash
 $python3 
-$idle3
 $pip3
 ```
 ### 4.4 Analytics & Scientific Computing Python Packages
@@ -335,4 +332,4 @@ $sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 
 * Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
 
-* 优麒麟18.04(UbuntuKylin)简易安装手册 http://www.ubuntukylin.com/public/pdf/UK1804install.pdf
+* 优麒麟20.04(UbuntuKylin)简易安装手册 https://www.ubuntukylin.com/public/pdf/2004.pdff
