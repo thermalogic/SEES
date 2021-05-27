@@ -87,16 +87,7 @@ int main() {
    mSort(a1, SIZE_1);
    print(a1, 0, SIZE_1 - 1);
    printf("\n \n");
- 
-   // Test 2
-   const int SIZE_2 = 13;
-   int a2[13] = {8, 4, 5, 3, 2, 9, 4, 1, 9, 1, 2, 4, 5};
- 
-   print(a2, 0, SIZE_2 - 1);
-   printf("\n");
-   mSort(a2, SIZE_2);
-   print(a2, 0, SIZE_2 - 1);
-   printf("\n \n");
+
     
    return 0;
 }

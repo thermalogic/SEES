@@ -20,8 +20,7 @@ void selectionSort(int a[], int size)
       print(a, i, size - 1);
 
       // [0, i-1] already sort
-      // Search for the smallest element in [i, size-1]
-      //  and swap with a[i]
+      // Search for the smallest element in  remaining unsorted array [i, size-1] and swap with a[i]
       int minIndex = i; // assume fist element is the smallest
       for (int j = i + 1; j < size; ++j)
       {
