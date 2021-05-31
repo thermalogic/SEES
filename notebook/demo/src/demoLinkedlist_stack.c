@@ -31,5 +31,6 @@ int main()
 	node *test_list = NULL;
 	push(&test_list, 8);
 	push(&test_list, 88);
+    push(&test_list, 98);
 	print_list(test_list);
 }

@@ -21,6 +21,7 @@ void push(node **head, node **tail, int val)
 	else
 	{
         (*tail)->next = new_node;
+        *tail = new_node;
     }		
 }
 
@@ -41,5 +42,6 @@ int main()
 
     push(&test_list, &tail, 8);
     push(&test_list, &tail,88);
+    push(&test_list, &tail,98);
     print_list(test_list);
 }
