@@ -23,22 +23,22 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
     - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
       - [B.2.1 Start Jupyter Notebook in a specific folder with `batch` file](#b21-start-jupyter-notebook-in-a-specific-folder-with-batch-file)
       - [B.2.2 Create a new notebook document](#b22-create-a-new-notebook-document)
-    - [B.3 Using the Jupyter Notebook of PySEE/home](#b3-using-the-jupyter-notebook-of-pyseehome)
+    - [B.3 Using the Jupyter Notebook of thermalogic/SEES](#b3-using-the-jupyter-notebook-of-thermalogicsees)
   - [C:Install GCC for Windows：TDM-GCC](#cinstall-gcc-for-windowstdm-gcc)
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
       - [D.1.1 Install](#d11-install)
       - [D.1.2 Set the default type of a new file](#d12-set-the-default-type-of-a-new-file)
       - [D.1.3 Set Display Language](#d13-set-display-language)
-    - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
+    - [D.2 Install Extension: Python,C/C++ and Markdown](#d2-install-extension-pythoncc-and-markdown)
     - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
       - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
       - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
       - [D.3.3 Disable Precompiled header caching](#d33-disable-precompiled-header-caching)
   - [E: Using Git](#e-using-git)
     - [E.1 Install Git for Windows](#e1-install-git-for-windows)
-    - [E.2 Using Git with  PySEE/home](#e2-using-git-with--pyseehome)
-      - [E.2.1 Clone the PySEE/home to your computer](#e21-clone-the-pyseehome-to-your-computer)
+    - [E.2 Using Git with  thermalogic/SEES](#e2-using-git-with--thermalogicsees)
+      - [E.2.1 Clone the thermalogic/SEES to your computer](#e21-clone-the-thermalogicsees-to-your-computer)
       - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
       - [E.2.3 Discard Changes](#e23-discard-changes)
   - [References](#references)
@@ -314,19 +314,19 @@ You may click  `File`->`Save As...` to save the notebook file as a given name wi
 
    ![jupyter-hello](./img/jupyter-hello.jpg) 
   
-### B.3 Using the Jupyter Notebook of PySEE/home
+### B.3 Using the Jupyter Notebook of thermalogic/SEES
 
 pre-installed:Python3 and Jupyter Notebook
 
 **B.3.1**  Download the zip file
 
-Go to the repo **home** on the Github: https://github.com/PySEE/home ,then download `home.zip` to your computer
+Go to the repo **SEES** on the Github: https://github.com/thermalogic/SEES ,then download `SEES.zip` to your computer
 
-   ![download home.zip](./img/downloadhome.jpg)
+   ![download SEES.zip](./img/downloadSEES.jpg)
 
 **B.3.2** Open the notebooks in Jupyter Notebook
 
- unzip `home.zip`, double-click  `nb.bat`(OS:Windows)  in the sub-folder of **notebook** of `home`. This will open a web page in your browser with a list of the available notebooks.
+ unzip `SEES.zip`, double-click  `nb.bat`(OS:Windows)  in the sub-folder of **notebook** of `SEES`. This will open a web page in your browser with a list of the available notebooks.
 
 ## C:Install GCC for Windows：TDM-GCC
 
@@ -368,13 +368,15 @@ Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, c
 
 ![vscode](./img/vscode-display-en.jpg)
 
-### D.2 Install Extension: Python,C/C++
+### D.2 Install Extension: Python,C/C++ and Markdown 
 
-* Python https://code.visualstudio.com/docs/languages/python
+* [Python](https://code.visualstudio.com/docs/languages/python)
 
-* C/C++ https://code.visualstudio.com/docs/languages/cpp
+* [C/C++](https://code.visualstudio.com/docs/languages/cpp)
         
      * [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+
+* [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 
@@ -412,36 +414,36 @@ set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching
 
 ## E: Using Git
 
-We **recommend** that you use [git](https://git-scm.com) to handle everything in the course: the repositories of PySEE,your projects,etc. 
+We **recommend** that you use [git](https://git-scm.com) to handle everything in the course: the repositories of thermalogic,your projects,etc. 
 
 ### E.1 Install Git for Windows
 
 Download Git for Windows: https://git-scm.com/ ,then install
 
-### E.2 Using Git with  PySEE/home 
+### E.2 Using Git with  thermalogic/SEES 
 
 After you have installed **git**, You may use the following **commands:** to clean,update and checkout 
 
-#### E.2.1 Clone the PySEE/home to your computer
+#### E.2.1 Clone the thermalogic/SEES to your computer
 
 ```bash
->git clone https://github.com/PySEE/home.git
+>git clone https://github.com/thermalogic/SEES.git
 ```
 
 **Cloning the `B2021` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b B2021 https://github.com/PySEE/home.git
+>git clone --depth 1 -b B2021 https://github.com/thermalogic/SEES.git
 ```
 * -b B2021 
 * --depth 1 
   * Create a shallow clone with a history truncated to the specified number of commits
 
-When you clone a repository you set up a copy on your computer. This will create a folder **home** on your computer with the files in sub-folders.
+When you clone a repository you set up a copy on your computer. This will create a folder **SEES** on your computer with the files in sub-folders.
 
 #### E.2.2 Updating to The Latest Version
 
-As we release new files or  update files, you'll have to update your repository. You can do this by changing into the `home` directory and executing:
+As we release new files or  update files, you'll have to update your repository. You can do this by changing into the `SEES` directory and executing:
 
 ```bash
 git pull
@@ -449,11 +451,11 @@ git pull
 
 That's it - you'll have the latest version of the repository.
 
-![download](./img/clonehomedir.jpg)
+![download](./img/cloneSEESdir.jpg)
 
 #### E.2.3 Discard Changes
 
-If you change the contents of home, you may  `checkout` to discard all changes
+If you change the contents of SEES, you may  `checkout` to discard all changes
 
 ```bash
 >git checkout .

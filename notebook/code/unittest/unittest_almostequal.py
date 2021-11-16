@@ -9,9 +9,5 @@ class AlmostEqualTest(unittest.TestCase):
        # self.assertAlmostEqual(1.1, 1.3, places=0)
         self.assertAlmostEqual(0.12345678, 0.12345679) 
 
-    def test_AlmostEqualWithDefault(self):
-        self.assertNotAlmostEqual(1.1, 1.3)
-        
-
 if __name__ == '__main__':
     unittest.main()

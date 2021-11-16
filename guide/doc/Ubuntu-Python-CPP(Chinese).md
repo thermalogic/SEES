@@ -48,23 +48,23 @@
 
    Ubuntu系统的分区很多，快捷安装只需配置:
    
-   *  `/home 分区和挂载点` 
+   *  `/SEES 分区和挂载点` 
    
    *  `/ 系统分区和挂载点`
    
    其他由系统自动配置。
 
-  **`/home` 分区和挂载点**：从**空闲空间**中划出一个分区作为 `/home` 挂载点。
+  **`/SEES` 分区和挂载点**：从**空闲空间**中划出一个分区作为 `/SEES` 挂载点。
   
-     * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
+     * 一定要有**SEES**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在SEES下，不要格式化该分区，这样原系统中的用户文件都能保留 
 
-     ![bionic-part-all](./img/bionic-part-home.jpg)
+     ![bionic-part-all](./img/bionic-part-SEES.jpg)
 
   **`/` 系统分区和挂载点**：将余下空闲空间都划给`“/”` 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
 
    &emsp; &emsp;![bionic-part-all](./img/bionic-part-all.jpg)
 
-  定义好`/home 分区和挂载点` 和 `/ 系统分区和挂载点` 后，可见分区情况：
+  定义好`/SEES 分区和挂载点` 和 `/ 系统分区和挂载点` 后，可见分区情况：
 
    &emsp; &emsp;![bionic-part-all](./img/bionic-parts.jpg)
 
@@ -78,7 +78,7 @@
 
 * 8  Who are you: 给出用户名和密码，选择自动登录（为方便使用，**名字和密码宜简短**）
 
-   * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`** 
+   * 如是重装Ubuntu系统且要使用 **`原SEES`分区**, 用 **`原用户名`** 
 
   安装程序将从U盘安装Ubuntu到指定的硬盘分区中。安装过程需要些时间，耐心等待即可。
 
@@ -328,8 +328,8 @@ $sudo grub-install /dev/[Windows Boot partition e.g., sda1]
 
 ## 参考
 
-* How to install and Get Started with Ubuntu Desktop http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+* How to install and Get Started with Ubuntu Desktop http://www3.ntu.edu.sg/SEES/ehchua/programming/howto/Ubuntu_HowTo.html
 
-* Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+* Programmer's Survival Guide for Mac & Ubuntu  http://www3.ntu.edu.sg/SEES/ehchua/programming/howto/Unix_SurvivalGuide.html
 
 * 优麒麟20.04(UbuntuKylin)简易安装手册 https://www.ubuntukylin.com/public/pdf/2004.pdff

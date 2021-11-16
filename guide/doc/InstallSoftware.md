@@ -2,11 +2,6 @@
 
 **Install Software**
 
-* **注意**：新版numpy和Python解释器及其他一些软件包，有兼容性问题，所以，建议安装稍旧些的版本
-
-  *  Python 3.8.7
- 
-  *  Numpy 1.18.0 
 
 <!-- TOC -->
 
@@ -20,7 +15,7 @@
 - [C: Install GCC for Windows：TDM-GCC](#c-install-gcc-for-windowstdm-gcc)
 - [D: Visual Studio Code](#d-visual-studio-code)
   - [D.1 Install Visual Studio Code](#d1-install-visual-studio-code)
-  - [D.2 Install Extension: Python,C/C++](#d2-install-extension-pythoncc)
+  - [D.2 Install Extension: Python,C/C++ and markdown](#d2-install-extension-pythoncc-and-markdown)
 - [E: Install Git for Windows](#e-install-git-for-windows)
 
 <!-- /TOC -->
@@ -28,7 +23,9 @@
 
 ### A.1 Installing Python 
 
-Goto [the official Python site](https://www.python.org/downloads/), you can use typically **Download the latest version of Python** `button` that appears first on the page to get the latest version of Python.
+Goto [the official Python site](https://www.python.org/downloads/) to download the suitable version of Python.
+
+>**注意**：最新版和Python解释器会存在软件包兼容性问题，所以，建议安装稍旧些的版本的解释器，如：Python 3.8.7
 
 In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)  
 
@@ -40,11 +37,6 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 
 #### A.2.1 set the faster mirror index site of PyPi
 
-```bash
-pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
-```
-
-or 
 
 ```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
@@ -63,7 +55,7 @@ python -m pip install autopep8 pylint
 ```
 
 ```bash   
-python -m pip install numpy==1.18.0 scipy matplotlib
+python -m pip install numpy scipy matplotlib
 ``` 
 
 ```bash   
@@ -76,10 +68,6 @@ To install Jupyter,run the following command in a terminal:
 
 ```bash   
 python -m pip install jupyter
-```
-
-```bash   
-python -m pip install notebook==6.1.5
 ```
 
 Install Jupyter Notebook extension
@@ -112,11 +100,13 @@ After the install, **Rename**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
  
-### D.2 Install Extension: Python,C/C++
+### D.2 Install Extension: Python,C/C++ and markdown
 
-* Python https://code.visualstudio.com/docs/languages/python
+* [Python](https://code.visualstudio.com/docs/languages/python)
 
-* C/C++ https://code.visualstudio.com/docs/languages/cpp
+* [C/C++](https://code.visualstudio.com/docs/languages/cpp)
+
+* [Markdown preview enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
         
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 

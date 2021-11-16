@@ -16,9 +16,6 @@ class AlmostEqualTest(unittest.TestCase):
 
     def test_AlmostEqual(self):
         self.assertAlmostEqual(1.1, 1.3, places=0)
-
-    def test_AlmostEqualWithDefault(self):
-        self.assertNotAlmostEqual(1.1, 1.3)
         
 def suiteEqual():
     suite = unittest.TestSuite()

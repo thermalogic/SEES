@@ -9,9 +9,9 @@
 ```
 CourseSE
  │
- ├──PySEE
+ ├──SEE
  │    │
- │    ├── home
+ │    ├── SEES
  │    │      
  │    ├── SimVCCE
  │    │

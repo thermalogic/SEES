@@ -7,12 +7,12 @@ LINKER_NAME=libCoolProp.so
 OUTPUT_FILE=mainso.out
 LINKERFLAGS=-L./bin -lCoolProp 
 
-all:buildexec exec
+all:buildexec runner
 
 buildexec:
 	g++ -DCOOLPROP_LIB -o $(BIN)${OUTPUT_FILE}  $(MAIN_FILE) -I$(INC) $(LINKERFLAGS)
     
-exec:
+runner:
 	$(BIN)${OUTPUT_FILE}
     
 install:

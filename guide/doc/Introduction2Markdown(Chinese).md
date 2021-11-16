@@ -26,7 +26,7 @@ Markdown的`常用标记符号`不超过十个，相对于其他复杂的标记�
 
 Markdown`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint
 
-**Markdown文档` 撰写`、 `预览` 是分开的**
+**Markdown文档 `撰写`、 `预览` 是分开的**
 
   ![](./img/vscode-markdown.jpg)
 

@@ -3,28 +3,22 @@
 
 [![DOI](https://zenodo.org/badge/43438544.svg)](https://zenodo.org/badge/latestdoi/43438544)
 
-* [The non-interactive preview on nbviewer](http://nbviewer.ipython.org/github/PySEE/home/tree/B2021/notebook/) 
-
-The branch **B2021** is intended to train **students in Building Environment and Energy Application Engineering** become skillful at computational techniques.
-
 We will cover:
 
 * [Python](https://www.python.org/)
-* apply abstraction and decomposition to solve the complex problems 
-* a useful set of algorithmic and data structure
-* build C/C++ applications with [GCC and Make](https://gcc.gnu.org/) 
-* version control with [Git](https://git-scm.com/) 
+* apply abstraction and decomposition to solve the complex problems
+* [GCC and Make](https://gcc.gnu.org/) 
+* a useful set of algorithms and data structure
+* testing and version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
 
-[Practices](https://github.com/PySEE/Practices/) are the very important part of the course. 
+[Practices](https://github.com/thermalogic/Practices/) are the very important part of the course. 
 
-We highly recommend you practice coding whenever you have a few minutes.
+**行是知之始，知是行之成 - 陶行知**
 
-* **行是知之始，知是行之成 - 陶行知**
+After completing the course, We wish you have a broad spectrum of computer knowledge, is a good programmer in the context of using computation to solve complex problems and keep pace with the latest developments in computer technology.
 
-* **项目驱动，边做边学**
-
-If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I value all suggestions.
+If you have concerns about the course, please email(cmh@seu.edu.cn) to me 
 
 ## Required Materials
 
@@ -34,50 +28,50 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me. I val
    
 * **Reference Textbooks**
 
-  * John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition)](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition). MIT Press, 2016.
-
-  * Neil Matthew, Richard Stones. [Beginning Linux Programming, 4th Edition](https://github.com/scnb/Beginning-Linux-Programming), Wiley Publishing, Inc., Indianapolis, Indiana,2008
-
-  * 徐士良. 计算机软件技术基础（第四版）. 清华大学出版社，2016.4
+  * John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition). MIT Press
+    
+    * [Author's Website with Code and Errata](https://github.com/guttag/Intro-to-Computation-and-Programming)
+    
+    * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
 
 ## Contents
 
-1. **PySEE/HOME**
+1. **SEES**
    
    * [Jupyter Notebook for the course](./notebook) 
   
    * [Guide](./guide): [Install Software](./guide/doc/InstallSoftware.md),etc.
 
-2. [PySEE/SimVCCE](https://github.com/PySEE/SimVCCE) The vapor-compression refrigeration cycle steady-state simulator in Python, C++ and Modelica
+2. [SimVCCE](https://github.com/thermalogic/SimVCCE) The vapor-compression refrigeration cycle steady-state simulator
 
-3. [PySEE/Practices](https://github.com/PySEE/Practices)  tasks
+3. [Practices](https://github.com/thermalogic/Practices)  tasks
 
 ## Grading
 
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
 * In-class Exercises: 10
-* [Practices:40](https://github.com/PySEE/Practices/)
+* [Practices:40](https://github.com/thermalogic/Practices/)
 * Final Exam: 50
 
-## Using the Notebooks of PySEE/home 
+## Using the Notebooks of thermalogic/SEES 
 
 `download/clone` the repository to your computer,then start Jupyter to  **interactive** with the notebooks.
 
-* Download the *PySEE/home* Repository  
+* Download the *thermalogic/SEES* Repository  
 
-  You can manually download the `zip` file of the `PySEE/home` to your computer
+  You can manually download the `zip` file of the `thermalogic/SEES` to your computer
 
-* Using the Jupyter Notebooks of PySEE/home:  
+* Using the Jupyter Notebooks of thermalogic/SEES:  
 
-   Unzip the **zip** file, then, in the sub-folder of **notebook** of home, double-click `nb.bat`(OS:Windows). This will open a web page in your browser with a list of the available notebooks.
+   Unzip the **zip** file, then, in the sub-folder of **notebook** of SEES, double-click `nb.bat`(OS:Windows). This will open a web page in your browser with a list of the available notebooks.
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the repository
 >
->**Cloning the B2021 branch of repository shallowly for saving bandwidth**
+>**Cloning the B2022 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b B2021 https://github.com/PySEE/home.git
+>git clone --depth 1 -b B2022 https://github.com/thermalogic/SEES.git
 >```
 >**Updating to The Latest Version**
 >
@@ -87,4 +81,4 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 ## Cite as
 
-Cheng Maohua. (2020, March 13). PySEE/home: First Release of Courseware (Version V1.0.0). Zenodo. http://doi.org/10.5281/zenodo.3709440
+Cheng Maohua. (2020, March 13). Thermalogic/SEES: First Release of Courseware (Version V1.0.0). Zenodo. http://doi.org/10.5281/zenodo.3709440
