@@ -332,7 +332,7 @@ Go to the repo **SEES** on the Github: https://github.com/thermalogic/SEES ,then
 
 Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) 
 
-**Download** the latest available version of gcc compiler for **windows64** - `tdm64-gcc-9.2.0.exe`,run the installer
+**Download** the latest available version of gcc compiler for **windows64**,run the installer
 
 then, **RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 

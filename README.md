@@ -6,7 +6,7 @@
 We will cover:
 
 * [Python](https://www.python.org/)
-* apply abstraction and decomposition to solve the complex problems
+* Object-oriented Programming
 * [GCC and Make](https://gcc.gnu.org/) 
 * a useful set of algorithms and data structure
 * testing and version control with [Git](https://git-scm.com/) 
@@ -33,6 +33,10 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
     * [Author's Website with Code and Errata](https://github.com/guttag/Intro-to-Computation-and-Programming)
     
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
+  
+  * 孟庆昌等. Linux教程(第5版). 电子工业出版社. 2019年6月
+   
+  * 徐士良. 计算机软件技术基础(第四版). 清华大学出版社，2014
 
 ## Contents
 
@@ -50,9 +54,9 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
 
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
-* In-class Exercises: 10
-* [Practices:40](https://github.com/thermalogic/Practices/)
-* Final Exam: 50
+* In-class Exercises: 5
+* [Practices:30](https://github.com/thermalogic/Practices/)
+* Final Exam: 65
 
 ## Using the Notebooks of thermalogic/SEES 
 
