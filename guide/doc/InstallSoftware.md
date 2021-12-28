@@ -25,7 +25,7 @@
 
 Goto [the official Python site](https://www.python.org/downloads/) to download the suitable version of Python.
 
->**注意**：最新版和Python解释器会存在软件包兼容性问题，所以，建议安装稍旧些的版本的解释器，如：Python 3.8.7
+>**注意**：最新版Python解释器会存在软件包兼容性问题，所以，建议安装稍旧版本的解释器，如：Python 3.8.7
 
 In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)  
 
