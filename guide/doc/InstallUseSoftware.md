@@ -440,8 +440,6 @@ git pull
 
 That's it - you'll have the latest version of the repository.
 
-![download](./img/cloneSEESdir.jpg)
-
 #### E.2.3 Discard Changes
 
 If you change the contents of SEES, you may  `checkout` to discard all changes
