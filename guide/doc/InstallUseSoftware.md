@@ -28,8 +28,7 @@ Firstly，You **MUST** [setup the working directory for the course](./WorkingDir
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
       - [D.1.1 Install](#d11-install)
-      - [D.1.2 Set the default type of a new file](#d12-set-the-default-type-of-a-new-file)
-      - [D.1.3 Set Display Language](#d13-set-display-language)
+      - [D.1.2 Set Display Language](#d12-set-display-language)
     - [D.2 Install Extension: Python,C/C++ and Markdown](#d2-install-extension-pythoncc-and-markdown)
     - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
       - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
@@ -352,17 +351,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
  
-#### D.1.2 Set the default type of a new file
-
-By default if you open a new file, it's set for `Plain Text`,
-
-You can set the `default language` at either the user or workspace settings level using `files.defaultLanguage`:
-
-If the item is configured to `${activeEditorLanguage}`, it will use the language mode of the currently active text editor if any.
-
-![vscode](./img/vscode-filetype.jpg)
-
-#### D.1.3 Set Display Language
+#### D.1.2 Set Display Language
 
 Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, choice the item,then set the language 
 
