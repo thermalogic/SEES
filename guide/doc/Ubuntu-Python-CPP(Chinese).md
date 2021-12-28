@@ -48,17 +48,17 @@
 
    Ubuntu系统的分区很多，快捷安装只需配置:
    
-   *  `/SEES 分区和挂载点` 
+   *  `/home 分区和挂载点` 
    
    *  `/ 系统分区和挂载点`
    
    其他由系统自动配置。
 
-  **`/SEES` 分区和挂载点**：从**空闲空间**中划出一个分区作为 `/SEES` 挂载点。
+  **`/home` 分区和挂载点**：从**空闲空间**中划出一个分区作为 `/home` 挂载点。
   
-     * 一定要有**SEES**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在SEES下，不要格式化该分区，这样原系统中的用户文件都能保留 
+     * 一定要有**home**挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，这样原系统中的用户文件都能保留 
 
-     ![bionic-part-all](./img/bionic-part-SEES.jpg)
+     ![bionic-part-all](./img/bionic-part-home.jpg)
 
   **`/` 系统分区和挂载点**：将余下空闲空间都划给`“/”` 分区，作为系统挂载点。 如果重新安装其他版本Linux，可将这个分区格式化.
 
@@ -78,7 +78,7 @@
 
 * 8  Who are you: 给出用户名和密码，选择自动登录（为方便使用，**名字和密码宜简短**）
 
-   * 如是重装Ubuntu系统且要使用 **`原SEES`分区**, 用 **`原用户名`** 
+   * 如是重装Ubuntu系统且要使用 **`原home`分区**, 用 **`原用户名`** 
 
   安装程序将从U盘安装Ubuntu到指定的硬盘分区中。安装过程需要些时间，耐心等待即可。
 
@@ -126,7 +126,7 @@ $sudo timedatectl set-local-rtc 1
 >
 >建议可选Ubuntu发行版：
 >
->* 1 “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
+>* “中国味”的UbuntuKylin: http://www.ubuntukylin.com/.  UbuntuKylin默认支持中文，预安装有WPS，搜狗拼音输入法等
 
 
 ## 四、开发环境
