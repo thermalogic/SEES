@@ -1,0 +1,5 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"TCircle" [color="black", fontcolor="black", label="{TCircle| + radius : float\l + area: float\l| + TCircle(fradius:float=1.0)\l + cal_area():void\l}", shape="record", style="solid"];
+}
