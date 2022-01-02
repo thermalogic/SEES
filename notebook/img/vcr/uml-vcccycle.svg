@@ -19,7 +19,7 @@
 <text text-anchor="start" x="8" y="-211.3" font-family="Times New Roman,serif" font-size="14.00">DevNum: int</text>
 <text text-anchor="start" x="8" y="-196.3" font-family="Times New Roman,serif" font-size="14.00">comps : dict cycle</text>
 <text text-anchor="start" x="8" y="-181.3" font-family="Times New Roman,serif" font-size="14.00">conns: Connector</text>
-<text text-anchor="start" x="8" y="-166.3" font-family="Times New Roman,serif" font-size="14.00">Qin : int, float</text>
+<text text-anchor="start" x="8" y="-166.3" font-family="Times New Roman,serif" font-size="14.00">Qin : float</text>
 <text text-anchor="start" x="8" y="-151.3" font-family="Times New Roman,serif" font-size="14.00">Qlow : float</text>
 <text text-anchor="start" x="8" y="-136.3" font-family="Times New Roman,serif" font-size="14.00">Qout : float</text>
 <text text-anchor="start" x="8" y="-121.3" font-family="Times New Roman,serif" font-size="14.00">Wc : float</text>
