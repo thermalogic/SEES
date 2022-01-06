@@ -1,0 +1,8 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"Circle" [color="black", fontcolor="black", label="{Circle| + radius : float\l + area: float\l| + Circle(radius:float=1.0)\l + cal_area():void\l + __str__():str\l}", shape="record", style="solid"];
+"Cylinder" [color="black", fontcolor="black", label="{Cylinder| + nextIdNum:int\l + idNum:int\l + height: float\l + volumel:float\l - __circlearea:float \l| + Cylinder(radius:float=1.0, height :float=1.0)\l + cal_area():void\l  + cal_volume():void\l + __str__():str\l}", shape="record", style="solid"];
+"Circle" -> "Cylinder" [arrowhead="empty", arrowtail="none"];
+
+}

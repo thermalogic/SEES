@@ -1,0 +1,5 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"Circle" [color="black", fontcolor="black", label="{Circle| + radius : float\l + area : float\l| + Circle(radius:float=1.0)\l + cal_area():float\l+ __str():str\l}", shape="record", style="solid"];
+}
