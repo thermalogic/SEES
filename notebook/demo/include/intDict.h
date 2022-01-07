@@ -11,7 +11,7 @@ typedef struct _node
 typedef struct _hashtable
 {
 	int numBuckets;
-	Node **buckets; //the linked list stack
+	Node **buckets; // the linked list
 } Hashtable;
 
 // Create hash table
