@@ -35,9 +35,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
   
   * 孟庆昌等. Linux教程(第5版). 电子工业出版社. 2019年6月
-   
-  * 徐士良. 计算机软件技术基础(第四版). 清华大学出版社，2014
-
+ 
 ## Contents
 
 1. **SEES**
