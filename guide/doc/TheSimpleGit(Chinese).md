@@ -1,4 +1,4 @@
-# 本地项目Git版本控制并同步到远程Github仓库的简单方法
+# 本地项目Git版本控制并同步到远程Github仓库的方法简介
 
 ## Git简介
 
@@ -10,15 +10,21 @@
 * It is a living archive of all historical revisions. It lets you **revert** back to a specific version, if the need arises.
 * It facilitates **collaboration** between team members, and serves as **a project management tool**
 
-Git is a Distributed Version Control System (DVCS)
+[Git](https://git-scm.com/) is a Distributed Version Control System (DVCS)
 
 It was initially designed and developed by Linus Torvalds, in 2005, to support the development of the Linux kernel.
 
->版本控制是指对软件开发过程中各种程序代码、配置文件及说明文档等文件**变更**的管理，是软件配置管理的核心思想之一
+[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+![](img/github.jpg)
+
+>**版本控制**: 指对软件开发过程中各种程序代码、配置文件及说明文档等文件**变更**的管理，是软件配置管理的核心思想之一
+>
+>**GitHub**: 一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名GitHub。
 
 <!-- TOC -->
 
-- [本地项目Git版本控制并同步到远程Github仓库的简单方法](#本地项目git版本控制并同步到远程github仓库的简单方法)
+- [本地项目Git版本控制并同步到远程Github仓库的方法简介](#本地项目git版本控制并同步到远程github仓库的方法简介)
   - [Git简介](#git简介)
   - [1 本地Git和远程Git版本控制的初始化](#1-本地git和远程git版本控制的初始化)
     - [1.1 本地安装Git、远程建立Git账户](#11-本地安装git远程建立git账户)
@@ -26,11 +32,11 @@ It was initially designed and developed by Linus Torvalds, in 2005, to support t
   - [2  使用Git对本地项目进行版本控制](#2--使用git对本地项目进行版本控制)
     - [2.1  初始化本地项目的Git版本控制](#21--初始化本地项目的git版本控制)
     - [2.2 提交工作内容到Git仓库](#22-提交工作内容到git仓库)
-      - [2.2.1 工作内容提交到缓存区](#221-工作内容提交到缓存区)
+      - [2.2.1 工作区内容提交到缓存区](#221-工作区内容提交到缓存区)
       - [2.2.2 存入缓存区的内容提交至本地仓库](#222-存入缓存区的内容提交至本地仓库)
-  - [3 本地仓库的远程Git仓库初始化](#3-本地仓库的远程git仓库初始化)
-    - [3.1 在远程Git账户中建立一个和本地项目目录`同名`的空仓库](#31-在远程git账户中建立一个和本地项目目录同名的空仓库)
-    - [3.2 将远程Git仓库加为本地Git项目的远程源](#32-将远程git仓库加为本地git项目的远程源)
+  - [3 本地仓库的远程仓库初始化](#3-本地仓库的远程仓库初始化)
+    - [3.1 在远程账户中建立一个和本地项目目录`同名`的空仓库](#31-在远程账户中建立一个和本地项目目录同名的空仓库)
+    - [3.2 将远程仓库加为本地Git项目的远程源](#32-将远程仓库加为本地git项目的远程源)
     - [3.3 `首次` 推送本地仓库到远程git仓库](#33-首次-推送本地仓库到远程git仓库)
   - [4 本地仓库工作内容变化更新、同步到远程github](#4-本地仓库工作内容变化更新同步到远程github)
     - [4.1 本地工作内容变化提交到暂存区](#41-本地工作内容变化提交到暂存区)
@@ -87,7 +93,7 @@ Every git user should first introduce himself to git, by running these two comma
 
 ### 2.2 提交工作内容到Git仓库
 
-#### 2.2.1 工作内容提交到缓存区
+#### 2.2.1 工作区内容提交到缓存区
 
 ```bash
 >git add .
@@ -100,14 +106,15 @@ Every git user should first introduce himself to git, by running these two comma
 ```bash
 >git commit -m “your desc of the commit"
 ```
+   ![Git](./img/git-local.jpg)
 
-## 3 本地仓库的远程Git仓库初始化
+## 3 本地仓库的远程仓库初始化
 
-### 3.1 在远程Git账户中建立一个和本地项目目录`同名`的空仓库
+### 3.1 在远程账户中建立一个和本地项目目录`同名`的空仓库
 
 新建的Github仓库必须是 **空** 仓库，不能有README.md等任何内容
 
-### 3.2 将远程Git仓库加为本地Git项目的远程源
+### 3.2 将远程仓库加为本地Git项目的远程源
 
 在本地Git仓库所在目录下打开的终端中执行：
 
@@ -151,7 +158,7 @@ Every git user should first introduce himself to git, by running these two comma
 
 ### 4.4 Git本地和远程仓库操作过程图 
 
-   ![The process of Git](./img/TheProcessGit.jpg)
+   ![The process of Git](./img/git-process.jpg)
 
 ## 5 持久化远程Git账号
 
