@@ -1,10 +1,25 @@
 # 本地项目Git版本控制并同步到远程Github仓库的简单方法
 
-初始环境：一个没有使用版本控制的本地目录
+## Git简介
+
+ **Version Control System(VCS)** serves as a Repository (or repo) of program codes, including all the historical revisions. It records changes to files at so-called commits in a log so that you can recall any file at any commit point.
+
+ **Why VCS?**
+
+* The Repository serves as the **backup** (in case of code changes or disk crash).
+* It is a living archive of all historical revisions. It lets you **revert** back to a specific version, if the need arises.
+* It facilitates **collaboration** between team members, and serves as **a project management tool**
+
+Git is a Distributed Version Control System (DVCS)
+
+It was initially designed and developed by Linus Torvalds, in 2005, to support the development of the Linux kernel.
+
+>版本控制是指对软件开发过程中各种程序代码、配置文件及说明文档等文件**变更**的管理，是软件配置管理的核心思想之一
 
 <!-- TOC -->
 
 - [本地项目Git版本控制并同步到远程Github仓库的简单方法](#本地项目git版本控制并同步到远程github仓库的简单方法)
+  - [Git简介](#git简介)
   - [1 本地Git和远程Git版本控制的初始化](#1-本地git和远程git版本控制的初始化)
     - [1.1 本地安装Git、远程建立Git账户](#11-本地安装git远程建立git账户)
     - [1.2 配置Git本地用户名和email(和远程Git账户一致）](#12-配置git本地用户名和email和远程git账户一致)
@@ -39,6 +54,9 @@
   - [参考：](#参考)
 
 <!-- /TOC -->
+
+**初始环境**:一个没有使用版本控制的本地目录
+
 
 **NOTE**: 所有Git命令都须在用Git进行版本控制项目的目录下，打开的终端中执行
 
