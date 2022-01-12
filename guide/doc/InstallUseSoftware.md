@@ -1,7 +1,6 @@
 
 # Install and Use Software
 
-Firstly，You **MUST** [setup the working directory for the course](./WorkingDir.md)
 <!-- TOC -->
 
 - [Install and Use Software](#install-and-use-software)
