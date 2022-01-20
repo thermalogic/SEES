@@ -231,7 +231,13 @@ Numpy, Scipy, Matplotlib https://www.scipy.org/install.html
 ### A.3.5 CoolProp: 
 
 ```bash   
-> python -m pip coolprop 
+python -m pip coolprop 
+``` 
+
+The simple interface of coolprop 
+
+```bash   
+python -m pip install  phyprops 
 ``` 
 
 ## B:Jupyter Notebook
@@ -361,10 +367,12 @@ Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, c
 * [Python](https://code.visualstudio.com/docs/languages/python)
 
 * [C/C++](https://code.visualstudio.com/docs/languages/cpp)
-        
-     * [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
-
+ 
 * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
+
+* [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
+
+Open VS Code, then **search** the name of extension, then click **Install** button.
 
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 

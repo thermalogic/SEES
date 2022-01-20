@@ -15,11 +15,10 @@ The command installs a bunch of new packages including gcc, g++ and make.
 
 All Linux distributions have built-in Python2 and Python3. However, it is incomplete
 
-For Python3, we need to be supplemented with `pip3` and `idle3`.
+For Python3, we need to be supplemented with `pip3`
 
 ```bash
 $sudo apt install python3-pip
-$sudo apt install idle3
 ```
 
 >  Add 3 to the relevant commands of Python3

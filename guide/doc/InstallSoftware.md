@@ -62,6 +62,10 @@ python -m pip install numpy scipy matplotlib
 python -m pip install  coolprop 
 ``` 
 
+```bash   
+python -m pip install  phyprops 
+``` 
+
 ## B: Install Jupyter Notebook
 
 To install Jupyter,run the following command in a terminal:
@@ -102,13 +106,22 @@ After the install, **Rename**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
  
 ### D.2 Install Extension: Python,C/C++ and markdown
 
+
 * [Python](https://code.visualstudio.com/docs/languages/python)
 
 * [C/C++](https://code.visualstudio.com/docs/languages/cpp)
 
 * [Markdown preview enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
-        
+
+* [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
+
+Open VS Code, then **search** the name of extension, then click **Install** button.
+
+For example:
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
+
+
+        
 
 ## E: Install Git for Windows
 
