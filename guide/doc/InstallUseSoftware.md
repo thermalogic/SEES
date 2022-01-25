@@ -5,17 +5,14 @@
 
 - [Install and Use Software](#install-and-use-software)
   - [A:Python & PyPI](#apython--pypi)
-    - [A.1 Installing Python and Coding](#a1-installing-python-and-coding)
-      - [A.1.1 Customize Installing Python](#a11-customize-installing-python)
-      - [A.1.2  Using Python Shell(command-line model)](#a12--using-python-shellcommand-line-model)
-      - [A.1.3 Using IDLE(script mode)](#a13-using-idlescript-mode)
+    - [A.1 Installing Python](#a1-installing-python)
     - [A.2 The Python Package Index(PyPI)](#a2-the-python-package-indexpypi)
     - [A.3 Install Packages](#a3-install-packages)
       - [A.3.1 update `pip` to the most recent version](#a31-update-pip-to-the-most-recent-version)
       - [A.3.2 set `tsinghua` as default site](#a32-set-tsinghua-as-default-site)
       - [A.3.3 Install autopep8, pylint](#a33-install-autopep8-pylint)
       - [A.3.4 Scipy](#a34-scipy)
-    - [A.3.5 CoolProp:](#a35-coolprop)
+      - [A.3.5 CoolProp](#a35-coolprop)
   - [B:Jupyter Notebook](#bjupyter-notebook)
     - [B.1 Install & Start-up Jupyter Notebook](#b1-install--start-up-jupyter-notebook)
       - [Install Jupyter Notebook extensions(optional)](#install-jupyter-notebook-extensionsoptional)
@@ -26,8 +23,6 @@
   - [C:Install GCC for Windows：TDM-GCC](#cinstall-gcc-for-windowstdm-gcc)
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
-      - [D.1.1 Install](#d11-install)
-      - [D.1.2 Set Display Language](#d12-set-display-language)
     - [D.2 Install Extension: Python,C/C++ and Markdown](#d2-install-extension-pythoncc-and-markdown)
     - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
       - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
@@ -48,9 +43,7 @@ Python is one of those rare languages which can claim to be both simple and powe
 
 Before you start to code Python, you will need Python on your computer.
 
-### A.1 Installing Python and Coding
-
-#### A.1.1 Customize Installing Python
+### A.1 Installing Python
 
 Goto [the official Python site](https://www.python.org/downloads/), you can use typically **Download the latest version of Python** `button` that appears first on the page to get the latest version of Python.
 
@@ -64,62 +57,6 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 
 Python is an interpreted language. Python programs are executed by an interpreter. 
   
-There are two ways to use the interpreter: 
-  
-* `command-line` mode
-  
-* `script` mode
-
-#### A.1.2  Using Python Shell(command-line model)
-
-For Windows users, open [the terminal](./CodingWithTerminal.md) in Windows, click the `Win+R`. In the dialog box, type `cmd` and press `[enter]` key.
-
-Then, type `python` and in the terminal(if you have set the  `PATH` variable appropriately)
-
-* [Computer Terminal](./CodingWithTerminal.md)
-
-You should see the  **Shell**  symbol `>>>` indicating that the interpreter is expecting the user to type some commands(Python code) into the shell.
-
-
-![python shell](./img/PythonShell.jpg)
-
-
-At the shell prompt `>>>`,if you type a line of code and hit `[enter]`, the interpreter displays the result:
-
-For example, type：
-
-```python
-print('Python is a living language!')
-```
-followed by the `[enter]` key. You should see the words `Python is a living language` printed to the screen.
-
-type：
-
-```python
-2*3+6
-```
-followed by the `[enter]` key. You should see the  value `12` printed to the screen.
-
-**Quit the Python shell**
-
-For Windows users, press `[ctrl + z]` followed by the `[enter]`  key.
-
-  ![python shell-demo](./img/PythonShell-demo.jpg)   
-
-#### A.1.3 Using IDLE(script mode)
-
-Programmers use some sort of **text editor** that is part of an integrated development environment (IDE) to edit source code of computer programs. 
-
-The **IDLE** is the simple IDE that comes as part of the standard Python installation package.
-
-It provide you with the `File`,`Edit` and `Save As` menus to  edit and save Python source files(script) have names that end with  `.py`.
-
-To execute the program(script), click menu:`Run`->`Run Module`.
-
-  ![idle](./img/python-idle.jpg)
-
-> The **IDLE** also open a **shell** window into which you can type `Python commands`
-
 ### A.2 The Python Package Index(PyPI)
 
 The Python Package Index(PyPI) is a repository of software for the Python programming language.: https://pypi.org/
@@ -228,7 +165,7 @@ Numpy, Scipy, Matplotlib https://www.scipy.org/install.html
 > python -m pip install numpy scipy matplotlib
 ``` 
 
-### A.3.5 CoolProp: 
+#### A.3.5 CoolProp
 
 ```bash   
 python -m pip coolprop 
@@ -345,8 +282,6 @@ then, **RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
 ### D.1 Install and setup Visual Studio Code 
- 
-#### D.1.1 Install
 
 * Download  Visual Studio Code https://code.visualstudio.com/, then install
 
@@ -355,12 +290,6 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 * Add the shortcut of VS code to `Task bar`
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
- 
-#### D.1.2 Set Display Language
-
-Press `Ctrl+Shift+P` ,then type `disp`, get the item `Config Display Lanuage`, choice the item,then set the language 
-
-![vscode](./img/vscode-display-en.jpg)
 
 ### D.2 Install Extension: Python,C/C++ and Markdown 
 
@@ -426,12 +355,12 @@ After you have installed **git**, You may use the following **commands:** to cle
 >git clone https://github.com/thermalogic/SEES.git
 ```
 
-**Cloning the `B2021` branch of repository `shallowly` for saving bandwidth**
+**Cloning the `B2022` branch of repository `shallowly` for saving bandwidth**
 
 ```bash
->git clone --depth 1 -b B2021 https://github.com/thermalogic/SEES.git
+>git clone --depth 1 -b B2022 https://github.com/thermalogic/SEES.git
 ```
-* -b B2021 
+* -b B2022 
 * --depth 1 
   * Create a shallow clone with a history truncated to the specified number of commits
 
@@ -457,14 +386,11 @@ If you change the contents of SEES, you may  `checkout` to discard all changes
 
 >you may also use any **GUI git client** to clone, update and checkout this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or [GitHub Desktop](https://desktop.github.com/)
 
-
 ## References
 
 * Python3:  https://www.python.org/downloads/
   
 * Jupyter: http://jupyter.org/
-
-* Numpy、Scipy and Matplotlib http://www.scipy.org/ 
 
 * Visual Studio Code：https://code.visualstudio.com/
 
