@@ -28,12 +28,12 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
    
 * **Reference Textbooks**
 
-  * John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition). MIT Press
+  * John V. Guttag. [Introduction to Computation and Programming Using Python: With Application to Understanding Data, 3rd Edition](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition). MIT Press, 2021
     
     * [Author's Website with Code and Errata](https://github.com/guttag/Intro-to-Computation-and-Programming)
-    
+
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
-  
+
   * 孟庆昌等. Linux教程(第5版). 电子工业出版社. 2019年6月
 
   * Yunus A. Cengel, Michael A. Boles, Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill.2015
