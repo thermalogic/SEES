@@ -1,0 +1,12 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"Person" [color="black", fontcolor="black", 
+     label="{Person| 
+     + name : str\l 
+     + age : int\l|
+     + Person(name:str,age:int)\l
+     + myfunc()\l
+     + __str()__:str\l}",
+     shape="record", style="solid"];
+}

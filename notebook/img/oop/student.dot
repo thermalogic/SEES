@@ -1,0 +1,27 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"Person" [color="black", fontcolor="black", 
+     label="{Person| 
+     + name : str\l 
+     + age : int\l|
+     + Person(name:str,age:int)\l
+     + myfunc()\l
+     + __str()__:str\l}",
+     shape="record", style="solid"];
+
+"Student" [color="black", fontcolor="black",
+          label="{Student| 
+               + next_id_num:int\l 
+               + id_num:int\l
+               + grades: float [1..*]\l
+               + ave_grade:float\l  
+               - __min_grade:float \l|
+               + Student(name:str,age:int)\l
+               + add_grades(grades:float [1..*]):void\l
+               - __get_average_grade():void\l
+               + __str__():str\l}",
+               shape="record", style="solid"];
+"Person" -> "Student" [arrowhead="empty", arrowtail="none"];
+
+}
