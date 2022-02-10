@@ -22,6 +22,6 @@ charset="utf-8"
                - __get_average_grade():void\l
                + __str__():str\l}",
                shape="record", style="solid"];
-"Person" -> "Student" [arrowhead="empty", arrowtail="none"];
+"Student"->"Person"  [arrowhead="empty", arrowtail="none"];
 
 }
