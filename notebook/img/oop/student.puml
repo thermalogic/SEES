@@ -1,0 +1,21 @@
+class Person {
+  + name: str
+  + age: int
+  + {static} Person(name:str.age:int)
+  + myfunc()
+  + __str()__:str
+}
+
+class Student{
+  + {static} next_id_num:int
+  + id_num:int
+  + grades: float [1..*]
+  + ave_grade:float
+  - __min_grade:float
+  + {static} Student(name:str,age:int)
+  + add_grades(grades:float [1..*]):void
+  - __get_average_grade():void
+  + __str__():str
+}
+
+Person <|-- Student

@@ -1,0 +1,18 @@
+class Person {
+  + name: str
+  + age: int
+  + {static} Person(name:str.age:int)
+  + myfunc()
+  + __str()__:str
+}
+
+class student {
+  + name: str
+  + age: int
+  + {static} Person(name:str.age:int)
+  + myfunc()
+  + __str()__:str
+}
+
+
+
