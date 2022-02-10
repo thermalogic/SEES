@@ -14,20 +14,20 @@ def bisection(fun, y, xl, xr, tol, maxiter):
            f : residual
            num_iters: the count of iters
     """
-    fl = fun(xl)-y # residual for left  bound
-    fr = fun(xr)-y # residual for right bound
-    num_iters=0
+    fl = fun(xl)-y  # residual for left  bound
+    fr = fun(xr)-y  # residual for right bound
+    num_iters = 0
     for i in range(maxiter):
-        num_iters+=1
-        
+        num_iters += 1
+
         # get midpoint
         x = 0.5*(xl + xr)
-        
+
         # evaluate residual at midpoint
         f = fun(x)-y
-        
+
         #  check for convergence
-        if (abs(f) < tol): 
+        if (abs(f) < tol):
             break
 
         # reset the bounds
@@ -39,5 +39,4 @@ def bisection(fun, y, xl, xr, tol, maxiter):
             # move left bound info to mid
             xl = x
             fl = f
-    return x,f,num_iters  
-    
+    return x, f, num_iters
