@@ -3,11 +3,11 @@ rankdir=BT
 charset="utf-8"
 "Person" [color="black", fontcolor="black", 
      label="{Person| 
-     + name : str\l 
-     + age : int\l|
-     + Person(name:str,age:int)\l
-     + myfunc()\l
-     + __str()__:str\l}",
+          + name : str\l 
+          + age : int\l|
+          + Person(name:str,age:int)\l
+          + myfunc()\l
+          + __str()__:str\l}",
      shape="record", style="solid"];
 
 "Student" [color="black", fontcolor="black",
@@ -21,7 +21,8 @@ charset="utf-8"
                + add_grades(grades:float [1..*]):void\l
                - __get_average_grade():void\l
                + __str__():str\l}",
-               shape="record", style="solid"];
+          shape="record", style="solid"];
+
 "Student"->"Person"  [arrowhead="empty", arrowtail="none"];
 
 }

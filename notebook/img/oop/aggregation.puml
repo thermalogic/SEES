@@ -1,0 +1,3 @@
+@startuml instance aggregation
+Whole o-right-  Part 
+@enduml
