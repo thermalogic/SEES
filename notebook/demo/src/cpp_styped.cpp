@@ -1,3 +1,6 @@
+/*
+g++ -o cpp_styped cpp_styped.cpp
+*/
 #include <iostream>
 using namespace std;
  

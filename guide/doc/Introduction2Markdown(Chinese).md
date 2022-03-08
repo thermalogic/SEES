@@ -96,7 +96,10 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 引用显示效果如下：
 
-> 这里是引用
+> 这里是引用ddd
+> sss
+> ss
+> 
 
 ### 3.4 链接与图片
 
@@ -105,15 +108,16 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 ```
  [东南大学](http://www.seu.edu.cn)
 ```
+
 [东南大学](http://www.seu.edu.cn)
 
 #### 插入图片
 
 插入图片与插入链接与的语法很像，区别在加一个 ! 号
 
-     ![Python IDLE](./img/python-idle.jpg)
+     ![Python install](./img/python38-install-path.jpg)
 
-![Python IDLE](./img/python-idle.jpg)
+![Python Install](./img/python38-install-path.jpg)
 
 ### 3.5 粗体与斜体
 
@@ -129,6 +133,8 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 *这里是斜体*
 
+*gdgddg*
+
 ### 3.6 表格
 
     | 序号 |课程         | 学分 |
@@ -138,11 +144,13 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
     | 3    |  传热学    | 3 |
 
 
-| 序号 |课程         | 学分 |
-| ---- |:----------:| ----:|
-| 1    |  工程热力学 | 4    |
-| 2    |  流体力学  | 3    |
-| 3    |  传热学    | 3    |
+| 序号 |课程         | 学分 | 学分 |
+| ---- |:----------:| ----:| ----:|
+| 1    |  工程热力学 | 4    |  4    |
+| 2    |  流体力学  | 3    | 3    |
+| 3    |  传热学    | 3    | 3    |
+| 4 |  传热学    | 3    | 3    |
+
 
 
 ### 3.7 代码框
