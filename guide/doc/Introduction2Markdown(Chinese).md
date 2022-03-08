@@ -38,9 +38,10 @@ Markdown`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，
 
 ## 3 Markdown语法简要
 
-Markdown格式没有统一标准，Github支持的Markdown格式有其特色(GitHub Flavored Markdown) [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
-   
-* 其pdf的格式说明文件 https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+Markdown格式没有统一标准，Github支持的Markdown格式有其特色(GitHub Flavored Markdown) 
+
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
+  
 
 ### 3.1 标题
 
