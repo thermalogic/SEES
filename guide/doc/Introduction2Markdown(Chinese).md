@@ -20,8 +20,8 @@ Markdown的`常用标记符号`不超过十个，相对于其他复杂的标记�
 
 * Github中有大量Markdown文档
 
-  * Github中最常见的Markdown文档是仓库中的README.md
-
+  * Github中最常见的Markdown文档是仓库中的 README.md
+   
 ## 2 Markdown编辑
 
 Markdown`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint
@@ -98,9 +98,6 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 引用显示效果如下：
 
 > 这里是引用ddd
-> sss
-> ss
-> 
 
 ### 3.4 链接与图片
 
@@ -116,7 +113,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 插入图片与插入链接与的语法很像，区别在加一个 ! 号
 
-     ![Python install](./img/python38-install-path.jpg)
+     ![Python Install](./img/python38-install-path.jpg)
 
 ![Python Install](./img/python38-install-path.jpg)
 
@@ -134,8 +131,6 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 *这里是斜体*
 
-*gdgddg*
-
 ### 3.6 表格
 
     | 序号 |课程         | 学分 |
@@ -145,12 +140,11 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
     | 3    |  传热学    | 3 |
 
 
-| 序号 |课程         | 学分 | 学分 |
-| ---- |:----------:| ----:| ----:|
-| 1    |  工程热力学 | 4    |  4    |
-| 2    |  流体力学  | 3    | 3    |
-| 3    |  传热学    | 3    | 3    |
-| 4 |  传热学    | 3    | 3    |
+| 序号 |课程         | 学分 |
+|-----|:----------:|:----:| 
+| 1   |  工程热力学 | 4    |
+| 2   |  流体力学   | 3    | 
+| 3   |  传热学     | 3    | 
 
 
 
@@ -166,7 +160,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 学习Python的第一句:`print('Hello World!')`
 
-如果是一个**代码块**，用两组3个连续的反引号```, 把代码包裹起来形成 **“代码框”**。 
+如果是一个**代码块**，用两组3个连续的反引号```, 把代码包裹起来形成 **“代码框”** 
 
 如果需要句法高亮，3个连续的反引号后加语言名称，
 
@@ -276,8 +270,6 @@ int main()
 在Markdown中,如果这两行文字之间有 `空行` 代表这两行文字为两个 `段落`。
 
 如果这两行文字之间没有空行,仅仅换行,代表这两行文字是属于同一个段落。
-
-即使是在一行文字中的末尾添加了`<br/>`,这两个行文字依旧是一个段落。
 
 ## 参考
 
