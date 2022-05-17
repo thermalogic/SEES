@@ -1,4 +1,3 @@
-
 all:
 	make -f makestatso.mk
 	make -f makestatsodemo.mk

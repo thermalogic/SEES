@@ -1,6 +1,5 @@
 /*
-gcc -o ./bin/hello ./src/hello.c
-./bin/hello
+gcc -o hello hello.c
 */
 #include <stdio.h>
  
