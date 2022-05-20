@@ -50,15 +50,11 @@ $sudo -H  python3 -m pip install coolprop
 
 **Visual Studio Code**
 
-From  https://code.visualstudio.com/docs/?dv=linux64_deb  download VS Code for Debian/Ubuntu,
-
-then install in the terminal
-
 ```bash
-$sudo dpkg -i [vscode filename].deb
+$sudo apt install code -y
 ```
 
-## 4 Version Control:Git
+**Version Control**
 
 ```bash 
 $sudo apt install git
