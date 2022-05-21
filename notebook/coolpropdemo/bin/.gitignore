@@ -3,5 +3,6 @@
 # Except this file
 !.gitignore
 !CoolProp.dll
+!CoolProp.lib
 !libCoolProp.dll
 !libCoolProp.so.6.4.1
