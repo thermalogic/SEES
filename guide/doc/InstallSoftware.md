@@ -90,7 +90,7 @@ jupyter contrib nbextension install --user
 
 Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/) to download the latest available version of gcc compiler for **Windows64**,run the installer.
 
-After the install, **Rename**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
+After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 ## D: Visual Studio Code
 

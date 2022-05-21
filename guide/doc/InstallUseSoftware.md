@@ -275,7 +275,7 @@ Goto [TDM-GCC](https://jmeubank.github.io/tdm-gcc/)
 
 **Download** the latest available version of gcc compiler for **windows64**,run the installer
 
-then, **RENAME**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
+then, **COPY**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 ## D:Visual Studio Code
 
