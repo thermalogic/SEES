@@ -2,6 +2,6 @@
 *
 # Except this file
 !.gitignore
-!CoolProp_x64.dll
+!CoolProp.dll
 !libCoolProp.dll
 !libCoolProp.so.6.4.1
