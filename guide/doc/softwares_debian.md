@@ -1,4 +1,4 @@
-# The Software for Programming C/C++ and  Python on Linux
+# The Software for Programming C/C++ and  Python on Debian
 
 ## 1 C/C++
 
