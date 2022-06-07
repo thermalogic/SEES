@@ -247,7 +247,7 @@ git pull
 
 * [1] [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 
-* [2] [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/SEES/ehchua/programming/howto/Git_HowTo.html)
+* [2] [How to get started with GIT and work with GIT Remote Repo](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
-* [3] [it Version Control in VS CodeGit Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+* [3] [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
