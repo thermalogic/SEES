@@ -15,8 +15,9 @@
 - [C: Install GCC for Windows：TDM-GCC](#c-install-gcc-for-windowstdm-gcc)
 - [D: Visual Studio Code](#d-visual-studio-code)
   - [D.1 Install Visual Studio Code](#d1-install-visual-studio-code)
-  - [D.2 Install Extension: Python,C/C++ and markdown](#d2-install-extension-pythoncc-and-markdown)
+  - [D.2 Install Extensions](#d2-install-extensions)
 - [E: Install Git for Windows](#e-install-git-for-windows)
+- [F: PlantUML](#f-plantuml)
 
 <!-- /TOC -->
 ## A: Python & Package
@@ -104,7 +105,7 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
  
-### D.2 Install Extension: Python,C/C++ and markdown
+### D.2 Install Extensions
 
 * [Python](https://code.visualstudio.com/docs/languages/python)
 
@@ -113,6 +114,8 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 * [Markdown preview enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
 * [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
+
+* **vscode-pdf**
 
 Open VS Code, then **search** the name of extension, then click **Install** button.
 
@@ -125,3 +128,12 @@ For example:
 
 Download Git for Windows: https://git-scm.com/ ,then install
 
+## F: PlantUML
+
+Install: Java, Graphviz
+
+* [Java](https://www.java.com/en/download/)
+
+* [Graphviz](https://graphviz.org/download/)
+
+   * [graphviz-4.0.0(64-bit) EXE installer](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/windows_10_cmake_Release_graphviz-install-4.0.0-win64.exe)

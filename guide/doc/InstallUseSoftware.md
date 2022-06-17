@@ -23,7 +23,7 @@
   - [C:Install GCC for Windows：TDM-GCC](#cinstall-gcc-for-windowstdm-gcc)
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Install and setup Visual Studio Code](#d1-install-and-setup-visual-studio-code)
-    - [D.2 Install Extension: Python,C/C++ and Markdown](#d2-install-extension-pythoncc-and-markdown)
+    - [D.2 Install Extensions](#d2-install-extensions)
     - [D.3 Using Visual Studio Code: Python,C/C++](#d3-using-visual-studio-code-pythoncc)
       - [D.3.1 Getting Started with Python in VS Code](#d31-getting-started-with-python-in-vs-code)
       - [D.3.2 Getting Started with C/C++ in VS Code](#d32-getting-started-with-cc-in-vs-code)
@@ -34,6 +34,7 @@
       - [E.2.1 Clone the thermalogic/SEES to your computer](#e21-clone-the-thermalogicsees-to-your-computer)
       - [E.2.2 Updating to The Latest Version](#e22-updating-to-the-latest-version)
       - [E.2.3 Discard Changes](#e23-discard-changes)
+  - [F: PlantUML](#f-plantuml)
   - [References](#references)
 
 <!-- /TOC -->
@@ -291,7 +292,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
    ![vscode-taskbar](./img/vscode-taskbar.jpg)
 
-### D.2 Install Extension: Python,C/C++ and Markdown 
+### D.2 Install Extensions 
 
 * [Python](https://code.visualstudio.com/docs/languages/python)
 
@@ -300,6 +301,8 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
 * [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
+
+* **vscode-pdf**
 
 Open VS Code, then **search** the name of extension, then click **Install** button.
 
@@ -374,6 +377,16 @@ If you change the contents of SEES, you may  `checkout` to discard all changes
 ```
 
 >you may also use any **GUI git client** to clone, update and checkout this repository, for example:  [Visual Studio Code](https://code.visualstudio.com/) ,or [GitHub Desktop](https://desktop.github.com/)
+
+## F: PlantUML
+
+Install: Java, Graphviz
+
+* [Java](https://www.java.com/en/download/)
+
+* [Graphviz](https://graphviz.org/download/)
+
+   * [graphviz-4.0.0(64-bit) EXE installer](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/windows_10_cmake_Release_graphviz-install-4.0.0-win64.exe)
 
 ## References
 
