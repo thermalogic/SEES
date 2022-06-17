@@ -355,17 +355,6 @@ After you have installed **git**, You may use the following **commands:** to cle
 >git clone https://github.com/thermalogic/SEES.git
 ```
 
-**Cloning the `B2022` branch of repository `shallowly` for saving bandwidth**
-
-```bash
->git clone --depth 1 -b B2022 https://github.com/thermalogic/SEES.git
-```
-* -b B2022 
-* --depth 1 
-  * Create a shallow clone with a history truncated to the specified number of commits
-
-When you clone a repository you set up a copy on your computer. This will create a folder **SEES** on your computer with the files in sub-folders.
-
 #### E.2.2 Updating to The Latest Version
 
 As we release new files or  update files, you'll have to update your repository. You can do this by changing into the `SEES` directory and executing:

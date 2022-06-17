@@ -9,13 +9,9 @@
 
 * [The Simple Guide to Git](./doc/TheSimpleGit(Chinese).md) 
 
-* [Windows File System](./doc/WindowsFileSystem.md)
-
 * [Install WSL](./doc/GuideWSL(Chinese).md) 
 
 * [The Software for Programming C/C++ and  Python on Debian](./doc/softwares_debian.md)
-
-* [Window环境下Ubuntu系统安装及开发环境建立](./doc/Ubuntu-Python-CPP(Chinese).md)
 
 * [问题及解决方法](./doc/Problem_Solution.md)
 
