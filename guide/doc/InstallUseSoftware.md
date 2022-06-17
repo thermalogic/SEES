@@ -147,13 +147,13 @@ Install from `@tsinghua` for the **higher speed**: https://pypi.tuna.tsinghua.ed
 
 #### A.3.3 Install autopep8, pylint
 
-```bash  
+```shell
 >python -m pip install autopep8 
 >python -m pip install pylint
 ```
 or
 
-```bash  
+```shell
 >python -m pip install autopep8 pylint
 ```
 
@@ -161,19 +161,19 @@ or
    
 Numpy, Scipy, Matplotlib https://www.scipy.org/install.html 
 
-```bash   
+```shell 
 > python -m pip install numpy scipy matplotlib
 ``` 
 
 #### A.3.5 CoolProp
 
-```bash   
+```shell 
 python -m pip coolprop 
 ``` 
 
 The simple interface of coolprop 
 
-```bash   
+```shell 
 python -m pip install  phyprops 
 ``` 
 
@@ -193,13 +193,13 @@ Uses include: data cleaning and transformation, numerical simulation, statistica
 
 To install Jupyter,run the following command in a terminal:
 
-```bash   
+```shell 
 >python -m pip install jupyter
 ```
 
 To start up Jupyter, run the following command in a terminal:
 
-```bash   
+```shell 
 >jupyter notebook
 ```
 
@@ -216,12 +216,12 @@ https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 contains a collection of extensions that add functionality to the Jupyter notebook.
 
 Install the python package
-```bash   
+```shell 
 >python -m pip install jupyter_contrib_nbextensions
 ```
 Install javascript and css files
 
-```bash   
+```shell 
 >jupyter contrib nbextension install --user
 ```
 

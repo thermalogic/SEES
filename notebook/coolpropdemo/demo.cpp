@@ -7,9 +7,9 @@ g++ -DCOOLPROP_LIB -o ./bin/demo  demo.cpp -I./include -L./bin -lCoolProp
 
 */
 
-#include "CoolPropLib.h"
 #include <iostream>
 #include <iomanip>
+#include "CoolPropLib.h"
 
 int main()
 {

@@ -38,31 +38,31 @@ In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/
 #### A.2.1 set the faster mirror index site of PyPi
 
 
-```bash
+```shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 #### A.2.2 update pip to the most recent version
 
-```bash
+```shell
 python -m pip install -U pip
 ```
 
 #### A.2.3 Install  Packages
 
-```bash  
+```shell
 python -m pip install autopep8 pylint
 ```
 
-```bash   
+```shell 
 python -m pip install numpy scipy matplotlib
 ``` 
 
-```bash   
+```shell 
 python -m pip install  coolprop 
 ``` 
 
-```bash   
+```shell 
 python -m pip install  phyprops 
 ``` 
 
@@ -70,19 +70,19 @@ python -m pip install  phyprops
 
 To install Jupyter,run the following command in a terminal:
 
-```bash   
+```shell 
 python -m pip install jupyter
 ```
 
 Install Jupyter Notebook extension
 
-```bash   
+```shell 
 python -m pip install jupyter_contrib_nbextensions
 ```
 
 Install javascript and css files
 
-```bash   
+```shell 
 jupyter contrib nbextension install --user
 ```
 
@@ -106,7 +106,6 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
  
 ### D.2 Install Extension: Python,C/C++ and markdown
 
-
 * [Python](https://code.visualstudio.com/docs/languages/python)
 
 * [C/C++](https://code.visualstudio.com/docs/languages/cpp)
@@ -118,10 +117,9 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 Open VS Code, then **search** the name of extension, then click **Install** button.
 
 For example:
+
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 
-
-        
 
 ## E: Install Git for Windows
 

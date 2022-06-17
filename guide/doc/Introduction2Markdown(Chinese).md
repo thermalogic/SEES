@@ -16,32 +16,24 @@ Markdown的`常用标记符号`不超过十个，相对于其他复杂的标记�
 
 * `软件文档`主要形式
 
+  * Github中最常见的Markdown文档是仓库中的`README.md`
+
 * Jupyter Notebook文档单元中的文本格式是Markdown
-
-* Github中有大量Markdown文档
-
-  * Github中最常见的Markdown文档是仓库中的 README.md
    
 ## 2 Markdown编辑
 
-Markdown`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint
-
-**Markdown文档 `撰写`、 `预览` 是分开的**
-
-  ![](./img/vscode-markdown.jpg)
-
-* [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+[Visual Studio Code 支持Markdown编辑](https://code.visualstudio.com/docs/languages/markdown/)
 
   * Visual Studio Code文档默认UTF-8编码，在其他软件中需用UTF-8编码打开.
 
-* 在Github中可在线编辑预览Markdown文档
+Markdown是`纯文本`文档，不同于 `富媒体`的 `所见即所得` 文档，如Word、PowerPoint
+
+* **Markdown文档 `撰写`、 `预览` 是分开的**
+
+![](./img/vscode-markdown.jpg)
+
 
 ## 3 Markdown语法简要
-
-Markdown格式没有统一标准，Github支持的Markdown格式有其特色(GitHub Flavored Markdown) 
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
-  
 
 ### 3.1 标题
 
@@ -97,7 +89,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 引用显示效果如下：
 
-> 这里是引用ddd
+> 这里是引用
 
 ### 3.4 链接与图片
 
@@ -119,7 +111,7 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 ### 3.5 粗体与斜体
 
-用两个星号**包含一段文本是粗体，用一个 * 包含一段文本是斜体。
+两个星号包含一段文本是粗体，一个星号包含一段文本是斜体，三个星号包含一段文本是粗斜体
 
 例如：
 
@@ -127,30 +119,29 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
     *这里是斜体*
 
+    ***这里是粗斜体***
+
 **这里是粗体**  
 
 *这里是斜体*
 
+***这里是粗斜体***
+
 ### 3.6 表格
 
     | 序号 |课程         | 学分 |
-    | ---- |:----------:| ----:|
+    |:----:|:----------:|:----:|
     | 1    |  工程热力学 | 4 |
     | 2    |  流体力学  | 3 |
-    | 3    |  传热学    | 3 |
 
 
-| 序号 |课程         | 学分 |
-|-----|:----------:|:----:| 
+| 序号  |课程         | 学分 |
+|:-----:|:----------:|:----:| 
 | 1   |  工程热力学 | 4    |
 | 2   |  流体力学   | 3    | 
-| 3   |  传热学     | 3    | 
-
 
 
 ### 3.7 代码框
-
-文档中引用代码.
 
 如果要标记一小段**行内**代码，用 反引号` 把它包起来。
 
@@ -160,61 +151,38 @@ Markdown格式没有统一标准，Github支持的Markdown格式有其特色(Git
 
 学习Python的第一句:`print('Hello World!')`
 
-如果是一个**代码块**，用两组3个连续的反引号```, 把代码包裹起来形成 **“代码框”** 
+如果是一个**代码块**，用两组3个连续的反引号```, 把代码包裹起来形成 **代码框** 
 
-如果需要句法高亮，3个连续的反引号后加语言名称，
+如果需要句法高亮，3个连续的反引号后加`语言`名称，
+  
+     ```codetype
+         code block
+     ```
 
-如：```python
-
+如：python
 
         ```python
-        # Square an integer, the hard way X**2
         x = 4  
-        ans = 0   
-        itersLeft = x      # initial value ：X
-
-        while (itersLeft != 0):
-            ans = ans + x  # x**2  to repetitive +
-            itersLeft = itersLeft - 1  
-
-        print(str(x) + '*' + str(x) + ' = ' + str(ans))   
+        print("x= ",x)   
         ```
 
 
-
 ```python
-# Square an integer, the hard way X**2
 x = 4  
-ans = 0   
-itersLeft = x      # initial value ：X
-
-while (itersLeft != 0):
-    ans = ans + x  # x**2  to repetitive +
-    itersLeft = itersLeft - 1  
-
-print(str(x) + '*' + str(x) + ' = ' + str(ans)) 
+print("x= ",x)   
 ```
 
-如：```cpp
+如：cpp
 
-        ```cpp
+      ```cpp
         #include <iostream>
         using namespace std;
 
         int main()
         {
             int x = 12;
-            if( x % 2==0 )
-            {
-                cout << "Even" <<endl; 
-                cout <<x<<endl; 
-                cout <<x%2<<endl; 
-            }
-           else
-           { 
-            cout << "Odd" << endl;
-           };
-           return 0;
+            cout <<x%2<<endl; 
+            return 0;
         }  
         ```
 
@@ -225,55 +193,61 @@ using namespace std;
 int main()
 {
     int x = 12;
-    if( x % 2==0 )
-    {
-        cout << "Even" <<endl; 
-        cout <<x<<endl; 
-        cout <<x%2<<endl; 
-    }
-   else
-   { 
-       cout << "Odd" << endl;
-   };
-   return 0;
+    cout <<x%2<<endl; 
+    return 0;
 }  
 ```
 
-### 3.8 分割线
+**常用codetype**
+
+|codetype   |Language  |
+|:---------:|:--------|
+|python     | python language|
+|cpp        | C++ language|
+|c          | C language|
+|json       | json content|
+|dos        | DOS commands and programming|
+|bash       | bash commands programming|
+|shell      | Shell programming|
+
+
+### 3.8 段落
+
+通过在文本行之间留一个空白行，可创建新段落
+
+### 3.9 分割线
 
 分割线用三个 --- 号，例如：
 
      ---
-     >到这里，**Markdown**的基本语法就可以满足*日常*大部分文档要求了。
+     * 到这里，**Markdown**的基本语法就可以满足***日常***大部分文档要求了。
 
 ---
- >到这里，**Markdown**的基本语法就可以满足*日常*大部分文档要求了。
+* 到这里，**Markdown**的基本语法就可以满足**日常**大部分文档要求了。
 
-### 3.9 换行
 
-在Markdown中输入 **回车键**的文本内容换行，显示中 **起不到换行作用**。
+### 3.10 Markdown增强
 
-如果需要显示换行，需要的位置换行输入`<br/>·
+Markdown格式没有统一标准，有多种增强格式，让你拥有飘逸的Markdown写作体验
+
+[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)是一款为 Visual Studio Code 编辑器编写的超级强大的 Markdown 插件。
 
 如：
 
+LaTex数学公式:$\color{blue}{y = ax^2 + bx + c}$
+
+表情符号 :smile:  :car:
+
+标志：==marked==
+
+HTML: <font color=red>Test</font> , <span style="color:green;font-weight:700;font-size:20px">color font styles</span>
+
+文本描述图形
+```flow
+start=>start: 开始
+respondSuccess=>operation: 运行分析
+end=>end: 结束
+
+start->respondSuccess->end
 ```
-在Markdown中输入 **回车键**的文本内容换行，显示中 **起不到换行作用**。<br/>
-如果需要显示换行，需要的位置换行输入`<br/>·
-```
-
-在markdown中输入回车键进行换行，预览中起不到换行或者空行的作用。<br/>
-如果需要换行，在需要的位置输入`<br/>`
-
-### 3.10 段落
-
-在Markdown中,如果这两行文字之间有 `空行` 代表这两行文字为两个 `段落`。
-
-如果这两行文字之间没有空行,仅仅换行,代表这两行文字是属于同一个段落。
-
-## 参考
-
-* [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
-
 

@@ -34,8 +34,6 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
 
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
 
-  * Alan Dennis, Barbara Haley Wixom, David Tegarden. Systems Analysis and Design An Object-Oriented Approach with UML. Wiley,2015
-
   * 孟庆昌等. Linux教程(第5版). 电子工业出版社. 2019年6月
 
   * Yunus A. Cengel, Michael A. Boles, Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill.2015

@@ -79,16 +79,16 @@ It was initially designed and developed by Linus Torvalds, in 2005, to support t
 Every git user should first introduce himself to git, by running these two commands:
 
 ```bash
->git config --global user.name  yourname
->git config --global user.email youremail
+git config --global user.name  yourname
+git config --global user.email youremail
 ```
 
 ## 2  使用Git对本地项目进行版本控制
 
 ### 2.1  初始化本地项目的Git版本控制
 
-```bash
->git init
+```shell
+git init
 ```
 
 ### 2.2 提交工作内容到Git仓库
@@ -96,7 +96,7 @@ Every git user should first introduce himself to git, by running these two comma
 #### 2.2.1 工作区内容提交到缓存区
 
 ```bash
->git add .
+git add .
 ```
 
 注意： add命令后面是：`空格` 加一个 `.`
@@ -104,7 +104,7 @@ Every git user should first introduce himself to git, by running these two comma
 #### 2.2.2 存入缓存区的内容提交至本地仓库
 
 ```bash
->git commit -m “your desc of the commit"
+git commit -m “your desc of the commit"
 ```
    ![Git](./img/git-local.jpg)
 
@@ -119,7 +119,7 @@ Every git user should first introduce himself to git, by running these two comma
 在本地Git仓库所在目录下打开的终端中执行：
 
 ```bash
->git remote add origin https://gitee.com/your-username/your-reponame.git   
+git remote add origin https://gitee.com/your-username/your-reponame.git   
 ```
 
 > `origin`: 指向远程仓库的`标签（名字）`
@@ -129,7 +129,7 @@ Every git user should first introduce himself to git, by running these two comma
 在本地Git仓库所在目录下打开的终端中执行：
 
 ```bash
->git push -u origin master
+git push -u origin master
 ```
 
 > master: 在git仓库中创建的第一个branch
@@ -141,19 +141,19 @@ Every git user should first introduce himself to git, by running these two comma
 ### 4.1 本地工作内容变化提交到暂存区
 
 ```bash
->git add .
+git add .
 ```
 
 ### 4.2 存入暂存区内容提交至本地仓库
 
 ```bash
->git commit -m “your desc of the commit"
+git commit -m “your desc of the commit"
 ```
 
 ### 4.3 本地仓库推送到远程git仓库
 
 ```bash
->git push
+git push
 ```
 
 ### 4.4 Git本地和远程仓库操作过程图 
@@ -165,12 +165,14 @@ Every git user should first introduce himself to git, by running these two comma
 本地全局存储持久化远程Git账号，解决每次链接到git远程仓库都必须输入用户名和密码登陆的问题
 
 Windows下
+
 ```bash
->git config --global credential.helper wincred
+git config --global credential.helper wincred
 ```
+
 Linux:
-```
-$git config --global credential.helper 'store --file ~/.mygit-credentials'
+```bash
+git config --global credential.helper 'store --file ~/.mygit-credentials'
 ```
 
 ## 6 创建分支
@@ -180,29 +182,29 @@ $git config --global credential.helper 'store --file ~/.mygit-credentials'
 ### 6.1 本地新建分支 
 
 ```bash
->git branch branch1 
+git branch branch1 
 ```
 
 ### 6.2 切换分支
 
 ```bash
->git checkout branch1
+git checkout branch1
 ```
 
 ### 6.3 新分支发布到远程Git仓库
 
 ```bash
->git push origin branch1 
+git push origin branch1 
 ```
 
 ## 7 删除分支 
 
-设删除分支：betaBranch1
+设删除分支：branch1
 
 ### 7.1 删除本地分支 
 
 ```bash
->git branch -d branch1 
+git branch -d branch1 
 ```
 
 ### 7.2 删除远程Git仓库中的分支
@@ -216,10 +218,10 @@ git push origin –delete branch1
 ### 8.1 克隆远程仓库到本地
 
 ```bash
-git clone repository
+git clone url_repository
 ```
 
-```
+```bash
 git clone https://gitee.com/thermalogic/SEES.git
 ```
 
@@ -240,7 +242,7 @@ git pull
 在使用git的项目目录中打开终端，执行
 
 ```bash
->git gui
+git gui
 ```
 
 ## 参考：
