@@ -72,10 +72,10 @@ The Course graded on the 100 point scale and then weighted according to the foll
 
 >We **recommend** that you use [git](https://git-scm.com/) to clone and update the repository
 >
->**Cloning the B2022 branch of repository shallowly for saving bandwidth**
+>**Cloning the B2023 branch of repository shallowly for saving bandwidth**
 >
 >```bash
->git clone --depth 1 -b B2022 https://github.com/thermalogic/SEES.git
+>git clone --depth 1 -b B2023 https://github.com/thermalogic/SEES.git
 >```
 >**Updating to The Latest Version**
 >
