@@ -63,7 +63,6 @@ It was initially designed and developed by Linus Torvalds, in 2005, to support t
 
 **初始环境**:一个没有使用版本控制的本地目录
 
-
 **NOTE**: 所有Git命令都须在用Git进行版本控制项目的目录下，打开的终端中执行
 
 * open the terminal from the project directory, then run the git command.
@@ -177,40 +176,40 @@ git config --global credential.helper 'store --file ~/.mygit-credentials'
 
 ## 6 创建分支
 
-设创建分支：branch1
+设创建分支：dev1
 
 ### 6.1 本地新建分支 
 
 ```bash
-git branch branch1 
+git branch dev1 
 ```
 
 ### 6.2 切换分支
 
 ```bash
-git checkout branch1
+git checkout dev1
 ```
 
 ### 6.3 新分支发布到远程Git仓库
 
 ```bash
-git push origin branch1 
+git push origin dev1 
 ```
 
 ## 7 删除分支 
 
-设删除分支：branch1
+设删除分支：dev1
 
 ### 7.1 删除本地分支 
 
 ```bash
-git branch -d branch1 
+git branch -d dev1 
 ```
 
 ### 7.2 删除远程Git仓库中的分支
 
 ```bash
-git push origin –delete branch1 
+git push origin –delete dev1 
 ```
 
 ## 8 使用远程仓库
