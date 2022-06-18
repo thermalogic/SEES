@@ -3,7 +3,7 @@
 
 * [Install Software for the course](./doc/InstallSoftware.md)
 
-  * [Install and Use Software](./doc/InstallUseSoftware.md)
+  * [Install and Using Software](./doc/InstallUseSoftware.md)
 
 * [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
@@ -11,7 +11,7 @@
 
 * [Install WSL](./doc/GuideWSL(Chinese).md) 
 
-* [The Software for Programming C/C++ and  Python on Debian](./doc/softwares_debian.md)
+   * [The Software for Programming C/C++ and  Python on Debian](./doc/softwares_debian.md)
 
 * [问题及解决方法](./doc/Problem_Solution.md)
 
@@ -27,9 +27,9 @@ To create the suitable working directory for the course
 
 
 ```
-CourseSE
+<SE>
  │
- ├──CourseWare
+ ├── coursewares
  │    │
  │    ├── SEES
  │    │      
@@ -37,7 +37,7 @@ CourseSE
  │    │
  │    |── Practices
  │        
- ├──YourPractices
+ ├── practices
  │   │ 
  │   |── P1
  │   │ 
@@ -45,10 +45,10 @@ CourseSE
  │   │ 
  │   |── P3
  │   
- ├──Softwares
+ ├── softwares
  │
- ├──ebooks
+ ├── ebooks
  │
- ├──others
+ ├── others
  │
 ``` 
