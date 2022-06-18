@@ -39,11 +39,11 @@ To create the suitable working directory for the course
  │        
  ├── practices
  │   │ 
- │   |── P1
+ │   |──学号-姓名-1 
  │   │ 
- │   |── P2
+ │   |──学号-姓名-2
  │   │ 
- │   |── P3
+ │   |──学号-姓名-3
  │   
  ├── softwares
  │
