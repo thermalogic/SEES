@@ -44,7 +44,6 @@ It was initially designed and developed by Linus Torvalds, in 2005, to support t
     - [4.3 本地仓库推送到远程git仓库](#43-本地仓库推送到远程git仓库)
     - [4.4 Git本地和远程仓库操作过程图](#44-git本地和远程仓库操作过程图)
     - [4.5 查询文件提交历史和恢复老版本](#45-查询文件提交历史和恢复老版本)
-  - [5 持久化远程Git账号](#5-持久化远程git账号)
   - [6 创建分支](#6-创建分支)
     - [6.1 本地新建分支](#61-本地新建分支)
     - [6.2 切换分支](#62-切换分支)
@@ -147,7 +146,7 @@ git add .
 ### 4.2 存入暂存区内容提交至本地仓库
 
 ```bash
-git commit -m “your desc of the commit"
+git commit -m "the meaasge of the commit"
 ```
 
 ### 4.3 本地仓库推送到远程git仓库
@@ -169,25 +168,30 @@ git log --patch filename
 ```
 
 ```
-commit 57d01fb5a107ae71ef027ce6ce566aa9fae297e9
-Author: thermalogic <cmh@seu.edu.cn>
+commit 57d01fb5a107ae71ef027ce6ce566aa9fae297e9 # unique ID of the commit
+Author: username <email>
 Date:   Fri Jun 17 14:38:15 2022 +0800
 
-    B2023
+   the message of the commit
 
-diff --git a/README.md b/README.md
+diff --git a/filename b/filename
 ```
 
 type **q** to exit the log screen
 
-回退指定文件到某次提交<unique ID of last commit>
+回退指定文件到某次提交 `<unique ID of the commit>`
 
 ```
-git checkout <unique ID of last commit> filename
+git checkout `<unique ID of the commit>` filename
 ``
 
 ```
 git checkout 57d01fb5a107ae71ef027ce6ce566aa9fae297e9 README.md
+``
+or 
+
+```
+git checkout 57d01fb5a README.md
 ``
 
 ## 5 持久化远程Git账号
