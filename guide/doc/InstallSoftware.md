@@ -26,18 +26,17 @@
 
 Goto [the official Python site](https://www.python.org/downloads/) to download the suitable version of Python.
 
->**注意**：最新版Python解释器会存在软件包兼容性问题，所以，建议安装稍旧版本的解释器，如：Python 3.8.7
+In the example ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
 
-In the example ,we use [Python 3.8.7 for Windows x86-64](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)  
-
-*  Make sure you **check** option **Add Python 3.8 to PATH**
+* Firstly, make sure you **check** option **Add Python 3.10 to PATH**
 
   ![Python3-install-path](./img/python38-install-path.jpg) 
+
+>**注意**：最新版Python解释器可能会存在软件包兼容性问题，这时建议安装稍旧版本的解释器
 
 ### A.2 Install Package using pip
 
 #### A.2.1 set the faster mirror index site of PyPi
-
 
 ```shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
@@ -63,9 +62,22 @@ python -m pip install numpy scipy matplotlib
 python -m pip install  coolprop 
 ``` 
 
+if failed ,try
+```shell
+pip install -i https://test.pypi.org/simple/ CoolProp==6.4.2.dev0
+```
+
 ```shell 
 python -m pip install  phyprops 
 ``` 
+
+```shell
+python -m pip install  psutil pypistats   
+```
+
+```shell
+python -m pip install PyQt5  
+```
 
 ## B: Install Jupyter Notebook
 

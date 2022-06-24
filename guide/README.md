@@ -3,7 +3,7 @@
 
 * [Install Software for the course](./doc/InstallSoftware.md)
 
-  * [Install and Using Software](./doc/InstallUseSoftware.md)
+  * [Using Software](./doc/UseSoftware.md)
 
 * [Introduction to Markdown](./doc/Introduction2Markdown(Chinese).md) 
 
