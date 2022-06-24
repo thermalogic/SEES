@@ -26,7 +26,7 @@
 
 Goto [the official Python site](https://www.python.org/downloads/) to download the suitable version of Python.
 
-In the example ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
+In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
 
 * Firstly, make sure you **check** option **Add Python 3.10 to PATH**
 
