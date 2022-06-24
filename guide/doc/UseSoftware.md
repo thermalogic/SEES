@@ -1,10 +1,16 @@
 
-# Use Software
+# Using Software
 
 <!-- TOC -->
 
-- [Use Software](#use-software)
-  - [A The Python Packages](#a-the-python-packages)
+- [Using Software](#using-software)
+  - [A：The Python Packages](#athe-python-packages)
+    - [A.1 Install](#a1-install)
+    - [A.2 Upgrading](#a2-upgrading)
+    - [A.3 Install from an alternate index site](#a3-install-from-an-alternate-index-site)
+    - [A.4 uninstall](#a4-uninstall)
+    - [A.5 set one alternate index site as the default site](#a5-set-one-alternate-index-site-as-the-default-site)
+    - [A.6 Show help for commands](#a6-show-help-for-commands)
   - [B:Jupyter Notebook](#bjupyter-notebook)
     - [B.1 Start-up Jupyter Notebook](#b1-start-up-jupyter-notebook)
     - [B.2 Literate programming your Jupyter Notebook in the `specific working folder`](#b2-literate-programming-your-jupyter-notebook-in-the-specific-working-folder)
@@ -22,7 +28,7 @@
   - [References](#references)
 
 <!-- /TOC -->
-## A The Python Packages
+## A：The Python Packages
 
 The Python Package Index(PyPI) is a repository of software for the Python programming language.: https://pypi.org/
 
@@ -36,7 +42,7 @@ pip is a command line program which can be run from the command prompt as follow
 python  -m pip <pip arguments>
 ```
 
-**A.1 Install** 
+### A.1 Install 
 
 The most common scenario is to install from PyPI
 
@@ -63,7 +69,7 @@ for example:
 python -m pip install  autopep8 pylint 
 ```
 
-**A.2 Upgrading**
+### A.2 Upgrading
 
 Normally, if a suitable module is already installed, attempting to install it again will have no effect. Upgrading existing modules must be requested **explicitly**:
 
@@ -77,7 +83,7 @@ for example:
 python -m pip install  -U coolprop 
 ```
 
-**A.3 Install from an alternate index**
+### A.3 Install from an alternate index site
 
 ```bash
 >python -m pip install SomePackage  -i  the-url-of-an-alternate-index
@@ -89,22 +95,22 @@ for example:
 python -m pip install -i https://test.pypi.org/simple/ CoolProp==6.4.2.dev0
 ```
 
-**A.4 set one alternate index site as the default site**
-
-```bash
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-**A.2.5 uninstall**  
+### A.4 uninstall  
 
 ```bash
 python -m pip uninstall packagename  
 ```
 
-**A.6 Show help for commands**
+### A.5 set one alternate index site as the default site
 
 ```bash
->pip  help  
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+### A.6 Show help for commands
+
+```bash
+pip  help  
 ```
 
 ## B:Jupyter Notebook
