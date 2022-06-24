@@ -15,37 +15,3 @@
 
 * [问题及解决方法](./doc/Problem_Solution.md)
 
-## The working directory for the course
-
-To create the suitable working directory for the course
-
-1. create your working directory on a **non-System** disk under Windows. e.g: **D:**
-
-2. The directory(path) or file name **without** `spaces`  
-
-```
-<SE>
- │
- ├── coursewares
- │    │
- │    ├── SEES
- │    │      
- │    ├── SimVCCE
- │    │
- │    |── Practices
- │        
- ├── practices
- │   │ 
- │   |──学号-姓名-1 
- │   │ 
- │   |──学号-姓名-2
- │   │ 
- │   |──学号-姓名-3
- │   
- ├── softwares
- │
- ├── ebooks
- │
- ├── others
- │
-``` 
