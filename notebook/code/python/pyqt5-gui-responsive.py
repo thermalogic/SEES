@@ -43,14 +43,14 @@ class Example(QMainWindow):
 
     def io_worker(self):
         """IO thread's worker function"""
-        sender = self.sender()
-        self.statusBar().showMessage(sender.text() + ' was pressed') 
         while True:
             self.value=get_data()
             self.label_1.setText(f"CPU(%): {self.value}")   
             time.sleep(2)
      
     def button2Clicked(self):
+        sender = self.sender()
+        self.statusBar().showMessage(sender.text() + ' was pressed') 
         # Threading IO
         self.t = threading.Thread(target=self.io_worker)
         self.t.start()

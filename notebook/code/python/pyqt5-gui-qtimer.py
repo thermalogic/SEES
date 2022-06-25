@@ -10,7 +10,7 @@ class Widget(QtWidgets.QWidget):
         super(Widget, self).__init__(parent)
         self.setWindowTitle('CPU Percent Monitor')
         self.button = QtWidgets.QPushButton(
-            text="Press the Button to Start",
+            text="Monitoring Off, Press the Button to Start",
             checkable=True)
         self.button.clicked.connect(self.monitoring)
 
