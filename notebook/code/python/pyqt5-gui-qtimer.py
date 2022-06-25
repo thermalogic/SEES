@@ -12,7 +12,7 @@ class Widget(QtWidgets.QWidget):
         self._interval =interval
         self._timewindow = timewindow
    
-        self.setWindowTitle('CPU Percent Monitor')
+        self.setWindowTitle('CPU Utilization as a Percentage')
         self.button = QtWidgets.QPushButton(
             text="Monitoring Off, Press the Button to Start",
             checkable=True)
@@ -29,7 +29,7 @@ class Widget(QtWidgets.QWidget):
         self.graphWidget.setBackground('w')
         # Add Title
         self.graphWidget.setTitle(
-            "CPU Percent Live Data", color="b", size="15pt")
+            "The Live Data of CPU Utilization as a Percentage ", color="b", size="15pt")
         # Add Axis Labels
         styles = {"color": "black", "font-size": "15px"}
         self.graphWidget.setLabel("left", "CPU(%)", **styles)
@@ -37,7 +37,7 @@ class Widget(QtWidgets.QWidget):
         axis = pg.DateAxisItem(orientation='bottom')
         self.graphWidget.setAxisItems({"bottom": axis})
         self.graphWidget.setLabel(
-        "bottom", f"Time(s) - interval:{self._interval}s timewindow:{self._timewindow}s", **styles)
+        "bottom", f"Time (interval:{self._interval}s timewindow:{self._timewindow}s)", **styles)
 
         # Add legend
         self.graphWidget.addLegend()
@@ -70,7 +70,7 @@ class Widget(QtWidgets.QWidget):
         if (self.i==0.0):
             curtime = time.time()
             self.graphWidget.setXRange(
-               curtime, curtime+self._timewindow, padding=0)
+                curtime, curtime+self._timewindow, padding=0)
 
         if self.i < self._timewindow:
             self.x.append(time.time())  # Add a new value
