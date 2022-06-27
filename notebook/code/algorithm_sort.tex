@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\title{Sorting Algorithms}
+\author{Cheng Maohua}
+\date{June 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Selection sort}
+
+The selection sort algorithm sorts an array by repeatedly finding the \textbf{minimum} element (considering ascending order) from \textbf{unsorted} part and putting it at the \textbf{beginning}. 
+
+The algorithm maintains two \textbf{sub-arrays} in a given array.
+\begin{enumerate}
+\item The sub-array which is already sorted
+\item Remaining sub-array which is unsorted
+\end{enumerate}
+
+In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted sub-array is picked and moved to the sorted sub-array.
+
+\subsection{Pseudocode} 
+
+\begin{algorithm}
+    \caption{Selection Sort}
+    \begin{algorithmic}[1]
+        \Function{Selection-Sort}{$Array$}
+        \For{$i = 1 \to Array.length()$}
+            \State $mini\gets i$   \Comment{assume the fist item is the smallest}
+            \For{$j = i+1 \to Array.length()$}  \Comment{[1, i] already sort}
+                \If{$Array[j]<Array[mini]$}
+                    \State $mini \gets j$
+                \EndIf
+            \EndFor
+            \If {$mini \ne i$}
+                \State $swap \quad Array[i]\leftrightarrow Array[mini]$ \Comment{swap the  minimum item with  the first item  Array[i]  }
+            \EndIf        
+        \EndFor
+        \EndFunction
+    \end{algorithmic}
+\end{algorithm}
+
+\section{Merge Sort}
+
+\subsection{Merge}
+
+The merge idea is to look at the first element of each list, and move the smaller of the two to the end of the result list. When one of the lists is empty,copy the remaining items from the other list to the result list. This will be the sorted list.
+
+\subsection{Merge Sort}
+
+Like many divide-and-conquer algorithms it is most easily described recursively: 
+\begin{enumerate}
+\item  If the list is of length $0$ or $1$, it is already sorted.
+\item  If the list has more than one element, split the list into two lists, and use merge sort to sort each of them.
+\item  Merge the results
+\end{enumerate}
+
+It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves
+
+\subsection{Complexity of merge sort} 
+
+\begin{itemize}
+    \item Time complexity: $O(n*log(n))$
+    \item Space complexity: $O(n)$
+\end{itemize}
+where $n$ is $length(Array)$
+
+\subsection{Pseudocode} 
+
+\begin{algorithm}
+        \caption{Merge Sort}
+        \begin{algorithmic}[1] 
+            \Function{Merger}{$Array, left, middle, right$}
+                \State $i\gets left$
+                \State $j\gets middle+1$
+                \State $k\gets 0$
+                \State \Comment{1 comparing the values of items,look at the first item of each list, and move the smaller of the two to the end of the result list}
+                \While{$i \le middle$ \textbf{and} $j \le right$}
+                    \If{$Array[i] \le Array[j]$}
+                        \State $W[k++]\gets Array[i++]$
+                    \Else
+                        \State $W[k++] \gets Array[j++]$
+                    \EndIf
+                \EndWhile
+                \State \Comment{2 Copy the remaining left or right into work}
+                \While{$i \le middle$} 
+                    \State $W[k++] \gets Array[i++]$
+                \EndWhile
+                \While{$j \le right$}
+                    \State $W[k++] \gets Array[j++]$
+                \EndWhile
+                \State \Comment{3 Copy the work back to the original array}
+                \For{$i = 0 \to k-1$}
+                    \State $Array[left + i] \gets W[i]$
+                \EndFor
+            \EndFunction
+            
+            \State
+            \Function {Merger-Sort}{$Array, left, right$}
+                \If {$(right-left) \ge 1$} \Comment{more than 1 items, divide into left and right half}
+                    \State $middle \gets (left + right)/2$
+                    \State \Comment{Recursively sort each half}
+                    \State \Call{Merger-Sort}{$Array, left, middle$}
+                    \State \Call{Merger-Sort}{$Array, middle, right$}
+                    \State \Comment{Merge two halves}
+                    \State \Call{Merger}{$Array,left,middle,right$}
+                \EndIf
+            \EndFunction
+       
+        \end{algorithmic}
+\end{algorithm}
+
+\end{document}

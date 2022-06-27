@@ -4,7 +4,6 @@ from codecs import decode
 class  clientcpu:
 
     def __init__(self, host="localhost", port=5000):
-        
         self.host =host
         self.port =port
         self.client_socket = socket(AF_INET, SOCK_STREAM)  # get instance

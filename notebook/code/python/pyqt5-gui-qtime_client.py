@@ -1,7 +1,6 @@
 from PyQt5 import QtWidgets, QtCore
 import pyqtgraph as pg
 import sys
-import psutil
 import time
 from echo_client_cpu_class import *
 
@@ -59,7 +58,7 @@ class Widget(QtWidgets.QWidget):
         self.timer.timeout.connect(self.update_plot_data)
         self.monitoring_on = False
         # client
-        self.client = clientcpu()
+        self.client = clientcpu(host="localhost", port=5000)
         self.client.connect()
         self.setWindowTitle(f'CPU Utilization as a Percentage (Server Host: {self.client.host} Port: {self.client.port})')
 
@@ -100,7 +99,7 @@ class Widget(QtWidgets.QWidget):
         else:
             self.timer.stop()
             self.monitoring_on = False
-            self.button.setText("Monitoring Off, Press the Button Start")
+            self.button.setText("Monitoring Off, Press the Button to Start")
 
     def closeEvent(self, event):
         self.client.disconnect()
