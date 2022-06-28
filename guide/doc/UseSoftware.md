@@ -20,7 +20,6 @@
   - [D:Visual Studio Code](#dvisual-studio-code)
     - [D.1 Getting Started with Python in VS Code](#d1-getting-started-with-python-in-vs-code)
     - [D.2 Getting Started with C/C++ in VS Code](#d2-getting-started-with-cc-in-vs-code)
-    - [D.3 Disable Precompiled header caching](#d3-disable-precompiled-header-caching)
   - [E: Using Git with  thermalogic/SEES](#e-using-git-with--thermalogicsees)
       - [E.1 Clone the thermalogic/SEES to your computer](#e1-clone-the-thermalogicsees-to-your-computer)
       - [E.2 Updating to The Latest Version](#e2-updating-to-the-latest-version)
@@ -208,14 +207,6 @@ It's simple to run Python source code file. `Right-click` in the editor and sele
 
    ![vscode-gcc](./img/vscode-gcc.jpg)
 
-### D.3 Disable Precompiled header caching
-
-The defualt Intelli Sense Cache Size is 5120 MB. 
-
-set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
-
- ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
-
 ## E: Using Git with  thermalogic/SEES 
 
 We **recommend** that you use [git](https://git-scm.com) to handle everything in the course: the repositories of thermalogic,your projects,etc. 
@@ -247,7 +238,7 @@ If you change the contents of SEES, you may  `checkout` to discard all changes
 ```
 
 >You may also use any **Git GUI client** to clone, update and checkout this repository
-> * For example:  [Visual Studio Code](https://code.visualstudio.com/) ,or [GitHub Desktop](https://desktop.github.com/)
+> * For example:  [Visual Studio Code](https://code.visualstudio.com/)
 
 ## References
 
