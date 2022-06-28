@@ -76,7 +76,7 @@ python -m pip install  psutil pypistats
 ```
 
 ```shell
-python -m pip install PyQt5  
+python -m pip install pyqt6  
 ```
 
 ## B: Install Jupyter Notebook

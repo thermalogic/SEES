@@ -1,24 +1,24 @@
-from PyQt5 import QtWidgets, QtCore
+from PyQt6 import QtWidgets, QtCore
 import pyqtgraph as pg
 import sys
-import psutil
-import time 
+import time
+from echo_client_cpu_class import *
+
 
 class Widget(QtWidgets.QWidget):
 
     def __init__(self, interval=2.0, timewindow=50):
         """ interval,timewindow:seconds"""
         super(Widget, self).__init__()
-        self._interval =interval
+        self._interval = interval
         self._timewindow = timewindow
-   
-        self.setWindowTitle('CPU Utilization as a Percentage')
+
         self.button = QtWidgets.QPushButton(
             text="Monitoring Off, Press the Button to Start",
             checkable=True)
         self.button.clicked.connect(self.monitoring)
 
-        vlay = QtWidgets.QVBoxLayout(self) #  vertically arranged widgets
+        vlay = QtWidgets.QVBoxLayout(self)  # vertically arranged widgets
         vlay.addWidget(self.button)
 
         self.graphWidget = pg.PlotWidget()
@@ -31,11 +31,11 @@ class Widget(QtWidgets.QWidget):
         # Add Axis Labels
         styles = {"color": "black", "font-size": "15px"}
         self.graphWidget.setLabel("left", "CPU(%)", **styles)
-        
+
         axis = pg.DateAxisItem(orientation='bottom')
         self.graphWidget.setAxisItems({"bottom": axis})
         self.graphWidget.setLabel(
-        "bottom", f"Time (interval:{self._interval}s timewindow:{self._timewindow}s)", **styles)
+            "bottom", f"Time (interval:{self._interval}s timewindow:{self._timewindow}s)", **styles)
 
         # Add legend
         self.graphWidget.addLegend()
@@ -48,7 +48,7 @@ class Widget(QtWidgets.QWidget):
         curtime = time.time()
         self.graphWidget.setXRange(
             curtime, curtime+self._timewindow, padding=0)
-        
+
         self.x = []
         self.cpu = []
         self.data_line = self.plot([], [], "CPU(%)", 'b')
@@ -57,6 +57,11 @@ class Widget(QtWidgets.QWidget):
         self.timer.setInterval(int(self._interval*1000))
         self.timer.timeout.connect(self.update_plot_data)
         self.monitoring_on = False
+        # client
+        self.client = clientcpu(host="localhost", port=5000)
+        self.client.connect()
+        self.setWindowTitle(f'CPU Utilization as a Percentage (Server Host: {self.client.host} Port: {self.client.port})')
+
 
     def plot(self, x, y, plotname, color):
         pen = pg.mkPen(color=color)
@@ -64,11 +69,11 @@ class Widget(QtWidgets.QWidget):
                                      symbol='o', symbolSize=5, symbolBrush=(color))
 
     def update_plot_data(self):
-        cpu_percent = psutil.cpu_percent()
-        if (self.i==0.0):
+        cpu_percent = self.client.receive_data()
+        if (self.i == 0.0):
             curtime = time.time()
             self.graphWidget.setXRange(
-               curtime, curtime+self._timewindow, padding=0)
+                    curtime, curtime+self._timewindow, padding=0)
 
         if self.i < self._timewindow:
             self.x.append(time.time())  # Add a new value
@@ -82,7 +87,7 @@ class Widget(QtWidgets.QWidget):
             del self.x[0]
             del self.cpu[0]
             self.graphWidget.setXRange(
-                curtime-self._timewindow, curtime, padding=0)
+                    curtime-self._timewindow, curtime, padding=0)
 
         self.data_line.setData(self.x, self.cpu)  # Update the data.
 
@@ -94,11 +99,13 @@ class Widget(QtWidgets.QWidget):
         else:
             self.timer.stop()
             self.monitoring_on = False
-            self.button.setText("Monitoring Off, Press the Button Start")
+            self.button.setText("Monitoring Off, Press the Button to Start")
 
-
+    def closeEvent(self, event):
+        self.client.disconnect()
+    
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     w = Widget(interval=0.5, timewindow=25.0)
     w.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

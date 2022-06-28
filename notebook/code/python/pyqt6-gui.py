@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QMainWindow, QPushButton,  QLabel,QApplication
+from PyQt6.QtWidgets import QMainWindow, QPushButton,  QLabel,QApplication
 
 class Example(QMainWindow):
     
@@ -37,4 +37,4 @@ class Example(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
