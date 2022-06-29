@@ -62,11 +62,6 @@ python -m pip install numpy scipy matplotlib
 python -m pip install  coolprop 
 ``` 
 
-if failed ,try
-```shell
-pip install -i https://test.pypi.org/simple/ CoolProp==6.4.2.dev0
-```
-
 ```shell 
 python -m pip install  phyprops 
 ``` 
@@ -76,7 +71,7 @@ python -m pip install  psutil pypistats
 ```
 
 ```shell
-python -m pip install pyqt6  
+python -m pip install PyQt6  
 ```
 
 ## B: Install Jupyter Notebook
