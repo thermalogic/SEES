@@ -59,13 +59,16 @@ python -m pip install numpy scipy matplotlib
 ``` 
 
 ```shell 
+python -m pip install prettytable
+```
+
+```shell 
 python -m pip install  coolprop 
 ``` 
 
 ```shell 
 python -m pip install  phyprops 
-``` 
-
+```
 ```shell
 python -m pip install  psutil pypistats   
 ```
