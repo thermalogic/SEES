@@ -127,6 +127,8 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 * **vscode-pdf**
 
+* **Rainbow CSV**
+
 Open VS Code, then **search** the name of extension, then click **Install** button.
 
 For example:
