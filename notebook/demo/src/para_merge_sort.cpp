@@ -8,91 +8,61 @@
 #include <string>
 #include <cstring>
 #include<algorithm>
+
+#include "merge_sort.h"
+
+
 using namespace std;
 
 atomic<int> CPU(8); //Maximum number of threads
 
-void Merge(int a[], int l, int mid,int r, int b[])
-{
-    int p = l, p1 = l, p2 = mid + 1;
-    while (p1 <= mid && p2 <= r)
-        b[p++] = a[p1] < a[p2] ? a[p1++] : a[p2++];
-    while (p1 <= mid)
-        b[p++] = a[p1++];
-    while (p2 <= r)
-        b[p++] = a[p2++];
-    for (int i = l; i <= r; i++)
-        a[i] = b[i];
-}
-
-void MergeSort(int a[], int l, int r, int b[])
-{
-    if (l >= r)
-        return;
-    int mid = (l + r) / 2;
-    MergeSort(a, l, mid, b);
-    MergeSort(a, mid + 1, r, b);
-    Merge(a, l,mid,r, b);
-}
-
-void Merge_Sort(int a[], int size)
-{
-    int *b;
-    b = (int *)malloc(sizeof(int) * size);
-    MergeSort(a, 0, size - 1, b);
-    CPU--;
-    free(b);
-}
-
-void ParallelMergeSort(int a[], int l, int r, int b[])
+void parallel_merge_sort_range(int a[], int l, int r, int b[])
 {
     int minparallelsize =1000;
     //int minparallelsize =10;
     if (l >= r)
         return;
-
     int mid = (l + r) / 2;
 
     thread LeftThread;
     thread RightThread;
-
     if (CPU > 0 && (r-l)>minparallelsize )
     {
         //cout <<"Left Thread "<<CPU <<endl;
         CPU--;
-        LeftThread = thread(ParallelMergeSort, a, l, mid, b);
+        LeftThread = thread(parallel_merge_sort_range, a, l, mid, b);
     }
     else
     {
         //cout <<"Left "<<CPU <<endl;
-        MergeSort(a, l, mid, b);
+        merge_sort_range(a, l, mid, b);
     }   
    
     if (CPU > 0 &&(r-l)>minparallelsize)
     {
         //cout <<"Right Thread "<<CPU <<endl;
         CPU--;
-        RightThread = thread(ParallelMergeSort, a, mid + 1, r, b);
+        RightThread = thread(parallel_merge_sort_range, a, mid + 1, r, b);
     }
     else
     {
         //cout <<"Right "<<CPU <<endl;
-        MergeSort(a, mid + 1, r, b);
+        merge_sort_range(a, mid + 1, r, b);
     }   
     if (LeftThread.joinable())
         LeftThread.join();
     if (RightThread.joinable())
         RightThread.join();
-    Merge(a, l, mid,r, b);
+    merge(a, l, mid,r, b);
     CPU++;
     //cout <<"After Merge "<<CPU <<endl;
 }
 
-void ParallelMerge_Sort(int a[], int size)
+void parallel_merge_sort(int a[], int size)
 {
     int *b;
     b = (int *)malloc(sizeof(int) * size);
-    ParallelMergeSort(a, 0, size - 1, b);
+    parallel_merge_sort_range(a, 0, size - 1, b);
     free(b);
 }
 
@@ -130,11 +100,11 @@ int main()
 
     // Merge Sort
     memcpy(a, v, sizeof(int) * size);
-    sortingtimes("Merge Sort",Merge_Sort,a,size);
+    sortingtimes("Merge Sort",merge_sort,a,size);
 
     // Parallel Merge Sort
     memcpy(a, v, sizeof(int) * size);
-    sortingtimes("Parallel Merge Sort",ParallelMerge_Sort,a,size);
+    sortingtimes("Parallel Merge Sort",parallel_merge_sort,a,size);
     
     // std::sort
     memcpy(a, v, sizeof(int) * size);
@@ -149,3 +119,4 @@ int main()
     free(a);
     free(v);
 }
+
