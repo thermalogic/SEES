@@ -50,9 +50,6 @@ python -m pip install -U pip
 
 #### A.2.3 Install  Packages
 
-```shell
-python -m pip install autopep8 pylint
-```
 
 ```shell 
 python -m pip install numpy scipy matplotlib
@@ -71,10 +68,6 @@ python -m pip install  phyprops
 ```
 ```shell
 python -m pip install  psutil pypistats   
-```
-
-```shell
-python -m pip install PyQt6  
 ```
 
 ## B: Install Jupyter Notebook

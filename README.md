@@ -12,10 +12,6 @@ We will cover:
 * testing and version control with [Git](https://git-scm.com/) 
 * introduction to [Linux](https://www.ubuntu.com/)
 
-[Practices](https://github.com/thermalogic/Practices/) are the very important part of the course. 
-
-**行是知之始，知是行之成 - 陶行知**
-
 After completing the course, We wish you have a broad spectrum of computer knowledge, is a good programmer in the context of using computation to solve complex problems and keep pace with the latest developments in computer technology.
 
 If you have concerns about the course, please email(cmh@seu.edu.cn) to me 
@@ -33,8 +29,6 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
     * [Author's Website with Code and Errata](https://github.com/guttag/Intro-to-Computation-and-Programming)
 
     * 陈光欣译. Python编程导论(第2版). 人民邮电出版社. 2018年2月1日
-
-  * 孟庆昌等. Linux教程(第5版). 电子工业出版社. 2019年6月
 
   * Yunus A. Cengel, Michael A. Boles, Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill.2015
  
@@ -55,8 +49,10 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
 The Course graded on the 100 point scale and then weighted according to the following distribution:
 
 * In-class Exercises: 5
-* [Practices:30](https://github.com/thermalogic/Practices/)
+* [Practices:30](https://github.com/thermalogic/Practices/) are the very important part of the course. 
 * Final Exam: 65
+
+**行是知之始，知是行之成 - 陶行知**
 
 ## Using the Notebooks of thermalogic/SEES 
 

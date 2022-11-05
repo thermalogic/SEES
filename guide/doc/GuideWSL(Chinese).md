@@ -1,18 +1,46 @@
 # Windows Linux子系统(WSL)安装及开发环境建立
 
-[安装WSL](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+## 安装WSL
 
-[设置 WSL 开发环境](https://docs.microsoft.com/zh-cn/windows/wsl/setup/environment)
+* https://learn.microsoft.com/zh-cn/windows/wsl/install
 
-[安装Visual Studio Code Remote插件](https://code.visualstudio.com/docs/remote/wsl)
+1. 安装WSL
 
-   *  在Ubuntu终端执行
+**管理员** PowerShell 命令提示符中输入命令
+
+```bash
+wsl --install
+```
+
+然后, **重启计算机**来安装运行适用于 Linux 的 Windows 子系统 (WSL) 所需的全部内容。
+
+![wsl](./img/wsl/wsl.jpg)
+
+2. 通过 Microsoft Store安装Ubuntu分发版
+
+![ubuntu](./img/wsl/ubuntu.jpg)
+
+3. 初始化Ubuntu分发版
  
-   ```bash
-   $code .
-   ```
 
-**安装开发软件**
+![ubuntu-account](./img/wsl/ubuntu-account.jpg)
+
+
+### Visual Studio Code中使用WSL
+
+1. [安装Visual Studio Code Remote插件](https://code.visualstudio.com/docs/remote/wsl)
+
+2. 运行VS　Code
+
+在ubuntu终端执行
+ 
+ ```bash
+   $code .
+ ```
+
+![code](./img/wsl/code.jpg)
+
+### 安装Ubuntu分发版开发软件
 
 在Ubuntu终端执行
 
