@@ -21,7 +21,7 @@ wsl --install
 
 2. 初始化Ubuntu分发版
 
- 建立账户：姓名、口令
+ 建立账户：用户名、口令
  
 ![ubuntu-account](./img/wsl/ubuntu-account.jpg)
 
