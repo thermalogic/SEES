@@ -34,7 +34,7 @@ wsl --install
 在ubuntu终端执行
  
  ```bash
-   $code .
+ $code .
  ```
 
 ![code](./img/wsl/code.jpg)
@@ -49,6 +49,8 @@ $sudo apt install python3-pip
 $sudo apt install python-is-python3
 $sudo apt install git
 ```
+
+![ubuntu-install](./img/wsl/ubuntu-install.jpg)
 
 **参考链接**
 
