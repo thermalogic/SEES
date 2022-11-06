@@ -11,20 +11,19 @@
 ```bash
 wsl --install
 ```
+![wsl](./img/wsl/wsl.jpg)
 
 然后, **重启计算机**来安装运行适用于 Linux 的 Windows 子系统 (WSL) 所需的全部内容。
 
-![wsl](./img/wsl/wsl.jpg)
-
-2. 通过 Microsoft Store安装Ubuntu分发版
+如果`wsl --install`安装Ubuntu很慢，可以通过Microsoft Store安装Ubuntu分发版
 
 ![ubuntu](./img/wsl/ubuntu.jpg)
 
-3. 初始化Ubuntu分发版
+2. 初始化Ubuntu分发版
+
+ 建立账户：姓名、口令
  
-
 ![ubuntu-account](./img/wsl/ubuntu-account.jpg)
-
 
 ### Visual Studio Code中使用WSL
 
