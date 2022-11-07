@@ -28,7 +28,7 @@ Goto [the official Python site](https://www.python.org/downloads/) to download t
 
 In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
 
-* Firstly, make sure you **check** option **Add Python 3.10 to PATH**
+* make sure you **check** option **Add Python 3.10 to PATH**
 
   ![Python3-install-path](./img/python38-install-path.jpg) 
 
@@ -36,11 +36,15 @@ In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/
 
 ### A.2 Install Package using pip
 
+Run the commands in a **Windows Command Prompt or PowerShell** to  install packages using pip
+
 #### A.2.1 set the faster mirror index site of PyPi
 
 ```shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+![global.index-url](./img/pip-mirror.jpg) 
 
 #### A.2.2 update pip to the most recent version
 
@@ -49,7 +53,6 @@ python -m pip install -U pip
 ```
 
 #### A.2.3 Install  Packages
-
 
 ```shell 
 python -m pip install numpy scipy matplotlib
@@ -66,6 +69,7 @@ python -m pip install  coolprop
 ```shell 
 python -m pip install  phyprops 
 ```
+
 ```shell
 python -m pip install  psutil pypistats   
 ```
