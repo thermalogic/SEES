@@ -30,10 +30,9 @@ Goto [the official Python site](https://www.python.org/downloads/) to download t
 
 In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
 
-* make sure you **check** option **Add Python 3.10 to PATH**
+* Make sure you **check** option **Add Python 3.10 to PATH**
 
   ![Python3-install-path](./img/python38-install-path.jpg) 
-
 
 ### A.2 Install Package using pip
 
