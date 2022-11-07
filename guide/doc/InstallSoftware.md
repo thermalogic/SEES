@@ -36,7 +36,7 @@ In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/
 
 ### A.2 Install Package using pip
 
-Run the commands in a **Windows Command Prompt or PowerShell** to  install packages using pip
+Run the commands in a **`Windows Command Prompt`** or **`PowerShell`** to  install packages using pip
 
 #### A.2.1 set the faster mirror index site of PyPi
 
