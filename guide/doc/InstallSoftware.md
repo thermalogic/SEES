@@ -132,7 +132,6 @@ For example:
 
   ![vscode-ext-python](./img/vscode-ext-python.jpg)
 
-
 ## E: Install Git for Windows
 
 Download Git for Windows: https://git-scm.com/ ,then install

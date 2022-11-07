@@ -20,7 +20,7 @@ If you have concerns about the course, please email(cmh@seu.edu.cn) to me
 
 * A laptop **computer** will be needed in the classroom.
 
-* **Softwares** : Python, GCC, Git, VS Code and WSL/Ubuntu etc.
+* [Softwares](./guide/doc/InstallSoftware.md) : Python, GCC, Git, VS Code and WSL/Ubuntu etc.
    
 * **Reference Textbooks**
 
