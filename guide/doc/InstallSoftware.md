@@ -26,13 +26,14 @@
 
 Goto [the official Python site](https://www.python.org/downloads/) to download the suitable version of Python.
 
+>**注意**：最新版Python解释器可能会存在软件包兼容性问题，这时建议安装稍旧版本的解释器
+
 In the course ,we use [Python 3.10.5 for Windows x86-64](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe)  
 
 * make sure you **check** option **Add Python 3.10 to PATH**
 
   ![Python3-install-path](./img/python38-install-path.jpg) 
 
->**注意**：最新版Python解释器可能会存在软件包兼容性问题，这时建议安装稍旧版本的解释器
 
 ### A.2 Install Package using pip
 
