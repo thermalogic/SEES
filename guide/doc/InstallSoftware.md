@@ -122,9 +122,9 @@ After the install, **copy**  `.\bin\mingw32-make.exe` to  `.\bin\make.exe`
 
 * [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
 
-* **vscode-pdf**
+* [vscode-pdf](https://github.com/tomoki1207/vscode-pdfviewer)
 
-* **Rainbow CSV**
+* [Rainbow CSV](https://github.com/mechatroner/vscode_rainbow_csv)
 
 Open VS Code, then **search** the name of extension, then click **Install** button.
 
